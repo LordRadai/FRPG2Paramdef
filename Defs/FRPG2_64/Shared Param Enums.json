@@ -488,7 +488,7 @@
         {
           "Description": "",
           "ID": "4",
-          "Name": "Installation valet synchronization"
+          "Name": "Instantiation bullet synchronization"
         }
       ]
     },
@@ -1200,7 +1200,7 @@
         {
           "Description": "",
           "ID": "1",
-          "Name": "Kojiro Phantom"
+          "Name": "Small White Phantom"
         },
         {
           "Description": "",
@@ -12711,8 +12711,8 @@
         },
         {
           "Description": "",
-          "ID": "Play go door",
-          "Name": "43"
+          "ID": "43",
+          "Name": "Play go door"
         }
       ]
     },
