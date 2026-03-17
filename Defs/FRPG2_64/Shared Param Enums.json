@@ -18086,7 +18086,7 @@
         {
           "Description": "",
           "ID": "1",
-          "Name": "Duplicate permission"
+          "Name": "Duplicate"
         },
         {
           "Description": "",
@@ -18123,12 +18123,12 @@
         {
           "Description": "",
           "ID": "19",
-          "Name": "Auxiliary-Jihad"
+          "Name": "Support - Jihad"
         },
         {
           "Description": "",
           "ID": "20",
-          "Name": "Equipment - feet"
+          "Name": "Equipment - Feet"
         },
         {
           "Description": "",
@@ -18143,7 +18143,7 @@
         {
           "Description": "",
           "ID": "23",
-          "Name": "Equipment-Head"
+          "Name": "Equipment - Head"
         },
         {
           "Description": "",
@@ -18178,7 +18178,7 @@
         {
           "Description": "",
           "ID": "30",
-          "Name": "Status Abnormality - Spell Seal"
+          "Name": "Abnormal status - Spell Seal"
         },
         {
           "Description": "",
