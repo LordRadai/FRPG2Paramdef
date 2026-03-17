@@ -2528,12 +2528,12 @@
         {
           "Description": "",
           "ID": "1",
-          "Name": "The one who was eaten"
+          "Name": "Target"
         },
         {
           "Description": "",
           "ID": "2",
-          "Name": "The one who gave"
+          "Name": "Owner"
         },
         {
           "Description": "",
