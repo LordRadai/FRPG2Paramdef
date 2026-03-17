@@ -18118,7 +18118,7 @@
         {
           "Description": "",
           "ID": "18",
-          "Name": "Abnormal status - poison"
+          "Name": "Abnormal status - Poison"
         },
         {
           "Description": "",
@@ -18148,7 +18148,7 @@
         {
           "Description": "",
           "ID": "24",
-          "Name": "Abnormal status - deadly poison"
+          "Name": "Abnormal status - Toxicity"
         },
         {
           "Description": "",
@@ -18158,27 +18158,27 @@
         {
           "Description": "",
           "ID": "26",
-          "Name": "Equipment - left weapon"
+          "Name": "Equipment - Left weapon"
         },
         {
           "Description": "",
           "ID": "27",
-          "Name": "Equipment - right weapon"
+          "Name": "Equipment - Right weapon"
         },
         {
           "Description": "",
           "ID": "28",
-          "Name": "Both legs"
+          "Name": "Both Legs"
         },
         {
           "Description": "",
           "ID": "29",
-          "Name": "Abnormal status - wet"
+          "Name": "Abnormal Status - Wet"
         },
         {
           "Description": "",
           "ID": "30",
-          "Name": "Abnormal status - Spell Seal"
+          "Name": "Abnormal Status - Spell seal"
         },
         {
           "Description": "",
@@ -18193,7 +18193,7 @@
         {
           "Description": "",
           "ID": "254",
-          "Name": "Not set"
+          "Name": "None"
         }
       ]
     },
