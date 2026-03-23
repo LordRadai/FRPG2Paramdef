@@ -123,11 +123,10 @@ def split(src: Path, def_dst: Path, meta_dst: Path, enum_config: dict | None = N
         if "=" in def_attr:
             clean_def = def_attr.split("=", 1)[0].strip()
 
-        # Strip C-style bitfield width suffix from the name token (e.g. "u8 physical:1" -> "u8 physical")
-        if ":" in clean_def:
-            parts = clean_def.split()
-            parts[-1] = parts[-1].split(":")[0]
-            clean_def = " ".join(parts)
+        # Drop dummy8 bitfield entries entirely (e.g. "dummy8 someName:1")
+        def_tokens = clean_def.split()
+        if len(def_tokens) >= 2 and def_tokens[0] == "dummy8" and ":" in def_tokens[-1]:
+            continue
 
         # PARAMDEF entry (self-closing, default stripped)
         # dummy8 fields must always have an array size; add [1] if missing
@@ -136,6 +135,12 @@ def split(src: Path, def_dst: Path, meta_dst: Path, enum_config: dict | None = N
             def_tokens[-1] += "[1]"
             clean_def = " ".join(def_tokens)
         ET.SubElement(def_fields, "Field", {"Def": clean_def})
+
+        # Strip C-style bitfield width suffix for meta only (e.g. "physical:1" -> "physical")
+        if ":" in clean_def:
+            parts = clean_def.split()
+            parts[-1] = parts[-1].split(":")[0]
+            clean_def = " ".join(parts)
 
         # PARAMMETA entry
         # Tag name is always the field name (last token of the clean def, array suffix removed).
@@ -188,18 +193,14 @@ def split(src: Path, def_dst: Path, meta_dst: Path, enum_config: dict | None = N
 # -- CLI -----------------------------------------------------------------------
 
 def file_stem(src: Path) -> str:
-    """Filename without extension, also strips .paramdef / .parammeta double-extensions."""
-    s = src.stem
-    for suffix in (".paramdef", ".parammeta"):
-        if s.endswith(suffix):
-            s = s[: -len(suffix)]
-    return s
+    """Filename without extension."""
+    return src.stem
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(
         description=(
-            "Split PARAMDEF XML file(s) into def and meta files.\n\n"
+            "Split PARAMDEF XML file(s) into .paramdef.xml and .parammeta.xml files.\n\n"
             "Single file:\n"
             "  python split_paramdef.py input.xml --def ./defs --meta ./meta\n\n"
             "With enum-to-refs config:\n"
@@ -212,11 +213,11 @@ def main() -> None:
     parser.add_argument("input", help="Source file or directory")
     parser.add_argument(
         "--def", dest="def_out", required=True,
-        help="Output folder for def files",
+        help="Output folder for .paramdef.xml files",
     )
     parser.add_argument(
         "--meta", dest="meta_out", required=True,
-        help="Output folder for meta files",
+        help="Output folder for .parammeta.xml files",
     )
     parser.add_argument(
         "--dir", action="store_true",

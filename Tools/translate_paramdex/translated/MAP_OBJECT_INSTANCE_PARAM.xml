@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>MAP_OBJECT_INSTANCE_PARAM</ParamType>
+    <DataVersion>7</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="u32 objCtrlId">
+            <DisplayName>《OBJ control ID》</DisplayName>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>70</SortID>
+        </Field>
+        <Field Def="u32 bulletId0">
+            <DisplayName>《Bullet ID slot 0》</DisplayName>
+            <Maximum>1e+09</Maximum>
+            <SortID>1200</SortID>
+        </Field>
+        <Field Def="u32 damageId0">
+            <DisplayName>《Damage ID slot 0》</DisplayName>
+            <Maximum>1e+09</Maximum>
+            <SortID>1210</SortID>
+        </Field>
+        <Field Def="f32 touchRegionScale = 1">
+            <DisplayName>《Touch area scale》</DisplayName>
+            <Maximum>10</Maximum>
+            <SortID>1240</SortID>
+        </Field>
+        <Field Def="f32 movableRange = -1">
+            <DisplayName>《Movable distance》</DisplayName>
+            <Minimum>-1</Minimum>
+            <Maximum>9999</Maximum>
+            <Increment>1</Increment>
+            <SortID>1250</SortID>
+        </Field>
+        <Field Def="u32 objType">
+            <DisplayName>《OBJ type》</DisplayName>
+            <Enum>OBJ_TYPE_ENUM</Enum>
+            <Maximum>999999</Maximum>
+            <Increment>1</Increment>
+            <SortID>40</SortID>
+        </Field>
+        <Field Def="u8 objCtrlType">
+            <DisplayName>《OBJ control type》</DisplayName>
+            <Enum>OBJ_CTRL_TYPE_ENUM</Enum>
+            <SortID>60</SortID>
+        </Field>
+        <Field Def="u8 objLabbel">
+            <DisplayName>"label"</DisplayName>
+            <Enum>OBJ_LABBEL_ENUM</Enum>
+            <SortID>61</SortID>
+        </Field>
+        <Field Def="u8 usableWhite:1">
+            <DisplayName>《White spirit can be used》</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <Increment>1</Increment>
+            <SortID>1300</SortID>
+        </Field>
+        <Field Def="u8 usableSmallWhite:1">
+            <DisplayName>《Half-spirit can be used》</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <SortID>1301</SortID>
+        </Field>
+        <Field Def="u8 usableDragon:1">
+            <DisplayName>《Dragon spirit can be used》</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <SortID>1302</SortID>
+        </Field>
+        <Field Def="u8 usableCoopBlue:1">
+            <DisplayName>《Relief Blue Spirit can be used》</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <SortID>1303</SortID>
+        </Field>
+        <Field Def="u8 usableVersusBlue:1">
+            <DisplayName>《Retributive Blue Spirit can be used》</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <SortID>1304</SortID>
+        </Field>
+        <Field Def="u8 usableBlack:1">
+            <DisplayName>《Dark spirit usable》</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <SortID>1305</SortID>
+        </Field>
+        <Field Def="u8 usableBellGuard:1">
+            <DisplayName>《Bell Keeper Ash Spirit can be used》</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <SortID>1306</SortID>
+        </Field>
+        <Field Def="u8 usableRatKing:1">
+            <DisplayName>《Mouse King Ash Spirit usable》</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <SortID>1307</SortID>
+        </Field>
+        <Field Def="u8 usableMirrorKnight:1">
+            <DisplayName>《Mirror Knight Spirit Usable》</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <SortID>1308</SortID>
+        </Field>
+        <Field Def="u8 usableNoneVow:1">
+            <DisplayName>《Can be used without a pledge》</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <SortID>1309</SortID>
+        </Field>
+        <Field Def="u8 usableSunlightVow:1">
+            <DisplayName>《Sun Warrior available》</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <SortID>1310</SortID>
+        </Field>
+        <Field Def="u8 usableGuardianVow:1">
+            <DisplayName>《Guardian Knight available》</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <SortID>1311</SortID>
+        </Field>
+        <Field Def="u8 usableBloodVow:1">
+            <DisplayName>《Blood Dark Spirit can be used》</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <SortID>1312</SortID>
+        </Field>
+        <Field Def="u8 usableBlueVow:1">
+            <DisplayName>《Blue teaching available》</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <SortID>1313</SortID>
+        </Field>
+        <Field Def="u8 usableRatKingVow:1">
+            <DisplayName>《Mouse King available》</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <SortID>1314</SortID>
+        </Field>
+        <Field Def="u8 usableBellGuardVow:1">
+            <DisplayName>《Bellkeeper available》</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <SortID>1315</SortID>
+        </Field>
+        <Field Def="u8 usableDragonVow:1">
+            <DisplayName>《Path to the Ancient Dragon can be used》</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <SortID>1316</SortID>
+        </Field>
+        <Field Def="u8 usableStrongerVow:1">
+            <DisplayName>《Can be used by strong people》</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <SortID>1317</SortID>
+        </Field>
+        <Field Def="u8 usableAbyssVow:1">
+            <DisplayName>《Can be used as Pilgrimage of the Abyss》</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <SortID>1318</SortID>
+        </Field>
+        <Field Def="u8 usableEnemy:1">
+            <DisplayName>《Available for enemy use》</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <Increment>1</Increment>
+            <SortID>1420</SortID>
+        </Field>
+        <Field Def="u8 onlyEventCanBreak:1">
+            <DisplayName>《Can only be destroyed in an event》</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <Maximum>1</Maximum>
+            <SortID>1260</SortID>
+        </Field>
+        <Field Def="u8 useAltSfx:1">
+            <DisplayName>《SFX switching》</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <SortID>41</SortID>
+        </Field>
+        <Field Def="dummy8 dummy1:2">
+            <DisplayName>dummy</DisplayName>
+            <SortID>2001</SortID>
+        </Field>
+        <Field Def="u8 breakObjMakeStateId">
+            <DisplayName>《Break object generation state》</DisplayName>
+            <Maximum>255</Maximum>
+            <SortID>31</SortID>
+        </Field>
+        <Field Def="s8 resetType">
+            <DisplayName>Reset type</DisplayName>
+            <Enum>OBJ_RESET_TYPE_ENUM</Enum>
+            <SortID>1500</SortID>
+        </Field>
+        <Field Def="u8 tmpBreakObjMakeStateId">
+            <DisplayName>《(Lively) Break object generation state》</DisplayName>
+            <Maximum>255</Maximum>
+            <SortID>30</SortID>
+        </Field>
+        <Field Def="s8 iblTextureId = -1">
+            <DisplayName>Environment map texture ID</DisplayName>
+            <Minimum>-1</Minimum>
+            <Maximum>99</Maximum>
+            <Increment>1</Increment>
+            <SortID>2000</SortID>
+        </Field>
+        <Field Def="dummy8 dummy2[3]">
+            <DisplayName>dummy</DisplayName>
+            <SortID>2002</SortID>
+        </Field>
+        <Field Def="u32 itemLotId">
+            <DisplayName>First week item lottery ID</DisplayName>
+            <Maximum>1e+08</Maximum>
+            <Increment>1</Increment>
+            <SortID>1510</SortID>
+        </Field>
+    </Fields>
+</PARAMDEF>
