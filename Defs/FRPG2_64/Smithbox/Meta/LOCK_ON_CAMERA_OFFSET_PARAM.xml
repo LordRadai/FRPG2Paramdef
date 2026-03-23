@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <time AltName="Lock-on camera correction completion time" />
+        <fovY AltName="Angle of view (deg)" />
+        <targetOffsetX AltName="Reference point (X axis) Offset (m)" />
+        <targetOffsetY AltName="Reference point (Y axis) Offset (m)" />
+        <targetOffsetZ AltName="Reference point (Z axis) Offset (m)" />
+        <distance AltName="Camera distance target [m]" />
+        <targetChaseRateAtLockXZ AltName="Target tracking rate while locked (0.0 to 1.0)" />
+        <targetChaseRateAtLockY AltName="Target tracking rate while locked (0.0 to 1.0)" />
+        <targetChaseRateMinAngAtLock AltName="Target tracking rate minimum angle while locked [deg]" />
+        <targetChaseRateMaxAngAtLock AltName="Maximum angle of target tracking rate while locked [deg]" />
+        <rotRangeMinXAtLock AltName="Minimum value of X-axis rotation while locked [deg]" />
+        <rotRangeMaxXAtLock AltName="Maximum value of X-axis rotation while locked [deg]" />
+        <rotRangeLerpBeginHeight AltName="Locked X-axis rotation interpolation start height [m]" />
+        <rotRangeLerpEndHeight AltName="Locked X-axis rotation interpolation end height [m]" />
+        <lockRotChaseRate AltName="Lock rotation tracking rate (0.0 to 1.0)" />
+        <lockRotChasePlayAng AltName="Lock rotation tracking play angle [deg]" />
+        <lockRotXShiftRatio AltName="Lock x rotation shift rate (0.0 to 1.0)" />
+    </Field>
+</PARAMMETA>

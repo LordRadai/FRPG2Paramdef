@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PARAMMETA XmlVersion="0">
-    <Field>
-        <newMoon AltName="Is there a new moon event going on?" IsBool="true" />
-        <multiPlayEvent AltName="Is there a multiplayer event going on?" IsBool="true" />
-        <itemPresentEventId AltName="Item distribution treasure chest event generation ID" />
-        <dummy AltName="dummy" Padding="true" />
-    </Field>
-</PARAMMETA>

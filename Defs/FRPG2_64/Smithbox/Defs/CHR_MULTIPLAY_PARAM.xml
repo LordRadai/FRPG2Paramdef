@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>CHR_MULTIPLAY_PARAM</ParamType>
+    <DataVersion>2</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="u16 oneClientHpPercent" />
+        <Field Def="u16 oneClientHpDamagePercent" />
+        <Field Def="u16 oneClientAilmentDamagePercent" />
+        <Field Def="u16 oneClientStaminaDamagePercent" />
+        <Field Def="u16 oneClientPoiseDamagePercent" />
+        <Field Def="u16 oneClientStunDamagePercent" />
+        <Field Def="u16 twoClientsHpPercent" />
+        <Field Def="u16 twoClientsHpDamagePercent" />
+        <Field Def="u16 twoClientsAilmentDamagePercent" />
+        <Field Def="u16 twoClientsStaminaDamagePercent" />
+        <Field Def="u16 twoClientsPoiseDamagePercent" />
+        <Field Def="u16 twoClientsStunDamagePercent" />
+        <Field Def="u16 threeClientsHpPercent" />
+        <Field Def="u16 threeClientsHpDamagePercent" />
+        <Field Def="u16 threeClientsAilmentDamagePercent" />
+        <Field Def="u16 threeClientsStaminaDamagePercent" />
+        <Field Def="u16 threeClientsPoiseDamagePercent" />
+        <Field Def="u16 threeClientsStunDamagePercent" />
+    </Fields>
+</PARAMDEF>

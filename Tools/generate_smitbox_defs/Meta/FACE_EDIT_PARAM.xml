@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <minValue AltName="Minimum fluctuation value" />
+        <maxValue AltName="Maximum fluctuation value" />
+        <faceParamType AltName="FaceGenParam name" />
+        <faceParamCategory AltName="Category" Enum="CHR_EDIT_FACE_PARAM_CATEGORY" />
+        <montageUsed AltName="Use montage" />
+        <menuReverse AltName="Menu reversal operation" />
+        <dummy AltName="Dummy" Padding="true" />
+    </Field>
+    <Enums>
+        <Enum Name="CHR_EDIT_FACE_PARAM_CATEGORY" type="u8">
+            <Option Value="0" Name="Whole face" />
+            <Option Value="1" Name="Face shape" />
+            <Option Value="2" Name="Eyebrows" />
+            <Option Value="3" Name="Eye" />
+            <Option Value="4" Name="Nose" />
+            <Option Value="5" Name="Mouth" />
+            <Option Value="6" Name="Chin" />
+            <Option Value="7" Name="Beard" />
+            <Option Value="8" Name="None" />
+        </Enum>
+    </Enums>
+</PARAMMETA>

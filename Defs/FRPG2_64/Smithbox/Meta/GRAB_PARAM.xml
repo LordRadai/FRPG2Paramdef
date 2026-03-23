@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <grabAttackDumyPolyId AltName="Throwing side Damipoly ID" />
+        <grabAttackRotationType AltName="Throwing side rotation setting" Enum="GRAB_ROTATION_TYPE" />
+        <grabAttackRHandDumyPolyId AltName="Throwing side: Right hand IK Damipoly ID" />
+        <grabAttackLHandDumyPolyId AltName="Throwing side left hand IK dummy poly ID" />
+        <grabAttackRRegDumyPolyId AltName="Throwing side right foot IK damipoly ID" />
+        <grabAttackLRegDumyPolyId AltName="Throwing side left foot IK damipoly ID" />
+        <grabDefenseDumyPolyId AltName="Throwing side Damipoly ID" />
+        <grabDefenseRotationType AltName="Thrown side rotation setting" Enum="GRAB_ROTATION_TYPE" />
+        <grabDefenseRHandDumyPolyId AltName="Thrown side right hand IK dummy poly ID" />
+        <grabDefenseLHandDumyPolyId AltName="Thrown side left hand IK dummy poly ID" />
+        <grabDefenseRRegDumyPolyId AltName="Thrown side right foot IK dummy poly ID" />
+        <grabDefenseLRegDumyPolyId AltName="Throwing side left foot IK damipoly ID" />
+        <grabAttachType AltName="Throwing position adsorption setting" Enum="GRAB_ATTACH_TYPE" />
+        <grabAttachFollow AltName="Throwing adsorption tracking setting" IsBool="true" />
+        <dummy2 AltName="Dummy" Padding="true" />
+        <grabDirAttachType AltName="Throwing suction setting" Enum="GRAB_ATTACH_TYPE" />
+        <dummy1 AltName="Dummy" Padding="true" />
+        <grabDirReversal AltName="Throw direction reversal enable setting" IsBool="true" />
+        <grabPosOffsetX AltName="Throwing position offset" />
+        <grabPosOffsetZ AltName="Throwing position offset Z" />
+        <grabBreakHp AltName="Throwing break HP" />
+        <grabCameraId AltName="Throwing camera ID" />
+        <grabCastType AltName="Casting standards" Enum="GRAB_CAST_TYPE" />
+        <dummy3 AltName="Dummy" Padding="true" />
+        <grabRadius AltName="Cast radius" />
+        <grabHeight AltName="Cast height" />
+        <grabLength AltName="Cast length" />
+        <grabOffsetX AltName="Cast offset position" />
+        <grabOffsetY AltName="Cast offset position Y" />
+        <grabOffsetZ AltName="Cast offset position Z" />
+        <grabSideAngle AltName="Throwing permission left and right angle" />
+        <grabUpAngle AltName="Upper throwing angle" />
+        <grabDownAngle AltName="Throwing permission lower angle" />
+        <dummy4 AltName="Dummy" Padding="true" />
+        <grabAngleDiff AltName="Grab angle maximum difference" />
+    </Field>
+    <Enums>
+        <Enum Name="GRAB_ROTATION_TYPE" type="u32">
+            <Option Value="0" Name="None" />
+            <Option Value="1" Name="Back" />
+            <Option Value="2" Name="Front" />
+        </Enum>
+        <Enum Name="GRAB_ATTACH_TYPE" type="u32">
+            <Option Value="0" Name="Thrower" />
+            <Option Value="1" Name="The side that was thrown" />
+            <Option Value="2" Name="None" />
+        </Enum>
+        <Enum Name="GRAB_CAST_TYPE" type="u8">
+            <Option Value="0" Name="Thrower" />
+            <Option Value="1" Name="The side that was thrown" />
+            <Option Value="2" Name="None" />
+        </Enum>
+    </Enums>
+</PARAMMETA>

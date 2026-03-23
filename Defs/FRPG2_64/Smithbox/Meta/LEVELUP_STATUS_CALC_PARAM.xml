@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <maxHp AltName="Maximum HP (≒ upper limit of recovery)" IsBool="true" />
+        <maxStamina AltName="Maximum stamina" IsBool="true" />
+        <maxLoadWeight AltName="Maximum equipment load" IsBool="true" />
+        <spellSlotCount AltName="Number of spell slots" IsBool="true" />
+        <spellChantingSpeed AltName="Spell casting speed" IsBool="true" />
+        <powerPhysicalByStrength AltName="Attack power Strength" IsBool="true" />
+        <powerPhysicalByDexterity AltName="Attack power skill" IsBool="true" />
+        <powerMagic AltName="Magic attack power" IsBool="true" />
+        <powerFire AltName="Flame attack power" IsBool="true" />
+        <powerThunder AltName="Lightning attack power" IsBool="true" />
+        <powerDark AltName="Dark attack power" IsBool="true" />
+        <powerPoison AltName="Poison attack power" IsBool="true" />
+        <powerBleed AltName="Bleeding attack power" IsBool="true" />
+        <defense AltName="Defense power" IsBool="true" />
+        <resistanceMagic AltName="Magic resistance" IsBool="true" />
+        <resistanceFire AltName="Flame resistance" IsBool="true" />
+        <resistanceThunder AltName="Lightning resistance" IsBool="true" />
+        <resistanceDark AltName="Dark resistance" IsBool="true" />
+        <resistancePoison AltName="Poison resistance" IsBool="true" />
+        <resistanceBleed AltName="Bleeding resistance" IsBool="true" />
+        <resistancePetrify AltName="Petrification resistance" IsBool="true" />
+        <resistanceCurse AltName="Curse resistance" IsBool="true" />
+        <actionSpeed AltName="Agile" IsBool="true" />
+        <fortitude AltName="Toughness" IsBool="true" />
+        <primaryLeftHand AltName="Left hand first weapon" IsBool="true" />
+        <secondaryLeftHand AltName="Left hand second weapon" IsBool="true" />
+        <thirdlyLeftHand AltName="Left hand third weapon" IsBool="true" />
+        <primaryRightHand AltName="Right hand first weapon" IsBool="true" />
+        <secondaryRightHand AltName="Right hand second weapon" IsBool="true" />
+        <thirdlyRightHan AltName="Right hand third weapon" IsBool="true" />
+        <defenseStrike AltName="Against blows" IsBool="true" />
+        <defenseSlash AltName="Anti-slash" IsBool="true" />
+        <defenseThrust AltName="Anti-piercing" IsBool="true" />
+        <defensePoise AltName="Toughness" IsBool="true" />
+        <dummy01 AltName="Dummy 1" Padding="true" />
+    </Field>
+</PARAMMETA>

@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <levelStatusValue AltName="Level status value" />
+        <spellSlot AltName="Spell slot" />
+        <spellUsesLevel AltName="Spell usage level" />
+        <hpMax AltName="Max HP" />
+        <staminaMax AltName="Stamina" />
+        <equipLoadMax AltName="Equipment weight [kg]" />
+        <physicalAttackByStrength AltName="Strength Physical attack power" />
+        <physicalAttackByDexterity AltName="Skill Physical attack power" />
+        <magicAttack AltName="Magic attack power" />
+        <flameAttack AltName="Flame attack power" />
+        <lightningAttack AltName="Lightning attack power" />
+        <darkAttack AltName="Darkness attack power" />
+        <weaponBreakAdditionalEffect AltName="Weapon destruction additional effect attack power" />
+        <bleedingAdditionalEffect AltName="Bleeding additional effect attack power" />
+        <poisonAdditionalEffect AltName="Poison additional effect attack power" />
+        <curseAdditionalEffect AltName="Curse additional effect attack power" />
+        <chantingTimeCorrectScale AltName="Cast time correction magnification" />
+        <criticalAttackCorrectScale AltName="Critical correction multiplier" />
+        <fluctuationCorrectScaleMin AltName="Fluctuation correction magnification minimum" />
+        <fluctuationCorrectScaleMax AltName="Fluctuation correction magnification maximum" />
+        <weaponBreakResistance AltName="Weapon destruction resistance value [%]" />
+        <bleedingResistance AltName="Bleeding resistance value [%]" />
+        <poisonResistance AltName="Poison resistance value [%]" />
+        <petrifactionResistance AltName="Petrification resistance value [%]" />
+        <curseResistance AltName="Curse resistance value [%]" />
+        <magicResistance AltName="Magic resistance [%]" />
+        <flameResistance AltName="Fire resistance [%]" />
+        <lightningResistance AltName="Lightning resistance [%]" />
+        <darkResistance AltName="Darkness resistance [%]" />
+        <stepInvincibleTimeRate AltName="Step invincibility time percentage [%]" />
+        <rollingInvincibleTimeRate AltName="Rolling invincibility time percentage [%]" />
+        <jumpInvincibleTimeRate AltName="Jump invincibility time percentage [%]" />
+        <changeEquipSpeedScale AltName="Equipment switching speed multiplier [x]" />
+        <useItemSpeedScale AltName="Item use speed multiplier [x]" />
+        <blockSpeedScale AltName="Guard stance speed multiplier [x]" />
+        <defense AltName="Defense power" />
+        <itemDropTicketCount AltName="Item drop ticket number denominator [tickets]" />
+        <misfireChestTrapTicketCount AltName="Treasure chest trap failure denominator of number of tickets [tickets]" />
+        <criticalTicketCount AltName="Critical ticket count denominator [tickets]" />
+        <additionalHp AltName="Additional maximum HP" />
+        <dummy1 AltName="Dummy" Padding="true" />
+        <physicalAttackByAbyss AltName="Abyss attack power" />
+        <poise AltName="Toughness" />
+    </Field>
+</PARAMMETA>

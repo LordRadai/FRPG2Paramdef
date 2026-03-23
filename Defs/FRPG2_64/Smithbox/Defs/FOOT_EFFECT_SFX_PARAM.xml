@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>FOOT_EFFECT_SFX_PARAM</ParamType>
+    <DataVersion>2</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>104</FormatVersion>
+    <Fields>
+        <Field Def="u32 none" />
+        <Field Def="u32 metal" />
+        <Field Def="u32 heavymetal" />
+        <Field Def="u32 wood" />
+        <Field Def="u32 water" />
+        <Field Def="u32 swamp" />
+        <Field Def="u32 lumber" />
+        <Field Def="u32 meat" />
+        <Field Def="u32 deadmeat" />
+        <Field Def="u32 insect" />
+        <Field Def="u32 giant" />
+        <Field Def="u32 bone" />
+        <Field Def="u32 copper" />
+        <Field Def="u32 energy" />
+        <Field Def="u32 fire" />
+        <Field Def="u32 thunder" />
+        <Field Def="u32 dark" />
+        <Field Def="u32 magic" />
+        <Field Def="u32 stone" />
+        <Field Def="u32 dirt" />
+        <Field Def="u32 carpet" />
+        <Field Def="u32 grass" />
+        <Field Def="u32 gravel" />
+        <Field Def="u32 cloth" />
+        <Field Def="u32 sand" />
+        <Field Def="u32 ash" />
+        <Field Def="u32 poisonswamp" />
+        <Field Def="u32 oil" />
+        <Field Def="u32 coaltar" />
+        <Field Def="u32 lava" />
+        <Field Def="u32 string" />
+        <Field Def="u32 sulfurcrystal" />
+        <Field Def="u32 footEffect33" />
+        <Field Def="u32 footEffect34" />
+        <Field Def="u32 footEffect35" />
+        <Field Def="u32 footEffect36" />
+        <Field Def="u32 footEffect37" />
+        <Field Def="u32 footEffect38" />
+        <Field Def="u32 footEffect39" />
+        <Field Def="u32 footEffect40" />
+        <Field Def="u32 footEffect41" />
+        <Field Def="u32 footEffect42" />
+        <Field Def="u32 footEffect43" />
+    </Fields>
+</PARAMDEF>

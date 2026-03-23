@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <saleItem AltName="Sales item ID" />
+        <price AltName="Sales price" />
+        <saleFlag AltName="Sales start flag" />
+        <saleEndFlag AltName="End of sale flag" />
+        <saleFlagItem AltName="Sales start condition items" />
+        <saleEndFlagItem AltName="Sale end condition items" />
+        <displayOrder AltName="Display order" />
+        <priceRate AltName="Price multiple" />
+        <unitSales AltName="Sales quantity" />
+        <padding AltName="Reservation" Padding="true" />
+    </Field>
+</PARAMMETA>

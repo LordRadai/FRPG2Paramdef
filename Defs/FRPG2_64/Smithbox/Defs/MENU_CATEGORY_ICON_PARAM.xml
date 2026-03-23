@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>MENU_CATEGORY_ICON_PARAM</ParamType>
+    <DataVersion>2</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="u8 bagSubscript" />
+        <Field Def="u8 cofferSubscript" />
+        <Field Def="u8 repositorySubscript" />
+        <Field Def="u8 shopSubscript" />
+        <Field Def="u8 inventory:1" />
+        <Field Def="u8 equipWeapon:1" />
+        <Field Def="u8 equipHelmet:1" />
+        <Field Def="u8 equipArmor:1" />
+        <Field Def="u8 equipGauntlet:1" />
+        <Field Def="u8 equipLeggings:1" />
+        <Field Def="u8 equipRing:1" />
+        <Field Def="u8 equipArrow:1" />
+        <Field Def="u8 equipItem:1" />
+        <Field Def="u8 equipSpell:1" />
+        <Field Def="u8 equipGesture:1" />
+        <Field Def="u8 repository:1" />
+        <Field Def="u8 shop:1" />
+        <Field Def="u8 equipWeaponArmor:1" />
+        <Field Def="dummy8 padding[2]" />
+    </Fields>
+</PARAMDEF>

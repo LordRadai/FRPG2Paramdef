@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <sfxId AltName="SFX ID" />
+        <dirType AltName="Generation direction" Enum="CHR_FULLBODY_SFX_DIR_TYPE" />
+        <traceType AltName="Maintain SFX direction" Enum="CHR_FULLBODY_SFX_TRACE_TYPE" />
+        <dummy0 AltName="Spare" Padding="true" />
+        <isDisableHead AltName="Head invalid" IsBool="true" />
+        <isDisableBody AltName="Body disabled" IsBool="true" />
+        <isDisableRArm AltName="Right arm disabled" IsBool="true" />
+        <isDisableLArm AltName="Left arm disabled" IsBool="true" />
+        <isDisableRHand AltName="Right hand disabled" IsBool="true" />
+        <isDisableLHand AltName="Left hand disabled" IsBool="true" />
+        <isDisableRLeg AltName="Right leg disabled" IsBool="true" />
+        <isDisableLLeg AltName="Left leg disabled" IsBool="true" />
+        <dummy1 AltName="Spare" Padding="true" />
+        <time AltName="Generation time" />
+        <seId AltName="SE ID" />
+    </Field>
+    <Enums>
+        <Enum Name="CHR_FULLBODY_SFX_DIR_TYPE" type="u8">
+            <Option Value="0" Name="Feet → head" />
+            <Option Value="1" Name="Overhead → feet" />
+            <Option Value="2" Name="Front → Back" />
+            <Option Value="3" Name="Back → Front" />
+        </Enum>
+        <Enum Name="CHR_FULLBODY_SFX_TRACE_TYPE" type="u8">
+            <Option Value="0" Name="Do" />
+            <Option Value="1" Name="Horizontal" />
+        </Enum>
+    </Enums>
+</PARAMMETA>

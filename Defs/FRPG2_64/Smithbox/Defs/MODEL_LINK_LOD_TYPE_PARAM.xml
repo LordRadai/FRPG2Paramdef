@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>MODEL_LINK_LOD_TYPE_PARAM</ParamType>
+    <DataVersion>1</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>104</FormatVersion>
+    <Fields>
+        <Field Def="u16 LodTypeParam_Lv1" />
+        <Field Def="u16 LodTypeParam_Lv2" />
+        <Field Def="u16 LodTypeParam_Lv3" />
+        <Field Def="u16 LodTypeParam_Lv4" />
+        <Field Def="u16 DrawDist" />
+        <Field Def="u16 ShadowCastDist" />
+        <Field Def="u16 BlurDist" />
+        <Field Def="dummy8 pading[8]" />
+    </Fields>
+</PARAMDEF>

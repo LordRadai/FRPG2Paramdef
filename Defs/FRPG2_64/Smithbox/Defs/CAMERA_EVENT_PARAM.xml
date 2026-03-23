@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>CAMERA_EVENT_PARAM</ParamType>
+    <DataVersion>1</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="u8 cameraType" />
+        <Field Def="u8 cameraBasePosType" />
+        <Field Def="dummy8 reserved[2]" />
+        <Field Def="angle32 fovY" />
+        <Field Def="f32 axisOffsetX" />
+        <Field Def="f32 axisOffsetY" />
+        <Field Def="f32 axisOffsetZ" />
+        <Field Def="f32 rayWidth" />
+        <Field Def="f32 hitCollision" />
+        <Field Def="f32 positionOffsetZ" />
+        <Field Def="f32 fulcrumRate" />
+        <Field Def="angle32 rotationX" />
+        <Field Def="angle32 rotationY" />
+        <Field Def="f32 startTransTime" />
+        <Field Def="f32 endTransTime" />
+        <Field Def="u8 startTransType" />
+        <Field Def="u8 endTransType" />
+        <Field Def="u8 enableYReverse" />
+        <Field Def="u8 enableZReverse" />
+        <Field Def="u8 keepXAngle" />
+        <Field Def="u8 addXAngleAxis" />
+        <Field Def="dummy8 reserved1[2]" />
+    </Fields>
+</PARAMDEF>

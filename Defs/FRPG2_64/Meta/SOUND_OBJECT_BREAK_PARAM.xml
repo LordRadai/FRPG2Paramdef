@@ -1,7 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PARAMMETA XmlVersion="0">
-    <Field>
-        <type AltName="kinds" ProjectEnum="SOUND_OBJECT_BREAK_TYPE" />
-        <aReserved AltName="reserved area" Padding="true" />
-    </Field>
-</PARAMMETA>

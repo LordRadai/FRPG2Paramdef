@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>MAP_TARGET_DIRECTION_PARAM</ParamType>
+    <DataVersion>1</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="f32 directionX" />
+        <Field Def="f32 directionY" />
+        <Field Def="f32 directionZ" />
+        <Field Def="f32 speedMin" />
+        <Field Def="f32 speedMax" />
+        <Field Def="f32 frequencyMin" />
+        <Field Def="f32 frequencyMax" />
+        <Field Def="f32 priority" />
+    </Fields>
+</PARAMDEF>

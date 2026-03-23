@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <standbyLowSfxId AltName="Ankle" />
+        <standbyMiddleSfxId AltName="Inseam" />
+        <standbyHighSfxId AltName="Waist" />
+        <lowSpeedLowSfxId AltName="Ankle" />
+        <lowSpeedMiddleSfxId AltName="Inseam" />
+        <lowSpeedHighSfxId AltName="Waist" />
+        <middleSpeedLowSfxId AltName="Ankle" />
+        <middleSpeedMiddleSfxId AltName="Inseam" />
+        <middleSpeedHighSfxId AltName="Waist" />
+        <highSpeedLowSfxId AltName="Ankle" />
+        <highSpeedMiddleSfxId AltName="Inseam" />
+        <highSpeedHighSfxId AltName="Waist" />
+        <stepLowSfxId AltName="Ankle" />
+        <stepSpeedMiddleSfxId AltName="Inseam" />
+        <stepSpeedHighSfxId AltName="Waist" />
+        <rollingLowSfxId AltName="Ankle" />
+        <rollingMiddleSfxId AltName="Inseam" />
+        <rollingHighSfxId AltName="Waist" />
+        <jumpLowSfxId AltName="Ankle" />
+        <jumpMiddleSfxId AltName="Inseam" />
+        <jumpHighSfxId AltName="Waist" />
+    </Field>
+</PARAMMETA>

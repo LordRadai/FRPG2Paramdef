@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>GENERATOR_LOCATION_PARAM</ParamType>
+    <DataVersion>1</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="f32 positionX" />
+        <Field Def="f32 positionY" />
+        <Field Def="f32 positionZ" />
+        <Field Def="f32 angleX" />
+        <Field Def="f32 angleY" />
+        <Field Def="f32 angleZ" />
+        <Field Def="dummy8 aReserved1[8]" />
+    </Fields>
+</PARAMDEF>

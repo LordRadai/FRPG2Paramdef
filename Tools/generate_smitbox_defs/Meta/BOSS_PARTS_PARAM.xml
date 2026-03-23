@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <hpCategory AltName="HP part number" Enum="BOSS_PARTS_TYPE" />
+        <damageAnimId AltName="Damage anime number" />
+        <reserved AltName="Dummy" Padding="true" />
+        <material AltName="Material" ProjectEnum="MATERIAL_TYPE_ENUM" />
+        <deffence AltName="Defense power" />
+    </Field>
+    <Enums>
+        <Enum Name="BOSS_PARTS_TYPE" type="u8">
+            <Option Value="0" Name="Main body" />
+            <Option Value="1" Name="Part 1" />
+            <Option Value="2" Name="Part 2" />
+            <Option Value="3" Name="Part 3" />
+            <Option Value="4" Name="Part 4" />
+        </Enum>
+    </Enums>
+</PARAMMETA>

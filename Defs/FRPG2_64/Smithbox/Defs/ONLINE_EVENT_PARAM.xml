@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>ONLINE_EVENT_PARAM</ParamType>
+    <DataVersion>4</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="u8 newMoon" />
+        <Field Def="u8 multiPlayEvent" />
+        <Field Def="u16 itemPresentEventId" />
+        <Field Def="dummy8 dummy[12]" />
+    </Fields>
+</PARAMDEF>

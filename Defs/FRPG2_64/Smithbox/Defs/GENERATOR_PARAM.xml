@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>GENERATOR_PARAM</ParamType>
+    <DataVersion>16</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="u8 maxRespawnNum" />
+        <Field Def="u8 maxRespawnNum2ndOver" />
+        <Field Def="u8 eventGroupId" />
+        <Field Def="u8 logicGroupId" />
+        <Field Def="u32 respawnDisableFlag" />
+        <Field Def="s32 generatorEnemyName" />
+        <Field Def="u8 startConditionJudgeType" />
+        <Field Def="u8 startConditionCondition1" />
+        <Field Def="u8 startConditionCondition2" />
+        <Field Def="u8 startConditionCondition3" />
+        <Field Def="s32 startConditionParam1" />
+        <Field Def="s32 startConditionParam2" />
+        <Field Def="s32 startConditionParam3" />
+        <Field Def="u8 stopConditionJudgeType" />
+        <Field Def="u8 stopConditionCondition1" />
+        <Field Def="u8 stopConditionCondition2" />
+        <Field Def="u8 stopConditionCondition3" />
+        <Field Def="s32 stopConditionParam1" />
+        <Field Def="s32 stopConditionParam2" />
+        <Field Def="s32 stopConditionParam3" />
+        <Field Def="u32 logicMoveZoneId1" />
+        <Field Def="u32 logicMoveZoneId2" />
+        <Field Def="u32 logicMoveZoneId3" />
+        <Field Def="u32 logicMoveZoneId4" />
+        <Field Def="u32 logicMoveZoneId5" />
+        <Field Def="u32 logicMoveZoneId6" />
+        <Field Def="f32 infinityGenerateTime" />
+        <Field Def="u8 infinityGenerate:1" />
+        <Field Def="u8 drawGroupDeleteDisable:1" />
+        <Field Def="u8 bossBattleStopDisable:1" />
+        <Field Def="u8 hpGaugeDisable:1" />
+        <Field Def="u8 resetPosition:1" />
+        <Field Def="u8 generateOverDeleteDisable:1" />
+        <Field Def="u8 invincibleWithoutBossBattle:1" />
+        <Field Def="u8 netUpdatePriority" />
+        <Field Def="u16 bonfireId" />
+        <Field Def="f32 returnDistance" />
+        <Field Def="u32 logicNaviPoint1" />
+        <Field Def="u32 logicNaviPoint2" />
+        <Field Def="s32 bootLowStateId" />
+        <Field Def="u32 logicEventFlag1" />
+        <Field Def="u32 logicEventFlag2" />
+        <Field Def="u32 logicEventFlag3" />
+        <Field Def="u32 logicEventFlag4" />
+        <Field Def="f32 logicStartInterval" />
+        <Field Def="u32 returnPointId1" />
+        <Field Def="u32 returnPointId2" />
+        <Field Def="u32 returnPointId3" />
+        <Field Def="u8 logicAreaEventValue1" />
+        <Field Def="u8 logicAreaEventValue2" />
+        <Field Def="u8 logicGlobalEventValue1" />
+        <Field Def="u8 logicGlobalEventValue2" />
+        <Field Def="f32 decLimitTime" />
+        <Field Def="u8 spGenerateType" />
+        <Field Def="s8 instanceColor" />
+        <Field Def="dummy8 aReserved1[2]" />
+        <Field Def="u32 itemId" />
+        <Field Def="u32 itemId2ndOver" />
+        <Field Def="u32 endEventId" />
+        <Field Def="f32 aiReturnStandbyRange" />
+        <Field Def="u8 aiReturnType" />
+        <Field Def="dummy8 aReserved2[7]" />
+    </Fields>
+</PARAMDEF>

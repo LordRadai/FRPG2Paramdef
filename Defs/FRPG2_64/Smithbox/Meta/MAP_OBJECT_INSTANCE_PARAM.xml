@@ -1,0 +1,423 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <objCtrlId AltName="《OBJ control ID》" />
+        <bulletId0 AltName="《Bullet ID slot 0》" />
+        <damageId0 AltName="《Damage ID slot 0》" />
+        <touchRegionScale AltName="《Touch area scale》" />
+        <movableRange AltName="《Movable distance》" />
+        <objType AltName="《OBJ type》" Enum="OBJ_TYPE_ENUM" />
+        <objCtrlType AltName="《OBJ control type》" Enum="OBJ_CTRL_TYPE_ENUM" />
+        <objLabbel AltName="&quot;label&quot;" Enum="OBJ_LABBEL_ENUM" />
+        <usableWhite AltName="《White spirit can be used》" IsBool="true" />
+        <usableSmallWhite AltName="《Half-spirit can be used》" IsBool="true" />
+        <usableDragon AltName="《Dragon spirit can be used》" IsBool="true" />
+        <usableCoopBlue AltName="《Relief Blue Spirit can be used》" IsBool="true" />
+        <usableVersusBlue AltName="《Retributive Blue Spirit can be used》" IsBool="true" />
+        <usableBlack AltName="《Dark spirit usable》" IsBool="true" />
+        <usableBellGuard AltName="《Bell Keeper Ash Spirit can be used》" IsBool="true" />
+        <usableRatKing AltName="《Mouse King Ash Spirit usable》" IsBool="true" />
+        <usableMirrorKnight AltName="《Mirror Knight Spirit Usable》" IsBool="true" />
+        <usableNoneVow AltName="《Can be used without a pledge》" IsBool="true" />
+        <usableSunlightVow AltName="《Sun Warrior available》" IsBool="true" />
+        <usableGuardianVow AltName="《Guardian Knight available》" IsBool="true" />
+        <usableBloodVow AltName="《Blood Dark Spirit can be used》" IsBool="true" />
+        <usableBlueVow AltName="《Blue teaching available》" IsBool="true" />
+        <usableRatKingVow AltName="《Mouse King available》" IsBool="true" />
+        <usableBellGuardVow AltName="《Bellkeeper available》" IsBool="true" />
+        <usableDragonVow AltName="《Path to the Ancient Dragon can be used》" IsBool="true" />
+        <usableStrongerVow AltName="《Can be used by strong people》" IsBool="true" />
+        <usableAbyssVow AltName="《Can be used as Pilgrimage of the Abyss》" IsBool="true" />
+        <usableEnemy AltName="《Available for enemy use》" IsBool="true" />
+        <onlyEventCanBreak AltName="《Can only be destroyed in an event》" IsBool="true" />
+        <useAltSfx AltName="《SFX switching》" IsBool="true" />
+        <breakObjMakeStateId AltName="《Break object generation state》" />
+        <resetType AltName="Reset type" Enum="OBJ_RESET_TYPE_ENUM" />
+        <tmpBreakObjMakeStateId AltName="《(Lively) Break object generation state》" />
+        <iblTextureId AltName="Environment map texture ID" />
+        <dummy2 AltName="Dummy" Padding="true" />
+        <itemLotId AltName="First week item lottery ID" />
+    </Field>
+    <Enums>
+        <Enum Name="OBJ_TYPE_ENUM" type="u32">
+            <Option Value="0" Name="Template" />
+            <Option Value="1" Name="Other tests" />
+            <Option Value="2" Name="Wooden treasure chest test" />
+            <Option Value="3" Name="Metal treasure chest test" />
+            <Option Value="4" Name="Wall prefab test" />
+            <Option Value="5" Name="No block test" />
+            <Option Value="6" Name="Tiny block test" />
+            <Option Value="7" Name="Small block test" />
+            <Option Value="8" Name="Medium block test" />
+            <Option Value="9" Name="Large block test" />
+            <Option Value="10" Name="Extra large block test" />
+            <Option Value="11" Name="∞Block test" />
+            <Option Value="12" Name="Wooden barrel test" />
+            <Option Value="13" Name="[Fortress of Resistance] Colossus Head Test" />
+            <Option Value="14" Name="Wooden box test" />
+            <Option Value="15" Name="[Fortress of Resistance] Tackle Destruction Great Door Test" />
+            <Option Value="16" Name="Wooden chair test" />
+            <Option Value="17" Name="Prefab test test" />
+            <Option Value="18" Name="[Fortress of Resistance] Destroyed Bridge Test" />
+            <Option Value="19" Name="A test that breaks if you touch it" />
+            <Option Value="20" Name="[Fortress of Resistance] Wooden scaffolding test" />
+            <Option Value="21" Name="[Fortress of Resistance] Stone Pillar Test" />
+            <Option Value="22" Name="Hanging trinket test" />
+            <Option Value="23" Name="Unbreakable accessories (general purpose) test" />
+            <Option Value="24" Name="Non-moving wooden barrel test" />
+            <Option Value="25" Name="[Fortress of Resistance] Broken Ballista Test" />
+            <Option Value="26" Name="Boss statue test test" />
+            <Option Value="27" Name="[Test] Figurine GD test" />
+            <Option Value="28" Name="[Test] [GGD compatible] Breaks with one attack" />
+            <Option Value="29" Name="[Test] [E3 compatible] Dragon Research Institute: Giant Attribute" />
+            <Option Value="30" Name="[Test] [E3 compatible] Breaks with one attack: Roll" />
+            <Option Value="31" Name="[Test] [E3 compatible] Breaks with one attack: Figurine" />
+            <Option Value="32" Name="[Test] [GGD compatible] Breaks with one attack: On paper" />
+            <Option Value="33" Name="[Tentative] Default value for &quot;destructible&quot; objects" />
+            <Option Value="34" Name="[Test] [E3 compatible] Statue Knight Neck" />
+            <Option Value="35" Name="[Test] [E3 compatible] Statue Knight neck (temporary Mr. Shimizu)" />
+            <Option Value="36" Name="[Test] [E3 compatible] Statue Knight Stone Statue" />
+            <Option Value="37" Name="[Test] Cart (hard)" />
+            <Option Value="100" Name="Bonfire_Indestructible" />
+            <Option Value="101" Name="[Not used] Bonfire_Destructible" />
+            <Option Value="110" Name="White door_indestructible" />
+            <Option Value="120" Name="Wooden treasure chest_destructible" />
+            <Option Value="121" Name="Iron treasure chest_indestructible" />
+            <Option Value="122" Name="[Not used] Wooden treasure chest_Cannot be destroyed" />
+            <Option Value="123" Name="Flaming treasure chest Destructible" />
+            <Option Value="130" Name="Treasure Corpse_Indestructible" />
+            <Option Value="131" Name="Corpse_Indestructible" />
+            <Option Value="140" Name="Item_Indestructible" />
+            <Option Value="150" Name="[Not used] Iron ladder_Cannot be destroyed" />
+            <Option Value="160" Name="Rope_indestructible" />
+            <Option Value="170" Name="Lever, valve, strap_indestructible" />
+            <Option Value="180" Name="[Unusable] Wall lever_Cannot be destroyed" />
+            <Option Value="190" Name="Switch_indestructible" />
+            <Option Value="195" Name="Ladder_Indestructible" />
+            <Option Value="200" Name="Single door_destructible" />
+            <Option Value="210" Name="Single door_indestructible" />
+            <Option Value="211" Name="Single door_indestructible HP setting available" />
+            <Option Value="220" Name="[Not used] Iron single door_Cannot be destroyed" />
+            <Option Value="225" Name="[Not used] Stone single door_Cannot be destroyed" />
+            <Option Value="230" Name="Both doors_indestructible" />
+            <Option Value="231" Name="Both doors_destructible" />
+            <Option Value="235" Name="[Not used] Stone double doors_Cannot be destroyed" />
+            <Option Value="240" Name="[Not used] Double iron doors_Cannot be destroyed" />
+            <Option Value="250" Name="[Not used] Wooden standing board_Cannot be destroyed" />
+            <Option Value="260" Name="Lighthouse_Indestructible" />
+            <Option Value="270" Name="[Not used] Boss statue" />
+            <Option Value="280" Name="[Not used] Barista barrel" />
+            <Option Value="290" Name="[Not used] Hanging lantern" />
+            <Option Value="300" Name="[Memory of the Titan] Head of the Colossus" />
+            <Option Value="310" Name="[Not used] [Fortress of Resistance] Broken Ballista" />
+            <Option Value="320" Name="[Not used] [Fortress of Resistance] Bridge destroyed by fireballs" />
+            <Option Value="330" Name="[Not used] [Fortress of Resistance] Barricade" />
+            <Option Value="340" Name="[Not used] [Fairy's Bank] Tree branch wall" />
+            <Option Value="350" Name="[Not used] [Fortress of Resistance] Boss room stone floor" />
+            <Option Value="360" Name="[Andile] Ogre Destruction Wall" />
+            <Option Value="365" Name="[Andile] Ogre Destruction Double Door" />
+            <Option Value="370" Name="[General Purpose] Walls that can be broken by flame barrels" />
+            <Option Value="371" Name="[General purpose] Lazy pot (normal)" />
+            <Option Value="372" Name="[General purpose] Flame barrel (moving object)" />
+            <Option Value="373" Name="[General purpose] Flame barrel (immovable)" />
+            <Option Value="374" Name="[General purpose] Lazy pot (hollow fall only)" />
+            <Option Value="380" Name="[Not used] Hidden door (destructible)" />
+            <Option Value="381" Name="[Not used] Hidden door (cannot be destroyed)" />
+            <Option Value="390" Name="[Prisoner's Prison] OBJ that changes from static to dynamic" />
+            <Option Value="400" Name="[Not used] Decoy" />
+            <Option Value="410" Name="[Hunting Forest] Chariots event_horse carriage" />
+            <Option Value="420" Name="[Not used] Lazy pot" />
+            <Option Value="430" Name="[Not used] [Damari Valley] Boss battle jar" />
+            <Option Value="440" Name="[Not used] [Heide's Great Fire Tower] Pillar that can only be destroyed by the boss" />
+            <Option Value="450" Name="[Not used] [Hollow Shadow Forest] Human Face Tree" />
+            <Option Value="460" Name="[Memory of the Giant] Boss destroys the tower" />
+            <Option Value="470" Name="[Not used] [Madura] Well event punching stone" />
+            <Option Value="480" Name="[Memory of the Giant] Ladder destroyed by the boss" />
+            <Option Value="490" Name="[Prison of Oblivion] Iron bars in the boss room" />
+            <Option Value="491" Name="[Forgotten Prison] Barrel shelf" />
+            <Option Value="500" Name="[Ojo Doran] Statue Knight's Head" />
+            <Option Value="501" Name="[Ojo Doran] Pitfall" />
+            <Option Value="510" Name="[Gerald] Well roof" />
+            <Option Value="511" Name="[Gerald] Lower desk" />
+            <Option Value="520" Name="[Hollow Forest] Icicle Stone" />
+            <Option Value="521" Name="[Not used] [Hollow Forest] Dead tree (small tree) in the boss room" />
+            <Option Value="530" Name="[Tamaru Valley] Jar in Jabba the Hutt's room" />
+            <Option Value="540" Name="[Volcano Steel Works] Broken Bridge" />
+            <Option Value="550" Name="[Kudzu bottom] Jizo stone OBJ" />
+            <Option Value="560" Name="[Guardian Dragon's Nest] Wyvern Egg" />
+            <Option Value="900" Name="Boss part destruction: Extremely small weight: Cannot be destroyed" />
+            <Option Value="901" Name="Boss part destruction: Small weight: Cannot be destroyed" />
+            <Option Value="902" Name="Boss part destruction: Heavy: Unbreakable" />
+            <Option Value="903" Name="Boss part destruction: Heavy: Cannot be destroyed" />
+            <Option Value="904" Name="Boss part destruction: Extra large weight: Cannot be destroyed" />
+            <Option Value="905" Name="Boss part destruction: Extra large weight: Cannot be destroyed" />
+            <Option Value="1000" Name="[Not used] General purpose - Barrel - None - Wooden" />
+            <Option Value="1001" Name="General Purpose - Barrel - Minimal - Durability Minimal" />
+            <Option Value="1002" Name="General-purpose - Barrel - Small - Minimum durability" />
+            <Option Value="1003" Name="General-purpose - Barrel - Medium - Minimum durability" />
+            <Option Value="1004" Name="General-purpose - Barrel - Large - Minimum durability" />
+            <Option Value="1005" Name="General Purpose - Barrel - Extra Large - Minimum Durability" />
+            <Option Value="1006" Name="General Purpose - Barrel - Extra Large - Minimum Durability" />
+            <Option Value="1007" Name="[Not used] General purpose - Barrel - ∞ - Wooden" />
+            <Option Value="1050" Name="[Not used] General purpose - No box - Wooden" />
+            <Option Value="1051" Name="General-purpose-box-extremely small-durability extremely small" />
+            <Option Value="1052" Name="General purpose - box - small - minimal durability" />
+            <Option Value="1053" Name="General-purpose-Box-Medium-Minimum durability" />
+            <Option Value="1054" Name="General purpose-box-large-durability minimal" />
+            <Option Value="1055" Name="General Purpose-Box-Extra Large-Minimum Durability" />
+            <Option Value="1056" Name="General Purpose - Box - Extra Large - Extremely Durable" />
+            <Option Value="1057" Name="[Not used] General purpose-Box-∞-Wooden" />
+            <Option Value="1100" Name="[Not used] General purpose - Chaise lounge - None - Wooden" />
+            <Option Value="1101" Name="[Not used] General purpose - Chaise longue - Extra small - Wooden" />
+            <Option Value="1102" Name="[Not used] General purpose - chaise longue - small - wooden" />
+            <Option Value="1103" Name="[Not used] General purpose - Chaise longue - Medium - Wooden" />
+            <Option Value="1104" Name="[Not used] General purpose - Chaise longue - Large - Wooden" />
+            <Option Value="1105" Name="[Not used] General purpose - Chaise longue - Extra large - Wooden" />
+            <Option Value="1106" Name="[Not used] General purpose - Chaise longue - Extra large - Wooden" />
+            <Option Value="1107" Name="[Not used] General purpose - Chaise longue - ∞ - Wooden" />
+            <Option Value="1150" Name="General-purpose - Contact destruction - Figurine - Destructible" />
+            <Option Value="1151" Name="General purpose-contact destruction-floor-destructible" />
+            <Option Value="1200" Name="[Not used] General purpose - No weight - Minimum durability - Anything" />
+            <Option Value="1201" Name="[Not used] General purpose - No weight - Minimum durability - Normal attack" />
+            <Option Value="1202" Name="[Not used] General purpose - No weight - Minimum durability - Special attack" />
+            <Option Value="1203" Name="[Not used] General purpose - No weight - Small durability - Anything" />
+            <Option Value="1204" Name="[Not used] General purpose - No weight - Small durability - Normal attack" />
+            <Option Value="1205" Name="[Not used] General purpose - No weight - Small durability - Special attack" />
+            <Option Value="1206" Name="[Not used] General purpose - No weight - Durable - Anything" />
+            <Option Value="1207" Name="[Not used] General purpose - Weightless - Durable - Normal attack" />
+            <Option Value="1208" Name="[Not used] General purpose - Weightless - Durable - Special attack" />
+            <Option Value="1209" Name="[Not used] General-purpose - Weightless - Durable - Anything" />
+            <Option Value="1210" Name="[Not used] General purpose - Weightless - Durability - Normal attack" />
+            <Option Value="1211" Name="[Not used] General purpose - Weightless - Durability - Special attack" />
+            <Option Value="1212" Name="[Not used] General purpose - Weightless - Durable extra large - Anything" />
+            <Option Value="1213" Name="[Not used] General purpose - Weightless - Extra large durability - Normal attack" />
+            <Option Value="1214" Name="[Not used] General purpose - Weightless - Extra large durability - Special attack" />
+            <Option Value="1215" Name="[Not used] General purpose - Weightless - Durable extra large - Anything" />
+            <Option Value="1216" Name="[Not used] General purpose - Weightless - Extra large durability - Normal attack" />
+            <Option Value="1217" Name="[Not used] General purpose - Weightless - Extra large durability - Special attack" />
+            <Option Value="1250" Name="General-purpose - Extremely small weight - Extremely durable - Bow and arrow attack" />
+            <Option Value="1251" Name="General-purpose - Extremely small weight - Extremely durable - Normal attack" />
+            <Option Value="1252" Name="General-purpose - Extremely small weight - Extremely durable - Special attack" />
+            <Option Value="1253" Name="General-purpose - Very small weight - Small durability - Bow and arrow attack" />
+            <Option Value="1254" Name="General-purpose - Very small weight - Small durability - Normal attack" />
+            <Option Value="1255" Name="General-purpose - Very small weight - Small durability - Special attack" />
+            <Option Value="1256" Name="General-purpose - Very small weight - Medium durability - Bow and arrow attack" />
+            <Option Value="1257" Name="General purpose - Very small weight - Medium durability - Normal attack" />
+            <Option Value="1258" Name="General-purpose - Very small weight - Medium durability - Special attack" />
+            <Option Value="1259" Name="General-purpose - Very small weight - High durability - Bow and arrow attack" />
+            <Option Value="1260" Name="General-purpose - Very small weight - High durability - Normal attack" />
+            <Option Value="1261" Name="General-purpose - Very small weight - High durability - Special attack" />
+            <Option Value="1262" Name="General-purpose - Extremely small weight - Extra large durability - Bow and arrow attack" />
+            <Option Value="1263" Name="General-purpose - Extremely small weight - Extra large durability - Normal attack" />
+            <Option Value="1264" Name="General-purpose - Extremely small weight - Extra large durability - Special attack" />
+            <Option Value="1265" Name="General-purpose - Extremely small weight - Extra large durability - Bow and arrow attack" />
+            <Option Value="1266" Name="General-purpose - Extremely small weight - Extra large durability - Normal attack" />
+            <Option Value="1267" Name="General-purpose - Extremely small weight - Extra large durability - Special attack" />
+            <Option Value="1300" Name="General-purpose - Small weight - Minimal durability - Bow and arrow attack" />
+            <Option Value="1301" Name="General-purpose - Small weight - Minimal durability - Normal attack" />
+            <Option Value="1302" Name="General-purpose - Small weight - Minimum durability - Special attack" />
+            <Option Value="1303" Name="General-purpose - Small weight - Small durability - Bow and arrow attack" />
+            <Option Value="1304" Name="General-purpose - Small weight - Small durability - Normal attack" />
+            <Option Value="1305" Name="General-purpose - Small weight - Small durability - Special attack" />
+            <Option Value="1306" Name="General-purpose - Light weight - Medium durability - Bow and arrow attack" />
+            <Option Value="1307" Name="General-purpose - Light weight - Medium durability - Normal attack" />
+            <Option Value="1308" Name="General-purpose - Light weight - Medium durability - Special attack" />
+            <Option Value="1309" Name="General Purpose-Low Weight-Large Durability-Bow and Arrow Attack" />
+            <Option Value="1310" Name="General-purpose - Small weight - High durability - Normal attack" />
+            <Option Value="1311" Name="General-purpose - Small weight - High durability - Special attack" />
+            <Option Value="1312" Name="General-purpose - Small weight - Extra large durability - Bow and arrow attack" />
+            <Option Value="1313" Name="General-purpose - Small weight - Extra large durability - Normal attack" />
+            <Option Value="1314" Name="General Purpose - Small Weight - Extra Large Durability - Special Attack" />
+            <Option Value="1315" Name="General-purpose - Light weight - Extra large durability - Bow and arrow attack" />
+            <Option Value="1316" Name="General Purpose - Small Weight - Extra Large Durability - Normal Attack" />
+            <Option Value="1317" Name="General Purpose - Small Weight - Extra Large Durability - Special Attack" />
+            <Option Value="1350" Name="General-purpose - Medium weight - Minimum durability - Bow and arrow attack" />
+            <Option Value="1351" Name="General-purpose - Medium weight - Minimum durability - Normal attack" />
+            <Option Value="1352" Name="General-purpose - Medium weight - Minimum durability - Special attack" />
+            <Option Value="1353" Name="General purpose - Medium weight - Small durability - Bow and arrow attack" />
+            <Option Value="1354" Name="General purpose - Medium weight - Small durability - Normal attack" />
+            <Option Value="1355" Name="General purpose - Medium weight - Small durability - Special attack" />
+            <Option Value="1356" Name="General-purpose-heavy-medium-durable-bow and arrow attack" />
+            <Option Value="1357" Name="General-purpose - Heavy - Medium - Durable - Normal attack" />
+            <Option Value="1358" Name="General Purpose - Medium Heavy - Medium Durable - Special Attack" />
+            <Option Value="1359" Name="General purpose - Medium weight - High durability - Bow and arrow attack" />
+            <Option Value="1360" Name="General purpose - Medium weight - High durability - Normal attack" />
+            <Option Value="1361" Name="General purpose - Medium weight - High durability - Special attack" />
+            <Option Value="1362" Name="General purpose - Medium weight - Extra large durability - Bow and arrow attack" />
+            <Option Value="1363" Name="General purpose - Medium weight - Extra large durability - Normal attack" />
+            <Option Value="1364" Name="General purpose - Medium weight - Extra large durability - Special attack" />
+            <Option Value="1365" Name="General purpose - Medium weight - Extra large durability - Bow and arrow attack" />
+            <Option Value="1366" Name="General purpose - Medium weight - Extra large durability - Normal attack" />
+            <Option Value="1367" Name="General purpose - Medium weight - Extra large durability - Special attack" />
+            <Option Value="1400" Name="General purpose - large weight - minimal durability - bow and arrow attack" />
+            <Option Value="1401" Name="General-purpose - Large weight - Minimum durability - Normal attack" />
+            <Option Value="1402" Name="General purpose - large weight - minimal durability - special attack" />
+            <Option Value="1403" Name="General purpose - large weight - small durability - bow and arrow attack" />
+            <Option Value="1404" Name="General purpose - large weight - small durability - normal attack" />
+            <Option Value="1405" Name="General Purpose - Large Weight - Small Durability - Special Attack" />
+            <Option Value="1406" Name="General purpose - Heavy weight - Medium durability - Bow and arrow attack" />
+            <Option Value="1407" Name="General Purpose - Heavy Weight - Medium Durability - Normal Attack" />
+            <Option Value="1408" Name="General Purpose - Heavy Weight - Medium Durability - Special Attack" />
+            <Option Value="1409" Name="General purpose - Heavy weight - Durable - Bow and arrow attack" />
+            <Option Value="1410" Name="General purpose - Heavy weight - Durable - Normal attack" />
+            <Option Value="1411" Name="General Purpose - Heavy Weight - Large Durability - Special Attack" />
+            <Option Value="1412" Name="General-purpose - Heavy weight - Extra large durability - Bow and arrow attack" />
+            <Option Value="1413" Name="General-purpose - Heavy weight - Extra large durability - Normal attack" />
+            <Option Value="1414" Name="General Purpose - Heavy Weight - Extra Large Durability - Special Attack" />
+            <Option Value="1415" Name="General-purpose - Heavy weight - Extra large durability - Bow and arrow attack" />
+            <Option Value="1416" Name="General-purpose - Heavy weight - Extra large durability - Normal attack" />
+            <Option Value="1417" Name="General Purpose - Heavy Weight - Extra Large Durability - Special Attack" />
+            <Option Value="1450" Name="General Purpose - Extra Large Weight - Extra Small Durability - Bow and Arrow Attack" />
+            <Option Value="1451" Name="General-purpose - Extra large weight - Extremely small durability - Normal attack" />
+            <Option Value="1452" Name="General Purpose - Extra Large Weight - Extra Small Durability - Special Attack" />
+            <Option Value="1453" Name="General purpose - Extra large weight - Small durability - Bow and arrow attack" />
+            <Option Value="1454" Name="General purpose - Extra large weight - Small durability - Normal attack" />
+            <Option Value="1455" Name="General purpose - Extra large weight - Small durability - Special attack" />
+            <Option Value="1456" Name="General-purpose - Heavy weight - Medium durability - Bow and arrow attack" />
+            <Option Value="1457" Name="General-purpose - Heavy weight - Medium durability - Normal attack" />
+            <Option Value="1458" Name="General-purpose - Heavy weight - Medium durability - Special attack" />
+            <Option Value="1459" Name="General-purpose - Extra heavy weight - Large durability - Bow and arrow attack" />
+            <Option Value="1460" Name="General purpose - Extra heavy weight - Large durability - Normal attack" />
+            <Option Value="1461" Name="General purpose - Extra heavy weight - Large durability - Special attack" />
+            <Option Value="1462" Name="General Purpose - Extra Large Weight - Extra Large Durability - Bow and Arrow Attack" />
+            <Option Value="1463" Name="General Purpose - Extra Large Weight - Extra Large Durability - Normal Attack" />
+            <Option Value="1464" Name="General Purpose - Extra Large Weight - Extra Large Durability - Special Attack" />
+            <Option Value="1465" Name="General Purpose - Extra Large Weight - Extra Large Durability - Bow and Arrow Attack" />
+            <Option Value="1466" Name="General Purpose - Extra Large Weight - Extra Large Durability - Normal Attack" />
+            <Option Value="1467" Name="General Purpose - Extra Large Weight - Extra Large Durability - Special Attack" />
+            <Option Value="1500" Name="General-purpose - Super heavy weight - Super small durability - Bow and arrow attack" />
+            <Option Value="1501" Name="General Purpose - Extra Large Weight - Extremely Small Durability - Normal Attack" />
+            <Option Value="1502" Name="General Purpose - Extra Large Weight - Extra Small Durability - Special Attack" />
+            <Option Value="1503" Name="General-purpose - Extra large weight - Small durability - Bow and arrow attack" />
+            <Option Value="1504" Name="General-purpose - Extra large weight - Small durability - Normal attack" />
+            <Option Value="1505" Name="General Purpose - Extra Large Weight - Small Durability - Special Attack" />
+            <Option Value="1506" Name="General-purpose - Super heavy weight - Medium durability - Bow and arrow attack" />
+            <Option Value="1507" Name="General Purpose - Extra Large Weight - Medium Durability - Normal Attack" />
+            <Option Value="1508" Name="General Purpose - Extra Large Weight - Medium Durability - Special Attack" />
+            <Option Value="1509" Name="General-purpose - Super heavy weight - Large durability - Bow and arrow attack" />
+            <Option Value="1510" Name="General-purpose - Super heavy weight - Large durability - Normal attack" />
+            <Option Value="1511" Name="General Purpose - Extra Large Weight - Large Durability - Special Attack" />
+            <Option Value="1512" Name="General Purpose - Extra Large Weight - Extra Large Durability - Bow and Arrow Attack" />
+            <Option Value="1513" Name="General Purpose - Extra Large Weight - Extra Large Durability - Normal Attack" />
+            <Option Value="1514" Name="General Purpose - Extra Large Weight - Extra Large Durability - Special Attack" />
+            <Option Value="1515" Name="General Purpose - Extra Large Weight - Extra Large Durability - Bow and Arrow Attack" />
+            <Option Value="1516" Name="General Purpose - Extra Large Weight - Extra Large Durability - Normal Attack" />
+            <Option Value="1517" Name="General Purpose - Extra Large Weight - Extra Large Durability - Special Attack" />
+            <Option Value="1550" Name="[Scheduled to be deleted] General purpose-Weight ∞-Minimum durability-Anything" />
+            <Option Value="1551" Name="[Scheduled to be deleted] General Purpose-Weight ∞-Minimum Durability-Normal Attack" />
+            <Option Value="1552" Name="[Scheduled to be deleted] General purpose-Weight ∞-Minimum durability-Special attack" />
+            <Option Value="1553" Name="[Scheduled to be deleted] General purpose - Weight ∞ - Durability small - Anything" />
+            <Option Value="1554" Name="[Scheduled to be deleted] General purpose - Weight ∞ - Durability small - Normal attack" />
+            <Option Value="1555" Name="[Scheduled to be deleted] General purpose - Weight ∞ - Durability small - Special attack" />
+            <Option Value="1556" Name="[Scheduled to be deleted] General Purpose-Weight ∞-Durable-Anything" />
+            <Option Value="1557" Name="[Scheduled to be deleted] General-purpose - Weight ∞ - Durable - Normal attack" />
+            <Option Value="1558" Name="[Scheduled to be deleted] General Purpose-Weight ∞-Durable-Special Attack" />
+            <Option Value="1559" Name="General-purpose - Weight ∞ - Mass extremely small - Destroy only giants" />
+            <Option Value="1560" Name="General-purpose - Weight ∞ - Mass small - Destroy only giants" />
+            <Option Value="1561" Name="General-purpose - Weight ∞ - Mass Medium - Destroy only giants" />
+            <Option Value="1562" Name="General-purpose weight ∞ - Large mass (pillars) - Destroy only giants" />
+            <Option Value="1563" Name="General purpose - Weight ∞ - Mass extra large - Destroy only giants" />
+            <Option Value="1564" Name="General-purpose - Weight ∞ - Mass Extra Large - Destroyed only by giants" />
+            <Option Value="1600" Name="[Not used] General purpose - Weightless - Indestructible" />
+            <Option Value="1601" Name="[Not used] General purpose - Extremely small weight - Indestructible" />
+            <Option Value="1602" Name="[Not used] General purpose - small weight - non-destructible" />
+            <Option Value="1603" Name="[Not used] General purpose - Medium weight - Indestructible" />
+            <Option Value="1604" Name="[Not used] General purpose - Heavy weight - Indestructible" />
+            <Option Value="1605" Name="[Not used] General purpose - Extra large weight - Indestructible" />
+            <Option Value="1606" Name="[Not used] General purpose - Extra large weight - Indestructible" />
+            <Option Value="1607" Name="General Purpose - Weight ∞ - Indestructible" />
+            <Option Value="1608" Name="General-purpose - Weight ∞ - Indestructible - HP setting available" />
+            <Option Value="1650" Name="General-purpose - Weight ∞ - Minimum durability - Bow and arrow attack" />
+            <Option Value="1651" Name="General-purpose - Weight ∞ - Minimum durability - Normal attack" />
+            <Option Value="1652" Name="General purpose - Weight ∞ - Minimum durability - Special attack" />
+            <Option Value="1653" Name="General purpose - Weight ∞ - Durability small - Bow and arrow attack" />
+            <Option Value="1654" Name="General purpose - Weight ∞ - Durability small - Normal attack" />
+            <Option Value="1655" Name="General Purpose - Weight ∞ - Durability Small - Special Attack" />
+            <Option Value="1656" Name="General-purpose - Weight ∞ - Durable - Bow and arrow attack" />
+            <Option Value="1657" Name="General-purpose - Weight ∞ - Durable - Normal attack" />
+            <Option Value="1658" Name="General-purpose - Weight ∞ - Durable - Special attack" />
+            <Option Value="1659" Name="General purpose - Weight ∞ - Durability - Bow and arrow attack" />
+            <Option Value="1660" Name="General Purpose-Weight ∞-Large Durability-Normal Attack" />
+            <Option Value="1661" Name="General purpose - Weight ∞ - Durability - Special attack" />
+            <Option Value="1662" Name="General Purpose - Weight ∞ - Extra Large Durability - Bow and Arrow Attack" />
+            <Option Value="1663" Name="General-purpose - Weight ∞ - Extra large durability - Normal attack" />
+            <Option Value="1664" Name="General Purpose - Weight ∞ - Durability Extra Large - Special Attack" />
+            <Option Value="1665" Name="General-purpose - Weight ∞ - Extra large durability - Bow and arrow attack" />
+            <Option Value="1666" Name="General-purpose - Weight ∞ - Extra large durability - Normal attack" />
+            <Option Value="1667" Name="General Purpose - Weight ∞ - Durability Extra Large - Special Attack" />
+            <Option Value="1700" Name="General-purpose - Weight ∞ - Evasion - Minimum durability - Bow and arrow attack" />
+            <Option Value="1701" Name="General purpose - Weight ∞ - Evasion - Minimum durability - Normal attack" />
+            <Option Value="1702" Name="General-purpose - Weight ∞ - Evasion - Minimum durability - Special attack" />
+            <Option Value="1800" Name="General-purpose - Stone-based OBJ - Minimum weight - Minimum durability" />
+            <Option Value="1801" Name="General-purpose - stone-based OBJ - small weight - minimal durability" />
+            <Option Value="1802" Name="General-purpose - Stone-based OBJ - Medium weight - Minimum durability" />
+            <Option Value="1803" Name="General-purpose - Stone-based OBJ - Large weight - Minimum durability" />
+            <Option Value="1804" Name="General-purpose - Stone OBJ - Extra large weight - Ultra small durability" />
+            <Option Value="1805" Name="General-purpose - Stone-based OBJ - Extra large weight - Ultra small durability" />
+            <Option Value="1806" Name="General-purpose - Stone-based OBJ - Weight ∞ - Minimum durability" />
+            <Option Value="1810" Name="General Purpose-Stone OBJ-Weight ∞-Durable Extra Large" />
+            <Option Value="1900" Name="General-purpose - Pot type OBJ - Avoidance - Minimum weight - Minimum durability" />
+            <Option Value="1901" Name="General purpose - pot type OBJ - avoidance - small weight - minimal durability" />
+            <Option Value="1902" Name="General purpose - pot type OBJ - avoidance - medium weight - minimal durability" />
+            <Option Value="1903" Name="General purpose - Pot type OBJ - Avoidance - Large weight - Minimum durability" />
+            <Option Value="1904" Name="General purpose - Pot type OBJ - Avoidance - Extra large weight - Minimal durability" />
+            <Option Value="1905" Name="General-purpose - Pot type OBJ - Avoidance - Extra large weight - Extremely small durability" />
+            <Option Value="1906" Name="General-purpose - Pot type OBJ - Avoidance - Weight ∞ - Minimum durability" />
+            <Option Value="1910" Name="General Purpose-Potter OBJ-Avoidance-Weight ∞-Durability Extra Large" />
+            <Option Value="1920" Name="General purpose - Pot type OBJ - Avoidance - Weight ∞ - Durability minimal - Breaks under load" />
+        </Enum>
+        <Enum Name="OBJ_CTRL_TYPE_ENUM" type="u8">
+            <Option Value="0" Name="None" />
+            <Option Value="1" Name="Wooden treasure box" />
+            <Option Value="2" Name="Single door" />
+            <Option Value="3" Name="Both doors" />
+            <Option Value="4" Name="Ladder" />
+            <Option Value="5" Name="Rope" />
+            <Option Value="6" Name="White door" />
+            <Option Value="7" Name="Bonfire" />
+            <Option Value="10" Name="Torch" />
+            <Option Value="11" Name="Elevator" />
+            <Option Value="14" Name="Anime hit trap" />
+            <Option Value="15" Name="Constraint" />
+            <Option Value="16" Name="Death count display" />
+            <Option Value="17" Name="Display number of bosses defeated" />
+            <Option Value="18" Name="Broken ladder" />
+            <Option Value="19" Name="Floor lever: return automatically" />
+            <Option Value="20" Name="Floor lever: does not return" />
+            <Option Value="21" Name="Floor lever: Continue thinning while inputting buttons" />
+            <Option Value="22" Name="Vertical lever: return automatically" />
+            <Option Value="23" Name="Vertical lever: does not return" />
+            <Option Value="24" Name="Hidden door ① (Insect key SFX)" />
+            <Option Value="25" Name="Hidden door ② (button press)" />
+            <Option Value="26" Name="Lowering ladder" />
+            <Option Value="27" Name="Character transport object" />
+            <Option Value="28" Name="Iron treasure box" />
+            <Option Value="29" Name="Burnable treasure chest" />
+            <Option Value="30" Name="Insect key (wall)" />
+            <Option Value="31" Name="Insect key (floor)" />
+            <Option Value="32" Name="Wall hole lever" />
+            <Option Value="33" Name="Lightweight objects" />
+            <Option Value="34" Name="Mimicry object" />
+            <Option Value="35" Name="Petrified statue" />
+            <Option Value="36" Name="Item distribution treasure chest" />
+            <Option Value="37" Name="Rolling flame barrel" />
+            <Option Value="38" Name="Destroy a wall with a rolling barrel of fire" />
+            <Option Value="39" Name="Wall torch" />
+        </Enum>
+        <Enum Name="OBJ_LABBEL_ENUM" type="u8">
+            <Option Value="0" Name="None" />
+            <Option Value="1" Name="Door" />
+            <Option Value="2" Name="Ladder" />
+            <Option Value="3" Name="Rope" />
+            <Option Value="4" Name="Lever" />
+            <Option Value="5" Name="Ballista" />
+            <Option Value="6" Name="Broken ladder" />
+        </Enum>
+        <Enum Name="OBJ_RESET_TYPE_ENUM" type="s8">
+            <Option Value="-1" Name="From using a bonfire" />
+            <Option Value="0" Name="From map refresh" />
+            <Option Value="1" Name="From using the pilot fire" />
+            <Option Value="2" Name="From the game round" />
+        </Enum>
+    </Enums>
+</PARAMMETA>

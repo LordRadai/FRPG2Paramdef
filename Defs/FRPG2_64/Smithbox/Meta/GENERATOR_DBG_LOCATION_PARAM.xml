@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <radius AltName="Radius" />
+        <height AltName="Height" />
+        <colorR AltName="Color R" />
+        <colorG AltName="Color G" />
+        <colorB AltName="Color B" />
+        <aReserved1 AltName="Reservation" Padding="true" />
+    </Field>
+</PARAMMETA>

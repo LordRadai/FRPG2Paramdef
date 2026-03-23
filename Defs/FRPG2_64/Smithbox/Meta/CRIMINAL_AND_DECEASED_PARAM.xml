@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <criminalUpNetwork AltName="《Sinner counter addition value (network)》" />
+        <criminalDownNetwork AltName="《Sinner counter subtraction value (network)》" />
+        <criminalUpNpc AltName="《Sinner counter addition value (NPC)》" />
+        <criminalThreshold1 AltName="《Sinner level threshold (general ⇔ sinner)》" />
+        <criminalThreshold2 AltName="《Deadly sinner level threshold (sinner⇔deadly sinner)》" />
+        <deceasedUpNormal AltName="《Death Counter Additional Value (Normal)》" />
+        <deceasedUpCursed AltName="《Death Counter Addition Value (Cursed Death)》" />
+        <deceasedThreshold1 AltName="《Dead Level Threshold (Dead ⇔ Amazing Death)》" />
+        <hpLowerBound1 AltName="《HP lower limit % (general/sinner)》" />
+        <hpLowerBound2 AltName="《HP lower limit % (Deadly sinner)》" />
+        <hpUpperBound1 AltName="《HP upper limit % (curse)》" />
+        <padding AltName="Dummy" Padding="true" />
+    </Field>
+</PARAMMETA>

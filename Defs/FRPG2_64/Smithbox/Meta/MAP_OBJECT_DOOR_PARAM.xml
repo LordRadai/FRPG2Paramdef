@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <doorType AltName="Door type" Enum="DOOR_TYPE_ENUM" />
+        <aReserved AltName="Reservation" Padding="true" />
+        <openKeyGuideParam AltName="Key guide parameter ID when opening" Refs="KeyGuideParam" />
+        <closeKeyGuideParam AltName="Key guide parameter ID when closing" Refs="KeyGuideParam" />
+    </Field>
+    <Enums>
+        <Enum Name="DOOR_TYPE_ENUM" type="u8">
+            <Option Value="0" Name="Single door" />
+            <Option Value="1" Name="Both doors" />
+        </Enum>
+    </Enums>
+</PARAMMETA>

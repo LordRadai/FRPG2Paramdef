@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <interfereId0 AltName="Interference setting ID" />
+        <cullingPriorityNeck0 AltName="Neck-display priority" />
+        <cullingPriorityElbowRight0 AltName="Right arm - display priority" />
+        <cullingValueElbowRight0 AltName="Right arm - culling value" />
+        <cullingPriorityElbowLeft0 AltName="Left arm - display priority" />
+        <cullingValueElbowLeft0 AltName="Left arm - culling value" />
+        <cullingPriorityWaist0 AltName="Waist-display priority" />
+        <cullingValueWaist0 AltName="Waist - culling value" />
+        <clothCtrlType0 AltName="Cross control settings" Enum="EQUIP_CLOTH_CTRL_TYPE" />
+        <cullingGroup00_0 AltName="Culling group 0" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup01_0 AltName="Culling group 1" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup02_0 AltName="Culling group 2" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup03_0 AltName="Culling group 3" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup04_0 AltName="Culling group 4" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup05_0 AltName="Culling group 5" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup06_0 AltName="Culling group 6" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup07_0 AltName="Culling group 7" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup08_0 AltName="Culling group 8" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup09_0 AltName="Culling group 9" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup10_0 AltName="Culling group 10" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup11_0 AltName="Culling group 11" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup12_0 AltName="Culling group 12" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup13_0 AltName="Culling group 13" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup14_0 AltName="Culling group 14" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup15_0 AltName="Culling group 15" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup16_0 AltName="Culling group 16" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup17_0 AltName="Culling group 17" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup18_0 AltName="Culling group 18" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup19_0 AltName="Culling group 19" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup20_0 AltName="Culling group 20" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup21_0 AltName="Culling group 21" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup22_0 AltName="Culling group 22" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup23_0 AltName="Culling group 23" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup24_0 AltName="Culling group 24" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup25_0 AltName="Culling group 25" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup26_0 AltName="Culling group 26" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup27_0 AltName="Culling group 27" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup28_0 AltName="Culling group 28" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup29_0 AltName="Culling group 29" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup30_0 AltName="Culling group 30" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup31_0 AltName="Culling group 31" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup32_0 AltName="Culling group 32" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup33_0 AltName="Culling group 33" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup34_0 AltName="Culling group 34" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup35_0 AltName="Culling group 35" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup36_0 AltName="Culling group 36" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup37_0 AltName="Culling group 37" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup38_0 AltName="Culling group 38" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup39_0 AltName="Culling group 39" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup40_0 AltName="Culling group 40" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup41_0 AltName="Culling group 41" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup42_0 AltName="Culling group 42" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup43_0 AltName="Culling group 43" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup44_0 AltName="Culling group 44" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup45_0 AltName="Culling group 45" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup46_0 AltName="Culling group 46" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup47_0 AltName="Culling group 47" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup48_0 AltName="Culling group 48" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup49_0 AltName="Culling group 49" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup50_0 AltName="Culling group 50" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup51_0 AltName="Culling group 51" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup52_0 AltName="Culling group 52" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup53_0 AltName="Culling group 53" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup54_0 AltName="Culling group 54" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup55_0 AltName="Culling group 55" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup56_0 AltName="Culling group 56" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup57_0 AltName="Culling group 57" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup58_0 AltName="Culling group 58" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup59_0 AltName="Culling group 59" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup60_0 AltName="Culling group 60" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup61_0 AltName="Culling group 61" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup62_0 AltName="Culling group 62" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup63_0 AltName="Culling group 63" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingPriorityNeck1 AltName="Neck-display priority" />
+        <cullingPriorityElbowRight1 AltName="Right arm - display priority" />
+        <cullingValueElbowRight1 AltName="Right arm - culling value" />
+        <cullingPriorityElbowLeft1 AltName="Left arm - display priority" />
+        <cullingValueElbowLeft1 AltName="Left arm - culling value" />
+        <cullingPriorityWaist1 AltName="Waist-display priority" />
+        <cullingValueWaist1 AltName="Waist - culling value" />
+        <clothCtrlType1 AltName="Cross control settings" Enum="EQUIP_CLOTH_CTRL_TYPE" />
+        <cullingGroup00_1 AltName="Culling group 0" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup01_1 AltName="Culling group 1" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup02_1 AltName="Culling group 2" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup03_1 AltName="Culling group 3" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup04_1 AltName="Culling group 4" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup05_1 AltName="Culling group 5" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup06_1 AltName="Culling group 6" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup07_1 AltName="Culling group 7" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup08_1 AltName="Culling group 8" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup09_1 AltName="Culling group 9" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup10_1 AltName="Culling group 10" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup11_1 AltName="Culling group 11" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup12_1 AltName="Culling group 12" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup13_1 AltName="Culling group 13" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup14_1 AltName="Culling group 14" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup15_1 AltName="Culling group 15" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup16_1 AltName="Culling group 16" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup17_1 AltName="Culling group 17" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup18_1 AltName="Culling group 18" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup19_1 AltName="Culling group 19" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup20_1 AltName="Culling group 20" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup21_1 AltName="Culling group 21" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup22_1 AltName="Culling group 22" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup23_1 AltName="Culling group 23" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup24_1 AltName="Culling group 24" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup25_1 AltName="Culling group 25" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup26_1 AltName="Culling group 26" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup27_1 AltName="Culling group 27" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup28_1 AltName="Culling group 28" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup29_1 AltName="Culling group 29" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup30_1 AltName="Culling group 30" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup31_1 AltName="Culling group 31" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup32_1 AltName="Culling group 32" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup33_1 AltName="Culling group 33" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup34_1 AltName="Culling group 34" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup35_1 AltName="Culling group 35" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup36_1 AltName="Culling group 36" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup37_1 AltName="Culling group 37" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup38_1 AltName="Culling group 38" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup39_1 AltName="Culling group 39" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup40_1 AltName="Culling group 40" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup41_1 AltName="Culling group 41" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup42_1 AltName="Culling group 42" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup43_1 AltName="Culling group 43" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup44_1 AltName="Culling group 44" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup45_1 AltName="Culling group 45" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup46_1 AltName="Culling group 46" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup47_1 AltName="Culling group 47" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup48_1 AltName="Culling group 48" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup49_1 AltName="Culling group 49" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup50_1 AltName="Culling group 50" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup51_1 AltName="Culling group 51" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup52_1 AltName="Culling group 52" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup53_1 AltName="Culling group 53" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup54_1 AltName="Culling group 54" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup55_1 AltName="Culling group 55" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup56_1 AltName="Culling group 56" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup57_1 AltName="Culling group 57" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup58_1 AltName="Culling group 58" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup59_1 AltName="Culling group 59" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup60_1 AltName="Culling group 60" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup61_1 AltName="Culling group 61" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup62_1 AltName="Culling group 62" Enum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup63_1 AltName="Culling group 63" Enum="EQUIP_CULLING_GROUP_CTRL" />
+    </Field>
+    <Enums>
+        <Enum Name="EQUIP_CLOTH_CTRL_TYPE" type="u8">
+            <Option Value="0" Name="Do nothing" />
+            <Option Value="1" Name="Loincloth OFF" />
+            <Option Value="2" Name="Miniskirt OFF" />
+            <Option Value="3" Name="Long OFF" />
+            <Option Value="64" Name="No cross" />
+            <Option Value="65" Name="Loincloth" />
+            <Option Value="66" Name="Miniskirt" />
+            <Option Value="67" Name="Long" />
+        </Enum>
+        <Enum Name="EQUIP_CULLING_GROUP_CTRL" type="u8">
+            <Option Value="0" Name="━" />
+            <Option Value="1" Name="OFF" />
+            <Option Value="2" Name="ON" />
+            <Option Value="3" Name="Number of culling types" />
+        </Enum>
+    </Enums>
+</PARAMMETA>

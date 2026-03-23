@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <noneSize AltName="Nothing" Enum="HIT_BACK_WEIGHT_TYPE" />
+        <superSmallSize AltName="Extremely small" Enum="HIT_BACK_WEIGHT_TYPE" />
+        <smallSize AltName="Small" Enum="HIT_BACK_WEIGHT_TYPE" />
+        <normalSize AltName="Medium" Enum="HIT_BACK_WEIGHT_TYPE" />
+        <largeSize AltName="Large" Enum="HIT_BACK_WEIGHT_TYPE" />
+        <superLargeSize AltName="Extra large" Enum="HIT_BACK_WEIGHT_TYPE" />
+        <hyperLargeSize AltName="Super extra large" Enum="HIT_BACK_WEIGHT_TYPE" />
+        <ultraLargeSize AltName="Super super extra large" Enum="HIT_BACK_WEIGHT_TYPE" />
+    </Field>
+    <Enums>
+        <Enum Name="HIT_BACK_WEIGHT_TYPE" type="u32">
+            <Option Value="0" Name="Extremely small" />
+            <Option Value="1" Name="Small" />
+            <Option Value="2" Name="Normal" />
+            <Option Value="3" Name="Large" />
+            <Option Value="4" Name="Extra large" />
+        </Enum>
+    </Enums>
+</PARAMMETA>

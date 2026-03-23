@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <soulLevelThreshold AltName="Required soul threshold level" />
+        <dummy AltName="Dummy" Padding="true" />
+        <increasedSoulsFromThreshold AltName="Required soul increase amount" />
+        <necessarySouls AltName="Required soul" />
+    </Field>
+</PARAMMETA>

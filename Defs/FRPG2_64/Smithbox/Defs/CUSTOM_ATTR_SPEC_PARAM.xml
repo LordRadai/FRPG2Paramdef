@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>CUSTOM_ATTR_SPEC_PARAM</ParamType>
+    <DataVersion>4</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="u8 physical:1" />
+        <Field Def="u8 fire:1" />
+        <Field Def="u8 magic:1" />
+        <Field Def="u8 thunder:1" />
+        <Field Def="u8 dark:1" />
+        <Field Def="u8 poison:1" />
+        <Field Def="u8 bleed:1" />
+        <Field Def="u8 physicalByCrude:1" />
+        <Field Def="u8 physicalByEnchanted:1" />
+        <Field Def="u8 physicalByAbyss:1" />
+        <Field Def="dummy8 padding[2]" />
+    </Fields>
+</PARAMDEF>

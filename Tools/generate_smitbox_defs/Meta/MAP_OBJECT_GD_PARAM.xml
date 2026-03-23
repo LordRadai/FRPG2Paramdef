@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <animId AltName="Anime ID" />
+        <initialFrameHead AltName="[Start] Initial frame" />
+        <initialFrameTail AltName="[End] Initial frame" />
+        <isLoopAnim AltName="Do you want to play it in a loop?" IsBool="true" />
+        <isBreakable AltName="Is it destructible?" IsBool="true" />
+        <isPrefab AltName="Prefabricated?" IsBool="true" />
+        <cameraHit AltName="Behavior when hitting the camera" Enum="OBJ_CAMERA_HIT_ENUM" />
+        <emissiveScale0 AltName="Emissive scale 0" />
+        <emissiveScale1 AltName="Emissive scale 1" />
+        <pad2 AltName="Padding" Padding="true" />
+        <sfxId0 AltName="SFX ID" />
+        <sfxId1 AltName="SFX ID" />
+        <sfxId2 AltName="SFX ID" />
+        <sfxId3 AltName="SFX ID" />
+        <sfxId4 AltName="SFX ID" />
+        <sfxId5 AltName="SFX ID" />
+        <sfxIdBreak0 AltName="SFX ID" />
+        <sfxPoint0 AltName="Point of occurrence" Enum="OBJ_RESIDENT_SFX_POINT_ENUM" />
+        <sfxPoint1 AltName="Point of occurrence" Enum="OBJ_RESIDENT_SFX_POINT_ENUM" />
+        <sfxPoint2 AltName="Point of occurrence" Enum="OBJ_RESIDENT_SFX_POINT_ENUM" />
+        <sfxPoint3 AltName="Point of occurrence" Enum="OBJ_RESIDENT_SFX_POINT_ENUM" />
+        <sfxPoint4 AltName="Point of occurrence" Enum="OBJ_RESIDENT_SFX_POINT_ENUM" />
+        <sfxPoint5 AltName="Point of occurrence" Enum="OBJ_RESIDENT_SFX_POINT_ENUM" />
+        <sfxPointBreak0 AltName="Point of occurrence" Enum="OBJ_RESIDENT_SFX_POINT_ENUM" />
+        <sfxDmyPolyId0 AltName="Damipoli ID" />
+        <sfxDmyPolyId1 AltName="Damipoli ID" />
+        <sfxDmyPolyId2 AltName="Damipoli ID" />
+        <sfxDmyPolyId3 AltName="Damipoli ID" />
+        <sfxDmyPolyId4 AltName="Damipoli ID" />
+        <sfxDmyPolyId5 AltName="Damipoli ID" />
+        <sfxDmyPolyIdBreak0 AltName="Damipoli ID" />
+        <doesFollow0 AltName="Follow" IsBool="true" />
+        <doesFollow1 AltName="Follow" IsBool="true" />
+        <doesFollow2 AltName="Follow" IsBool="true" />
+        <doesFollow3 AltName="Follow" IsBool="true" />
+        <doesFollow4 AltName="Follow" IsBool="true" />
+        <doesFollow5 AltName="Follow" IsBool="true" />
+    </Field>
+    <Enums>
+        <Enum Name="OBJ_CAMERA_HIT_ENUM" type="u8">
+            <Option Value="0" Name="Close to PC" />
+            <Option Value="1" Name="Do nothing" />
+            <Option Value="2" Name="Translucency" />
+        </Enum>
+        <Enum Name="OBJ_RESIDENT_SFX_POINT_ENUM" type="u8">
+            <Option Value="0" Name="Master" />
+            <Option Value="1" Name="Center" />
+            <Option Value="2" Name="Damipoly specification" />
+        </Enum>
+    </Enums>
+</PARAMMETA>

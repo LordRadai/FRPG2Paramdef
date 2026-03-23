@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>CHR_NET_PHANTOM_SOUL_RATE_PARAM</ParamType>
+    <DataVersion>1</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="f32 none" />
+        <Field Def="f32 white" />
+        <Field Def="f32 smallWhite" />
+        <Field Def="f32 gold" />
+        <Field Def="f32 smallGold" />
+        <Field Def="f32 coopBlue" />
+        <Field Def="f32 versusBlue" />
+        <Field Def="f32 signBlack" />
+        <Field Def="f32 intrudeBlack" />
+        <Field Def="f32 signRed" />
+        <Field Def="f32 intrudeRed" />
+        <Field Def="f32 bellGuard" />
+        <Field Def="f32 ratKing" />
+        <Field Def="f32 dragon" />
+        <Field Def="f32 mirrorKnight" />
+        <Field Def="f32 abyss" />
+        <Field Def="f32 duelBlue" />
+        <Field Def="f32 duelRed" />
+    </Fields>
+</PARAMDEF>

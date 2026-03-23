@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>MAP_OBJECT_TREASURE_BOX_PARAM</ParamType>
+    <DataVersion>2</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="u8 forceTrapEnable" />
+        <Field Def="dummy8 aReserved1[3]" />
+        <Field Def="u32 trapGasDamageId" />
+        <Field Def="u32 trapHealDamageId" />
+        <Field Def="u32 trapBurstDamageId" />
+        <Field Def="u32 trapArrowDamageId" />
+        <Field Def="u32 trapEnemy" />
+    </Fields>
+</PARAMDEF>

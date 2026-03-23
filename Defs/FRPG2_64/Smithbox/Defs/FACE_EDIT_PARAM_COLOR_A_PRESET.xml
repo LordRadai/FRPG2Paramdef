@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>FACE_EDIT_PARAM_COLOR_A_PRESET</ParamType>
+    <DataVersion>1</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>104</FormatVersion>
+    <Fields>
+        <Field Def="f32 red" />
+        <Field Def="f32 green" />
+        <Field Def="f32 blue" />
+        <Field Def="f32 alpha" />
+    </Fields>
+</PARAMDEF>

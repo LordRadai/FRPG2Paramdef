@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <itemIdWhenFailure AltName="Item ID when use fails" />
+        <itemUseMaxSpeed AltName="Item use maximum speed multiplier (x)" />
+        <itemUseMaxSpeedChangeSec AltName="Item usage maximum speed change time (Sec)" />
+        <itemUseMaxSpeedReturnSec AltName="Item usage Maximum speed Recovery time (Sec)" />
+        <itemMotionType AltName="Item usage motion" Enum="PLAYER_ITEM_USE_MOTION" />
+        <ladderItemMotionType AltName="Ladder item usage motion" Enum="PLAYER_ITEM_USE_MOTION" />
+        <itemCateType AltName="Item category" Enum="ITEM_CATE_TYPE" />
+        <itemMotionArmType AltName="Item usage arm type" Enum="ITEM_MOTION_ARM_TYPE" />
+        <itemModelType AltName="Abandoned model" Enum="ITEM_MODEL_TYPE" />
+        <itemSpecialReset AltName="Item special reset" IsBool="true" />
+        <canMoveRepository AltName="Warehouse movement permission" IsBool="true" />
+    </Field>
+    <Enums>
+        <Enum Name="PLAYER_ITEM_USE_MOTION" type="u32">
+            <Option Value="10" Name="Take out (one hand)" />
+            <Option Value="11" Name="Take out (both hands)" />
+            <Option Value="20" Name="Sprinkle powder on body" />
+            <Option Value="30" Name="Eating: Ladder allowed" />
+            <Option Value="40" Name="Drinking: Ladder allowed" />
+            <Option Value="50" Name="Crush the soul: Ladder possible" />
+            <Option Value="60" Name="Paint on weapon" />
+            <Option Value="80" Name="Prayer" />
+            <Option Value="90" Name="Absorb a big soul" />
+            <Option Value="100" Name="Throw (light)" />
+            <Option Value="110" Name="Throw (weight)" />
+            <Option Value="150" Name="Draw a sign" />
+            <Option Value="170" Name="Failure: ladder possible" />
+            <Option Value="180" Name="Put" />
+            <Option Value="190" Name="Press against chest: Ladder possible" />
+            <Option Value="200" Name="Drink est" />
+            <Option Value="210" Name="Prayer (loop)" />
+            <Option Value="220" Name="Light a torch" />
+            <Option Value="230" Name="Dragon transformation" />
+            <Option Value="240" Name="Dragon breath" />
+            <Option Value="250" Name="Dragon roar" />
+        </Enum>
+        <Enum Name="ITEM_CATE_TYPE" type="u8">
+            <Option Value="0" Name="None" />
+            <Option Value="1" Name="Passive" />
+            <Option Value="2" Name="Source" />
+            <Option Value="3" Name="Weapon" />
+            <Option Value="4" Name="Shield" />
+            <Option Value="5" Name="Armor" />
+            <Option Value="6" Name="Ring" />
+            <Option Value="7" Name="Spell" />
+            <Option Value="8" Name="Active" />
+            <Option Value="9" Name="Arrow" />
+            <Option Value="11" Name="Torch" />
+        </Enum>
+        <Enum Name="ITEM_MOTION_ARM_TYPE" type="u8">
+            <Option Value="0" Name="Right hand" />
+            <Option Value="1" Name="Left hand" />
+            <Option Value="2" Name="Both hands" />
+            <Option Value="3" Name="None" />
+        </Enum>
+        <Enum Name="ITEM_MODEL_TYPE" type="u8">
+            <Option Value="0" Name="General purpose" />
+            <Option Value="1" Name="Weapon" />
+            <Option Value="2" Name="Armor" />
+            <Option Value="3" Name="Ring" />
+            <Option Value="4" Name="Material" />
+        </Enum>
+    </Enums>
+</PARAMMETA>

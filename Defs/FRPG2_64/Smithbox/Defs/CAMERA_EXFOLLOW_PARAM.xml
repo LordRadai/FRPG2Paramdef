@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>CAMERA_EXFOLLOW_PARAM</ParamType>
+    <DataVersion>3</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="u8 cameraType" />
+        <Field Def="u8 cameraBasePosType" />
+        <Field Def="dummy8 reserved0[2]" />
+        <Field Def="angle32 fovY" />
+        <Field Def="f32 hitCollision" />
+        <Field Def="f32 targetOffsetX" />
+        <Field Def="f32 targetOffsetY" />
+        <Field Def="f32 targetOffsetZ" />
+        <Field Def="f32 distance" />
+        <Field Def="f32 lrMoveDistanceMax" />
+        <Field Def="f32 lrMoveRateMin" />
+        <Field Def="f32 lrMoveRateMax" />
+        <Field Def="f32 fulcrumDistRate" />
+        <Field Def="f32 transChaseRate" />
+        <Field Def="f32 transChaseRateEscapeWall" />
+        <Field Def="f32 targetTransChaseRate" />
+        <Field Def="f32 targetRotXChaseRate" />
+        <Field Def="f32 targetChaseRateXZForNormal" />
+        <Field Def="f32 targetChaseRateXZForEscapeWall" />
+        <Field Def="f32 targetChaseRateY" />
+        <Field Def="angle32 targetChaseRateMinAng" />
+        <Field Def="angle32 targetChaseRateMaxAng" />
+        <Field Def="f32 targetChaseDistRate" />
+        <Field Def="f32 targetChaseRateAtLockXZ" />
+        <Field Def="f32 targetChaseRateAtLockY" />
+        <Field Def="angle32 targetChaseRateMinAngAtLock" />
+        <Field Def="angle32 targetChaseRateMaxAngAtLock" />
+        <Field Def="f32 transChaseByCtrlEndWaitTime" />
+        <Field Def="f32 transChaseByCtrlEndReleaseTime" />
+        <Field Def="f32 rotCtrlEndWaitTime" />
+        <Field Def="f32 rotCtrlEndReleaseTime" />
+        <Field Def="f32 rotHiSpeedRateIncTime" />
+        <Field Def="angle32 rotRangeMinX" />
+        <Field Def="angle32 rotRangeMaxX" />
+        <Field Def="angle32 rotRangeMinXAtLock" />
+        <Field Def="angle32 rotRangeMaxXAtLock" />
+        <Field Def="f32 rotRangeLerpBeginHeight" />
+        <Field Def="f32 rotRangeLerpEndHeight" />
+        <Field Def="angle32 rotSpeedX_Min" />
+        <Field Def="angle32 rotSpeedX_Max" />
+        <Field Def="angle32 rotSpeedY_Min" />
+        <Field Def="angle32 rotSpeedY_Max" />
+        <Field Def="angle32 rotHiSpeedX_Min" />
+        <Field Def="angle32 rotHiSpeedX_Max" />
+        <Field Def="angle32 rotHiSpeedY_Min" />
+        <Field Def="angle32 rotHiSpeedY_Max" />
+        <Field Def="angle32 directPitchAng" />
+        <Field Def="f32 directPitchRate" />
+        <Field Def="f32 lockRotChaseRate" />
+        <Field Def="angle32 lockRotChasePlayAng" />
+        <Field Def="f32 lockRotXShiftRatio" />
+        <Field Def="f32 forceFrontLockTime" />
+        <Field Def="u32 updateTargetRotXByLock" />
+        <Field Def="u32 updateTargetRotXByFrontLock" />
+        <Field Def="u32 enableLockCamAdjust" />
+        <Field Def="dummy8 reserved1[4]" />
+        <Field Def="angle32 lockCamAdjustRotX_Max" />
+        <Field Def="angle32 lockCamAdjustRotY_Max" />
+        <Field Def="f32 lockCamAdjustRotChaseRate" />
+        <Field Def="angle32 escapeWallRotAddY" />
+        <Field Def="angle32 escapeWallRotMaxY" />
+        <Field Def="f32 escapeWallRotDampRatio" />
+        <Field Def="angle32 escapeWallWingAngY" />
+        <Field Def="f32 escapeWallWingLen" />
+        <Field Def="f32 escapeWallWingRadius" />
+        <Field Def="f32 escapeWallWingSeparate" />
+        <Field Def="f32 resetMinTime" />
+        <Field Def="f32 resetMaxTime" />
+        <Field Def="f32 resetSpeedChangeRate" />
+        <Field Def="f32 parameterApplyTime" />
+        <Field Def="f32 transChaseRateLock" />
+        <Field Def="f32 targetChaseDistRateLock" />
+        <Field Def="f32 lockRotChaseRateMaxTime" />
+        <Field Def="u32 useRotationBrake" />
+        <Field Def="u32 useRotationBrakeReverseAdjust" />
+        <Field Def="f32 rotaitionBrakeTimeNormalSpeedX" />
+        <Field Def="f32 rotationBrakeAddTimelHighSpeedX" />
+        <Field Def="f32 rotaitionBrakeTimeNormalSpeedY" />
+        <Field Def="f32 rotationBrakeAddTimelHighSpeedY" />
+    </Fields>
+</PARAMDEF>

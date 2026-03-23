@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PARAMMETA XmlVersion="0">
-    <Field>
-        <doorType AltName="door type" ProjectEnum="DOOR_TYPE_ENUM" />
-        <aReserved AltName="reservation" Padding="true" />
-        <openKeyGuideParam AltName="Key guide parameter ID when opening" Refs="KeyGuideParam" />
-        <closeKeyGuideParam AltName="Key guide parameter ID when closing" Refs="KeyGuideParam" />
-    </Field>
-</PARAMMETA>

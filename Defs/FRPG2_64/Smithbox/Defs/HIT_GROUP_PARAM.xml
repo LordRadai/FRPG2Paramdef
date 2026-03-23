@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>HIT_GROUP_PARAM</ParamType>
+    <DataVersion>3</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="u8 gameBright0" />
+        <Field Def="u8 gameBright1" />
+        <Field Def="u8 generateMaxNum" />
+        <Field Def="dummy8 aReserved[1]" />
+        <Field Def="u8 groundMaterial240_0" />
+        <Field Def="u8 groundMaterial240_1" />
+        <Field Def="u8 groundMaterial240_2" />
+        <Field Def="u8 groundMaterial240_3" />
+        <Field Def="u8 groundMaterial241_0" />
+        <Field Def="u8 groundMaterial241_1" />
+        <Field Def="u8 groundMaterial241_2" />
+        <Field Def="u8 groundMaterial241_3" />
+        <Field Def="u8 groundMaterial242_0" />
+        <Field Def="u8 groundMaterial242_1" />
+        <Field Def="u8 groundMaterial242_2" />
+        <Field Def="u8 groundMaterial242_3" />
+        <Field Def="u8 groundMaterial243_0" />
+        <Field Def="u8 groundMaterial243_1" />
+        <Field Def="u8 groundMaterial243_2" />
+        <Field Def="u8 groundMaterial243_3" />
+        <Field Def="u8 groundMaterial244_0" />
+        <Field Def="u8 groundMaterial244_1" />
+        <Field Def="u8 groundMaterial244_2" />
+        <Field Def="u8 groundMaterial244_3" />
+        <Field Def="u8 groundMaterial245_0" />
+        <Field Def="u8 groundMaterial245_1" />
+        <Field Def="u8 groundMaterial245_2" />
+        <Field Def="u8 groundMaterial245_3" />
+        <Field Def="u8 groundMaterial246_0" />
+        <Field Def="u8 groundMaterial246_1" />
+        <Field Def="u8 groundMaterial246_2" />
+        <Field Def="u8 groundMaterial246_3" />
+        <Field Def="u8 groundMaterial247_0" />
+        <Field Def="u8 groundMaterial247_1" />
+        <Field Def="u8 groundMaterial247_2" />
+        <Field Def="u8 groundMaterial247_3" />
+        <Field Def="u8 groundMaterial248_0" />
+        <Field Def="u8 groundMaterial248_1" />
+        <Field Def="u8 groundMaterial248_2" />
+        <Field Def="u8 groundMaterial248_3" />
+        <Field Def="u8 groundMaterial249_0" />
+        <Field Def="u8 groundMaterial249_1" />
+        <Field Def="u8 groundMaterial249_2" />
+        <Field Def="u8 groundMaterial249_3" />
+        <Field Def="u8 groundMaterial250_0" />
+        <Field Def="u8 groundMaterial250_1" />
+        <Field Def="u8 groundMaterial250_2" />
+        <Field Def="u8 groundMaterial250_3" />
+        <Field Def="u8 groundMaterial251_0" />
+        <Field Def="u8 groundMaterial251_1" />
+        <Field Def="u8 groundMaterial251_2" />
+        <Field Def="u8 groundMaterial251_3" />
+        <Field Def="u8 groundMaterial252_0" />
+        <Field Def="u8 groundMaterial252_1" />
+        <Field Def="u8 groundMaterial252_2" />
+        <Field Def="u8 groundMaterial252_3" />
+        <Field Def="u8 groundMaterial253_0" />
+        <Field Def="u8 groundMaterial253_1" />
+        <Field Def="u8 groundMaterial253_2" />
+        <Field Def="u8 groundMaterial253_3" />
+        <Field Def="u8 groundMaterial254_0" />
+        <Field Def="u8 groundMaterial254_1" />
+        <Field Def="u8 groundMaterial254_2" />
+        <Field Def="u8 groundMaterial254_3" />
+        <Field Def="u8 groundMaterial255_0" />
+        <Field Def="u8 groundMaterial255_1" />
+        <Field Def="u8 groundMaterial255_2" />
+        <Field Def="u8 groundMaterial255_3" />
+    </Fields>
+</PARAMDEF>

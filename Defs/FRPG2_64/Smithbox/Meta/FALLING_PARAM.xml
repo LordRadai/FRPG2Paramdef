@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <fallingDamageSafety AltName="《Landing Fall Damage Safety》" />
+        <fallingDamageNormal AltName="《Landing fall damage normal》" />
+        <fallingDamageDanger AltName="《Landing Falling Damage Danger》" />
+        <fallingDamageDead AltName="《Landing, Falling Damage, Death》" />
+        <fallingDamageMitigationDodge AltName="《Landing Falling damage reduction Evasion》" />
+        <fallingDamageMitigationMagic AltName="《Landing Falling Damage Reduction Magic》" />
+        <fallingDamageMitigationRing AltName="《Landing Fall Damage Reduction Ring》" />
+        <fallingDamageMitigationTramp AltName="《Landing Fall damage reduction Trampling》" />
+    </Field>
+</PARAMMETA>

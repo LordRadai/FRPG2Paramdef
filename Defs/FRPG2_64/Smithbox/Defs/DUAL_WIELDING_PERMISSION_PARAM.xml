@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>DUAL_WIELDING_PERMISSION_PARAM</ParamType>
+    <DataVersion>5</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="u8 none" />
+        <Field Def="u8 unarmed" />
+        <Field Def="u8 fist" />
+        <Field Def="u8 dagger" />
+        <Field Def="u8 thrustingSword" />
+        <Field Def="u8 sword" />
+        <Field Def="u8 doublelBlade" />
+        <Field Def="u8 hammer" />
+        <Field Def="u8 greatSword" />
+        <Field Def="u8 axe" />
+        <Field Def="u8 greatHammer" />
+        <Field Def="u8 ultraGreatSword" />
+        <Field Def="u8 greatAxe" />
+        <Field Def="u8 scythe" />
+        <Field Def="u8 halberd" />
+        <Field Def="u8 spear" />
+        <Field Def="u8 lance" />
+        <Field Def="u8 whip" />
+        <Field Def="u8 bow" />
+        <Field Def="u8 burstBow" />
+        <Field Def="u8 wand" />
+        <Field Def="u8 bell" />
+        <Field Def="u8 rightShield" />
+        <Field Def="u8 leftShield" />
+        <Field Def="u8 claw" />
+        <Field Def="u8 unk0" />
+        <Field Def="u8 unk1" />
+    </Fields>
+</PARAMDEF>

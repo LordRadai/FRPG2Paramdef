@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <graveGenerateTime AltName="Grave creation time" />
+        <deadTimeValueId AltName="Death time storage ID" ProjectEnum="EVENT_VALUE_global" />
+        <deadFlagId AltName="Death flag ID" ProjectEnum="EVENT_FLAG_GLOBAL_EVENT" />
+        <graveSoulValue AltName="Grave soul cost" />
+        <chrNameTextId AltName="Character text ID" />
+        <aReserved1 AltName="Reservation" Padding="true" />
+        <value0 AltName="Generic value 0" />
+        <value1 AltName="Generic value 1" />
+        <value2 AltName="Generic value 2" />
+        <value3 AltName="Generic value 3" />
+        <value4 AltName="Generic value 4" />
+        <value5 AltName="Generic value 5" />
+    </Field>
+</PARAMMETA>

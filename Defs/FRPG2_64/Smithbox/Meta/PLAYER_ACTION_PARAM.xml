@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <fMaxAdrenaline AltName="Maximum total amount of adrenaline [ng]" />
+        <fDecreaseAderanalinePerSec AltName="Adrenaline reduction amount [ng/s]" />
+        <fAdrenalineCoolTime AltName="Adrenaline cool time [sec]" />
+        <fMaxDistressAmount AltName="Total lactic acid [ng]" />
+        <fMinEffectiveDistress AltName="Lactic acid effect lowest value [ng]" />
+        <fMaxEffectiveDistress AltName="Lactic acid effect maximum value [ng]" />
+        <fMinBreathlessAnimWait AltName="Shortness of breath Minimum blend rate" />
+        <fMaxBreathlessAnimWait AltName="Shortness of breath maximum blend rate" />
+        <fDecreaseDistressPerSec AltName="Lactic acid reduction amount [ng/s]" />
+        <fMinPivotAngleForGainDistress AltName="Lactic acid addition angle [deg]" />
+        <fDecreaseDistressOnGuard AltName="Lactic acid defense reduction value [ng]" />
+    </Field>
+</PARAMMETA>

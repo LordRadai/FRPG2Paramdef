@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>CAMERA_NORMAL_PARAM</ParamType>
+    <DataVersion>1</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="u8 cameraType" />
+        <Field Def="u8 cameraBasePosType" />
+        <Field Def="dummy8 reserved[2]" />
+        <Field Def="angle32 fovY" />
+        <Field Def="f32 fulcrumOffsetX" />
+        <Field Def="f32 fulcrumOffsetY" />
+        <Field Def="f32 fulcrumOffsetZ" />
+        <Field Def="f32 fulcrumMoveRate" />
+        <Field Def="f32 lookAtOffsetX" />
+        <Field Def="f32 lookAtOffsetY" />
+        <Field Def="f32 lookAtOffsetZ" />
+        <Field Def="f32 lookAtMoveRate" />
+        <Field Def="f32 positionOffsetX" />
+        <Field Def="f32 positionOffsetY" />
+        <Field Def="f32 positionOffsetZ" />
+        <Field Def="f32 positionMoveRate" />
+        <Field Def="f32 panSpeedMax" />
+        <Field Def="f32 panSpeedAccel" />
+        <Field Def="f32 panSpeedBrake" />
+        <Field Def="f32 tiltSpeedMax" />
+        <Field Def="f32 tiltSpeedAccel" />
+        <Field Def="f32 tiltSpeedBrake" />
+        <Field Def="angle32 tiltUpLimit" />
+        <Field Def="angle32 tiltDownLimit" />
+    </Fields>
+</PARAMDEF>

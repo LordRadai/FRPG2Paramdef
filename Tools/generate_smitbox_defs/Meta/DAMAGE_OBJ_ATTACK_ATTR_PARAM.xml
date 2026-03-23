@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <priority AltName="Destruction priority" />
+        <dummy AltName="Dummy" Padding="true" />
+    </Field>
+</PARAMMETA>
