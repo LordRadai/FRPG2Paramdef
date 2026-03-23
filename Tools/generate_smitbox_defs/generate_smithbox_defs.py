@@ -4,8 +4,8 @@ split_paramdef.py
 
 Splits a PARAMDEF XML into two separate files:
 
-  1. <n>def  - lean struct definition, one self-closing <Field Def="..."/> per field
-  2. <n>meta - metadata (AltName from DisplayName, ProjectEnum from Enum, Refs)
+  1. <n>.paramdef.xml  - lean struct definition, one self-closing <Field Def="..."/> per field
+  2. <n>.parammeta.xml - metadata (AltName from DisplayName, ProjectEnum from Enum, Refs)
 
 Optionally accepts a config.txt mapping enum names to Refs values.
 When a field's <Enum> matches a key in the config, ProjectEnum is replaced by Refs.
@@ -130,6 +130,11 @@ def split(src: Path, def_dst: Path, meta_dst: Path, enum_config: dict | None = N
             clean_def = " ".join(parts)
 
         # PARAMDEF entry (self-closing, default stripped)
+        # dummy8 fields must always have an array size; add [1] if missing
+        def_tokens = clean_def.split()
+        if len(def_tokens) >= 2 and def_tokens[0] == "dummy8" and "[" not in def_tokens[-1]:
+            def_tokens[-1] += "[1]"
+            clean_def = " ".join(def_tokens)
         ET.SubElement(def_fields, "Field", {"Def": clean_def})
 
         # PARAMMETA entry
