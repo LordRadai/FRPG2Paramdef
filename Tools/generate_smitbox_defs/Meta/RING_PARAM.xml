@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <weight AltName="重量(kg単位)" />
+        <durability AltName="耐久値" />
+        <repairCost AltName="パラメータ 修理コスト [soul]" />
+        <itemDropWeight AltName="アイテムドロップ率補正[%] x0.01" />
+        <dummy0 AltName="ダミー" />
+    </Field>
+</PARAMMETA>

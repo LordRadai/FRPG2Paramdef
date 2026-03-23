@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>DAMAGE_WIND_CATE_PARAM</ParamType>
+    <DataVersion>1</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="u8 cloth" />
+        <Field Def="u8 model" />
+        <Field Def="u8 obj" />
+        <Field Def="u8 sfx" />
+        <Field Def="u8 dmgSfx" />
+        <Field Def="u8 eraseSfx" />
+        <Field Def="dummy8 dummy0[2]" />
+        <Field Def="f32 fadeInTime" />
+        <Field Def="f32 fadeOutTime" />
+    </Fields>
+</PARAMDEF>

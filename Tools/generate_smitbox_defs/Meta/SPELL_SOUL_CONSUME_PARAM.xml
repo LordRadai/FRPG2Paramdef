@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <consumeType AltName="計算式" ProjectEnum="SPELL_SOUL_CONSUME_TYPE" />
+        <dummy0 AltName="パディング用ダミー" />
+        <consumeSoul AltName="消費ソウル量" />
+        <bulletAndDamageId01 AltName="バレット&amp;ダメージID 1" />
+        <bulletAndDamageId02 AltName="バレット&amp;ダメージID 2" />
+        <bulletAndDamageId03 AltName="バレット&amp;ダメージID 3" />
+        <bulletAndDamageId04 AltName="バレット&amp;ダメージID 4" />
+        <bulletAndDamageId05 AltName="バレット&amp;ダメージID 5" />
+        <bulletAndDamageLeftId01 AltName="バレット&amp;ダメージID 左1" />
+        <bulletAndDamageLeftId02 AltName="バレット&amp;ダメージID 左2" />
+        <bulletAndDamageLeftId03 AltName="バレット&amp;ダメージID 左3" />
+        <bulletAndDamageLeftId04 AltName="バレット&amp;ダメージID 左4" />
+        <bulletAndDamageLeftId05 AltName="バレット&amp;ダメージID 左5" />
+    </Field>
+</PARAMMETA>

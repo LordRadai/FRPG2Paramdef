@@ -1,0 +1,453 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <combo0AttackMotionId AltName="《コンボ行動0 コンボ一段目》" />
+        <combo0ComboAttackRoute1 AltName="《コンボ行動0 コンボ二段目》" ProjectEnum="COMBO_ROUTE_TYPE" />
+        <combo0ComboAttackRoute2 AltName="《コンボ行動0 コンボ三段目》" ProjectEnum="COMBO_ROUTE_TYPE" />
+        <combo0ComboAttackRoute3 AltName="《コンボ行動0 コンボ四段目》" ProjectEnum="COMBO_ROUTE_TYPE" />
+        <combo0BladeCtrlType AltName="《コンボ行動0 近接制御タイプ》" ProjectEnum="BLADE_CTRL_TYPE" />
+        <combo0AttackId01 AltName="《コンボ行動0 攻撃ID1》" />
+        <combo0AttackId02 AltName="《コンボ行動0 攻撃ID2》" />
+        <combo0AttackId03 AltName="《コンボ行動0 攻撃ID3》" />
+        <combo0AttackId04 AltName="《コンボ行動0 攻撃ID4》" />
+        <combo0BulletId01 AltName="《コンボ行動0 BulletID1》" />
+        <combo0BulletId02 AltName="《コンボ行動0 BulletID2》" />
+        <combo0BulletId03 AltName="《コンボ行動0 BulletID3》" />
+        <combo0BulletId04 AltName="《コンボ行動0 BulletID4》" />
+        <combo0ShtoStanceTime01 AltName="《コンボ行動0 射撃構え時間1》" />
+        <combo0ShtoStanceTime02 AltName="《コンボ行動0 射撃構え時間2》" />
+        <combo0ShtoStanceTime03 AltName="《コンボ行動0 射撃構え時間3》" />
+        <combo0ShtoStanceTime04 AltName="《コンボ行動0 射撃構え時間4》" />
+        <combo0NonInterruptibleType01 AltName="《コンボ行動0 割り込み不可タイプ1》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <combo0NonInterruptibleType02 AltName="《コンボ行動0 割り込み不可タイプ2》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <combo0NonInterruptibleType03 AltName="《コンボ行動0 割り込み不可タイプ3》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <combo0NonInterruptibleType04 AltName="《コンボ行動0 割り込み不可タイプ4》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <combo0AttackMoveId01 AltName="《コンボ行動0 歩行攻撃ID1》" ProjectEnum="ENEMY_ATTACK_TYPE" />
+        <combo0AttackMoveId02 AltName="《コンボ行動0 歩行攻撃ID2》" ProjectEnum="ENEMY_ATTACK_TYPE" />
+        <combo0AttackMoveId03 AltName="《コンボ行動0 歩行攻撃ID3》" ProjectEnum="ENEMY_ATTACK_TYPE" />
+        <combo0AttackMoveId04 AltName="《コンボ行動0 歩行攻撃ID4》" ProjectEnum="ENEMY_ATTACK_TYPE" />
+        <combo0AttackHomingCancel01 AltName="《コンボ行動0 ホーミング解除有効設定1》" ProjectEnum="BOOL_ENABLEDISABLE_TYPE" />
+        <combo0AttackHomingCancel02 AltName="《コンボ行動0 ホーミング解除有効設定2》" ProjectEnum="BOOL_ENABLEDISABLE_TYPE" />
+        <combo0AttackHomingCancel03 AltName="《コンボ行動0 ホーミング解除有効設定3》" ProjectEnum="BOOL_ENABLEDISABLE_TYPE" />
+        <combo0AttackHomingCancel04 AltName="《コンボ行動0 ホーミング解除有効設定4》" ProjectEnum="BOOL_ENABLEDISABLE_TYPE" />
+        <combo0AttackRange01 AltName="《コンボ行動0 歩行攻撃攻撃範囲1》" />
+        <combo0AttackRange02 AltName="《コンボ行動0 歩行攻撃攻撃範囲2》" />
+        <combo0AttackRange03 AltName="《コンボ行動0 歩行攻撃攻撃範囲3》" />
+        <combo0AttackRange04 AltName="《コンボ行動0 歩行攻撃攻撃範囲4》" />
+        <fCombo0AttackBackSwingSpeed01 AltName="《コンボ行動0 攻撃開始部速度倍率1》" />
+        <fCombo0AttackBackSwingSpeed02 AltName="《コンボ行動0 攻撃開始部速度倍率2》" />
+        <fCombo0AttackBackSwingSpeed03 AltName="《コンボ行動0 攻撃開始部速度倍率3》" />
+        <fCombo0AttackBackSwingSpeed04 AltName="《コンボ行動0 攻撃開始部速度倍率4》" />
+        <fCombo0AttackFollowSwingSpeed01 AltName="《コンボ行動0 攻撃終了部速度倍率1》" />
+        <fCombo0AttackFollowSwingSpeed02 AltName="《コンボ行動0 攻撃終了部速度倍率2》" />
+        <fCombo0AttackFollowSwingSpeed03 AltName="《コンボ行動0 攻撃終了部速度倍率3》" />
+        <fCombo0AttackFollowSwingSpeed04 AltName="《コンボ行動0 攻撃終了部速度倍率4》" />
+        <fCombo0EstimateFutureTime01 AltName="《コンボ行動0 位置予測時間1》" />
+        <fCombo0EstimateFutureTime02 AltName="《コンボ行動0 位置予測時間2》" />
+        <fCombo0EstimateFutureTime03 AltName="《コンボ行動0 位置予測時間3》" />
+        <fCombo0EstimateFutureTime04 AltName="《コンボ行動0 位置予測時間4》" />
+        <combo0AttackAngle01 AltName="《コンボ行動0 角度補正1[deg]》" />
+        <combo0AttackAngle02 AltName="《コンボ行動0 角度補正2[deg]》" />
+        <combo0AttackAngle03 AltName="《コンボ行動0 角度補正3[deg]》" />
+        <combo0AttackAngle04 AltName="《コンボ行動0 角度補正4[deg]》" />
+        <fCombo0AttackRotateHigh01 AltName="《コンボ行動0 旋回補間開始距離1[m]》" />
+        <fCombo0AttackRotateHigh02 AltName="《コンボ行動0 旋回補間開始距離2[m]》" />
+        <fCombo0AttackRotateHigh03 AltName="《コンボ行動0 旋回補間開始距離3[m]》" />
+        <fCombo0AttackRotateHigh04 AltName="《コンボ行動0 旋回補間開始距離4[m]》" />
+        <fCombo0AttackRotateLow01 AltName="《コンボ行動0 旋回補間終了距離1[m]》" />
+        <fCombo0AttackRotateLow02 AltName="《コンボ行動0 旋回補間終了距離2[m]》" />
+        <fCombo0AttackRotateLow03 AltName="《コンボ行動0 旋回補間終了距離3[m]》" />
+        <fCombo0AttackRotateLow04 AltName="《コンボ行動0 旋回補間終了距離4[m]》" />
+        <combo0AttackHand01 AltName="《コンボ行動0 攻撃手1》" />
+        <combo0AttackHand02 AltName="《コンボ行動0 攻撃手2》" />
+        <combo0AttackHand03 AltName="《コンボ行動0 攻撃手3》" />
+        <combo0AttackHand04 AltName="《コンボ行動0 攻撃手4》" />
+        <combo0AttackChantSfx AltName="《コンボ行動0 詠唱SFX》" ProjectEnum="ENEMY_SHOT_SFX_PARAM_ENUM" />
+        <combo0Reload AltName="《コンボ行動0 リロード時間[sec]》" />
+        <pad00 AltName="予約" />
+        <combo1AttackMotionId AltName="《コンボ行動1 コンボ一段目》" />
+        <combo1ComboAttackRoute1 AltName="《コンボ行動1 コンボ二段目》" ProjectEnum="COMBO_ROUTE_TYPE" />
+        <combo1ComboAttackRoute2 AltName="《コンボ行動1 コンボ三段目》" ProjectEnum="COMBO_ROUTE_TYPE" />
+        <combo1ComboAttackRoute3 AltName="《コンボ行動1 コンボ四段目》" ProjectEnum="COMBO_ROUTE_TYPE" />
+        <combo1BladeCtrlType AltName="《コンボ行動1 近接制御タイプ》" ProjectEnum="BLADE_CTRL_TYPE" />
+        <combo1AttackId01 AltName="《コンボ行動1 攻撃ID1》" />
+        <combo1AttackId02 AltName="《コンボ行動1 攻撃ID2》" />
+        <combo1AttackId03 AltName="《コンボ行動1 攻撃ID3》" />
+        <combo1AttackId04 AltName="《コンボ行動1 攻撃ID4》" />
+        <combo1BulletId01 AltName="《コンボ行動1 BulletID1》" />
+        <combo1BulletId02 AltName="《コンボ行動1 BulletID2》" />
+        <combo1BulletId03 AltName="《コンボ行動1 BulletID3》" />
+        <combo1BulletId04 AltName="《コンボ行動1 BulletID4》" />
+        <combo1ShtoStanceTime01 AltName="《コンボ行動1 射撃構え時間1》" />
+        <combo1ShtoStanceTime02 AltName="《コンボ行動1 射撃構え時間2》" />
+        <combo1ShtoStanceTime03 AltName="《コンボ行動1 射撃構え時間3》" />
+        <combo1ShtoStanceTime04 AltName="《コンボ行動1 射撃構え時間4》" />
+        <combo1NonInterruptibleType01 AltName="《コンボ行動1 割り込み不可タイプ1》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <combo1NonInterruptibleType02 AltName="《コンボ行動1 割り込み不可タイプ2》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <combo1NonInterruptibleType03 AltName="《コンボ行動1 割り込み不可タイプ3》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <combo1NonInterruptibleType04 AltName="《コンボ行動1 割り込み不可タイプ4》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <combo1AttackMoveId01 AltName="《コンボ行動1 歩行攻撃ID1》" ProjectEnum="ENEMY_ATTACK_TYPE" />
+        <combo1AttackMoveId02 AltName="《コンボ行動1 歩行攻撃ID2》" ProjectEnum="ENEMY_ATTACK_TYPE" />
+        <combo1AttackMoveId03 AltName="《コンボ行動1 歩行攻撃ID3》" ProjectEnum="ENEMY_ATTACK_TYPE" />
+        <combo1AttackMoveId04 AltName="《コンボ行動1 歩行攻撃ID4》" ProjectEnum="ENEMY_ATTACK_TYPE" />
+        <combo1AttackHomingCancel01 AltName="《コンボ行動1 ホーミング解除有効設定1》" ProjectEnum="BOOL_ENABLEDISABLE_TYPE" />
+        <combo1AttackHomingCancel02 AltName="《コンボ行動1 ホーミング解除有効設定2》" ProjectEnum="BOOL_ENABLEDISABLE_TYPE" />
+        <combo1AttackHomingCancel03 AltName="《コンボ行動1 ホーミング解除有効設定3》" ProjectEnum="BOOL_ENABLEDISABLE_TYPE" />
+        <combo1AttackHomingCancel04 AltName="《コンボ行動1 ホーミング解除有効設定4》" ProjectEnum="BOOL_ENABLEDISABLE_TYPE" />
+        <combo1AttackRange01 AltName="《コンボ行動1 歩行攻撃攻撃範囲1》" />
+        <combo1AttackRange02 AltName="《コンボ行動1 歩行攻撃攻撃範囲2》" />
+        <combo1AttackRange03 AltName="《コンボ行動1 歩行攻撃攻撃範囲3》" />
+        <combo1AttackRange04 AltName="《コンボ行動1 歩行攻撃攻撃範囲4》" />
+        <fCombo1AttackBackSwingSpeed01 AltName="《コンボ行動1 攻撃開始部速度倍率1》" />
+        <fCombo1AttackBackSwingSpeed02 AltName="《コンボ行動1 攻撃開始部速度倍率2》" />
+        <fCombo1AttackBackSwingSpeed03 AltName="《コンボ行動1 攻撃開始部速度倍率3》" />
+        <fCombo1AttackBackSwingSpeed04 AltName="《コンボ行動1 攻撃開始部速度倍率4》" />
+        <fCombo1AttackFollowSwingSpeed01 AltName="《コンボ行動1 攻撃終了部速度倍率1》" />
+        <fCombo1AttackFollowSwingSpeed02 AltName="《コンボ行動1 攻撃終了部速度倍率2》" />
+        <fCombo1AttackFollowSwingSpeed03 AltName="《コンボ行動1 攻撃終了部速度倍率3》" />
+        <fCombo1AttackFollowSwingSpeed04 AltName="《コンボ行動1 攻撃終了部速度倍率4》" />
+        <fCombo1EstimateFutureTime01 AltName="《コンボ行動1 位置予測時間1》" />
+        <fCombo1EstimateFutureTime02 AltName="《コンボ行動1 位置予測時間2》" />
+        <fCombo1EstimateFutureTime03 AltName="《コンボ行動1 位置予測時間3》" />
+        <fCombo1EstimateFutureTime04 AltName="《コンボ行動1 位置予測時間4》" />
+        <combo1AttackAngle01 AltName="《コンボ行動1 角度補正1[deg]》" />
+        <combo1AttackAngle02 AltName="《コンボ行動1 角度補正2[deg]》" />
+        <combo1AttackAngle03 AltName="《コンボ行動1 角度補正3[deg]》" />
+        <combo1AttackAngle04 AltName="《コンボ行動1 角度補正4[deg]》" />
+        <fCombo1AttackRotateHigh01 AltName="《コンボ行動1 旋回補間開始距離1[m]》" />
+        <fCombo1AttackRotateHigh02 AltName="《コンボ行動1 旋回補間開始距離2[m]》" />
+        <fCombo1AttackRotateHigh03 AltName="《コンボ行動1 旋回補間開始距離3[m]》" />
+        <fCombo1AttackRotateHigh04 AltName="《コンボ行動1 旋回補間開始距離4[m]》" />
+        <fCombo1AttackRotateLow01 AltName="《コンボ行動1 旋回補間終了距離1[m]》" />
+        <fCombo1AttackRotateLow02 AltName="《コンボ行動1 旋回補間終了距離2[m]》" />
+        <fCombo1AttackRotateLow03 AltName="《コンボ行動1 旋回補間終了距離3[m]》" />
+        <fCombo1AttackRotateLow04 AltName="《コンボ行動1 旋回補間終了距離4[m]》" />
+        <combo1AttackHand01 AltName="《コンボ行動1 攻撃手1》" />
+        <combo1AttackHand02 AltName="《コンボ行動1 攻撃手2》" />
+        <combo1AttackHand03 AltName="《コンボ行動1 攻撃手3》" />
+        <combo1AttackHand04 AltName="《コンボ行動1 攻撃手4》" />
+        <combo1AttackChantSfx AltName="《コンボ行動1 詠唱SFX》" ProjectEnum="ENEMY_SHOT_SFX_PARAM_ENUM" />
+        <combo1Reload AltName="《コンボ行動1 リロード時間[sec]》" />
+        <pad01 AltName="予約" />
+        <combo2AttackMotionId AltName="《コンボ行動2 コンボ一段目》" />
+        <combo2ComboAttackRoute1 AltName="《コンボ行動2 コンボ二段目》" ProjectEnum="COMBO_ROUTE_TYPE" />
+        <combo2ComboAttackRoute2 AltName="《コンボ行動2 コンボ三段目》" ProjectEnum="COMBO_ROUTE_TYPE" />
+        <combo2ComboAttackRoute3 AltName="《コンボ行動2 コンボ四段目》" ProjectEnum="COMBO_ROUTE_TYPE" />
+        <combo2BladeCtrlType AltName="《コンボ行動2 近接制御タイプ》" ProjectEnum="BLADE_CTRL_TYPE" />
+        <combo2AttackId01 AltName="《コンボ行動2 攻撃ID1》" />
+        <combo2AttackId02 AltName="《コンボ行動2 攻撃ID2》" />
+        <combo2AttackId03 AltName="《コンボ行動2 攻撃ID3》" />
+        <combo2AttackId04 AltName="《コンボ行動2 攻撃ID4》" />
+        <combo2BulletId01 AltName="《コンボ行動2 BulletID1》" />
+        <combo2BulletId02 AltName="《コンボ行動2 BulletID2》" />
+        <combo2BulletId03 AltName="《コンボ行動2 BulletID3》" />
+        <combo2BulletId04 AltName="《コンボ行動2 BulletID4》" />
+        <combo2ShtoStanceTime01 AltName="《コンボ行動2 射撃構え時間1》" />
+        <combo2ShtoStanceTime02 AltName="《コンボ行動2 射撃構え時間2》" />
+        <combo2ShtoStanceTime03 AltName="《コンボ行動2 射撃構え時間3》" />
+        <combo2ShtoStanceTime04 AltName="《コンボ行動2 射撃構え時間4》" />
+        <combo2NonInterruptibleType01 AltName="《コンボ行動2 割り込み不可タイプ1》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <combo2NonInterruptibleType02 AltName="《コンボ行動2 割り込み不可タイプ2》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <combo2NonInterruptibleType03 AltName="《コンボ行動2 割り込み不可タイプ3》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <combo2NonInterruptibleType04 AltName="《コンボ行動2 割り込み不可タイプ4》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <combo2AttackMoveId01 AltName="《コンボ行動2 歩行攻撃ID1》" ProjectEnum="ENEMY_ATTACK_TYPE" />
+        <combo2AttackMoveId02 AltName="《コンボ行動2 歩行攻撃ID2》" ProjectEnum="ENEMY_ATTACK_TYPE" />
+        <combo2AttackMoveId03 AltName="《コンボ行動2 歩行攻撃ID3》" ProjectEnum="ENEMY_ATTACK_TYPE" />
+        <combo2AttackMoveId04 AltName="《コンボ行動2 歩行攻撃ID4》" ProjectEnum="ENEMY_ATTACK_TYPE" />
+        <combo2AttackHomingCancel01 AltName="《コンボ行動2 ホーミング解除有効設定1》" ProjectEnum="BOOL_ENABLEDISABLE_TYPE" />
+        <combo2AttackHomingCancel02 AltName="《コンボ行動2 ホーミング解除有効設定2》" ProjectEnum="BOOL_ENABLEDISABLE_TYPE" />
+        <combo2AttackHomingCancel03 AltName="《コンボ行動2 ホーミング解除有効設定3》" ProjectEnum="BOOL_ENABLEDISABLE_TYPE" />
+        <combo2AttackHomingCancel04 AltName="《コンボ行動2 ホーミング解除有効設定4》" ProjectEnum="BOOL_ENABLEDISABLE_TYPE" />
+        <combo2AttackRange01 AltName="《コンボ行動2 歩行攻撃攻撃範囲1》" />
+        <combo2AttackRange02 AltName="《コンボ行動2 歩行攻撃攻撃範囲2》" />
+        <combo2AttackRange03 AltName="《コンボ行動2 歩行攻撃攻撃範囲3》" />
+        <combo2AttackRange04 AltName="《コンボ行動2 歩行攻撃攻撃範囲4》" />
+        <fCombo2AttackBackSwingSpeed01 AltName="《コンボ行動2 攻撃開始部速度倍率1》" />
+        <fCombo2AttackBackSwingSpeed02 AltName="《コンボ行動2 攻撃開始部速度倍率2》" />
+        <fCombo2AttackBackSwingSpeed03 AltName="《コンボ行動2 攻撃開始部速度倍率3》" />
+        <fCombo2AttackBackSwingSpeed04 AltName="《コンボ行動2 攻撃開始部速度倍率4》" />
+        <fCombo2AttackFollowSwingSpeed01 AltName="《コンボ行動2 攻撃終了部速度倍率1》" />
+        <fCombo2AttackFollowSwingSpeed02 AltName="《コンボ行動2 攻撃終了部速度倍率2》" />
+        <fCombo2AttackFollowSwingSpeed03 AltName="《コンボ行動2 攻撃終了部速度倍率3》" />
+        <fCombo2AttackFollowSwingSpeed04 AltName="《コンボ行動2 攻撃終了部速度倍率4》" />
+        <fCombo2EstimateFutureTime01 AltName="《コンボ行動2 位置予測時間1》" />
+        <fCombo2EstimateFutureTime02 AltName="《コンボ行動2 位置予測時間2》" />
+        <fCombo2EstimateFutureTime03 AltName="《コンボ行動2 位置予測時間3》" />
+        <fCombo2EstimateFutureTime04 AltName="《コンボ行動2 位置予測時間4》" />
+        <combo2AttackAngle01 AltName="《コンボ行動2 角度補正1[deg]》" />
+        <combo2AttackAngle02 AltName="《コンボ行動2 角度補正2[deg]》" />
+        <combo2AttackAngle03 AltName="《コンボ行動2 角度補正3[deg]》" />
+        <combo2AttackAngle04 AltName="《コンボ行動2 角度補正4[deg]》" />
+        <fCombo2AttackRotateHigh01 AltName="《コンボ行動2 旋回補間開始距離1[m]》" />
+        <fCombo2AttackRotateHigh02 AltName="《コンボ行動2 旋回補間開始距離2[m]》" />
+        <fCombo2AttackRotateHigh03 AltName="《コンボ行動2 旋回補間開始距離3[m]》" />
+        <fCombo2AttackRotateHigh04 AltName="《コンボ行動2 旋回補間開始距離4[m]》" />
+        <fCombo2AttackRotateLow01 AltName="《コンボ行動2 旋回補間終了距離1[m]》" />
+        <fCombo2AttackRotateLow02 AltName="《コンボ行動2 旋回補間終了距離2[m]》" />
+        <fCombo2AttackRotateLow03 AltName="《コンボ行動2 旋回補間終了距離3[m]》" />
+        <fCombo2AttackRotateLow04 AltName="《コンボ行動2 旋回補間終了距離4[m]》" />
+        <combo2AttackHand01 AltName="《コンボ行動2 攻撃手1》" />
+        <combo2AttackHand02 AltName="《コンボ行動2 攻撃手2》" />
+        <combo2AttackHand03 AltName="《コンボ行動2 攻撃手3》" />
+        <combo2AttackHand04 AltName="《コンボ行動2 攻撃手4》" />
+        <combo2AttackChantSfx AltName="《コンボ行動2 詠唱SFX》" ProjectEnum="ENEMY_SHOT_SFX_PARAM_ENUM" />
+        <combo2Reload AltName="《コンボ行動2 リロード時間[sec]》" />
+        <pad02 AltName="予約" />
+        <combo3AttackMotionId AltName="《コンボ行動3 コンボ一段目》" />
+        <combo3ComboAttackRoute1 AltName="《コンボ行動3 コンボ二段目》" ProjectEnum="COMBO_ROUTE_TYPE" />
+        <combo3ComboAttackRoute2 AltName="《コンボ行動3 コンボ三段目》" ProjectEnum="COMBO_ROUTE_TYPE" />
+        <combo3ComboAttackRoute3 AltName="《コンボ行動3 コンボ四段目》" ProjectEnum="COMBO_ROUTE_TYPE" />
+        <combo3BladeCtrlType AltName="《コンボ行動3 近接制御タイプ》" ProjectEnum="BLADE_CTRL_TYPE" />
+        <combo3AttackId01 AltName="《コンボ行動3 攻撃ID1》" />
+        <combo3AttackId02 AltName="《コンボ行動3 攻撃ID2》" />
+        <combo3AttackId03 AltName="《コンボ行動3 攻撃ID3》" />
+        <combo3AttackId04 AltName="《コンボ行動3 攻撃ID4》" />
+        <combo3BulletId01 AltName="《コンボ行動3 BulletID1》" />
+        <combo3BulletId02 AltName="《コンボ行動3 BulletID2》" />
+        <combo3BulletId03 AltName="《コンボ行動3 BulletID3》" />
+        <combo3BulletId04 AltName="《コンボ行動3 BulletID4》" />
+        <combo3ShtoStanceTime01 AltName="《コンボ行動3 射撃構え時間1》" />
+        <combo3ShtoStanceTime02 AltName="《コンボ行動3 射撃構え時間2》" />
+        <combo3ShtoStanceTime03 AltName="《コンボ行動3 射撃構え時間3》" />
+        <combo3ShtoStanceTime04 AltName="《コンボ行動3 射撃構え時間4》" />
+        <combo3NonInterruptibleType01 AltName="《コンボ行動3 割り込み不可タイプ1》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <combo3NonInterruptibleType02 AltName="《コンボ行動3 割り込み不可タイプ2》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <combo3NonInterruptibleType03 AltName="《コンボ行動3 割り込み不可タイプ3》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <combo3NonInterruptibleType04 AltName="《コンボ行動3 割り込み不可タイプ4》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <combo3AttackMoveId01 AltName="《コンボ行動3 歩行攻撃ID1》" ProjectEnum="ENEMY_ATTACK_TYPE" />
+        <combo3AttackMoveId02 AltName="《コンボ行動3 歩行攻撃ID2》" ProjectEnum="ENEMY_ATTACK_TYPE" />
+        <combo3AttackMoveId03 AltName="《コンボ行動3 歩行攻撃ID3》" ProjectEnum="ENEMY_ATTACK_TYPE" />
+        <combo3AttackMoveId04 AltName="《コンボ行動3 歩行攻撃ID4》" ProjectEnum="ENEMY_ATTACK_TYPE" />
+        <combo3AttackHomingCancel01 AltName="《コンボ行動3 ホーミング解除有効設定1》" ProjectEnum="BOOL_ENABLEDISABLE_TYPE" />
+        <combo3AttackHomingCancel02 AltName="《コンボ行動3 ホーミング解除有効設定2》" ProjectEnum="BOOL_ENABLEDISABLE_TYPE" />
+        <combo3AttackHomingCancel03 AltName="《コンボ行動3 ホーミング解除有効設定3》" ProjectEnum="BOOL_ENABLEDISABLE_TYPE" />
+        <combo3AttackHomingCancel04 AltName="《コンボ行動3 ホーミング解除有効設定4》" ProjectEnum="BOOL_ENABLEDISABLE_TYPE" />
+        <combo3AttackRange01 AltName="《コンボ行動3 歩行攻撃攻撃範囲1》" />
+        <combo3AttackRange02 AltName="《コンボ行動3 歩行攻撃攻撃範囲2》" />
+        <combo3AttackRange03 AltName="《コンボ行動3 歩行攻撃攻撃範囲3》" />
+        <combo3AttackRange04 AltName="《コンボ行動3 歩行攻撃攻撃範囲4》" />
+        <fCombo3AttackBackSwingSpeed01 AltName="《コンボ行動3 攻撃開始部速度倍率1》" />
+        <fCombo3AttackBackSwingSpeed02 AltName="《コンボ行動3 攻撃開始部速度倍率2》" />
+        <fCombo3AttackBackSwingSpeed03 AltName="《コンボ行動3 攻撃開始部速度倍率3》" />
+        <fCombo3AttackBackSwingSpeed04 AltName="《コンボ行動3 攻撃開始部速度倍率4》" />
+        <fCombo3AttackFollowSwingSpeed01 AltName="《コンボ行動3 攻撃終了部速度倍率1》" />
+        <fCombo3AttackFollowSwingSpeed02 AltName="《コンボ行動3 攻撃終了部速度倍率2》" />
+        <fCombo3AttackFollowSwingSpeed03 AltName="《コンボ行動3 攻撃終了部速度倍率3》" />
+        <fCombo3AttackFollowSwingSpeed04 AltName="《コンボ行動3 攻撃終了部速度倍率4》" />
+        <fCombo3EstimateFutureTime01 AltName="《コンボ行動3 位置予測時間1》" />
+        <fCombo3EstimateFutureTime02 AltName="《コンボ行動3 位置予測時間2》" />
+        <fCombo3EstimateFutureTime03 AltName="《コンボ行動3 位置予測時間3》" />
+        <fCombo3EstimateFutureTime04 AltName="《コンボ行動3 位置予測時間4》" />
+        <combo3AttackAngle01 AltName="《コンボ行動3 角度補正1[deg]》" />
+        <combo3AttackAngle02 AltName="《コンボ行動3 角度補正2[deg]》" />
+        <combo3AttackAngle03 AltName="《コンボ行動3 角度補正3[deg]》" />
+        <combo3AttackAngle04 AltName="《コンボ行動3 角度補正4[deg]》" />
+        <fCombo3AttackRotateHigh01 AltName="《コンボ行動3 旋回補間開始距離1[m]》" />
+        <fCombo3AttackRotateHigh02 AltName="《コンボ行動3 旋回補間開始距離2[m]》" />
+        <fCombo3AttackRotateHigh03 AltName="《コンボ行動3 旋回補間開始距離3[m]》" />
+        <fCombo3AttackRotateHigh04 AltName="《コンボ行動3 旋回補間開始距離4[m]》" />
+        <fCombo3AttackRotateLow01 AltName="《コンボ行動3 旋回補間終了距離1[m]》" />
+        <fCombo3AttackRotateLow02 AltName="《コンボ行動3 旋回補間終了距離2[m]》" />
+        <fCombo3AttackRotateLow03 AltName="《コンボ行動3 旋回補間終了距離3[m]》" />
+        <fCombo3AttackRotateLow04 AltName="《コンボ行動3 旋回補間終了距離4[m]》" />
+        <combo3AttackHand01 AltName="《コンボ行動3 攻撃手1》" />
+        <combo3AttackHand02 AltName="《コンボ行動3 攻撃手2》" />
+        <combo3AttackHand03 AltName="《コンボ行動3 攻撃手3》" />
+        <combo3AttackHand04 AltName="《コンボ行動3 攻撃手4》" />
+        <combo3AttackChantSfx AltName="《コンボ行動3 詠唱SFX》" ProjectEnum="ENEMY_SHOT_SFX_PARAM_ENUM" />
+        <combo3Reload AltName="《コンボ行動3 リロード時間[sec]》" />
+        <pad03 AltName="予約" />
+        <combo4AttackMotionId AltName="《コンボ行動4 コンボ一段目》" />
+        <combo4ComboAttackRoute1 AltName="《コンボ行動4 コンボ二段目》" ProjectEnum="COMBO_ROUTE_TYPE" />
+        <combo4ComboAttackRoute2 AltName="《コンボ行動4 コンボ三段目》" ProjectEnum="COMBO_ROUTE_TYPE" />
+        <combo4ComboAttackRoute3 AltName="《コンボ行動4 コンボ四段目》" ProjectEnum="COMBO_ROUTE_TYPE" />
+        <combo4BladeCtrlType AltName="《コンボ行動4 近接制御タイプ》" ProjectEnum="BLADE_CTRL_TYPE" />
+        <combo4AttackId01 AltName="《コンボ行動4 攻撃ID1》" />
+        <combo4AttackId02 AltName="《コンボ行動4 攻撃ID2》" />
+        <combo4AttackId03 AltName="《コンボ行動4 攻撃ID3》" />
+        <combo4AttackId04 AltName="《コンボ行動4 攻撃ID4》" />
+        <combo4BulletId01 AltName="《コンボ行動4 BulletID1》" />
+        <combo4BulletId02 AltName="《コンボ行動4 BulletID2》" />
+        <combo4BulletId03 AltName="《コンボ行動4 BulletID3》" />
+        <combo4BulletId04 AltName="《コンボ行動4 BulletID4》" />
+        <combo4ShtoStanceTime01 AltName="《コンボ行動4 射撃構え時間1》" />
+        <combo4ShtoStanceTime02 AltName="《コンボ行動4 射撃構え時間2》" />
+        <combo4ShtoStanceTime03 AltName="《コンボ行動4 射撃構え時間3》" />
+        <combo4ShtoStanceTime04 AltName="《コンボ行動4 射撃構え時間4》" />
+        <combo4NonInterruptibleType01 AltName="《コンボ行動4 割り込み不可タイプ1》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <combo4NonInterruptibleType02 AltName="《コンボ行動4 割り込み不可タイプ2》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <combo4NonInterruptibleType03 AltName="《コンボ行動4 割り込み不可タイプ3》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <combo4NonInterruptibleType04 AltName="《コンボ行動4 割り込み不可タイプ4》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <combo4AttackMoveId01 AltName="《コンボ行動4 歩行攻撃ID1》" ProjectEnum="ENEMY_ATTACK_TYPE" />
+        <combo4AttackMoveId02 AltName="《コンボ行動4 歩行攻撃ID2》" ProjectEnum="ENEMY_ATTACK_TYPE" />
+        <combo4AttackMoveId03 AltName="《コンボ行動4 歩行攻撃ID3》" ProjectEnum="ENEMY_ATTACK_TYPE" />
+        <combo4AttackMoveId04 AltName="《コンボ行動4 歩行攻撃ID4》" ProjectEnum="ENEMY_ATTACK_TYPE" />
+        <combo4AttackHomingCancel01 AltName="《コンボ行動4 ホーミング解除有効設定1》" ProjectEnum="BOOL_ENABLEDISABLE_TYPE" />
+        <combo4AttackHomingCancel02 AltName="《コンボ行動4 ホーミング解除有効設定2》" ProjectEnum="BOOL_ENABLEDISABLE_TYPE" />
+        <combo4AttackHomingCancel03 AltName="《コンボ行動4 ホーミング解除有効設定3》" ProjectEnum="BOOL_ENABLEDISABLE_TYPE" />
+        <combo4AttackHomingCancel04 AltName="《コンボ行動4 ホーミング解除有効設定4》" ProjectEnum="BOOL_ENABLEDISABLE_TYPE" />
+        <combo4AttackRange01 AltName="《コンボ行動4 歩行攻撃攻撃範囲1》" />
+        <combo4AttackRange02 AltName="《コンボ行動4 歩行攻撃攻撃範囲2》" />
+        <combo4AttackRange03 AltName="《コンボ行動4 歩行攻撃攻撃範囲3》" />
+        <combo4AttackRange04 AltName="《コンボ行動4 歩行攻撃攻撃範囲4》" />
+        <fCombo4AttackBackSwingSpeed01 AltName="《コンボ行動4 攻撃開始部速度倍率1》" />
+        <fCombo4AttackBackSwingSpeed02 AltName="《コンボ行動4 攻撃開始部速度倍率2》" />
+        <fCombo4AttackBackSwingSpeed03 AltName="《コンボ行動4 攻撃開始部速度倍率3》" />
+        <fCombo4AttackBackSwingSpeed04 AltName="《コンボ行動4 攻撃開始部速度倍率4》" />
+        <fCombo4AttackFollowSwingSpeed01 AltName="《コンボ行動4 攻撃終了部速度倍率1》" />
+        <fCombo4AttackFollowSwingSpeed02 AltName="《コンボ行動4 攻撃終了部速度倍率2》" />
+        <fCombo4AttackFollowSwingSpeed03 AltName="《コンボ行動4 攻撃終了部速度倍率3》" />
+        <fCombo4AttackFollowSwingSpeed04 AltName="《コンボ行動4 攻撃終了部速度倍率4》" />
+        <fCombo4EstimateFutureTime01 AltName="《コンボ行動4 位置予測時間1》" />
+        <fCombo4EstimateFutureTime02 AltName="《コンボ行動4 位置予測時間2》" />
+        <fCombo4EstimateFutureTime03 AltName="《コンボ行動4 位置予測時間3》" />
+        <fCombo4EstimateFutureTime04 AltName="《コンボ行動4 位置予測時間4》" />
+        <combo4AttackAngle01 AltName="《コンボ行動4 角度補正1[deg]》" />
+        <combo4AttackAngle02 AltName="《コンボ行動4 角度補正2[deg]》" />
+        <combo4AttackAngle03 AltName="《コンボ行動4 角度補正3[deg]》" />
+        <combo4AttackAngle04 AltName="《コンボ行動4 角度補正4[deg]》" />
+        <fCombo4AttackRotateHigh01 AltName="《コンボ行動4 旋回補間開始距離1[m]》" />
+        <fCombo4AttackRotateHigh02 AltName="《コンボ行動4 旋回補間開始距離2[m]》" />
+        <fCombo4AttackRotateHigh03 AltName="《コンボ行動4 旋回補間開始距離3[m]》" />
+        <fCombo4AttackRotateHigh04 AltName="《コンボ行動4 旋回補間開始距離4[m]》" />
+        <fCombo4AttackRotateLow01 AltName="《コンボ行動4 旋回補間終了距離1[m]》" />
+        <fCombo4AttackRotateLow02 AltName="《コンボ行動4 旋回補間終了距離2[m]》" />
+        <fCombo4AttackRotateLow03 AltName="《コンボ行動4 旋回補間終了距離3[m]》" />
+        <fCombo4AttackRotateLow04 AltName="《コンボ行動4 旋回補間終了距離4[m]》" />
+        <combo4AttackHand01 AltName="《コンボ行動4 攻撃手1》" />
+        <combo4AttackHand02 AltName="《コンボ行動4 攻撃手2》" />
+        <combo4AttackHand03 AltName="《コンボ行動4 攻撃手3》" />
+        <combo4AttackHand04 AltName="《コンボ行動4 攻撃手4》" />
+        <combo4AttackChantSfx AltName="《コンボ行動4 詠唱SFX》" ProjectEnum="ENEMY_SHOT_SFX_PARAM_ENUM" />
+        <combo4Reload AltName="《コンボ行動4 リロード時間[sec]》" />
+        <pad04 AltName="予約" />
+        <combo5AttackMotionId AltName="《コンボ行動5 コンボ一段目》" />
+        <combo5ComboAttackRoute1 AltName="《コンボ行動5 コンボ二段目》" ProjectEnum="COMBO_ROUTE_TYPE" />
+        <combo5ComboAttackRoute2 AltName="《コンボ行動5 コンボ三段目》" ProjectEnum="COMBO_ROUTE_TYPE" />
+        <combo5ComboAttackRoute3 AltName="《コンボ行動5 コンボ四段目》" ProjectEnum="COMBO_ROUTE_TYPE" />
+        <combo5BladeCtrlType AltName="《コンボ行動5 近接制御タイプ》" ProjectEnum="BLADE_CTRL_TYPE" />
+        <combo5AttackId01 AltName="《コンボ行動5 攻撃ID1》" />
+        <combo5AttackId02 AltName="《コンボ行動5 攻撃ID2》" />
+        <combo5AttackId03 AltName="《コンボ行動5 攻撃ID3》" />
+        <combo5AttackId04 AltName="《コンボ行動5 攻撃ID4》" />
+        <combo5BulletId01 AltName="《コンボ行動5 BulletID1》" />
+        <combo5BulletId02 AltName="《コンボ行動5 BulletID2》" />
+        <combo5BulletId03 AltName="《コンボ行動5 BulletID3》" />
+        <combo5BulletId04 AltName="《コンボ行動5 BulletID4》" />
+        <combo5ShtoStanceTime01 AltName="《コンボ行動5 射撃構え時間1》" />
+        <combo5ShtoStanceTime02 AltName="《コンボ行動5 射撃構え時間2》" />
+        <combo5ShtoStanceTime03 AltName="《コンボ行動5 射撃構え時間3》" />
+        <combo5ShtoStanceTime04 AltName="《コンボ行動5 射撃構え時間4》" />
+        <combo5NonInterruptibleType01 AltName="《コンボ行動5 割り込み不可タイプ1》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <combo5NonInterruptibleType02 AltName="《コンボ行動5 割り込み不可タイプ2》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <combo5NonInterruptibleType03 AltName="《コンボ行動5 割り込み不可タイプ3》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <combo5NonInterruptibleType04 AltName="《コンボ行動5 割り込み不可タイプ4》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <combo5AttackMoveId01 AltName="《コンボ行動5 歩行攻撃ID1》" ProjectEnum="ENEMY_ATTACK_TYPE" />
+        <combo5AttackMoveId02 AltName="《コンボ行動5 歩行攻撃ID2》" ProjectEnum="ENEMY_ATTACK_TYPE" />
+        <combo5AttackMoveId03 AltName="《コンボ行動5 歩行攻撃ID3》" ProjectEnum="ENEMY_ATTACK_TYPE" />
+        <combo5AttackMoveId04 AltName="《コンボ行動5 歩行攻撃ID4》" ProjectEnum="ENEMY_ATTACK_TYPE" />
+        <combo5AttackHomingCancel01 AltName="《コンボ行動5 ホーミング解除有効設定1》" ProjectEnum="BOOL_ENABLEDISABLE_TYPE" />
+        <combo5AttackHomingCancel02 AltName="《コンボ行動5 ホーミング解除有効設定2》" ProjectEnum="BOOL_ENABLEDISABLE_TYPE" />
+        <combo5AttackHomingCancel03 AltName="《コンボ行動5 ホーミング解除有効設定3》" ProjectEnum="BOOL_ENABLEDISABLE_TYPE" />
+        <combo5AttackHomingCancel04 AltName="《コンボ行動5 ホーミング解除有効設定4》" ProjectEnum="BOOL_ENABLEDISABLE_TYPE" />
+        <combo5AttackRange01 AltName="《コンボ行動5 歩行攻撃攻撃範囲1》" />
+        <combo5AttackRange02 AltName="《コンボ行動5 歩行攻撃攻撃範囲2》" />
+        <combo5AttackRange03 AltName="《コンボ行動5 歩行攻撃攻撃範囲3》" />
+        <combo5AttackRange04 AltName="《コンボ行動5 歩行攻撃攻撃範囲4》" />
+        <fCombo5AttackBackSwingSpeed01 AltName="《コンボ行動5 攻撃開始部速度倍率1》" />
+        <fCombo5AttackBackSwingSpeed02 AltName="《コンボ行動5 攻撃開始部速度倍率2》" />
+        <fCombo5AttackBackSwingSpeed03 AltName="《コンボ行動5 攻撃開始部速度倍率3》" />
+        <fCombo5AttackBackSwingSpeed04 AltName="《コンボ行動5 攻撃開始部速度倍率4》" />
+        <fCombo5AttackFollowSwingSpeed01 AltName="《コンボ行動5 攻撃終了部速度倍率1》" />
+        <fCombo5AttackFollowSwingSpeed02 AltName="《コンボ行動5 攻撃終了部速度倍率2》" />
+        <fCombo5AttackFollowSwingSpeed03 AltName="《コンボ行動5 攻撃終了部速度倍率3》" />
+        <fCombo5AttackFollowSwingSpeed04 AltName="《コンボ行動5 攻撃終了部速度倍率4》" />
+        <fCombo5EstimateFutureTime01 AltName="《コンボ行動5 位置予測時間1》" />
+        <fCombo5EstimateFutureTime02 AltName="《コンボ行動5 位置予測時間2》" />
+        <fCombo5EstimateFutureTime03 AltName="《コンボ行動5 位置予測時間3》" />
+        <fCombo5EstimateFutureTime04 AltName="《コンボ行動5 位置予測時間4》" />
+        <combo5AttackAngle01 AltName="《コンボ行動5 角度補正1[deg]》" />
+        <combo5AttackAngle02 AltName="《コンボ行動5 角度補正2[deg]》" />
+        <combo5AttackAngle03 AltName="《コンボ行動5 角度補正3[deg]》" />
+        <combo5AttackAngle04 AltName="《コンボ行動5 角度補正4[deg]》" />
+        <fCombo5AttackRotateHigh01 AltName="《コンボ行動5 旋回補間開始距離1[m]》" />
+        <fCombo5AttackRotateHigh02 AltName="《コンボ行動5 旋回補間開始距離2[m]》" />
+        <fCombo5AttackRotateHigh03 AltName="《コンボ行動5 旋回補間開始距離3[m]》" />
+        <fCombo5AttackRotateHigh04 AltName="《コンボ行動5 旋回補間開始距離4[m]》" />
+        <fCombo5AttackRotateLow01 AltName="《コンボ行動5 旋回補間終了距離1[m]》" />
+        <fCombo5AttackRotateLow02 AltName="《コンボ行動5 旋回補間終了距離2[m]》" />
+        <fCombo5AttackRotateLow03 AltName="《コンボ行動5 旋回補間終了距離3[m]》" />
+        <fCombo5AttackRotateLow04 AltName="《コンボ行動5 旋回補間終了距離4[m]》" />
+        <combo5AttackHand01 AltName="《コンボ行動5 攻撃手1》" />
+        <combo5AttackHand02 AltName="《コンボ行動5 攻撃手2》" />
+        <combo5AttackHand03 AltName="《コンボ行動5 攻撃手3》" />
+        <combo5AttackHand04 AltName="《コンボ行動5 攻撃手4》" />
+        <combo5AttackChantSfx AltName="《コンボ行動5 詠唱SFX》" ProjectEnum="ENEMY_SHOT_SFX_PARAM_ENUM" />
+        <combo5Reload AltName="《コンボ行動5 リロード時間[sec]》" />
+        <pad05 AltName="予約" />
+        <combo6AttackMotionId AltName="《コンボ行動6 コンボ一段目》" />
+        <combo6ComboAttackRoute1 AltName="《コンボ行動6 コンボ二段目》" ProjectEnum="COMBO_ROUTE_TYPE" />
+        <combo6ComboAttackRoute2 AltName="《コンボ行動6 コンボ三段目》" ProjectEnum="COMBO_ROUTE_TYPE" />
+        <combo6ComboAttackRoute3 AltName="《コンボ行動6 コンボ四段目》" ProjectEnum="COMBO_ROUTE_TYPE" />
+        <combo6BladeCtrlType AltName="《コンボ行動6 近接制御タイプ》" ProjectEnum="BLADE_CTRL_TYPE" />
+        <combo6AttackId01 AltName="《コンボ行動6 攻撃ID1》" />
+        <combo6AttackId02 AltName="《コンボ行動6 攻撃ID2》" />
+        <combo6AttackId03 AltName="《コンボ行動6 攻撃ID3》" />
+        <combo6AttackId04 AltName="《コンボ行動6 攻撃ID4》" />
+        <combo6BulletId01 AltName="《コンボ行動6 BulletID1》" />
+        <combo6BulletId02 AltName="《コンボ行動6 BulletID2》" />
+        <combo6BulletId03 AltName="《コンボ行動6 BulletID3》" />
+        <combo6BulletId04 AltName="《コンボ行動6 BulletID4》" />
+        <combo6ShtoStanceTime01 AltName="《コンボ行動6 射撃構え時間1》" />
+        <combo6ShtoStanceTime02 AltName="《コンボ行動6 射撃構え時間2》" />
+        <combo6ShtoStanceTime03 AltName="《コンボ行動6 射撃構え時間3》" />
+        <combo6ShtoStanceTime04 AltName="《コンボ行動6 射撃構え時間4》" />
+        <combo6NonInterruptibleType01 AltName="《コンボ行動6 割り込み不可タイプ1》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <combo6NonInterruptibleType02 AltName="《コンボ行動6 割り込み不可タイプ2》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <combo6NonInterruptibleType03 AltName="《コンボ行動6 割り込み不可タイプ3》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <combo6NonInterruptibleType04 AltName="《コンボ行動6 割り込み不可タイプ4》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <combo6AttackMoveId01 AltName="《コンボ行動6 歩行攻撃ID1》" ProjectEnum="ENEMY_ATTACK_TYPE" />
+        <combo6AttackMoveId02 AltName="《コンボ行動6 歩行攻撃ID2》" ProjectEnum="ENEMY_ATTACK_TYPE" />
+        <combo6AttackMoveId03 AltName="《コンボ行動6 歩行攻撃ID3》" ProjectEnum="ENEMY_ATTACK_TYPE" />
+        <combo6AttackMoveId04 AltName="《コンボ行動6 歩行攻撃ID4》" ProjectEnum="ENEMY_ATTACK_TYPE" />
+        <combo6AttackHomingCancel01 AltName="《コンボ行動6 ホーミング解除有効設定1》" ProjectEnum="BOOL_ENABLEDISABLE_TYPE" />
+        <combo6AttackHomingCancel02 AltName="《コンボ行動6 ホーミング解除有効設定2》" ProjectEnum="BOOL_ENABLEDISABLE_TYPE" />
+        <combo6AttackHomingCancel03 AltName="《コンボ行動6 ホーミング解除有効設定3》" ProjectEnum="BOOL_ENABLEDISABLE_TYPE" />
+        <combo6AttackHomingCancel04 AltName="《コンボ行動6 ホーミング解除有効設定4》" ProjectEnum="BOOL_ENABLEDISABLE_TYPE" />
+        <combo6AttackRange01 AltName="《コンボ行動6 歩行攻撃攻撃範囲1》" />
+        <combo6AttackRange02 AltName="《コンボ行動6 歩行攻撃攻撃範囲2》" />
+        <combo6AttackRange03 AltName="《コンボ行動6 歩行攻撃攻撃範囲3》" />
+        <combo6AttackRange04 AltName="《コンボ行動6 歩行攻撃攻撃範囲4》" />
+        <fCombo6AttackBackSwingSpeed01 AltName="《コンボ行動6 攻撃開始部速度倍率1》" />
+        <fCombo6AttackBackSwingSpeed02 AltName="《コンボ行動6 攻撃開始部速度倍率2》" />
+        <fCombo6AttackBackSwingSpeed03 AltName="《コンボ行動6 攻撃開始部速度倍率3》" />
+        <fCombo6AttackBackSwingSpeed04 AltName="《コンボ行動6 攻撃開始部速度倍率4》" />
+        <fCombo6AttackFollowSwingSpeed01 AltName="《コンボ行動6 攻撃終了部速度倍率1》" />
+        <fCombo6AttackFollowSwingSpeed02 AltName="《コンボ行動6 攻撃終了部速度倍率2》" />
+        <fCombo6AttackFollowSwingSpeed03 AltName="《コンボ行動6 攻撃終了部速度倍率3》" />
+        <fCombo6AttackFollowSwingSpeed04 AltName="《コンボ行動6 攻撃終了部速度倍率4》" />
+        <fCombo6EstimateFutureTime01 AltName="《コンボ行動6 位置予測時間1》" />
+        <fCombo6EstimateFutureTime02 AltName="《コンボ行動6 位置予測時間2》" />
+        <fCombo6EstimateFutureTime03 AltName="《コンボ行動6 位置予測時間3》" />
+        <fCombo6EstimateFutureTime04 AltName="《コンボ行動6 位置予測時間4》" />
+        <combo6AttackAngle01 AltName="《コンボ行動6 角度補正1[deg]》" />
+        <combo6AttackAngle02 AltName="《コンボ行動6 角度補正2[deg]》" />
+        <combo6AttackAngle03 AltName="《コンボ行動6 角度補正3[deg]》" />
+        <combo6AttackAngle04 AltName="《コンボ行動6 角度補正4[deg]》" />
+        <fCombo6AttackRotateHigh01 AltName="《コンボ行動6 旋回補間開始距離1[m]》" />
+        <fCombo6AttackRotateHigh02 AltName="《コンボ行動6 旋回補間開始距離2[m]》" />
+        <fCombo6AttackRotateHigh03 AltName="《コンボ行動6 旋回補間開始距離3[m]》" />
+        <fCombo6AttackRotateHigh04 AltName="《コンボ行動6 旋回補間開始距離4[m]》" />
+        <fCombo6AttackRotateLow01 AltName="《コンボ行動6 旋回補間終了距離1[m]》" />
+        <fCombo6AttackRotateLow02 AltName="《コンボ行動6 旋回補間終了距離2[m]》" />
+        <fCombo6AttackRotateLow03 AltName="《コンボ行動6 旋回補間終了距離3[m]》" />
+        <fCombo6AttackRotateLow04 AltName="《コンボ行動6 旋回補間終了距離4[m]》" />
+        <combo6AttackHand01 AltName="《コンボ行動6 攻撃手1》" />
+        <combo6AttackHand02 AltName="《コンボ行動6 攻撃手2》" />
+        <combo6AttackHand03 AltName="《コンボ行動6 攻撃手3》" />
+        <combo6AttackHand04 AltName="《コンボ行動6 攻撃手4》" />
+        <combo6AttackChantSfx AltName="《コンボ行動6 詠唱SFX》" ProjectEnum="ENEMY_SHOT_SFX_PARAM_ENUM" />
+        <combo6Reload AltName="《コンボ行動6 リロード時間[sec]》" />
+        <pad06 AltName="予約" />
+    </Field>
+</PARAMMETA>

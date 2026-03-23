@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <behaviorId AltName="行動パラメータＩＤ" />
+        <cullingId00 AltName="カリンググループID1" />
+        <cullingId01 AltName="カリンググループID2" />
+        <reserved00 AltName="予備" />
+        <durability AltName="耐久度" />
+        <material AltName="材質" ProjectEnum="MATERIAL_TYPE_ENUM" />
+        <rightBrokenSfxId AltName="破損SFXID 右手" />
+        <leftBrokenSfxId AltName="破損SFXID 左手" />
+        <rightBrokenDummyPolyId AltName="破損SFXダミポリID 右手" />
+        <leftBrokenDummyPolyId AltName="破損SFXダミポリID 左手" />
+        <emissiveType AltName="自己照明種類" ProjectEnum="CHR_EMISSIVE_TYPE" />
+        <reserved01 AltName="予備" />
+        <brokenSoundType AltName="破損サウンドタイプ" ProjectEnum="EQUIP_BREAK_SOUND_MATERIAL_TYPE" />
+        <residentSfxId00 AltName="常駐SFXID" />
+        <residentSfxId01 AltName="常駐SFXID" />
+        <residentSfxId02 AltName="常駐SFXID" />
+        <residentSfxId03 AltName="常駐SFXID" />
+        <residentSfxAttachType00 AltName="常駐SFX追従タイプ" ProjectEnum="CHR_RESIDENT_SFX_ATTACH_TYPE" />
+        <residentSfxAttachType01 AltName="常駐SFX追従タイプ" ProjectEnum="CHR_RESIDENT_SFX_ATTACH_TYPE" />
+        <residentSfxAttachType02 AltName="常駐SFX追従タイプ" ProjectEnum="CHR_RESIDENT_SFX_ATTACH_TYPE" />
+        <residentSfxAttachType03 AltName="常駐SFX追従タイプ" ProjectEnum="CHR_RESIDENT_SFX_ATTACH_TYPE" />
+        <residentSfxDummyPolyId00 AltName="常駐SFX開始ID" />
+        <residentSfxDummyPolyId01 AltName="常駐SFX開始ID" />
+        <residentSfxDummyPolyId02 AltName="常駐SFX開始ID" />
+        <residentSfxDummyPolyId03 AltName="常駐SFX開始ID" />
+        <residentSfxDummyPolyIdEnd00 AltName="常駐SFX終了ID" />
+        <residentSfxDummyPolyIdEnd01 AltName="常駐SFX終了ID" />
+        <residentSfxDummyPolyIdEnd02 AltName="常駐SFX終了ID" />
+        <residentSfxDummyPolyIdEnd03 AltName="常駐SFX終了ID" />
+        <residentSfxIdInterval00 AltName="常駐SFX 追従ID間隔" />
+        <residentSfxIdInterval01 AltName="常駐SFX 追従ID間隔" />
+        <residentSfxIdInterval02 AltName="常駐SFX 追従ID間隔" />
+        <residentSfxIdInterval03 AltName="常駐SFX 追従ID間隔" />
+        <residentSfxSetType00 AltName="常駐SFX開始" ProjectEnum="CHR_RESIDENT_SFX_SET_TYPE" />
+        <residentSfxSetType01 AltName="常駐SFX開始" ProjectEnum="CHR_RESIDENT_SFX_SET_TYPE" />
+        <residentSfxSetType02 AltName="常駐SFX開始" ProjectEnum="CHR_RESIDENT_SFX_SET_TYPE" />
+        <residentSfxSetType03 AltName="常駐SFX開始" ProjectEnum="CHR_RESIDENT_SFX_SET_TYPE" />
+        <residentSfxEndType00 AltName="常駐SFX終了" ProjectEnum="CHR_RESIDENT_SFX_END_TYPE" />
+        <residentSfxEndType01 AltName="常駐SFX終了" ProjectEnum="CHR_RESIDENT_SFX_END_TYPE" />
+        <residentSfxEndType02 AltName="常駐SFX終了" ProjectEnum="CHR_RESIDENT_SFX_END_TYPE" />
+        <residentSfxEndType03 AltName="常駐SFX終了" ProjectEnum="CHR_RESIDENT_SFX_END_TYPE" />
+    </Field>
+</PARAMMETA>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <time AltName="ロックオンカメラ補正　完了時間" />
+        <fovY AltName="画角(deg)" />
+        <targetOffsetX AltName="基準点(X軸) オフセット(m)" />
+        <targetOffsetY AltName="基準点(Y軸) オフセット(m)" />
+        <targetOffsetZ AltName="基準点(Z軸) オフセット(m)" />
+        <distance AltName="カメラ距離目標[m]" />
+        <targetChaseRateAtLockXZ AltName="ロック中ターゲット追尾率(0.0～1.0)" />
+        <targetChaseRateAtLockY AltName="ロック中ターゲット追尾率(0.0～1.0)" />
+        <targetChaseRateMinAngAtLock AltName="ロック中ターゲット追尾率最小角度[deg]" />
+        <targetChaseRateMaxAngAtLock AltName="ロック中ターゲット追尾率最大角度[deg]" />
+        <rotRangeMinXAtLock AltName="ロック中X軸回転最小値[deg]" />
+        <rotRangeMaxXAtLock AltName="ロック中X軸回転最大値[deg]" />
+        <rotRangeLerpBeginHeight AltName="ロック中X軸回転補間開始高さ[m]" />
+        <rotRangeLerpEndHeight AltName="ロック中X軸回転補間終了高さ[m]" />
+        <lockRotChaseRate AltName="ロック回転追尾率(0.0～1.0)" />
+        <lockRotChasePlayAng AltName="ロック回転追尾遊び角度[deg]" />
+        <lockRotXShiftRatio AltName="ロックX回転シフト率(0.0～1.0)" />
+    </Field>
+</PARAMMETA>

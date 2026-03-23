@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <fParallelWalkDeceleration AltName="平行移動 停止加速度 [m/sec^2]" />
+        <fParallelWalkAccelerationMin AltName="平行移動 加速度 最小 [m/sec^2]" />
+        <fParallelWalkAccelerationMax AltName="平行移動 加速度 最大 [m/sec^2]" />
+        <fParallelWalkSpeedMin AltName="平行移動 速度 最小 [m/sec]" />
+        <fParallelWalkSpeedMax AltName="平行移動 速度 最大 [m/sec]" />
+        <fParallelWalkBackAngleMax AltName="平行移動 背面角度 [deg]" />
+        <fParallelWalkBackSpeedRateMin AltName="平行移動 背面減速割合 最小 [%]" />
+        <fParallelWalkBackSpeedRateMax AltName="平行移動 背面減速割合 最大 [%]" />
+        <fWalkDeceleration AltName="歩行 停止加速度 [m/sec^2]" />
+        <fWalkAccelerationMin AltName="歩行 加速度 最小 [m/sec^2]" />
+        <fWalkAccelerationMax AltName="歩行 加速度 最大 [m/sec^2]" />
+        <fWalkSpeedMin AltName="歩行 速度 最小 [m/sec]" />
+        <fWalkSpeedMax AltName="歩行 速度 最大 [m/sec]" />
+        <fWalkRotationAcceleration AltName="歩行 角加速度 [deg/sec^2]" />
+        <fWalkRotationSpeedMin AltName="歩行 角速度 最小 [deg/sec]" />
+        <fWalkRotationSpeedOnLowSpeed AltName="歩行 目標角速度 低速時 [deg/sec]" />
+        <fWalkRotationSpeedOnHighSpeed AltName="歩行 目標角速度 高速時 [deg/sec]" />
+        <fWalkRotationSlowDownStartAngle AltName="歩行 旋回減速開始角度 [deg]" />
+        <fDashDeceleration AltName="ダッシュ 停止加速度 [m/sec^2]" />
+        <fDashAcceleration AltName="ダッシュ 加速度 [m/sec^2]" />
+        <fDashSpeedMax AltName="ダッシュ 最大速度 [m/sec]" />
+        <fDashRotationAcceleration AltName="ダッシュ 角加速度 [deg/sec^2]" />
+        <fDashRotationSpeedMin AltName="ダッシュ 角速度 最小 [deg/sec]" />
+        <fDashRotationSpeedMax AltName="ダッシュ 角速度 最大 [deg/sec]" />
+        <fDashRotationSlowDownStartAngle AltName="ダッシュ 旋回減速開始角度 [deg]" />
+        <fLockOnWalkDeceleration AltName="ロックオン移動 停止加速度 [m/sec^2]" />
+        <fLockOnWalkAccelerationMin AltName="ロックオン移動 加速度 最小 [m/sec^2]" />
+        <fLockOnWalkAccelerationMax AltName="ロックオン移動 加速度 最大 [m/sec^2]" />
+        <fLockOnWalkSpeedMin AltName="ロックオン移動 歩き速度最小 [m/sec]" />
+        <fLockOnWalkSpeedMax AltName="ロックオン移動 歩き速度最大 [m/sec]" />
+        <fLockOnWalkRotationAcceleration AltName="ロックオン移動 旋回加速度 [deg/sec^2]" />
+        <fLockOnWalkRotationSpeedMax AltName="ロックオン移動 旋回最大速度 [deg/sec]" />
+        <fLockOnWalkAngleMax AltName="ロックオン移動 背面角度 [deg]" />
+        <fLockOnWalkBackMoveSpeedRateMin AltName="ロックオン移動 背面減速割合 最小 [%]" />
+        <fLockOnWalkBackMoveSpeedRateMax AltName="ロックオン移動 背面減速割合 最大 [%]" />
+        <fLockOnDashUpperBodyCtrlMaxDist AltName="ロックオンダッシュ 上半身制御 最大距離 [m]" />
+        <fParallelWalkToIdleSpeed AltName="停止 平行移動 発生速度 [m/sec]" />
+        <fParallelWalkToIdleNeutralTime AltName="停止 平行移動 ニュートラル時間 [sec]" />
+        <fWalkToIdleSpeed AltName="停止 歩行 発生速度 [m/sec]" />
+        <fWalkToIdleNeutralTime AltName="停止 歩行 ニュートラル時間 [sec]" />
+        <fDashToIdleSpeed AltName="停止 ダッシュ 発生速度 [m/sec]" />
+        <fDashToIdleNeutralTime AltName="停止 ダッシュ ニュートラル時間 [sec]" />
+        <fLockOnWalkToIdleSpeed AltName="停止 ロックオン移動 発生速度 [m/sec]" />
+        <fLockOnWalkToIdleNeutralTime AltName="停止 ロックオン移動 ニュートラル時間 [sec]" />
+        <fLockOnDashToIdleSpeed AltName="停止 ロックオンダッシュ 発生速度 [m/sec]" />
+        <fLockOnDashToIdleNeutralTime AltName="停止 ロックオンダッシュ ニュートラル時間 [sec]" />
+        <fRotationValueMin AltName="旋回 旋回量 最小 [deg]" />
+        <fRotationValueMax AltName="旋回 旋回量 最大 [deg]" />
+    </Field>
+</PARAMMETA>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>BOSS_ENEMY_GENERATE_PARAM</ParamType>
+    <DataVersion>1</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="u32 generatorBeginId" />
+        <Field Def="u32 generatorEndId" />
+        <Field Def="u16 dummyPolyBeginId" />
+        <Field Def="u16 dummyPolyEndId" />
+        <Field Def="u8 isCopyPlayerProtector" />
+        <Field Def="u8 isAnotherWorld" />
+        <Field Def="dummy8 dummy[2]" />
+    </Fields>
+</PARAMDEF>

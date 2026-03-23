@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <fAttackDashAcceleration AltName="近接攻撃制御 歩行攻撃移動加速度 [m/sec^2]" />
+        <fAttackDashSpeed AltName="近接攻撃制御 歩行攻撃移動速度 [m/sec]" />
+        <fAttackDashRotationLowSpeed AltName="攻撃制御 低速旋回速度 [deg/sec]" />
+        <fAttackDashRotationHighSpeed AltName="攻撃制御 高速旋回速度 [deg/sec]" />
+        <fAttackDashRotSpeedMinBorder AltName="攻撃制御 低速旋回判定速度[m/sec]" />
+        <fAttackDashRotSpeedMaxBorder AltName="攻撃制御 高速旋回判定速度[m/sec]" />
+        <fAttackDashRange AltName="近接攻撃制御 歩行攻撃攻撃範囲 [m]" />
+        <fAttackBackSwingSpeed AltName="接近攻撃制御 攻撃開始部速度倍率 [倍]" />
+        <fAttackFollowSwingSpeed AltName="接近攻撃制御 攻撃終了部速度倍率 [倍]" />
+        <fAttackSecondRotationRate AltName="攻撃制御 二次旋回倍率 [倍]" />
+        <fAttackTimeOut AltName="接近攻撃制御 タイムアウト時間 [sec]" />
+        <fAttackEstimateFutureTime AltName="攻撃制御 位置予測時間 [sec]" />
+        <fShotMoveSpeedRate AltName="射撃制御 移動低下倍率 [倍]" />
+        <rotationOffsetDummyPoly AltName="旋回軸ダミポリ番号" />
+        <attackDashFailedCancel AltName="ブレードダッシュ失敗時キャンセルフラグ" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <disableCollisionCheck AltName="障害物判定をしない" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <dummy1 AltName="ダミー" />
+    </Field>
+</PARAMMETA>

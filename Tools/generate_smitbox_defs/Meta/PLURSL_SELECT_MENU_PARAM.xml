@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <displayTextId AltName="表示テキストID" />
+        <consumptionSoul AltName="選択時消費ソウル" />
+        <kickEventId AltName="選択時キックイベントID" />
+        <checkEventFlagId AltName="表示確認用イベントID" />
+        <enableFlagType AltName="項目を消すフラグの状態" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <dummy AltName="予約領域" />
+    </Field>
+</PARAMMETA>

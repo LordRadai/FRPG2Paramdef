@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <modelId AltName="モデルID" />
+        <type AltName="種類" ProjectEnum="SOUND_FOOT_TYPE" />
+        <aReserved AltName="予約領域" />
+    </Field>
+</PARAMMETA>

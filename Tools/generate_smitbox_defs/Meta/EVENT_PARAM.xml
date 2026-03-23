@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <stateMapId AltName="ステートマップID" />
+        <ownerId AltName="オーナータイプID" />
+        <bonfireId AltName="篝火ID" />
+        <resourceType AltName="リソースタイプ" ProjectEnum="EVENT_RES_TYPE_ENUM" />
+        <bootType AltName="起動タイプ" ProjectEnum="EVENT_BOOT_TYPE_ENUM" />
+        <ownerType AltName="オーナータイプ" ProjectEnum="EVENT_OWNER_TYPE_ENUM" />
+        <bGroupConditionSync:1 AltName="グループ条件同期" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <bPlayerDeadPlaying:1 AltName="プレイヤー死亡時に動作させるか" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <bDemoPlaying:1 AltName="カットシーン中に動作させるか" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <aReserved1 AltName="予約" />
+    </Field>
+</PARAMMETA>

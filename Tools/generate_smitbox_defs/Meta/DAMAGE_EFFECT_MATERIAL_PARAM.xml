@@ -1,0 +1,245 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <bodyEffect01 AltName="本体：SFX1" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <bodyEffect02 AltName="本体：SFX2" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <bodySize01 AltName="本体：サイズ1" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <bodySize02 AltName="本体：サイズ2" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <bodyDummy AltName="ダミー" />
+        <petrifiedBossBodyEffect01 AltName="石化ボス本体：SFX1" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <petrifiedBossBodyEffect02 AltName="石化ボス本体：SFX2" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <petrifiedBossBodySize01 AltName="石化ボス本体：サイズ1" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <petrifiedBossBodySize02 AltName="石化ボス本体：サイズ2" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <petrifiedBossBodyDummy AltName="ダミー" />
+        <noneEffect01 AltName="なし：SFX1" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <noneEffect02 AltName="なし：SFX2" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <noneSize01 AltName="なし：サイズ1" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <noneSize02 AltName="なし：サイズ2" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <noneDummy AltName="ダミー" />
+        <metalEffect01 AltName="鉄：SFX1" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <metalEffect02 AltName="鉄：SFX2" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <metalSize01 AltName="鉄：サイズ1" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <metalSize02 AltName="鉄：サイズ2" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <metalDummy AltName="ダミー" />
+        <heavymetalEffect01 AltName="重鉄：SFX1" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <heavymetalEffect02 AltName="重鉄：SFX2" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <heavymetalSize01 AltName="重鉄：サイズ1" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <heavymetalSize02 AltName="重鉄：サイズ2" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <heavymetalDummy AltName="ダミー" />
+        <woodEffect01 AltName="木：SFX1" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <woodEffect02 AltName="木：SFX2" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <woodSize01 AltName="木：サイズ1" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <woodSize02 AltName="木：サイズ2" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <woodDummy AltName="ダミー" />
+        <waterEffect01 AltName="水：SFX1" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <waterEffect02 AltName="水：SFX2" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <waterSize01 AltName="水：サイズ1" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <waterSize02 AltName="水：サイズ2" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <waterDummy AltName="ダミー" />
+        <swampEffect01 AltName="沼：SFX1" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <swampEffect02 AltName="沼：SFX2" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <swampSize01 AltName="沼：サイズ1" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <swampSize02 AltName="沼：サイズ2" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <swampDummy AltName="ダミー" />
+        <lumberEffect01 AltName="木材：SFX1" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <lumberEffect02 AltName="木材：SFX2" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <lumberSize01 AltName="木材：サイズ1" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <lumberSize02 AltName="木材：サイズ2" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <lumberDummy AltName="ダミー" />
+        <meatEffect01 AltName="生者肉：SFX1" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <meatEffect02 AltName="生者肉：SFX2" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <meatSize01 AltName="生者肉：サイズ1" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <meatSize02 AltName="生者肉：サイズ2" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <meatDummy AltName="ダミー" />
+        <deadmeatEffect01 AltName="亡者肉：SFX1" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <deadmeatEffect02 AltName="亡者肉：SFX2" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <deadmeatSize01 AltName="亡者肉：サイズ1" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <deadmeatSize02 AltName="亡者肉：サイズ2" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <deadmeatDummy AltName="ダミー" />
+        <insectEffect01 AltName="虫：SFX1" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <insectEffect02 AltName="虫：SFX2" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <insectSize01 AltName="虫：サイズ1" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <insectSize02 AltName="虫：サイズ2" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <insectDummy AltName="ダミー" />
+        <giantEffect01 AltName="巨人：SFX1" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <giantEffect02 AltName="巨人：SFX2" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <giantSize01 AltName="巨人：サイズ1" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <giantSize02 AltName="巨人：サイズ2" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <giantDummy AltName="ダミー" />
+        <boneEffect01 AltName="骨：SFX1" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <boneEffect02 AltName="骨：SFX2" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <boneSize01 AltName="骨：サイズ1" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <boneSize02 AltName="骨：サイズ2" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <boneDummy AltName="ダミー" />
+        <copperEffect01 AltName="銅：SFX1" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <copperEffect02 AltName="銅：SFX2" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <copperSize01 AltName="銅：サイズ1" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <copperSize02 AltName="銅：サイズ2" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <copperDummy AltName="ダミー" />
+        <energyEffect01 AltName="エネルギー：SFX1" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <energyEffect02 AltName="エネルギー：SFX2" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <energySize01 AltName="エネルギー：サイズ1" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <energySize02 AltName="エネルギー：サイズ2" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <energyDummy AltName="ダミー" />
+        <fireEffect01 AltName="炎：SFX1" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <fireEffect02 AltName="炎：SFX2" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <fireSize01 AltName="炎：サイズ1" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <fireSize02 AltName="炎：サイズ2" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <fireDummy AltName="ダミー" />
+        <thunderEffect01 AltName="雷：SFX1" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <thunderEffect02 AltName="雷：SFX2" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <thunderSize01 AltName="雷：サイズ1" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <thunderSize02 AltName="雷：サイズ2" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <thunderDummy AltName="ダミー" />
+        <darkEffect01 AltName="闇：SFX1" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <darkEffect02 AltName="闇：SFX2" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <darkSize01 AltName="闇：サイズ1" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <darkSize02 AltName="闇：サイズ2" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <darkDummy AltName="ダミー" />
+        <magicEffect01 AltName="魔力：SFX1" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <magicEffect02 AltName="魔力：SFX2" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <magicSize01 AltName="魔力：サイズ1" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <magicSize02 AltName="魔力：サイズ2" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <magicDummy AltName="ダミー" />
+        <stoneEffect01 AltName="石：SFX1" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <stoneEffect02 AltName="石：SFX2" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <stoneSize01 AltName="石：サイズ1" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <stoneSize02 AltName="石：サイズ2" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <stoneDummy AltName="ダミー" />
+        <dirtEffect01 AltName="土：SFX1" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <dirtEffect02 AltName="土：SFX2" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <dirtSize01 AltName="土：サイズ1" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <dirtSize02 AltName="土：サイズ2" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <dirtDummy AltName="ダミー" />
+        <carpetEffect01 AltName="カーペット：SFX1" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <carpetEffect02 AltName="カーペット：SFX2" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <carpetSize01 AltName="カーペット：サイズ1" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <carpetSize02 AltName="カーペット：サイズ2" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <carpetDummy AltName="ダミー" />
+        <grassEffect01 AltName="草：SFX1" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <grassEffect02 AltName="草：SFX2" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <grassSize01 AltName="草：サイズ1" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <grassSize02 AltName="草：サイズ2" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <grassDummy AltName="ダミー" />
+        <gravelEffect01 AltName="砂利：SFX1" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <gravelEffect02 AltName="砂利：SFX2" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <gravelSize01 AltName="砂利：サイズ1" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <gravelSize02 AltName="砂利：サイズ2" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <gravelDummy AltName="ダミー" />
+        <clothEffect01 AltName="布：SFX1" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <clothEffect02 AltName="布：SFX2" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <clothSize01 AltName="布：サイズ1" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <clothSize02 AltName="布：サイズ2" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <clothDummy AltName="ダミー" />
+        <sandEffect01 AltName="砂：SFX1" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <sandEffect02 AltName="砂：SFX2" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <sandSize01 AltName="砂：サイズ1" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <sandSize02 AltName="砂：サイズ2" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <sandDummy AltName="ダミー" />
+        <ashEffect01 AltName="灰：SFX1" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <ashEffect02 AltName="灰：SFX2" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <ashSize01 AltName="灰：サイズ1" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <ashSize02 AltName="灰：サイズ2" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <ashDummy AltName="ダミー" />
+        <poisonswampEffect01 AltName="毒沼：SFX1" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <poisonswampEffect02 AltName="毒沼：SFX2" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <poisonswampSize01 AltName="毒沼：サイズ1" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <poisonswampSize02 AltName="毒沼：サイズ2" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <poisonswampDummy AltName="ダミー" />
+        <oilEffect01 AltName="油：SFX1" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <oilEffect02 AltName="油：SFX2" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <oilSize01 AltName="油：サイズ1" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <oilSize02 AltName="油：サイズ2" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <oilDummy AltName="ダミー" />
+        <coaltarEffect01 AltName="コールタール：SFX1" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <coaltarEffect02 AltName="コールタール：SFX2" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <coaltarSize01 AltName="コールタール：サイズ1" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <coaltarSize02 AltName="コールタール：サイズ2" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <coaltarDummy AltName="ダミー" />
+        <lavaEffect01 AltName="溶岩：SFX1" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <lavaEffect02 AltName="溶岩：SFX2" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <lavaSize01 AltName="溶岩：サイズ1" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <lavaSize02 AltName="溶岩：サイズ2" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <lavaDummy AltName="ダミー" />
+        <stringEffect01 AltName="蜘蛛の糸：SFX1" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <stringEffect02 AltName="蜘蛛の糸：SFX2" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <stringSize01 AltName="蜘蛛の糸：サイズ1" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <stringSize02 AltName="蜘蛛の糸：サイズ2" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <stringDummy AltName="ダミー" />
+        <sulfurcrystalEffect01 AltName="硫黄結晶：SFX1" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <sulfurcrystalEffect02 AltName="硫黄結晶：SFX2" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <sulfurcrystalSize01 AltName="硫黄結晶：サイズ1" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <sulfurcrystalSize02 AltName="硫黄結晶：サイズ2" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <sulfurcrystalDummy AltName="ダミー" />
+        <soulEffect01 AltName="ソウル：SFX1" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <soulEffect02 AltName="ソウル：SFX2" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <soulSize01 AltName="ソウル：サイズ1" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <soulSize02 AltName="ソウル：サイズ2" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <soulDummy AltName="ダミー" />
+        <frogEffect01 AltName="美声カエル：SFX1" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <frogEffect02 AltName="美声カエル：SFX2" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <frogSize01 AltName="美声カエル：サイズ1" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <frogSize02 AltName="美声カエル：サイズ2" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <frogDummy AltName="ダミー" />
+        <stoneWaterEffect01 AltName="石水：SFX1" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <stoneWaterEffect02 AltName="石水：SFX2" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <stoneWaterSize01 AltName="石水：サイズ1" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <stoneWaterSize02 AltName="石水：サイズ2" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <stoneWaterDummy AltName="ダミー" />
+        <stoneEnergyEffect01 AltName="石エネルギー：SFX1" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <stoneEnergyEffect02 AltName="石エネルギー：SFX2" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <stoneEnergySize01 AltName="石エネルギー：サイズ1" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <stoneEnergySize02 AltName="石エネルギー：サイズ2" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <stoneEnergyDummy AltName="ダミー" />
+        <coverEffect01 AltName="肩代わり：SFX1" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <coverEffect02 AltName="肩代わり：SFX2" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <coverSize01 AltName="肩代わり：サイズ1" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <coverSize02 AltName="肩代わり：サイズ2" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <coverDummy AltName="ダミー" />
+        <unkMat0Effect01 AltName="肩代わり：SFX1" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <unkMat0Effect02 AltName="肩代わり：SFX2" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <unkMat0Size01 AltName="肩代わり：サイズ1" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <unkMat0Size02 AltName="肩代わり：サイズ2" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <unkMat0Dummy AltName="ダミー" />
+        <unkMat1Effect01 AltName="肩代わり：SFX1 [Mat1]" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <unkMat1Effect02 AltName="肩代わり：SFX2 [Mat1]" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <unkMat1Size01 AltName="肩代わり：サイズ1 [Mat1]" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <unkMat1Size02 AltName="肩代わり：サイズ2 [Mat1]" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <unkMat1Dummy AltName="ダミー" />
+        <unkMat2Effect01 AltName="肩代わり：SFX1 [Mat2]" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <unkMat2Effect02 AltName="肩代わり：SFX2 [Mat2]" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <unkMat2Size01 AltName="肩代わり：サイズ1 [Mat2]" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <unkMat2Size02 AltName="肩代わり：サイズ2 [Mat2]" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <unkMat2Dummy AltName="ダミー" />
+        <unkMat3Effect01 AltName="肩代わり：SFX1 [Mat3]" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <unkMat3Effect02 AltName="肩代わり：SFX2 [Mat3]" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <unkMat3Size01 AltName="肩代わり：サイズ1 [Mat3]" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <unkMat3Size02 AltName="肩代わり：サイズ2 [Mat3]" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <unkMat3Dummy AltName="ダミー" />
+        <unkMat4Effect01 AltName="肩代わり：SFX1 [Mat4]" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <unkMat4Effect02 AltName="肩代わり：SFX2 [Mat4]" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <unkMat4Size01 AltName="肩代わり：サイズ1 [Mat4]" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <unkMat4Size02 AltName="肩代わり：サイズ2 [Mat4]" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <unkMat4Dummy AltName="ダミー" />
+        <unkMat5Effect01 AltName="肩代わり：SFX1 [Mat5]" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <unkMat5Effect02 AltName="肩代わり：SFX2 [Mat5]" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <unkMat5Size01 AltName="肩代わり：サイズ1 [Mat5]" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <unkMat5Size02 AltName="肩代わり：サイズ2 [Mat5]" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <unkMat5Dummy AltName="ダミー" />
+        <unkMat6Effect01 AltName="肩代わり：SFX1 [Mat6]" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <unkMat6Effect02 AltName="肩代わり：SFX2 [Mat6]" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <unkMat6Size01 AltName="肩代わり：サイズ1 [Mat6]" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <unkMat6Size02 AltName="肩代わり：サイズ2 [Mat6]" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <unkMat6Dummy AltName="ダミー" />
+        <unkMat7Effect01 AltName="肩代わり：SFX1 [Mat7]" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <unkMat7Effect02 AltName="肩代わり：SFX2 [Mat7]" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <unkMat7Size01 AltName="肩代わり：サイズ1 [Mat7]" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <unkMat7Size02 AltName="肩代わり：サイズ2 [Mat7]" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <unkMat7Dummy AltName="ダミー" />
+        <unkMat8Effect01 AltName="肩代わり：SFX1 [Mat8]" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <unkMat8Effect02 AltName="肩代わり：SFX2 [Mat8]" ProjectEnum="DAMAGE_EFFECT_SFX_TYPE_ENUM" />
+        <unkMat8Size01 AltName="肩代わり：サイズ1 [Mat8]" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <unkMat8Size02 AltName="肩代わり：サイズ2 [Mat8]" ProjectEnum="DAMAGE_EFFECT_SFX_SIZE" />
+        <unkMat8Dummy AltName="ダミー" />
+    </Field>
+</PARAMMETA>

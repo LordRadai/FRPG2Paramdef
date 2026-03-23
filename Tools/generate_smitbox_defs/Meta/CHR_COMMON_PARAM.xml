@@ -1,0 +1,258 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <heightType AltName="身長" ProjectEnum="CHR_HEIGHT_TYPE" />
+        <weightType AltName="体重" ProjectEnum="CHR_WEIGHT_TYPE" />
+        <loadWeightRateMin AltName="ウェイト中 防具重量割合 最小" />
+        <loadWeightRateMax AltName="ウェイト中 防具重量割合 最大" />
+        <tireKeepTime AltName="疲労状態継続時間" />
+        <staminaCostDash AltName="スタミナ消費倍率 ダッシュ" />
+        <staminaCostLockOnDash AltName="スタミナ消費倍率 ロックオンダッシュ" />
+        <staminaCostLadder AltName="スタミナ消費倍率 はしごダッシュ" />
+        <staminaCostRope AltName="スタミナ消費倍率 ロープすべり降り" />
+        <staminaCostEvasionBase AltName="スタミナ 消費量 回避ベース値" />
+        <staminaCostStep AltName="スタミナ 消費倍率 ステップ" />
+        <staminaCostRolling AltName="スタミナ 消費倍率 ローリング" />
+        <staminaCostDashJump AltName="スタミナ 消費倍率 ダッシュジャンプ" />
+        <staminaCostStandJump AltName="スタミナ 消費倍率 スタンドジャンプ" />
+        <staminaCostRateEvasion AltName="スタミナ 消費倍率 補正倍率 回避動作中" />
+        <staminaCostRateAttack AltName="スタミナ 消費倍率 補正倍率 攻撃動作中" />
+        <moveDemeritPercentMin AltName="スタミナ低下 移動系デメリット最小地点 [%]" />
+        <moveDemeritPercentMax AltName="スタミナ低下 移動系デメリット最大地点 [%]" />
+        <equipDemeritPercentMin AltName="スタミナ低下 装備系デメリット最小地点 [%]" />
+        <equipDemeritPercentMax AltName="スタミナ低下 装備系デメリット最大地点 [%]" />
+        <attackDemeritPercentMin AltName="スタミナ低下 攻撃系デメリット最小地点 [%]" />
+        <attackDemeritPercentMax AltName="スタミナ低下 攻撃系デメリット最大地点 [%]" />
+        <attackExtraLackOfStatsRate AltName="スタミナ不足攻撃 ステータス不足割合 [%]" />
+        <rollingExtraLackOfStatsRate AltName="スタミナ不足ローリング ステータス不足割合 [%]" />
+        <attackKeepEmptyStaminaTime AltName="スタミナ切れ攻撃 継続時間 [sec]" />
+        <emptyStaminaAttackExtraLackOfStatsRate AltName="スタミナ切れ攻撃 ステータス不足割合 [%]" />
+        <shotReserveSpeed AltName="スタミナ切れ攻撃 攻撃予備動作 再生倍率" />
+        <attackWaitSpeed AltName="スタミナ切れ攻撃 攻撃待機 再生倍率" />
+        <armorType AltName="基本アーマー種類" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <damageWeaponType AltName="ダメージ武器タイプ" ProjectEnum="DAMAGE_CHARACTER_TYPE" />
+        <deadRagdollFitGround AltName="死亡時ラグドールを地面に沿わせる" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <dummy0 AltName="ダミー" />
+        <deadTimerA AltName="死亡タイマー 経過時間Ａ" />
+        <dyingHpMax AltName="瀕死 最大ＨＰ[%]" />
+        <dyingHpMin AltName="瀕死 最小ＨＰ[%]" />
+        <dyingMoveBlendMaxRate AltName="瀕死 移動時 ブレンド率" />
+        <ctrlType AltName="基本制御タイプ" ProjectEnum="CHR_CTRL_TYPE" />
+        <collisionType AltName="移動コリジョンタイプ" ProjectEnum="CHR_COLLISION_TYPE" />
+        <fHitHeight AltName="移動コリジョン高さ [m]" />
+        <fHitRadius AltName="移動コリジョン半径 [m]" />
+        <fChrHeight AltName="身長 [m]" />
+        <fGuardAngleY AltName="防御角度上下 [deg]" />
+        <fGuardAngleX AltName="防御角度左右 [deg]" />
+        <fMaxLinearVelocity AltName="最高速度[m/s]" />
+        <loadGravityRateBaseMin AltName="重量 算出基準 最小 [kg]" />
+        <loadGravityRateBaseMax AltName="重量 算出基準 最大 [kg]" />
+        <gravityFactorMin AltName="重力加速度倍率 最小" />
+        <gravityFactorMax AltName="重力加速度倍率 最大" />
+        <gravitySpeedMax AltName="重力最大速度 [m/s]" />
+        <flyCtrlValue AltName="飛行制動率" />
+        <lockPointType AltName="ロックポイントタイプ" />
+        <lockDummy AltName="ロック制御ダミー" />
+        <lockCameraCategory AltName="ロックカメラ補正カテゴリ" ProjectEnum="LOCK_ON_CAMERA_OFFSET_TYPE_ENUM" />
+        <lockDisableRadius AltName="ロック不可半径[m]" />
+        <lockDisableHeight AltName="ロック不可高さ[m]" />
+        <guardKnockBackRateSuperSmall AltName="ガードノックバック減少割合 ウェイト補正割合 極小" />
+        <guardKnockBackRateSmall AltName="ガードノックバック減少割合 ウェイト補正割合 小" />
+        <guardKnockBackRateMedium AltName="ガードノックバック減少割合 ウェイト補正割合 中" />
+        <guardKnockBackRateLarge AltName="ガードノックバック減少割合 ウェイト補正割合 大" />
+        <guardKnockBackRateSuperLarge AltName="ガードノックバック減少割合 ウェイト補正割合 特大" />
+        <guardKnockBackRateUltraLarge AltName="ガードノックバック減少割合 ウェイト補正割合 特特大" />
+        <guardKnockBackRateFlip AltName="ガードノックバック減少割合 ウェイト補正割合 弾き" />
+        <guardRotationRate AltName="ガード旋回 反映割合[%]" />
+        <headShotEnable AltName="ヘッドショット" ProjectEnum="BOOL_ENABLEDISABLE_TYPE" />
+        <guardBreakEnable AltName="ガードブレイク" ProjectEnum="BOOL_ENABLEDISABLE_TYPE" />
+        <backStabEnable AltName="バックスタブ" ProjectEnum="BOOL_ENABLEDISABLE_TYPE" />
+        <parryBreakStabEnable AltName="パリィブレイクスタブ" ProjectEnum="BOOL_ENABLEDISABLE_TYPE" />
+        <parryBreakDefenselessTime AltName="パリィブレイク 無防備時間" />
+        <parryBreakShorteningTime AltName="パリィブレイク ＰＡＤ入力 短縮時間[sec]" />
+        <guardBreakStabEnable AltName="ガードブレイクスタブ" ProjectEnum="BOOL_ENABLEDISABLE_TYPE" />
+        <pad0 AltName="パディング" />
+        <downAttackLength AltName="ダウン追い打ち 許容距離[m]" />
+        <backStabSideAngle AltName="バックスタブ 左右角度 [deg]" />
+        <backStabUpSideAngle AltName="バックスタブ 上下角度 [deg]" />
+        <backStabHeight AltName="バックスタブ 高低差 [m]" />
+        <backStabLength AltName="バックスタブ 距離[m]" />
+        <parryBreakStabSideAngle AltName="パリィブレイクスタブ 左右角度 [deg]" />
+        <parryBreakStabUpSideAngle AltName="パリィブレイクスタブ 上下角度 [deg]" />
+        <parryBreakStabHeight AltName="パリィブレイクスタブ 高低差 [m]" />
+        <parryStabLength AltName="パリィブレイクスタブ 距離[m]" />
+        <guardBreakStabSideAngle AltName="ガードブレイクスタブ 左右角度 [deg]" />
+        <guardBreakStabUpSideAngle AltName="ガードブレイクスタブ 上下角度 [deg]" />
+        <guardBreakStabHeight AltName="ガードブレイクスタブ 高低差 [m]" />
+        <guardBreakStabLength AltName="ガードブレイクスタブ 距離[m]" />
+        <lowerEnable AltName="下半身ダメージ" ProjectEnum="BOOL_ENABLEDISABLE_TYPE" />
+        <pad1 AltName="パディング" />
+        <lowerDmgBendingValue AltName="下半身ダメージ しゃがみ量[%]" />
+        <lowerDmgBendingStartTime AltName="下半身ダメージ しゃがみ行き時間[sec]" />
+        <lowerDmgBendingEndTime AltName="下半身ダメージ しゃがみ戻り時間[sec]" />
+        <lowerDmgMoveDecelerationRate AltName="下半身ダメージ 移動速度 減少割合[%]" />
+        <lowerDmgRotateDecelerationRate AltName="下半身ダメージ 旋回速度 減少割合[%]" />
+        <ragdollMassFactor AltName="ラグドール質量倍率" />
+        <ragdollFrictionFactor AltName="ラグドール摩擦係数倍率" />
+        <ragdollRestitutionFactor AltName="ラグドール反発係数倍率" />
+        <ragdollMaxLinearVelocityFactor AltName="ラグドール最大速度倍率" />
+        <ragdollMaxAngularVelocityFactor AltName="ラグドール最大角速度倍率" />
+        <ragdollGravityFactorMin AltName="ラグドール重力加速度倍率 最小" />
+        <ragdollGravityFactorMax AltName="ラグドール重力加速度倍率 最大" />
+        <jumpAttackSideAngle AltName="ジャンプ衝突 発生左右角度[°]" />
+        <damageRotationSpeed AltName="ダメージ方向 旋回速度 [deg/sec]" />
+        <damageMoveDistRate AltName="ダメージ ノックバック減少割合 [%]" />
+        <heavyDamageKnockBackDist AltName="ダメージ 特大ダメージ後退 [m]" />
+        <heavyDamageStiff AltName="ダメージ 特大ダメージ硬直 [Sec]" />
+        <heavyDamageDefenselessTime AltName="ダメージ 特大ダメージ無防備時間 [Sec]" />
+        <bleedingDamageStiff AltName="ダメージ 出血硬直[Sec]" />
+        <heavyDamageShorteningTime AltName="ダメージ 特大ダメージ無防備時間 ＰＡＤ入力 短縮時間 [Se" />
+        <guardBreakDamageDefenselessTime AltName="ダメージ ガードブレイクダメージ無防備時間 [Sec]" />
+        <guardBreakDamageShorteningTime AltName="ダメージ ガードブレイクダメージ無防備時間 ＰＡＤ入力 短縮時" />
+        <blowDecelerationTimeFirst AltName="ダメージ 吹飛びダメージ減速１開始時間 [Sec]" />
+        <blowDecelerationTimeSecond AltName="ダメージ 吹飛びダメージ減速２開始時間 [Sec]" />
+        <blowDecelerationFirst AltName="ダメージ 吹飛びダメージ減速度１ [m/sec^2]" />
+        <blowDecelerationSecond AltName="ダメージ 吹飛びダメージ減速度２ [m/sec^2]" />
+        <attackPushBackRate AltName="押し返し反映割合[%]" />
+        <parryRotationSpeed AltName="パリィ旋回速度 [deg/sec]" />
+        <BreathDamageEnable AltName="ブレスダメージ有効無効設定" ProjectEnum="BOOL_ENABLEDISABLE_TYPE" />
+        <dummy1 AltName="ダミー" />
+        <hitLowerBodyHeight AltName="ＨＩＴ判定 下半身高さ" />
+        <hitFrontAngle AltName="ＨＩＴ時正面認識 左右角度" />
+        <attackMoveSpeed AltName="歩行攻撃移動速度 [m/s]" />
+        <attackRotationSpeed AltName="歩行攻撃旋回速度 [deg/s]" />
+        <attackRange AltName="攻撃範囲 [m]" />
+        <fLookAtRotationLeftMax AltName="LookAt 旋回限界角度 左 [deg]" />
+        <fLookAtRotationRightMax AltName="LookAt 旋回限界角度 右 [deg]" />
+        <fLookAtRotationUpperMax AltName="LookAt 旋回限界角度 上 [deg]" />
+        <fLookAtRotationLownerMax AltName="LookAt 旋回限界角度 下 [deg]" />
+        <fLookAtVisibilitySideMax AltName="LookAt 認識限界角度 左右 [deg]" />
+        <fLookAtVisibilityUpperMax AltName="LookAt 認識限界角度 上下 [deg]" />
+        <fLookAtRotationSideSpeedMax AltName="LookAt 左右旋回速度 [deg/sec]" />
+        <fLookAtRotationUpperSpeedMax AltName="LookAt 上下旋回速度 [deg/sec]" />
+        <isLookAtDummyPolyBasePos AltName="LookAt ダミポリ位置を基準にする" ProjectEnum="BOOL_ENABLEDISABLE_TYPE" />
+        <lookAtDummy AltName="ダミー" />
+        <fShootingLookAtRotationLeftMax AltName="射撃 LookAt 旋回限界角度 左 [deg]" />
+        <fShootingLookAtRotationRightMax AltName="射撃 LookAt 旋回限界角度 右 [deg]" />
+        <fShootingLookAtRotationUpperMax AltName="射撃 LookAt 旋回限界角度 上 [deg]" />
+        <fShootingLookAtRotationLownerMax AltName="射撃 LookAt 旋回限界角度 下 [deg]" />
+        <fShootingLookAtVisibilitySideMax AltName="射撃 LookAt 認識限界角度 左右 [deg]" />
+        <fShootingLookAtVisibilityUpperMax AltName="射撃 LookAt 認識限界角度 上下 [deg]" />
+        <fShootingLookAtRotationSideSpeedMax AltName="射撃 LookAt 左右旋回速度 [deg/sec]" />
+        <fShootingLookAtRotationUpperSpeedMax AltName="射撃 LookAt 上下旋回速度 [deg/sec]" />
+        <shootingIsLookAtDummyPolyBasePos AltName="射撃 LookAt ダミポリ位置を基準にする" ProjectEnum="BOOL_ENABLEDISABLE_TYPE" />
+        <shootingLookAtDummy AltName="ダミー" />
+        <footDummyPoly001 AltName="足裏ダミポリ番号1" />
+        <footDummyPoly002 AltName="足裏ダミポリ番号2" />
+        <footDummyPoly003 AltName="足裏ダミポリ番号3" />
+        <footDummyPoly004 AltName="足裏ダミポリ番号4" />
+        <footDummyPoly005 AltName="足裏ダミポリ番号5" />
+        <footDummyPoly006 AltName="足裏ダミポリ番号6" />
+        <footDummyPoly007 AltName="足裏ダミポリ番号7" />
+        <footDummyPoly008 AltName="足裏ダミポリ番号8" />
+        <footEffectOffset AltName="足エフェクト前後オフセット" />
+        <footEffectOffsetMoveRate AltName="足エフェクト移動量オフセット倍率" />
+        <footRayMargin AltName="足エフェクト余白" />
+        <footRayMinLength AltName="足エフェクト判定レイキャスト最短" />
+        <footRayMaxLength AltName="足エフェクト判定レイキャスト最長（上り坂）" />
+        <footRayMaxDownHillLength AltName="足エフェクト判定レイキャスト最長（下り坂）" />
+        <footRayUpDownMargin AltName="足エフェクト判定上下変化許容量" />
+        <footRunSpeedRate AltName="走り足音判定速度割合[%]" />
+        <footSoundLevelSuperSmall AltName="音大きさ　極小" />
+        <footSoundLevelSmall AltName="音大きさ　小" />
+        <footSoundLevelNormal AltName="音大きさ　中" />
+        <footSoundLevelLarge AltName="音大きさ　大" />
+        <footSoundLevelSuperLarge AltName="音大きさ　特大" />
+        <footSoundDummy AltName="ダミー" />
+        <single1HandNormal AltName="詠唱時間 片手 弱 [sec]" />
+        <single1HandStrong AltName="詠唱時間 片手 強 [sec]" />
+        <single2HandedNormal AltName="詠唱時間 両手 弱 [sec]" />
+        <single2HandedStrong AltName="詠唱時間 両手 強 [sec]" />
+        <dual1HandNormal AltName="詠唱時間 二刀流 弱 [sec]" />
+        <dual1HandStrong AltName="詠唱時間 二刀流 強 [sec]" />
+        <dual2HandedNormal AltName="詠唱時間 二刀流両手 弱 [sec]" />
+        <dual2HandedStrong AltName="詠唱時間 二刀流両手 強 [sec]" />
+        <bladePartsDamage AltName="ブレード部位ダメージ有効設定" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <partsDummy AltName="ダミー" />
+        <damageAdjustPartsRateSuperSmall AltName="部位ダメージ倍率　極小" />
+        <damageAdjustPartsRateSmall AltName="部位ダメージ倍率　小" />
+        <damageAdjustPartsRateNormal AltName="部位ダメージ倍率　中" />
+        <damageAdjustPartsRateLarge AltName="部位ダメージ倍率　大" />
+        <damageAdjustPartsRateSuperLarge AltName="部位ダメージ倍率　特大" />
+        <grabAttackDamageRate AltName="投げ中ダメージ倍率" />
+        <receiveSlashDamageRate AltName="通常物理 被ダメージ倍率 斬撃" />
+        <receiveThrustDamageRate AltName="通常物理 被ダメージ倍率 刺突" />
+        <receiveStrikeDamageRate AltName="通常物理 被ダメージ倍率 打撃" />
+        <fallStrikeFallDist AltName="落下攻撃 発生落下高度" />
+        <jumpFallStrikeHeight AltName="ジャンプ落下攻撃 発生落下高度" />
+        <isSlopeAdjust AltName="常に傾斜に沿う" ProjectEnum="BOOL_ENABLEDISABLE_TYPE" />
+        <slopeAdjustDummy AltName="ダミー" />
+        <slopeAdjustPitchMax AltName="傾斜最大ピッチ角度" />
+        <slopeAdjustRollMax AltName="傾斜最大ロール角度" />
+        <slopeAdjustPitchSpeed AltName="傾斜ピッチ補正速度" />
+        <slopeAdjustRollSpeed AltName="傾斜ロール補正速度" />
+        <fallStabSlashAnim AltName="落下投げアニメID 斬り" ProjectEnum="PLAYER_SP_ATTACK_MOTION" />
+        <fallStabStabAnim AltName="落下投げアニメID 突き" ProjectEnum="PLAYER_SP_ATTACK_MOTION" />
+        <fallStabGrabParamId AltName="落下投げ 投げパラメータID" />
+        <fallStabDummyPolyId AltName="落下投げ 基準ダミポリID" />
+        <fallStabDummyPolyReverse AltName="落下投げ 向き反転" ProjectEnum="BOOL_ENABLEDISABLE_TYPE" />
+        <fallStabDummy AltName="ダミー" />
+        <fallStabDistance AltName="落下投げ 距離[m]" />
+        <fallStabAngle AltName="落下投げ 角度[deg]" />
+        <poisonRecoverTimeMin AltName="状態異常 毒 ゲージ回復時間 最小値[sec]" />
+        <poisonRecoverTimeMax AltName="状態異常 毒 ゲージ回復時間 最大値[sec]" />
+        <burningRecoverTimeMin AltName="状態異常 燃焼 ゲージ回復時間 最小値[sec]" />
+        <burningRecoverTimeMax AltName="状態異常 燃焼 ゲージ回復時間 最大値[sec]" />
+        <bleedingRecoverTimeMin AltName="状態異常 出血 ゲージ回復時間 最小値[sec]" />
+        <bleedingRecoverTimeMax AltName="状態異常 出血 ゲージ回復時間 最大値[sec]" />
+        <curseRecoverTimeMin AltName="状態異常 呪死 ゲージ回復時間 最小値[sec]" />
+        <curseRecoverTimeMax AltName="状態異常 呪死 ゲージ回復時間 最大値[sec]" />
+        <weaponBreakRecoverTimeMin AltName="状態異常 武器破損 ゲージ回復時間 最小値[sec]" />
+        <weaponBreakRecoverTimeMax AltName="状態異常 武器破損 ゲージ回復時間 最大値[sec]" />
+        <petrifiedRecoverTimeMin AltName="状態異常 石化 ゲージ回復時間 最小値[sec]" />
+        <petrifiedRecoverTimeMax AltName="状態異常 石化 ゲージ回復時間 最大値[sec]" />
+        <poisonWetEffectTimeMin AltName="毒濡れ 効果時間 最小値[sec]" />
+        <poisonWetEffectTimeMax AltName="毒濡れ 効果時間 最大値[sec]" />
+        <oilWetEffectTimeMin AltName="油濡れ 効果時間 最小値[sec]" />
+        <oilWetEffectTimeMax AltName="油濡れ 効果時間 最大値[sec]" />
+        <WatierWetEffectTimeMin AltName="水濡れ 効果時間 最小値[sec]" />
+        <WatierWetEffectTimeMax AltName="水濡れ 効果時間 最大値[sec]" />
+        <itemAnimSpeedRateMin AltName="アイテムアニメ速度 補正倍率 最小[倍]" />
+        <itemAnimSpeedRateMax AltName="アイテムアニメ速度 補正倍率 最大[倍]" />
+        <downStiffRate AltName="ダウン硬直時間　倍率[倍]" />
+        <downShorteningTime AltName="ダウン硬直時間　ＰＡＤ入力 短縮時間[sec]" />
+        <damageUpperRotationAngleY AltName="ダメージ上半身捻り範囲 Y" />
+        <damageUpperRotationAngleX AltName="ダメージ上半身捻り範囲 X" />
+        <damageUpperRotationAngleZ AltName="ダメージ上半身捻り範囲 Z" />
+        <damageUpperRotationAngleCenter AltName="ダメージ上半身捻り範囲　中央" />
+        <environmentSfxRain AltName="環境SFX：雨" ProjectEnum="CHR_FULLBODY_SFX_PARAM_ENUM" />
+        <environmentSfxWaterFall AltName="環境SFX：滝" ProjectEnum="CHR_FULLBODY_SFX_PARAM_ENUM" />
+        <moveWindParamSmall AltName="移動風：小" ProjectEnum="CHR_POINT_WIND_PARAM_ENUM" />
+        <moveWindParamMedium AltName="移動風：中" ProjectEnum="CHR_POINT_WIND_PARAM_ENUM" />
+        <moveWindParamLarge AltName="移動風：大" ProjectEnum="CHR_POINT_WIND_PARAM_ENUM" />
+        <atkAutoHomingDistance AltName="接近オートホーミング 距離[m]" />
+        <atkAutoHomingSdAngle AltName="接近オートホーミング 左右角度[deg]" />
+        <atkAutoHomingUdAngle AltName="接近オートホーミング 上下角度[deg]" />
+        <shotAutoHomingDistance AltName="射撃オートホーミング 距離[m]" />
+        <shotAutoHomingSdAngle AltName="射撃オートホーミング 左右角度[deg]" />
+        <shotAutoHomingUdAngle AltName="射撃オートホーミング 上下角度[deg]" />
+        <footEffectSize AltName="足エフェクトサイズ" ProjectEnum="CHR_WEIGHT_TYPE" />
+        <grabDamageRateSlash AltName="投げ 被ダメージ倍率 斬撃" />
+        <grabDamageRateBlow AltName="投げ 被ダメージ倍率 打撃" />
+        <grabDamageRateStab AltName="投げ 被ダメージ倍率刺突" />
+        <grabDamageRateBullet AltName="投げ 被ダメージ倍率 弾" />
+        <disallowDamageDecrementDist AltName="距離減衰無効距離" />
+        <lockInvisibleReleaseTime AltName="不可視ロック解除時間[sec]" />
+        <fHitOffsetX AltName="移動コリジョンオフセット左右 [m]" />
+        <fHitOffsetZ AltName="移動コリジョンオフセット前後[m]" />
+        <takeWaterHeightLow AltName="着水判定高さ足首" />
+        <takeWaterHeightMiddle AltName="着水判定高さ股下" />
+        <takeWaterType AltName="着水タイプ" ProjectEnum="CHR_TAKE_WATER_TYPE" />
+        <takeWaterDummy AltName="ダミー" />
+        <bulletDamageRatePhysical AltName="Bullet damage rate [Physical]" />
+        <bulletDamageRateMagic AltName="Bullet damage rate [Magic]" />
+        <bulletDamageRateMiracle AltName="Bullet damage rate [Miracle]" />
+        <bulletDamageRatePyromancy AltName="Bullet damage rate [Pytomancy]" />
+        <bulletDamageRateDark AltName="Bullet damage rate [Hex]" />
+    </Field>
+</PARAMMETA>

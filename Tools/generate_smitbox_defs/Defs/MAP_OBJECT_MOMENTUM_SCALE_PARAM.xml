@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>MAP_OBJECT_MOMENTUM_SCALE_PARAM</ParamType>
+    <DataVersion>1</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="f32 noneObj0" />
+        <Field Def="f32 superSmallObj0" />
+        <Field Def="f32 smallObj0" />
+        <Field Def="f32 normalObj0" />
+        <Field Def="f32 largeObj0" />
+        <Field Def="f32 superLargeObj0" />
+        <Field Def="f32 hyperLargeObj0" />
+        <Field Def="f32 infiniteObj0" />
+        <Field Def="f32 noneObj1" />
+        <Field Def="f32 superSmallObj1" />
+        <Field Def="f32 smallObj1" />
+        <Field Def="f32 normalObj1" />
+        <Field Def="f32 largeObj1" />
+        <Field Def="f32 superLargeObj1" />
+        <Field Def="f32 hyperLargeObj1" />
+        <Field Def="f32 infiniteObj1" />
+    </Fields>
+</PARAMDEF>

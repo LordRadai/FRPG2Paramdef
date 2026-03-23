@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <maxHp:1 AltName="最大HP(≒回復上限値)" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <maxStamina:1 AltName="最大スタミナ" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <maxLoadWeight:1 AltName="最大装備荷重" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <spellSlotCount:1 AltName="スペルスロット数" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <spellChantingSpeed:1 AltName="スペル詠唱速度" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <powerPhysicalByStrength:1 AltName="攻撃力 筋力" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <powerPhysicalByDexterity:1 AltName="攻撃力 技量" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <powerMagic:1 AltName="魔力攻撃力" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <powerFire:1 AltName="炎攻撃力" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <powerThunder:1 AltName="雷攻撃力" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <powerDark:1 AltName="闇攻撃力" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <powerPoison:1 AltName="毒攻撃力" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <powerBleed:1 AltName="出血攻撃力" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <defense:1 AltName="防御力" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <resistanceMagic:1 AltName="魔力耐性" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <resistanceFire:1 AltName="炎耐性" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <resistanceThunder:1 AltName="雷耐性" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <resistanceDark:1 AltName="闇耐性" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <resistancePoison:1 AltName="毒耐性" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <resistanceBleed:1 AltName="出血耐性" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <resistancePetrify:1 AltName="石化耐性" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <resistanceCurse:1 AltName="呪耐性" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <actionSpeed:1 AltName="敏捷" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <fortitude:1 AltName="強靭度" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <primaryLeftHand:1 AltName="左手第一武器" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <secondaryLeftHand:1 AltName="左手第二武器" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <thirdlyLeftHand:1 AltName="左手第三武器" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <primaryRightHand:1 AltName="右手第一武器" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <secondaryRightHand:1 AltName="右手第二武器" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <thirdlyRightHan:1 AltName="右手第三武器" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <defenseStrike:1 AltName="対打撃" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <defenseSlash:1 AltName="対斬撃" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <defenseThrust:1 AltName="対刺突" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <defensePoise:1 AltName="強靭度" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <dummy00:6 AltName="ダミー0" />
+        <dummy01 AltName="ダミー1" />
+    </Field>
+</PARAMMETA>

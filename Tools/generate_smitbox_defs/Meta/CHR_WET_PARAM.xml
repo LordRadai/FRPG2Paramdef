@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <dryRate AltName="割合減少率(通常部)" />
+        <metalDryRate AltName="割合減少率(金属部)" />
+        <wetParamId AltName="濡れ種類" ProjectEnum="CHR_WET_TYPE" />
+        <dryType AltName="乾燥種類" ProjectEnum="CHR_WET_DRY_TYPE" />
+        <aReserved AltName="予約領域" />
+    </Field>
+</PARAMMETA>

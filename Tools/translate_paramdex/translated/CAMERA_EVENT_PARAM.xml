@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>CAMERA_EVENT_PARAM</ParamType>
+    <DataVersion>1</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="u8 cameraType = 9">
+            <DisplayName>Camera behavior type</DisplayName>
+            <Enum>CAMERA_TYPE</Enum>
+            <EditFlags>Lock</EditFlags>
+            <Minimum>9</Minimum>
+            <Maximum>9</Maximum>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 cameraBasePosType">
+            <DisplayName>Camera reference point type</DisplayName>
+            <Enum>CAMERA_BASE_POS_TYPE</Enum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="dummy8 reserved[2]">
+            <DisplayName>dummy</DisplayName>
+            <Maximum>180</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>23</SortID>
+        </Field>
+        <Field Def="angle32 fovY = 43">
+            <DisplayName>Angle of view (deg)</DisplayName>
+            <Minimum>20</Minimum>
+            <Maximum>120</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 axisOffsetX">
+            <DisplayName>Position (X axis) Offset (m)</DisplayName>
+            <Minimum>-100</Minimum>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 axisOffsetY">
+            <DisplayName>Position (Y axis) Offset (m)</DisplayName>
+            <Minimum>-100</Minimum>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 axisOffsetZ">
+            <DisplayName>Position (Z axis) Offset (m)</DisplayName>
+            <Minimum>-100</Minimum>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 rayWidth = 0.2">
+            <DisplayName>Ray thickness</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 hitCollision = 0.05">
+            <DisplayName>collision size</DisplayName>
+            <Maximum>5</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 positionOffsetZ = -4">
+            <DisplayName>Additional turning radius (m)</DisplayName>
+            <Minimum>-100</Minimum>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 fulcrumRate = 0.1">
+            <DisplayName>Fulcrum position (0 target to 1 reference point)</DisplayName>
+            <Maximum>1</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="angle32 rotationX">
+            <DisplayName>X-axis rotation amount (deg)</DisplayName>
+            <Minimum>-90</Minimum>
+            <Maximum>90</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="angle32 rotationY = 10">
+            <DisplayName>Y-axis rotation amount (deg)</DisplayName>
+            <Minimum>-180</Minimum>
+            <Maximum>180</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 startTransTime">
+            <DisplayName>Interpolation time at switching start</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>13</SortID>
+        </Field>
+        <Field Def="f32 endTransTime">
+            <DisplayName>Interpolation time at end of switching</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>15</SortID>
+        </Field>
+        <Field Def="u8 startTransType">
+            <DisplayName>Interpolation type at the start of switching</DisplayName>
+            <Enum>CAMERA_INTERPOLATE_TYPE</Enum>
+            <SortID>12</SortID>
+        </Field>
+        <Field Def="u8 endTransType">
+            <DisplayName>Interpolation type at end of switching</DisplayName>
+            <Enum>CAMERA_INTERPOLATE_TYPE</Enum>
+            <SortID>14</SortID>
+        </Field>
+        <Field Def="u8 enableYReverse = 1">
+            <DisplayName>Allow horizontal flip</DisplayName>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 enableZReverse = 1">
+            <DisplayName>Allow forward/backward reversal</DisplayName>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 keepXAngle">
+            <DisplayName>Do you want to keep the camera tilted?</DisplayName>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 addXAngleAxis">
+            <DisplayName>Add axis tilt</DisplayName>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="dummy8 reserved1[2]">
+            <DisplayName>dummy</DisplayName>
+            <Maximum>180</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>24</SortID>
+        </Field>
+    </Fields>
+</PARAMDEF>

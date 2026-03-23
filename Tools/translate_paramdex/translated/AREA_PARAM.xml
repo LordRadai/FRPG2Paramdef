@@ -1,0 +1,293 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>AREA_PARAM</ParamType>
+    <DataVersion>7</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="u8 intrudeEnable">
+            <DisplayName>Possibility of intrusion</DisplayName>
+            <Enum>AREA_PARAM_INTRUDE_ENUM</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>100</SortID>
+        </Field>
+        <Field Def="dummy8 aReserved[3]">
+            <DisplayName>reservation</DisplayName>
+            <SortID>825</SortID>
+        </Field>
+        <Field Def="s32 lockOnId">
+            <DisplayName>Normal lock on</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>200</SortID>
+        </Field>
+        <Field Def="s32 lockOnIdDark">
+            <DisplayName>darkness lock on</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>200</SortID>
+        </Field>
+        <Field Def="s32 lockOnIdTorch">
+            <DisplayName>Light source lock on</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>200</SortID>
+        </Field>
+        <Field Def="u8 isPriorityLockOnIdTorch">
+            <DisplayName>External light source top priority</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <SortID>200</SortID>
+        </Field>
+        <Field Def="u8 isAbyss">
+            <DisplayName>Is it an abyss?</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <SortID>800</SortID>
+        </Field>
+        <Field Def="u8 waterMaterial">
+            <DisplayName>Water surface material</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>701</SortID>
+        </Field>
+        <Field Def="dummy8 aReserved1[1]">
+            <DisplayName>reservation</DisplayName>
+            <SortID>826</SortID>
+        </Field>
+        <Field Def="s32 cameraId">
+            <DisplayName>camera settings</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>300</SortID>
+        </Field>
+        <Field Def="s32 playerLightSfxId">
+            <DisplayName>Player light source SFXID</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+08</Maximum>
+            <Increment>1</Increment>
+            <SortID>400</SortID>
+        </Field>
+        <Field Def="f32 logicSoundDistance">
+            <DisplayName>sound range</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1000</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>500</SortID>
+        </Field>
+        <Field Def="f32 staminaCostScaleDash = 1">
+            <DisplayName>Stamina consumption correction magnification dash</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>600</SortID>
+        </Field>
+        <Field Def="u32 fallWaterSfxId">
+            <DisplayName>Underwater fall SFXID</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1e+08</Maximum>
+            <Increment>1</Increment>
+            <SortID>700</SortID>
+        </Field>
+        <Field Def="u8 chameleonEnableRare">
+            <DisplayName>Mimic object 1 rare designation</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1e+08</Maximum>
+            <Increment>1</Increment>
+            <SortID>800</SortID>
+        </Field>
+        <Field Def="u8 chameleonWeight1">
+            <DisplayName>Mimic object weight 1</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>1</Increment>
+            <SortID>802</SortID>
+        </Field>
+        <Field Def="u8 chameleonWeight2">
+            <DisplayName>Mimic object weight 2</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>1</Increment>
+            <SortID>812</SortID>
+        </Field>
+        <Field Def="u8 chameleonWeight3">
+            <DisplayName>Mimic object weight 3</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>1</Increment>
+            <SortID>822</SortID>
+        </Field>
+        <Field Def="u8 chameleonWeight4">
+            <DisplayName>Mimic object weight 4</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>1</Increment>
+            <SortID>832</SortID>
+        </Field>
+        <Field Def="u8 chameleonWeight5">
+            <DisplayName>Mimic object weight 5</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>1</Increment>
+            <SortID>842</SortID>
+        </Field>
+        <Field Def="dummy8 aReserved2[2]">
+            <DisplayName>reservation</DisplayName>
+            <Description>予約</Description>
+            <SortID>827</SortID>
+        </Field>
+        <Field Def="s32 chameleonId1">
+            <DisplayName>Mimic object ID1</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>999999</Maximum>
+            <Increment>1</Increment>
+            <SortID>801</SortID>
+        </Field>
+        <Field Def="s32 chameleonId2">
+            <DisplayName>Mimic object ID2</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>999999</Maximum>
+            <Increment>1</Increment>
+            <SortID>811</SortID>
+        </Field>
+        <Field Def="s32 chameleonId3">
+            <DisplayName>Mimic object ID3</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>999999</Maximum>
+            <Increment>1</Increment>
+            <SortID>821</SortID>
+        </Field>
+        <Field Def="s32 chameleonId4">
+            <DisplayName>Mimic object ID4</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>999999</Maximum>
+            <Increment>1</Increment>
+            <SortID>831</SortID>
+        </Field>
+        <Field Def="s32 chameleonId5">
+            <DisplayName>Mimic object ID5</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>999999</Maximum>
+            <Increment>1</Increment>
+            <SortID>841</SortID>
+        </Field>
+        <Field Def="f32 chameleonAngle1 = 1">
+            <DisplayName>Mimic object 1 angle correction</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>360</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>803</SortID>
+        </Field>
+        <Field Def="f32 chameleonAngle2 = 1">
+            <DisplayName>Mimic object 2 angle correction</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>360</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>813</SortID>
+        </Field>
+        <Field Def="f32 chameleonAngle3 = 1">
+            <DisplayName>Mimic object 3 angle correction</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>360</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>823</SortID>
+        </Field>
+        <Field Def="f32 chameleonAngle4 = 1">
+            <DisplayName>Mimic object 4 angle correction</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>360</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>833</SortID>
+        </Field>
+        <Field Def="f32 chameleonAngle5 = 1">
+            <DisplayName>Mimic object 5 angle correction</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>360</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>843</SortID>
+        </Field>
+        <Field Def="f32 chameleonHeight1 = 1">
+            <DisplayName>Mimic object 1 height correction</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>804</SortID>
+        </Field>
+        <Field Def="f32 chameleonHeight2 = 1">
+            <DisplayName>Mimic object 2 height correction</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>814</SortID>
+        </Field>
+        <Field Def="f32 chameleonHeight3 = 1">
+            <DisplayName>Mimic object 3 height correction</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>824</SortID>
+        </Field>
+        <Field Def="f32 chameleonHeight4 = 1">
+            <DisplayName>Mimic object 4 height correction</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>834</SortID>
+        </Field>
+        <Field Def="f32 chameleonHeight5 = 1">
+            <DisplayName>Mimic object 5 height correction</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>844</SortID>
+        </Field>
+    </Fields>
+</PARAMDEF>

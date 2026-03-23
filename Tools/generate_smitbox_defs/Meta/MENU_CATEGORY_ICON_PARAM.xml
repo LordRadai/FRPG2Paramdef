@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <bagSubscript AltName="道具袋配列用添字" />
+        <cofferSubscript AltName="貴重品箱配列用添字" />
+        <repositorySubscript AltName="倉庫配列用添字" />
+        <shopSubscript AltName="ショップ配列用添字" />
+        <inventory:1 AltName="インベントリ" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <equipWeapon:1 AltName="武器装備" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <equipHelmet:1 AltName="兜装備" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <equipArmor:1 AltName="鎧装備" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <equipGauntlet:1 AltName="小手装備" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <equipLeggings:1 AltName="具足装備" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <equipRing:1 AltName="指輪装備" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <equipArrow:1 AltName="矢装備" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <equipItem:1 AltName="アイテム装備" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <equipSpell:1 AltName="スペル装備" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <equipGesture:1 AltName="ジェスチャー装備" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <repository:1 AltName="倉庫" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <shop:1 AltName="ショップ" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <equipWeaponArmor:1 AltName="武器防具" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <padding AltName="パディング" />
+    </Field>
+</PARAMMETA>

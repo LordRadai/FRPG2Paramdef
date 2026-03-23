@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <positionX AltName="位置Ｘ" />
+        <positionY AltName="位置Ｙ" />
+        <positionZ AltName="位置Ｚ" />
+        <angleX AltName="角度Ｘ" />
+        <angleY AltName="角度Ｙ" />
+        <angleZ AltName="角度Ｚ" />
+        <formType AltName="形状" ProjectEnum="GENERAL_LOCATION_FORM_TYPE_ENUM" />
+        <colorR AltName="色Ｒ" />
+        <colorG AltName="色Ｇ" />
+        <colorB AltName="色Ｂ" />
+        <radius AltName="半径・X幅" />
+        <height AltName="高さ・Y幅" />
+        <depth AltName="Ｚ幅" />
+        <aReserved AltName="予約" />
+        <memoryBlockId AltName="メモリブロックID" />
+        <categoryType AltName="カテゴリ" ProjectEnum="GENERAL_LOCATION_EVENT_ENUM" />
+        <categoryId AltName="カテゴリ内ID" />
+    </Field>
+</PARAMMETA>

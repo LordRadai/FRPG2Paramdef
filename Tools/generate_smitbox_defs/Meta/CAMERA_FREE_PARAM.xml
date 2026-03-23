@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <fovY AltName="画角(deg)" />
+        <nearClip AltName="ニアクリップ距離(m)" />
+        <farClip AltName="ファークリップ距離(m)" />
+    </Field>
+</PARAMMETA>

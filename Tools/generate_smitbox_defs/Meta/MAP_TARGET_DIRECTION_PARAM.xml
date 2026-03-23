@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <directionX AltName="X" />
+        <directionY AltName="Y" />
+        <directionZ AltName="Z" />
+        <speedMin AltName="最小" />
+        <speedMax AltName="最大" />
+        <frequencyMin AltName="最小" />
+        <frequencyMax AltName="最大" />
+        <priority AltName="優先度" />
+    </Field>
+</PARAMMETA>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>HIT_BACK_PARAM</ParamType>
+    <DataVersion>1</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="f32 superSmallHitBackDistance" />
+        <Field Def="f32 superSmallHitBackDuration" />
+        <Field Def="f32 smallHitBackDistance" />
+        <Field Def="f32 smallHitBackDuration" />
+        <Field Def="f32 normalHitBackDistance" />
+        <Field Def="f32 normalHitBackDuration" />
+        <Field Def="f32 largeHitBackDistance" />
+        <Field Def="f32 largeHitBackDuration" />
+        <Field Def="f32 superLargeHitBackDistance" />
+        <Field Def="f32 superLargeHitBackDuration" />
+    </Fields>
+</PARAMDEF>

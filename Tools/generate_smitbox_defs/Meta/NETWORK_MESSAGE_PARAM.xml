@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <host AltName="ホスト" />
+        <white AltName="白霊" />
+        <smallWhite AltName="小白霊" />
+        <gold AltName="金霊" />
+        <smallGold AltName="小金霊" />
+        <coopBlue AltName="救援青霊" />
+        <versusBlue AltName="報復青霊" />
+        <blackSign AltName="黒霊（サイン）" />
+        <blackIntrude AltName="黒霊（乱入）" />
+        <redSign AltName="赤霊（サイン）" />
+        <redIntrude AltName="赤霊（乱入）" />
+        <bellGuard AltName="鐘守灰霊" />
+        <ratKing AltName="ねずみの王灰霊" />
+        <dragon AltName="竜霊" />
+        <mirrorKnightSign AltName="ミラーナイト霊（サイン）" />
+        <abyssSign AltName="深淵霊（サイン）" />
+        <duelBlue AltName="決闘青霊" />
+        <duelRed AltName="決闘赤霊" />
+        <dummy01 AltName="徘徊幻影" />
+        <dummy02 AltName="篝火幻影" />
+        <mirrorKnightIntrude AltName="ミラーナイト霊(乱入)" />
+        <abyssIntrude AltName="深淵霊（乱入）" />
+    </Field>
+</PARAMMETA>

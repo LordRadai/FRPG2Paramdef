@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <atkIdSingle1HandNormal1st AltName="攻撃アニメ 片手 弱1段目" ProjectEnum="WEAPON_ATTACK_MOTION_PARAM_ID" />
+        <atkIdSingle1HandNormal2nd AltName="攻撃アニメ 片手 弱2段目" ProjectEnum="WEAPON_ATTACK_MOTION_PARAM_ID" />
+        <atkIdSingle1HandStrong1st AltName="攻撃アニメ 片手 強1段目" ProjectEnum="WEAPON_ATTACK_MOTION_PARAM_ID" />
+        <atkIdSingle1HandStrong2nd AltName="攻撃アニメ 片手 強2段目" ProjectEnum="WEAPON_ATTACK_MOTION_PARAM_ID" />
+        <atkIdSingle1HandDash AltName="攻撃アニメ 片手 ダッシュ" ProjectEnum="WEAPON_ATTACK_MOTION_PARAM_ID" />
+        <atkIdSingle1HandRolling AltName="攻撃アニメ 片手 ローリング" ProjectEnum="WEAPON_ATTACK_MOTION_PARAM_ID" />
+        <atkIdSingle1HandStep AltName="攻撃アニメ 片手 ステップ" ProjectEnum="WEAPON_ATTACK_MOTION_PARAM_ID" />
+        <atkIdSingle1HandDown AltName="攻撃アニメ 片手 ダウン" ProjectEnum="WEAPON_ATTACK_MOTION_PARAM_ID" />
+        <atkIdSingle1HandFall AltName="攻撃アニメ 片手 落下" ProjectEnum="WEAPON_ATTACK_MOTION_PARAM_ID" />
+        <atkIdSingle1HandJump AltName="攻撃アニメ 片手 ジャンプ" ProjectEnum="WEAPON_ATTACK_MOTION_PARAM_ID" />
+        <atkIdSingle2HandNormal1st AltName="攻撃アニメ 両手 弱１段目" ProjectEnum="WEAPON_ATTACK_MOTION_PARAM_ID" />
+        <atkIdSingle2HandNormal2nd AltName="攻撃アニメ 両手 弱２段目" ProjectEnum="WEAPON_ATTACK_MOTION_PARAM_ID" />
+        <atkIdSingle2HandStrong1st AltName="攻撃アニメ 両手 強１段目" ProjectEnum="WEAPON_ATTACK_MOTION_PARAM_ID" />
+        <atkIdSingle2HandStrong2nd AltName="攻撃アニメ 両手 強２段目" ProjectEnum="WEAPON_ATTACK_MOTION_PARAM_ID" />
+        <atkIdSingle2HandDash AltName="攻撃アニメ 両手 ダッシュ" ProjectEnum="WEAPON_ATTACK_MOTION_PARAM_ID" />
+        <atkIdSingle2HandRolling AltName="攻撃アニメ 両手 ローリング" ProjectEnum="WEAPON_ATTACK_MOTION_PARAM_ID" />
+        <atkIdSingle2HandStep AltName="攻撃アニメ 両手 ステップ" ProjectEnum="WEAPON_ATTACK_MOTION_PARAM_ID" />
+        <atkIdSingle2HandDown AltName="攻撃アニメ 両手 ダウン" ProjectEnum="WEAPON_ATTACK_MOTION_PARAM_ID" />
+        <atkIdSingle2HandFall AltName="攻撃アニメ 両手 落下" ProjectEnum="WEAPON_ATTACK_MOTION_PARAM_ID" />
+        <atkIdSingle2HandJump AltName="攻撃アニメ 両手 ジャンプ" ProjectEnum="WEAPON_ATTACK_MOTION_PARAM_ID" />
+        <atkIdDual1HandNormal1st AltName="攻撃アニメ 二刀流 弱1段目" ProjectEnum="WEAPON_ATTACK_MOTION_PARAM_ID" />
+        <atkIdDual1HandNormal2nd AltName="攻撃アニメ 二刀流 弱2段目" ProjectEnum="WEAPON_ATTACK_MOTION_PARAM_ID" />
+        <atkIdDual1HandStrong1st AltName="攻撃アニメ 二刀流 強1段目" ProjectEnum="WEAPON_ATTACK_MOTION_PARAM_ID" />
+        <atkIdDual1HandStrong2nd AltName="攻撃アニメ 二刀流 強2段目" ProjectEnum="WEAPON_ATTACK_MOTION_PARAM_ID" />
+        <atkIdDual1HandDash AltName="攻撃アニメ 二刀流 ダッシュ" ProjectEnum="WEAPON_ATTACK_MOTION_PARAM_ID" />
+        <atkIdDual1HandRolling AltName="攻撃アニメ 二刀流 ローリング" ProjectEnum="WEAPON_ATTACK_MOTION_PARAM_ID" />
+        <atkIdDual1HandStep AltName="攻撃アニメ 二刀流 ステップ" ProjectEnum="WEAPON_ATTACK_MOTION_PARAM_ID" />
+        <atkIdDual1HandDown AltName="攻撃アニメ 二刀流 ダウン" ProjectEnum="WEAPON_ATTACK_MOTION_PARAM_ID" />
+        <atkIdDual1HandFall AltName="攻撃アニメ 二刀流 落下" ProjectEnum="WEAPON_ATTACK_MOTION_PARAM_ID" />
+        <atkIdDual1HandJump AltName="攻撃アニメ 二刀流 ジャンプ" ProjectEnum="WEAPON_ATTACK_MOTION_PARAM_ID" />
+        <atkIdDual2HandNormal1st AltName="攻撃アニメ 二刀流両手 弱1段目" ProjectEnum="WEAPON_ATTACK_MOTION_PARAM_ID" />
+        <atkIdDual2HandNormal2nd AltName="攻撃アニメ 二刀流両手 弱2段目" ProjectEnum="WEAPON_ATTACK_MOTION_PARAM_ID" />
+        <atkIdDual2HandStrong1st AltName="攻撃アニメ 二刀流両手 強1段目" ProjectEnum="WEAPON_ATTACK_MOTION_PARAM_ID" />
+        <atkIdDual2HandStrong2nd AltName="攻撃アニメ 二刀流両手 強2段目" ProjectEnum="WEAPON_ATTACK_MOTION_PARAM_ID" />
+        <atkIdDual2HandDash AltName="攻撃アニメ 二刀流両手 ダッシュ" ProjectEnum="WEAPON_ATTACK_MOTION_PARAM_ID" />
+        <atkIdDual2HandRolling AltName="攻撃アニメ 二刀流両手 ローリング" ProjectEnum="WEAPON_ATTACK_MOTION_PARAM_ID" />
+        <atkIdDual2HandStep AltName="攻撃アニメ 二刀流両手 ステップ" ProjectEnum="WEAPON_ATTACK_MOTION_PARAM_ID" />
+        <atkIdDual2HandDown AltName="攻撃アニメ 二刀流両手 ダウン" ProjectEnum="WEAPON_ATTACK_MOTION_PARAM_ID" />
+        <atkIdDual2HandFall AltName="攻撃アニメ 二刀流両手 落下" ProjectEnum="WEAPON_ATTACK_MOTION_PARAM_ID" />
+        <atkIdDual2HandJump AltName="攻撃アニメ 二刀流両手 ジャンプ" ProjectEnum="WEAPON_ATTACK_MOTION_PARAM_ID" />
+        <atkIdLeft1HandNormal1st AltName="攻撃アニメ 左片手 弱1段目" ProjectEnum="WEAPON_ATTACK_MOTION_PARAM_ID" />
+        <atkIdLeft1HandNormal2nd AltName="攻撃アニメ 左片手 弱2段目" ProjectEnum="WEAPON_ATTACK_MOTION_PARAM_ID" />
+        <atkIdLeft1HandStrong1st AltName="攻撃アニメ 左片手 強1段目" ProjectEnum="WEAPON_ATTACK_MOTION_PARAM_ID" />
+        <atkIdLeft1HandStrong2nd AltName="攻撃アニメ 左片手 強2段目" ProjectEnum="WEAPON_ATTACK_MOTION_PARAM_ID" />
+        <atkIdLeft1HandDash AltName="攻撃アニメ 左片手 ダッシュ" ProjectEnum="WEAPON_ATTACK_MOTION_PARAM_ID" />
+        <atkIdLeft1HandRolling AltName="攻撃アニメ 左片手 ローリング" ProjectEnum="WEAPON_ATTACK_MOTION_PARAM_ID" />
+        <atkIdLeft1HandStep AltName="攻撃アニメ 左片手 ステップ" ProjectEnum="WEAPON_ATTACK_MOTION_PARAM_ID" />
+        <atkIdLeft1HandDown AltName="攻撃アニメ 左片手 ダウン" ProjectEnum="WEAPON_ATTACK_MOTION_PARAM_ID" />
+        <atkIdLeft1HandFall AltName="攻撃アニメ 左片手 落下" ProjectEnum="WEAPON_ATTACK_MOTION_PARAM_ID" />
+        <atkIdLeft1HandJump AltName="攻撃アニメ 左片手 ジャンプ" ProjectEnum="WEAPON_ATTACK_MOTION_PARAM_ID" />
+        <atkIdOppositeSingle2HandNormal AltName="攻撃アニメ 両手逆腕 弱" ProjectEnum="WEAPON_ATTACK_MOTION_PARAM_ID" />
+        <atkIdOppositeSingle2HandStrong AltName="攻撃アニメ 両手逆腕 強" ProjectEnum="WEAPON_ATTACK_MOTION_PARAM_ID" />
+        <atkIdOppositeDual2HandNormal1st AltName="攻撃アニメ 二刀流両手逆腕 弱1" ProjectEnum="WEAPON_ATTACK_MOTION_PARAM_ID" />
+        <atkIdOppositeDual2HandNormal2nd AltName="攻撃アニメ 二刀流両手逆腕 弱2" ProjectEnum="WEAPON_ATTACK_MOTION_PARAM_ID" />
+        <atkIdOppositeDual2HandStrong AltName="攻撃アニメ 二刀流両手逆腕 強" ProjectEnum="WEAPON_ATTACK_MOTION_PARAM_ID" />
+        <atkIdGuardBreak1Hand AltName="攻撃アニメ 片手 ガード崩し" ProjectEnum="WEAPON_ATTACK_MOTION_PARAM_ID" />
+        <atkIdGuardBreak2Hand AltName="攻撃アニメ 両手 ガード崩し" ProjectEnum="WEAPON_ATTACK_MOTION_PARAM_ID" />
+        <atkIdGuardNormal1st AltName="攻撃アニメ ガード構え 弱1段目" ProjectEnum="WEAPON_ATTACK_MOTION_PARAM_ID" />
+        <atkIdGuardNormal2nd AltName="攻撃アニメ ガード構え 弱2段目" ProjectEnum="WEAPON_ATTACK_MOTION_PARAM_ID" />
+        <atkIdGuardStrong1st AltName="攻撃アニメ ガード構え 強1段目" ProjectEnum="WEAPON_ATTACK_MOTION_PARAM_ID" />
+        <atkIdGuardStrong2nd AltName="攻撃アニメ ガード構え 強2段目" ProjectEnum="WEAPON_ATTACK_MOTION_PARAM_ID" />
+        <atkIdParryBreakStab AltName="攻撃アニメ パリィブレイクスタブ" ProjectEnum="WEAPON_ATTACK_MOTION_PARAM_ID" />
+        <atkIdGuardBreakStab AltName="攻撃アニメ ガードブレイクスタブ" ProjectEnum="WEAPON_ATTACK_MOTION_PARAM_ID" />
+        <atkIdBackStab AltName="攻撃アニメ バックスタブ" ProjectEnum="WEAPON_ATTACK_MOTION_PARAM_ID" />
+    </Field>
+</PARAMMETA>

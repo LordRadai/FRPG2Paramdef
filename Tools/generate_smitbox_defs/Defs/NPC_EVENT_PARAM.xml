@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>NPC_EVENT_PARAM</ParamType>
+    <DataVersion>4</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="u8 bShop:1" />
+        <Field Def="u8 bPointReplace:1" />
+        <Field Def="u8 bRepair:1" />
+        <Field Def="u8 bFortify:1" />
+        <Field Def="u8 bPledge:1" />
+        <Field Def="u8 bVotive:1" />
+        <Field Def="u8 bUptrade:1" />
+        <Field Def="u8 bBarter:1" />
+        <Field Def="u8 bDecriminalize:1" />
+        <Field Def="u8 bContractKickout:1" />
+        <Field Def="u8 bGesture:1" />
+        <Field Def="u8 bLadder:1" />
+        <Field Def="u8 bRootChange:1" />
+        <Field Def="u8 bPresent:1" />
+        <Field Def="u8 bPledgeView:1" />
+        <Field Def="u8 pledgeType" />
+        <Field Def="u8 bTalk:1" />
+        <Field Def="u8 bEstusFlaskFortify:1" />
+        <Field Def="u8 bLevelUp:1" />
+        <Field Def="u8 bAttributeFortify:1" />
+        <Field Def="u8 bPresentArmor:1" />
+        <Field Def="u8 bPyromancyFortify:1" />
+        <Field Def="u8 bSpellDecrementState:1" />
+        <Field Def="dummy8 reserved:1" />
+        <Field Def="u32 shopIdBegin" />
+        <Field Def="u32 shopIdEnd" />
+        <Field Def="u32 fortifyTyoe" />
+        <Field Def="u32 votiveItemId" />
+        <Field Def="u32 barterParamBeginId" />
+        <Field Def="u32 gestureId" />
+        <Field Def="u16 npcId" />
+        <Field Def="dummy8 aReserved[1]" />
+        <Field Def="s8 eventValueChangeType" />
+        <Field Def="u32 eventValueId" />
+        <Field Def="u32 pluralSelectIdBegin" />
+        <Field Def="u32 pluralSelectIdEnd" />
+        <Field Def="u32 barterParamEndId" />
+    </Fields>
+</PARAMDEF>

@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <frequency AltName="速度" />
+        <min AltName="最小値" />
+        <max AltName="最大値" />
+    </Field>
+</PARAMMETA>

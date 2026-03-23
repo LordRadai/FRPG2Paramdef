@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <chrId AltName="キャラクターID" />
+        <gender AltName="性別" ProjectEnum="NPC_GENDER_TYPE" />
+        <bodyScaleType AltName="体型タイプ" />
+        <deceased AltName="生者亡者" ProjectEnum="NPC_DECEASED_TYPE" />
+        <equipType AltName="装備タイプ" ProjectEnum="NPC_EQUIP_TYPE" />
+        <faceType AltName="顔タイプ" ProjectEnum="NPC_FACE_TYPE" />
+        <skinNo AltName="肌番号" />
+        <facePresetNo AltName="FG顔プリセット番号" />
+        <dummy AltName="dummy" />
+        <skinR AltName="肌Ｒ" />
+        <skinG AltName="肌Ｇ" />
+        <skinB AltName="肌Ｂ" />
+        <faceId AltName="顔ＩＤ" />
+        <equipWeaponIdL1 AltName="左手武器１" />
+        <equipWeaponIdL2 AltName="左手武器２" />
+        <equipWeaponIdL3 AltName="左手武器３" />
+        <equipWeaponIdR1 AltName="右手武器１" />
+        <equipWeaponIdR2 AltName="右手武器２" />
+        <equipWeaponIdR3 AltName="右手武器３" />
+        <equipHeadId AltName="兜" />
+        <equipBodyId AltName="鎧" />
+        <equipArmId AltName="篭手" />
+        <equipLegId AltName="脚絆" />
+        <equipQuiverId AltName="矢筒" />
+        <equipArrowId AltName="矢" />
+    </Field>
+</PARAMMETA>

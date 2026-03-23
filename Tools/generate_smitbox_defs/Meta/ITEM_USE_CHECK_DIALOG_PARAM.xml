@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <checkType1 AltName="確認タイプ１" ProjectEnum="ITEM_USED_DIALOG_CHECK_TYPE" />
+        <checkType2 AltName="確認タイプ２" ProjectEnum="ITEM_USED_DIALOG_CHECK_TYPE" />
+        <checkType3 AltName="確認タイプ３" ProjectEnum="ITEM_USED_DIALOG_CHECK_TYPE" />
+        <checkType4 AltName="確認タイプ４" ProjectEnum="ITEM_USED_DIALOG_CHECK_TYPE" />
+        <displayTextId1 AltName="表示テキストID１" />
+        <displayTextId2 AltName="表示テキストID２" />
+        <displayTextId3 AltName="表示テキストID３" />
+        <displayTextId4 AltName="表示テキストID４" />
+    </Field>
+</PARAMMETA>

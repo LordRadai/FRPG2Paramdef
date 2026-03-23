@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>LEVELUP_STATUS_CALC_PARAM</ParamType>
+    <DataVersion>1</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="u8 maxHp:1" />
+        <Field Def="u8 maxStamina:1" />
+        <Field Def="u8 maxLoadWeight:1" />
+        <Field Def="u8 spellSlotCount:1" />
+        <Field Def="u8 spellChantingSpeed:1" />
+        <Field Def="u8 powerPhysicalByStrength:1" />
+        <Field Def="u8 powerPhysicalByDexterity:1" />
+        <Field Def="u8 powerMagic:1" />
+        <Field Def="u8 powerFire:1" />
+        <Field Def="u8 powerThunder:1" />
+        <Field Def="u8 powerDark:1" />
+        <Field Def="u8 powerPoison:1" />
+        <Field Def="u8 powerBleed:1" />
+        <Field Def="u8 defense:1" />
+        <Field Def="u8 resistanceMagic:1" />
+        <Field Def="u8 resistanceFire:1" />
+        <Field Def="u8 resistanceThunder:1" />
+        <Field Def="u8 resistanceDark:1" />
+        <Field Def="u8 resistancePoison:1" />
+        <Field Def="u8 resistanceBleed:1" />
+        <Field Def="u8 resistancePetrify:1" />
+        <Field Def="u8 resistanceCurse:1" />
+        <Field Def="u8 actionSpeed:1" />
+        <Field Def="u8 fortitude:1" />
+        <Field Def="u8 primaryLeftHand:1" />
+        <Field Def="u8 secondaryLeftHand:1" />
+        <Field Def="u8 thirdlyLeftHand:1" />
+        <Field Def="u8 primaryRightHand:1" />
+        <Field Def="u8 secondaryRightHand:1" />
+        <Field Def="u8 thirdlyRightHan:1" />
+        <Field Def="u8 defenseStrike:1" />
+        <Field Def="u8 defenseSlash:1" />
+        <Field Def="u8 defenseThrust:1" />
+        <Field Def="u8 defensePoise:1" />
+        <Field Def="dummy8 dummy00:6" />
+        <Field Def="dummy8 dummy01[3]" />
+    </Fields>
+</PARAMDEF>

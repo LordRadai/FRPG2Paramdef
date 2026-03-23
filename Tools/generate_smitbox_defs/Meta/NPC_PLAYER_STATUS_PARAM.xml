@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <genderType AltName="性別" ProjectEnum="PLAYER_GENDER_TYPE" />
+        <livingType AltName="生死" ProjectEnum="PLAYER_HUMAN_CONDITIONS_TYPE" />
+        <bodyType AltName="体型" />
+        <faceType AltName="顔タイプ" ProjectEnum="NPC_FACE_TYPE" />
+        <faceId AltName="顔ID" />
+        <vowType AltName="誓約" ProjectEnum="VOW_TYPES" />
+        <vowLevel AltName="誓約レベル" />
+        <lifeForceLevel AltName="生命力" />
+        <stayingPowerLevel AltName="持久力" />
+        <attunementLevel AltName="記憶力" />
+        <vitalityLevel AltName="体力" />
+        <strengthLevel AltName="筋力" />
+        <dexterityLevel AltName="技量" />
+        <intelligenceLevel AltName="理力" />
+        <faithLevel AltName="信仰" />
+        <enduranceLevel AltName="耐久力" />
+        <quicknessLevel AltName="敏捷" />
+        <luckLevel AltName="運" />
+        <pad00 AltName="パディング00" />
+        <loadWeightPercent AltName="荷重割合 [%]" />
+        <evasionInvincibleTimePercent AltName="回避無敵期間割合 [%]" />
+        <beltItem01 AltName="ベルトスロット 01 [アイテム]" />
+        <beltItem02 AltName="ベルトスロット 02 [アイテム]" />
+        <beltItem03 AltName="ベルトスロット 03 [アイテム]" />
+        <beltItem04 AltName="ベルトスロット 04 [アイテム]" />
+        <beltItem05 AltName="ベルトスロット 05 [アイテム]" />
+        <beltItem06 AltName="ベルトスロット 06 [アイテム]" />
+        <beltItem07 AltName="ベルトスロット 07 [アイテム]" />
+        <beltItem08 AltName="ベルトスロット 08 [アイテム]" />
+        <beltItem09 AltName="ベルトスロット 09 [アイテム]" />
+        <beltItem10 AltName="ベルトスロット 10 [アイテム]" />
+        <spellSlotItem01 AltName="スペルスロット 01 アイテム" />
+        <spellSlotItem02 AltName="スペルスロット 02 アイテム" />
+        <spellSlotItem03 AltName="スペルスロット 03 アイテム" />
+        <spellSlotItem04 AltName="スペルスロット 04 アイテム" />
+        <spellSlotItem05 AltName="スペルスロット 05 アイテム" />
+        <spellSlotItem06 AltName="スペルスロット 06 アイテム" />
+        <spellSlotItem07 AltName="スペルスロット 07 アイテム" />
+        <spellSlotItem08 AltName="スペルスロット 08 アイテム" />
+        <spellSlotItem09 AltName="スペルスロット 09 アイテム" />
+        <spellSlotItem10 AltName="スペルスロット 10 アイテム" />
+        <rightWeapon01 AltName="右武器 01" />
+        <rightWeapon02 AltName="右武器 02" />
+        <rightWeapon03 AltName="右武器 03" />
+        <leftWeapon01 AltName="左武器 01" />
+        <leftWeapon02 AltName="左武器 02" />
+        <leftWeapon03 AltName="左武器 03" />
+        <headArmor AltName="頭防具" />
+        <bodyArmor AltName="胴防具" />
+        <armArmor AltName="腕防具" />
+        <legArmor AltName="足防具" />
+        <ringSlot01 AltName="指輪 01 ID" />
+        <ringSlot02 AltName="指輪 02 ID" />
+        <ringSlot03 AltName="指輪 03 ID" />
+        <ringSlot04 AltName="指輪 04 ID" />
+        <arrowSlot01 AltName="矢 01 ID" />
+        <arrowSlot02 AltName="矢 02 ID" />
+        <boltSlot01 AltName="ボルト 01 ID" />
+        <boltSlot02 AltName="ボルト 02 ID" />
+        <gestureSlot01 AltName="ジェスチャー 01 ID" />
+        <gestureSlot02 AltName="ジェスチャー 02 ID" />
+        <gestureSlot03 AltName="ジェスチャー 03 ID" />
+        <gestureSlot04 AltName="ジェスチャー 04 ID" />
+        <gestureSlot05 AltName="ジェスチャー 05 ID" />
+        <gestureSlot06 AltName="ジェスチャー 06 ID" />
+        <gestureSlot07 AltName="ジェスチャー 07 ID" />
+        <gestureSlot08 AltName="ジェスチャー 08 ID" />
+    </Field>
+</PARAMMETA>

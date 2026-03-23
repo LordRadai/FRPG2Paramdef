@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <strengthX AltName="X方向の強さ" />
+        <strengthY AltName="Y方向の強さ" />
+        <strengthZ AltName="Z方向の強さ" />
+        <frequency AltName="周期" />
+        <startScale AltName="初期ノイズを最大スケール" />
+        <middleScale AltName="中間点スケール" />
+        <lastScale AltName="終点ノイズを最大スケール" />
+        <octavesNum AltName="フラクタルの階層数" />
+        <lacunarity AltName="オクターブごとにかかる周波数の係数(空隙性)" />
+        <gain AltName="オクターブごとにかかる振幅の係数" />
+    </Field>
+</PARAMMETA>

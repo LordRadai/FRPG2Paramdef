@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>BULLET_ATTACH_PARAM</ParamType>
+    <DataVersion>2</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="u8 part1DummyPolyId" />
+        <Field Def="dummy8 dummy[3]" />
+        <Field Def="f32 part1OffsetPosX" />
+        <Field Def="f32 part1OffsetPosY" />
+        <Field Def="f32 part1OffsetPosZ" />
+        <Field Def="f32 part1OffsetAccuracyPosX" />
+        <Field Def="f32 part1OffsetAccuracyPosY" />
+        <Field Def="f32 part1OffsetAccuracyPosZ" />
+        <Field Def="angle32 part1OffsetRotX" />
+        <Field Def="angle32 part1OffsetRotY" />
+        <Field Def="angle32 part1OffsetRotZ" />
+        <Field Def="angle32 part1OffsetAccuracyRotX" />
+        <Field Def="angle32 part1OffsetAccuracyRotY" />
+        <Field Def="angle32 part1OffsetAccuracyRotZ" />
+        <Field Def="u8 part2DummyPolyId" />
+        <Field Def="dummy8 dummy1[3]" />
+        <Field Def="f32 part2OffsetPosX" />
+        <Field Def="f32 part2OffsetPosY" />
+        <Field Def="f32 part2OffsetPosZ" />
+        <Field Def="f32 part2OffsetAccuracyPosX" />
+        <Field Def="f32 part2OffsetAccuracyPosY" />
+        <Field Def="f32 part2OffsetAccuracyPosZ" />
+        <Field Def="angle32 part2OffsetRotX" />
+        <Field Def="angle32 part2OffsetRotY" />
+        <Field Def="angle32 part2OffsetRotZ" />
+        <Field Def="angle32 part2OffsetAccuracyRotX" />
+        <Field Def="angle32 part2OffsetAccuracyRotY" />
+        <Field Def="angle32 part2OffsetAccuracyRotZ" />
+        <Field Def="u8 part3DummyPolyId" />
+        <Field Def="dummy8 dummy2[3]" />
+        <Field Def="f32 part3OffsetPosX" />
+        <Field Def="f32 part3OffsetPosY" />
+        <Field Def="f32 part3OffsetPosZ" />
+        <Field Def="f32 part3OffsetAccuracyPosX" />
+        <Field Def="f32 part3OffsetAccuracyPosY" />
+        <Field Def="f32 part3OffsetAccuracyPosZ" />
+        <Field Def="angle32 part3OffsetRotX" />
+        <Field Def="angle32 part3OffsetRotY" />
+        <Field Def="angle32 part3OffsetRotZ" />
+        <Field Def="angle32 part3OffsetAccuracyRotX" />
+        <Field Def="angle32 part3OffsetAccuracyRotY" />
+        <Field Def="angle32 part3OffsetAccuracyRotZ" />
+        <Field Def="u8 part4DummyPolyId" />
+        <Field Def="dummy8 dummy3[3]" />
+        <Field Def="f32 part4OffsetPosX" />
+        <Field Def="f32 part4OffsetPosY" />
+        <Field Def="f32 part4OffsetPosZ" />
+        <Field Def="f32 part4OffsetAccuracyPosX" />
+        <Field Def="f32 part4OffsetAccuracyPosY" />
+        <Field Def="f32 part4OffsetAccuracyPosZ" />
+        <Field Def="angle32 part4OffsetRotX" />
+        <Field Def="angle32 part4OffsetRotY" />
+        <Field Def="angle32 part4OffsetRotZ" />
+        <Field Def="angle32 part4OffsetAccuracyRotX" />
+        <Field Def="angle32 part4OffsetAccuracyRotY" />
+        <Field Def="angle32 part4OffsetAccuracyRotZ" />
+    </Fields>
+</PARAMDEF>

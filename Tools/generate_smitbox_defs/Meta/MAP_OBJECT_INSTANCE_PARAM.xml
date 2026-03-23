@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <objCtrlId AltName="《OBJ制御ID》" />
+        <bulletId0 AltName="《バレットID スロット0》" />
+        <damageId0 AltName="《ダメージID スロット0》" />
+        <touchRegionScale AltName="《タッチ領域のスケール》" />
+        <movableRange AltName="《移動可能距離》" />
+        <objType AltName="《OBJタイプ》" ProjectEnum="OBJ_TYPE_ENUM" />
+        <objCtrlType AltName="《OBJ制御タイプ》" ProjectEnum="OBJ_CTRL_TYPE_ENUM" />
+        <objLabbel AltName="《ラベル》" ProjectEnum="OBJ_LABBEL_ENUM" />
+        <usableWhite:1 AltName="《白霊使用可能》" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <usableSmallWhite:1 AltName="《半霊使用可能》" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <usableDragon:1 AltName="《竜霊使用可能》" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <usableCoopBlue:1 AltName="《救援青霊使用可能》" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <usableVersusBlue:1 AltName="《報復青霊使用可能》" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <usableBlack:1 AltName="《闇霊使用可能》" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <usableBellGuard:1 AltName="《鐘守灰霊使用可能》" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <usableRatKing:1 AltName="《ねずみの王灰霊使用可能》" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <usableMirrorKnight:1 AltName="《ミラーナイト霊使用可能》" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <usableNoneVow:1 AltName="《誓約なし使用可能》" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <usableSunlightVow:1 AltName="《太陽の戦士使用可能》" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <usableGuardianVow:1 AltName="《守護の騎士使用可能》" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <usableBloodVow:1 AltName="《血の闇霊使用可能》" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <usableBlueVow:1 AltName="《青教使用可能》" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <usableRatKingVow:1 AltName="《ねずみの王使用可能》" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <usableBellGuardVow:1 AltName="《鐘守使用可能》" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <usableDragonVow:1 AltName="《古竜への道使用可能》" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <usableStrongerVow:1 AltName="《強者使用可能》" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <usableAbyssVow:1 AltName="《深淵の巡礼使用可能》" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <usableEnemy:1 AltName="《敵使用可能》" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <onlyEventCanBreak:1 AltName="《イベントでしか壊せない》" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <useAltSfx:1 AltName="《SFX切り替え》" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <dummy1:2 AltName="ダミー" />
+        <breakObjMakeStateId AltName="《ブレイクオブジェ生成ステート》" />
+        <resetType AltName="リセットタイプ" ProjectEnum="OBJ_RESET_TYPE_ENUM" />
+        <tmpBreakObjMakeStateId AltName="《(にぎやかし)ブレイクオブジェ生成ステート》" />
+        <iblTextureId AltName="環境マップテクスチャID" />
+        <dummy2 AltName="ダミー" />
+        <itemLotId AltName="初週アイテム抽選ID" />
+    </Field>
+</PARAMMETA>

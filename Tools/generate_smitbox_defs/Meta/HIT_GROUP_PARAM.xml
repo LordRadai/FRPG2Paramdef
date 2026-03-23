@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <gameBright0 AltName="明るさ設定_スロット0" ProjectEnum="HIT_GAME_BRIGHT_TYPE_ENUM" />
+        <gameBright1 AltName="明るさ設定_スロット1" ProjectEnum="HIT_GAME_BRIGHT_TYPE_ENUM" />
+        <generateMaxNum AltName="最大敵生成数" />
+        <aReserved AltName="予約" />
+        <groundMaterial240_0 AltName="GM_240_スロット0" />
+        <groundMaterial240_1 AltName="GM_240_スロット1" />
+        <groundMaterial240_2 AltName="GM_240_スロット2" />
+        <groundMaterial240_3 AltName="GM_240_スロット3" />
+        <groundMaterial241_0 AltName="GM_241_スロット0" />
+        <groundMaterial241_1 AltName="GM_241_スロット1" />
+        <groundMaterial241_2 AltName="GM_241_スロット2" />
+        <groundMaterial241_3 AltName="GM_241_スロット3" />
+        <groundMaterial242_0 AltName="GM_242_スロット0" />
+        <groundMaterial242_1 AltName="GM_242_スロット1" />
+        <groundMaterial242_2 AltName="GM_242_スロット2" />
+        <groundMaterial242_3 AltName="GM_242_スロット3" />
+        <groundMaterial243_0 AltName="GM_243_スロット0" />
+        <groundMaterial243_1 AltName="GM_243_スロット1" />
+        <groundMaterial243_2 AltName="GM_243_スロット2" />
+        <groundMaterial243_3 AltName="GM_243_スロット3" />
+        <groundMaterial244_0 AltName="GM_244_スロット0" />
+        <groundMaterial244_1 AltName="GM_244_スロット1" />
+        <groundMaterial244_2 AltName="GM_244_スロット2" />
+        <groundMaterial244_3 AltName="GM_244_スロット3" />
+        <groundMaterial245_0 AltName="GM_245_スロット0" />
+        <groundMaterial245_1 AltName="GM_245_スロット1" />
+        <groundMaterial245_2 AltName="GM_245_スロット2" />
+        <groundMaterial245_3 AltName="GM_245_スロット3" />
+        <groundMaterial246_0 AltName="GM_246_スロット0" />
+        <groundMaterial246_1 AltName="GM_246_スロット1" />
+        <groundMaterial246_2 AltName="GM_246_スロット2" />
+        <groundMaterial246_3 AltName="GM_246_スロット3" />
+        <groundMaterial247_0 AltName="GM_247_スロット0" />
+        <groundMaterial247_1 AltName="GM_247_スロット1" />
+        <groundMaterial247_2 AltName="GM_247_スロット2" />
+        <groundMaterial247_3 AltName="GM_247_スロット3" />
+        <groundMaterial248_0 AltName="GM_248_スロット0" />
+        <groundMaterial248_1 AltName="GM_248_スロット1" />
+        <groundMaterial248_2 AltName="GM_248_スロット2" />
+        <groundMaterial248_3 AltName="GM_248_スロット3" />
+        <groundMaterial249_0 AltName="GM_249_スロット0" />
+        <groundMaterial249_1 AltName="GM_249_スロット1" />
+        <groundMaterial249_2 AltName="GM_249_スロット2" />
+        <groundMaterial249_3 AltName="GM_249_スロット3" />
+        <groundMaterial250_0 AltName="GM_250_スロット0" />
+        <groundMaterial250_1 AltName="GM_250_スロット1" />
+        <groundMaterial250_2 AltName="GM_250_スロット2" />
+        <groundMaterial250_3 AltName="GM_250_スロット3" />
+        <groundMaterial251_0 AltName="GM_251_スロット0" />
+        <groundMaterial251_1 AltName="GM_251_スロット1" />
+        <groundMaterial251_2 AltName="GM_251_スロット2" />
+        <groundMaterial251_3 AltName="GM_251_スロット3" />
+        <groundMaterial252_0 AltName="GM_252_スロット0" />
+        <groundMaterial252_1 AltName="GM_252_スロット1" />
+        <groundMaterial252_2 AltName="GM_252_スロット2" />
+        <groundMaterial252_3 AltName="GM_252_スロット3" />
+        <groundMaterial253_0 AltName="GM_253_スロット0" />
+        <groundMaterial253_1 AltName="GM_253_スロット1" />
+        <groundMaterial253_2 AltName="GM_253_スロット2" />
+        <groundMaterial253_3 AltName="GM_253_スロット3" />
+        <groundMaterial254_0 AltName="GM_254_スロット0" />
+        <groundMaterial254_1 AltName="GM_254_スロット1" />
+        <groundMaterial254_2 AltName="GM_254_スロット2" />
+        <groundMaterial254_3 AltName="GM_254_スロット3" />
+        <groundMaterial255_0 AltName="GM_255_スロット0" />
+        <groundMaterial255_1 AltName="GM_255_スロット1" />
+        <groundMaterial255_2 AltName="GM_255_スロット2" />
+        <groundMaterial255_3 AltName="GM_255_スロット3" />
+    </Field>
+</PARAMMETA>

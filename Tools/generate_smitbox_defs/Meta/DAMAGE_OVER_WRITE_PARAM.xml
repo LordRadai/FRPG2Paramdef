@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <damageOverWriteNoMotion AltName="ノーモーション" />
+        <damageOverWriteSmall AltName="極小" />
+        <damageOverWriteSmallKnockBack AltName="小ノックバック" />
+        <damageOverWriteLargeKnockBack AltName="大ノックバック" />
+        <damageOverWriteLarge AltName="特大" />
+        <damageOverWriteBlow AltName="吹き飛ばし" />
+        <damageOverWriteUpper AltName="打ち上げ" />
+        <damageOverWriteBreath AltName="ブレス" />
+        <damageOverWriteStumble AltName="転倒" />
+        <damageOverWriteBreakDown AltName="崩れ落ち" />
+        <damageOverWriteAerialDown AltName="空中転倒" />
+        <damageOverWriteDown AltName="ダウン" />
+        <damageOverWriteDownAttack AltName="ダウン攻撃" />
+        <damageOverWriteLadder AltName="はしご" />
+        <damageOverWriteRope AltName="ロープ" />
+        <damageOverWriteParryBreak AltName="パリィブレイク" />
+        <damageOverWriteGuardBreak AltName="ガードブレイク" />
+        <damageOverWriteStun AltName="気絶" />
+        <damageOverWriteBleeding AltName="出血" />
+        <damageOverWriteGrab AltName="掴み" />
+        <damageOverWriteHeadShot AltName="ヘッドショット" />
+        <damageOverWriteFallSmall AltName="落下中小ダメージ" />
+        <damageOverWriteFallLarge AltName="落下中大ダメージ" />
+        <damageOverWriteAerialSmall AltName="空中小ダメージ" />
+        <damageOverWriteAerialLarge AltName="空中大ダメージ" />
+        <damageOverWriteGroundJumpAttack AltName="ジャンプ地上衝突" />
+        <damageOverWriteAerialJumpAttack AltName="ジャンプ空中衝突" />
+    </Field>
+</PARAMMETA>

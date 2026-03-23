@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <id AltName="LogicID" />
+        <viewingDistanceMax AltName="視界距離最大" />
+        <viewingDistanceMin AltName="視界距離最小" />
+        <viewingBackDistance AltName="後方視界距離" />
+        <viewingAngleLR AltName="視界左右角度" />
+        <viewingAngleUD AltName="視界上下角度" />
+        <nightBlindRate AltName="暗闇倍率" />
+        <chaseDistance AltName="追尾距離" />
+        <hearingDistance AltName="音認識範囲倍率" />
+        <hearingSensitivity AltName="音認識感度" />
+        <obstacleTime AltName="障害判定時間" />
+        <obstacleRate AltName="障害判定速度" />
+        <platoonWeight AltName="小隊内重み" ProjectEnum="LOGIC_WEIGHT_IN_PLATOON_TYPE" />
+        <platoonPriority AltName="小隊内優先度" ProjectEnum="LOGIC_PRIORITY_IN_PLATOON_TYPE" />
+        <viewingBrightnessType AltName="明るさによる変化" ProjectEnum="LOGIC_EYESIGHT_BASE_TYPE" />
+        <useDoor AltName="ドアを使用するか" />
+        <useLadder AltName="はしごを使用するか" />
+        <useRope AltName="ロープを使用するか" />
+        <upperRunNum AltName="上位ロジック多重起動数" />
+        <damageAfterActionPriority AltName="ダメージ後優先行動指定" ProjectEnum="LOGIC_ACTION_PRIORITY_TYPE" />
+        <roundLv2 AltName="LV2になる周回数" />
+        <roundLv3 AltName="LV3になる周回数" />
+        <roundLv4 AltName="LV4になる周回数" />
+        <roundLv5 AltName="LV5になる周回数" />
+        <distanceCheckType AltName="攻撃時距離測定精度" ProjectEnum="LOGIC_DISTANCE_CHECK_TYPE" />
+        <itemPursuitTable AltName="アイテム追撃テーブル" ProjectEnum="LOGIC_PROBABILITY_TABLE_TYPE" />
+        <itemPursuitActionNo AltName="アイテム追撃行動" />
+        <guardBreakPursuitTable AltName="ガード崩れ追撃テーブル" ProjectEnum="LOGIC_PROBABILITY_TABLE_TYPE" />
+        <guardPursuitActionNo AltName="ガード崩れ追撃行動" />
+        <backAttackTable AltName="背後攻撃テーブル" ProjectEnum="LOGIC_PROBABILITY_TABLE_TYPE" />
+        <backAttackActionNo AltName="背後攻撃行動" />
+        <dummy AltName="ダミー" />
+        <itemPursuitDistance AltName="アイテム追撃距離" />
+        <guardPursuitDistance AltName="ガード崩れ追撃距離" />
+        <backAttackDistance AltName="背後攻撃距離距離" />
+        <noLOSForgetTime AltName="遮蔽されて忘れるまでの時間[s]" />
+        <genReturnDist AltName="帰還時後退距離[m]" />
+        <genReturnTime AltName="帰還時後退時間[s]" />
+        <healProbabilityTable AltName="回復テーブル" ProjectEnum="LOGIC_PROBABILITY_TABLE_TYPE" />
+        <healActionNo AltName="回復行動" />
+        <healHpPerc AltName="回復行動をする残ＨＰ[％]" />
+        <dodgeActionType AltName="使用可能な回避行動タイプ" ProjectEnum="LOGIC_USEABLE_DODGE_TYPE" />
+        <autoBreakPower AltName="自動ブレーキ強度" />
+        <returnSoundCheck AltName="帰還時音チェック" />
+        <bTargetHighPos AltName="近接攻撃が届かないロック位置も狙う" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <itemAlluringSkullType AltName="誘い骸骨タイプ" ProjectEnum="LOGIC_DECOY_ENABLE_TYPE" />
+        <spellNostalgiaType AltName="望郷タイプ" ProjectEnum="LOGIC_DECOY_ENABLE_TYPE" />
+        <bLongAiCandidate AltName="長距離でもAI権を要求するか" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <pad00 AltName="予約" />
+    </Field>
+</PARAMMETA>

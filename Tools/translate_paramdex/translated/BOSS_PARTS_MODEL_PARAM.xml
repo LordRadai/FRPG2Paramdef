@@ -1,0 +1,285 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>BOSS_PARTS_MODEL_PARAM</ParamType>
+    <DataVersion>3</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="u8 baseCulling">
+            <DisplayName>Normal culling group</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>99</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 breakCulling">
+            <DisplayName>Culling group when broken</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>99</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 disableRagdollParts">
+            <DisplayName>Ragdoll part disabled when broken</DisplayName>
+            <Enum>BOSS_RAGDOLL_PARTS_TYPE</Enum>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 disableHitParts1">
+            <DisplayName>Invalid hit part 1 when broken</DisplayName>
+            <Enum>BOSS_HIT_PARTS_TYPE</Enum>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 disableHitParts2">
+            <DisplayName>Invalid hit part 2 when broken</DisplayName>
+            <Enum>BOSS_HIT_PARTS_TYPE</Enum>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 disableHitParts3">
+            <DisplayName>Invalid hit part 3 when broken</DisplayName>
+            <Enum>BOSS_HIT_PARTS_TYPE</Enum>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 disableHitParts4">
+            <DisplayName>Invalid hit part 4 when broken</DisplayName>
+            <Enum>BOSS_HIT_PARTS_TYPE</Enum>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 disableResidentSfxNo">
+            <DisplayName>Resident SFX group number to be disabled when broken</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>4</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 enableWeapon1">
+            <DisplayName>Equipment 1: Effective</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 enableWeapon2">
+            <DisplayName>Equipment 2: Valid</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 enableWeapon3">
+            <DisplayName>Equipment 3: Effective</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 enableWeapon4">
+            <DisplayName>Equipment 4: Effective</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 enableWeapon5">
+            <DisplayName>Equipment 5: Effective</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 enableWeapon6">
+            <DisplayName>Equipment 6: Effective</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 disableDamageDpId1">
+            <DisplayName>Invalid dummy poly ID (damage)</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 disableDamageDpId2">
+            <DisplayName>Invalid dummy poly ID (damage)</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 disableDamageDpId3">
+            <DisplayName>Invalid dummy poly ID (damage)</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 disableDamageDpId4">
+            <DisplayName>Invalid dummy poly ID (damage)</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 disableDamageDpId5">
+            <DisplayName>Invalid dummy poly ID (damage)</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 disableDamageDpId6">
+            <DisplayName>Invalid dummy poly ID (damage)</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 disableDamageDpId7">
+            <DisplayName>Invalid dummy poly ID (damage)</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 disableDamageDpId8">
+            <DisplayName>Invalid dummy poly ID (damage)</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 disableSfxDpId1">
+            <DisplayName>Invalid dummy poly ID (SFX)</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 disableSfxDpId2">
+            <DisplayName>Invalid dummy poly ID (SFX)</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 disableSfxDpId3">
+            <DisplayName>Invalid dummy poly ID (SFX)</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 disableSfxDpId4">
+            <DisplayName>Invalid dummy poly ID (SFX)</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 disableSfxDpId5">
+            <DisplayName>Invalid dummy poly ID (SFX)</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 disableSfxDpId6">
+            <DisplayName>Invalid dummy poly ID (SFX)</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 disableSfxDpId7">
+            <DisplayName>Invalid dummy poly ID (SFX)</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 disableSfxDpId8">
+            <DisplayName>Invalid dummy poly ID (SFX)</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 disableSoundDpId1">
+            <DisplayName>Invalid dummy poly ID (sound)</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 disableSoundDpId2">
+            <DisplayName>Invalid dummy poly ID (sound)</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 disableSoundDpId3">
+            <DisplayName>Invalid dummy poly ID (sound)</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 disableSoundDpId4">
+            <DisplayName>Invalid dummy poly ID (sound)</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 disableSoundDpId5">
+            <DisplayName>Invalid dummy poly ID (sound)</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 disableSoundDpId6">
+            <DisplayName>Invalid dummy poly ID (sound)</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 disableSoundDpId7">
+            <DisplayName>Invalid dummy poly ID (sound)</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 disableSoundDpId8">
+            <DisplayName>Invalid dummy poly ID (sound)</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="dummy8 dummy[2]">
+            <DisplayName>dummy</DisplayName>
+            <SortID>40</SortID>
+        </Field>
+    </Fields>
+</PARAMDEF>

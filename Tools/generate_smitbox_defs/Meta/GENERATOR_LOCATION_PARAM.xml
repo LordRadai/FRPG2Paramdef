@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <positionX AltName="配置位置X" />
+        <positionY AltName="配置位置Y" />
+        <positionZ AltName="配置位置Z" />
+        <angleX AltName="配置角度X" />
+        <angleY AltName="配置角度Y" />
+        <angleZ AltName="配置角度Z" />
+        <aReserved1 AltName="予約" />
+    </Field>
+</PARAMMETA>

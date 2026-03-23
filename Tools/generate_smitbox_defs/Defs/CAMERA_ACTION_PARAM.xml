@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>CAMERA_ACTION_PARAM</ParamType>
+    <DataVersion>1</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="u8 cameraType" />
+        <Field Def="u8 cameraBasePosType" />
+        <Field Def="dummy8 reserved[2]" />
+        <Field Def="angle32 fovY" />
+        <Field Def="f32 lookAtOffsetX" />
+        <Field Def="f32 lookAtOffsetY" />
+        <Field Def="f32 lookAtOffsetZ" />
+        <Field Def="f32 positionOffsetX" />
+        <Field Def="f32 positionOffsetY" />
+        <Field Def="f32 positionOffsetZ" />
+    </Fields>
+</PARAMDEF>

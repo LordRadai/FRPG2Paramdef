@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>CHR_PHANTOM_PARAM</ParamType>
+    <DataVersion>3</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="u8 edgeColorR" />
+        <Field Def="u8 edgeColorG" />
+        <Field Def="u8 edgeColorB" />
+        <Field Def="u8 edgeColorA" />
+        <Field Def="u8 frontColorR" />
+        <Field Def="u8 frontColorG" />
+        <Field Def="u8 frontColorB" />
+        <Field Def="u8 frontColorA" />
+        <Field Def="u8 diffMulColorR" />
+        <Field Def="u8 diffMulColorG" />
+        <Field Def="u8 diffMulColorB" />
+        <Field Def="u8 diffMulColorA" />
+        <Field Def="u8 specMulColorR" />
+        <Field Def="u8 specMulColorG" />
+        <Field Def="u8 specMulColorB" />
+        <Field Def="u8 specMulColorA" />
+        <Field Def="u8 lightColorR" />
+        <Field Def="u8 lightColorG" />
+        <Field Def="u8 lightColorB" />
+        <Field Def="u8 lightColorA" />
+        <Field Def="f32 blendRate" />
+        <Field Def="f32 alpha" />
+        <Field Def="u8 blendType" />
+        <Field Def="u8 isEdgeSubtract" />
+        <Field Def="u8 isFrontSubtract" />
+        <Field Def="dummy8 aReserved[1]" />
+    </Fields>
+</PARAMDEF>

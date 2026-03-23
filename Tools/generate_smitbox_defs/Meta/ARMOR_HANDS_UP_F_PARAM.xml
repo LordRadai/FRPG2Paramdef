@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <weightLevel01 AltName="脇上げ量1[%]" />
+        <weightLevel02 AltName="脇上げ量2[%]" />
+        <weightLevel03 AltName="脇上げ量3[%]" />
+        <weightLevel04 AltName="脇上げ量4[%]" />
+        <weightLevel05 AltName="脇上げ量5[%]" />
+        <weightLevel06 AltName="脇上げ量6[%]" />
+        <weightLevel07 AltName="脇上げ量7[%]" />
+        <weightLevel08 AltName="脇上げ量8[%]" />
+        <weightLevel09 AltName="脇上げ量9[%]" />
+        <weightLevel10 AltName="脇上げ量10[%]" />
+        <dummy AltName="ダミー" />
+    </Field>
+</PARAMMETA>

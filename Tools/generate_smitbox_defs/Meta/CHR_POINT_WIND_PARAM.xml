@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <priority AltName="優先度" />
+        <radius AltName="半径[m]" />
+        <minSpeed AltName="最小風力[m/s]" />
+        <maxSpeed AltName="最大風力[m/s]" />
+        <frequency AltName="周波数" />
+        <gainStartDistance AltName="減衰開始処理" />
+        <fadeInTime AltName="フェードイン時間[sec]" />
+    </Field>
+</PARAMMETA>

@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <baseCulling AltName="通常カリンググループ" />
+        <breakCulling AltName="壊れ時カリンググループ" />
+        <disableRagdollParts AltName="壊れ時無効ラグドール部位" ProjectEnum="BOSS_RAGDOLL_PARTS_TYPE" />
+        <disableHitParts1 AltName="壊れ時無効ヒット部位１" ProjectEnum="BOSS_HIT_PARTS_TYPE" />
+        <disableHitParts2 AltName="壊れ時無効ヒット部位２" ProjectEnum="BOSS_HIT_PARTS_TYPE" />
+        <disableHitParts3 AltName="壊れ時無効ヒット部位３" ProjectEnum="BOSS_HIT_PARTS_TYPE" />
+        <disableHitParts4 AltName="壊れ時無効ヒット部位４" ProjectEnum="BOSS_HIT_PARTS_TYPE" />
+        <disableResidentSfxNo AltName="壊れ時無効にする常駐SFXグループ番号" />
+        <enableWeapon1 AltName="装備１：有効" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <enableWeapon2 AltName="装備２：有効" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <enableWeapon3 AltName="装備３：有効" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <enableWeapon4 AltName="装備４：有効" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <enableWeapon5 AltName="装備５：有効" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <enableWeapon6 AltName="装備６：有効" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <disableDamageDpId1 AltName="無効ダミポリID（ダメージ）" />
+        <disableDamageDpId2 AltName="無効ダミポリID（ダメージ）" />
+        <disableDamageDpId3 AltName="無効ダミポリID（ダメージ）" />
+        <disableDamageDpId4 AltName="無効ダミポリID（ダメージ）" />
+        <disableDamageDpId5 AltName="無効ダミポリID（ダメージ）" />
+        <disableDamageDpId6 AltName="無効ダミポリID（ダメージ）" />
+        <disableDamageDpId7 AltName="無効ダミポリID（ダメージ）" />
+        <disableDamageDpId8 AltName="無効ダミポリID（ダメージ）" />
+        <disableSfxDpId1 AltName="無効ダミポリID（SFX）" />
+        <disableSfxDpId2 AltName="無効ダミポリID（SFX）" />
+        <disableSfxDpId3 AltName="無効ダミポリID（SFX）" />
+        <disableSfxDpId4 AltName="無効ダミポリID（SFX）" />
+        <disableSfxDpId5 AltName="無効ダミポリID（SFX）" />
+        <disableSfxDpId6 AltName="無効ダミポリID（SFX）" />
+        <disableSfxDpId7 AltName="無効ダミポリID（SFX）" />
+        <disableSfxDpId8 AltName="無効ダミポリID（SFX）" />
+        <disableSoundDpId1 AltName="無効ダミポリID（サウンド）" />
+        <disableSoundDpId2 AltName="無効ダミポリID（サウンド）" />
+        <disableSoundDpId3 AltName="無効ダミポリID（サウンド）" />
+        <disableSoundDpId4 AltName="無効ダミポリID（サウンド）" />
+        <disableSoundDpId5 AltName="無効ダミポリID（サウンド）" />
+        <disableSoundDpId6 AltName="無効ダミポリID（サウンド）" />
+        <disableSoundDpId7 AltName="無効ダミポリID（サウンド）" />
+        <disableSoundDpId8 AltName="無効ダミポリID（サウンド）" />
+        <dummy AltName="ダミー" />
+    </Field>
+</PARAMMETA>

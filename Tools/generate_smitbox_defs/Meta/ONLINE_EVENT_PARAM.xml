@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <newMoon AltName="新月イベント開催中か" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <multiPlayEvent AltName="マルチプレイイベント開催中か" ProjectEnum="BOOL_CIRCLECROSS_TYPE" />
+        <itemPresentEventId AltName="アイテム配布宝箱イベント世代ID" />
+        <dummy AltName="ダミー" />
+    </Field>
+</PARAMMETA>
