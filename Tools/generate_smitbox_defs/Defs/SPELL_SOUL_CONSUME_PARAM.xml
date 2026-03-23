@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>SPELL_SOUL_CONSUME_PARAM</ParamType>
+    <DataVersion>2</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="u8 consumeType" />
+        <Field Def="dummy8 dummy0[3]" />
+        <Field Def="u32 consumeSoul" />
+        <Field Def="u32 bulletAndDamageId01" />
+        <Field Def="u32 bulletAndDamageId02" />
+        <Field Def="u32 bulletAndDamageId03" />
+        <Field Def="u32 bulletAndDamageId04" />
+        <Field Def="u32 bulletAndDamageId05" />
+        <Field Def="u32 bulletAndDamageLeftId01" />
+        <Field Def="u32 bulletAndDamageLeftId02" />
+        <Field Def="u32 bulletAndDamageLeftId03" />
+        <Field Def="u32 bulletAndDamageLeftId04" />
+        <Field Def="u32 bulletAndDamageLeftId05" />
+    </Fields>
+</PARAMDEF>

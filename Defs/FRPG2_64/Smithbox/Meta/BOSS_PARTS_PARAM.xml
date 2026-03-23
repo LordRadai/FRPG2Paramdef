@@ -4,7 +4,7 @@
         <hpCategory AltName="HP part number" Enum="BOSS_PARTS_TYPE" />
         <damageAnimId AltName="Damage anime number" />
         <reserved AltName="Dummy" Padding="true" />
-        <material AltName="Material" ProjectEnum="MATERIAL_TYPE_ENUM" />
+        <material AltName="Material" Refs="MaterialParam" />
         <deffence AltName="Defense power" />
     </Field>
     <Enums>

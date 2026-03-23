@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>REINFORCE_COST_PARAM</ParamType>
+    <DataVersion>1</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="s32 lv1Soul" />
+        <Field Def="s32 lv2Soul" />
+        <Field Def="s32 lv3Soul" />
+        <Field Def="s32 lv4Soul" />
+        <Field Def="s32 lv5Soul" />
+        <Field Def="s32 lv6Soul" />
+        <Field Def="s32 lv7Soul" />
+        <Field Def="s32 lv8Soul" />
+        <Field Def="s32 lv9Soul" />
+        <Field Def="s32 lv10Soul" />
+        <Field Def="s32 lv1ItemID" />
+        <Field Def="s32 lv2ItemID" />
+        <Field Def="s32 lv3ItemID" />
+        <Field Def="s32 lv4ItemID" />
+        <Field Def="s32 lv5ItemID" />
+        <Field Def="s32 lv6ItemID" />
+        <Field Def="s32 lv7ItemID" />
+        <Field Def="s32 lv8ItemID" />
+        <Field Def="s32 lv9ItemID" />
+        <Field Def="s32 lv10ItemID" />
+        <Field Def="s16 lv1ItemCount" />
+        <Field Def="s16 lv2ItemCount" />
+        <Field Def="s16 lv3ItemCount" />
+        <Field Def="s16 lv4ItemCount" />
+        <Field Def="s16 lv5ItemCount" />
+        <Field Def="s16 lv6ItemCount" />
+        <Field Def="s16 lv7ItemCount" />
+        <Field Def="s16 lv8ItemCount" />
+        <Field Def="s16 lv9ItemCount" />
+        <Field Def="s16 lv10ItemCount" />
+    </Fields>
+</PARAMDEF>

@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>LOGIC_COM_PARAM</ParamType>
+    <DataVersion>14</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="s32 id" />
+        <Field Def="f32 viewingDistanceMax" />
+        <Field Def="f32 viewingDistanceMin" />
+        <Field Def="f32 viewingBackDistance" />
+        <Field Def="angle32 viewingAngleLR" />
+        <Field Def="angle32 viewingAngleUD" />
+        <Field Def="f32 nightBlindRate" />
+        <Field Def="f32 chaseDistance" />
+        <Field Def="f32 hearingDistance" />
+        <Field Def="u32 hearingSensitivity" />
+        <Field Def="f32 obstacleTime" />
+        <Field Def="f32 obstacleRate" />
+        <Field Def="u8 platoonWeight" />
+        <Field Def="u8 platoonPriority" />
+        <Field Def="u8 viewingBrightnessType" />
+        <Field Def="u8 useDoor" />
+        <Field Def="u8 useLadder" />
+        <Field Def="u8 useRope" />
+        <Field Def="u8 upperRunNum" />
+        <Field Def="u8 damageAfterActionPriority" />
+        <Field Def="u8 roundLv2" />
+        <Field Def="u8 roundLv3" />
+        <Field Def="u8 roundLv4" />
+        <Field Def="u8 roundLv5" />
+        <Field Def="u8 distanceCheckType" />
+        <Field Def="u8 itemPursuitTable" />
+        <Field Def="u8 itemPursuitActionNo" />
+        <Field Def="u8 guardBreakPursuitTable" />
+        <Field Def="u8 guardPursuitActionNo" />
+        <Field Def="u8 backAttackTable" />
+        <Field Def="u8 backAttackActionNo" />
+        <Field Def="dummy8 dummy[1]" />
+        <Field Def="f32 itemPursuitDistance" />
+        <Field Def="f32 guardPursuitDistance" />
+        <Field Def="f32 backAttackDistance" />
+        <Field Def="f32 noLOSForgetTime" />
+        <Field Def="f32 genReturnDist" />
+        <Field Def="f32 genReturnTime" />
+        <Field Def="u8 healProbabilityTable" />
+        <Field Def="u8 healActionNo" />
+        <Field Def="u8 healHpPerc" />
+        <Field Def="u8 dodgeActionType" />
+        <Field Def="f32 autoBreakPower" />
+        <Field Def="u8 returnSoundCheck" />
+        <Field Def="u8 bTargetHighPos" />
+        <Field Def="u8 itemAlluringSkullType" />
+        <Field Def="u8 spellNostalgiaType" />
+        <Field Def="u8 bLongAiCandidate" />
+        <Field Def="dummy8 pad00[23]" />
+    </Fields>
+</PARAMDEF>

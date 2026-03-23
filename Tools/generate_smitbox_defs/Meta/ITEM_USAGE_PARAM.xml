@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <eventFlag AltName="Event flags that are allowed to be used" />
+        <condition AltName="Allow only specified states" Enum="ITEM_USE_PERMIT_TYPE_CONDITION" />
+        <isAllowUseOnLadder AltName="Permission to use ladders" IsBool="true" />
+        <isAllowMultipleUse AltName="Permission to set the number of pieces used" IsBool="true" />
+        <isConsume AltName="Consumables" IsBool="true" />
+        <isNormalConsumu AltName="Consume at normal time" IsBool="true" />
+        <permitOnlineSingle AltName="Online single play allowed" IsBool="true" />
+        <permitOnlineMulti AltName="Multiplayer allowed" IsBool="true" />
+        <permitOffline AltName="Offline permission" IsBool="true" />
+        <permitOnlineGuest AltName="Guest permission" IsBool="true" />
+        <permitBattlePhantom AltName="Permission for dueling spirits" IsBool="true" />
+        <permitLeave AltName="Destruction permission" IsBool="true" />
+        <permitDrop AltName="Transfer permission" IsBool="true" />
+        <exEvalFuncID AltName="Extended use permission determination function ID (tentative)" />
+    </Field>
+    <Enums>
+        <Enum Name="ITEM_USE_PERMIT_TYPE_CONDITION" type="u8">
+            <Option Value="1" Name="Living person" />
+            <Option Value="6" Name="Deceased" />
+            <Option Value="7" Name="Living &amp; dead" />
+        </Enum>
+    </Enums>
+</PARAMMETA>

@@ -45,7 +45,7 @@
         <spEffectTargetRegion AltName="Special effects management category" ProjectEnum="SP_EFFECT_TARGET_REGION" />
         <spEffectDuplication AltName="Duplicate determination of special effects" ProjectEnum="SP_EFFECT_DUPLICATION" />
         <materialSize AltName="Size" Enum="DAMAGE_MATERIAL_SIZE" />
-        <material AltName="Material" ProjectEnum="MATERIAL_TYPE_ENUM" />
+        <material AltName="Material" Refs="MaterialParam" />
         <traceSfx AltName="Trajectory SFX" />
         <traceSfxColor AltName="Trajectory SFX following dummy poly color" Enum="DAMAGE_SFX_TRACE_DP_COLOR_ENUM" />
         <traceSfxPos AltName="Trajectory SFX position" />

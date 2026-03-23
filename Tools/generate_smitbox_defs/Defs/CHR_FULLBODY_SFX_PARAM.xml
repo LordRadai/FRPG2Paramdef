@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>CHR_FULLBODY_SFX_PARAM</ParamType>
+    <DataVersion>3</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="u32 sfxId" />
+        <Field Def="u8 dirType" />
+        <Field Def="u8 traceType" />
+        <Field Def="dummy8 dummy0[2]" />
+        <Field Def="u8 isDisableHead" />
+        <Field Def="u8 isDisableBody" />
+        <Field Def="u8 isDisableRArm" />
+        <Field Def="u8 isDisableLArm" />
+        <Field Def="u8 isDisableRHand" />
+        <Field Def="u8 isDisableLHand" />
+        <Field Def="u8 isDisableRLeg" />
+        <Field Def="u8 isDisableLLeg" />
+        <Field Def="dummy8 dummy1[4]" />
+        <Field Def="f32 time" />
+        <Field Def="u32 seId" />
+    </Fields>
+</PARAMDEF>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <type AltName="Boss type" />
+        <isPartialPhysics AltName="Part ragdoll enabled" IsBool="true" />
+        <dummy AltName="Dummy" Padding="true" />
+        <part1Hp AltName="Part 1 HP" />
+        <part1BeakAnimId AltName="Broken anime numbers" />
+        <part1BreakObjDummyPolyId AltName="Broken OBJ generated dummy poly number" />
+        <dummy1 AltName="Dummy" Padding="true" />
+        <part1BreakObjId AltName="Broken OBJ number" />
+        <part1EventFlag AltName="Event flag" />
+        <part2Hp AltName="Part 2HP" />
+        <part2BreakAnimId AltName="Broken anime numbers" />
+        <part2BreakObjDummyPolyId AltName="Broken OBJ generated dummy poly number" />
+        <dummy2 AltName="Dummy" Padding="true" />
+        <part2BreakObjId AltName="Broken OBJ number" />
+        <part2EventFlag AltName="Event flag" />
+        <part3Hp AltName="Part 3HP" />
+        <part3BreakAnimId AltName="Broken anime numbers" />
+        <part3BreakObjDummyPolyId AltName="Broken OBJ generated dummy poly number" />
+        <dummy3 AltName="Dummy" Padding="true" />
+        <part3BreakObjId AltName="Broken OBJ number" />
+        <part3EventFlag AltName="Event flag" />
+        <part4Hp AltName="Part 4HP" />
+        <part4BreakAnimId AltName="Broken anime numbers" />
+        <part4BreakObjDummyPolyId AltName="Broken OBJ generated dummy poly number" />
+        <dummy4 AltName="Dummy" Padding="true" />
+        <part4BreakObjId AltName="Broken OBJ number" />
+        <part4EventFlag AltName="Event flag" />
+    </Field>
+</PARAMMETA>

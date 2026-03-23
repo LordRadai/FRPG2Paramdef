@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <generatorBeginId AltName="Generator start ID" />
+        <generatorEndId AltName="Generator end ID" />
+        <dummyPolyBeginId AltName="Damipoli start ID" />
+        <dummyPolyEndId AltName="Damipoli stop ID" />
+        <isCopyPlayerProtector AltName="Inherit player armor" IsBool="true" />
+        <isAnotherWorld AltName="Extradimensional space generation" IsBool="true" />
+        <dummy AltName="Dummy" Padding="true" />
+    </Field>
+</PARAMMETA>

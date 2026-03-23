@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <physicalSoul AltName="Required soul" />
+        <fireSoul AltName="Required soul" />
+        <magicSoul AltName="Required soul" />
+        <thunderSoul AltName="Required soul" />
+        <darkSoul AltName="Required soul" />
+        <poisonSoul AltName="Required soul" />
+        <bleedSoul AltName="Required soul" />
+        <physicalByCrudeSoul AltName="Required soul" />
+        <physicalByEnchantedSoul AltName="Required soul" />
+        <physicalByAbyssSoul AltName="Required soul" />
+        <physicalItemID AltName="Required item ID" />
+        <fireItemID AltName="Required item ID" />
+        <magicItemID AltName="Required item ID" />
+        <thunderItemID AltName="Required item ID" />
+        <darkItemID AltName="Required item ID" />
+        <poisonItemID AltName="Required item ID" />
+        <bleedItemID AltName="Required item ID" />
+        <physicalByCrudeItemID AltName="Required item ID" />
+        <physicalByEnchantedItemID AltName="Required item ID" />
+        <physicalByAbyssItemID AltName="Required item ID" />
+        <physicalItemNumber AltName="Number of items required" />
+        <fireItemNumber AltName="Number of items required" />
+        <magicItemNumber AltName="Number of items required" />
+        <thunderItemNumber AltName="Number of items required" />
+        <darkItemNumber AltName="Number of items required" />
+        <poisonItemNumber AltName="Number of items required" />
+        <bleedItemNumber AltName="Number of items required" />
+        <physicalByCrudeItemNumber AltName="Number of items required" />
+        <physicalByEnchantedItemNumber AltName="Number of items required" />
+        <physicalByAbyssItemNumber AltName="Number of items required" />
+    </Field>
+</PARAMMETA>

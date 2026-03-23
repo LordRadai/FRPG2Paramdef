@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <equipId1 AltName="Equipment set ID1" />
+        <equipId2 AltName="Equipment set ID2" />
+        <equipId3 AltName="Equipment set ID3" />
+        <equipId4 AltName="Equipment set ID4" />
+    </Field>
+</PARAMMETA>

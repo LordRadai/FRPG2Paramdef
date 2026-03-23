@@ -17,7 +17,7 @@
         <adjustBalanceWeight AltName="Parameter Distributed weight [kg]" />
         <durability AltName="Parameter durability value" />
         <repairCost AltName="Parameter Repair cost [soul]" />
-        <materialId AltName="Parameter material" ProjectEnum="MATERIAL_TYPE_ENUM" />
+        <materialId AltName="Parameter material" Refs="MaterialParam" />
         <meleeAttackBaseCost AltName="Attack consumption stamina Melee attack base value" />
         <rangedAttackBaseCost AltName="Attack consumption stamina Shooting attack base value" />
         <costCategoryId AltName="Attack consumption stamina multiplier category" Refs="WeaponStaminaCostParam" />

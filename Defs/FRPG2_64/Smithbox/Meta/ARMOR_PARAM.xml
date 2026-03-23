@@ -27,7 +27,7 @@
         <handsUpWeight AltName="Side opening amount [%]" />
         <handsUpFLevel AltName="Armpit raise" />
         <itemDropWeight AltName="Item drop rate correction [%] x0.01" />
-        <material AltName="Parameter Material" ProjectEnum="MATERIAL_TYPE_ENUM" />
+        <material AltName="Parameter Material" Refs="MaterialParam" />
         <brokenSfxId AltName="Corrupted SFX ID" />
         <brokenSoundType AltName="Damaged sound type" ProjectEnum="EQUIP_BREAK_SOUND_MATERIAL_TYPE" />
     </Field>

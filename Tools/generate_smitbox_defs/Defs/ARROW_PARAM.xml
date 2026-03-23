@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>ARROW_PARAM</ParamType>
+    <DataVersion>6</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="s32 sfxId" />
+        <Field Def="s32 lightBulletId0" />
+        <Field Def="s32 heavyBulletId0" />
+        <Field Def="s32 lightDamageId0" />
+        <Field Def="s32 heavyDamageId0" />
+        <Field Def="s32 lightBulletId1" />
+        <Field Def="s32 heavyBulletId1" />
+        <Field Def="s32 lightDamageId1" />
+        <Field Def="s32 heavyDamageId1" />
+        <Field Def="s32 lightBulletId2" />
+        <Field Def="s32 heavyBulletId2" />
+        <Field Def="s32 lightDamageId2" />
+        <Field Def="s32 heavyDamageId2" />
+        <Field Def="s32 lightBulletId3" />
+        <Field Def="s32 heavyBulletId3" />
+        <Field Def="s32 lightDamageId3" />
+        <Field Def="s32 heavyDamageId3" />
+        <Field Def="u16 modelIdInQuiver" />
+        <Field Def="u16 menuPhysicalAttack" />
+        <Field Def="u16 menuMagicAttack" />
+        <Field Def="u16 menuThunderAttack" />
+        <Field Def="u16 menufireAttack" />
+        <Field Def="u16 menudarkAttack" />
+        <Field Def="u16 menuPoisonAttack" />
+        <Field Def="u16 menuBleedAttack" />
+        <Field Def="u16 menuWeaponBreakAttack" />
+        <Field Def="u8 arrowType" />
+        <Field Def="u8 menuAttackCategory1" />
+        <Field Def="u8 menuAttackCategory2" />
+        <Field Def="dummy8 padding[3]" />
+    </Fields>
+</PARAMDEF>

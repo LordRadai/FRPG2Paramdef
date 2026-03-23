@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <startTime AltName="Time taken to start [sec]" />
+        <frequencyTime AltName="Shaking time after start [sec]" />
+        <endTime AltName="Time taken to finish [sec]" />
+        <fovY AltName="Angle of view after change [%] (100 without)" />
+        <distance AltName="Distance after change [%] (None is 100)" />
+        <frequencyNum AltName="Number of shakes" />
+        <frequencyFovY AltName="Angle of view that changes when shaken [%] (100 without)" />
+        <frequencyDistance AltName="Distance that changes when shaking [%] (None is 100)" />
+    </Field>
+</PARAMMETA>

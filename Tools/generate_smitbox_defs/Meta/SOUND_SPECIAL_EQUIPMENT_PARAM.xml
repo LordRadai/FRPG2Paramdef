@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <type AltName="Kinds" Enum="SOUND_SPECIAL_EQUIPMENT_TYPE" />
+        <aReserved AltName="Reserved area" Padding="true" />
+    </Field>
+    <Enums>
+        <Enum Name="SOUND_SPECIAL_EQUIPMENT_TYPE" type="u8">
+            <Option Value="1" Name="Cloak" />
+        </Enum>
+    </Enums>
+</PARAMMETA>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>ARMOR_HANDS_UP_F_PARAM</ParamType>
+    <DataVersion>1</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="u8 weightLevel01" />
+        <Field Def="u8 weightLevel02" />
+        <Field Def="u8 weightLevel03" />
+        <Field Def="u8 weightLevel04" />
+        <Field Def="u8 weightLevel05" />
+        <Field Def="u8 weightLevel06" />
+        <Field Def="u8 weightLevel07" />
+        <Field Def="u8 weightLevel08" />
+        <Field Def="u8 weightLevel09" />
+        <Field Def="u8 weightLevel10" />
+        <Field Def="dummy8 dummy[2]" />
+    </Fields>
+</PARAMDEF>

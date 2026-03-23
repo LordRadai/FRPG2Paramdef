@@ -6,7 +6,7 @@
         <cullingId01 AltName="Culling group ID2" />
         <reserved00 AltName="Spare" Padding="true" />
         <durability AltName="Durability" />
-        <material AltName="Material" ProjectEnum="MATERIAL_TYPE_ENUM" />
+        <material AltName="Material" Refs="MaterialParam" />
         <rightBrokenSfxId AltName="Damaged SFXID right hand" />
         <leftBrokenSfxId AltName="Corrupted SFXID left hand" />
         <rightBrokenDummyPolyId AltName="Damaged SFX dummy poly ID right hand" />

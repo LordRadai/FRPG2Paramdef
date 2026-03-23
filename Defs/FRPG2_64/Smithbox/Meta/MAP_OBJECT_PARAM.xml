@@ -4,7 +4,7 @@
         <animSpeedBaseRate AltName="《Anime speed base》" />
         <animSpeedOverwrteRate AltName="《Variable animation speed》" />
         <animSpeedSharplyRate AltName="《Sudden release action animation playback speed multiplier》" />
-        <material AltName="《Material》" ProjectEnum="MATERIAL_TYPE_ENUM" />
+        <material AltName="《Material》" Refs="MaterialParam" />
         <moveDumyPolyId AltName="《Position correction Damipoly ID》" />
         <moveType AltName="《Movement settings》" IsBool="true" />
         <weaponStorage AltName="《Weapon storage settings》" Enum="GIMMIC_STORAGE_TYPE_ENUM" />

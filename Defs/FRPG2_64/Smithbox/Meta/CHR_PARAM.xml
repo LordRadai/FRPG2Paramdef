@@ -8,7 +8,7 @@
         <npcStatusId AltName="NPC status ID" />
         <groupType AltName="Affiliation setting" Enum="CHR_GROUP_TYPE" />
         <categoryType AltName="Character category" Enum="CHR_CATEGORY_TYPE" />
-        <materialType AltName="Body material" ProjectEnum="MATERIAL_TYPE_ENUM" />
+        <materialType AltName="Body material" Refs="MaterialParam" />
         <visualType AltName="Appearance" ProjectEnum="CHR_VISUAL_TYPE" />
         <multiplayParamId AltName="Multiplayer correction ID" />
         <respawnNum AltName="Number of respawns" />
@@ -38,7 +38,7 @@
         <guardPassiveLevelType AltName="Shield guard level" ProjectEnum="GUARD_PASSIVE_LEVEL_TYPE" />
         <parryType AltName="Shield parry type" ProjectEnum="PARRY_TYPES" />
         <spellParrySfxId AltName="Shield Spell Parry SFXID" />
-        <shieldMaterialType AltName="Shield Shield material" ProjectEnum="MATERIAL_TYPE_ENUM" />
+        <shieldMaterialType AltName="Shield Shield material" Refs="MaterialParam" />
         <shieldReceiveValue AltName="Shield receiving ability" />
         <shieldDefenseValue AltName="Shield defense power" />
         <shieldMagicDefenseValue AltName="Shield Magic Resistance" />
@@ -58,7 +58,7 @@
         <armorBleedingDefenseValue AltName="Armor Bleeding Resistance" />
         <armorDestructionDefenseValue AltName="Armor Weapon Break Resistance" />
         <armorCurseDefenseValue AltName="Armor Curse Resistance" />
-        <armorMaterialType AltName="Armor material" ProjectEnum="MATERIAL_TYPE_ENUM" />
+        <armorMaterialType AltName="Armor material" Refs="MaterialParam" />
         <armorToughValue AltName="Armor toughness" />
         <armorStunBaseValue AltName="Armor Stun Basic Gauge" />
         <armorStunRecoveryRate AltName="Armor Stun recovery speed [%/sec]" />

@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <sfxIdSmall0 AltName="SfxID: small" />
+        <sfxIdNormal0 AltName="SfxID: Medium" />
+        <sfxIdLarge0 AltName="SfxID: Large" />
+        <sfxIdSuperLarge0 AltName="SfxID: extra large" />
+        <sfxIdHyperLarge0 AltName="SfxID: extra large" />
+        <sfxIdSmall1 AltName="SfxID: small" />
+        <sfxIdNormal1 AltName="SfxID: Medium" />
+        <sfxIdLarge1 AltName="SfxID: Large" />
+        <sfxIdSuperLarge1 AltName="SfxID: extra large" />
+        <sfxIdHyperLarge1 AltName="SfxID: extra large" />
+        <sfxIdSmall2 AltName="SfxID: small" />
+        <sfxIdNormal2 AltName="SfxID: Medium" />
+        <sfxIdLarge2 AltName="SfxID: Large" />
+        <sfxIdSuperLarge2 AltName="SfxID: extra large" />
+        <sfxIdHyperLarge2 AltName="SfxID: extra large" />
+        <sfxIdSmall3 AltName="SfxID: small" />
+        <sfxIdNormal3 AltName="SfxID: Medium" />
+        <sfxIdLarge3 AltName="SfxID: Large" />
+        <sfxIdSuperLarge3 AltName="SfxID: extra large" />
+        <sfxIdHyperLarge3 AltName="SfxID: extra large" />
+        <sfxIdSmall4 AltName="SfxID: Body small" />
+        <sfxIdNormal4 AltName="SfxID: Inside the main body" />
+        <sfxIdLarge4 AltName="SfxID: Body size" />
+        <sfxIdSuperLarge4 AltName="SfxID: Extra large body" />
+        <sfxIdHyperLarge4 AltName="SfxID: Extra large body" />
+        <sfxIdCritical AltName="SfxID: Critical" />
+        <isTrace AltName="Follow flag" />
+        <soundLevelSmall AltName="Sound volume: small" />
+        <soundLevelNormal AltName="Sound volume: medium" />
+        <soundLevelLarge AltName="Sound volume: large" />
+        <soundLevelSuperLarge AltName="Sound volume: extra large" />
+        <soundLevelHyperLarge AltName="Sound volume: Extra large" />
+        <soundLevelBody AltName="Sound volume: Main unit" />
+        <soundLevelCritical AltName="Loudness: critical" />
+        <spatterId AltName="Blood splatter ID" />
+    </Field>
+</PARAMMETA>
