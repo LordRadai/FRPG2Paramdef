@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PARAMMETA XmlVersion="0">
-    <Field>
-        <red AltName="Red" />
-        <green AltName="Green" />
-        <blue AltName="Blue" />
-        <alpha AltName="Α value" />
-    </Field>
-</PARAMMETA>

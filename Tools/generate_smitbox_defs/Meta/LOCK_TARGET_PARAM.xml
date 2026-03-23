@@ -1,7 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PARAMMETA XmlVersion="0">
-    <Field>
-        <lockOnRangeMaxRate AltName="Lock-on maximum range multiplier [%]" />
-        <lockOnRangeRate AltName="Lock-on range multiplier [%]" />
-    </Field>
-</PARAMMETA>
