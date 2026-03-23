@@ -5,3 +5,31 @@ BOOL_TRUEFALSE_TYPE     : bool
 BOOL_YESNO_TYPE         : bool
 
 BULLET_ATTACH_PARAM_ENUM : BulletAttachParam
+CHR_EDIT_FACE_PARAM_TYPE : FaceEditParam
+CHR_FULLBODY_SFX_PARAM_ENUM : ChrFullBodySfxParam
+CHR_PARAM_ID : ChrParam
+CHR_POINT_WIND_PARAM_ENUM : ChrPointWindParam
+CHR_WET_ASPECT_PARAM_ID : ChrWetAspectParam
+CHR_WET_PARAM_ID : ChrWetParam
+CUSTOM_ATTR_COST_PARAM_ENUM : CustomAttrCostParam
+CUSTOM_ATTR_SPEC_PARAM_ENUM : CustomAttrSpecParam
+DAMAGE_CTRL_PARAM_ENUM : DamageCtrlParam
+DEAD_TYPE_PARAM_TYPE : DeadTypeParam
+ENEMY_DAMAGE_PARAM_ID : EnemyDamageParam, PlayerDamageParam, SystemDamageParam
+ENEMY_SHOT_SFX_PARAM_ENUM : EnemyShotSfxParam
+ITEM_LOT_PARAM_CHR_ENUM : ItemLotParam2_Chr
+ITEM_LOT_PARAM_OTHER_ENUM : ItemLotParam2_Other
+ITEM_PARAM_ID_ENUM : ItemParam
+ITEM_TYPE_PARAM_ID : ItemTypeParam
+ITEM_USAGE_PARAM_ID : ItemUsageParam
+KEY_GUIDE_PARAM_TYPE : KeyGuideParam
+MAP_OBJECT_WEIGHT_PARAM_TYPE : MapObjectWeightParam
+ONLINE_EVENT_PARAM_ID : OnlineEventParam
+PLAYER_STATUS_PARAM_ID : DbgPlayerStatusParam, NpcPlayerStatusParam, PlayerStatusParam
+REINFORCE_COST_PARAM_ENUM : ReinforceCostParam
+WEAPON_ACTION_CATEGORY_PARAM_ID : WeaponActionCategoryParam
+WEAPON_ATTACK_MOTION_PARAM_ID : WeaponAttackMotionParam
+WEAPON_REINFOCE_PARAM_ID : WeaponReinforceParam
+WEAPON_STAMINA_COST_PARAM_ID : WeaponStaminaCostParam
+WEAPON_STATS_AFFECT_PARAM_ID : WeaponStatsAffectParam
+WEAPON_TYPE_PARAM_ID : WeaponTypeParam

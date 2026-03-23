@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>FE_HP_ST_GUAGE_SETTING_PARAM</ParamType>
+    <DataVersion>3</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="f32 HpGainPar = 0.01">
+            <DisplayName>Stamina loss speed</DisplayName>
+            <Maximum>1</Maximum>
+            <Increment>0.001</Increment>
+            <SortID>1</SortID>
+        </Field>
+        <Field Def="f32 StGainPar = 0.01">
+            <DisplayName>Stamina reduction speed</DisplayName>
+            <Maximum>1</Maximum>
+            <Increment>0.001</Increment>
+            <SortID>2</SortID>
+        </Field>
+        <Field Def="f32 HpGainAnimLimit = 0.05">
+            <DisplayName>Threshold for starting physical strength reduction effect</DisplayName>
+            <Maximum>1</Maximum>
+            <Increment>0.001</Increment>
+            <SortID>3</SortID>
+        </Field>
+        <Field Def="f32 StGainAnimLimit = 0.05">
+            <DisplayName>Stamina reduction effect start threshold</DisplayName>
+            <Maximum>1</Maximum>
+            <Increment>0.001</Increment>
+            <SortID>4</SortID>
+        </Field>
+        <Field Def="f32 HpGainDelay = 4">
+            <DisplayName>Stamina reduction effect start delay time</DisplayName>
+            <Maximum>300</Maximum>
+            <Increment>1</Increment>
+            <SortID>5</SortID>
+        </Field>
+        <Field Def="f32 StGainDelay = 4">
+            <DisplayName>Stamina reduction effect start delay time</DisplayName>
+            <Maximum>300</Maximum>
+            <Increment>1</Increment>
+            <SortID>6</SortID>
+        </Field>
+        <Field Def="f32 EnemyHpGainPar = 0.01">
+            <DisplayName>Enemy health reduction speed</DisplayName>
+            <Maximum>1</Maximum>
+            <Increment>0.001</Increment>
+            <SortID>7</SortID>
+        </Field>
+        <Field Def="f32 EnemyHpGainAnimLimit = 0.05">
+            <DisplayName>Enemy physical strength reduction effect start threshold</DisplayName>
+            <Maximum>1</Maximum>
+            <Increment>0.001</Increment>
+            <SortID>8</SortID>
+        </Field>
+        <Field Def="f32 EnemyHpGainDelay = 4">
+            <DisplayName>Enemy physical strength reduction effect start delay time</DisplayName>
+            <Maximum>300</Maximum>
+            <Increment>1</Increment>
+            <SortID>9</SortID>
+        </Field>
+        <Field Def="f32 HpMinSize = 0.4">
+            <DisplayName>Length of health gauge at minimum status</DisplayName>
+            <Minimum>0.1</Minimum>
+            <Maximum>1</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>10</SortID>
+        </Field>
+        <Field Def="f32 StMinSize = 0.4">
+            <DisplayName>Stamina gauge length at minimum status</DisplayName>
+            <Minimum>0.1</Minimum>
+            <Maximum>1</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>11</SortID>
+        </Field>
+        <Field Def="f32 HpMaxSize = 0.4">
+            <DisplayName>Length of stamina gauge at max status stamina</DisplayName>
+            <Minimum>0.1</Minimum>
+            <Maximum>1</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>12</SortID>
+        </Field>
+        <Field Def="f32 StMaxSize = 0.4">
+            <DisplayName>Stamina gauge length at maximum status Stamina</DisplayName>
+            <Minimum>0.1</Minimum>
+            <Maximum>1</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>13</SortID>
+        </Field>
+    </Fields>
+</PARAMDEF>
