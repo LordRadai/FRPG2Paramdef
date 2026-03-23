@@ -19,7 +19,7 @@
             <SortID>20</SortID>
         </Field>
         <Field Def="u8 poise">
-            <DisplayName>for menu toughness</DisplayName>
+            <DisplayName>For menu toughness</DisplayName>
             <Maximum>99</Maximum>
             <Increment>1</Increment>
             <SortID>300</SortID>
@@ -110,7 +110,7 @@
             <SortID>170</SortID>
         </Field>
         <Field Def="s16 fireResistance">
-            <DisplayName>for menu flame resistant</DisplayName>
+            <DisplayName>For menu flame resistant</DisplayName>
             <Maximum>9999</Maximum>
             <Increment>1</Increment>
             <SortID>180</SortID>
@@ -128,13 +128,13 @@
             <SortID>200</SortID>
         </Field>
         <Field Def="s16 poisonResistance">
-            <DisplayName>for menu poison resistance</DisplayName>
+            <DisplayName>For menu poison resistance</DisplayName>
             <Maximum>9999</Maximum>
             <Increment>1</Increment>
             <SortID>210</SortID>
         </Field>
         <Field Def="s16 bleedingResistance">
-            <DisplayName>for menu bleeding resistance</DisplayName>
+            <DisplayName>For menu bleeding resistance</DisplayName>
             <Maximum>9999</Maximum>
             <Increment>1</Increment>
             <SortID>220</SortID>
@@ -176,7 +176,7 @@
             <SortID>270</SortID>
         </Field>
         <Field Def="dummy8 dummy1[2]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>301</SortID>
         </Field>
         <Field Def="f32 equipLoadMax">

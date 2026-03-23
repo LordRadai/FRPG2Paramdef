@@ -31,7 +31,7 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="f32 dashIntervalTime">
-            <DisplayName>dash interval [sec]</DisplayName>
+            <DisplayName>Dash interval [sec]</DisplayName>
             <Maximum>60</Maximum>
             <Increment>0.1</Increment>
             <SortID>5</SortID>
@@ -241,13 +241,13 @@
             <SortID>39</SortID>
         </Field>
         <Field Def="f32 dashBlendInSpeed">
-            <DisplayName>speed with dash blend</DisplayName>
+            <DisplayName>Speed with dash blend</DisplayName>
             <Maximum>9999</Maximum>
             <Increment>0.0099999998</Increment>
             <SortID>40</SortID>
         </Field>
         <Field Def="f32 dashBlendOutSpeed">
-            <DisplayName>dash blend return speed</DisplayName>
+            <DisplayName>Dash blend return speed</DisplayName>
             <Maximum>9999</Maximum>
             <Increment>0.0099999998</Increment>
             <SortID>41</SortID>

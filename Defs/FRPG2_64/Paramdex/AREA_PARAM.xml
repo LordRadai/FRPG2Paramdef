@@ -16,7 +16,7 @@
             <SortID>100</SortID>
         </Field>
         <Field Def="dummy8 aReserved[3]">
-            <DisplayName>reservation</DisplayName>
+            <DisplayName>Reservation</DisplayName>
             <SortID>825</SortID>
         </Field>
         <Field Def="s32 lockOnId">
@@ -29,7 +29,7 @@
             <SortID>200</SortID>
         </Field>
         <Field Def="s32 lockOnIdDark">
-            <DisplayName>darkness lock on</DisplayName>
+            <DisplayName>Darkness lock on</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -65,11 +65,11 @@
             <SortID>701</SortID>
         </Field>
         <Field Def="dummy8 aReserved1[1]">
-            <DisplayName>reservation</DisplayName>
+            <DisplayName>Reservation</DisplayName>
             <SortID>826</SortID>
         </Field>
         <Field Def="s32 cameraId">
-            <DisplayName>camera settings</DisplayName>
+            <DisplayName>Camera settings</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -87,7 +87,7 @@
             <SortID>400</SortID>
         </Field>
         <Field Def="f32 logicSoundDistance">
-            <DisplayName>sound range</DisplayName>
+            <DisplayName>Sound range</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1000</Maximum>
@@ -160,7 +160,7 @@
             <SortID>842</SortID>
         </Field>
         <Field Def="dummy8 aReserved2[2]">
-            <DisplayName>reservation</DisplayName>
+            <DisplayName>Reservation</DisplayName>
             <Description>予約</Description>
             <SortID>827</SortID>
         </Field>

@@ -121,7 +121,7 @@
             <SortID>19</SortID>
         </Field>
         <Field Def="dummy8 dummy[3]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>63</SortID>
         </Field>
         <Field Def="u32 statsAffectId">

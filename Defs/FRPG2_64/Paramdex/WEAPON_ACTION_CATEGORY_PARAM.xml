@@ -35,7 +35,7 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="u32 atkIdSingle1HandDash">
-            <DisplayName>attack anime one handed dash</DisplayName>
+            <DisplayName>Attack anime one handed dash</DisplayName>
             <Enum>WEAPON_ATTACK_MOTION_PARAM_ID</Enum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -49,7 +49,7 @@
             <SortID>6</SortID>
         </Field>
         <Field Def="u32 atkIdSingle1HandStep">
-            <DisplayName>attack anime one handed step</DisplayName>
+            <DisplayName>Attack anime one handed step</DisplayName>
             <Enum>WEAPON_ATTACK_MOTION_PARAM_ID</Enum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -70,7 +70,7 @@
             <SortID>9</SortID>
         </Field>
         <Field Def="u32 atkIdSingle1HandJump">
-            <DisplayName>attack anime one handed jump</DisplayName>
+            <DisplayName>Attack anime one handed jump</DisplayName>
             <Enum>WEAPON_ATTACK_MOTION_PARAM_ID</Enum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -119,7 +119,7 @@
             <SortID>16</SortID>
         </Field>
         <Field Def="u32 atkIdSingle2HandStep">
-            <DisplayName>attack anime two hands step</DisplayName>
+            <DisplayName>Attack anime two hands step</DisplayName>
             <Enum>WEAPON_ATTACK_MOTION_PARAM_ID</Enum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -140,7 +140,7 @@
             <SortID>19</SortID>
         </Field>
         <Field Def="u32 atkIdSingle2HandJump">
-            <DisplayName>attack anime two handed jump</DisplayName>
+            <DisplayName>Attack anime two handed jump</DisplayName>
             <Enum>WEAPON_ATTACK_MOTION_PARAM_ID</Enum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -189,28 +189,28 @@
             <SortID>26</SortID>
         </Field>
         <Field Def="u32 atkIdDual1HandStep">
-            <DisplayName>attack anime dual wield step</DisplayName>
+            <DisplayName>Attack anime dual wield step</DisplayName>
             <Enum>WEAPON_ATTACK_MOTION_PARAM_ID</Enum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>27</SortID>
         </Field>
         <Field Def="u32 atkIdDual1HandDown">
-            <DisplayName>attack anime dual wield down</DisplayName>
+            <DisplayName>Attack anime dual wield down</DisplayName>
             <Enum>WEAPON_ATTACK_MOTION_PARAM_ID</Enum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>28</SortID>
         </Field>
         <Field Def="u32 atkIdDual1HandFall">
-            <DisplayName>attack anime dual wield falling</DisplayName>
+            <DisplayName>Attack anime dual wield falling</DisplayName>
             <Enum>WEAPON_ATTACK_MOTION_PARAM_ID</Enum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>29</SortID>
         </Field>
         <Field Def="u32 atkIdDual1HandJump">
-            <DisplayName>attack anime dual wield jump</DisplayName>
+            <DisplayName>Attack anime dual wield jump</DisplayName>
             <Enum>WEAPON_ATTACK_MOTION_PARAM_ID</Enum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -448,7 +448,7 @@
             <SortID>63</SortID>
         </Field>
         <Field Def="u32 atkIdBackStab">
-            <DisplayName>attack anime backstab</DisplayName>
+            <DisplayName>Attack anime backstab</DisplayName>
             <Enum>WEAPON_ATTACK_MOTION_PARAM_ID</Enum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>

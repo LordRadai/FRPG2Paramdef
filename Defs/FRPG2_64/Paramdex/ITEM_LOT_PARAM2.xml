@@ -7,7 +7,7 @@
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="u8 lotDropType">
-            <DisplayName>lottery drop type</DisplayName>
+            <DisplayName>Lottery drop type</DisplayName>
             <Enum>ITEM_LOT_DROP_TYPE</Enum>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -21,7 +21,7 @@
             <SortID>20</SortID>
         </Field>
         <Field Def="dummy8 padding[2]">
-            <DisplayName>padding</DisplayName>
+            <DisplayName>Padding</DisplayName>
             <SortID>60091</SortID>
         </Field>
         <Field Def="u8 itemNum1">
@@ -145,70 +145,70 @@
             <SortID>30090</SortID>
         </Field>
         <Field Def="u8 attribute1">
-            <DisplayName>attribute</DisplayName>
+            <DisplayName>Attribute</DisplayName>
             <Enum>ITEM_LOT_ATTR_TYPE</Enum>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>40000</SortID>
         </Field>
         <Field Def="u8 attribute2">
-            <DisplayName>attribute</DisplayName>
+            <DisplayName>Attribute</DisplayName>
             <Enum>ITEM_LOT_ATTR_TYPE</Enum>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>40010</SortID>
         </Field>
         <Field Def="u8 attribute3">
-            <DisplayName>attribute</DisplayName>
+            <DisplayName>Attribute</DisplayName>
             <Enum>ITEM_LOT_ATTR_TYPE</Enum>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>40020</SortID>
         </Field>
         <Field Def="u8 attribute4">
-            <DisplayName>attribute</DisplayName>
+            <DisplayName>Attribute</DisplayName>
             <Enum>ITEM_LOT_ATTR_TYPE</Enum>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>40030</SortID>
         </Field>
         <Field Def="u8 attribute5">
-            <DisplayName>attribute</DisplayName>
+            <DisplayName>Attribute</DisplayName>
             <Enum>ITEM_LOT_ATTR_TYPE</Enum>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>40040</SortID>
         </Field>
         <Field Def="u8 attribute6">
-            <DisplayName>attribute</DisplayName>
+            <DisplayName>Attribute</DisplayName>
             <Enum>ITEM_LOT_ATTR_TYPE</Enum>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>40050</SortID>
         </Field>
         <Field Def="u8 attribute7">
-            <DisplayName>attribute</DisplayName>
+            <DisplayName>Attribute</DisplayName>
             <Enum>ITEM_LOT_ATTR_TYPE</Enum>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>40060</SortID>
         </Field>
         <Field Def="u8 attribute8">
-            <DisplayName>attribute</DisplayName>
+            <DisplayName>Attribute</DisplayName>
             <Enum>ITEM_LOT_ATTR_TYPE</Enum>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>40070</SortID>
         </Field>
         <Field Def="u8 attribute9">
-            <DisplayName>attribute</DisplayName>
+            <DisplayName>Attribute</DisplayName>
             <Enum>ITEM_LOT_ATTR_TYPE</Enum>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>40080</SortID>
         </Field>
         <Field Def="u8 attribute10">
-            <DisplayName>attribute</DisplayName>
+            <DisplayName>Attribute</DisplayName>
             <Enum>ITEM_LOT_ATTR_TYPE</Enum>
             <Maximum>255</Maximum>
             <Increment>1</Increment>

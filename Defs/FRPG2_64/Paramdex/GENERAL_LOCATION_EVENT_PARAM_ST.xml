@@ -7,7 +7,7 @@
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="f32 positionX">
-            <DisplayName>position</DisplayName>
+            <DisplayName>Position</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>-100000</Minimum>
             <Maximum>100000</Maximum>
@@ -31,7 +31,7 @@
             <SortID>120</SortID>
         </Field>
         <Field Def="f32 angleX">
-            <DisplayName>angle x</DisplayName>
+            <DisplayName>Angle x</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>-180</Minimum>
             <Maximum>180</Maximum>
@@ -55,7 +55,7 @@
             <SortID>220</SortID>
         </Field>
         <Field Def="u8 formType = 1">
-            <DisplayName>shape</DisplayName>
+            <DisplayName>Shape</DisplayName>
             <Enum>GENERAL_LOCATION_FORM_TYPE_ENUM</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>3</Maximum>
@@ -105,7 +105,7 @@
             <SortID>330</SortID>
         </Field>
         <Field Def="dummy8 aReserved[2]">
-            <DisplayName>reservation</DisplayName>
+            <DisplayName>Reservation</DisplayName>
             <SortID>601</SortID>
         </Field>
         <Field Def="u8 memoryBlockId">
@@ -117,7 +117,7 @@
             <SortID>600</SortID>
         </Field>
         <Field Def="u8 categoryType">
-            <DisplayName>category</DisplayName>
+            <DisplayName>Category</DisplayName>
             <Enum>GENERAL_LOCATION_EVENT_ENUM</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>

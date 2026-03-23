@@ -7,7 +7,7 @@
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="s32 textId">
-            <DisplayName>text id</DisplayName>
+            <DisplayName>Text id</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
@@ -44,7 +44,7 @@
             <SortID>400</SortID>
         </Field>
         <Field Def="u8 shapeType">
-            <DisplayName>shape</DisplayName>
+            <DisplayName>Shape</DisplayName>
             <Enum>KEY_GUIDE_SHAPE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>

@@ -30,7 +30,7 @@
             <SortID>50</SortID>
         </Field>
         <Field Def="dummy8 aReserved[1]">
-            <DisplayName>reservation</DisplayName>
+            <DisplayName>Reservation</DisplayName>
             <SortID>2531</SortID>
         </Field>
         <Field Def="u8 groundMaterial240_0">

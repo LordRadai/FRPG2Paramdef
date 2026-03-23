@@ -13,7 +13,7 @@
             <SortID>10</SortID>
         </Field>
         <Field Def="dummy8 aReserved1[3]">
-            <DisplayName>reservation</DisplayName>
+            <DisplayName>Reservation</DisplayName>
             <SortID>141</SortID>
         </Field>
         <Field Def="u32 trapGasDamageId">

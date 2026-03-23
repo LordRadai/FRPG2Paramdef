@@ -7,7 +7,7 @@
     <FormatVersion>104</FormatVersion>
     <Fields>
         <Field Def="f32 value">
-            <DisplayName>parameter value</DisplayName>
+            <DisplayName>Parameter value</DisplayName>
             <Description>パラメータ値</Description>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>-1e+09</Minimum>

@@ -31,7 +31,7 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="u16 DrawDist">
-            <DisplayName>draw distance</DisplayName>
+            <DisplayName>Draw distance</DisplayName>
             <Description>描画を行う距離(m) 0にすると自動計算</Description>
             <Maximum>9999</Maximum>
             <Increment>1</Increment>
@@ -52,7 +52,7 @@
             <SortID>7</SortID>
         </Field>
         <Field Def="dummy8 pading[8]">
-            <DisplayName>reserved area</DisplayName>
+            <DisplayName>Reserved area</DisplayName>
             <SortID>9</SortID>
         </Field>
     </Fields>

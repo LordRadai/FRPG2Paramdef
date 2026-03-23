@@ -151,7 +151,7 @@
             <SortID>110</SortID>
         </Field>
         <Field Def="u16 menuPhysicalAttack">
-            <DisplayName>physical attack power</DisplayName>
+            <DisplayName>Physical attack power</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>999</Maximum>
@@ -215,22 +215,22 @@
             <SortID>1207</SortID>
         </Field>
         <Field Def="u8 arrowType">
-            <DisplayName>types of arrows</DisplayName>
+            <DisplayName>Types of arrows</DisplayName>
             <Enum>ARROW_TYPE</Enum>
             <SortID>120</SortID>
         </Field>
         <Field Def="u8 menuAttackCategory1">
-            <DisplayName>attack attribute 1</DisplayName>
+            <DisplayName>Attack attribute 1</DisplayName>
             <Enum>WEAPON_ATTACK_CATEGORY</Enum>
             <SortID>1100</SortID>
         </Field>
         <Field Def="u8 menuAttackCategory2">
-            <DisplayName>attack attribute 2</DisplayName>
+            <DisplayName>Attack attribute 2</DisplayName>
             <Enum>WEAPON_ATTACK_CATEGORY</Enum>
             <SortID>1101</SortID>
         </Field>
         <Field Def="dummy8 padding[3]">
-            <DisplayName>padding</DisplayName>
+            <DisplayName>Padding</DisplayName>
             <SortID>1208</SortID>
         </Field>
     </Fields>

@@ -24,7 +24,7 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="dummy8 dummy[12]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <Maximum>1</Maximum>
             <SortID>5</SortID>
         </Field>

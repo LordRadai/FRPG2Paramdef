@@ -7,7 +7,7 @@
     <FormatVersion>104</FormatVersion>
     <Fields>
         <Field Def="f32 Face_age = 15">
-            <DisplayName>age</DisplayName>
+            <DisplayName>Age</DisplayName>
             <Description>年齢</Description>
             <Minimum>15</Minimum>
             <Maximum>65</Maximum>
@@ -15,14 +15,14 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="f32 Face_gender = 0.5">
-            <DisplayName>sex</DisplayName>
+            <DisplayName>Sex</DisplayName>
             <Description>性別</Description>
             <Maximum>4</Maximum>
             <Increment>0.1</Increment>
             <SortID>2</SortID>
         </Field>
         <Field Def="f32 Face_caricature_geometry = 0.1">
-            <DisplayName>shape exaggeration</DisplayName>
+            <DisplayName>Shape exaggeration</DisplayName>
             <Description>形状誇張</Description>
             <Minimum>0.1</Minimum>
             <Maximum>3</Maximum>
@@ -30,7 +30,7 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="f32 Face_caricature_texture = 0.1">
-            <DisplayName>color exaggeration</DisplayName>
+            <DisplayName>Color exaggeration</DisplayName>
             <Description>色誇張</Description>
             <Minimum>0.1</Minimum>
             <Maximum>3</Maximum>
@@ -54,7 +54,7 @@
             <SortID>6</SortID>
         </Field>
         <Field Def="f32 Face_heavy_light">
-            <DisplayName>face width</DisplayName>
+            <DisplayName>Face width</DisplayName>
             <Description>顔幅</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
@@ -62,7 +62,7 @@
             <SortID>7</SortID>
         </Field>
         <Field Def="f32 Face_round_gaunt">
-            <DisplayName>roundness of face</DisplayName>
+            <DisplayName>Roundness of face</DisplayName>
             <Description>顔の丸み</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
@@ -70,7 +70,7 @@
             <SortID>8</SortID>
         </Field>
         <Field Def="f32 Face_tall_short">
-            <DisplayName>face parts balance</DisplayName>
+            <DisplayName>Face parts balance</DisplayName>
             <Description>顔パーツバランス</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
@@ -94,7 +94,7 @@
             <SortID>11</SortID>
         </Field>
         <Field Def="f32 Skin_Flushed_Pale">
-            <DisplayName>skin color flushing pallor</DisplayName>
+            <DisplayName>Skin color flushing pallor</DisplayName>
             <Description>肌の色 紅潮 蒼白</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
@@ -150,7 +150,7 @@
             <SortID>18</SortID>
         </Field>
         <Field Def="f32 Forehead_small_large">
-            <DisplayName>width between eyebrows</DisplayName>
+            <DisplayName>Width between eyebrows</DisplayName>
             <Description>眉間の幅</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
@@ -158,7 +158,7 @@
             <SortID>19</SortID>
         </Field>
         <Field Def="f32 Forehead_tall_short">
-            <DisplayName>depth between eyebrows</DisplayName>
+            <DisplayName>Depth between eyebrows</DisplayName>
             <Description>眉間の深さ</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
@@ -166,7 +166,7 @@
             <SortID>20</SortID>
         </Field>
         <Field Def="f32 Forehead_tilt_foward_back">
-            <DisplayName>location between eyebrows</DisplayName>
+            <DisplayName>Location between eyebrows</DisplayName>
             <Description>眉間の位置</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
@@ -174,7 +174,7 @@
             <SortID>21</SortID>
         </Field>
         <Field Def="f32 Nose_sellion_down_up">
-            <DisplayName>height between eyebrows</DisplayName>
+            <DisplayName>Height between eyebrows</DisplayName>
             <Description>眉間の高さ</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
@@ -198,7 +198,7 @@
             <SortID>24</SortID>
         </Field>
         <Field Def="f32 Nose_sellion_thin_wide">
-            <DisplayName>width between eyebrows</DisplayName>
+            <DisplayName>Width between eyebrows</DisplayName>
             <Description>眉間の幅</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
@@ -206,7 +206,7 @@
             <SortID>25</SortID>
         </Field>
         <Field Def="f32 Brow_Ridge_high_low">
-            <DisplayName>eyebrow height</DisplayName>
+            <DisplayName>Eyebrow height</DisplayName>
             <Description>眉の高さ</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
@@ -214,7 +214,7 @@
             <SortID>26</SortID>
         </Field>
         <Field Def="f32 Brow_Ridge_Inner_down_up">
-            <DisplayName>inner edge of eyebrow</DisplayName>
+            <DisplayName>Inner edge of eyebrow</DisplayName>
             <Description>眉の内端</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
@@ -222,7 +222,7 @@
             <SortID>27</SortID>
         </Field>
         <Field Def="f32 Brow_Ridge_Outer_up_down">
-            <DisplayName>outer edge of eyebrow</DisplayName>
+            <DisplayName>Outer edge of eyebrow</DisplayName>
             <Description>眉の外端</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
@@ -230,7 +230,7 @@
             <SortID>28</SortID>
         </Field>
         <Field Def="f32 Eyes_down_up">
-            <DisplayName>eye position</DisplayName>
+            <DisplayName>Eye position</DisplayName>
             <Description>眼の位置</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
@@ -238,7 +238,7 @@
             <SortID>29</SortID>
         </Field>
         <Field Def="f32 Eyes_small_large">
-            <DisplayName>eye size</DisplayName>
+            <DisplayName>Eye size</DisplayName>
             <Description>眼の大きさ</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
@@ -246,7 +246,7 @@
             <SortID>30</SortID>
         </Field>
         <Field Def="f32 Eyes_tilt_inward_outward">
-            <DisplayName>tilt of the eyes</DisplayName>
+            <DisplayName>Tilt of the eyes</DisplayName>
             <Description>眼の傾き</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
@@ -254,7 +254,7 @@
             <SortID>31</SortID>
         </Field>
         <Field Def="f32 Eyes_apart_together">
-            <DisplayName>eye distance</DisplayName>
+            <DisplayName>Eye distance</DisplayName>
             <Description>眼の間隔</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
@@ -302,7 +302,7 @@
             <SortID>37</SortID>
         </Field>
         <Field Def="f32 Eyeshadow_Light_Dark">
-            <DisplayName>color eyeshadow light dark</DisplayName>
+            <DisplayName>Color eyeshadow light dark</DisplayName>
             <Description>色 アイシャドー 明 暗</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
@@ -310,7 +310,7 @@
             <SortID>38</SortID>
         </Field>
         <Field Def="f32 Nose_bridge_shallow_deep">
-            <DisplayName>depth of nose</DisplayName>
+            <DisplayName>Depth of nose</DisplayName>
             <Description>鼻筋の深さ</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
@@ -318,7 +318,7 @@
             <SortID>39</SortID>
         </Field>
         <Field Def="f32 Nose_bridge_short_long">
-            <DisplayName>length of nose bridge</DisplayName>
+            <DisplayName>Length of nose bridge</DisplayName>
             <Description>鼻筋の長さ</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
@@ -326,7 +326,7 @@
             <SortID>40</SortID>
         </Field>
         <Field Def="f32 Nose_down_up">
-            <DisplayName>nose length</DisplayName>
+            <DisplayName>Nose length</DisplayName>
             <Description>鼻の長さ</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
@@ -334,7 +334,7 @@
             <SortID>41</SortID>
         </Field>
         <Field Def="f32 Nose_flat_pointed">
-            <DisplayName>nose height</DisplayName>
+            <DisplayName>Nose height</DisplayName>
             <Description>鼻の高さ</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
@@ -342,7 +342,7 @@
             <SortID>42</SortID>
         </Field>
         <Field Def="f32 Nose_region_concave_convex">
-            <DisplayName>uneven nose</DisplayName>
+            <DisplayName>Uneven nose</DisplayName>
             <Description>鼻の凹凸</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
@@ -350,7 +350,7 @@
             <SortID>43</SortID>
         </Field>
         <Field Def="f32 Nose_short_long">
-            <DisplayName>nose height</DisplayName>
+            <DisplayName>Nose height</DisplayName>
             <Description>鼻の高さ</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
@@ -358,7 +358,7 @@
             <SortID>44</SortID>
         </Field>
         <Field Def="f32 Nose_tilt_down_up">
-            <DisplayName>upper and lower nostrils</DisplayName>
+            <DisplayName>Upper and lower nostrils</DisplayName>
             <Description>小鼻の上下</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
@@ -366,7 +366,7 @@
             <SortID>45</SortID>
         </Field>
         <Field Def="f32 Nose_nostril_tilt_down_up">
-            <DisplayName>slope of the nose</DisplayName>
+            <DisplayName>Slope of the nose</DisplayName>
             <Description>小鼻の傾斜</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
@@ -374,7 +374,7 @@
             <SortID>46</SortID>
         </Field>
         <Field Def="f32 Nose_nostrils_small_large">
-            <DisplayName>size of nose</DisplayName>
+            <DisplayName>Size of nose</DisplayName>
             <Description>小鼻の大きさ</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
@@ -382,7 +382,7 @@
             <SortID>47</SortID>
         </Field>
         <Field Def="f32 Nose_nostrils_wide_thin">
-            <DisplayName>width of nostril</DisplayName>
+            <DisplayName>Width of nostril</DisplayName>
             <Description>小鼻の幅</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
@@ -390,7 +390,7 @@
             <SortID>48</SortID>
         </Field>
         <Field Def="f32 Nares_Small_Large">
-            <DisplayName>nostril size</DisplayName>
+            <DisplayName>Nostril size</DisplayName>
             <Description>鼻孔の大きさ</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
@@ -398,7 +398,7 @@
             <SortID>49</SortID>
         </Field>
         <Field Def="f32 Cheekbones_low_high">
-            <DisplayName>cheekbone height</DisplayName>
+            <DisplayName>Cheekbone height</DisplayName>
             <Description>頬骨の高さ</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
@@ -406,7 +406,7 @@
             <SortID>50</SortID>
         </Field>
         <Field Def="f32 Cheekbones_shallow_pronounced">
-            <DisplayName>cheekbone depth</DisplayName>
+            <DisplayName>Cheekbone depth</DisplayName>
             <Description>頬骨の深み</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
@@ -414,7 +414,7 @@
             <SortID>51</SortID>
         </Field>
         <Field Def="f32 Cheekbones_thin_wide">
-            <DisplayName>cheekbone width</DisplayName>
+            <DisplayName>Cheekbone width</DisplayName>
             <Description>頬骨の広さ</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
@@ -422,7 +422,7 @@
             <SortID>52</SortID>
         </Field>
         <Field Def="f32 Cheeks_concave_convex">
-            <DisplayName>uneven cheeks</DisplayName>
+            <DisplayName>Uneven cheeks</DisplayName>
             <Description>頬の凹凸</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
@@ -430,7 +430,7 @@
             <SortID>53</SortID>
         </Field>
         <Field Def="f32 Cheeks_round_gaunt">
-            <DisplayName>cheek</DisplayName>
+            <DisplayName>Cheek</DisplayName>
             <Description>頬</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
@@ -438,7 +438,7 @@
             <SortID>54</SortID>
         </Field>
         <Field Def="f32 Naso_Labial_Lines_Light_Dark">
-            <DisplayName>cheek wrinkle line</DisplayName>
+            <DisplayName>Cheek wrinkle line</DisplayName>
             <Description>頬のしわライン</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
@@ -446,7 +446,7 @@
             <SortID>55</SortID>
         </Field>
         <Field Def="f32 Mouth_drawn_pursed">
-            <DisplayName>lip shape</DisplayName>
+            <DisplayName>Lip shape</DisplayName>
             <Description>唇の形</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
@@ -462,7 +462,7 @@
             <SortID>57</SortID>
         </Field>
         <Field Def="f32 Mouth_Lips_deflated_inflated">
-            <DisplayName>swelling of lips</DisplayName>
+            <DisplayName>Swelling of lips</DisplayName>
             <Description>唇の膨らみ</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
@@ -470,7 +470,7 @@
             <SortID>58</SortID>
         </Field>
         <Field Def="f32 Mouth_Lips_large_small">
-            <DisplayName>lip size</DisplayName>
+            <DisplayName>Lip size</DisplayName>
             <Description>唇の大きさ</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
@@ -478,7 +478,7 @@
             <SortID>59</SortID>
         </Field>
         <Field Def="f32 Mouth_Lips_puckered_retracted">
-            <DisplayName>lip shape</DisplayName>
+            <DisplayName>Lip shape</DisplayName>
             <Description>唇の形</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
@@ -486,7 +486,7 @@
             <SortID>60</SortID>
         </Field>
         <Field Def="f32 Mouth_Lips_thin_thicks">
-            <DisplayName>lip thickness</DisplayName>
+            <DisplayName>Lip thickness</DisplayName>
             <Description>唇の厚さ</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
@@ -494,7 +494,7 @@
             <SortID>61</SortID>
         </Field>
         <Field Def="f32 Mouth_puckered_retracted">
-            <DisplayName>unevenness of the mouth</DisplayName>
+            <DisplayName>Unevenness of the mouth</DisplayName>
             <Description>口の凹凸</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
@@ -502,7 +502,7 @@
             <SortID>62</SortID>
         </Field>
         <Field Def="f32 Mouth_tilt_up_down">
-            <DisplayName>mouth</DisplayName>
+            <DisplayName>Mouth</DisplayName>
             <Description>口元</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
@@ -510,7 +510,7 @@
             <SortID>63</SortID>
         </Field>
         <Field Def="f32 Mouth_underbite_overbite">
-            <DisplayName>lip shape</DisplayName>
+            <DisplayName>Lip shape</DisplayName>
             <Description>唇の形</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
@@ -518,7 +518,7 @@
             <SortID>64</SortID>
         </Field>
         <Field Def="f32 Mouth_up_down">
-            <DisplayName>mouth position</DisplayName>
+            <DisplayName>Mouth position</DisplayName>
             <Description>口の位置</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
@@ -526,7 +526,7 @@
             <SortID>65</SortID>
         </Field>
         <Field Def="f32 Mouth_wide_thin">
-            <DisplayName>mouth width</DisplayName>
+            <DisplayName>Mouth width</DisplayName>
             <Description>口の幅</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
@@ -534,7 +534,7 @@
             <SortID>66</SortID>
         </Field>
         <Field Def="f32 Mouth_Chin_distance_short_long">
-            <DisplayName>distance from mouth to chin</DisplayName>
+            <DisplayName>Distance from mouth to chin</DisplayName>
             <Description>口から顎の距離</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
@@ -566,7 +566,7 @@
             <SortID>70</SortID>
         </Field>
         <Field Def="f32 Chin_foward_backward">
-            <DisplayName>front and back of jaw</DisplayName>
+            <DisplayName>Front and back of jaw</DisplayName>
             <Description>顎の前後</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
@@ -590,7 +590,7 @@
             <SortID>73</SortID>
         </Field>
         <Field Def="f32 Chin_shallow_deep">
-            <DisplayName>chin depth</DisplayName>
+            <DisplayName>Chin depth</DisplayName>
             <Description>顎の深さ</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
@@ -598,7 +598,7 @@
             <SortID>74</SortID>
         </Field>
         <Field Def="f32 Chin_small_large">
-            <DisplayName>jaw size</DisplayName>
+            <DisplayName>Jaw size</DisplayName>
             <Description>顎の大きさ</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
@@ -606,7 +606,7 @@
             <SortID>75</SortID>
         </Field>
         <Field Def="f32 Chin_tall_short">
-            <DisplayName>chin height</DisplayName>
+            <DisplayName>Chin height</DisplayName>
             <Description>顎の高さ</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
@@ -614,7 +614,7 @@
             <SortID>76</SortID>
         </Field>
         <Field Def="f32 Chin_wide_thin">
-            <DisplayName>jaw width</DisplayName>
+            <DisplayName>Jaw width</DisplayName>
             <Description>顎の広さ</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
@@ -622,7 +622,7 @@
             <SortID>77</SortID>
         </Field>
         <Field Def="f32 Jaw_retracted_jutting">
-            <DisplayName>chin protrusion</DisplayName>
+            <DisplayName>Chin protrusion</DisplayName>
             <Description>顎の突き出し</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
@@ -630,7 +630,7 @@
             <SortID>78</SortID>
         </Field>
         <Field Def="f32 Jaw_wide_thin">
-            <DisplayName>jaw width</DisplayName>
+            <DisplayName>Jaw width</DisplayName>
             <Description>顎の幅</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
@@ -638,7 +638,7 @@
             <SortID>79</SortID>
         </Field>
         <Field Def="f32 Jaw_Neck_slope_high_low">
-            <DisplayName>submandibular</DisplayName>
+            <DisplayName>Submandibular</DisplayName>
             <Description>顎下部</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
@@ -646,7 +646,7 @@
             <SortID>80</SortID>
         </Field>
         <Field Def="f32 Jawline_concave_convex">
-            <DisplayName>jaw line</DisplayName>
+            <DisplayName>Jaw line</DisplayName>
             <Description>顎のライン</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>

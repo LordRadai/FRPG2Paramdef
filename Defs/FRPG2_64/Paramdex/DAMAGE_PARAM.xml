@@ -20,7 +20,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="u32 damageGroup">
-            <DisplayName>damage group id</DisplayName>
+            <DisplayName>Damage group id</DisplayName>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>0</SortID>
@@ -38,7 +38,7 @@
             <SortID>101</SortID>
         </Field>
         <Field Def="s32 damage03">
-            <DisplayName>damage value 3</DisplayName>
+            <DisplayName>Damage value 3</DisplayName>
             <Maximum>1e+08</Maximum>
             <Increment>1</Increment>
             <SortID>102</SortID>
@@ -50,21 +50,21 @@
             <SortID>103</SortID>
         </Field>
         <Field Def="u8 damageType01">
-            <DisplayName>damage attribute 1</DisplayName>
+            <DisplayName>Damage attribute 1</DisplayName>
             <Enum>DAMAGE_ATTRIBUTE</Enum>
             <EditFlags>Wrap</EditFlags>
             <Increment>1</Increment>
             <SortID>100</SortID>
         </Field>
         <Field Def="u8 damageType02">
-            <DisplayName>damage attribute 2</DisplayName>
+            <DisplayName>Damage attribute 2</DisplayName>
             <Enum>DAMAGE_ATTRIBUTE</Enum>
             <EditFlags>Wrap</EditFlags>
             <Increment>1</Increment>
             <SortID>101</SortID>
         </Field>
         <Field Def="u8 damageType03">
-            <DisplayName>damage attribute 3</DisplayName>
+            <DisplayName>Damage attribute 3</DisplayName>
             <Enum>DAMAGE_ATTRIBUTE</Enum>
             <EditFlags>Wrap</EditFlags>
             <Increment>1</Increment>
@@ -77,7 +77,7 @@
             <SortID>110</SortID>
         </Field>
         <Field Def="f32 counterDamageRate = 1">
-            <DisplayName>counter damage multiplier</DisplayName>
+            <DisplayName>Counter damage multiplier</DisplayName>
             <Maximum>1000</Maximum>
             <Increment>1</Increment>
             <SortID>110</SortID>
@@ -128,20 +128,20 @@
             <SortID>190</SortID>
         </Field>
         <Field Def="u8 hitModelType">
-            <DisplayName>shape type</DisplayName>
+            <DisplayName>Shape type</DisplayName>
             <Enum>DAMAGE_MODEL_TYPE</Enum>
             <EditFlags>Wrap</EditFlags>
             <Increment>1</Increment>
             <SortID>190</SortID>
         </Field>
         <Field Def="f32 radius">
-            <DisplayName>radius [m]</DisplayName>
+            <DisplayName>Radius [m]</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.0099999998</Increment>
             <SortID>190</SortID>
         </Field>
         <Field Def="f32 length">
-            <DisplayName>length [m]</DisplayName>
+            <DisplayName>Length [m]</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.0099999998</Increment>
             <SortID>190</SortID>
@@ -153,7 +153,7 @@
             <SortID>200</SortID>
         </Field>
         <Field Def="u8 downAttackFlag:1">
-            <DisplayName>down attack flag</DisplayName>
+            <DisplayName>Down attack flag</DisplayName>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>200</SortID>
@@ -275,7 +275,7 @@
             <SortID>205</SortID>
         </Field>
         <Field Def="u8 materialSize">
-            <DisplayName>size</DisplayName>
+            <DisplayName>Size</DisplayName>
             <Enum>DAMAGE_MATERIAL_SIZE</Enum>
             <EditFlags>Wrap</EditFlags>
             <Increment>1</Increment>
@@ -314,7 +314,7 @@
             <SortID>410</SortID>
         </Field>
         <Field Def="u8 movementPowerType">
-            <DisplayName>momentum</DisplayName>
+            <DisplayName>Momentum</DisplayName>
             <Enum>DAMAGE_MOVEMENT_POWER_TYPE</Enum>
             <Increment>1</Increment>
             <SortID>300</SortID>
@@ -332,7 +332,7 @@
             <SortID>300</SortID>
         </Field>
         <Field Def="u8 eventDamage">
-            <DisplayName>event damage</DisplayName>
+            <DisplayName>Event damage</DisplayName>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>150</SortID>
@@ -398,7 +398,7 @@
             <SortID>191</SortID>
         </Field>
         <Field Def="dummy8 dummy5[2]">
-            <DisplayName>reserved area</DisplayName>
+            <DisplayName>Reserved area</DisplayName>
             <SortID>411</SortID>
         </Field>
         <Field Def="f32 flipHitRadius">

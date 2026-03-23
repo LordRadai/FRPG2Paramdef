@@ -7,13 +7,13 @@
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="s16 levelStatusValue">
-            <DisplayName>level status value</DisplayName>
+            <DisplayName>Level status value</DisplayName>
             <Maximum>300</Maximum>
             <Increment>1</Increment>
             <SortID>1</SortID>
         </Field>
         <Field Def="s8 spellSlot">
-            <DisplayName>spell slot</DisplayName>
+            <DisplayName>Spell slot</DisplayName>
             <Maximum>10</Maximum>
             <Increment>1</Increment>
             <SortID>310</SortID>
@@ -32,7 +32,7 @@
             <SortID>100</SortID>
         </Field>
         <Field Def="s16 staminaMax">
-            <DisplayName>stamina</DisplayName>
+            <DisplayName>Stamina</DisplayName>
             <Maximum>9999</Maximum>
             <Increment>1</Increment>
             <SortID>300</SortID>
@@ -74,7 +74,7 @@
             <SortID>700</SortID>
         </Field>
         <Field Def="s32 darkAttack">
-            <DisplayName>darkness attack power</DisplayName>
+            <DisplayName>Darkness attack power</DisplayName>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>700</SortID>
@@ -248,7 +248,7 @@
             <SortID>1200</SortID>
         </Field>
         <Field Def="dummy8 dummy1[1]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>1301</SortID>
         </Field>
         <Field Def="s32 physicalAttackByAbyss">
@@ -258,7 +258,7 @@
             <SortID>1100</SortID>
         </Field>
         <Field Def="f32 poise">
-            <DisplayName>toughness</DisplayName>
+            <DisplayName>Toughness</DisplayName>
             <Maximum>99</Maximum>
             <Increment>0.1</Increment>
             <SortID>1300</SortID>

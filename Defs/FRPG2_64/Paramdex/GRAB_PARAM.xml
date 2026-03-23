@@ -131,7 +131,7 @@
             <SortID>14</SortID>
         </Field>
         <Field Def="dummy8 dummy2[3]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>35</SortID>
         </Field>
         <Field Def="u32 grabDirAttachType">
@@ -144,7 +144,7 @@
             <SortID>15</SortID>
         </Field>
         <Field Def="dummy8 dummy1[3]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>36</SortID>
         </Field>
         <Field Def="u8 grabDirReversal">
@@ -203,11 +203,11 @@
             <SortID>21</SortID>
         </Field>
         <Field Def="dummy8 dummy3[3]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>37</SortID>
         </Field>
         <Field Def="f32 grabRadius = 1">
-            <DisplayName>cast radius</DisplayName>
+            <DisplayName>Cast radius</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>10</Maximum>
@@ -215,7 +215,7 @@
             <SortID>22</SortID>
         </Field>
         <Field Def="f32 grabHeight = 1">
-            <DisplayName>cast height</DisplayName>
+            <DisplayName>Cast height</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>10</Maximum>
@@ -223,7 +223,7 @@
             <SortID>23</SortID>
         </Field>
         <Field Def="f32 grabLength = 1">
-            <DisplayName>cast length</DisplayName>
+            <DisplayName>Cast length</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>10</Maximum>
@@ -282,7 +282,7 @@
             <SortID>30</SortID>
         </Field>
         <Field Def="dummy8 dummy4[4]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>38</SortID>
         </Field>
         <Field Def="angle32 grabAngleDiff = 90">

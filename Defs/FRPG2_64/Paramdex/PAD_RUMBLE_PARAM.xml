@@ -7,7 +7,7 @@
     <FormatVersion>104</FormatVersion>
     <Fields>
         <Field Def="f32 largeMotorPower = 0.5">
-            <DisplayName>big motor strength</DisplayName>
+            <DisplayName>Big motor strength</DisplayName>
             <Description>大モーターの強さ</Description>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>1</Maximum>
@@ -39,7 +39,7 @@
             <SortID>1300</SortID>
         </Field>
         <Field Def="f32 smallMotorPower = 0.5">
-            <DisplayName>small motor strength</DisplayName>
+            <DisplayName>Small motor strength</DisplayName>
             <Description>小モーターの強さ</Description>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>1</Maximum>

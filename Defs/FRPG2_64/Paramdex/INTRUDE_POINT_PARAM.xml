@@ -14,14 +14,14 @@
             <SortID>100</SortID>
         </Field>
         <Field Def="u8 intrudePriority">
-            <DisplayName>priority</DisplayName>
+            <DisplayName>Priority</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>200</SortID>
         </Field>
         <Field Def="dummy8 aReserved[3]">
-            <DisplayName>reservation</DisplayName>
+            <DisplayName>Reservation</DisplayName>
             <SortID>201</SortID>
         </Field>
     </Fields>

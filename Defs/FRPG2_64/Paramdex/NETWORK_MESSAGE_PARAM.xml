@@ -7,19 +7,19 @@
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="u32 host">
-            <DisplayName>host</DisplayName>
+            <DisplayName>Host</DisplayName>
             <Maximum>9999999</Maximum>
             <Increment>1</Increment>
             <SortID>1</SortID>
         </Field>
         <Field Def="u32 white">
-            <DisplayName>white spirit</DisplayName>
+            <DisplayName>White spirit</DisplayName>
             <Maximum>9999999</Maximum>
             <Increment>1</Increment>
             <SortID>2</SortID>
         </Field>
         <Field Def="u32 smallWhite">
-            <DisplayName>small white spirit</DisplayName>
+            <DisplayName>Small white spirit</DisplayName>
             <Maximum>9999999</Maximum>
             <Increment>1</Increment>
             <SortID>3</SortID>
@@ -31,7 +31,7 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="u32 smallGold">
-            <DisplayName>small gold spirit</DisplayName>
+            <DisplayName>Small gold spirit</DisplayName>
             <Maximum>9999999</Maximum>
             <Increment>1</Increment>
             <SortID>5</SortID>
@@ -85,7 +85,7 @@
             <SortID>13</SortID>
         </Field>
         <Field Def="u32 dragon">
-            <DisplayName>dragon spirit</DisplayName>
+            <DisplayName>Dragon spirit</DisplayName>
             <Maximum>9999999</Maximum>
             <Increment>1</Increment>
             <SortID>14</SortID>
@@ -115,13 +115,13 @@
             <SortID>18</SortID>
         </Field>
         <Field Def="u32 dummy01">
-            <DisplayName>wandering phantom</DisplayName>
+            <DisplayName>Wandering phantom</DisplayName>
             <Maximum>9999999</Maximum>
             <Increment>1</Increment>
             <SortID>19</SortID>
         </Field>
         <Field Def="u32 dummy02">
-            <DisplayName>bonfire illusion</DisplayName>
+            <DisplayName>Bonfire illusion</DisplayName>
             <Maximum>9999999</Maximum>
             <Increment>1</Increment>
             <SortID>20</SortID>

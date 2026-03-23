@@ -7,7 +7,7 @@
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="f32 rate">
-            <DisplayName>magnification</DisplayName>
+            <DisplayName>Magnification</DisplayName>
             <EditFlags>Wrap</EditFlags>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>

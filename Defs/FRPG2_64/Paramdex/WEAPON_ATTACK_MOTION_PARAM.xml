@@ -7,25 +7,25 @@
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="u32 attackAnim">
-            <DisplayName>attack anime</DisplayName>
+            <DisplayName>Attack anime</DisplayName>
             <Enum>PLAYER_NORMAL_ATTACK_MOTION</Enum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 controlType">
-            <DisplayName>control</DisplayName>
+            <DisplayName>Control</DisplayName>
             <Enum>WEAPON_ACTION_CONTROL_TYPES</Enum>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="dummy8 dummy0[3]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>1011</SortID>
         </Field>
         <Field Def="f32 startPlaySpeed = 1">
-            <DisplayName>anime speed start part</DisplayName>
+            <DisplayName>Anime speed start part</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>0</SortID>

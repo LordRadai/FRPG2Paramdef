@@ -7,147 +7,147 @@
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="u32 standbyLowSfxId">
-            <DisplayName>ankle</DisplayName>
+            <DisplayName>Ankle</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>1</SortID>
         </Field>
         <Field Def="u32 standbyMiddleSfxId">
-            <DisplayName>inseam</DisplayName>
+            <DisplayName>Inseam</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>2</SortID>
         </Field>
         <Field Def="u32 standbyHighSfxId">
-            <DisplayName>waist</DisplayName>
+            <DisplayName>Waist</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>3</SortID>
         </Field>
         <Field Def="u32 lowSpeedLowSfxId">
-            <DisplayName>ankle</DisplayName>
+            <DisplayName>Ankle</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>4</SortID>
         </Field>
         <Field Def="u32 lowSpeedMiddleSfxId">
-            <DisplayName>inseam</DisplayName>
+            <DisplayName>Inseam</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>5</SortID>
         </Field>
         <Field Def="u32 lowSpeedHighSfxId">
-            <DisplayName>waist</DisplayName>
+            <DisplayName>Waist</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>6</SortID>
         </Field>
         <Field Def="u32 middleSpeedLowSfxId">
-            <DisplayName>ankle</DisplayName>
+            <DisplayName>Ankle</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>7</SortID>
         </Field>
         <Field Def="u32 middleSpeedMiddleSfxId">
-            <DisplayName>inseam</DisplayName>
+            <DisplayName>Inseam</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>8</SortID>
         </Field>
         <Field Def="u32 middleSpeedHighSfxId">
-            <DisplayName>waist</DisplayName>
+            <DisplayName>Waist</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>9</SortID>
         </Field>
         <Field Def="u32 highSpeedLowSfxId">
-            <DisplayName>ankle</DisplayName>
+            <DisplayName>Ankle</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>10</SortID>
         </Field>
         <Field Def="u32 highSpeedMiddleSfxId">
-            <DisplayName>inseam</DisplayName>
+            <DisplayName>Inseam</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>11</SortID>
         </Field>
         <Field Def="u32 highSpeedHighSfxId">
-            <DisplayName>waist</DisplayName>
+            <DisplayName>Waist</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>12</SortID>
         </Field>
         <Field Def="u32 stepLowSfxId">
-            <DisplayName>ankle</DisplayName>
+            <DisplayName>Ankle</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>13</SortID>
         </Field>
         <Field Def="u32 stepSpeedMiddleSfxId">
-            <DisplayName>inseam</DisplayName>
+            <DisplayName>Inseam</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>14</SortID>
         </Field>
         <Field Def="u32 stepSpeedHighSfxId">
-            <DisplayName>waist</DisplayName>
+            <DisplayName>Waist</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>15</SortID>
         </Field>
         <Field Def="u32 rollingLowSfxId">
-            <DisplayName>ankle</DisplayName>
+            <DisplayName>Ankle</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>16</SortID>
         </Field>
         <Field Def="u32 rollingMiddleSfxId">
-            <DisplayName>inseam</DisplayName>
+            <DisplayName>Inseam</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>17</SortID>
         </Field>
         <Field Def="u32 rollingHighSfxId">
-            <DisplayName>waist</DisplayName>
+            <DisplayName>Waist</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>18</SortID>
         </Field>
         <Field Def="u32 jumpLowSfxId">
-            <DisplayName>ankle</DisplayName>
+            <DisplayName>Ankle</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>19</SortID>
         </Field>
         <Field Def="u32 jumpMiddleSfxId">
-            <DisplayName>inseam</DisplayName>
+            <DisplayName>Inseam</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>20</SortID>
         </Field>
         <Field Def="u32 jumpHighSfxId">
-            <DisplayName>waist</DisplayName>
+            <DisplayName>Waist</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>

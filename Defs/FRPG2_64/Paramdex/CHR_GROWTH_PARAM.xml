@@ -7,7 +7,7 @@
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="u16 soulLevelMax = 999">
-            <DisplayName>maximum soul level</DisplayName>
+            <DisplayName>Maximum soul level</DisplayName>
             <Maximum>999</Maximum>
             <Increment>1</Increment>
             <SortID>1</SortID>
@@ -19,7 +19,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="dummy8 dummy[1]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>42</SortID>
         </Field>
         <Field Def="f32 enemyOverKillSoulRate = 1">

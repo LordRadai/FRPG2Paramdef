@@ -14,7 +14,7 @@
             <SortID>100</SortID>
         </Field>
         <Field Def="s32 specialEffectId = -1">
-            <DisplayName>special effect ID</DisplayName>
+            <DisplayName>Special effect ID</DisplayName>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -63,14 +63,14 @@
             <SortID>5250</SortID>
         </Field>
         <Field Def="s32 ringParamId = -1">
-            <DisplayName>ring ID</DisplayName>
+            <DisplayName>Ring ID</DisplayName>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>5300</SortID>
         </Field>
         <Field Def="s32 spellParamId = -1">
-            <DisplayName>spell id</DisplayName>
+            <DisplayName>Spell id</DisplayName>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -114,7 +114,7 @@
             <SortID>1100</SortID>
         </Field>
         <Field Def="u32 itemTypeParamId">
-            <DisplayName>item type</DisplayName>
+            <DisplayName>Item type</DisplayName>
             <Enum>ITEM_TYPE_PARAM_ID</Enum>
             <SortID>300</SortID>
         </Field>
@@ -188,7 +188,7 @@
             <SortID>99999</SortID>
         </Field>
         <Field Def="dummy8 padding[1]">
-            <DisplayName>reservation</DisplayName>
+            <DisplayName>Reservation</DisplayName>
             <SortID>100000</SortID>
         </Field>
     </Fields>

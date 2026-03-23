@@ -7,13 +7,13 @@
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="f32 phantomRate = 1">
-            <DisplayName>spirit body</DisplayName>
+            <DisplayName>Spirit body</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>1</SortID>
         </Field>
         <Field Def="f32 freshRate = 1">
-            <DisplayName>raw/cloth</DisplayName>
+            <DisplayName>Raw/cloth</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>2</SortID>
@@ -25,7 +25,7 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="f32 veryHardRate = 1">
-            <DisplayName>very hard</DisplayName>
+            <DisplayName>Very hard</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>4</SortID>

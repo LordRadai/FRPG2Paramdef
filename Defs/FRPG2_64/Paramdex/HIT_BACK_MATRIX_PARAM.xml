@@ -23,7 +23,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="u32 smallSize">
-            <DisplayName>small</DisplayName>
+            <DisplayName>Small</DisplayName>
             <Enum>HIT_BACK_WEIGHT_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>31</Maximum>
@@ -39,7 +39,7 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="u32 largeSize">
-            <DisplayName>large</DisplayName>
+            <DisplayName>Large</DisplayName>
             <Enum>HIT_BACK_WEIGHT_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>31</Maximum>
@@ -47,7 +47,7 @@
             <SortID>5</SortID>
         </Field>
         <Field Def="u32 superLargeSize">
-            <DisplayName>extra large</DisplayName>
+            <DisplayName>Extra large</DisplayName>
             <Enum>HIT_BACK_WEIGHT_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>31</Maximum>
@@ -63,7 +63,7 @@
             <SortID>7</SortID>
         </Field>
         <Field Def="u32 ultraLargeSize">
-            <DisplayName>super super extra large</DisplayName>
+            <DisplayName>Super super extra large</DisplayName>
             <Enum>HIT_BACK_WEIGHT_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>31</Maximum>

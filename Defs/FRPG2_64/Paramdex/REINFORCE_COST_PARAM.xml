@@ -7,70 +7,70 @@
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="s32 lv1Soul">
-            <DisplayName>required soul</DisplayName>
+            <DisplayName>Required soul</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>10</SortID>
         </Field>
         <Field Def="s32 lv2Soul">
-            <DisplayName>required soul</DisplayName>
+            <DisplayName>Required soul</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>20</SortID>
         </Field>
         <Field Def="s32 lv3Soul">
-            <DisplayName>required soul</DisplayName>
+            <DisplayName>Required soul</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>30</SortID>
         </Field>
         <Field Def="s32 lv4Soul">
-            <DisplayName>required soul</DisplayName>
+            <DisplayName>Required soul</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>40</SortID>
         </Field>
         <Field Def="s32 lv5Soul">
-            <DisplayName>required soul</DisplayName>
+            <DisplayName>Required soul</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>50</SortID>
         </Field>
         <Field Def="s32 lv6Soul">
-            <DisplayName>required soul</DisplayName>
+            <DisplayName>Required soul</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>60</SortID>
         </Field>
         <Field Def="s32 lv7Soul">
-            <DisplayName>required soul</DisplayName>
+            <DisplayName>Required soul</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>70</SortID>
         </Field>
         <Field Def="s32 lv8Soul">
-            <DisplayName>required soul</DisplayName>
+            <DisplayName>Required soul</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>80</SortID>
         </Field>
         <Field Def="s32 lv9Soul">
-            <DisplayName>required soul</DisplayName>
+            <DisplayName>Required soul</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>90</SortID>
         </Field>
         <Field Def="s32 lv10Soul">
-            <DisplayName>required soul</DisplayName>
+            <DisplayName>Required soul</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>

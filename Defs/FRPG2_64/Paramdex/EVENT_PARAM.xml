@@ -7,7 +7,7 @@
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="u32 stateMapId">
-            <DisplayName>state map id</DisplayName>
+            <DisplayName>State map id</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -28,7 +28,7 @@
             <SortID>4000</SortID>
         </Field>
         <Field Def="u8 resourceType">
-            <DisplayName>resource type</DisplayName>
+            <DisplayName>Resource type</DisplayName>
             <Enum>EVENT_RES_TYPE_ENUM</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
@@ -36,7 +36,7 @@
             <SortID>2000</SortID>
         </Field>
         <Field Def="u8 bootType">
-            <DisplayName>startup type</DisplayName>
+            <DisplayName>Startup type</DisplayName>
             <Enum>EVENT_BOOT_TYPE_ENUM</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
@@ -44,7 +44,7 @@
             <SortID>5000</SortID>
         </Field>
         <Field Def="u8 ownerType">
-            <DisplayName>owner type</DisplayName>
+            <DisplayName>Owner type</DisplayName>
             <Enum>EVENT_OWNER_TYPE_ENUM</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
@@ -76,7 +76,7 @@
             <SortID>7100</SortID>
         </Field>
         <Field Def="dummy8 aReserved1[2]">
-            <DisplayName>reservation</DisplayName>
+            <DisplayName>Reservation</DisplayName>
             <SortID>7101</SortID>
         </Field>
     </Fields>

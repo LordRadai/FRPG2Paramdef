@@ -63,21 +63,21 @@
             <SortID>7</SortID>
         </Field>
         <Field Def="u8 parallelMoveAdvance">
-            <DisplayName>parallel movement</DisplayName>
+            <DisplayName>Parallel movement</DisplayName>
             <Enum>INPUT_KEY_TYPE</Enum>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>8</SortID>
         </Field>
         <Field Def="u8 dashMoveAdvance">
-            <DisplayName>dash</DisplayName>
+            <DisplayName>Dash</DisplayName>
             <Enum>INPUT_KEY_TYPE</Enum>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>9</SortID>
         </Field>
         <Field Def="dummy8 cameraUp[1]">
-            <DisplayName>move on camera</DisplayName>
+            <DisplayName>Move on camera</DisplayName>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>10</SortID>
@@ -181,7 +181,7 @@
             <SortID>25</SortID>
         </Field>
         <Field Def="u8 changeSelectLWeapon">
-            <DisplayName>left weapon switch</DisplayName>
+            <DisplayName>Left weapon switch</DisplayName>
             <Enum>INPUT_KEY_TYPE</Enum>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -251,7 +251,7 @@
             <SortID>35</SortID>
         </Field>
         <Field Def="u8 useItem">
-            <DisplayName>item use</DisplayName>
+            <DisplayName>Item use</DisplayName>
             <Enum>INPUT_KEY_TYPE</Enum>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -363,7 +363,7 @@
             <SortID>53</SortID>
         </Field>
         <Field Def="u8 select">
-            <DisplayName>decision</DisplayName>
+            <DisplayName>Decision</DisplayName>
             <Enum>INPUT_KEY_TYPE</Enum>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -377,7 +377,7 @@
             <SortID>55</SortID>
         </Field>
         <Field Def="u8 cancel">
-            <DisplayName>cancel</DisplayName>
+            <DisplayName>Cancel</DisplayName>
             <Enum>INPUT_KEY_TYPE</Enum>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -481,7 +481,7 @@
             <Increment>1</Increment>
         </Field>
         <Field Def="dummy8 padding[2]">
-            <DisplayName>padding</DisplayName>
+            <DisplayName>Padding</DisplayName>
             <SortID>76</SortID>
         </Field>
     </Fields>

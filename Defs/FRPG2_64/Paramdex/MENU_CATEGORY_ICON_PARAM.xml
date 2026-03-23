@@ -35,12 +35,12 @@
             <SortID>9300</SortID>
         </Field>
         <Field Def="u8 inventory:1">
-            <DisplayName>inventory</DisplayName>
+            <DisplayName>Inventory</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <SortID>1000</SortID>
         </Field>
         <Field Def="u8 equipWeapon:1">
-            <DisplayName>weapon equipment</DisplayName>
+            <DisplayName>Weapon equipment</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <SortID>1100</SortID>
         </Field>
@@ -50,7 +50,7 @@
             <SortID>1200</SortID>
         </Field>
         <Field Def="u8 equipArmor:1">
-            <DisplayName>armor equipment</DisplayName>
+            <DisplayName>Armor equipment</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <SortID>1210</SortID>
         </Field>
@@ -60,17 +60,17 @@
             <SortID>1220</SortID>
         </Field>
         <Field Def="u8 equipLeggings:1">
-            <DisplayName>armored equipment</DisplayName>
+            <DisplayName>Armored equipment</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <SortID>1230</SortID>
         </Field>
         <Field Def="u8 equipRing:1">
-            <DisplayName>ring equipment</DisplayName>
+            <DisplayName>Ring equipment</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <SortID>1300</SortID>
         </Field>
         <Field Def="u8 equipArrow:1">
-            <DisplayName>arrow equipment</DisplayName>
+            <DisplayName>Arrow equipment</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <SortID>1400</SortID>
         </Field>
@@ -80,7 +80,7 @@
             <SortID>1500</SortID>
         </Field>
         <Field Def="u8 equipSpell:1">
-            <DisplayName>spell equipment</DisplayName>
+            <DisplayName>Spell equipment</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <SortID>1600</SortID>
         </Field>
@@ -90,22 +90,22 @@
             <SortID>1700</SortID>
         </Field>
         <Field Def="u8 repository:1">
-            <DisplayName>warehouse</DisplayName>
+            <DisplayName>Warehouse</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <SortID>1800</SortID>
         </Field>
         <Field Def="u8 shop:1">
-            <DisplayName>shop</DisplayName>
+            <DisplayName>Shop</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <SortID>1900</SortID>
         </Field>
         <Field Def="u8 equipWeaponArmor:1">
-            <DisplayName>weapons armor</DisplayName>
+            <DisplayName>Weapons armor</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <SortID>1450</SortID>
         </Field>
         <Field Def="dummy8 padding[2]">
-            <DisplayName>padding</DisplayName>
+            <DisplayName>Padding</DisplayName>
             <SortID>9301</SortID>
         </Field>
     </Fields>

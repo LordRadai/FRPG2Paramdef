@@ -7,92 +7,92 @@
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="u8 genderType">
-            <DisplayName>sex</DisplayName>
+            <DisplayName>Sex</DisplayName>
             <Enum>PLAYER_GENDER_TYPE</Enum>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 livingType">
-            <DisplayName>life and death</DisplayName>
+            <DisplayName>Life and death</DisplayName>
             <Enum>PLAYER_HUMAN_CONDITIONS_TYPE</Enum>
             <Increment>1</Increment>
             <SortID>10</SortID>
         </Field>
         <Field Def="u8 bodyType">
-            <DisplayName>body shape</DisplayName>
+            <DisplayName>Body shape</DisplayName>
             <Maximum>99</Maximum>
             <Increment>1</Increment>
             <SortID>20</SortID>
         </Field>
         <Field Def="u8 faceType">
-            <DisplayName>face type</DisplayName>
+            <DisplayName>Face type</DisplayName>
             <Enum>NPC_FACE_TYPE</Enum>
             <Increment>1</Increment>
             <SortID>30</SortID>
         </Field>
         <Field Def="s16 faceId = -1">
-            <DisplayName>face ID</DisplayName>
+            <DisplayName>Face ID</DisplayName>
             <Minimum>-1</Minimum>
             <Maximum>9999</Maximum>
             <Increment>1</Increment>
             <SortID>40</SortID>
         </Field>
         <Field Def="u8 vowType">
-            <DisplayName>pledge</DisplayName>
+            <DisplayName>Pledge</DisplayName>
             <Enum>VOW_TYPES</Enum>
             <SortID>50</SortID>
         </Field>
         <Field Def="u8 vowLevel">
-            <DisplayName>pledge level</DisplayName>
+            <DisplayName>Pledge level</DisplayName>
             <Maximum>3</Maximum>
             <Increment>1</Increment>
             <SortID>60</SortID>
         </Field>
         <Field Def="u8 lifeForceLevel">
-            <DisplayName>vitality</DisplayName>
+            <DisplayName>Vitality</DisplayName>
             <Maximum>99</Maximum>
             <Increment>1</Increment>
             <SortID>70</SortID>
         </Field>
         <Field Def="u8 stayingPowerLevel">
-            <DisplayName>endurance</DisplayName>
+            <DisplayName>Endurance</DisplayName>
             <Maximum>99</Maximum>
             <Increment>1</Increment>
             <SortID>80</SortID>
         </Field>
         <Field Def="u8 attunementLevel">
-            <DisplayName>memory</DisplayName>
+            <DisplayName>Memory</DisplayName>
             <Maximum>99</Maximum>
             <Increment>1</Increment>
             <SortID>90</SortID>
         </Field>
         <Field Def="u8 vitalityLevel">
-            <DisplayName>physical strength</DisplayName>
+            <DisplayName>Physical strength</DisplayName>
             <Maximum>99</Maximum>
             <Increment>1</Increment>
             <SortID>100</SortID>
         </Field>
         <Field Def="u8 strengthLevel">
-            <DisplayName>muscle strength</DisplayName>
+            <DisplayName>Muscle strength</DisplayName>
             <Maximum>99</Maximum>
             <Increment>1</Increment>
             <SortID>110</SortID>
         </Field>
         <Field Def="u8 dexterityLevel">
-            <DisplayName>skill</DisplayName>
+            <DisplayName>Skill</DisplayName>
             <Maximum>99</Maximum>
             <Increment>1</Increment>
             <SortID>120</SortID>
         </Field>
         <Field Def="u8 intelligenceLevel">
-            <DisplayName>reason</DisplayName>
+            <DisplayName>Reason</DisplayName>
             <Maximum>99</Maximum>
             <Increment>1</Increment>
             <SortID>130</SortID>
         </Field>
         <Field Def="u8 faithLevel">
-            <DisplayName>faith</DisplayName>
+            <DisplayName>Faith</DisplayName>
             <Maximum>99</Maximum>
             <Increment>1</Increment>
             <SortID>140</SortID>
@@ -104,19 +104,19 @@
             <SortID>150</SortID>
         </Field>
         <Field Def="u8 quicknessLevel">
-            <DisplayName>agile</DisplayName>
+            <DisplayName>Agile</DisplayName>
             <Maximum>99</Maximum>
             <Increment>1</Increment>
             <SortID>160</SortID>
         </Field>
         <Field Def="u8 luckLevel">
-            <DisplayName>luck</DisplayName>
+            <DisplayName>Luck</DisplayName>
             <Maximum>99</Maximum>
             <Increment>1</Increment>
             <SortID>170</SortID>
         </Field>
         <Field Def="dummy8 pad00[1]">
-            <DisplayName>padding 00</DisplayName>
+            <DisplayName>Padding 00</DisplayName>
             <SortID>651</SortID>
         </Field>
         <Field Def="f32 loadWeightPercent">
@@ -314,28 +314,28 @@
             <SortID>450</SortID>
         </Field>
         <Field Def="s32 headArmor = -1">
-            <DisplayName>head armor</DisplayName>
+            <DisplayName>Head armor</DisplayName>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>460</SortID>
         </Field>
         <Field Def="s32 bodyArmor = -1">
-            <DisplayName>body armor</DisplayName>
+            <DisplayName>Body armor</DisplayName>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>470</SortID>
         </Field>
         <Field Def="s32 armArmor = -1">
-            <DisplayName>arm armor</DisplayName>
+            <DisplayName>Arm armor</DisplayName>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>480</SortID>
         </Field>
         <Field Def="s32 legArmor = -1">
-            <DisplayName>foot armor</DisplayName>
+            <DisplayName>Foot armor</DisplayName>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>

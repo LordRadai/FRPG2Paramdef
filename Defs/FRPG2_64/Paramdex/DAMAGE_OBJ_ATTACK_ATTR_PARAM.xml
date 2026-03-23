@@ -7,13 +7,13 @@
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="u8 priority">
-            <DisplayName>destruction priority</DisplayName>
+            <DisplayName>Destruction priority</DisplayName>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>1</SortID>
         </Field>
         <Field Def="dummy8 dummy[3]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>3</SortID>

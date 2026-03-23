@@ -7,7 +7,7 @@
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="s32 modelId = 9,000">
-            <DisplayName>model id</DisplayName>
+            <DisplayName>Model id</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>9999</Maximum>
@@ -72,7 +72,7 @@
             <SortID>80</SortID>
         </Field>
         <Field Def="s32 visualType">
-            <DisplayName>appearance</DisplayName>
+            <DisplayName>Appearance</DisplayName>
             <Enum>CHR_VISUAL_TYPE</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -95,7 +95,7 @@
             <SortID>110</SortID>
         </Field>
         <Field Def="u8 isUndead">
-            <DisplayName>not die</DisplayName>
+            <DisplayName>Not die</DisplayName>
             <Enum>BOOL_ENABLEDISABLE_TYPE</Enum>
             <EditFlags>Wrap</EditFlags>
             <SortID>120</SortID>
@@ -157,7 +157,7 @@
             <SortID>190</SortID>
         </Field>
         <Field Def="u32 deadType">
-            <DisplayName>death type 1</DisplayName>
+            <DisplayName>Death type 1</DisplayName>
             <Enum>DEAD_TYPE_PARAM_ID</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>9999</Maximum>
@@ -165,7 +165,7 @@
             <SortID>200</SortID>
         </Field>
         <Field Def="u32 deadType02">
-            <DisplayName>death type 2</DisplayName>
+            <DisplayName>Death type 2</DisplayName>
             <Enum>DEAD_TYPE_PARAM_ID</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>9999</Maximum>
@@ -283,7 +283,7 @@
             <SortID>1500</SortID>
         </Field>
         <Field Def="u8 guardPassiveLevelType">
-            <DisplayName>shield guard level</DisplayName>
+            <DisplayName>Shield guard level</DisplayName>
             <Enum>GUARD_PASSIVE_LEVEL_TYPE</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>9999999</Maximum>
@@ -323,7 +323,7 @@
             <SortID>400</SortID>
         </Field>
         <Field Def="s32 shieldDefenseValue">
-            <DisplayName>shield defense power</DisplayName>
+            <DisplayName>Shield defense power</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1000</Maximum>
@@ -656,7 +656,7 @@
             <SortID>830</SortID>
         </Field>
         <Field Def="f32 poiseValue">
-            <DisplayName>toughness gauge</DisplayName>
+            <DisplayName>Toughness gauge</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>9999</Maximum>
@@ -714,7 +714,7 @@
             <SortID>900</SortID>
         </Field>
         <Field Def="u8 isHollow">
-            <DisplayName>deceased</DisplayName>
+            <DisplayName>Deceased</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -851,7 +851,7 @@
             <SortID>2000</SortID>
         </Field>
         <Field Def="dummy8 padding[1]">
-            <DisplayName>reservation</DisplayName>
+            <DisplayName>Reservation</DisplayName>
             <SortID>9999</SortID>
         </Field>
         <Field Def="u32 effectID">

@@ -7,37 +7,37 @@
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="u8 physical:1">
-            <DisplayName>physics</DisplayName>
+            <DisplayName>Physics</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <SortID>1</SortID>
         </Field>
         <Field Def="u8 fire:1">
-            <DisplayName>flame</DisplayName>
+            <DisplayName>Flame</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <SortID>2</SortID>
         </Field>
         <Field Def="u8 magic:1">
-            <DisplayName>magic</DisplayName>
+            <DisplayName>Magic</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <SortID>3</SortID>
         </Field>
         <Field Def="u8 thunder:1">
-            <DisplayName>thunder</DisplayName>
+            <DisplayName>Thunder</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <SortID>4</SortID>
         </Field>
         <Field Def="u8 dark:1">
-            <DisplayName>darkness</DisplayName>
+            <DisplayName>Darkness</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <SortID>5</SortID>
         </Field>
         <Field Def="u8 poison:1">
-            <DisplayName>poison</DisplayName>
+            <DisplayName>Poison</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <SortID>6</SortID>
         </Field>
         <Field Def="u8 bleed:1">
-            <DisplayName>bleeding</DisplayName>
+            <DisplayName>Bleeding</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <SortID>7</SortID>
         </Field>
@@ -57,7 +57,7 @@
             <SortID>10</SortID>
         </Field>
         <Field Def="dummy8 padding[2]">
-            <DisplayName>reservation</DisplayName>
+            <DisplayName>Reservation</DisplayName>
             <SortID>12</SortID>
         </Field>
     </Fields>

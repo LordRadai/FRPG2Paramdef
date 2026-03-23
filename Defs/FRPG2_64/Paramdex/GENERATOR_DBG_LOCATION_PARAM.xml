@@ -7,14 +7,14 @@
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="f32 radius = 1">
-            <DisplayName>radius</DisplayName>
+            <DisplayName>Radius</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>10</Maximum>
             <Increment>0.0099999998</Increment>
             <SortID>1</SortID>
         </Field>
         <Field Def="f32 height = 2">
-            <DisplayName>height</DisplayName>
+            <DisplayName>Height</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>10</Maximum>
             <Increment>0.0099999998</Increment>
@@ -42,7 +42,7 @@
             <SortID>5</SortID>
         </Field>
         <Field Def="dummy8 aReserved1[5]">
-            <DisplayName>reservation</DisplayName>
+            <DisplayName>Reservation</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <SortID>7</SortID>
         </Field>

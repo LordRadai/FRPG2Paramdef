@@ -7,7 +7,7 @@
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="f32 Time">
-            <DisplayName>time</DisplayName>
+            <DisplayName>Time</DisplayName>
             <Maximum>3600</Maximum>
             <Increment>0.0099999998</Increment>
             <SortID>1</SortID>

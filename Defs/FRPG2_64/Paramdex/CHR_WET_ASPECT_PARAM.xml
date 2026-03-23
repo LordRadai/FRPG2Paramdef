@@ -35,7 +35,7 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="f32 shiness">
-            <DisplayName>override</DisplayName>
+            <DisplayName>Override</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>1024</Maximum>
             <Increment>1</Increment>
@@ -49,7 +49,7 @@
             <SortID>6</SortID>
         </Field>
         <Field Def="f32 fresnel">
-            <DisplayName>override</DisplayName>
+            <DisplayName>Override</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>1</Maximum>
             <Increment>0.0099999998</Increment>

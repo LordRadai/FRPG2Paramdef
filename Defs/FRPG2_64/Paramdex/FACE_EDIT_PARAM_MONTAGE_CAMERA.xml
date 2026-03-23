@@ -15,7 +15,7 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="f32 positionX">
-            <DisplayName>camera position</DisplayName>
+            <DisplayName>Camera position</DisplayName>
             <Description>カメラ位置X</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
@@ -39,7 +39,7 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="f32 lookAtX">
-            <DisplayName>camera focus x</DisplayName>
+            <DisplayName>Camera focus x</DisplayName>
             <Description>カメラ焦点X</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
@@ -47,7 +47,7 @@
             <SortID>5</SortID>
         </Field>
         <Field Def="f32 lookAtY">
-            <DisplayName>camera focus Y</DisplayName>
+            <DisplayName>Camera focus Y</DisplayName>
             <Description>カメラ焦点Y</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
@@ -55,7 +55,7 @@
             <SortID>6</SortID>
         </Field>
         <Field Def="f32 lookAtZ">
-            <DisplayName>camera focus Z</DisplayName>
+            <DisplayName>Camera focus Z</DisplayName>
             <Description>カメラ焦点Z</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>

@@ -28,7 +28,7 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="dummy8 dummy0[2]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>30</SortID>
         </Field>
         <Field Def="u32 modelId">
@@ -45,7 +45,7 @@
             <SortID>5</SortID>
         </Field>
         <Field Def="dummy8 dummy1[1]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>31</SortID>
         </Field>
         <Field Def="s16 clothCollidableId">
@@ -61,7 +61,7 @@
             <SortID>7</SortID>
         </Field>
         <Field Def="u32 iconId">
-            <DisplayName>icon id</DisplayName>
+            <DisplayName>Icon id</DisplayName>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>8</SortID>

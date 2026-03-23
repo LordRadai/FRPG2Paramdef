@@ -252,7 +252,7 @@
             <SortID>1200</SortID>
         </Field>
         <Field Def="u8 guardPassiveLevelType">
-            <DisplayName>guard guard level</DisplayName>
+            <DisplayName>Guard guard level</DisplayName>
             <Enum>GUARD_PASSIVE_LEVEL_TYPE</Enum>
             <Maximum>10000</Maximum>
             <Increment>1</Increment>
@@ -401,7 +401,7 @@
             <SortID>1500</SortID>
         </Field>
         <Field Def="u8 damageWeaponType">
-            <DisplayName>damage weapon type</DisplayName>
+            <DisplayName>Damage weapon type</DisplayName>
             <Enum>DAMAGE_WEAPON_TYPE</Enum>
             <SortID>4000</SortID>
         </Field>
@@ -566,7 +566,7 @@
             <SortID>1910</SortID>
         </Field>
         <Field Def="dummy8 dummy[2]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>5001</SortID>
         </Field>
         <Field Def="f32 rangedAutoPivotRotationSpeedScale">
@@ -661,7 +661,7 @@
             <SortID>5002</SortID>
         </Field>
         <Field Def="dummy8 dummy1[1]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>5003</SortID>
         </Field>
     </Fields>

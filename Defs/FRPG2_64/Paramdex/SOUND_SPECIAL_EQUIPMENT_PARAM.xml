@@ -7,7 +7,7 @@
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="u8 type">
-            <DisplayName>kinds</DisplayName>
+            <DisplayName>Kinds</DisplayName>
             <Enum>SOUND_SPECIAL_EQUIPMENT_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
@@ -15,7 +15,7 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="dummy8 aReserved[3]">
-            <DisplayName>reserved area</DisplayName>
+            <DisplayName>Reserved area</DisplayName>
             <SortID>3</SortID>
         </Field>
     </Fields>

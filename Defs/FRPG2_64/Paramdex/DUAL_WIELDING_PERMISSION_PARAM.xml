@@ -7,7 +7,7 @@
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="u8 none">
-            <DisplayName>none</DisplayName>
+            <DisplayName>None</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1</Maximum>
@@ -23,7 +23,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="u8 fist">
-            <DisplayName>dual wield fist</DisplayName>
+            <DisplayName>Dual wield fist</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1</Maximum>
@@ -31,7 +31,7 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="u8 dagger">
-            <DisplayName>dual wield dagger</DisplayName>
+            <DisplayName>Dual wield dagger</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1</Maximum>
@@ -55,7 +55,7 @@
             <SortID>6</SortID>
         </Field>
         <Field Def="u8 doublelBlade">
-            <DisplayName>dual-edged sword</DisplayName>
+            <DisplayName>Dual-edged sword</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1</Maximum>
@@ -103,7 +103,7 @@
             <SortID>12</SortID>
         </Field>
         <Field Def="u8 greatAxe">
-            <DisplayName>dual-wielding two-handed ax</DisplayName>
+            <DisplayName>Dual-wielding two-handed ax</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1</Maximum>
@@ -127,7 +127,7 @@
             <SortID>15</SortID>
         </Field>
         <Field Def="u8 spear">
-            <DisplayName>dual wielding spear</DisplayName>
+            <DisplayName>Dual wielding spear</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1</Maximum>
@@ -143,7 +143,7 @@
             <SortID>17</SortID>
         </Field>
         <Field Def="u8 whip">
-            <DisplayName>dual wielding whip</DisplayName>
+            <DisplayName>Dual wielding whip</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1</Maximum>
@@ -199,7 +199,7 @@
             <SortID>24</SortID>
         </Field>
         <Field Def="u8 claw">
-            <DisplayName>dual wielding claws</DisplayName>
+            <DisplayName>Dual wielding claws</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1</Maximum>

@@ -7,7 +7,7 @@
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="s32 EnemyId">
-            <DisplayName>registered enemy</DisplayName>
+            <DisplayName>Registered enemy</DisplayName>
             <Enum>ENEMY_LIST_ENUM</Enum>
             <Maximum>1e+08</Maximum>
             <Increment>1</Increment>
@@ -41,112 +41,112 @@
             <SortID>51000</SortID>
         </Field>
         <Field Def="u8 memoryBlock1:1">
-            <DisplayName>memory 1</DisplayName>
+            <DisplayName>Memory 1</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>60000</SortID>
         </Field>
         <Field Def="u8 memoryBlock2:1">
-            <DisplayName>memory 2</DisplayName>
+            <DisplayName>Memory 2</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>60001</SortID>
         </Field>
         <Field Def="u8 memoryBlock3:1">
-            <DisplayName>memory 3</DisplayName>
+            <DisplayName>Memory 3</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>60002</SortID>
         </Field>
         <Field Def="u8 memoryBlock4:1">
-            <DisplayName>memory 4</DisplayName>
+            <DisplayName>Memory 4</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>60003</SortID>
         </Field>
         <Field Def="u8 memoryBlock5:1">
-            <DisplayName>memory 5</DisplayName>
+            <DisplayName>Memory 5</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>60004</SortID>
         </Field>
         <Field Def="u8 memoryBlock6:1">
-            <DisplayName>memory 6</DisplayName>
+            <DisplayName>Memory 6</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>60005</SortID>
         </Field>
         <Field Def="u8 memoryBlock7:1">
-            <DisplayName>memory 7</DisplayName>
+            <DisplayName>Memory 7</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>60006</SortID>
         </Field>
         <Field Def="u8 memoryBlock8:1">
-            <DisplayName>memory 8</DisplayName>
+            <DisplayName>Memory 8</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>60007</SortID>
         </Field>
         <Field Def="u8 memoryBlock9:1">
-            <DisplayName>memory 9</DisplayName>
+            <DisplayName>Memory 9</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>60008</SortID>
         </Field>
         <Field Def="u8 memoryBlock10:1">
-            <DisplayName>memory 10</DisplayName>
+            <DisplayName>Memory 10</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>60009</SortID>
         </Field>
         <Field Def="u8 memoryBlock11:1">
-            <DisplayName>memory 11</DisplayName>
+            <DisplayName>Memory 11</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>60010</SortID>
         </Field>
         <Field Def="u8 memoryBlock12:1">
-            <DisplayName>memory 12</DisplayName>
+            <DisplayName>Memory 12</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>60011</SortID>
         </Field>
         <Field Def="u8 memoryBlock13:1">
-            <DisplayName>memory 13</DisplayName>
+            <DisplayName>Memory 13</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>60012</SortID>
         </Field>
         <Field Def="u8 memoryBlock14:1">
-            <DisplayName>memory 14</DisplayName>
+            <DisplayName>Memory 14</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>60013</SortID>
         </Field>
         <Field Def="u8 memoryBlock15:1">
-            <DisplayName>memory 15</DisplayName>
+            <DisplayName>Memory 15</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>60014</SortID>
         </Field>
         <Field Def="u8 memoryBlock16:1">
-            <DisplayName>memory 16</DisplayName>
+            <DisplayName>Memory 16</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <Maximum>1</Maximum>
             <Increment>1</Increment>

@@ -21,7 +21,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="dummy8 reserved[2]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <Maximum>180</Maximum>
             <Increment>0.1</Increment>
             <SortID>25</SortID>

@@ -7,7 +7,7 @@
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="s32 spellCategory">
-            <DisplayName>spell category</DisplayName>
+            <DisplayName>Spell category</DisplayName>
             <Enum>SPELL_CATEGORY</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -29,7 +29,7 @@
             <SortID>110</SortID>
         </Field>
         <Field Def="dummy8 dummy0[2]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>1501</SortID>
         </Field>
         <Field Def="u16 intelligence">
@@ -416,7 +416,7 @@
             <SortID>800</SortID>
         </Field>
         <Field Def="dummy8 dummy1[1]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>1502</SortID>
         </Field>
         <Field Def="s32 se0Id">
@@ -658,7 +658,7 @@
             <SortID>1400</SortID>
         </Field>
         <Field Def="dummy8 dummy2[1]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>1503</SortID>
         </Field>
         <Field Def="u32 soulConsumeParamId">

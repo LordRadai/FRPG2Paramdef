@@ -211,7 +211,7 @@
             <SortID>34</SortID>
         </Field>
         <Field Def="u32 spatterId">
-            <DisplayName>blood splatter ID</DisplayName>
+            <DisplayName>Blood splatter ID</DisplayName>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>35</SortID>

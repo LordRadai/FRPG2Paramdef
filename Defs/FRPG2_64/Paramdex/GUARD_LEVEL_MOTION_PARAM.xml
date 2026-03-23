@@ -15,7 +15,7 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="u8 smallGuardLevel">
-            <DisplayName>small</DisplayName>
+            <DisplayName>Small</DisplayName>
             <Enum>GUARD_MOTION_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>31</Maximum>
@@ -31,7 +31,7 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="u8 largeGuardLvel">
-            <DisplayName>large</DisplayName>
+            <DisplayName>Large</DisplayName>
             <Enum>GUARD_MOTION_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>31</Maximum>
@@ -39,7 +39,7 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="u8 superLargeGuardLevel">
-            <DisplayName>extra large</DisplayName>
+            <DisplayName>Extra large</DisplayName>
             <Enum>GUARD_MOTION_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>31</Maximum>
@@ -47,7 +47,7 @@
             <SortID>5</SortID>
         </Field>
         <Field Def="u8 ultraLargeGuardLevel">
-            <DisplayName>extra large</DisplayName>
+            <DisplayName>Extra large</DisplayName>
             <Enum>GUARD_MOTION_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>31</Maximum>

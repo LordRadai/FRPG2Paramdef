@@ -7,37 +7,37 @@
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="u8 genderType">
-            <DisplayName>sex</DisplayName>
+            <DisplayName>Sex</DisplayName>
             <Enum>PLAYER_GENDER_TYPE</Enum>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 livingType">
-            <DisplayName>life and death</DisplayName>
+            <DisplayName>Life and death</DisplayName>
             <Enum>PLAYER_HUMAN_CONDITIONS_TYPE</Enum>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>1</SortID>
         </Field>
         <Field Def="u8 bodyType">
-            <DisplayName>body shape</DisplayName>
+            <DisplayName>Body shape</DisplayName>
             <Maximum>99</Maximum>
             <Increment>1</Increment>
             <SortID>2</SortID>
         </Field>
         <Field Def="dummy8 pad01[1]">
-            <DisplayName>padding 01</DisplayName>
+            <DisplayName>Padding 01</DisplayName>
             <SortID>121</SortID>
         </Field>
         <Field Def="u16 soulLevel">
-            <DisplayName>soul level</DisplayName>
+            <DisplayName>Soul level</DisplayName>
             <Maximum>999</Maximum>
             <Increment>1</Increment>
             <SortID>3</SortID>
         </Field>
         <Field Def="u16 lifeForceLevel">
-            <DisplayName>vitality</DisplayName>
+            <DisplayName>Vitality</DisplayName>
             <Maximum>300</Maximum>
             <Increment>1</Increment>
             <SortID>5</SortID>
@@ -49,43 +49,43 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="u16 stayingPowerLevel">
-            <DisplayName>endurance</DisplayName>
+            <DisplayName>Endurance</DisplayName>
             <Maximum>300</Maximum>
             <Increment>1</Increment>
             <SortID>6</SortID>
         </Field>
         <Field Def="u16 attunementLevel">
-            <DisplayName>memory</DisplayName>
+            <DisplayName>Memory</DisplayName>
             <Maximum>300</Maximum>
             <Increment>1</Increment>
             <SortID>7</SortID>
         </Field>
         <Field Def="u16 vitalityLevel">
-            <DisplayName>physical strength</DisplayName>
+            <DisplayName>Physical strength</DisplayName>
             <Maximum>300</Maximum>
             <Increment>1</Increment>
             <SortID>8</SortID>
         </Field>
         <Field Def="u16 strengthLevel">
-            <DisplayName>muscle strength</DisplayName>
+            <DisplayName>Muscle strength</DisplayName>
             <Maximum>300</Maximum>
             <Increment>1</Increment>
             <SortID>9</SortID>
         </Field>
         <Field Def="u16 dexterityLevel">
-            <DisplayName>skill</DisplayName>
+            <DisplayName>Skill</DisplayName>
             <Maximum>300</Maximum>
             <Increment>1</Increment>
             <SortID>10</SortID>
         </Field>
         <Field Def="u16 intelligenceLevel">
-            <DisplayName>reason</DisplayName>
+            <DisplayName>Reason</DisplayName>
             <Maximum>300</Maximum>
             <Increment>1</Increment>
             <SortID>11</SortID>
         </Field>
         <Field Def="u16 faithLevel">
-            <DisplayName>faith</DisplayName>
+            <DisplayName>Faith</DisplayName>
             <Maximum>300</Maximum>
             <Increment>1</Increment>
             <SortID>12</SortID>
@@ -97,13 +97,13 @@
             <SortID>13</SortID>
         </Field>
         <Field Def="u16 quicknessLevel">
-            <DisplayName>agile</DisplayName>
+            <DisplayName>Agile</DisplayName>
             <Maximum>300</Maximum>
             <Increment>1</Increment>
             <SortID>14</SortID>
         </Field>
         <Field Def="u16 luckLevel">
-            <DisplayName>luck</DisplayName>
+            <DisplayName>Luck</DisplayName>
             <Maximum>300</Maximum>
             <Increment>1</Increment>
             <SortID>15</SortID>
@@ -116,7 +116,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="dummy8 pad00[3]">
-            <DisplayName>padding 00</DisplayName>
+            <DisplayName>Padding 00</DisplayName>
             <SortID>122</SortID>
         </Field>
         <Field Def="s32 beltItem01 = -1">
@@ -362,28 +362,28 @@
             <SortID>53</SortID>
         </Field>
         <Field Def="s32 headArmor = -1">
-            <DisplayName>head armor</DisplayName>
+            <DisplayName>Head armor</DisplayName>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>54</SortID>
         </Field>
         <Field Def="s32 bodyArmor = -1">
-            <DisplayName>body armor</DisplayName>
+            <DisplayName>Body armor</DisplayName>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>55</SortID>
         </Field>
         <Field Def="s32 armArmor = -1">
-            <DisplayName>arm armor</DisplayName>
+            <DisplayName>Arm armor</DisplayName>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>56</SortID>
         </Field>
         <Field Def="s32 legArmor = -1">
-            <DisplayName>foot armor</DisplayName>
+            <DisplayName>Foot armor</DisplayName>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -680,18 +680,18 @@
             <SortID>110</SortID>
         </Field>
         <Field Def="u8 vowType">
-            <DisplayName>pledge</DisplayName>
+            <DisplayName>Pledge</DisplayName>
             <Enum>VOW_TYPES</Enum>
             <SortID>4</SortID>
         </Field>
         <Field Def="u8 vowLevel">
-            <DisplayName>pledge level</DisplayName>
+            <DisplayName>Pledge level</DisplayName>
             <Maximum>3</Maximum>
             <Increment>1</Increment>
             <SortID>4</SortID>
         </Field>
         <Field Def="u16 vowContribution">
-            <DisplayName>pledged contribution</DisplayName>
+            <DisplayName>Pledged contribution</DisplayName>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>4</SortID>

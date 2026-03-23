@@ -31,35 +31,35 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="f32 speedMin">
-            <DisplayName>minimum</DisplayName>
+            <DisplayName>Minimum</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>1000</Maximum>
             <Increment>1</Increment>
             <SortID>4</SortID>
         </Field>
         <Field Def="f32 speedMax">
-            <DisplayName>maximum</DisplayName>
+            <DisplayName>Maximum</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>1000</Maximum>
             <Increment>1</Increment>
             <SortID>5</SortID>
         </Field>
         <Field Def="f32 frequencyMin">
-            <DisplayName>minimum</DisplayName>
+            <DisplayName>Minimum</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>1000</Maximum>
             <Increment>1</Increment>
             <SortID>6</SortID>
         </Field>
         <Field Def="f32 frequencyMax">
-            <DisplayName>maximum</DisplayName>
+            <DisplayName>Maximum</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>1000</Maximum>
             <Increment>1</Increment>
             <SortID>7</SortID>
         </Field>
         <Field Def="f32 priority = 1">
-            <DisplayName>priority</DisplayName>
+            <DisplayName>Priority</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>1000</Maximum>
             <Increment>1</Increment>

@@ -70,7 +70,7 @@
             <SortID>9</SortID>
         </Field>
         <Field Def="s32 item10 = -1">
-            <DisplayName>item 10</DisplayName>
+            <DisplayName>Item 10</DisplayName>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -98,21 +98,21 @@
             <SortID>13</SortID>
         </Field>
         <Field Def="s32 item14 = -1">
-            <DisplayName>item 14</DisplayName>
+            <DisplayName>Item 14</DisplayName>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>14</SortID>
         </Field>
         <Field Def="s32 item15 = -1">
-            <DisplayName>item 15</DisplayName>
+            <DisplayName>Item 15</DisplayName>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>15</SortID>
         </Field>
         <Field Def="s32 item16 = -1">
-            <DisplayName>item 16</DisplayName>
+            <DisplayName>Item 16</DisplayName>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -140,7 +140,7 @@
             <SortID>19</SortID>
         </Field>
         <Field Def="s32 item20 = -1">
-            <DisplayName>item 20</DisplayName>
+            <DisplayName>Item 20</DisplayName>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>

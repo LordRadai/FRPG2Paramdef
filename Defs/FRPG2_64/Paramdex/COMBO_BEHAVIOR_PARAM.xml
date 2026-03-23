@@ -512,7 +512,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="dummy8 pad00[12]">
-            <DisplayName>reservation</DisplayName>
+            <DisplayName>Reservation</DisplayName>
             <SortID>0</SortID>
         </Field>
         <Field Def="s32 combo1AttackMotionId">
@@ -1021,7 +1021,7 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="dummy8 pad01[12]">
-            <DisplayName>reservation</DisplayName>
+            <DisplayName>Reservation</DisplayName>
             <SortID>1</SortID>
         </Field>
         <Field Def="s32 combo2AttackMotionId">
@@ -1530,7 +1530,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="dummy8 pad02[12]">
-            <DisplayName>reservation</DisplayName>
+            <DisplayName>Reservation</DisplayName>
             <SortID>2</SortID>
         </Field>
         <Field Def="s32 combo3AttackMotionId">
@@ -2039,7 +2039,7 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="dummy8 pad03[12]">
-            <DisplayName>reservation</DisplayName>
+            <DisplayName>Reservation</DisplayName>
             <SortID>3</SortID>
         </Field>
         <Field Def="s32 combo4AttackMotionId">
@@ -2548,7 +2548,7 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="dummy8 pad04[12]">
-            <DisplayName>reservation</DisplayName>
+            <DisplayName>Reservation</DisplayName>
             <SortID>4</SortID>
         </Field>
         <Field Def="s32 combo5AttackMotionId">
@@ -3057,7 +3057,7 @@
             <SortID>5</SortID>
         </Field>
         <Field Def="dummy8 pad05[12]">
-            <DisplayName>reservation</DisplayName>
+            <DisplayName>Reservation</DisplayName>
             <SortID>5</SortID>
         </Field>
         <Field Def="s32 combo6AttackMotionId">
@@ -3566,7 +3566,7 @@
             <SortID>6</SortID>
         </Field>
         <Field Def="dummy8 pad06[12]">
-            <DisplayName>reservation</DisplayName>
+            <DisplayName>Reservation</DisplayName>
             <SortID>6</SortID>
         </Field>
     </Fields>

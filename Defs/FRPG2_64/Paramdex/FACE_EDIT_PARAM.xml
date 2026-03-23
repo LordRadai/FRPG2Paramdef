@@ -27,7 +27,7 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="u8 faceParamCategory">
-            <DisplayName>category</DisplayName>
+            <DisplayName>Category</DisplayName>
             <Enum>CHR_EDIT_FACE_PARAM_CATEGORY</Enum>
             <Maximum>30</Maximum>
             <Increment>1</Increment>

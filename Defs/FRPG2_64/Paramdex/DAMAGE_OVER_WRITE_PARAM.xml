@@ -7,7 +7,7 @@
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="u8 damageOverWriteNoMotion">
-            <DisplayName>no motion</DisplayName>
+            <DisplayName>No motion</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -21,56 +21,56 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 damageOverWriteSmallKnockBack">
-            <DisplayName>small knockback</DisplayName>
+            <DisplayName>Small knockback</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 damageOverWriteLargeKnockBack">
-            <DisplayName>big knockback</DisplayName>
+            <DisplayName>Big knockback</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 damageOverWriteLarge">
-            <DisplayName>extra large</DisplayName>
+            <DisplayName>Extra large</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 damageOverWriteBlow">
-            <DisplayName>blow away</DisplayName>
+            <DisplayName>Blow away</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 damageOverWriteUpper">
-            <DisplayName>launch</DisplayName>
+            <DisplayName>Launch</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 damageOverWriteBreath">
-            <DisplayName>breath</DisplayName>
+            <DisplayName>Breath</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 damageOverWriteStumble">
-            <DisplayName>fall down</DisplayName>
+            <DisplayName>Fall down</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 damageOverWriteBreakDown">
-            <DisplayName>collapse</DisplayName>
+            <DisplayName>Collapse</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -84,42 +84,42 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 damageOverWriteDown">
-            <DisplayName>down</DisplayName>
+            <DisplayName>Down</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 damageOverWriteDownAttack">
-            <DisplayName>down attack</DisplayName>
+            <DisplayName>Down attack</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 damageOverWriteLadder">
-            <DisplayName>ladder</DisplayName>
+            <DisplayName>Ladder</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 damageOverWriteRope">
-            <DisplayName>rope</DisplayName>
+            <DisplayName>Rope</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 damageOverWriteParryBreak">
-            <DisplayName>parry break</DisplayName>
+            <DisplayName>Parry break</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 damageOverWriteGuardBreak">
-            <DisplayName>guard break</DisplayName>
+            <DisplayName>Guard break</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -133,21 +133,21 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 damageOverWriteBleeding">
-            <DisplayName>bleeding</DisplayName>
+            <DisplayName>Bleeding</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 damageOverWriteGrab">
-            <DisplayName>grab</DisplayName>
+            <DisplayName>Grab</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 damageOverWriteHeadShot">
-            <DisplayName>head shot</DisplayName>
+            <DisplayName>Head shot</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -182,14 +182,14 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 damageOverWriteGroundJumpAttack">
-            <DisplayName>jump ground collision</DisplayName>
+            <DisplayName>Jump ground collision</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 damageOverWriteAerialJumpAttack">
-            <DisplayName>jump mid-air collision</DisplayName>
+            <DisplayName>Jump mid-air collision</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>

@@ -25,7 +25,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="f32 cellOffsetX">
-            <DisplayName>cell offset</DisplayName>
+            <DisplayName>Cell offset</DisplayName>
             <Maximum>9999</Maximum>
             <SortID>3</SortID>
         </Field>
@@ -46,7 +46,7 @@
             <SortID>6</SortID>
         </Field>
         <Field Def="u8 enableBloodMessage:1">
-            <DisplayName>blood letter valid</DisplayName>
+            <DisplayName>Blood letter valid</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <Maximum>1</Maximum>
             <SortID>7</SortID>
@@ -76,7 +76,7 @@
             <SortID>11</SortID>
         </Field>
         <Field Def="dummy8 dummy[3]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <Maximum>1</Maximum>
             <SortID>999</SortID>
         </Field>

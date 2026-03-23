@@ -25,7 +25,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="u8 smallSize">
-            <DisplayName>small</DisplayName>
+            <DisplayName>Small</DisplayName>
             <Enum>DAMAGE_MOTION_TYPE</Enum>
             <Description>小</Description>
             <DisplayFormat>%d</DisplayFormat>
@@ -43,7 +43,7 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="u8 largeSize">
-            <DisplayName>large</DisplayName>
+            <DisplayName>Large</DisplayName>
             <Enum>DAMAGE_MOTION_TYPE</Enum>
             <Description>大</Description>
             <DisplayFormat>%d</DisplayFormat>
@@ -52,7 +52,7 @@
             <SortID>5</SortID>
         </Field>
         <Field Def="u8 superLargeSize">
-            <DisplayName>extra large</DisplayName>
+            <DisplayName>Extra large</DisplayName>
             <Enum>DAMAGE_MOTION_TYPE</Enum>
             <Description>特大</Description>
             <DisplayFormat>%d</DisplayFormat>
@@ -70,7 +70,7 @@
             <SortID>7</SortID>
         </Field>
         <Field Def="u8 ultraLargeSize">
-            <DisplayName>super super extra large</DisplayName>
+            <DisplayName>Super super extra large</DisplayName>
             <Enum>DAMAGE_MOTION_TYPE</Enum>
             <Description>超超特大</Description>
             <DisplayFormat>%d</DisplayFormat>

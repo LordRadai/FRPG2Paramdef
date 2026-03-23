@@ -30,7 +30,7 @@
             <SortID>300</SortID>
         </Field>
         <Field Def="u32 graveSoulValue">
-            <DisplayName>grave soul cost</DisplayName>
+            <DisplayName>Grave soul cost</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -44,7 +44,7 @@
             <SortID>500</SortID>
         </Field>
         <Field Def="dummy8 aReserved1[4]">
-            <DisplayName>reservation</DisplayName>
+            <DisplayName>Reservation</DisplayName>
             <SortID>1051</SortID>
         </Field>
         <Field Def="s32 value0">

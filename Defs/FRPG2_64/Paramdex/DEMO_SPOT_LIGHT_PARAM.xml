@@ -7,7 +7,7 @@
     <FormatVersion>104</FormatVersion>
     <Fields>
         <Field Def="f32 offsetX">
-            <DisplayName>position</DisplayName>
+            <DisplayName>Position</DisplayName>
             <Description>x座標の位置のオフセットを設定します。</Description>
             <DisplayFormat>%.1f</DisplayFormat>
             <Minimum>-999</Minimum>
@@ -16,7 +16,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="f32 offsetY">
-            <DisplayName>position Y</DisplayName>
+            <DisplayName>Position Y</DisplayName>
             <Description>y座標の位置のオフセットを設定します。</Description>
             <DisplayFormat>%.1f</DisplayFormat>
             <Minimum>-999</Minimum>
@@ -25,7 +25,7 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="f32 offsetZ">
-            <DisplayName>position Z</DisplayName>
+            <DisplayName>Position Z</DisplayName>
             <Description>y座標の位置のオフセットを設定します。</Description>
             <DisplayFormat>%.1f</DisplayFormat>
             <Minimum>-999</Minimum>
@@ -98,7 +98,7 @@
             <SortID>10</SortID>
         </Field>
         <Field Def="f32 nearLength">
-            <DisplayName>starting distance</DisplayName>
+            <DisplayName>Starting distance</DisplayName>
             <Description>スポットライトの開始距離(m)　ボックスの手前の面までの距離です</Description>
             <DisplayFormat>%.1f</DisplayFormat>
             <Maximum>999</Maximum>
@@ -130,7 +130,7 @@
             <SortID>14</SortID>
         </Field>
         <Field Def="f32 priority">
-            <DisplayName>priority</DisplayName>
+            <DisplayName>Priority</DisplayName>
             <Description>表示しようとする光源の優先度(0.0～1.0)です。表示できる光源の最大数を超えた場合には優先度が高いものほど表示されやすくなります。ただし、状況に応じて順序が前後する可能性もあります。</Description>
             <DisplayFormat>%.1f</DisplayFormat>
             <Maximum>1</Maximum>
@@ -138,7 +138,7 @@
             <SortID>15</SortID>
         </Field>
         <Field Def="f32 depthShadow">
-            <DisplayName>darkness of shadow</DisplayName>
+            <DisplayName>Darkness of shadow</DisplayName>
             <Description>影の濃さ(0.0～1.0)です。高いほど濃く表示され、0.0で影無効と同等の処理となります。</Description>
             <DisplayFormat>%.1f</DisplayFormat>
             <Maximum>1</Maximum>
@@ -162,7 +162,7 @@
             <SortID>19</SortID>
         </Field>
         <Field Def="f32 blinkPower">
-            <DisplayName>strength of flickering</DisplayName>
+            <DisplayName>Strength of flickering</DisplayName>
             <Description>明滅の最小強さを設定します。最小～1.0の範囲での強さで明滅が行われます。</Description>
             <DisplayFormat>%.1f</DisplayFormat>
             <Maximum>1</Maximum>
@@ -170,7 +170,7 @@
             <SortID>20</SortID>
         </Field>
         <Field Def="u8 enableShadow">
-            <DisplayName>cast a shadow</DisplayName>
+            <DisplayName>Cast a shadow</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <Description>影を落とすかを設定します。</Description>
             <DisplayFormat>%d</DisplayFormat>
@@ -179,7 +179,7 @@
             <SortID>16</SortID>
         </Field>
         <Field Def="dummy8 dummy[3]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>21</SortID>
         </Field>
     </Fields>

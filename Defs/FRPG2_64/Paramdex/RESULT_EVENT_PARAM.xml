@@ -14,7 +14,7 @@
             <SortID>10</SortID>
         </Field>
         <Field Def="u8 msgType">
-            <DisplayName>message type</DisplayName>
+            <DisplayName>Message type</DisplayName>
             <Enum>RESULT_EVENT_MSG_TYPE_ENUM</Enum>
             <Maximum>3</Maximum>
             <Increment>1</Increment>
@@ -53,7 +53,7 @@
             <SortID>51</SortID>
         </Field>
         <Field Def="dummy8 dummy[8]">
-            <DisplayName>reservation</DisplayName>
+            <DisplayName>Reservation</DisplayName>
             <SortID>999</SortID>
         </Field>
     </Fields>

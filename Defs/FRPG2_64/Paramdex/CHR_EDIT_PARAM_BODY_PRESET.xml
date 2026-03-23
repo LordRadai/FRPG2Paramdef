@@ -7,7 +7,7 @@
     <FormatVersion>104</FormatVersion>
     <Fields>
         <Field Def="f32 bodyScaleHead">
-            <DisplayName>head</DisplayName>
+            <DisplayName>Head</DisplayName>
             <Description>頭倍率</Description>
             <Minimum>-1</Minimum>
             <Maximum>1</Maximum>
@@ -15,7 +15,7 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="f32 bodyScaleBreast">
-            <DisplayName>chest</DisplayName>
+            <DisplayName>Chest</DisplayName>
             <Description>胸倍率</Description>
             <Minimum>-1</Minimum>
             <Maximum>1</Maximum>
@@ -23,7 +23,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="f32 bodyScaleAbdomen">
-            <DisplayName>stomach</DisplayName>
+            <DisplayName>Stomach</DisplayName>
             <Description>腹倍率</Description>
             <Minimum>-1</Minimum>
             <Maximum>1</Maximum>
@@ -31,7 +31,7 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="f32 bodyScaleArm">
-            <DisplayName>arm</DisplayName>
+            <DisplayName>Arm</DisplayName>
             <Description>腕倍率</Description>
             <Minimum>-1</Minimum>
             <Maximum>1</Maximum>
@@ -39,7 +39,7 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="f32 bodyScaleLeg">
-            <DisplayName>feet</DisplayName>
+            <DisplayName>Feet</DisplayName>
             <Description>足倍率</Description>
             <Minimum>-1</Minimum>
             <Maximum>1</Maximum>

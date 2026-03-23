@@ -25,7 +25,7 @@
             <SortID>150</SortID>
         </Field>
         <Field Def="u8 logicGroupId">
-            <DisplayName>logic group ID</DisplayName>
+            <DisplayName>Logic group ID</DisplayName>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>200</SortID>
@@ -173,19 +173,19 @@
             <SortID>3040</SortID>
         </Field>
         <Field Def="u32 logicMoveZoneId6">
-            <DisplayName>logic movement area 6</DisplayName>
+            <DisplayName>Logic movement area 6</DisplayName>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>3050</SortID>
         </Field>
         <Field Def="f32 infinityGenerateTime">
-            <DisplayName>infinite generation interval</DisplayName>
+            <DisplayName>Infinite generation interval</DisplayName>
             <Maximum>3600</Maximum>
             <Increment>0.1</Increment>
             <SortID>430</SortID>
         </Field>
         <Field Def="u8 infinityGenerate:1">
-            <DisplayName>infinite generation</DisplayName>
+            <DisplayName>Infinite generation</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
@@ -245,7 +245,7 @@
             <SortID>10</SortID>
         </Field>
         <Field Def="f32 returnDistance">
-            <DisplayName>return distance</DisplayName>
+            <DisplayName>Return distance</DisplayName>
             <Maximum>1000</Maximum>
             <Increment>0.1</Increment>
             <SortID>5000</SortID>
@@ -269,25 +269,25 @@
             <SortID>2900</SortID>
         </Field>
         <Field Def="u32 logicEventFlag1">
-            <DisplayName>event flag 1</DisplayName>
+            <DisplayName>Event flag 1</DisplayName>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>6000</SortID>
         </Field>
         <Field Def="u32 logicEventFlag2">
-            <DisplayName>event flag 2</DisplayName>
+            <DisplayName>Event flag 2</DisplayName>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>6010</SortID>
         </Field>
         <Field Def="u32 logicEventFlag3">
-            <DisplayName>event flag 3</DisplayName>
+            <DisplayName>Event flag 3</DisplayName>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>6020</SortID>
         </Field>
         <Field Def="u32 logicEventFlag4">
-            <DisplayName>event flag 4</DisplayName>
+            <DisplayName>Event flag 4</DisplayName>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>6030</SortID>
@@ -329,13 +329,13 @@
             <SortID>6110</SortID>
         </Field>
         <Field Def="u8 logicGlobalEventValue1">
-            <DisplayName>event global variable 1</DisplayName>
+            <DisplayName>Event global variable 1</DisplayName>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>6200</SortID>
         </Field>
         <Field Def="u8 logicGlobalEventValue2">
-            <DisplayName>event global variable 2</DisplayName>
+            <DisplayName>Event global variable 2</DisplayName>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>6210</SortID>
@@ -355,13 +355,13 @@
             <SortID>30</SortID>
         </Field>
         <Field Def="s8 instanceColor">
-            <DisplayName>color</DisplayName>
+            <DisplayName>Color</DisplayName>
             <Maximum>15</Maximum>
             <Increment>1</Increment>
             <SortID>350</SortID>
         </Field>
         <Field Def="dummy8 aReserved1[2]">
-            <DisplayName>reservation</DisplayName>
+            <DisplayName>Reservation</DisplayName>
             <SortID>12002</SortID>
         </Field>
         <Field Def="u32 itemId">
@@ -396,7 +396,7 @@
             <SortID>12001</SortID>
         </Field>
         <Field Def="dummy8 aReserved2[7]">
-            <DisplayName>reservation</DisplayName>
+            <DisplayName>Reservation</DisplayName>
             <SortID>12003</SortID>
         </Field>
     </Fields>

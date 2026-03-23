@@ -63,7 +63,7 @@
             <SortID>17</SortID>
         </Field>
         <Field Def="dummy8 reserved[2]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <Maximum>180</Maximum>
             <Increment>0.1</Increment>
             <SortID>18</SortID>
@@ -99,7 +99,7 @@
             <SortID>14</SortID>
         </Field>
         <Field Def="f32 sphereSize = 0.5">
-            <DisplayName>ball size</DisplayName>
+            <DisplayName>Ball size</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>16</SortID>

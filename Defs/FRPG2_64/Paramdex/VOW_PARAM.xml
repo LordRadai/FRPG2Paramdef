@@ -28,7 +28,7 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="dummy8 padding0[2]">
-            <DisplayName>dummy for padding</DisplayName>
+            <DisplayName>Dummy for padding</DisplayName>
             <SortID>5</SortID>
         </Field>
     </Fields>

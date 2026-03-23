@@ -31,7 +31,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="dummy8 bodyDummy[2]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>363</SortID>
         </Field>
         <Field Def="u32 petrifiedBossBodyEffect01">
@@ -59,7 +59,7 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="dummy8 petrifiedBossBodyDummy[2]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>364</SortID>
         </Field>
         <Field Def="u32 noneEffect01">
@@ -87,7 +87,7 @@
             <SortID>12</SortID>
         </Field>
         <Field Def="dummy8 noneDummy[2]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>365</SortID>
         </Field>
         <Field Def="u32 metalEffect01">
@@ -115,7 +115,7 @@
             <SortID>22</SortID>
         </Field>
         <Field Def="dummy8 metalDummy[2]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>366</SortID>
         </Field>
         <Field Def="u32 heavymetalEffect01">
@@ -143,7 +143,7 @@
             <SortID>32</SortID>
         </Field>
         <Field Def="dummy8 heavymetalDummy[2]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>367</SortID>
         </Field>
         <Field Def="u32 woodEffect01">
@@ -171,7 +171,7 @@
             <SortID>42</SortID>
         </Field>
         <Field Def="dummy8 woodDummy[2]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>368</SortID>
         </Field>
         <Field Def="u32 waterEffect01">
@@ -199,7 +199,7 @@
             <SortID>52</SortID>
         </Field>
         <Field Def="dummy8 waterDummy[2]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>369</SortID>
         </Field>
         <Field Def="u32 swampEffect01">
@@ -227,7 +227,7 @@
             <SortID>62</SortID>
         </Field>
         <Field Def="dummy8 swampDummy[2]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>370</SortID>
         </Field>
         <Field Def="u32 lumberEffect01">
@@ -255,7 +255,7 @@
             <SortID>72</SortID>
         </Field>
         <Field Def="dummy8 lumberDummy[2]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>371</SortID>
         </Field>
         <Field Def="u32 meatEffect01">
@@ -283,7 +283,7 @@
             <SortID>82</SortID>
         </Field>
         <Field Def="dummy8 meatDummy[2]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>372</SortID>
         </Field>
         <Field Def="u32 deadmeatEffect01">
@@ -311,7 +311,7 @@
             <SortID>92</SortID>
         </Field>
         <Field Def="dummy8 deadmeatDummy[2]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>373</SortID>
         </Field>
         <Field Def="u32 insectEffect01">
@@ -339,7 +339,7 @@
             <SortID>102</SortID>
         </Field>
         <Field Def="dummy8 insectDummy[2]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>374</SortID>
         </Field>
         <Field Def="u32 giantEffect01">
@@ -367,7 +367,7 @@
             <SortID>112</SortID>
         </Field>
         <Field Def="dummy8 giantDummy[2]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>375</SortID>
         </Field>
         <Field Def="u32 boneEffect01">
@@ -395,7 +395,7 @@
             <SortID>122</SortID>
         </Field>
         <Field Def="dummy8 boneDummy[2]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>376</SortID>
         </Field>
         <Field Def="u32 copperEffect01">
@@ -423,7 +423,7 @@
             <SortID>132</SortID>
         </Field>
         <Field Def="dummy8 copperDummy[2]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>377</SortID>
         </Field>
         <Field Def="u32 energyEffect01">
@@ -451,7 +451,7 @@
             <SortID>142</SortID>
         </Field>
         <Field Def="dummy8 energyDummy[2]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>378</SortID>
         </Field>
         <Field Def="u32 fireEffect01">
@@ -479,7 +479,7 @@
             <SortID>152</SortID>
         </Field>
         <Field Def="dummy8 fireDummy[2]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>379</SortID>
         </Field>
         <Field Def="u32 thunderEffect01">
@@ -507,7 +507,7 @@
             <SortID>162</SortID>
         </Field>
         <Field Def="dummy8 thunderDummy[2]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>380</SortID>
         </Field>
         <Field Def="u32 darkEffect01">
@@ -535,7 +535,7 @@
             <SortID>172</SortID>
         </Field>
         <Field Def="dummy8 darkDummy[2]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>381</SortID>
         </Field>
         <Field Def="u32 magicEffect01">
@@ -563,7 +563,7 @@
             <SortID>182</SortID>
         </Field>
         <Field Def="dummy8 magicDummy[2]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>382</SortID>
         </Field>
         <Field Def="u32 stoneEffect01">
@@ -591,7 +591,7 @@
             <SortID>192</SortID>
         </Field>
         <Field Def="dummy8 stoneDummy[2]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>383</SortID>
         </Field>
         <Field Def="u32 dirtEffect01">
@@ -619,7 +619,7 @@
             <SortID>202</SortID>
         </Field>
         <Field Def="dummy8 dirtDummy[2]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>384</SortID>
         </Field>
         <Field Def="u32 carpetEffect01">
@@ -647,7 +647,7 @@
             <SortID>212</SortID>
         </Field>
         <Field Def="dummy8 carpetDummy[2]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>385</SortID>
         </Field>
         <Field Def="u32 grassEffect01">
@@ -675,7 +675,7 @@
             <SortID>222</SortID>
         </Field>
         <Field Def="dummy8 grassDummy[2]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>386</SortID>
         </Field>
         <Field Def="u32 gravelEffect01">
@@ -703,7 +703,7 @@
             <SortID>232</SortID>
         </Field>
         <Field Def="dummy8 gravelDummy[2]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>387</SortID>
         </Field>
         <Field Def="u32 clothEffect01">
@@ -731,7 +731,7 @@
             <SortID>242</SortID>
         </Field>
         <Field Def="dummy8 clothDummy[2]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>388</SortID>
         </Field>
         <Field Def="u32 sandEffect01">
@@ -759,7 +759,7 @@
             <SortID>252</SortID>
         </Field>
         <Field Def="dummy8 sandDummy[2]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>389</SortID>
         </Field>
         <Field Def="u32 ashEffect01">
@@ -787,7 +787,7 @@
             <SortID>262</SortID>
         </Field>
         <Field Def="dummy8 ashDummy[2]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>390</SortID>
         </Field>
         <Field Def="u32 poisonswampEffect01">
@@ -815,7 +815,7 @@
             <SortID>272</SortID>
         </Field>
         <Field Def="dummy8 poisonswampDummy[2]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>391</SortID>
         </Field>
         <Field Def="u32 oilEffect01">
@@ -843,7 +843,7 @@
             <SortID>282</SortID>
         </Field>
         <Field Def="dummy8 oilDummy[2]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>392</SortID>
         </Field>
         <Field Def="u32 coaltarEffect01">
@@ -871,7 +871,7 @@
             <SortID>292</SortID>
         </Field>
         <Field Def="dummy8 coaltarDummy[2]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>393</SortID>
         </Field>
         <Field Def="u32 lavaEffect01">
@@ -899,7 +899,7 @@
             <SortID>302</SortID>
         </Field>
         <Field Def="dummy8 lavaDummy[2]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>394</SortID>
         </Field>
         <Field Def="u32 stringEffect01">
@@ -927,7 +927,7 @@
             <SortID>312</SortID>
         </Field>
         <Field Def="dummy8 stringDummy[2]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>395</SortID>
         </Field>
         <Field Def="u32 sulfurcrystalEffect01">
@@ -955,7 +955,7 @@
             <SortID>322</SortID>
         </Field>
         <Field Def="dummy8 sulfurcrystalDummy[2]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>396</SortID>
         </Field>
         <Field Def="u32 soulEffect01">
@@ -983,7 +983,7 @@
             <SortID>332</SortID>
         </Field>
         <Field Def="dummy8 soulDummy[2]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>397</SortID>
         </Field>
         <Field Def="u32 frogEffect01">
@@ -1011,7 +1011,7 @@
             <SortID>342</SortID>
         </Field>
         <Field Def="dummy8 frogDummy[2]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>398</SortID>
         </Field>
         <Field Def="u32 stoneWaterEffect01">
@@ -1039,7 +1039,7 @@
             <SortID>352</SortID>
         </Field>
         <Field Def="dummy8 stoneWaterDummy[2]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>399</SortID>
         </Field>
         <Field Def="u32 stoneEnergyEffect01">
@@ -1067,7 +1067,7 @@
             <SortID>362</SortID>
         </Field>
         <Field Def="dummy8 stoneEnergyDummy[2]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>400</SortID>
         </Field>
         <Field Def="u32 coverEffect01">
@@ -1095,7 +1095,7 @@
             <SortID>6</SortID>
         </Field>
         <Field Def="dummy8 coverDummy[2]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>401</SortID>
         </Field>
         <Field Def="u32 unkMat0Effect01">
@@ -1123,7 +1123,7 @@
             <SortID>6</SortID>
         </Field>
         <Field Def="dummy8 unkMat0Dummy[2]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>401</SortID>
         </Field>
         <Field Def="u32 unkMat1Effect01">
@@ -1151,7 +1151,7 @@
             <SortID>8</SortID>
         </Field>
         <Field Def="dummy8 unkMat1Dummy[2]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>402</SortID>
         </Field>
         <Field Def="u32 unkMat2Effect01">
@@ -1179,7 +1179,7 @@
             <SortID>10</SortID>
         </Field>
         <Field Def="dummy8 unkMat2Dummy[2]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>403</SortID>
         </Field>
         <Field Def="u32 unkMat3Effect01">
@@ -1207,7 +1207,7 @@
             <SortID>12</SortID>
         </Field>
         <Field Def="dummy8 unkMat3Dummy[2]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>404</SortID>
         </Field>
         <Field Def="u32 unkMat4Effect01">
@@ -1235,7 +1235,7 @@
             <SortID>14</SortID>
         </Field>
         <Field Def="dummy8 unkMat4Dummy[2]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>405</SortID>
         </Field>
         <Field Def="u32 unkMat5Effect01">
@@ -1263,7 +1263,7 @@
             <SortID>16</SortID>
         </Field>
         <Field Def="dummy8 unkMat5Dummy[2]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>406</SortID>
         </Field>
         <Field Def="u32 unkMat6Effect01">
@@ -1291,7 +1291,7 @@
             <SortID>18</SortID>
         </Field>
         <Field Def="dummy8 unkMat6Dummy[2]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>407</SortID>
         </Field>
         <Field Def="u32 unkMat7Effect01">
@@ -1319,7 +1319,7 @@
             <SortID>20</SortID>
         </Field>
         <Field Def="dummy8 unkMat7Dummy[2]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>408</SortID>
         </Field>
         <Field Def="u32 unkMat8Effect01">
@@ -1347,7 +1347,7 @@
             <SortID>22</SortID>
         </Field>
         <Field Def="dummy8 unkMat8Dummy[2]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>409</SortID>
         </Field>
     </Fields>

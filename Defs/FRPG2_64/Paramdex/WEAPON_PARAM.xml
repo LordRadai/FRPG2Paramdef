@@ -33,7 +33,7 @@
             <SortID>10</SortID>
         </Field>
         <Field Def="u32 weaponTypeId">
-            <DisplayName>weapon type</DisplayName>
+            <DisplayName>Weapon type</DisplayName>
             <Enum>WEAPON_TYPE_PARAM_ID</Enum>
             <SortID>10</SortID>
         </Field>

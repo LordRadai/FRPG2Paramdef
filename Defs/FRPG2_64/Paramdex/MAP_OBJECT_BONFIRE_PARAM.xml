@@ -71,7 +71,7 @@
             <SortID>1000</SortID>
         </Field>
         <Field Def="u8 isUseDisableNetworkItem">
-            <DisplayName>human statue can be eaten</DisplayName>
+            <DisplayName>Human statue can be eaten</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1</Maximum>

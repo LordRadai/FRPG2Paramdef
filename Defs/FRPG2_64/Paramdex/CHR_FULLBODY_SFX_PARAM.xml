@@ -24,16 +24,16 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="dummy8 dummy0[2]">
-            <DisplayName>spare</DisplayName>
+            <DisplayName>Spare</DisplayName>
             <SortID>16</SortID>
         </Field>
         <Field Def="u8 isDisableHead">
-            <DisplayName>head invalid</DisplayName>
+            <DisplayName>Head invalid</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 isDisableBody">
-            <DisplayName>body disabled</DisplayName>
+            <DisplayName>Body disabled</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <SortID>0</SortID>
         </Field>
@@ -43,7 +43,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 isDisableLArm">
-            <DisplayName>left arm disabled</DisplayName>
+            <DisplayName>Left arm disabled</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <SortID>0</SortID>
         </Field>
@@ -53,7 +53,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 isDisableLHand">
-            <DisplayName>left hand disabled</DisplayName>
+            <DisplayName>Left hand disabled</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <SortID>0</SortID>
         </Field>
@@ -63,12 +63,12 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 isDisableLLeg">
-            <DisplayName>left leg disabled</DisplayName>
+            <DisplayName>Left leg disabled</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <SortID>0</SortID>
         </Field>
         <Field Def="dummy8 dummy1[4]">
-            <DisplayName>spare</DisplayName>
+            <DisplayName>Spare</DisplayName>
             <SortID>17</SortID>
         </Field>
         <Field Def="f32 time">

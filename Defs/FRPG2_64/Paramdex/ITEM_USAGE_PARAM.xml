@@ -30,7 +30,7 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="u8 isConsume:1">
-            <DisplayName>consumables</DisplayName>
+            <DisplayName>Consumables</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <SortID>1</SortID>
         </Field>

@@ -13,20 +13,20 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="u8 gender">
-            <DisplayName>sex</DisplayName>
+            <DisplayName>Sex</DisplayName>
             <Enum>NPC_GENDER_TYPE</Enum>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>2</SortID>
         </Field>
         <Field Def="u8 bodyScaleType">
-            <DisplayName>body type</DisplayName>
+            <DisplayName>Body type</DisplayName>
             <Maximum>10</Maximum>
             <Increment>1</Increment>
             <SortID>3</SortID>
         </Field>
         <Field Def="u8 deceased">
-            <DisplayName>living and dead</DisplayName>
+            <DisplayName>Living and dead</DisplayName>
             <Enum>NPC_DECEASED_TYPE</Enum>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
@@ -40,14 +40,14 @@
             <SortID>5</SortID>
         </Field>
         <Field Def="u8 faceType">
-            <DisplayName>face type</DisplayName>
+            <DisplayName>Face type</DisplayName>
             <Enum>NPC_FACE_TYPE</Enum>
             <Maximum>2</Maximum>
             <Increment>1</Increment>
             <SortID>6</SortID>
         </Field>
         <Field Def="u8 skinNo = 1">
-            <DisplayName>skin number</DisplayName>
+            <DisplayName>Skin number</DisplayName>
             <Minimum>1</Minimum>
             <Maximum>2</Maximum>
             <Increment>1</Increment>
@@ -61,7 +61,7 @@
             <SortID>8</SortID>
         </Field>
         <Field Def="dummy8 dummy[1]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>26</SortID>
         </Field>
         <Field Def="f32 skinR">
@@ -86,91 +86,91 @@
             <SortID>11</SortID>
         </Field>
         <Field Def="s32 faceId = -1">
-            <DisplayName>face ID</DisplayName>
+            <DisplayName>Face ID</DisplayName>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>12</SortID>
         </Field>
         <Field Def="s32 equipWeaponIdL1 = -1">
-            <DisplayName>left hand weapon 1</DisplayName>
+            <DisplayName>Left hand weapon 1</DisplayName>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>13</SortID>
         </Field>
         <Field Def="s32 equipWeaponIdL2 = -1">
-            <DisplayName>left hand weapon 2</DisplayName>
+            <DisplayName>Left hand weapon 2</DisplayName>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>14</SortID>
         </Field>
         <Field Def="s32 equipWeaponIdL3 = -1">
-            <DisplayName>left hand weapon 3</DisplayName>
+            <DisplayName>Left hand weapon 3</DisplayName>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>15</SortID>
         </Field>
         <Field Def="s32 equipWeaponIdR1 = -1">
-            <DisplayName>right hand weapon 1</DisplayName>
+            <DisplayName>Right hand weapon 1</DisplayName>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>16</SortID>
         </Field>
         <Field Def="s32 equipWeaponIdR2 = -1">
-            <DisplayName>right hand weapon 2</DisplayName>
+            <DisplayName>Right hand weapon 2</DisplayName>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>17</SortID>
         </Field>
         <Field Def="s32 equipWeaponIdR3 = -1">
-            <DisplayName>right hand weapon 3</DisplayName>
+            <DisplayName>Right hand weapon 3</DisplayName>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>18</SortID>
         </Field>
         <Field Def="s32 equipHeadId = -1">
-            <DisplayName>helmet</DisplayName>
+            <DisplayName>Helmet</DisplayName>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>19</SortID>
         </Field>
         <Field Def="s32 equipBodyId = -1">
-            <DisplayName>armor</DisplayName>
+            <DisplayName>Armor</DisplayName>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>20</SortID>
         </Field>
         <Field Def="s32 equipArmId = -1">
-            <DisplayName>gauntlet</DisplayName>
+            <DisplayName>Gauntlet</DisplayName>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>21</SortID>
         </Field>
         <Field Def="s32 equipLegId = -1">
-            <DisplayName>gaiter</DisplayName>
+            <DisplayName>Gaiter</DisplayName>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>22</SortID>
         </Field>
         <Field Def="s32 equipQuiverId = -1">
-            <DisplayName>quiver</DisplayName>
+            <DisplayName>Quiver</DisplayName>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>23</SortID>
         </Field>
         <Field Def="s32 equipArrowId = -1">
-            <DisplayName>arrow</DisplayName>
+            <DisplayName>Arrow</DisplayName>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>

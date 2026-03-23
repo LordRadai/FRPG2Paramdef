@@ -7,21 +7,21 @@
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="u8 cloth">
-            <DisplayName>cross</DisplayName>
+            <DisplayName>Cross</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>1</SortID>
         </Field>
         <Field Def="u8 model">
-            <DisplayName>grass</DisplayName>
+            <DisplayName>Grass</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>2</SortID>
         </Field>
         <Field Def="u8 obj">
-            <DisplayName>object</DisplayName>
+            <DisplayName>Object</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
@@ -49,7 +49,7 @@
             <SortID>10000</SortID>
         </Field>
         <Field Def="dummy8 dummy0[2]">
-            <DisplayName>dummy 0</DisplayName>
+            <DisplayName>Dummy 0</DisplayName>
             <SortID>10001</SortID>
         </Field>
         <Field Def="f32 fadeInTime">

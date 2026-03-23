@@ -33,7 +33,7 @@
             <SortID>20</SortID>
         </Field>
         <Field Def="dummy8 reserved00[6] = -1">
-            <DisplayName>spare</DisplayName>
+            <DisplayName>Spare</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -90,7 +90,7 @@
             <SortID>10</SortID>
         </Field>
         <Field Def="u8 emissiveType">
-            <DisplayName>self illumination type</DisplayName>
+            <DisplayName>Self illumination type</DisplayName>
             <Enum>CHR_EMISSIVE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -99,7 +99,7 @@
             <SortID>40</SortID>
         </Field>
         <Field Def="dummy8 reserved01[1] = -1">
-            <DisplayName>spare</DisplayName>
+            <DisplayName>Spare</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -108,7 +108,7 @@
             <SortID>43</SortID>
         </Field>
         <Field Def="s32 brokenSoundType">
-            <DisplayName>corrupted sound type</DisplayName>
+            <DisplayName>Corrupted sound type</DisplayName>
             <Enum>EQUIP_BREAK_SOUND_MATERIAL_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>

@@ -46,7 +46,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="dummy8 pad1:6">
-            <DisplayName>padding</DisplayName>
+            <DisplayName>Padding</DisplayName>
             <SortID>2100011</SortID>
         </Field>
         <Field Def="u8 cameraHit">
@@ -55,19 +55,19 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="u8 emissiveScale0">
-            <DisplayName>emissive scale 0</DisplayName>
+            <DisplayName>Emissive scale 0</DisplayName>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>4</SortID>
         </Field>
         <Field Def="u8 emissiveScale1">
-            <DisplayName>emissive scale 1</DisplayName>
+            <DisplayName>Emissive scale 1</DisplayName>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>5</SortID>
         </Field>
         <Field Def="dummy8 pad2[3]">
-            <DisplayName>padding</DisplayName>
+            <DisplayName>Padding</DisplayName>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>4</SortID>
@@ -227,42 +227,42 @@
             <SortID>2100010</SortID>
         </Field>
         <Field Def="u8 doesFollow0 = 1">
-            <DisplayName>follow</DisplayName>
+            <DisplayName>Follow</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <EditFlags>Wrap</EditFlags>
             <Increment>1</Increment>
             <SortID>1100100</SortID>
         </Field>
         <Field Def="u8 doesFollow1 = 1">
-            <DisplayName>follow</DisplayName>
+            <DisplayName>Follow</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <EditFlags>Wrap</EditFlags>
             <Increment>1</Increment>
             <SortID>1200100</SortID>
         </Field>
         <Field Def="u8 doesFollow2 = 1">
-            <DisplayName>follow</DisplayName>
+            <DisplayName>Follow</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <EditFlags>Wrap</EditFlags>
             <Increment>1</Increment>
             <SortID>1300100</SortID>
         </Field>
         <Field Def="u8 doesFollow3 = 1">
-            <DisplayName>follow</DisplayName>
+            <DisplayName>Follow</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <EditFlags>Wrap</EditFlags>
             <Increment>1</Increment>
             <SortID>1400100</SortID>
         </Field>
         <Field Def="u8 doesFollow4 = 1">
-            <DisplayName>follow</DisplayName>
+            <DisplayName>Follow</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <EditFlags>Wrap</EditFlags>
             <Increment>1</Increment>
             <SortID>1500100</SortID>
         </Field>
         <Field Def="u8 doesFollow5 = 1">
-            <DisplayName>follow</DisplayName>
+            <DisplayName>Follow</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <EditFlags>Wrap</EditFlags>
             <Increment>1</Increment>

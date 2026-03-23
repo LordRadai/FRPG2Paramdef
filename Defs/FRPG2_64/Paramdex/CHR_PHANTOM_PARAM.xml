@@ -154,14 +154,14 @@
             <SortID>21</SortID>
         </Field>
         <Field Def="f32 alpha = 1">
-            <DisplayName>α</DisplayName>
+            <DisplayName>Α</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>1</Maximum>
             <Increment>0.0099999998</Increment>
             <SortID>22</SortID>
         </Field>
         <Field Def="u8 blendType">
-            <DisplayName>α type</DisplayName>
+            <DisplayName>Α type</DisplayName>
             <Enum>CHR_PHANTOM_BLEND_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>4</Maximum>

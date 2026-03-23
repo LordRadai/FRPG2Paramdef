@@ -7,7 +7,7 @@
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="s8 attackType">
-            <DisplayName>attack attribute</DisplayName>
+            <DisplayName>Attack attribute</DisplayName>
             <Enum>DAMAGE_ATTACK_TYPE</Enum>
             <SortID>0</SortID>
         </Field>
@@ -44,12 +44,12 @@
             <SortID>10</SortID>
         </Field>
         <Field Def="u8 damageMotion">
-            <DisplayName>damage motion</DisplayName>
+            <DisplayName>Damage motion</DisplayName>
             <Enum>DAMAGE_MOTION_TYPE</Enum>
             <SortID>10</SortID>
         </Field>
         <Field Def="u8 deadMotion">
-            <DisplayName>death motion</DisplayName>
+            <DisplayName>Death motion</DisplayName>
             <Enum>DAMAGE_DEAD_MOTION_TYPE</Enum>
             <SortID>10</SortID>
         </Field>
@@ -59,12 +59,12 @@
             <SortID>10</SortID>
         </Field>
         <Field Def="u8 isInstantDeath">
-            <DisplayName>instant death flag</DisplayName>
+            <DisplayName>Instant death flag</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <SortID>10</SortID>
         </Field>
         <Field Def="u16 stun">
-            <DisplayName>fainting value</DisplayName>
+            <DisplayName>Fainting value</DisplayName>
             <Maximum>999</Maximum>
             <Increment>1</Increment>
             <SortID>20</SortID>
@@ -296,7 +296,7 @@
             <SortID>70</SortID>
         </Field>
         <Field Def="u8 isWet">
-            <DisplayName>get wet</DisplayName>
+            <DisplayName>Get wet</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <SortID>90</SortID>
         </Field>
@@ -308,7 +308,7 @@
             <SortID>20</SortID>
         </Field>
         <Field Def="u32 wetId">
-            <DisplayName>wet category</DisplayName>
+            <DisplayName>Wet category</DisplayName>
             <Enum>CHR_WET_PARAM_ID</Enum>
             <SortID>90</SortID>
         </Field>

@@ -13,7 +13,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 emitEntityType">
-            <DisplayName>generation criteria</DisplayName>
+            <DisplayName>Generation criteria</DisplayName>
             <Enum>BULLET_EMIT_ENTITY_TYPE</Enum>
             <SortID>100</SortID>
         </Field>
@@ -176,7 +176,7 @@
             <SortID>100</SortID>
         </Field>
         <Field Def="f32 bulletLife">
-            <DisplayName>bullet life</DisplayName>
+            <DisplayName>Bullet life</DisplayName>
             <Minimum>-1</Minimum>
             <Maximum>1800</Maximum>
             <Increment>0.1</Increment>
@@ -195,14 +195,14 @@
             <SortID>1000</SortID>
         </Field>
         <Field Def="f32 acceleration">
-            <DisplayName>acceleration</DisplayName>
+            <DisplayName>Acceleration</DisplayName>
             <Minimum>-100</Minimum>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>1000</SortID>
         </Field>
         <Field Def="f32 maxSpeed">
-            <DisplayName>maximum speed</DisplayName>
+            <DisplayName>Maximum speed</DisplayName>
             <Maximum>255</Maximum>
             <Increment>0.1</Increment>
             <SortID>1000</SortID>
@@ -296,7 +296,7 @@
             <SortID>1000</SortID>
         </Field>
         <Field Def="dummy8 pad1[2]">
-            <DisplayName>padding</DisplayName>
+            <DisplayName>Padding</DisplayName>
             <Maximum>255</Maximum>
             <Increment>0.0099999998</Increment>
             <SortID>7001</SortID>
@@ -368,7 +368,7 @@
             <SortID>1000</SortID>
         </Field>
         <Field Def="u8 penetrationWater">
-            <DisplayName>water penetration setting</DisplayName>
+            <DisplayName>Water penetration setting</DisplayName>
             <Enum>BULLET_PENETRATION_TYPE</Enum>
             <Increment>1</Increment>
             <SortID>1000</SortID>
@@ -452,7 +452,7 @@
             <SortID>7000</SortID>
         </Field>
         <Field Def="dummy8 pad4[1]">
-            <DisplayName>padding</DisplayName>
+            <DisplayName>Padding</DisplayName>
             <SortID>7002</SortID>
         </Field>
         <Field Def="u32 childeBulletId">
@@ -534,7 +534,7 @@
             <SortID>1000</SortID>
         </Field>
         <Field Def="f32 childeDelay">
-            <DisplayName>delay time</DisplayName>
+            <DisplayName>Delay time</DisplayName>
             <Maximum>600</Maximum>
             <Increment>0.1</Increment>
             <SortID>1000</SortID>
@@ -564,7 +564,7 @@
             <SortID>3000</SortID>
         </Field>
         <Field Def="u8 hitbackType">
-            <DisplayName>can be played</DisplayName>
+            <DisplayName>Can be played</DisplayName>
             <Enum>BULLET_HIT_BACK_TYPE</Enum>
             <Increment>1</Increment>
             <SortID>3000</SortID>
@@ -625,7 +625,7 @@
             <SortID>3000</SortID>
         </Field>
         <Field Def="f32 childeInterval">
-            <DisplayName>firing interval</DisplayName>
+            <DisplayName>Firing interval</DisplayName>
             <Maximum>600</Maximum>
             <Increment>0.1</Increment>
             <SortID>1000</SortID>
@@ -637,7 +637,7 @@
             <SortID>4000</SortID>
         </Field>
         <Field Def="dummy8 pad5[16]">
-            <DisplayName>reservation</DisplayName>
+            <DisplayName>Reservation</DisplayName>
             <SortID>7003</SortID>
         </Field>
     </Fields>

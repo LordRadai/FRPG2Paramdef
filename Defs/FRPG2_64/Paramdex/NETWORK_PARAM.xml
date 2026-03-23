@@ -623,7 +623,7 @@
             <SortID>609</SortID>
         </Field>
         <Field Def="dummy8 visitpad00[8]">
-            <DisplayName>reservation</DisplayName>
+            <DisplayName>Reservation</DisplayName>
             <SortID>610</SortID>
         </Field>
         <Field Def="f32 srttMaxLimit = 1,000">
@@ -790,7 +790,7 @@
             <SortID>762</SortID>
         </Field>
         <Field Def="dummy8 pad00[1]">
-            <DisplayName>reservation</DisplayName>
+            <DisplayName>Reservation</DisplayName>
             <SortID>763</SortID>
         </Field>
         <Field Def="u8 mirrorKnightSignConvertRate = 50">
@@ -801,7 +801,7 @@
             <SortID>801</SortID>
         </Field>
         <Field Def="dummy8 reserveMK[3] = 1">
-            <DisplayName>reservation</DisplayName>
+            <DisplayName>Reservation</DisplayName>
             <Minimum>1</Minimum>
             <Maximum>1000</Maximum>
             <Increment>1</Increment>
@@ -831,7 +831,7 @@
         </Field>
         <Field Def="f32 reloadMatchingAreaTime" />
         <Field Def="dummy8 pad10[132]">
-            <DisplayName>reservation</DisplayName>
+            <DisplayName>Reservation</DisplayName>
             <SortID>832</SortID>
         </Field>
     </Fields>

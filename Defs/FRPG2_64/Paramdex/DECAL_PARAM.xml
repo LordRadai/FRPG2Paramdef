@@ -35,7 +35,7 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="u32 bumpTexId">
-            <DisplayName>bump texture id</DisplayName>
+            <DisplayName>Bump texture id</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>999999</Maximum>
             <Increment>1</Increment>
@@ -78,7 +78,7 @@
             <SortID>10</SortID>
         </Field>
         <Field Def="f32 parallaxScale">
-            <DisplayName>parallax map scale</DisplayName>
+            <DisplayName>Parallax map scale</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>-1</Minimum>
             <Maximum>1</Maximum>
@@ -86,7 +86,7 @@
             <SortID>11</SortID>
         </Field>
         <Field Def="s32 lightId = -1">
-            <DisplayName>light id</DisplayName>
+            <DisplayName>Light id</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Minimum>-1</Minimum>
             <Maximum>9999</Maximum>
@@ -94,7 +94,7 @@
             <SortID>12</SortID>
         </Field>
         <Field Def="u8 flipType">
-            <DisplayName>left/right flip</DisplayName>
+            <DisplayName>Left/right flip</DisplayName>
             <Enum>DECAL_FLIP_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>2</Maximum>
@@ -102,7 +102,7 @@
             <SortID>13</SortID>
         </Field>
         <Field Def="u8 rotateType">
-            <DisplayName>rotate</DisplayName>
+            <DisplayName>Rotate</DisplayName>
             <Enum>DECAL_ROTATE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1</Maximum>
@@ -110,7 +110,7 @@
             <SortID>14</SortID>
         </Field>
         <Field Def="dummy8 aReserved[2]">
-            <DisplayName>reserved area</DisplayName>
+            <DisplayName>Reserved area</DisplayName>
             <SortID>16</SortID>
         </Field>
     </Fields>

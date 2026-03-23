@@ -37,7 +37,7 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="dummy8 aReserved[2]">
-            <DisplayName>reserved area</DisplayName>
+            <DisplayName>Reserved area</DisplayName>
             <SortID>4</SortID>
         </Field>
     </Fields>

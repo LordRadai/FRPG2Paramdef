@@ -157,7 +157,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="dummy8 dummy[3]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>3001</SortID>
         </Field>
         <Field Def="f32 menuResistanceScale = 1">

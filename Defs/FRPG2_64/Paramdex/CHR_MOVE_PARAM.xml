@@ -399,7 +399,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="dummy8 quickTurnPad[2] = 320">
-            <DisplayName>padding</DisplayName>
+            <DisplayName>Padding</DisplayName>
             <Maximum>9999</Maximum>
             <Increment>0.1</Increment>
             <SortID>0</SortID>
@@ -1360,7 +1360,7 @@
             <SortID>45</SortID>
         </Field>
         <Field Def="dummy8 dummy[8]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>195</SortID>
         </Field>
     </Fields>

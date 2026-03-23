@@ -42,7 +42,7 @@
             <SortID>5</SortID>
         </Field>
         <Field Def="u8 entryMotionType">
-            <DisplayName>appearance motion</DisplayName>
+            <DisplayName>Appearance motion</DisplayName>
             <Enum>PLAYER_MULTI_ENTRY_MOTION</Enum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -82,7 +82,7 @@
             <SortID>5</SortID>
         </Field>
         <Field Def="u32 deadType">
-            <DisplayName>death type</DisplayName>
+            <DisplayName>Death type</DisplayName>
             <Enum>DEAD_TYPE_PARAM_ID</Enum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -123,7 +123,7 @@
             <SortID>15</SortID>
         </Field>
         <Field Def="dummy8 pad1[1]">
-            <DisplayName>reserved area</DisplayName>
+            <DisplayName>Reserved area</DisplayName>
             <Maximum>100</Maximum>
             <Increment>1</Increment>
             <SortID>101</SortID>
@@ -150,7 +150,7 @@
             <SortID>18</SortID>
         </Field>
         <Field Def="dummy8 pad2[1]">
-            <DisplayName>reserved area</DisplayName>
+            <DisplayName>Reserved area</DisplayName>
             <Maximum>100</Maximum>
             <Increment>1</Increment>
             <SortID>102</SortID>

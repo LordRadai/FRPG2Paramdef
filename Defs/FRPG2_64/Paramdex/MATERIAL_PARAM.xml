@@ -17,7 +17,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="dummy8 padding[3]">
-            <DisplayName>reservation</DisplayName>
+            <DisplayName>Reservation</DisplayName>
             <SortID>4</SortID>
         </Field>
     </Fields>

@@ -7,7 +7,7 @@
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="s8 spellSlot">
-            <DisplayName>spell slot</DisplayName>
+            <DisplayName>Spell slot</DisplayName>
             <Enum>LevelStatTypes</Enum>
             <Maximum>11</Maximum>
             <Increment>1</Increment>
@@ -28,7 +28,7 @@
             <SortID>100</SortID>
         </Field>
         <Field Def="s8 staminaMax">
-            <DisplayName>stamina</DisplayName>
+            <DisplayName>Stamina</DisplayName>
             <Enum>LevelStatTypes</Enum>
             <Maximum>11</Maximum>
             <Increment>1</Increment>
@@ -77,7 +77,7 @@
             <SortID>700</SortID>
         </Field>
         <Field Def="s8 darkAttack">
-            <DisplayName>darkness attack power</DisplayName>
+            <DisplayName>Darkness attack power</DisplayName>
             <Enum>LevelStatTypes</Enum>
             <Maximum>11</Maximum>
             <Increment>1</Increment>
@@ -175,28 +175,28 @@
             <SortID>1050</SortID>
         </Field>
         <Field Def="s8 magicResistance">
-            <DisplayName>magic resistance</DisplayName>
+            <DisplayName>Magic resistance</DisplayName>
             <Enum>LevelStatTypes</Enum>
             <Maximum>11</Maximum>
             <Increment>1</Increment>
             <SortID>600</SortID>
         </Field>
         <Field Def="s8 flameResistance">
-            <DisplayName>flame resistance</DisplayName>
+            <DisplayName>Flame resistance</DisplayName>
             <Enum>LevelStatTypes</Enum>
             <Maximum>11</Maximum>
             <Increment>1</Increment>
             <SortID>600</SortID>
         </Field>
         <Field Def="s8 lightningResistance">
-            <DisplayName>lightning resistance</DisplayName>
+            <DisplayName>Lightning resistance</DisplayName>
             <Enum>LevelStatTypes</Enum>
             <Maximum>11</Maximum>
             <Increment>1</Increment>
             <SortID>700</SortID>
         </Field>
         <Field Def="s8 darkResistance">
-            <DisplayName>darkness resistance</DisplayName>
+            <DisplayName>Darkness resistance</DisplayName>
             <Enum>LevelStatTypes</Enum>
             <Maximum>11</Maximum>
             <Increment>1</Increment>

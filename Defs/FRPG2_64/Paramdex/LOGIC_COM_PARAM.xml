@@ -27,7 +27,7 @@
             <SortID>5</SortID>
         </Field>
         <Field Def="f32 viewingBackDistance = 5">
-            <DisplayName>rear visibility distance</DisplayName>
+            <DisplayName>Rear visibility distance</DisplayName>
             <Maximum>1000</Maximum>
             <Increment>1</Increment>
             <SortID>6</SortID>
@@ -45,7 +45,7 @@
             <SortID>8</SortID>
         </Field>
         <Field Def="f32 nightBlindRate = 70">
-            <DisplayName>darkness magnification</DisplayName>
+            <DisplayName>Darkness magnification</DisplayName>
             <Maximum>100</Maximum>
             <Increment>1</Increment>
             <SortID>9</SortID>
@@ -63,7 +63,7 @@
             <SortID>11</SortID>
         </Field>
         <Field Def="u32 hearingSensitivity = 2">
-            <DisplayName>sound recognition sensitivity</DisplayName>
+            <DisplayName>Sound recognition sensitivity</DisplayName>
             <Maximum>10</Maximum>
             <Increment>1</Increment>
             <SortID>12</SortID>
@@ -103,7 +103,7 @@
             <SortID>5</SortID>
         </Field>
         <Field Def="u8 useDoor">
-            <DisplayName>do you use the door</DisplayName>
+            <DisplayName>Do you use the door</DisplayName>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
@@ -168,7 +168,7 @@
             <SortID>25</SortID>
         </Field>
         <Field Def="u8 itemPursuitTable">
-            <DisplayName>item tracking table</DisplayName>
+            <DisplayName>Item tracking table</DisplayName>
             <Enum>LOGIC_PROBABILITY_TABLE_TYPE</Enum>
             <Maximum>99</Maximum>
             <Increment>1</Increment>
@@ -194,20 +194,20 @@
             <SortID>112</SortID>
         </Field>
         <Field Def="u8 backAttackTable">
-            <DisplayName>back attack table</DisplayName>
+            <DisplayName>Back attack table</DisplayName>
             <Enum>LOGIC_PROBABILITY_TABLE_TYPE</Enum>
             <Maximum>99</Maximum>
             <Increment>1</Increment>
             <SortID>121</SortID>
         </Field>
         <Field Def="u8 backAttackActionNo">
-            <DisplayName>rear attack action</DisplayName>
+            <DisplayName>Rear attack action</DisplayName>
             <Maximum>99</Maximum>
             <Increment>1</Increment>
             <SortID>122</SortID>
         </Field>
         <Field Def="dummy8 dummy[1]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>193</SortID>
         </Field>
         <Field Def="f32 itemPursuitDistance = 2">
@@ -250,14 +250,14 @@
             <SortID>141</SortID>
         </Field>
         <Field Def="u8 healProbabilityTable">
-            <DisplayName>recovery table</DisplayName>
+            <DisplayName>Recovery table</DisplayName>
             <Enum>LOGIC_PROBABILITY_TABLE_TYPE</Enum>
             <Maximum>99</Maximum>
             <Increment>1</Increment>
             <SortID>125</SortID>
         </Field>
         <Field Def="u8 healActionNo">
-            <DisplayName>recovery behavior</DisplayName>
+            <DisplayName>Recovery behavior</DisplayName>
             <Maximum>99</Maximum>
             <Increment>1</Increment>
             <SortID>126</SortID>
@@ -276,7 +276,7 @@
             <SortID>150</SortID>
         </Field>
         <Field Def="f32 autoBreakPower = 0.3">
-            <DisplayName>automatic brake strength</DisplayName>
+            <DisplayName>Automatic brake strength</DisplayName>
             <Maximum>3</Maximum>
             <Increment>0.0099999998</Increment>
             <SortID>160</SortID>
@@ -318,7 +318,7 @@
             <SortID>192</SortID>
         </Field>
         <Field Def="dummy8 pad00[23]">
-            <DisplayName>reservation</DisplayName>
+            <DisplayName>Reservation</DisplayName>
             <SortID>194</SortID>
         </Field>
     </Fields>

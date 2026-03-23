@@ -31,7 +31,7 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="f32 frequency = 1">
-            <DisplayName>period</DisplayName>
+            <DisplayName>Period</DisplayName>
             <Description>周期</Description>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>60</Maximum>
@@ -47,7 +47,7 @@
             <SortID>5</SortID>
         </Field>
         <Field Def="f32 middleScale = 1">
-            <DisplayName>midpoint scale</DisplayName>
+            <DisplayName>Midpoint scale</DisplayName>
             <Description>B-Spline中間点スケール</Description>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>1</Maximum>

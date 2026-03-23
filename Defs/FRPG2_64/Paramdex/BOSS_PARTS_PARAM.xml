@@ -16,7 +16,7 @@
             <SortID>100</SortID>
         </Field>
         <Field Def="s8 damageAnimId = -1">
-            <DisplayName>damage anime number</DisplayName>
+            <DisplayName>Damage anime number</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -25,7 +25,7 @@
             <SortID>100</SortID>
         </Field>
         <Field Def="dummy8 reserved[2]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>101</SortID>
         </Field>
         <Field Def="s32 material">

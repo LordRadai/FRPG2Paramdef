@@ -7,13 +7,13 @@
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="f32 priority">
-            <DisplayName>priority</DisplayName>
+            <DisplayName>Priority</DisplayName>
             <Maximum>1000</Maximum>
             <Increment>0.1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="f32 radius">
-            <DisplayName>radius [m]</DisplayName>
+            <DisplayName>Radius [m]</DisplayName>
             <Maximum>1000</Maximum>
             <Increment>0.1</Increment>
             <SortID>0</SortID>
@@ -31,7 +31,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="f32 frequency">
-            <DisplayName>frequency</DisplayName>
+            <DisplayName>Frequency</DisplayName>
             <Maximum>1000</Maximum>
             <Increment>0.1</Increment>
             <SortID>0</SortID>

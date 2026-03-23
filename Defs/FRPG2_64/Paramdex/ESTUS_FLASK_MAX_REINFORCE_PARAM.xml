@@ -14,14 +14,14 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="u8 maxLv = 1">
-            <DisplayName>maximum value</DisplayName>
+            <DisplayName>Maximum value</DisplayName>
             <EditFlags>Wrap</EditFlags>
             <Maximum>99</Maximum>
             <Increment>1</Increment>
             <SortID>2</SortID>
         </Field>
         <Field Def="dummy8 padding[2]">
-            <DisplayName>padding</DisplayName>
+            <DisplayName>Padding</DisplayName>
             <SortID>4</SortID>
         </Field>
     </Fields>

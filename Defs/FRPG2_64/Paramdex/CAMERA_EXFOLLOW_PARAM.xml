@@ -21,7 +21,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="dummy8 reserved0[2]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <Maximum>180</Maximum>
             <Increment>0.1</Increment>
             <SortID>80</SortID>
@@ -34,7 +34,7 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="f32 hitCollision = 0.05">
-            <DisplayName>collision size</DisplayName>
+            <DisplayName>Collision size</DisplayName>
             <Maximum>5</Maximum>
             <Increment>0.1</Increment>
             <SortID>4</SortID>
@@ -349,7 +349,7 @@
             <SortID>54</SortID>
         </Field>
         <Field Def="dummy8 reserved1[4]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>81</SortID>
         </Field>
         <Field Def="angle32 lockCamAdjustRotX_Max = 6">

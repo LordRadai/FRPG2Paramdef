@@ -7,7 +7,7 @@
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="s32 msgId">
-            <DisplayName>message ID</DisplayName>
+            <DisplayName>Message ID</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -33,7 +33,7 @@
             <SortID>300</SortID>
         </Field>
         <Field Def="u8 windowType">
-            <DisplayName>window type</DisplayName>
+            <DisplayName>Window type</DisplayName>
             <Enum>NPC_TALK_WINDOW_TYPE_ENUM</Enum>
             <DisplayFormat>%s</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -42,7 +42,7 @@
             <SortID>400</SortID>
         </Field>
         <Field Def="u8 bNextPlay">
-            <DisplayName>continuous conversation</DisplayName>
+            <DisplayName>Continuous conversation</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1</Maximum>
@@ -58,7 +58,7 @@
             <SortID>700</SortID>
         </Field>
         <Field Def="f32 endWaitTime">
-            <DisplayName>waiting time</DisplayName>
+            <DisplayName>Waiting time</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>60</Maximum>

@@ -54,14 +54,14 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="u8 isWaterSurface">
-            <DisplayName>water surface</DisplayName>
+            <DisplayName>Water surface</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <EditFlags>Wrap</EditFlags>
             <Increment>1</Increment>
             <SortID>1</SortID>
         </Field>
         <Field Def="u8 environment">
-            <DisplayName>environment type</DisplayName>
+            <DisplayName>Environment type</DisplayName>
             <Enum>MATERIAL_ENVIRONMENT_TYPE_ENUM</Enum>
             <EditFlags>Wrap</EditFlags>
             <Increment>1</Increment>

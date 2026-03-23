@@ -7,7 +7,7 @@
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="u8 consumeType">
-            <DisplayName>calculation formula</DisplayName>
+            <DisplayName>Calculation formula</DisplayName>
             <Enum>SPELL_SOUL_CONSUME_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>10</Maximum>

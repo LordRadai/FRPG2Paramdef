@@ -165,7 +165,7 @@
             <SortID>41</SortID>
         </Field>
         <Field Def="dummy8 dummy1:2">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>2001</SortID>
         </Field>
         <Field Def="u8 breakObjMakeStateId">
@@ -191,7 +191,7 @@
             <SortID>2000</SortID>
         </Field>
         <Field Def="dummy8 dummy2[3]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>2002</SortID>
         </Field>
         <Field Def="u32 itemLotId">

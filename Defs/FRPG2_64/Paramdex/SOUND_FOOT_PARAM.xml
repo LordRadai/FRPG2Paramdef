@@ -7,14 +7,14 @@
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="u16 modelId">
-            <DisplayName>model id</DisplayName>
+            <DisplayName>Model id</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>9999</Maximum>
             <Increment>1</Increment>
             <SortID>1</SortID>
         </Field>
         <Field Def="u8 type">
-            <DisplayName>kinds</DisplayName>
+            <DisplayName>Kinds</DisplayName>
             <Enum>SOUND_FOOT_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
@@ -22,7 +22,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="dummy8 aReserved[1]">
-            <DisplayName>reserved area</DisplayName>
+            <DisplayName>Reserved area</DisplayName>
             <SortID>2</SortID>
         </Field>
     </Fields>

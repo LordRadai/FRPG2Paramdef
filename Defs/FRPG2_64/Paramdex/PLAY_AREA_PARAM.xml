@@ -28,7 +28,7 @@
             <SortID>2100</SortID>
         </Field>
         <Field Def="u8 multiPlayType">
-            <DisplayName>area type</DisplayName>
+            <DisplayName>Area type</DisplayName>
             <Enum>PLAY_AREA_MULTIPLAY_ENUM</Enum>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>1000</Maximum>
@@ -65,7 +65,7 @@
             <SortID>3004</SortID>
         </Field>
         <Field Def="dummy8 dummy[2]">
-            <DisplayName>padding</DisplayName>
+            <DisplayName>Padding</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>1000</Maximum>
             <Increment>1</Increment>

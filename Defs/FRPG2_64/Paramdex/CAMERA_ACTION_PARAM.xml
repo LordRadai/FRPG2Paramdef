@@ -21,7 +21,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="dummy8 reserved[2]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>0</SortID>
         </Field>
         <Field Def="angle32 fovY = 55">

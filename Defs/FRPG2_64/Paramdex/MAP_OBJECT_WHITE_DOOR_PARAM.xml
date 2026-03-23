@@ -16,7 +16,7 @@
             <SortID>100</SortID>
         </Field>
         <Field Def="dummy8 aReserved[3]">
-            <DisplayName>reservation</DisplayName>
+            <DisplayName>Reservation</DisplayName>
             <SortID>801</SortID>
         </Field>
         <Field Def="f32 waitTime">

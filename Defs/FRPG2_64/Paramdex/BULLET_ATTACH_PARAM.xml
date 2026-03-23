@@ -13,25 +13,25 @@
             <SortID>100</SortID>
         </Field>
         <Field Def="dummy8 dummy[3]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>401</SortID>
         </Field>
         <Field Def="f32 part1OffsetPosX">
-            <DisplayName>position offset</DisplayName>
+            <DisplayName>Position offset</DisplayName>
             <Minimum>-100</Minimum>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>100</SortID>
         </Field>
         <Field Def="f32 part1OffsetPosY">
-            <DisplayName>position offset Y</DisplayName>
+            <DisplayName>Position offset Y</DisplayName>
             <Minimum>-100</Minimum>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>100</SortID>
         </Field>
         <Field Def="f32 part1OffsetPosZ">
-            <DisplayName>position offset Z</DisplayName>
+            <DisplayName>Position offset Z</DisplayName>
             <Minimum>-100</Minimum>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
@@ -101,25 +101,25 @@
             <SortID>200</SortID>
         </Field>
         <Field Def="dummy8 dummy1[3]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>402</SortID>
         </Field>
         <Field Def="f32 part2OffsetPosX">
-            <DisplayName>position offset</DisplayName>
+            <DisplayName>Position offset</DisplayName>
             <Minimum>-100</Minimum>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>200</SortID>
         </Field>
         <Field Def="f32 part2OffsetPosY">
-            <DisplayName>position offset Y</DisplayName>
+            <DisplayName>Position offset Y</DisplayName>
             <Minimum>-100</Minimum>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>200</SortID>
         </Field>
         <Field Def="f32 part2OffsetPosZ">
-            <DisplayName>position offset Z</DisplayName>
+            <DisplayName>Position offset Z</DisplayName>
             <Minimum>-100</Minimum>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
@@ -189,25 +189,25 @@
             <SortID>300</SortID>
         </Field>
         <Field Def="dummy8 dummy2[3]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>403</SortID>
         </Field>
         <Field Def="f32 part3OffsetPosX">
-            <DisplayName>position offset</DisplayName>
+            <DisplayName>Position offset</DisplayName>
             <Minimum>-100</Minimum>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>300</SortID>
         </Field>
         <Field Def="f32 part3OffsetPosY">
-            <DisplayName>position offset Y</DisplayName>
+            <DisplayName>Position offset Y</DisplayName>
             <Minimum>-100</Minimum>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>300</SortID>
         </Field>
         <Field Def="f32 part3OffsetPosZ">
-            <DisplayName>position offset Z</DisplayName>
+            <DisplayName>Position offset Z</DisplayName>
             <Minimum>-100</Minimum>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
@@ -277,25 +277,25 @@
             <SortID>400</SortID>
         </Field>
         <Field Def="dummy8 dummy3[3]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>404</SortID>
         </Field>
         <Field Def="f32 part4OffsetPosX">
-            <DisplayName>position offset</DisplayName>
+            <DisplayName>Position offset</DisplayName>
             <Minimum>-100</Minimum>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>400</SortID>
         </Field>
         <Field Def="f32 part4OffsetPosY">
-            <DisplayName>position offset Y</DisplayName>
+            <DisplayName>Position offset Y</DisplayName>
             <Minimum>-100</Minimum>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>400</SortID>
         </Field>
         <Field Def="f32 part4OffsetPosZ">
-            <DisplayName>position offset Z</DisplayName>
+            <DisplayName>Position offset Z</DisplayName>
             <Minimum>-100</Minimum>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>

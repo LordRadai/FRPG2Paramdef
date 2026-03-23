@@ -7,21 +7,21 @@
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="f32 none = 1">
-            <DisplayName>host</DisplayName>
+            <DisplayName>Host</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>10</Maximum>
             <Increment>0.0099999998</Increment>
             <SortID>1</SortID>
         </Field>
         <Field Def="f32 white = 1">
-            <DisplayName>white spirit</DisplayName>
+            <DisplayName>White spirit</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>10</Maximum>
             <Increment>0.0099999998</Increment>
             <SortID>2</SortID>
         </Field>
         <Field Def="f32 smallWhite = 1">
-            <DisplayName>small white spirit</DisplayName>
+            <DisplayName>Small white spirit</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>10</Maximum>
             <Increment>0.0099999998</Increment>
@@ -35,7 +35,7 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="f32 smallGold = 1">
-            <DisplayName>small gold spirit</DisplayName>
+            <DisplayName>Small gold spirit</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>10</Maximum>
             <Increment>0.0099999998</Increment>
@@ -98,21 +98,21 @@
             <SortID>13</SortID>
         </Field>
         <Field Def="f32 dragon = 1">
-            <DisplayName>dragon spirit</DisplayName>
+            <DisplayName>Dragon spirit</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>10</Maximum>
             <Increment>0.0099999998</Increment>
             <SortID>14</SortID>
         </Field>
         <Field Def="f32 mirrorKnight = 1">
-            <DisplayName>mirror night spirit</DisplayName>
+            <DisplayName>Mirror night spirit</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>10</Maximum>
             <Increment>0.0099999998</Increment>
             <SortID>15</SortID>
         </Field>
         <Field Def="f32 abyss = 1">
-            <DisplayName>abyssal spirit</DisplayName>
+            <DisplayName>Abyssal spirit</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>10</Maximum>
             <Increment>0.0099999998</Increment>

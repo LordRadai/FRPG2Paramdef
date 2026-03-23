@@ -12,7 +12,7 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="u8 maxStamina:1">
-            <DisplayName>maximum stamina</DisplayName>
+            <DisplayName>Maximum stamina</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <SortID>2</SortID>
         </Field>
@@ -27,7 +27,7 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="u8 spellChantingSpeed:1">
-            <DisplayName>spell casting speed</DisplayName>
+            <DisplayName>Spell casting speed</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <SortID>5</SortID>
         </Field>
@@ -82,7 +82,7 @@
             <SortID>15</SortID>
         </Field>
         <Field Def="u8 resistanceFire:1">
-            <DisplayName>flame resistance</DisplayName>
+            <DisplayName>Flame resistance</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <SortID>16</SortID>
         </Field>
@@ -117,27 +117,27 @@
             <SortID>22</SortID>
         </Field>
         <Field Def="u8 actionSpeed:1">
-            <DisplayName>agile</DisplayName>
+            <DisplayName>Agile</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <SortID>23</SortID>
         </Field>
         <Field Def="u8 fortitude:1">
-            <DisplayName>toughness</DisplayName>
+            <DisplayName>Toughness</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <SortID>24</SortID>
         </Field>
         <Field Def="u8 primaryLeftHand:1">
-            <DisplayName>left hand first weapon</DisplayName>
+            <DisplayName>Left hand first weapon</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <SortID>25</SortID>
         </Field>
         <Field Def="u8 secondaryLeftHand:1">
-            <DisplayName>left hand second weapon</DisplayName>
+            <DisplayName>Left hand second weapon</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <SortID>26</SortID>
         </Field>
         <Field Def="u8 thirdlyLeftHand:1">
-            <DisplayName>left hand third weapon</DisplayName>
+            <DisplayName>Left hand third weapon</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <SortID>27</SortID>
         </Field>
@@ -147,12 +147,12 @@
             <SortID>28</SortID>
         </Field>
         <Field Def="u8 secondaryRightHand:1">
-            <DisplayName>right hand second weapon</DisplayName>
+            <DisplayName>Right hand second weapon</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <SortID>29</SortID>
         </Field>
         <Field Def="u8 thirdlyRightHan:1">
-            <DisplayName>right hand third weapon</DisplayName>
+            <DisplayName>Right hand third weapon</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <SortID>30</SortID>
         </Field>
@@ -172,16 +172,16 @@
             <SortID>33</SortID>
         </Field>
         <Field Def="u8 defensePoise:1">
-            <DisplayName>toughness</DisplayName>
+            <DisplayName>Toughness</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <SortID>34</SortID>
         </Field>
         <Field Def="dummy8 dummy00:6">
-            <DisplayName>dummy 0</DisplayName>
+            <DisplayName>Dummy 0</DisplayName>
             <SortID>37</SortID>
         </Field>
         <Field Def="dummy8 dummy01[3]">
-            <DisplayName>dummy 1</DisplayName>
+            <DisplayName>Dummy 1</DisplayName>
             <SortID>38</SortID>
         </Field>
     </Fields>

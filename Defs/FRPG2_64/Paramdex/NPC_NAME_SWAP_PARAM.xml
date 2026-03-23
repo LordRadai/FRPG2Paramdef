@@ -7,7 +7,7 @@
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="u32 changeNameFlagId">
-            <DisplayName>replacement flag</DisplayName>
+            <DisplayName>Replacement flag</DisplayName>
             <Enum>EVENT_FLAG_GLOBAL_TALK</Enum>
             <DisplayFormat>%s</DisplayFormat>
             <Maximum>1e+08</Maximum>

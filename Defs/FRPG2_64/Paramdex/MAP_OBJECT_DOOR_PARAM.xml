@@ -7,14 +7,14 @@
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="u8 doorType">
-            <DisplayName>door type</DisplayName>
+            <DisplayName>Door type</DisplayName>
             <Enum>DOOR_TYPE_ENUM</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <SortID>100</SortID>
         </Field>
         <Field Def="dummy8 aReserved[3]">
-            <DisplayName>reservation</DisplayName>
+            <DisplayName>Reservation</DisplayName>
             <SortID>211</SortID>
         </Field>
         <Field Def="u32 openKeyGuideParam">

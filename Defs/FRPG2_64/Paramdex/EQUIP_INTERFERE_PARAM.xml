@@ -14,7 +14,7 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="u8 cullingPriorityNeck0 = 127">
-            <DisplayName>neck-display priority</DisplayName>
+            <DisplayName>Neck-display priority</DisplayName>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>2</SortID>
@@ -63,7 +63,7 @@
             <SortID>9</SortID>
         </Field>
         <Field Def="u8 cullingGroup00_0">
-            <DisplayName>culling group 0</DisplayName>
+            <DisplayName>Culling group 0</DisplayName>
             <Enum>EQUIP_CULLING_GROUP_CTRL</Enum>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -231,7 +231,7 @@
             <SortID>33</SortID>
         </Field>
         <Field Def="u8 cullingGroup24_0">
-            <DisplayName>culling group 24</DisplayName>
+            <DisplayName>Culling group 24</DisplayName>
             <Enum>EQUIP_CULLING_GROUP_CTRL</Enum>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -245,7 +245,7 @@
             <SortID>35</SortID>
         </Field>
         <Field Def="u8 cullingGroup26_0">
-            <DisplayName>culling group 26</DisplayName>
+            <DisplayName>Culling group 26</DisplayName>
             <Enum>EQUIP_CULLING_GROUP_CTRL</Enum>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -273,7 +273,7 @@
             <SortID>39</SortID>
         </Field>
         <Field Def="u8 cullingGroup30_0">
-            <DisplayName>culling group 30</DisplayName>
+            <DisplayName>Culling group 30</DisplayName>
             <Enum>EQUIP_CULLING_GROUP_CTRL</Enum>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -343,7 +343,7 @@
             <SortID>49</SortID>
         </Field>
         <Field Def="u8 cullingGroup40_0">
-            <DisplayName>culling group 40</DisplayName>
+            <DisplayName>Culling group 40</DisplayName>
             <Enum>EQUIP_CULLING_GROUP_CTRL</Enum>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -385,7 +385,7 @@
             <SortID>55</SortID>
         </Field>
         <Field Def="u8 cullingGroup46_0">
-            <DisplayName>culling group 46</DisplayName>
+            <DisplayName>Culling group 46</DisplayName>
             <Enum>EQUIP_CULLING_GROUP_CTRL</Enum>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -399,7 +399,7 @@
             <SortID>57</SortID>
         </Field>
         <Field Def="u8 cullingGroup48_0">
-            <DisplayName>culling group 48</DisplayName>
+            <DisplayName>Culling group 48</DisplayName>
             <Enum>EQUIP_CULLING_GROUP_CTRL</Enum>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -413,7 +413,7 @@
             <SortID>59</SortID>
         </Field>
         <Field Def="u8 cullingGroup50_0">
-            <DisplayName>culling group 50</DisplayName>
+            <DisplayName>Culling group 50</DisplayName>
             <Enum>EQUIP_CULLING_GROUP_CTRL</Enum>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -455,7 +455,7 @@
             <SortID>65</SortID>
         </Field>
         <Field Def="u8 cullingGroup56_0">
-            <DisplayName>culling group 56</DisplayName>
+            <DisplayName>Culling group 56</DisplayName>
             <Enum>EQUIP_CULLING_GROUP_CTRL</Enum>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -469,35 +469,35 @@
             <SortID>67</SortID>
         </Field>
         <Field Def="u8 cullingGroup58_0">
-            <DisplayName>culling group 58</DisplayName>
+            <DisplayName>Culling group 58</DisplayName>
             <Enum>EQUIP_CULLING_GROUP_CTRL</Enum>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>68</SortID>
         </Field>
         <Field Def="u8 cullingGroup59_0">
-            <DisplayName>culling group 59</DisplayName>
+            <DisplayName>Culling group 59</DisplayName>
             <Enum>EQUIP_CULLING_GROUP_CTRL</Enum>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>69</SortID>
         </Field>
         <Field Def="u8 cullingGroup60_0">
-            <DisplayName>culling group 60</DisplayName>
+            <DisplayName>Culling group 60</DisplayName>
             <Enum>EQUIP_CULLING_GROUP_CTRL</Enum>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>70</SortID>
         </Field>
         <Field Def="u8 cullingGroup61_0">
-            <DisplayName>culling group 61</DisplayName>
+            <DisplayName>Culling group 61</DisplayName>
             <Enum>EQUIP_CULLING_GROUP_CTRL</Enum>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>71</SortID>
         </Field>
         <Field Def="u8 cullingGroup62_0">
-            <DisplayName>culling group 62</DisplayName>
+            <DisplayName>Culling group 62</DisplayName>
             <Enum>EQUIP_CULLING_GROUP_CTRL</Enum>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -511,7 +511,7 @@
             <SortID>73</SortID>
         </Field>
         <Field Def="u8 cullingPriorityNeck1 = 127">
-            <DisplayName>neck-display priority</DisplayName>
+            <DisplayName>Neck-display priority</DisplayName>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>74</SortID>
@@ -560,7 +560,7 @@
             <SortID>81</SortID>
         </Field>
         <Field Def="u8 cullingGroup00_1">
-            <DisplayName>culling group 0</DisplayName>
+            <DisplayName>Culling group 0</DisplayName>
             <Enum>EQUIP_CULLING_GROUP_CTRL</Enum>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -728,7 +728,7 @@
             <SortID>105</SortID>
         </Field>
         <Field Def="u8 cullingGroup24_1">
-            <DisplayName>culling group 24</DisplayName>
+            <DisplayName>Culling group 24</DisplayName>
             <Enum>EQUIP_CULLING_GROUP_CTRL</Enum>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -742,7 +742,7 @@
             <SortID>107</SortID>
         </Field>
         <Field Def="u8 cullingGroup26_1">
-            <DisplayName>culling group 26</DisplayName>
+            <DisplayName>Culling group 26</DisplayName>
             <Enum>EQUIP_CULLING_GROUP_CTRL</Enum>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -770,7 +770,7 @@
             <SortID>111</SortID>
         </Field>
         <Field Def="u8 cullingGroup30_1">
-            <DisplayName>culling group 30</DisplayName>
+            <DisplayName>Culling group 30</DisplayName>
             <Enum>EQUIP_CULLING_GROUP_CTRL</Enum>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -840,7 +840,7 @@
             <SortID>121</SortID>
         </Field>
         <Field Def="u8 cullingGroup40_1">
-            <DisplayName>culling group 40</DisplayName>
+            <DisplayName>Culling group 40</DisplayName>
             <Enum>EQUIP_CULLING_GROUP_CTRL</Enum>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -882,7 +882,7 @@
             <SortID>127</SortID>
         </Field>
         <Field Def="u8 cullingGroup46_1">
-            <DisplayName>culling group 46</DisplayName>
+            <DisplayName>Culling group 46</DisplayName>
             <Enum>EQUIP_CULLING_GROUP_CTRL</Enum>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -896,7 +896,7 @@
             <SortID>129</SortID>
         </Field>
         <Field Def="u8 cullingGroup48_1">
-            <DisplayName>culling group 48</DisplayName>
+            <DisplayName>Culling group 48</DisplayName>
             <Enum>EQUIP_CULLING_GROUP_CTRL</Enum>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -910,7 +910,7 @@
             <SortID>131</SortID>
         </Field>
         <Field Def="u8 cullingGroup50_1">
-            <DisplayName>culling group 50</DisplayName>
+            <DisplayName>Culling group 50</DisplayName>
             <Enum>EQUIP_CULLING_GROUP_CTRL</Enum>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -952,7 +952,7 @@
             <SortID>137</SortID>
         </Field>
         <Field Def="u8 cullingGroup56_1">
-            <DisplayName>culling group 56</DisplayName>
+            <DisplayName>Culling group 56</DisplayName>
             <Enum>EQUIP_CULLING_GROUP_CTRL</Enum>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -966,35 +966,35 @@
             <SortID>139</SortID>
         </Field>
         <Field Def="u8 cullingGroup58_1">
-            <DisplayName>culling group 58</DisplayName>
+            <DisplayName>Culling group 58</DisplayName>
             <Enum>EQUIP_CULLING_GROUP_CTRL</Enum>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>140</SortID>
         </Field>
         <Field Def="u8 cullingGroup59_1">
-            <DisplayName>culling group 59</DisplayName>
+            <DisplayName>Culling group 59</DisplayName>
             <Enum>EQUIP_CULLING_GROUP_CTRL</Enum>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>141</SortID>
         </Field>
         <Field Def="u8 cullingGroup60_1">
-            <DisplayName>culling group 60</DisplayName>
+            <DisplayName>Culling group 60</DisplayName>
             <Enum>EQUIP_CULLING_GROUP_CTRL</Enum>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>142</SortID>
         </Field>
         <Field Def="u8 cullingGroup61_1">
-            <DisplayName>culling group 61</DisplayName>
+            <DisplayName>Culling group 61</DisplayName>
             <Enum>EQUIP_CULLING_GROUP_CTRL</Enum>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>143</SortID>
         </Field>
         <Field Def="u8 cullingGroup62_1">
-            <DisplayName>culling group 62</DisplayName>
+            <DisplayName>Culling group 62</DisplayName>
             <Enum>EQUIP_CULLING_GROUP_CTRL</Enum>
             <Maximum>255</Maximum>
             <Increment>1</Increment>

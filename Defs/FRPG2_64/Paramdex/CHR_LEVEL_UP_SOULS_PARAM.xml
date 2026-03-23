@@ -13,7 +13,7 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="dummy8 dummy[2]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>5</SortID>
         </Field>
         <Field Def="u32 increasedSoulsFromThreshold">
@@ -23,7 +23,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="u32 necessarySouls">
-            <DisplayName>required soul</DisplayName>
+            <DisplayName>Required soul</DisplayName>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>3</SortID>

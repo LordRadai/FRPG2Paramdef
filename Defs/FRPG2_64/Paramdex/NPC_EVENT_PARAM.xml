@@ -7,7 +7,7 @@
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="u8 bShop:1">
-            <DisplayName>shop menu</DisplayName>
+            <DisplayName>Shop menu</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -43,7 +43,7 @@
             <SortID>400</SortID>
         </Field>
         <Field Def="u8 bPledge:1">
-            <DisplayName>pledge menu</DisplayName>
+            <DisplayName>Pledge menu</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -52,7 +52,7 @@
             <SortID>500</SortID>
         </Field>
         <Field Def="u8 bVotive:1">
-            <DisplayName>dedication menu</DisplayName>
+            <DisplayName>Dedication menu</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -70,7 +70,7 @@
             <SortID>700</SortID>
         </Field>
         <Field Def="u8 bBarter:1">
-            <DisplayName>barter menu</DisplayName>
+            <DisplayName>Barter menu</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -79,7 +79,7 @@
             <SortID>800</SortID>
         </Field>
         <Field Def="u8 bDecriminalize:1">
-            <DisplayName>indulgence menu</DisplayName>
+            <DisplayName>Indulgence menu</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -97,7 +97,7 @@
             <SortID>1000</SortID>
         </Field>
         <Field Def="u8 bGesture:1">
-            <DisplayName>gesture</DisplayName>
+            <DisplayName>Gesture</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -151,7 +151,7 @@
             <SortID>10030</SortID>
         </Field>
         <Field Def="u8 bTalk:1">
-            <DisplayName>talking menu</DisplayName>
+            <DisplayName>Talking menu</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -169,7 +169,7 @@
             <SortID>1700</SortID>
         </Field>
         <Field Def="u8 bLevelUp:1">
-            <DisplayName>level up</DisplayName>
+            <DisplayName>Level up</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -187,7 +187,7 @@
             <SortID>1900</SortID>
         </Field>
         <Field Def="u8 bPresentArmor:1">
-            <DisplayName>hand over equipment</DisplayName>
+            <DisplayName>Hand over equipment</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -214,7 +214,7 @@
             <SortID>2200</SortID>
         </Field>
         <Field Def="dummy8 reserved:1">
-            <DisplayName>reservation</DisplayName>
+            <DisplayName>Reservation</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <SortID>30011</SortID>
         </Field>
@@ -275,7 +275,7 @@
             <SortID>10</SortID>
         </Field>
         <Field Def="dummy8 aReserved[1]">
-            <DisplayName>reservation</DisplayName>
+            <DisplayName>Reservation</DisplayName>
             <SortID>30012</SortID>
         </Field>
         <Field Def="s8 eventValueChangeType">

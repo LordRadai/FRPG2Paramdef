@@ -67,7 +67,7 @@
             <SortID>10</SortID>
         </Field>
         <Field Def="dummy8 dummy[2]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>12</SortID>
         </Field>
     </Fields>

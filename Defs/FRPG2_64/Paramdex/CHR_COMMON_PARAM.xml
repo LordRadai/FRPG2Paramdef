@@ -7,7 +7,7 @@
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="s32 heightType">
-            <DisplayName>height</DisplayName>
+            <DisplayName>Height</DisplayName>
             <Enum>CHR_HEIGHT_TYPE</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>9999</Maximum>
@@ -15,7 +15,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="s32 weightType">
-            <DisplayName>body weight</DisplayName>
+            <DisplayName>Body weight</DisplayName>
             <Enum>CHR_WEIGHT_TYPE</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>9999</Maximum>
@@ -240,7 +240,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 damageWeaponType">
-            <DisplayName>damage weapon type</DisplayName>
+            <DisplayName>Damage weapon type</DisplayName>
             <Enum>DAMAGE_CHARACTER_TYPE</Enum>
             <SortID>1</SortID>
         </Field>
@@ -250,7 +250,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="dummy8 dummy0[1]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>249</SortID>
         </Field>
         <Field Def="f32 deadTimerA">
@@ -294,7 +294,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="s32 collisionType">
-            <DisplayName>moving collision type</DisplayName>
+            <DisplayName>Moving collision type</DisplayName>
             <Enum>CHR_COLLISION_TYPE</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>9999</Maximum>
@@ -393,7 +393,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="f32 flyCtrlValue">
-            <DisplayName>flight braking rate</DisplayName>
+            <DisplayName>Flight braking rate</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>100</Maximum>
@@ -401,7 +401,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 lockPointType">
-            <DisplayName>lock point type</DisplayName>
+            <DisplayName>Lock point type</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
@@ -409,7 +409,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="dummy8 lockDummy[3]">
-            <DisplayName>lock control dummy</DisplayName>
+            <DisplayName>Lock control dummy</DisplayName>
             <SortID>250</SortID>
         </Field>
         <Field Def="u32 lockCameraCategory">
@@ -501,7 +501,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 headShotEnable">
-            <DisplayName>head shot</DisplayName>
+            <DisplayName>Head shot</DisplayName>
             <Enum>BOOL_ENABLEDISABLE_TYPE</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
@@ -509,7 +509,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 guardBreakEnable">
-            <DisplayName>guard break</DisplayName>
+            <DisplayName>Guard break</DisplayName>
             <Enum>BOOL_ENABLEDISABLE_TYPE</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
@@ -517,7 +517,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 backStabEnable">
-            <DisplayName>back stab</DisplayName>
+            <DisplayName>Back stab</DisplayName>
             <Enum>BOOL_ENABLEDISABLE_TYPE</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
@@ -525,7 +525,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 parryBreakStabEnable">
-            <DisplayName>parry break stab</DisplayName>
+            <DisplayName>Parry break stab</DisplayName>
             <Enum>BOOL_ENABLEDISABLE_TYPE</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
@@ -549,7 +549,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 guardBreakStabEnable">
-            <DisplayName>guard break stab</DisplayName>
+            <DisplayName>Guard break stab</DisplayName>
             <Enum>BOOL_ENABLEDISABLE_TYPE</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
@@ -557,7 +557,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="dummy8 pad0[3]">
-            <DisplayName>padding</DisplayName>
+            <DisplayName>Padding</DisplayName>
             <SortID>251</SortID>
         </Field>
         <Field Def="f32 downAttackLength = 2">
@@ -665,7 +665,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 lowerEnable">
-            <DisplayName>lower body damage</DisplayName>
+            <DisplayName>Lower body damage</DisplayName>
             <Enum>BOOL_ENABLEDISABLE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -674,7 +674,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="dummy8 pad1[3]">
-            <DisplayName>padding</DisplayName>
+            <DisplayName>Padding</DisplayName>
             <SortID>252</SortID>
         </Field>
         <Field Def="f32 lowerDmgBendingValue = 100">
@@ -915,7 +915,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="dummy8 dummy1[3]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>253</SortID>
         </Field>
         <Field Def="f32 hitLowerBodyHeight">
@@ -1030,7 +1030,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="dummy8 lookAtDummy[3]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>254</SortID>
         </Field>
         <Field Def="angle32 fShootingLookAtRotationLeftMax">
@@ -1105,7 +1105,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="dummy8 shootingLookAtDummy[3]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>255</SortID>
         </Field>
         <Field Def="u8 footDummyPoly001">
@@ -1189,7 +1189,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="f32 footRayMargin">
-            <DisplayName>foot effect margin</DisplayName>
+            <DisplayName>Foot effect margin</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>10</Maximum>
@@ -1277,7 +1277,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="dummy8 footSoundDummy[3]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>256</SortID>
         </Field>
         <Field Def="f32 single1HandNormal">
@@ -1354,7 +1354,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="dummy8 partsDummy[3] = 1">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>100</Maximum>
@@ -1450,7 +1450,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 isSlopeAdjust">
-            <DisplayName>always follow the slope</DisplayName>
+            <DisplayName>Always follow the slope</DisplayName>
             <Enum>BOOL_ENABLEDISABLE_TYPE</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1</Maximum>
@@ -1458,7 +1458,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="dummy8 slopeAdjustDummy[3]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>257</SortID>
         </Field>
         <Field Def="f32 slopeAdjustPitchMax = 90">
@@ -1537,7 +1537,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="dummy8 fallStabDummy[3]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>258</SortID>
         </Field>
         <Field Def="f32 fallStabDistance = 1">
@@ -1847,7 +1847,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="s32 footEffectSize">
-            <DisplayName>foot effect size</DisplayName>
+            <DisplayName>Foot effect size</DisplayName>
             <Enum>CHR_WEIGHT_TYPE</Enum>
             <SortID>100</SortID>
         </Field>
@@ -1940,7 +1940,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="dummy8 takeWaterDummy[3]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>259</SortID>
         </Field>
         <Field Def="f32 bulletDamageRatePhysical = 1">
