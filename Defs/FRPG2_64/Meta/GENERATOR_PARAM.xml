@@ -1,67 +1,67 @@
 <?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <maxRespawnNum AltName="リスポーン上限数" />
-        <maxRespawnNum2ndOver AltName="2週目以降リスポーン上限数" />
-        <eventGroupId AltName="イベントグループID" />
-        <logicGroupId AltName="ロジックグループID" />
-        <respawnDisableFlag AltName="再稼動禁止フラグID" />
-        <generatorEnemyName AltName="登録エネミー名称" ProjectEnum="GENERATOR_REGIST_OBJECT" />
-        <startConditionJudgeType AltName="稼働開始条件判定" ProjectEnum="GENERATOR_JUDGE_ENUM" />
-        <startConditionCondition1 AltName="稼動開始条件1" ProjectEnum="GENERATOR_EVAL_ENUM" />
-        <startConditionCondition2 AltName="稼動開始条件2" ProjectEnum="GENERATOR_EVAL_ENUM" />
-        <startConditionCondition3 AltName="稼動開始条件3" ProjectEnum="GENERATOR_EVAL_ENUM" />
-        <startConditionParam1 AltName="稼動開始条件Param1" />
-        <startConditionParam2 AltName="稼動開始条件Param2" />
-        <startConditionParam3 AltName="稼動開始条件Param3" />
-        <stopConditionJudgeType AltName="停止条件判定" ProjectEnum="GENERATOR_JUDGE_ENUM" />
-        <stopConditionCondition1 AltName="停止条件1" ProjectEnum="GENERATOR_EVAL_ENUM" />
-        <stopConditionCondition2 AltName="停止条件2" ProjectEnum="GENERATOR_EVAL_ENUM" />
-        <stopConditionCondition3 AltName="停止条件3" ProjectEnum="GENERATOR_EVAL_ENUM" />
-        <stopConditionParam1 AltName="停止条件Param1" />
-        <stopConditionParam2 AltName="停止条件Param2" />
-        <stopConditionParam3 AltName="停止条件Param3" />
-        <logicMoveZoneId1 AltName="ロジック移動領域1" />
-        <logicMoveZoneId2 AltName="ロジック移動領域2" />
-        <logicMoveZoneId3 AltName="ロジック移動領域3" />
-        <logicMoveZoneId4 AltName="ロジック移動領域4" />
-        <logicMoveZoneId5 AltName="ロジック移動領域5" />
-        <logicMoveZoneId6 AltName="ロジック移動領域6" />
-        <infinityGenerateTime AltName="無限生成間隔" />
-        <infinityGenerate AltName="無限生成" IsBool="true" />
-        <drawGroupDeleteDisable AltName="描画グループ削除無効" IsBool="true" />
-        <bossBattleStopDisable AltName="ボス戦中非停止" IsBool="true" />
-        <hpGaugeDisable AltName="HPゲージ非表示" IsBool="true" />
-        <resetPosition AltName="見えなくなったら位置リセット" IsBool="true" />
-        <generateOverDeleteDisable AltName="上限オーバー削除無効" IsBool="true" />
-        <invincibleWithoutBossBattle AltName="ボス戦以外無敵" IsBool="true" />
-        <netUpdatePriority AltName="マルチプレイ時更新優先度" />
-        <bonfireId AltName="篝火ID" />
-        <returnDistance AltName="帰還距離" />
-        <logicNaviPoint1 AltName="ロジックナビポイント1" />
-        <logicNaviPoint2 AltName="ロジックナビポイント2" />
-        <bootLowStateId AltName="下位ロジック起動ステートID" />
-        <logicEventFlag1 AltName="イベントフラグ1" />
-        <logicEventFlag2 AltName="イベントフラグ2" />
-        <logicEventFlag3 AltName="イベントフラグ3" />
-        <logicEventFlag4 AltName="イベントフラグ4" />
-        <logicStartInterval AltName="動き出し間隔[秒]" />
-        <returnPointId1 AltName="帰還領域1" />
-        <returnPointId2 AltName="帰還領域2" />
-        <returnPointId3 AltName="帰還領域3" />
-        <logicAreaEventValue1 AltName="イベントエリア変数1" />
-        <logicAreaEventValue2 AltName="イベントエリア変数2" />
-        <logicGlobalEventValue1 AltName="イベントグローバル変数1" />
-        <logicGlobalEventValue2 AltName="イベントグローバル変数2" />
-        <decLimitTime AltName="マルチプレイ制限時間減少量" />
-        <spGenerateType AltName="特殊生成タイプ" ProjectEnum="GENERATOR_SP_GENERATE_TYPE" />
-        <instanceColor AltName="カラー" />
-        <aReserved1 AltName="予約" Padding="true" />
-        <itemId AltName="初週アイテム抽選ID" />
-        <itemId2ndOver AltName="2週目以降アイテム抽選ID" />
-        <endEventId AltName="毎生成時の終了必須イベントID" />
-        <aiReturnStandbyRange AltName="AI帰還準備距離[m]" />
-        <aiReturnType AltName="AI帰還方法" ProjectEnum="GENERATOR_AIRETURN_TYPE" />
-        <aReserved2 AltName="予約" Padding="true" />
+        <maxRespawnNum AltName="Maximum number of respawns" />
+        <maxRespawnNum2ndOver AltName="Maximum number of respawns after 2nd week" />
+        <eventGroupId AltName="Event group ID" />
+        <logicGroupId AltName="logic group ID" />
+        <respawnDisableFlag AltName="Restart prohibition flag ID" />
+        <generatorEnemyName AltName="Registered enemy name" ProjectEnum="GENERATOR_REGIST_OBJECT" />
+        <startConditionJudgeType AltName="Operation start condition judgment" ProjectEnum="GENERATOR_JUDGE_ENUM" />
+        <startConditionCondition1 AltName="Operation start condition 1" ProjectEnum="GENERATOR_EVAL_ENUM" />
+        <startConditionCondition2 AltName="Operation start condition 2" ProjectEnum="GENERATOR_EVAL_ENUM" />
+        <startConditionCondition3 AltName="Operation start condition 3" ProjectEnum="GENERATOR_EVAL_ENUM" />
+        <startConditionParam1 AltName="Operation start condition Param1" />
+        <startConditionParam2 AltName="Operation start condition Param2" />
+        <startConditionParam3 AltName="Operation start condition Param3" />
+        <stopConditionJudgeType AltName="Stop condition judgment" ProjectEnum="GENERATOR_JUDGE_ENUM" />
+        <stopConditionCondition1 AltName="Stop condition 1" ProjectEnum="GENERATOR_EVAL_ENUM" />
+        <stopConditionCondition2 AltName="Stop condition 2" ProjectEnum="GENERATOR_EVAL_ENUM" />
+        <stopConditionCondition3 AltName="Stop condition 3" ProjectEnum="GENERATOR_EVAL_ENUM" />
+        <stopConditionParam1 AltName="Stop condition Param1" />
+        <stopConditionParam2 AltName="Stop condition Param2" />
+        <stopConditionParam3 AltName="Stop condition Param3" />
+        <logicMoveZoneId1 AltName="Logic movement area 1" />
+        <logicMoveZoneId2 AltName="Logic movement area 2" />
+        <logicMoveZoneId3 AltName="Logic movement area 3" />
+        <logicMoveZoneId4 AltName="Logic movement area 4" />
+        <logicMoveZoneId5 AltName="Logic movement area 5" />
+        <logicMoveZoneId6 AltName="logic movement area 6" />
+        <infinityGenerateTime AltName="infinite generation interval" />
+        <infinityGenerate AltName="infinite generation" IsBool="true" />
+        <drawGroupDeleteDisable AltName="Drawing group deletion disabled" IsBool="true" />
+        <bossBattleStopDisable AltName="Non-stop during boss battle" IsBool="true" />
+        <hpGaugeDisable AltName="HP gauge hidden" IsBool="true" />
+        <resetPosition AltName="Reset position when out of sight" IsBool="true" />
+        <generateOverDeleteDisable AltName="Upper limit over deletion disabled" IsBool="true" />
+        <invincibleWithoutBossBattle AltName="Invincible except for boss fights" IsBool="true" />
+        <netUpdatePriority AltName="Update priority during multiplayer" />
+        <bonfireId AltName="Bonfire ID" />
+        <returnDistance AltName="return distance" />
+        <logicNaviPoint1 AltName="Logic Navi Point 1" />
+        <logicNaviPoint2 AltName="Logic Navi Point 2" />
+        <bootLowStateId AltName="Lower logic activation state ID" />
+        <logicEventFlag1 AltName="event flag 1" />
+        <logicEventFlag2 AltName="event flag 2" />
+        <logicEventFlag3 AltName="event flag 3" />
+        <logicEventFlag4 AltName="event flag 4" />
+        <logicStartInterval AltName="Movement interval [seconds]" />
+        <returnPointId1 AltName="Return area 1" />
+        <returnPointId2 AltName="Return area 2" />
+        <returnPointId3 AltName="Return area 3" />
+        <logicAreaEventValue1 AltName="Event area variable 1" />
+        <logicAreaEventValue2 AltName="Event area variable 2" />
+        <logicGlobalEventValue1 AltName="event global variable 1" />
+        <logicGlobalEventValue2 AltName="event global variable 2" />
+        <decLimitTime AltName="Multiplayer time limit reduction amount" />
+        <spGenerateType AltName="Special generation type" ProjectEnum="GENERATOR_SP_GENERATE_TYPE" />
+        <instanceColor AltName="color" />
+        <aReserved1 AltName="reservation" Padding="true" />
+        <itemId AltName="First week item lottery ID" />
+        <itemId2ndOver AltName="Item lottery ID after 2nd week" />
+        <endEventId AltName="Required event ID for each generation" />
+        <aiReturnStandbyRange AltName="AI return preparation distance [m]" />
+        <aiReturnType AltName="AI return method" ProjectEnum="GENERATOR_AIRETURN_TYPE" />
+        <aReserved2 AltName="reservation" Padding="true" />
     </Field>
 </PARAMMETA>

@@ -1,108 +1,108 @@
 <?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <bulletSfxId AltName="バレットSFXID" />
-        <emitEntityType AltName="生成基準" ProjectEnum="BULLET_EMIT_ENTITY_TYPE" />
-        <emitteType AltName="発生源タイプ" ProjectEnum="BULLET_POS_TYPE" />
-        <netSync AltName="通信同期タイプ" ProjectEnum="BULLET_NET_SYNC_TYPE" />
-        <enableAutoHoming AltName="オートホーミング許可" IsBool="true" />
-        <shootOffsetY AltName="発生位置オフセットＹ" />
-        <shootOffsetX AltName="発生位置オフセットＸ" />
-        <shootOffsetZ AltName="発生位置オフセットＺ" />
-        <shootAngle AltName="Ｙ方向への加算角度" />
-        <shootAngleXZ AltName="ＸＺ方向への加算角度" />
-        <upDownCorrectAngle AltName="補正角度（上下）" />
-        <rightleftCorrectAngle AltName="補正角度（左右）" />
-        <upDownAccuracy AltName="方向精度(上下)" />
-        <rightLeftAccuracy AltName="方向精度(左右)" />
-        <upDownEstimateFuture AltName="位置予測する（上下）" IsBool="true" />
-        <rightLeftEstimateFuture AltName="位置予測する（左右）" IsBool="true" />
-        <simultaneouslyNum AltName="同時発射数" />
-        <automaticShootNum AltName="連続発射数" />
-        <simultaneouslyAngleY AltName="同時発射間隔Ｙ角度" />
-        <simultaneouslyAngleXZ AltName="同時発射間隔ＸＺ角度" />
-        <automaticInterval AltName="連続発射間隔[sec]" />
-        <automaticAngleY AltName="連続発射間隔Ｙ角度" />
-        <automaticAngleXZ AltName="連続発射間隔ＸＺ角度" />
-        <simultaneouslyLoopMax AltName="同時発射ダミポリＩＤループ設定" />
-        <automaticLoopMax AltName="連続発射ダミポリＩＤループ設定" />
-        <enableSimultaneouslyMuzzleFlash AltName="同時発射マズルフラッシュ許可" IsBool="true" />
-        <enableAutomaticMuzzleFlash AltName="連続発射マズルフラッシュ許可" IsBool="true" />
-        <bulletLife AltName="バレット寿命" />
-        <initialVelocity AltName="初速" />
-        <acceleStartTime AltName="加速度開始時間" />
-        <acceleration AltName="加速度" />
-        <maxSpeed AltName="最高速度" />
-        <weight AltName="重量[kg]" />
-        <downStartTime AltName="落下開始時間" />
-        <gravityValue AltName="落下重力倍率" />
-        <externalForce AltName="外力[m/s]" />
-        <updownRotateSpeed AltName="上下旋回初速度" />
-        <updownRotateStartTime AltName="上下旋回開始時間" />
-        <updownRotateAccel AltName="上下旋回加速度" />
-        <updownRotateMaxAngle AltName="上下旋回最高角度" />
-        <leftrightRotateSpeed AltName="左右旋回初速度" />
-        <leftrightRotateStartTime AltName="左右旋回開始時間" />
-        <leftrightRotateAccel AltName="左右旋回加速度" />
-        <leftrightRotateMaxAngle AltName="左右旋回最高角度" />
-        <homingUDType AltName="追尾方向上下設定" ProjectEnum="BULLET_UD_HOMING_TYPE" />
-        <homingLRType AltName="追尾方向左右設定" ProjectEnum="BULLET_LR_HOMING_TYPE" />
-        <pad1 AltName="パディング" Padding="true" />
-        <homingStopDistance AltName="追尾停止距離" />
-        <homingStopAngle AltName="追尾停止角度" />
-        <homingAngle AltName="追尾角度" />
-        <homingOffDisableTime AltName="追尾OFF禁止時間" />
-        <homingStartTime AltName="追尾開始時間" />
-        <quickCorrectTime AltName="補正開始時間" />
-        <quickCorrectUDAngle AltName="補正上下角度範囲" />
-        <quickCorrectLRAngle AltName="補正左右角度範囲" />
-        <penetration AltName="キャラ貫通設定" ProjectEnum="BULLET_PENETRATION_TYPE" />
-        <penetrationMap AltName="マップ貫通設定" ProjectEnum="BULLET_PENETRATION_TYPE" />
-        <penetrationObj AltName="OBJ貫通設定" ProjectEnum="BULLET_PENETRATION_TYPE" />
-        <penetrationWater AltName="水貫通設定" ProjectEnum="BULLET_PENETRATION_TYPE" />
-        <muzzleFlashSfxId AltName="マズルフラッシュSFXID" />
-        <isSfxEraseRoot AltName="SFX即削除する" IsBool="true" />
-        <isDefenderHitNetSync AltName="防御側ヒット判定にする" IsBool="true" />
-        <explosionOffsetUpDown AltName="着弾位置補正（上下）" IsBool="true" />
-        <explosionOffsetRightLeft AltName="着弾位置補正（左右）" IsBool="true" />
-        <explosionSfxId AltName="着弾SFXID" />
-        <attachSfxId AltName="刺さるSFXID" />
-        <attachLife AltName="刺さる時間[sec]" />
-        <attachOffset AltName="刺さる深さ[m]" />
-        <attachParam AltName="刺さる生成設定" Refs="BulletAttachParam" />
-        <isAttachDisableBulletDir AltName="刺さる時に方向を引き継がない" IsBool="true" />
-        <explosionForceUp AltName="着弾を上向に固定" IsBool="true" />
-        <isDeleteEqualBulletId AltName="同一IDのバレットを削除する" IsBool="true" />
-        <pad4 AltName="パディング" Padding="true" />
-        <childeBulletId AltName="子バレットID１" />
-        <childeDamageId AltName="子バレットダメージID１" />
-        <childeBulletId02 AltName="子バレットID２" />
-        <childeDamageId02 AltName="子バレットダメージID２" />
-        <childeBulletId03 AltName="子バレットID３" />
-        <childeDamageId03 AltName="子バレットダメージID３" />
-        <isChildeExplosion AltName="子バレット着弾生成" IsBool="true" />
-        <isChildeLife AltName="子バレット寿命生成" IsBool="true" />
-        <isChildeArea AltName="子バレット範囲侵入生成" IsBool="true" />
-        <isChildeContinue AltName="子バレット一定間隔生成" IsBool="true" />
-        <childeAreaRange AltName="判定距離" />
-        <childeAreaUDAngle AltName="判定角度（上下）" />
-        <childeAreaLRAngle AltName="判定角度（左右）" />
-        <childeDelay AltName="遅延時間" />
-        <decalId AltName="デカール貼り付けID" />
-        <isSpellParry AltName="スペルパリィ可能" IsBool="true" />
-        <isSpellParryNoDamageThrough AltName="スペルパリィ発生　ダメージ維持" IsBool="true" />
-        <onDamageType AltName="叩き落し" ProjectEnum="BULLET_ON_DAMAGE_TYPE" />
-        <hitbackType AltName="弾かれ可能" ProjectEnum="BULLET_HIT_BACK_TYPE" />
-        <spellParryAngleX AltName="スペルパリィ発生　弾かれ角度Ｘ" />
-        <spellParryAngleY AltName="スペルパリィ発生　弾かれ角度Ｙ" />
-        <spellParryAngleZ AltName="スペルパリィ発生　弾かれ角度Ｚ" />
-        <hitbackSfxId AltName="弾かれSFXID" />
-        <parryAngleAccuracyX AltName="弾かれ角度Ｘ　精度" />
-        <parryAngleAccuracyY AltName="弾かれ角度Ｙ　精度" />
-        <parryAngleAccuracyZ AltName="弾かれ角度Ｚ　精度" />
-        <parryAccelSpeed AltName="弾かれ時　加算速度" />
-        <childeInterval AltName="発射間隔" />
-        <homingStopTargetDistance AltName="追尾停止する対ターゲット距離[m]" />
-        <pad5 AltName="予約" Padding="true" />
+        <bulletSfxId AltName="Bullet SFXID" />
+        <emitEntityType AltName="generation criteria" ProjectEnum="BULLET_EMIT_ENTITY_TYPE" />
+        <emitteType AltName="Source type" ProjectEnum="BULLET_POS_TYPE" />
+        <netSync AltName="Communication synchronous type" ProjectEnum="BULLET_NET_SYNC_TYPE" />
+        <enableAutoHoming AltName="Autohoming permission" IsBool="true" />
+        <shootOffsetY AltName="Occurrence position offset Y" />
+        <shootOffsetX AltName="Occurrence position offset" />
+        <shootOffsetZ AltName="Occurrence position offset Z" />
+        <shootAngle AltName="Addition angle in Y direction" />
+        <shootAngleXZ AltName="Addition angle to XZ direction" />
+        <upDownCorrectAngle AltName="Correction angle (up and down)" />
+        <rightleftCorrectAngle AltName="Correction angle (left and right)" />
+        <upDownAccuracy AltName="Directional accuracy (up and down)" />
+        <rightLeftAccuracy AltName="Directional accuracy (left and right)" />
+        <upDownEstimateFuture AltName="Predict position (up and down)" IsBool="true" />
+        <rightLeftEstimateFuture AltName="Predict position (left and right)" IsBool="true" />
+        <simultaneouslyNum AltName="Number of simultaneous shots" />
+        <automaticShootNum AltName="Number of consecutive shots" />
+        <simultaneouslyAngleY AltName="Simultaneous firing interval Y angle" />
+        <simultaneouslyAngleXZ AltName="Simultaneous firing interval XZ angle" />
+        <automaticInterval AltName="Continuous firing interval [sec]" />
+        <automaticAngleY AltName="Continuous firing interval Y angle" />
+        <automaticAngleXZ AltName="Continuous firing interval XZ angle" />
+        <simultaneouslyLoopMax AltName="Simultaneous firing dummy poly ID loop setting" />
+        <automaticLoopMax AltName="Continuous firing dummy poly ID loop setting" />
+        <enableSimultaneouslyMuzzleFlash AltName="Simultaneous muzzle flash allowed" IsBool="true" />
+        <enableAutomaticMuzzleFlash AltName="Continuous muzzle flash permission" IsBool="true" />
+        <bulletLife AltName="bullet life" />
+        <initialVelocity AltName="Initial velocity" />
+        <acceleStartTime AltName="Acceleration start time" />
+        <acceleration AltName="acceleration" />
+        <maxSpeed AltName="maximum speed" />
+        <weight AltName="Weight [kg]" />
+        <downStartTime AltName="Fall start time" />
+        <gravityValue AltName="Falling gravity magnification" />
+        <externalForce AltName="External force [m/s]" />
+        <updownRotateSpeed AltName="Vertical rotation initial speed" />
+        <updownRotateStartTime AltName="Vertical rotation start time" />
+        <updownRotateAccel AltName="Vertical rotation acceleration" />
+        <updownRotateMaxAngle AltName="Maximum vertical rotation angle" />
+        <leftrightRotateSpeed AltName="Left and right turning initial speed" />
+        <leftrightRotateStartTime AltName="Left/right turn start time" />
+        <leftrightRotateAccel AltName="Left and right turning acceleration" />
+        <leftrightRotateMaxAngle AltName="Maximum left and right turning angle" />
+        <homingUDType AltName="Tracking direction up/down setting" ProjectEnum="BULLET_UD_HOMING_TYPE" />
+        <homingLRType AltName="Tracking direction left/right setting" ProjectEnum="BULLET_LR_HOMING_TYPE" />
+        <pad1 AltName="padding" Padding="true" />
+        <homingStopDistance AltName="Tracking stop distance" />
+        <homingStopAngle AltName="Tracking stop angle" />
+        <homingAngle AltName="Tracking angle" />
+        <homingOffDisableTime AltName="Tracking OFF prohibition time" />
+        <homingStartTime AltName="Tracking start time" />
+        <quickCorrectTime AltName="Correction start time" />
+        <quickCorrectUDAngle AltName="Correction vertical angle range" />
+        <quickCorrectLRAngle AltName="Correction left and right angle range" />
+        <penetration AltName="Character penetration setting" ProjectEnum="BULLET_PENETRATION_TYPE" />
+        <penetrationMap AltName="Map penetration settings" ProjectEnum="BULLET_PENETRATION_TYPE" />
+        <penetrationObj AltName="OBJ penetration setting" ProjectEnum="BULLET_PENETRATION_TYPE" />
+        <penetrationWater AltName="water penetration setting" ProjectEnum="BULLET_PENETRATION_TYPE" />
+        <muzzleFlashSfxId AltName="Muzzle flash SFXID" />
+        <isSfxEraseRoot AltName="Delete SFX immediately" IsBool="true" />
+        <isDefenderHitNetSync AltName="Defender hit detection" IsBool="true" />
+        <explosionOffsetUpDown AltName="Impact position correction (up and down)" IsBool="true" />
+        <explosionOffsetRightLeft AltName="Impact position correction (left and right)" IsBool="true" />
+        <explosionSfxId AltName="Landing SFXID" />
+        <attachSfxId AltName="SFXID that sticks" />
+        <attachLife AltName="Penetration time [sec]" />
+        <attachOffset AltName="Penetrating depth [m]" />
+        <attachParam AltName="Striking generation settings" Refs="BulletAttachParam" />
+        <isAttachDisableBulletDir AltName="Does not take over direction when stabbing" IsBool="true" />
+        <explosionForceUp AltName="Fixed bullet landing upwards" IsBool="true" />
+        <isDeleteEqualBulletId AltName="Delete a bullet with the same ID" IsBool="true" />
+        <pad4 AltName="padding" Padding="true" />
+        <childeBulletId AltName="Child bullet ID1" />
+        <childeDamageId AltName="Child bullet damage ID1" />
+        <childeBulletId02 AltName="Child bullet ID2" />
+        <childeDamageId02 AltName="Child bullet damage ID2" />
+        <childeBulletId03 AltName="Child bullet ID3" />
+        <childeDamageId03 AltName="Child bullet damage ID3" />
+        <isChildeExplosion AltName="Child bullet impact generation" IsBool="true" />
+        <isChildeLife AltName="Child bullet life generation" IsBool="true" />
+        <isChildeArea AltName="Child bullet range intrusion generation" IsBool="true" />
+        <isChildeContinue AltName="Generate child bullets at regular intervals" IsBool="true" />
+        <childeAreaRange AltName="Judgment distance" />
+        <childeAreaUDAngle AltName="Judgment angle (up and down)" />
+        <childeAreaLRAngle AltName="Judgment angle (left and right)" />
+        <childeDelay AltName="delay time" />
+        <decalId AltName="Decal pasting ID" />
+        <isSpellParry AltName="Spell parry possible" IsBool="true" />
+        <isSpellParryNoDamageThrough AltName="Spell parry occurs, damage maintained" IsBool="true" />
+        <onDamageType AltName="Knock it down" ProjectEnum="BULLET_ON_DAMAGE_TYPE" />
+        <hitbackType AltName="can be played" ProjectEnum="BULLET_HIT_BACK_TYPE" />
+        <spellParryAngleX AltName="Spell parry occurrence Repulsion angle X" />
+        <spellParryAngleY AltName="Spell parry occurs, bounce angle Y" />
+        <spellParryAngleZ AltName="Spell parry occurrence Repulsion angle Z" />
+        <hitbackSfxId AltName="Repelled SFXID" />
+        <parryAngleAccuracyX AltName="Repulsion angle X accuracy" />
+        <parryAngleAccuracyY AltName="Repulsion angle Y accuracy" />
+        <parryAngleAccuracyZ AltName="Repulsion angle Z accuracy" />
+        <parryAccelSpeed AltName="Additional speed when repelled" />
+        <childeInterval AltName="firing interval" />
+        <homingStopTargetDistance AltName="Distance to target to stop tracking [m]" />
+        <pad5 AltName="reservation" Padding="true" />
     </Field>
 </PARAMMETA>

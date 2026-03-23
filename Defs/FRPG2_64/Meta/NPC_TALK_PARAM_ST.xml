@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <msgId AltName="メッセージID" />
-        <voiceId AltName="ボイスＩD" />
-        <actionId AltName="行動ID" ProjectEnum="EVENT_VALUE_npc_action" />
-        <windowType AltName="ウィンドウタイプ" ProjectEnum="NPC_TALK_WINDOW_TYPE_ENUM" />
-        <bNextPlay AltName="連続会話" />
-        <changeNameNpcId AltName="名前差し替えフラグ変更NPCID" />
-        <endWaitTime AltName="待機時間" />
+        <msgId AltName="message ID" />
+        <voiceId AltName="Voice ID" />
+        <actionId AltName="Behavior ID" ProjectEnum="EVENT_VALUE_npc_action" />
+        <windowType AltName="window type" ProjectEnum="NPC_TALK_WINDOW_TYPE_ENUM" />
+        <bNextPlay AltName="continuous conversation" />
+        <changeNameNpcId AltName="Name replacement flag change NPCID" />
+        <endWaitTime AltName="waiting time" />
     </Field>
 </PARAMMETA>

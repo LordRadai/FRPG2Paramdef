@@ -1,44 +1,44 @@
 <?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <baseCulling AltName="通常カリンググループ" />
-        <breakCulling AltName="壊れ時カリンググループ" />
-        <disableRagdollParts AltName="壊れ時無効ラグドール部位" ProjectEnum="BOSS_RAGDOLL_PARTS_TYPE" />
-        <disableHitParts1 AltName="壊れ時無効ヒット部位１" ProjectEnum="BOSS_HIT_PARTS_TYPE" />
-        <disableHitParts2 AltName="壊れ時無効ヒット部位２" ProjectEnum="BOSS_HIT_PARTS_TYPE" />
-        <disableHitParts3 AltName="壊れ時無効ヒット部位３" ProjectEnum="BOSS_HIT_PARTS_TYPE" />
-        <disableHitParts4 AltName="壊れ時無効ヒット部位４" ProjectEnum="BOSS_HIT_PARTS_TYPE" />
-        <disableResidentSfxNo AltName="壊れ時無効にする常駐SFXグループ番号" />
-        <enableWeapon1 AltName="装備１：有効" IsBool="true" />
-        <enableWeapon2 AltName="装備２：有効" IsBool="true" />
-        <enableWeapon3 AltName="装備３：有効" IsBool="true" />
-        <enableWeapon4 AltName="装備４：有効" IsBool="true" />
-        <enableWeapon5 AltName="装備５：有効" IsBool="true" />
-        <enableWeapon6 AltName="装備６：有効" IsBool="true" />
-        <disableDamageDpId1 AltName="無効ダミポリID（ダメージ）" />
-        <disableDamageDpId2 AltName="無効ダミポリID（ダメージ）" />
-        <disableDamageDpId3 AltName="無効ダミポリID（ダメージ）" />
-        <disableDamageDpId4 AltName="無効ダミポリID（ダメージ）" />
-        <disableDamageDpId5 AltName="無効ダミポリID（ダメージ）" />
-        <disableDamageDpId6 AltName="無効ダミポリID（ダメージ）" />
-        <disableDamageDpId7 AltName="無効ダミポリID（ダメージ）" />
-        <disableDamageDpId8 AltName="無効ダミポリID（ダメージ）" />
-        <disableSfxDpId1 AltName="無効ダミポリID（SFX）" />
-        <disableSfxDpId2 AltName="無効ダミポリID（SFX）" />
-        <disableSfxDpId3 AltName="無効ダミポリID（SFX）" />
-        <disableSfxDpId4 AltName="無効ダミポリID（SFX）" />
-        <disableSfxDpId5 AltName="無効ダミポリID（SFX）" />
-        <disableSfxDpId6 AltName="無効ダミポリID（SFX）" />
-        <disableSfxDpId7 AltName="無効ダミポリID（SFX）" />
-        <disableSfxDpId8 AltName="無効ダミポリID（SFX）" />
-        <disableSoundDpId1 AltName="無効ダミポリID（サウンド）" />
-        <disableSoundDpId2 AltName="無効ダミポリID（サウンド）" />
-        <disableSoundDpId3 AltName="無効ダミポリID（サウンド）" />
-        <disableSoundDpId4 AltName="無効ダミポリID（サウンド）" />
-        <disableSoundDpId5 AltName="無効ダミポリID（サウンド）" />
-        <disableSoundDpId6 AltName="無効ダミポリID（サウンド）" />
-        <disableSoundDpId7 AltName="無効ダミポリID（サウンド）" />
-        <disableSoundDpId8 AltName="無効ダミポリID（サウンド）" />
-        <dummy AltName="ダミー" Padding="true" />
+        <baseCulling AltName="Normal culling group" />
+        <breakCulling AltName="Culling group when broken" />
+        <disableRagdollParts AltName="Ragdoll part disabled when broken" ProjectEnum="BOSS_RAGDOLL_PARTS_TYPE" />
+        <disableHitParts1 AltName="Invalid hit part 1 when broken" ProjectEnum="BOSS_HIT_PARTS_TYPE" />
+        <disableHitParts2 AltName="Invalid hit part 2 when broken" ProjectEnum="BOSS_HIT_PARTS_TYPE" />
+        <disableHitParts3 AltName="Invalid hit part 3 when broken" ProjectEnum="BOSS_HIT_PARTS_TYPE" />
+        <disableHitParts4 AltName="Invalid hit part 4 when broken" ProjectEnum="BOSS_HIT_PARTS_TYPE" />
+        <disableResidentSfxNo AltName="Resident SFX group number to be disabled when broken" />
+        <enableWeapon1 AltName="Equipment 1: Effective" IsBool="true" />
+        <enableWeapon2 AltName="Equipment 2: Valid" IsBool="true" />
+        <enableWeapon3 AltName="Equipment 3: Effective" IsBool="true" />
+        <enableWeapon4 AltName="Equipment 4: Effective" IsBool="true" />
+        <enableWeapon5 AltName="Equipment 5: Effective" IsBool="true" />
+        <enableWeapon6 AltName="Equipment 6: Effective" IsBool="true" />
+        <disableDamageDpId1 AltName="Invalid dummy poly ID (damage)" />
+        <disableDamageDpId2 AltName="Invalid dummy poly ID (damage)" />
+        <disableDamageDpId3 AltName="Invalid dummy poly ID (damage)" />
+        <disableDamageDpId4 AltName="Invalid dummy poly ID (damage)" />
+        <disableDamageDpId5 AltName="Invalid dummy poly ID (damage)" />
+        <disableDamageDpId6 AltName="Invalid dummy poly ID (damage)" />
+        <disableDamageDpId7 AltName="Invalid dummy poly ID (damage)" />
+        <disableDamageDpId8 AltName="Invalid dummy poly ID (damage)" />
+        <disableSfxDpId1 AltName="Invalid dummy poly ID (SFX)" />
+        <disableSfxDpId2 AltName="Invalid dummy poly ID (SFX)" />
+        <disableSfxDpId3 AltName="Invalid dummy poly ID (SFX)" />
+        <disableSfxDpId4 AltName="Invalid dummy poly ID (SFX)" />
+        <disableSfxDpId5 AltName="Invalid dummy poly ID (SFX)" />
+        <disableSfxDpId6 AltName="Invalid dummy poly ID (SFX)" />
+        <disableSfxDpId7 AltName="Invalid dummy poly ID (SFX)" />
+        <disableSfxDpId8 AltName="Invalid dummy poly ID (SFX)" />
+        <disableSoundDpId1 AltName="Invalid dummy poly ID (sound)" />
+        <disableSoundDpId2 AltName="Invalid dummy poly ID (sound)" />
+        <disableSoundDpId3 AltName="Invalid dummy poly ID (sound)" />
+        <disableSoundDpId4 AltName="Invalid dummy poly ID (sound)" />
+        <disableSoundDpId5 AltName="Invalid dummy poly ID (sound)" />
+        <disableSoundDpId6 AltName="Invalid dummy poly ID (sound)" />
+        <disableSoundDpId7 AltName="Invalid dummy poly ID (sound)" />
+        <disableSoundDpId8 AltName="Invalid dummy poly ID (sound)" />
+        <dummy AltName="dummy" Padding="true" />
     </Field>
 </PARAMMETA>

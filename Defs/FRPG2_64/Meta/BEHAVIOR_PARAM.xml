@@ -1,255 +1,255 @@
 <?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <action0DamageId00 AltName="《行動0 ダメージID_1》" />
-        <action0DamageId01 AltName="《行動0 ダメージID_2》" />
-        <action0DamageId02 AltName="《行動0 ダメージID_3》" />
-        <action0GrabDamageId00 AltName="《行動0 投げダメージID_1》" />
-        <action0GrabDamageId01 AltName="《行動0 投げダメージID_2》" />
-        <action0GrabDamageId02 AltName="《行動0 投げダメージID_3》" />
-        <action0AttackWalkMoveAttack AltName="《行動0 歩行攻撃ID》" ProjectEnum="ENEMY_ATTACK_TYPE" />
-        <action0AttackInvincible AltName="《行動0 割り込み不可タイプ》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
-        <action0HandType AltName="《行動0 攻撃手》" />
-        <action0IsSpell AltName="《行動0 スペルフラグ》" IsBool="true" />
-        <action0BladeCtrlType AltName="《行動0 近接制御タイプ》" ProjectEnum="BLADE_CTRL_TYPE" />
-        <action0BulletId00 AltName="《行動0 BulletID_1》" />
-        <action0BulletId01 AltName="《行動0 BulletID_2》" />
-        <action0BulletId02 AltName="《行動0 BulletID_3》" />
-        <action0ShotStanceTime AltName="《行動0 射撃構え時間》" />
-        <action0AttackRange AltName="《行動0 歩行攻撃攻撃範囲》" />
-        <fAction0AttackBackSwingSpeed AltName="《行動0 攻撃開始部速度倍率》" />
-        <fAction0AttackFollowSwingSpeed AltName="《行動0 攻撃終了部速度倍率》" />
-        <fAction0AttackEstimateFutureTime AltName="《行動0 位置予測時間》" />
-        <fAction0AttackAngle AltName="《行動0 角度補正[deg]》" />
-        <fAction0AttackRotateHigh AltName="《行動0 旋回補間開始距離[m]》" />
-        <fAction0AttackRotateLow AltName="《行動0 旋回補間終了距離[m]》" />
-        <action0ChantSfx AltName="《行動0 詠唱SFX》" Refs="EnemyShotSfxParam" />
-        <action0ReloadTimeMin AltName="《行動0 最小リロード時間》" />
-        <action0ReloadTimeMax AltName="《行動0 最大リロード時間》" />
-        <action1DamageId00 AltName="《行動1 ダメージID_1》" />
-        <action1DamageId01 AltName="《行動1 ダメージID_2》" />
-        <action1DamageId02 AltName="《行動1 ダメージID_3》" />
-        <action1GrabDamageId00 AltName="《行動1 投げダメージID_1》" />
-        <action1GrabDamageId01 AltName="《行動1 投げダメージID_2》" />
-        <action1GrabDamageId02 AltName="《行動1 投げダメージID_3》" />
-        <action1AttackWalkMoveAttack AltName="《行動1 歩行攻撃ID》" ProjectEnum="ENEMY_ATTACK_TYPE" />
-        <action1AttackInvincible AltName="《行動1 割り込み不可タイプ》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
-        <action1HandType AltName="《行動1 攻撃手》" />
-        <action1IsSpell AltName="《行動1 スペルフラグ》" IsBool="true" />
-        <action1BladeCtrlType AltName="《行動1 近接制御タイプ》" ProjectEnum="BLADE_CTRL_TYPE" />
-        <action1BulletId00 AltName="《行動1 BulletID_1》" />
-        <action1BulletId01 AltName="《行動1 BulletID_2》" />
-        <action1BulletId02 AltName="《行動1 BulletID_3》" />
-        <action1ShotStanceTime AltName="《行動1 射撃構え時間》" />
-        <action1AttackRange AltName="《行動1 歩行攻撃攻撃範囲》" />
-        <fAction1AttackBackSwingSpeed AltName="《行動1 攻撃開始部速度倍率》" />
-        <fAction1AttackFollowSwingSpeed AltName="《行動1 攻撃終了部速度倍率》" />
-        <fAction1AttackEstimateFutureTime AltName="《行動1 位置予測時間》" />
-        <fAction1AttackAngle AltName="《行動1 角度補正[deg]》" />
-        <fAction1AttackRotateHigh AltName="《行動1 旋回補間開始距離[m]》" />
-        <fAction1AttackRotateLow AltName="《行動1 旋回補間終了距離[m]》" />
-        <action1ChantSfx AltName="《行動1 詠唱SFX》" Refs="EnemyShotSfxParam" />
-        <action1ReloadTimeMin AltName="《行動1 最小リロード時間》" />
-        <action1ReloadTimeMax AltName="《行動1 最大リロード時間》" />
-        <action2DamageId00 AltName="《行動2 ダメージID_1》" />
-        <action2DamageId01 AltName="《行動2 ダメージID_2》" />
-        <action2DamageId02 AltName="《行動2 ダメージID_3》" />
-        <action2GrabDamageId00 AltName="《行動2 投げダメージID_1》" />
-        <action2GrabDamageId01 AltName="《行動2 投げダメージID_2》" />
-        <action2GrabDamageId02 AltName="《行動2 投げダメージID_3》" />
-        <action2AttackWalkMoveAttack AltName="《行動2 歩行攻撃ID》" ProjectEnum="ENEMY_ATTACK_TYPE" />
-        <action2AttackInvincible AltName="《行動2 割り込み不可タイプ》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
-        <action2HandType AltName="《行動2 攻撃手》" />
-        <action2IsSpell AltName="《行動2 スペルフラグ》" IsBool="true" />
-        <action2BladeCtrlType AltName="《行動2 近接制御タイプ》" ProjectEnum="BLADE_CTRL_TYPE" />
-        <action2BulletId00 AltName="《行動2 BulletID_1》" />
-        <action2BulletId01 AltName="《行動2 BulletID_2》" />
-        <action2BulletId02 AltName="《行動2 BulletID_3》" />
-        <action2ShotStanceTime AltName="《行動2 射撃構え時間》" />
-        <action2AttackRange AltName="《行動2 歩行攻撃攻撃範囲》" />
-        <fAction2AttackBackSwingSpeed AltName="《行動2 攻撃開始部速度倍率》" />
-        <fAction2AttackFollowSwingSpeed AltName="《行動2 攻撃終了部速度倍率》" />
-        <fAction2AttackEstimateFutureTime AltName="《行動2 位置予測時間》" />
-        <fAction2AttackAngle AltName="《行動2 角度補正[deg]》" />
-        <fAction2AttackRotateHigh AltName="《行動2 旋回補間開始距離[m]》" />
-        <fAction2AttackRotateLow AltName="《行動2 旋回補間終了距離[m]》" />
-        <action2ChantSfx AltName="《行動2 詠唱SFX》" Refs="EnemyShotSfxParam" />
-        <action2ReloadTimeMin AltName="《行動2 最小リロード時間》" />
-        <action2ReloadTimeMax AltName="《行動2 最大リロード時間》" />
-        <action3DamageId00 AltName="《行動3 ダメージID_1》" />
-        <action3DamageId01 AltName="《行動3 ダメージID_2》" />
-        <action3DamageId02 AltName="《行動3 ダメージID_3》" />
-        <action3GrabDamageId00 AltName="《行動3 投げダメージID_1》" />
-        <action3GrabDamageId01 AltName="《行動3 投げダメージID_2》" />
-        <action3GrabDamageId02 AltName="《行動3 投げダメージID_3》" />
-        <action3AttackWalkMoveAttack AltName="《行動3 歩行攻撃ID》" ProjectEnum="ENEMY_ATTACK_TYPE" />
-        <action3AttackInvincible AltName="《行動3 割り込み不可タイプ》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
-        <action3HandType AltName="《行動3 攻撃手》" />
-        <action3IsSpell AltName="《行動3 スペルフラグ》" IsBool="true" />
-        <action3BladeCtrlType AltName="《行動3 近接制御タイプ》" ProjectEnum="BLADE_CTRL_TYPE" />
-        <action3BulletId00 AltName="《行動3 BulletID_1》" />
-        <action3BulletId01 AltName="《行動3 BulletID_2》" />
-        <action3BulletId02 AltName="《行動3 BulletID_3》" />
-        <action3ShotStanceTime AltName="《行動3 射撃構え時間》" />
-        <action3AttackRange AltName="《行動3 歩行攻撃攻撃範囲》" />
-        <fAction3AttackBackSwingSpeed AltName="《行動3 攻撃開始部速度倍率》" />
-        <fAction3AttackFollowSwingSpeed AltName="《行動3 攻撃終了部速度倍率》" />
-        <fAction3AttackEstimateFutureTime AltName="《行動3 位置予測時間》" />
-        <fAction3AttackAngle AltName="《行動3 角度補正[deg]》" />
-        <fAction3AttackRotateHigh AltName="《行動3 旋回補間開始距離[m]》" />
-        <fAction3AttackRotateLow AltName="《行動3 旋回補間終了距離[m]》" />
-        <action3ChantSfx AltName="《行動3 詠唱SFX》" Refs="EnemyShotSfxParam" />
-        <action3ReloadTimeMin AltName="《行動3 最小リロード時間》" />
-        <action3ReloadTimeMax AltName="《行動3 最大リロード時間》" />
-        <action4DamageId00 AltName="《行動4 ダメージID_1》" />
-        <action4DamageId01 AltName="《行動4 ダメージID_2》" />
-        <action4DamageId02 AltName="《行動4 ダメージID_3》" />
-        <action4GrabDamageId00 AltName="《行動4 投げダメージID_1》" />
-        <action4GrabDamageId01 AltName="《行動4 投げダメージID_2》" />
-        <action4GrabDamageId02 AltName="《行動4 投げダメージID_3》" />
-        <action4AttackWalkMoveAttack AltName="《行動4 歩行攻撃ID》" ProjectEnum="ENEMY_ATTACK_TYPE" />
-        <action4AttackInvincible AltName="《行動4 割り込み不可タイプ》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
-        <action4HandType AltName="《行動4 攻撃手》" />
-        <action4IsSpell AltName="《行動4 スペルフラグ》" IsBool="true" />
-        <action4BladeCtrlType AltName="《行動4 近接制御タイプ》" ProjectEnum="BLADE_CTRL_TYPE" />
-        <action4BulletId00 AltName="《行動4 BulletID_1》" />
-        <action4BulletId01 AltName="《行動4 BulletID_2》" />
-        <action4BulletId02 AltName="《行動4 BulletID_3》" />
-        <action4ShotStanceTime AltName="《行動4 射撃構え時間》" />
-        <action4AttackRange AltName="《行動4 歩行攻撃攻撃範囲》" />
-        <fAction4AttackBackSwingSpeed AltName="《行動4 攻撃開始部速度倍率》" />
-        <fAction4AttackFollowSwingSpeed AltName="《行動4 攻撃終了部速度倍率》" />
-        <fAction4AttackEstimateFutureTime AltName="《行動4 位置予測時間》" />
-        <fAction4AttackAngle AltName="《行動4 角度補正[deg]》" />
-        <fAction4AttackRotateHigh AltName="《行動4 旋回補間開始距離[m]》" />
-        <fAction4AttackRotateLow AltName="《行動4 旋回補間終了距離[m]》" />
-        <action4ChantSfx AltName="《行動4 詠唱SFX》" Refs="EnemyShotSfxParam" />
-        <action4ReloadTimeMin AltName="《行動4 最小リロード時間》" />
-        <action4ReloadTimeMax AltName="《行動4 最大リロード時間》" />
-        <action5DamageId00 AltName="《行動5 ダメージID_1》" />
-        <action5DamageId01 AltName="《行動5 ダメージID_2》" />
-        <action5DamageId02 AltName="《行動5 ダメージID_3》" />
-        <action5GrabDamageId00 AltName="《行動5 投げダメージID_1》" />
-        <action5GrabDamageId01 AltName="《行動5 投げダメージID_2》" />
-        <action5GrabDamageId02 AltName="《行動5 投げダメージID_3》" />
-        <action5AttackWalkMoveAttack AltName="《行動5 歩行攻撃ID》" ProjectEnum="ENEMY_ATTACK_TYPE" />
-        <action5AttackInvincible AltName="《行動5 割り込み不可タイプ》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
-        <action5HandType AltName="《行動5 攻撃手》" />
-        <action5IsSpell AltName="《行動5 スペルフラグ》" IsBool="true" />
-        <action5BladeCtrlType AltName="《行動5 近接制御タイプ》" ProjectEnum="BLADE_CTRL_TYPE" />
-        <action5BulletId00 AltName="《行動5 BulletID_1》" />
-        <action5BulletId01 AltName="《行動5 BulletID_2》" />
-        <action5BulletId02 AltName="《行動5 BulletID_3》" />
-        <action5ShotStanceTime AltName="《行動5 射撃構え時間》" />
-        <action5AttackRange AltName="《行動5 歩行攻撃攻撃範囲》" />
-        <fAction5AttackBackSwingSpeed AltName="《行動5 攻撃開始部速度倍率》" />
-        <fAction5AttackFollowSwingSpeed AltName="《行動5 攻撃終了部速度倍率》" />
-        <fAction5AttackEstimateFutureTime AltName="《行動5 位置予測時間》" />
-        <fAction5AttackAngle AltName="《行動5 角度補正[deg]》" />
-        <fAction5AttackRotateHigh AltName="《行動5 旋回補間開始距離[m]》" />
-        <fAction5AttackRotateLow AltName="《行動5 旋回補間終了距離[m]》" />
-        <action5ChantSfx AltName="《行動5 詠唱SFX》" Refs="EnemyShotSfxParam" />
-        <action5ReloadTimeMin AltName="《行動5 最小リロード時間》" />
-        <action5ReloadTimeMax AltName="《行動5 最大リロード時間》" />
-        <action6DamageId00 AltName="《行動6 ダメージID_1》" />
-        <action6DamageId01 AltName="《行動6 ダメージID_2》" />
-        <action6DamageId02 AltName="《行動6 ダメージID_3》" />
-        <action6GrabDamageId00 AltName="《行動6 投げダメージID_1》" />
-        <action6GrabDamageId01 AltName="《行動6 投げダメージID_2》" />
-        <action6GrabDamageId02 AltName="《行動6 投げダメージID_3》" />
-        <action6AttackWalkMoveAttack AltName="《行動6 歩行攻撃ID》" ProjectEnum="ENEMY_ATTACK_TYPE" />
-        <action6AttackInvincible AltName="《行動6 割り込み不可タイプ》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
-        <action6HandType AltName="《行動6 攻撃手》" />
-        <action6IsSpell AltName="《行動6 スペルフラグ》" IsBool="true" />
-        <action6BladeCtrlType AltName="《行動6 近接制御タイプ》" ProjectEnum="BLADE_CTRL_TYPE" />
-        <action6BulletId00 AltName="《行動6 BulletID_1》" />
-        <action6BulletId01 AltName="《行動6 BulletID_2》" />
-        <action6BulletId02 AltName="《行動6 BulletID_3》" />
-        <action6ShotStanceTime AltName="《行動6 射撃構え時間》" />
-        <action6AttackRange AltName="《行動6 歩行攻撃攻撃範囲》" />
-        <fAction6AttackBackSwingSpeed AltName="《行動6 攻撃開始部速度倍率》" />
-        <fAction6AttackFollowSwingSpeed AltName="《行動6 攻撃終了部速度倍率》" />
-        <fAction6AttackEstimateFutureTime AltName="《行動6 位置予測時間》" />
-        <fAction6AttackAngle AltName="《行動6 角度補正[deg]》" />
-        <fAction6AttackRotateHigh AltName="《行動6 旋回補間開始距離[m]》" />
-        <fAction6AttackRotateLow AltName="《行動6 旋回補間終了距離[m]》" />
-        <action6ChantSfx AltName="《行動6 詠唱SFX》" Refs="EnemyShotSfxParam" />
-        <action6ReloadTimeMin AltName="《行動6 最小リロード時間》" />
-        <action6ReloadTimeMax AltName="《行動6 最大リロード時間》" />
-        <action7DamageId00 AltName="《行動7 ダメージID_1》" />
-        <action7DamageId01 AltName="《行動7 ダメージID_2》" />
-        <action7DamageId02 AltName="《行動7 ダメージID_3》" />
-        <action7GrabDamageId00 AltName="《行動7 投げダメージID_1》" />
-        <action7GrabDamageId01 AltName="《行動7 投げダメージID_2》" />
-        <action7GrabDamageId02 AltName="《行動7 投げダメージID_3》" />
-        <action7AttackWalkMoveAttack AltName="《行動7 歩行攻撃ID》" ProjectEnum="ENEMY_ATTACK_TYPE" />
-        <action7AttackInvincible AltName="《行動7 割り込み不可タイプ》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
-        <action7HandType AltName="《行動7 攻撃手》" />
-        <action7IsSpell AltName="《行動7 スペルフラグ》" IsBool="true" />
-        <action7BladeCtrlType AltName="《行動7 近接制御タイプ》" ProjectEnum="BLADE_CTRL_TYPE" />
-        <action7BulletId00 AltName="《行動7 BulletID_1》" />
-        <action7BulletId01 AltName="《行動7 BulletID_2》" />
-        <action7BulletId02 AltName="《行動7 BulletID_3》" />
-        <action7ShotStanceTime AltName="《行動7 射撃構え時間》" />
-        <action7AttackRange AltName="《行動7 歩行攻撃攻撃範囲》" />
-        <fAction7AttackBackSwingSpeed AltName="《行動7 攻撃開始部速度倍率》" />
-        <fAction7AttackFollowSwingSpeed AltName="《行動7 攻撃終了部速度倍率》" />
-        <fAction7AttackEstimateFutureTime AltName="《行動7 位置予測時間》" />
-        <fAction7AttackAngle AltName="《行動7 角度補正[deg]》" />
-        <fAction7AttackRotateHigh AltName="《行動7 旋回補間開始距離[m]》" />
-        <fAction7AttackRotateLow AltName="《行動7 旋回補間終了距離[m]》" />
-        <action7ChantSfx AltName="《行動7 詠唱SFX》" Refs="EnemyShotSfxParam" />
-        <action7ReloadTimeMin AltName="《行動7 最小リロード時間》" />
-        <action7ReloadTimeMax AltName="《行動7 最大リロード時間》" />
-        <action8DamageId00 AltName="《行動8 ダメージID_1》" />
-        <action8DamageId01 AltName="《行動8 ダメージID_2》" />
-        <action8DamageId02 AltName="《行動8 ダメージID_3》" />
-        <action8GrabDamageId00 AltName="《行動8 投げダメージID_1》" />
-        <action8GrabDamageId01 AltName="《行動8 投げダメージID_2》" />
-        <action8GrabDamageId02 AltName="《行動8 投げダメージID_3》" />
-        <action8AttackWalkMoveAttack AltName="《行動8 歩行攻撃ID》" ProjectEnum="ENEMY_ATTACK_TYPE" />
-        <action8AttackInvincible AltName="《行動8 割り込み不可タイプ》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
-        <action8HandType AltName="《行動8 攻撃手》" />
-        <action8IsSpell AltName="《行動8 スペルフラグ》" IsBool="true" />
-        <action8BladeCtrlType AltName="《行動8 近接制御タイプ》" ProjectEnum="BLADE_CTRL_TYPE" />
-        <action8BulletId00 AltName="《行動8 BulletID_1》" />
-        <action8BulletId01 AltName="《行動8 BulletID_2》" />
-        <action8BulletId02 AltName="《行動8 BulletID_3》" />
-        <action8ShotStanceTime AltName="《行動8 射撃構え時間》" />
-        <action8AttackRange AltName="《行動8 歩行攻撃攻撃範囲》" />
-        <fAction8AttackBackSwingSpeed AltName="《行動8 攻撃開始部速度倍率》" />
-        <fAction8AttackFollowSwingSpeed AltName="《行動8 攻撃終了部速度倍率》" />
-        <fAction8AttackEstimateFutureTime AltName="《行動8 位置予測時間》" />
-        <fAction8AttackAngle AltName="《行動8 角度補正[deg]》" />
-        <fAction8AttackRotateHigh AltName="《行動8 旋回補間開始距離[m]》" />
-        <fAction8AttackRotateLow AltName="《行動8 旋回補間終了距離[m]》" />
-        <action8ChantSfx AltName="《行動8 詠唱SFX》" Refs="EnemyShotSfxParam" />
-        <action8ReloadTimeMin AltName="《行動8 最小リロード時間》" />
-        <action8ReloadTimeMax AltName="《行動8 最大リロード時間》" />
-        <action9DamageId00 AltName="《行動9 ダメージID_1》" />
-        <action9DamageId01 AltName="《行動9 ダメージID_2》" />
-        <action9DamageId02 AltName="《行動9 ダメージID_3》" />
-        <action9GrabDamageId00 AltName="《行動9 投げダメージID_1》" />
-        <action9GrabDamageId01 AltName="《行動9 投げダメージID_2》" />
-        <action9GrabDamageId02 AltName="《行動9 投げダメージID_3》" />
-        <action9AttackWalkMoveAttack AltName="《行動9 歩行攻撃ID》" ProjectEnum="ENEMY_ATTACK_TYPE" />
-        <action9AttackInvincible AltName="《行動9 割り込み不可タイプ》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
-        <action9HandType AltName="《行動9 攻撃手》" />
-        <action9IsSpell AltName="《行動9 スペルフラグ》" IsBool="true" />
-        <action9BladeCtrlType AltName="《行動9 近接制御タイプ》" ProjectEnum="BLADE_CTRL_TYPE" />
-        <action9BulletId00 AltName="《行動9 BulletID_1》" />
-        <action9BulletId01 AltName="《行動9 BulletID_2》" />
-        <action9BulletId02 AltName="《行動9 BulletID_3》" />
-        <action9ShotStanceTime AltName="《行動9 射撃構え時間》" />
-        <action9AttackRange AltName="《行動9 歩行攻撃攻撃範囲》" />
-        <fAction9AttackBackSwingSpeed AltName="《行動9 攻撃開始部速度倍率》" />
-        <fAction9AttackFollowSwingSpeed AltName="《行動9 攻撃終了部速度倍率》" />
-        <fAction9AttackEstimateFutureTime AltName="《行動9 位置予測時間》" />
-        <fAction9AttackAngle AltName="《行動9 角度補正[deg]》" />
-        <fAction9AttackRotateHigh AltName="《行動9 旋回補間開始距離[m]》" />
-        <fAction9AttackRotateLow AltName="《行動9 旋回補間終了距離[m]》" />
-        <action9ChantSfx AltName="《行動9 詠唱SFX》" Refs="EnemyShotSfxParam" />
-        <action9ReloadTimeMin AltName="《行動9 最小リロード時間》" />
-        <action9ReloadTimeMax AltName="《行動9 最大リロード時間》" />
+        <action0DamageId00 AltName="《Action 0 Damage ID_1》" />
+        <action0DamageId01 AltName="《Action 0 Damage ID_2》" />
+        <action0DamageId02 AltName="《Action 0 Damage ID_3》" />
+        <action0GrabDamageId00 AltName="《Action 0 Throwing damage ID_1》" />
+        <action0GrabDamageId01 AltName="《Action 0 Throwing damage ID_2》" />
+        <action0GrabDamageId02 AltName="《Action 0 Throwing damage ID_3》" />
+        <action0AttackWalkMoveAttack AltName="《Action 0 Walking Attack ID》" ProjectEnum="ENEMY_ATTACK_TYPE" />
+        <action0AttackInvincible AltName="《Action 0 non-interruptible type》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <action0HandType AltName="《Action 0 Attacker》" />
+        <action0IsSpell AltName="《Action 0 Spell Flag》" IsBool="true" />
+        <action0BladeCtrlType AltName="《Action 0 Proximity control type》" ProjectEnum="BLADE_CTRL_TYPE" />
+        <action0BulletId00 AltName="《Action 0 BulletID_1》" />
+        <action0BulletId01 AltName="《Action 0 BulletID_2》" />
+        <action0BulletId02 AltName="《Action 0 BulletID_3》" />
+        <action0ShotStanceTime AltName="《Action 0 Shooting stance time》" />
+        <action0AttackRange AltName="《Action 0 Walking attack attack range》" />
+        <fAction0AttackBackSwingSpeed AltName="《Action 0 Attack start part speed multiplier》" />
+        <fAction0AttackFollowSwingSpeed AltName="《Action 0 Attack end speed multiplier》" />
+        <fAction0AttackEstimateFutureTime AltName="《Action 0 Position Prediction Time》" />
+        <fAction0AttackAngle AltName="《Action 0 Angle correction [deg]》" />
+        <fAction0AttackRotateHigh AltName="《Action 0 Turn interpolation start distance [m]》" />
+        <fAction0AttackRotateLow AltName="《Action 0 Turn interpolation end distance [m]》" />
+        <action0ChantSfx AltName="《Action 0 Chanting SFX》" Refs="EnemyShotSfxParam" />
+        <action0ReloadTimeMin AltName="《Action 0 Minimum reload time》" />
+        <action0ReloadTimeMax AltName="《Action 0 maximum reload time》" />
+        <action1DamageId00 AltName="《Action 1 Damage ID_1》" />
+        <action1DamageId01 AltName="《Action 1 Damage ID_2》" />
+        <action1DamageId02 AltName="《Action 1 Damage ID_3》" />
+        <action1GrabDamageId00 AltName="《Action 1 Throwing damage ID_1》" />
+        <action1GrabDamageId01 AltName="《Action 1 Throwing damage ID_2》" />
+        <action1GrabDamageId02 AltName="《Action 1 Throwing damage ID_3》" />
+        <action1AttackWalkMoveAttack AltName="《Action 1 Walking attack ID》" ProjectEnum="ENEMY_ATTACK_TYPE" />
+        <action1AttackInvincible AltName="《Action 1 Non-interruptible type》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <action1HandType AltName="《Action 1 Attacker》" />
+        <action1IsSpell AltName="《Action 1 Spell Flag》" IsBool="true" />
+        <action1BladeCtrlType AltName="《Action 1 Proximity control type》" ProjectEnum="BLADE_CTRL_TYPE" />
+        <action1BulletId00 AltName="《Action 1 Bullet ID_1》" />
+        <action1BulletId01 AltName="《Action 1 Bullet ID_2》" />
+        <action1BulletId02 AltName="《Action 1 Bullet ID_3》" />
+        <action1ShotStanceTime AltName="《Action 1 Shooting stance time》" />
+        <action1AttackRange AltName="《Action 1 Walking attack attack range》" />
+        <fAction1AttackBackSwingSpeed AltName="《Action 1 Attack starting part speed multiplier》" />
+        <fAction1AttackFollowSwingSpeed AltName="《Action 1 Attack end speed multiplier》" />
+        <fAction1AttackEstimateFutureTime AltName="《Action 1 Position prediction time》" />
+        <fAction1AttackAngle AltName="《Action 1 Angle correction [deg]》" />
+        <fAction1AttackRotateHigh AltName="《Action 1 Turn interpolation start distance [m]》" />
+        <fAction1AttackRotateLow AltName="《Action 1 Turn interpolation end distance [m]》" />
+        <action1ChantSfx AltName="《Action 1 Chanting SFX》" Refs="EnemyShotSfxParam" />
+        <action1ReloadTimeMin AltName="《Action 1 Minimum reload time》" />
+        <action1ReloadTimeMax AltName="《Action 1 Maximum reload time》" />
+        <action2DamageId00 AltName="《Action 2 Damage ID_1》" />
+        <action2DamageId01 AltName="《Action 2 Damage ID_2》" />
+        <action2DamageId02 AltName="《Action 2 Damage ID_3》" />
+        <action2GrabDamageId00 AltName="《Action 2 Throwing damage ID_1》" />
+        <action2GrabDamageId01 AltName="《Action 2 Throwing Damage ID_2》" />
+        <action2GrabDamageId02 AltName="《Action 2 Throwing damage ID_3》" />
+        <action2AttackWalkMoveAttack AltName="《Action 2 Walking Attack ID》" ProjectEnum="ENEMY_ATTACK_TYPE" />
+        <action2AttackInvincible AltName="《Action 2 Non-interruptible type》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <action2HandType AltName="《Action 2 Attacker》" />
+        <action2IsSpell AltName="《Action 2 Spell Flag》" IsBool="true" />
+        <action2BladeCtrlType AltName="《Action 2 Proximity control type》" ProjectEnum="BLADE_CTRL_TYPE" />
+        <action2BulletId00 AltName="《Action 2 Bullet ID_1》" />
+        <action2BulletId01 AltName="《Action 2 BulletID_2》" />
+        <action2BulletId02 AltName="《Action 2 Bullet ID_3》" />
+        <action2ShotStanceTime AltName="《Action 2 Shooting stance time》" />
+        <action2AttackRange AltName="《Action 2 Walking attack attack range》" />
+        <fAction2AttackBackSwingSpeed AltName="《Action 2 Attack starting part speed multiplier》" />
+        <fAction2AttackFollowSwingSpeed AltName="《Action 2 Attack end speed multiplier》" />
+        <fAction2AttackEstimateFutureTime AltName="《Action 2 Position prediction time》" />
+        <fAction2AttackAngle AltName="《Action 2 Angle correction [deg]》" />
+        <fAction2AttackRotateHigh AltName="《Action 2 Turn interpolation start distance [m]》" />
+        <fAction2AttackRotateLow AltName="《Action 2 Turn interpolation end distance [m]》" />
+        <action2ChantSfx AltName="《Action 2 Chanting SFX》" Refs="EnemyShotSfxParam" />
+        <action2ReloadTimeMin AltName="《Action 2 Minimum reload time》" />
+        <action2ReloadTimeMax AltName="《Action 2 Maximum Reload Time》" />
+        <action3DamageId00 AltName="《Action 3 Damage ID_1》" />
+        <action3DamageId01 AltName="《Action 3 Damage ID_2》" />
+        <action3DamageId02 AltName="《Action 3 Damage ID_3》" />
+        <action3GrabDamageId00 AltName="《Action 3 Throwing damage ID_1》" />
+        <action3GrabDamageId01 AltName="《Action 3 Throwing damage ID_2》" />
+        <action3GrabDamageId02 AltName="《Action 3 Throwing damage ID_3》" />
+        <action3AttackWalkMoveAttack AltName="《Action 3 Walking attack ID》" ProjectEnum="ENEMY_ATTACK_TYPE" />
+        <action3AttackInvincible AltName="《Action 3 Non-interruptible type》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <action3HandType AltName="《Action 3 Attacker》" />
+        <action3IsSpell AltName="《Action 3 Spell Flag》" IsBool="true" />
+        <action3BladeCtrlType AltName="《Action 3 Proximity control type》" ProjectEnum="BLADE_CTRL_TYPE" />
+        <action3BulletId00 AltName="《Action 3 Bullet ID_1》" />
+        <action3BulletId01 AltName="《Action 3 Bullet ID_2》" />
+        <action3BulletId02 AltName="《Action 3 Bullet ID_3》" />
+        <action3ShotStanceTime AltName="《Action 3 Shooting stance time》" />
+        <action3AttackRange AltName="《Action 3 Walking Attack Attack Range》" />
+        <fAction3AttackBackSwingSpeed AltName="《Action 3 Attack start part speed multiplier》" />
+        <fAction3AttackFollowSwingSpeed AltName="《Action 3 Attack end speed multiplier》" />
+        <fAction3AttackEstimateFutureTime AltName="《Action 3 Position prediction time》" />
+        <fAction3AttackAngle AltName="《Action 3 Angle correction [deg]》" />
+        <fAction3AttackRotateHigh AltName="《Action 3 Turn interpolation start distance [m]》" />
+        <fAction3AttackRotateLow AltName="《Action 3 Turn interpolation end distance [m]》" />
+        <action3ChantSfx AltName="《Action 3 Chanting SFX》" Refs="EnemyShotSfxParam" />
+        <action3ReloadTimeMin AltName="《Action 3 Minimum reload time》" />
+        <action3ReloadTimeMax AltName="《Action 3 Maximum reload time》" />
+        <action4DamageId00 AltName="《Action 4 Damage ID_1》" />
+        <action4DamageId01 AltName="《Action 4 Damage ID_2》" />
+        <action4DamageId02 AltName="《Action 4 Damage ID_3》" />
+        <action4GrabDamageId00 AltName="《Action 4 Throwing damage ID_1》" />
+        <action4GrabDamageId01 AltName="《Action 4 Throwing damage ID_2》" />
+        <action4GrabDamageId02 AltName="《Action 4 Throwing damage ID_3》" />
+        <action4AttackWalkMoveAttack AltName="《Action 4 Walking Attack ID》" ProjectEnum="ENEMY_ATTACK_TYPE" />
+        <action4AttackInvincible AltName="《Action 4 Non-interruptible type》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <action4HandType AltName="《Action 4 Attacker》" />
+        <action4IsSpell AltName="《Action 4 Spell Flag》" IsBool="true" />
+        <action4BladeCtrlType AltName="《Action 4 Proximity control type》" ProjectEnum="BLADE_CTRL_TYPE" />
+        <action4BulletId00 AltName="《Action 4 Bullet ID_1》" />
+        <action4BulletId01 AltName="《Action 4 Bullet ID_2》" />
+        <action4BulletId02 AltName="《Action 4 Bullet ID_3》" />
+        <action4ShotStanceTime AltName="《Action 4 Shooting stance time》" />
+        <action4AttackRange AltName="《Action 4 Walking Attack Attack Range》" />
+        <fAction4AttackBackSwingSpeed AltName="《Action 4 Attack starting part speed multiplier》" />
+        <fAction4AttackFollowSwingSpeed AltName="《Action 4 Attack end speed multiplier》" />
+        <fAction4AttackEstimateFutureTime AltName="《Action 4 Position prediction time》" />
+        <fAction4AttackAngle AltName="《Action 4 Angle correction [deg]》" />
+        <fAction4AttackRotateHigh AltName="《Action 4 Turn interpolation start distance [m]》" />
+        <fAction4AttackRotateLow AltName="《Action 4 Turn interpolation end distance [m]》" />
+        <action4ChantSfx AltName="《Action 4 Chanting SFX》" Refs="EnemyShotSfxParam" />
+        <action4ReloadTimeMin AltName="《Action 4 Minimum reload time》" />
+        <action4ReloadTimeMax AltName="《Action 4 Maximum reload time》" />
+        <action5DamageId00 AltName="《Action 5 Damage ID_1》" />
+        <action5DamageId01 AltName="《Action 5 Damage ID_2》" />
+        <action5DamageId02 AltName="《Action 5 Damage ID_3》" />
+        <action5GrabDamageId00 AltName="《Action 5 Throwing damage ID_1》" />
+        <action5GrabDamageId01 AltName="《Action 5 Throwing damage ID_2》" />
+        <action5GrabDamageId02 AltName="《Action 5 Throwing damage ID_3》" />
+        <action5AttackWalkMoveAttack AltName="《Action 5 Walking attack ID》" ProjectEnum="ENEMY_ATTACK_TYPE" />
+        <action5AttackInvincible AltName="《Action 5 Non-interruptible type》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <action5HandType AltName="《Action 5 Attacker》" />
+        <action5IsSpell AltName="《Action 5 Spell Flag》" IsBool="true" />
+        <action5BladeCtrlType AltName="《Action 5 Proximity control type》" ProjectEnum="BLADE_CTRL_TYPE" />
+        <action5BulletId00 AltName="《Action 5 Bullet ID_1》" />
+        <action5BulletId01 AltName="《Action 5 Bullet ID_2》" />
+        <action5BulletId02 AltName="《Action 5 Bullet ID_3》" />
+        <action5ShotStanceTime AltName="《Action 5 Shooting stance time》" />
+        <action5AttackRange AltName="《Action 5 Walking attack attack range》" />
+        <fAction5AttackBackSwingSpeed AltName="《Action 5 Attack starting part speed multiplier》" />
+        <fAction5AttackFollowSwingSpeed AltName="《Action 5 Attack end speed multiplier》" />
+        <fAction5AttackEstimateFutureTime AltName="《Action 5 Position prediction time》" />
+        <fAction5AttackAngle AltName="《Action 5 Angle correction [deg]》" />
+        <fAction5AttackRotateHigh AltName="《Action 5 Turn interpolation start distance [m]》" />
+        <fAction5AttackRotateLow AltName="《Action 5 Turn interpolation end distance [m]》" />
+        <action5ChantSfx AltName="《Action 5 Chanting SFX》" Refs="EnemyShotSfxParam" />
+        <action5ReloadTimeMin AltName="《Action 5 Minimum reload time》" />
+        <action5ReloadTimeMax AltName="《Action 5 Maximum reload time》" />
+        <action6DamageId00 AltName="《Action 6 Damage ID_1》" />
+        <action6DamageId01 AltName="《Action 6 Damage ID_2》" />
+        <action6DamageId02 AltName="《Action 6 Damage ID_3》" />
+        <action6GrabDamageId00 AltName="《Action 6 Throwing damage ID_1》" />
+        <action6GrabDamageId01 AltName="《Action 6 Throwing damage ID_2》" />
+        <action6GrabDamageId02 AltName="《Action 6 Throwing damage ID_3》" />
+        <action6AttackWalkMoveAttack AltName="《Action 6 Walking Attack ID》" ProjectEnum="ENEMY_ATTACK_TYPE" />
+        <action6AttackInvincible AltName="《Action 6 Non-interruptible type》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <action6HandType AltName="《Action 6 Attacker》" />
+        <action6IsSpell AltName="《Action 6 Spell Flag》" IsBool="true" />
+        <action6BladeCtrlType AltName="《Action 6 Proximity control type》" ProjectEnum="BLADE_CTRL_TYPE" />
+        <action6BulletId00 AltName="《Action 6 Bullet ID_1》" />
+        <action6BulletId01 AltName="《Action 6 BulletID_2》" />
+        <action6BulletId02 AltName="《Action 6 BulletID_3》" />
+        <action6ShotStanceTime AltName="《Action 6 Shooting stance time》" />
+        <action6AttackRange AltName="《Action 6 Walking Attack Attack Range》" />
+        <fAction6AttackBackSwingSpeed AltName="《Action 6 Attack start part speed multiplier》" />
+        <fAction6AttackFollowSwingSpeed AltName="《Action 6 Attack end speed multiplier》" />
+        <fAction6AttackEstimateFutureTime AltName="《Action 6 Position prediction time》" />
+        <fAction6AttackAngle AltName="《Action 6 Angle correction [deg]》" />
+        <fAction6AttackRotateHigh AltName="《Action 6 Turn interpolation start distance [m]》" />
+        <fAction6AttackRotateLow AltName="《Action 6 Turn interpolation end distance [m]》" />
+        <action6ChantSfx AltName="《Action 6 Chanting SFX》" Refs="EnemyShotSfxParam" />
+        <action6ReloadTimeMin AltName="《Action 6 Minimum reload time》" />
+        <action6ReloadTimeMax AltName="《Action 6 Maximum Reload Time》" />
+        <action7DamageId00 AltName="《Action 7 Damage ID_1》" />
+        <action7DamageId01 AltName="《Action 7 Damage ID_2》" />
+        <action7DamageId02 AltName="《Action 7 Damage ID_3》" />
+        <action7GrabDamageId00 AltName="《Action 7 Throwing damage ID_1》" />
+        <action7GrabDamageId01 AltName="《Action 7 Throwing damage ID_2》" />
+        <action7GrabDamageId02 AltName="《Action 7 Throwing damage ID_3》" />
+        <action7AttackWalkMoveAttack AltName="《Action 7 Walking Attack ID》" ProjectEnum="ENEMY_ATTACK_TYPE" />
+        <action7AttackInvincible AltName="《Action 7 Non-interruptible type》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <action7HandType AltName="《Action 7 Attacker》" />
+        <action7IsSpell AltName="《Action 7 Spell Flag》" IsBool="true" />
+        <action7BladeCtrlType AltName="《Action 7 Proximity control type》" ProjectEnum="BLADE_CTRL_TYPE" />
+        <action7BulletId00 AltName="《Action 7 Bullet ID_1》" />
+        <action7BulletId01 AltName="《Action 7 Bullet ID_2》" />
+        <action7BulletId02 AltName="《Action 7 Bullet ID_3》" />
+        <action7ShotStanceTime AltName="《Action 7 Shooting stance time》" />
+        <action7AttackRange AltName="《Action 7 Walking Attack Attack Range》" />
+        <fAction7AttackBackSwingSpeed AltName="《Action 7 Attack starting part speed multiplier》" />
+        <fAction7AttackFollowSwingSpeed AltName="《Action 7 Attack end speed multiplier》" />
+        <fAction7AttackEstimateFutureTime AltName="《Action 7 Position prediction time》" />
+        <fAction7AttackAngle AltName="《Action 7 Angle correction [deg]》" />
+        <fAction7AttackRotateHigh AltName="《Action 7 Turn interpolation start distance [m]》" />
+        <fAction7AttackRotateLow AltName="《Action 7 Turn interpolation end distance [m]》" />
+        <action7ChantSfx AltName="《Action 7 Chanting SFX》" Refs="EnemyShotSfxParam" />
+        <action7ReloadTimeMin AltName="《Action 7 Minimum reload time》" />
+        <action7ReloadTimeMax AltName="《Action 7 Maximum reload time》" />
+        <action8DamageId00 AltName="《Action 8 Damage ID_1》" />
+        <action8DamageId01 AltName="《Action 8 Damage ID_2》" />
+        <action8DamageId02 AltName="《Action 8 Damage ID_3》" />
+        <action8GrabDamageId00 AltName="《Action 8 Throwing damage ID_1》" />
+        <action8GrabDamageId01 AltName="《Action 8 Throwing damage ID_2》" />
+        <action8GrabDamageId02 AltName="《Action 8 Throwing damage ID_3》" />
+        <action8AttackWalkMoveAttack AltName="《Action 8 Walking Attack ID》" ProjectEnum="ENEMY_ATTACK_TYPE" />
+        <action8AttackInvincible AltName="《Action 8 Non-interruptible type》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <action8HandType AltName="《Action 8 Attacker》" />
+        <action8IsSpell AltName="《Action 8 Spell Flag》" IsBool="true" />
+        <action8BladeCtrlType AltName="《Action 8 Proximity control type》" ProjectEnum="BLADE_CTRL_TYPE" />
+        <action8BulletId00 AltName="《Action 8 BulletID_1》" />
+        <action8BulletId01 AltName="《Action 8 BulletID_2》" />
+        <action8BulletId02 AltName="《Action 8 BulletID_3》" />
+        <action8ShotStanceTime AltName="《Action 8 Shooting stance time》" />
+        <action8AttackRange AltName="《Action 8 Walking attack attack range》" />
+        <fAction8AttackBackSwingSpeed AltName="《Action 8 Attack starting part speed multiplier》" />
+        <fAction8AttackFollowSwingSpeed AltName="《Action 8 Attack end speed multiplier》" />
+        <fAction8AttackEstimateFutureTime AltName="《Action 8 Position prediction time》" />
+        <fAction8AttackAngle AltName="《Action 8 Angle correction [deg]》" />
+        <fAction8AttackRotateHigh AltName="《Action 8 Turn interpolation start distance [m]》" />
+        <fAction8AttackRotateLow AltName="《Action 8 Turn interpolation end distance [m]》" />
+        <action8ChantSfx AltName="《Action 8 Chanting SFX》" Refs="EnemyShotSfxParam" />
+        <action8ReloadTimeMin AltName="《Action 8 Minimum reload time》" />
+        <action8ReloadTimeMax AltName="《Action 8 Maximum Reload Time》" />
+        <action9DamageId00 AltName="《Action 9 Damage ID_1》" />
+        <action9DamageId01 AltName="《Action 9 Damage ID_2》" />
+        <action9DamageId02 AltName="《Action 9 Damage ID_3》" />
+        <action9GrabDamageId00 AltName="《Action 9 Throwing damage ID_1》" />
+        <action9GrabDamageId01 AltName="《Action 9 Throwing damage ID_2》" />
+        <action9GrabDamageId02 AltName="《Action 9 Throwing damage ID_3》" />
+        <action9AttackWalkMoveAttack AltName="《Action 9 Walking Attack ID》" ProjectEnum="ENEMY_ATTACK_TYPE" />
+        <action9AttackInvincible AltName="《Action 9 Non-interruptible type》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <action9HandType AltName="《Action 9 Attacker》" />
+        <action9IsSpell AltName="《Action 9 Spell Flag》" IsBool="true" />
+        <action9BladeCtrlType AltName="《Action 9 Proximity Control Type》" ProjectEnum="BLADE_CTRL_TYPE" />
+        <action9BulletId00 AltName="《Action 9 Bullet ID_1》" />
+        <action9BulletId01 AltName="《Action 9 BulletID_2》" />
+        <action9BulletId02 AltName="《Action 9 Bullet ID_3》" />
+        <action9ShotStanceTime AltName="《Action 9 Shooting stance time》" />
+        <action9AttackRange AltName="《Action 9 Walking Attack Attack Range》" />
+        <fAction9AttackBackSwingSpeed AltName="《Action 9 Attack starting part speed multiplier》" />
+        <fAction9AttackFollowSwingSpeed AltName="《Action 9 Attack end speed multiplier》" />
+        <fAction9AttackEstimateFutureTime AltName="《Action 9 Position prediction time》" />
+        <fAction9AttackAngle AltName="《Action 9 Angle correction [deg]》" />
+        <fAction9AttackRotateHigh AltName="《Action 9 Turn interpolation start distance [m]》" />
+        <fAction9AttackRotateLow AltName="《Action 9 Turn interpolation end distance [m]》" />
+        <action9ChantSfx AltName="《Action 9 Chanting SFX》" Refs="EnemyShotSfxParam" />
+        <action9ReloadTimeMin AltName="《Action 9 Minimum reload time》" />
+        <action9ReloadTimeMax AltName="《Action 9 Maximum Reload Time》" />
     </Field>
 </PARAMMETA>

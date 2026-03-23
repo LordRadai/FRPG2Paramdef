@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <physical AltName="物理" IsBool="true" />
-        <fire AltName="炎" IsBool="true" />
-        <magic AltName="魔法" IsBool="true" />
-        <thunder AltName="雷" IsBool="true" />
-        <dark AltName="闇" IsBool="true" />
-        <poison AltName="毒" IsBool="true" />
-        <bleed AltName="出血" IsBool="true" />
-        <physicalByCrude AltName="物理(粗製)" IsBool="true" />
-        <physicalByEnchanted AltName="物理(魔力)" IsBool="true" />
-        <physicalByAbyss AltName="物理(深淵)" IsBool="true" />
-        <padding AltName="予約" Padding="true" />
+        <physical AltName="physics" IsBool="true" />
+        <fire AltName="flame" IsBool="true" />
+        <magic AltName="magic" IsBool="true" />
+        <thunder AltName="thunder" IsBool="true" />
+        <dark AltName="darkness" IsBool="true" />
+        <poison AltName="poison" IsBool="true" />
+        <bleed AltName="bleeding" IsBool="true" />
+        <physicalByCrude AltName="Physics (crude)" IsBool="true" />
+        <physicalByEnchanted AltName="Physics (Magic)" IsBool="true" />
+        <physicalByAbyss AltName="Physics (Abyss)" IsBool="true" />
+        <padding AltName="reservation" Padding="true" />
     </Field>
 </PARAMMETA>

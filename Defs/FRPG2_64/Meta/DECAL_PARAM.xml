@@ -4,17 +4,17 @@
         <width AltName="X" />
         <height AltName="Y" />
         <depth AltName="Z" />
-        <texId AltName="テクスチャID" />
-        <bumpTexId AltName="バンプテクスチャID" />
-        <colorR AltName="色R" />
-        <colorG AltName="色G" />
-        <colorB AltName="色B" />
-        <colorA AltName="色A" />
-        <invisibleDeleteTime AltName="視野外での削除までの時間" />
-        <parallaxScale AltName="視差マップスケール" />
-        <lightId AltName="ライトID" />
-        <flipType AltName="左右フリップ" ProjectEnum="DECAL_FLIP_TYPE" />
-        <rotateType AltName="回転" ProjectEnum="DECAL_ROTATE_TYPE" />
-        <aReserved AltName="予約領域" Padding="true" />
+        <texId AltName="Texture ID" />
+        <bumpTexId AltName="bump texture id" />
+        <colorR AltName="Color R" />
+        <colorG AltName="Color G" />
+        <colorB AltName="Color B" />
+        <colorA AltName="Color A" />
+        <invisibleDeleteTime AltName="Time until deletion outside of field of view" />
+        <parallaxScale AltName="parallax map scale" />
+        <lightId AltName="light id" />
+        <flipType AltName="left/right flip" ProjectEnum="DECAL_FLIP_TYPE" />
+        <rotateType AltName="rotate" ProjectEnum="DECAL_ROTATE_TYPE" />
+        <aReserved AltName="reserved area" Padding="true" />
     </Field>
 </PARAMMETA>

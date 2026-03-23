@@ -1,41 +1,41 @@
 <?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <bShop AltName="ショップメニュー" IsBool="true" />
-        <bPointReplace AltName="ポイント振り直し" IsBool="true" />
-        <bRepair AltName="装備修理メニュー" IsBool="true" />
-        <bFortify AltName="装備強化メニュー" IsBool="true" />
-        <bPledge AltName="誓約メニュー" IsBool="true" />
-        <bVotive AltName="奉納メニュー" IsBool="true" />
-        <bUptrade AltName="下取りメニュー" IsBool="true" />
-        <bBarter AltName="物々交換メニュー" IsBool="true" />
-        <bDecriminalize AltName="免罪メニュー" IsBool="true" />
-        <bContractKickout AltName="誓約破棄メニュー" IsBool="true" />
-        <bGesture AltName="ジェスチャー" IsBool="true" />
-        <bLadder AltName="はしごを掛けるメニュー" IsBool="true" />
-        <bRootChange AltName="ルートチェンジメニュー" IsBool="true" />
-        <bPresent AltName="○○を渡すメニュー" IsBool="true" />
-        <bPledgeView AltName="誓約一覧メニュー" IsBool="true" />
-        <pledgeType AltName="契約のタイプ" ProjectEnum="VOW_TYPES" />
-        <bTalk AltName="話すメニュー" IsBool="true" />
-        <bEstusFlaskFortify AltName="エスト瓶強化" IsBool="true" />
-        <bLevelUp AltName="レベルアップ" IsBool="true" />
-        <bAttributeFortify AltName="変質強化" IsBool="true" />
-        <bPresentArmor AltName="装備を渡す" IsBool="true" />
-        <bPyromancyFortify AltName="呪術の炎を強化" IsBool="true" />
-        <bSpellDecrementState AltName="必要能力値引き下げメニュー" IsBool="true" />
-        <shopIdBegin AltName="ラインナップ開始ID" />
-        <shopIdEnd AltName="ラインナップ終了ID" />
-        <fortifyTyoe AltName="強化タイプ" />
-        <votiveItemId AltName="奉納アイテムID" />
-        <barterParamBeginId AltName="ラインナップ開始ID（物々交換）" />
-        <gestureId AltName="ジェスチャーID" />
-        <npcId AltName="NPCキャラID" />
-        <aReserved AltName="予約" Padding="true" />
-        <eventValueChangeType AltName="イベント変数変更タイプ" ProjectEnum="NPC_EVENT_CHANGE_VALUE_TYPE" />
-        <eventValueId AltName="イベント変数ID" ProjectEnum="EVENT_VALUE_global" />
-        <pluralSelectIdBegin AltName="N択選択肢開始ID" />
-        <pluralSelectIdEnd AltName="N択選択肢終了ID" />
-        <barterParamEndId AltName="ラインナップ終了ID（物々交換）" />
+        <bShop AltName="shop menu" IsBool="true" />
+        <bPointReplace AltName="Redo points" IsBool="true" />
+        <bRepair AltName="Equipment repair menu" IsBool="true" />
+        <bFortify AltName="Equipment reinforcement menu" IsBool="true" />
+        <bPledge AltName="pledge menu" IsBool="true" />
+        <bVotive AltName="dedication menu" IsBool="true" />
+        <bUptrade AltName="Trade-in menu" IsBool="true" />
+        <bBarter AltName="barter menu" IsBool="true" />
+        <bDecriminalize AltName="indulgence menu" IsBool="true" />
+        <bContractKickout AltName="Pledge cancellation menu" IsBool="true" />
+        <bGesture AltName="gesture" IsBool="true" />
+        <bLadder AltName="Menu for hanging a ladder" IsBool="true" />
+        <bRootChange AltName="Route change menu" IsBool="true" />
+        <bPresent AltName="Menu to give ○○" IsBool="true" />
+        <bPledgeView AltName="Pledge list menu" IsBool="true" />
+        <pledgeType AltName="Type of contract" ProjectEnum="VOW_TYPES" />
+        <bTalk AltName="talking menu" IsBool="true" />
+        <bEstusFlaskFortify AltName="Est Bottle Enhancement" IsBool="true" />
+        <bLevelUp AltName="level up" IsBool="true" />
+        <bAttributeFortify AltName="Alteration enhancement" IsBool="true" />
+        <bPresentArmor AltName="hand over equipment" IsBool="true" />
+        <bPyromancyFortify AltName="Strengthen the flame of sorcery" IsBool="true" />
+        <bSpellDecrementState AltName="Required ability reduction menu" IsBool="true" />
+        <shopIdBegin AltName="Lineup start ID" />
+        <shopIdEnd AltName="Lineup end ID" />
+        <fortifyTyoe AltName="Reinforced type" />
+        <votiveItemId AltName="Offering item ID" />
+        <barterParamBeginId AltName="Lineup start ID (barter)" />
+        <gestureId AltName="Gesture ID" />
+        <npcId AltName="NPC character ID" />
+        <aReserved AltName="reservation" Padding="true" />
+        <eventValueChangeType AltName="Event variable change type" ProjectEnum="NPC_EVENT_CHANGE_VALUE_TYPE" />
+        <eventValueId AltName="Event variable ID" ProjectEnum="EVENT_VALUE_global" />
+        <pluralSelectIdBegin AltName="N-choice option start ID" />
+        <pluralSelectIdEnd AltName="N option end ID" />
+        <barterParamEndId AltName="Lineup end ID (barter)" />
     </Field>
 </PARAMMETA>

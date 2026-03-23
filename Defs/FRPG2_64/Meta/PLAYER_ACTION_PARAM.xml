@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <fMaxAdrenaline AltName="最大アドレナリン総量[ng]" />
-        <fDecreaseAderanalinePerSec AltName="アドレナリン減少量[ng/s]" />
-        <fAdrenalineCoolTime AltName="アドレナリンクールタイム[sec]" />
-        <fMaxDistressAmount AltName="乳酸総量[ng]" />
-        <fMinEffectiveDistress AltName="乳酸影響 最低値[ng]" />
-        <fMaxEffectiveDistress AltName="乳酸影響 最大値[ng]" />
-        <fMinBreathlessAnimWait AltName="息切れ 最低ブレンド率" />
-        <fMaxBreathlessAnimWait AltName="息切れ 最大ブレンド率" />
-        <fDecreaseDistressPerSec AltName="乳酸減少量[ng/s]" />
-        <fMinPivotAngleForGainDistress AltName="乳酸加算角度[deg]" />
-        <fDecreaseDistressOnGuard AltName="乳酸防衛減少値[ng]" />
+        <fMaxAdrenaline AltName="Maximum total amount of adrenaline [ng]" />
+        <fDecreaseAderanalinePerSec AltName="Adrenaline reduction amount [ng/s]" />
+        <fAdrenalineCoolTime AltName="Adrenaline cool time [sec]" />
+        <fMaxDistressAmount AltName="Total lactic acid [ng]" />
+        <fMinEffectiveDistress AltName="Lactic acid effect lowest value [ng]" />
+        <fMaxEffectiveDistress AltName="Lactic acid effect maximum value [ng]" />
+        <fMinBreathlessAnimWait AltName="Shortness of breath Minimum blend rate" />
+        <fMaxBreathlessAnimWait AltName="Shortness of breath maximum blend rate" />
+        <fDecreaseDistressPerSec AltName="Lactic acid reduction amount [ng/s]" />
+        <fMinPivotAngleForGainDistress AltName="Lactic acid addition angle [deg]" />
+        <fDecreaseDistressOnGuard AltName="Lactic acid defense reduction value [ng]" />
     </Field>
 </PARAMMETA>

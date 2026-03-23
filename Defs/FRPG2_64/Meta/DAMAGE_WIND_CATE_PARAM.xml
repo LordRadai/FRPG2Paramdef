@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <cloth AltName="クロス" IsBool="true" />
-        <model AltName="草" IsBool="true" />
-        <obj AltName="オブジェ" IsBool="true" />
+        <cloth AltName="cross" IsBool="true" />
+        <model AltName="grass" IsBool="true" />
+        <obj AltName="object" IsBool="true" />
         <sfx AltName="SFX" IsBool="true" />
-        <dmgSfx AltName="着弾SFX" IsBool="true" />
-        <eraseSfx AltName="SFXヒット時に消去制御に遷移させる" IsBool="true" />
-        <dummy0 AltName="ダミー0" Padding="true" />
-        <fadeInTime AltName="フェードイン時間[sec]" />
-        <fadeOutTime AltName="フェードアウト時間[sec]" />
+        <dmgSfx AltName="Landing SFX" IsBool="true" />
+        <eraseSfx AltName="Transition to erase control when SFX hits" IsBool="true" />
+        <dummy0 AltName="dummy 0" Padding="true" />
+        <fadeInTime AltName="Fade-in time [sec]" />
+        <fadeOutTime AltName="Fade out time [sec]" />
     </Field>
 </PARAMMETA>

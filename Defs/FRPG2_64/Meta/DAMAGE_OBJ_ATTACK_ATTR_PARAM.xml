@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <priority AltName="破壊優先度" />
-        <dummy AltName="ダミー" Padding="true" />
+        <priority AltName="destruction priority" />
+        <dummy AltName="dummy" Padding="true" />
     </Field>
 </PARAMMETA>

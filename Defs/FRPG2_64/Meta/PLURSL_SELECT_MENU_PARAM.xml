@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <displayTextId AltName="表示テキストID" />
-        <consumptionSoul AltName="選択時消費ソウル" />
-        <kickEventId AltName="選択時キックイベントID" />
-        <checkEventFlagId AltName="表示確認用イベントID" />
-        <enableFlagType AltName="項目を消すフラグの状態" IsBool="true" />
-        <dummy AltName="予約領域" Padding="true" />
+        <displayTextId AltName="Display text ID" />
+        <consumptionSoul AltName="Soul consumed when selected" />
+        <kickEventId AltName="Kick event ID when selected" />
+        <checkEventFlagId AltName="Event ID for display confirmation" />
+        <enableFlagType AltName="Flag status for erasing items" IsBool="true" />
+        <dummy AltName="reserved area" Padding="true" />
     </Field>
 </PARAMMETA>

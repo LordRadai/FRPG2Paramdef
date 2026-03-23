@@ -21,11 +21,11 @@
         <lightColorG AltName="G" />
         <lightColorB AltName="B" />
         <lightColorA AltName="A" />
-        <blendRate AltName="ブレンド率" />
+        <blendRate AltName="Blending rate" />
         <alpha AltName="α" />
-        <blendType AltName="α種類" ProjectEnum="CHR_PHANTOM_BLEND_TYPE" />
-        <isEdgeSubtract AltName="エッジ色減算を行うか" IsBool="true" />
-        <isFrontSubtract AltName="正面色減算を行うか" IsBool="true" />
-        <aReserved AltName="(予約領域)" Padding="true" />
+        <blendType AltName="α type" ProjectEnum="CHR_PHANTOM_BLEND_TYPE" />
+        <isEdgeSubtract AltName="Do edge color subtraction?" IsBool="true" />
+        <isFrontSubtract AltName="Do front color subtraction?" IsBool="true" />
+        <aReserved AltName="(Reserved area)" Padding="true" />
     </Field>
 </PARAMMETA>

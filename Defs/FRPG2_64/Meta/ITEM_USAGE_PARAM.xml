@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <eventFlag AltName="使用許可するイベントフラグ" />
-        <condition AltName="指定状態のみ許可" ProjectEnum="ITEM_USE_PERMIT_TYPE_CONDITION" />
-        <isAllowUseOnLadder AltName="はしご中使用許可" IsBool="true" />
-        <isAllowMultipleUse AltName="使用個数設定許可" IsBool="true" />
-        <isConsume AltName="消耗品" IsBool="true" />
-        <isNormalConsumu AltName="通常タイミングで消費する" IsBool="true" />
-        <permitOnlineSingle AltName="オンラインシングルプレイ許可" IsBool="true" />
-        <permitOnlineMulti AltName="マルチプレイ許可" IsBool="true" />
-        <permitOffline AltName="オフライン許可" IsBool="true" />
-        <permitOnlineGuest AltName="ゲスト時許可" IsBool="true" />
-        <permitBattlePhantom AltName="決闘霊体時許可" IsBool="true" />
-        <permitLeave AltName="破棄許可" IsBool="true" />
-        <permitDrop AltName="譲渡許可" IsBool="true" />
-        <exEvalFuncID AltName="拡張使用許可判定関数ID（仮）" />
+        <eventFlag AltName="Event flags that are allowed to be used" />
+        <condition AltName="Allow only specified states" ProjectEnum="ITEM_USE_PERMIT_TYPE_CONDITION" />
+        <isAllowUseOnLadder AltName="Permission to use ladders" IsBool="true" />
+        <isAllowMultipleUse AltName="Permission to set the number of pieces used" IsBool="true" />
+        <isConsume AltName="consumables" IsBool="true" />
+        <isNormalConsumu AltName="Consume at normal time" IsBool="true" />
+        <permitOnlineSingle AltName="Online single play allowed" IsBool="true" />
+        <permitOnlineMulti AltName="Multiplayer allowed" IsBool="true" />
+        <permitOffline AltName="Offline permission" IsBool="true" />
+        <permitOnlineGuest AltName="Guest permission" IsBool="true" />
+        <permitBattlePhantom AltName="Permission for dueling spirits" IsBool="true" />
+        <permitLeave AltName="Destruction permission" IsBool="true" />
+        <permitDrop AltName="Transfer permission" IsBool="true" />
+        <exEvalFuncID AltName="Extended use permission determination function ID (tentative)" />
     </Field>
 </PARAMMETA>

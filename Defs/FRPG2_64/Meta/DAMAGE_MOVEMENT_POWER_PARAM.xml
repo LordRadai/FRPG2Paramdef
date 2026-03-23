@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <power AltName="運動量[m/sec]" />
-        <break_power AltName="破壊時の運動量[m/sec]" />
+        <power AltName="Momentum [m/sec]" />
+        <break_power AltName="Momentum at break [m/sec]" />
     </Field>
 </PARAMMETA>

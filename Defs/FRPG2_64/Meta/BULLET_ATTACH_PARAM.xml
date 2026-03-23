@@ -1,61 +1,61 @@
 <?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <part1DummyPolyId AltName="ダミポリID" />
-        <dummy AltName="ダミー" Padding="true" />
-        <part1OffsetPosX AltName="位置オフセットＸ" />
-        <part1OffsetPosY AltName="位置オフセットＹ" />
-        <part1OffsetPosZ AltName="位置オフセットＺ" />
-        <part1OffsetAccuracyPosX AltName="位置オフセットＸ精度" />
-        <part1OffsetAccuracyPosY AltName="位置オフセットＹ精度" />
-        <part1OffsetAccuracyPosZ AltName="位置オフセットＺ精度" />
-        <part1OffsetRotX AltName="角度オフセットＸ" />
-        <part1OffsetRotY AltName="角度オフセットＹ" />
-        <part1OffsetRotZ AltName="角度オフセットＺ" />
-        <part1OffsetAccuracyRotX AltName="角度オフセットＸ精度" />
-        <part1OffsetAccuracyRotY AltName="角度オフセットＹ精度" />
-        <part1OffsetAccuracyRotZ AltName="角度オフセットＺ精度" />
-        <part2DummyPolyId AltName="ダミポリID" />
-        <dummy1 AltName="ダミー" Padding="true" />
-        <part2OffsetPosX AltName="位置オフセットＸ" />
-        <part2OffsetPosY AltName="位置オフセットＹ" />
-        <part2OffsetPosZ AltName="位置オフセットＺ" />
-        <part2OffsetAccuracyPosX AltName="位置オフセットＸ精度" />
-        <part2OffsetAccuracyPosY AltName="位置オフセットＹ精度" />
-        <part2OffsetAccuracyPosZ AltName="位置オフセットＺ精度" />
-        <part2OffsetRotX AltName="角度オフセットＸ" />
-        <part2OffsetRotY AltName="角度オフセットＹ" />
-        <part2OffsetRotZ AltName="角度オフセットＺ" />
-        <part2OffsetAccuracyRotX AltName="角度オフセットＸ精度" />
-        <part2OffsetAccuracyRotY AltName="角度オフセットＹ精度" />
-        <part2OffsetAccuracyRotZ AltName="角度オフセットＺ精度" />
-        <part3DummyPolyId AltName="ダミポリID" />
-        <dummy2 AltName="ダミー" Padding="true" />
-        <part3OffsetPosX AltName="位置オフセットＸ" />
-        <part3OffsetPosY AltName="位置オフセットＹ" />
-        <part3OffsetPosZ AltName="位置オフセットＺ" />
-        <part3OffsetAccuracyPosX AltName="位置オフセットＸ精度" />
-        <part3OffsetAccuracyPosY AltName="位置オフセットＹ精度" />
-        <part3OffsetAccuracyPosZ AltName="位置オフセットＺ精度" />
-        <part3OffsetRotX AltName="角度オフセットＸ" />
-        <part3OffsetRotY AltName="角度オフセットＹ" />
-        <part3OffsetRotZ AltName="角度オフセットＺ" />
-        <part3OffsetAccuracyRotX AltName="角度オフセットＸ精度" />
-        <part3OffsetAccuracyRotY AltName="角度オフセットＹ精度" />
-        <part3OffsetAccuracyRotZ AltName="角度オフセットＺ精度" />
-        <part4DummyPolyId AltName="ダミポリID" />
-        <dummy3 AltName="ダミー" Padding="true" />
-        <part4OffsetPosX AltName="位置オフセットＸ" />
-        <part4OffsetPosY AltName="位置オフセットＹ" />
-        <part4OffsetPosZ AltName="位置オフセットＺ" />
-        <part4OffsetAccuracyPosX AltName="位置オフセットＸ精度" />
-        <part4OffsetAccuracyPosY AltName="位置オフセットＹ精度" />
-        <part4OffsetAccuracyPosZ AltName="位置オフセットＺ精度" />
-        <part4OffsetRotX AltName="角度オフセットＸ" />
-        <part4OffsetRotY AltName="角度オフセットＹ" />
-        <part4OffsetRotZ AltName="角度オフセットＺ" />
-        <part4OffsetAccuracyRotX AltName="角度オフセットＸ精度" />
-        <part4OffsetAccuracyRotY AltName="角度オフセットＹ精度" />
-        <part4OffsetAccuracyRotZ AltName="角度オフセットＺ精度" />
+        <part1DummyPolyId AltName="Damipoli ID" />
+        <dummy AltName="dummy" Padding="true" />
+        <part1OffsetPosX AltName="position offset" />
+        <part1OffsetPosY AltName="position offset Y" />
+        <part1OffsetPosZ AltName="position offset Z" />
+        <part1OffsetAccuracyPosX AltName="Position offset x accuracy" />
+        <part1OffsetAccuracyPosY AltName="Position offset Y accuracy" />
+        <part1OffsetAccuracyPosZ AltName="Position offset Z accuracy" />
+        <part1OffsetRotX AltName="Angle offset" />
+        <part1OffsetRotY AltName="Angle offset Y" />
+        <part1OffsetRotZ AltName="Angle offset Z" />
+        <part1OffsetAccuracyRotX AltName="Angle offset x accuracy" />
+        <part1OffsetAccuracyRotY AltName="Angle offset Y accuracy" />
+        <part1OffsetAccuracyRotZ AltName="Angle offset Z accuracy" />
+        <part2DummyPolyId AltName="Damipoli ID" />
+        <dummy1 AltName="dummy" Padding="true" />
+        <part2OffsetPosX AltName="position offset" />
+        <part2OffsetPosY AltName="position offset Y" />
+        <part2OffsetPosZ AltName="position offset Z" />
+        <part2OffsetAccuracyPosX AltName="Position offset x accuracy" />
+        <part2OffsetAccuracyPosY AltName="Position offset Y accuracy" />
+        <part2OffsetAccuracyPosZ AltName="Position offset Z accuracy" />
+        <part2OffsetRotX AltName="Angle offset" />
+        <part2OffsetRotY AltName="Angle offset Y" />
+        <part2OffsetRotZ AltName="Angle offset Z" />
+        <part2OffsetAccuracyRotX AltName="Angle offset x accuracy" />
+        <part2OffsetAccuracyRotY AltName="Angle offset Y accuracy" />
+        <part2OffsetAccuracyRotZ AltName="Angle offset Z accuracy" />
+        <part3DummyPolyId AltName="Damipoli ID" />
+        <dummy2 AltName="dummy" Padding="true" />
+        <part3OffsetPosX AltName="position offset" />
+        <part3OffsetPosY AltName="position offset Y" />
+        <part3OffsetPosZ AltName="position offset Z" />
+        <part3OffsetAccuracyPosX AltName="Position offset x accuracy" />
+        <part3OffsetAccuracyPosY AltName="Position offset Y accuracy" />
+        <part3OffsetAccuracyPosZ AltName="Position offset Z accuracy" />
+        <part3OffsetRotX AltName="Angle offset" />
+        <part3OffsetRotY AltName="Angle offset Y" />
+        <part3OffsetRotZ AltName="Angle offset Z" />
+        <part3OffsetAccuracyRotX AltName="Angle offset x accuracy" />
+        <part3OffsetAccuracyRotY AltName="Angle offset Y accuracy" />
+        <part3OffsetAccuracyRotZ AltName="Angle offset Z accuracy" />
+        <part4DummyPolyId AltName="Damipoli ID" />
+        <dummy3 AltName="dummy" Padding="true" />
+        <part4OffsetPosX AltName="position offset" />
+        <part4OffsetPosY AltName="position offset Y" />
+        <part4OffsetPosZ AltName="position offset Z" />
+        <part4OffsetAccuracyPosX AltName="Position offset x accuracy" />
+        <part4OffsetAccuracyPosY AltName="Position offset Y accuracy" />
+        <part4OffsetAccuracyPosZ AltName="Position offset Z accuracy" />
+        <part4OffsetRotX AltName="Angle offset" />
+        <part4OffsetRotY AltName="Angle offset Y" />
+        <part4OffsetRotZ AltName="Angle offset Z" />
+        <part4OffsetAccuracyRotX AltName="Angle offset x accuracy" />
+        <part4OffsetAccuracyRotY AltName="Angle offset Y accuracy" />
+        <part4OffsetAccuracyRotZ AltName="Angle offset Z accuracy" />
     </Field>
 </PARAMMETA>

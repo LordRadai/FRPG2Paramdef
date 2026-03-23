@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <graveGenerateTime AltName="お墓生成時間" />
-        <deadTimeValueId AltName="死亡時間格納先ID" ProjectEnum="EVENT_VALUE_global" />
-        <deadFlagId AltName="死亡フラグID" ProjectEnum="EVENT_FLAG_GLOBAL_EVENT" />
-        <graveSoulValue AltName="お墓ソウルコスト" />
-        <chrNameTextId AltName="キャラテキストID" />
-        <aReserved1 AltName="予約" Padding="true" />
-        <value0 AltName="汎用値0" />
-        <value1 AltName="汎用値1" />
-        <value2 AltName="汎用値2" />
-        <value3 AltName="汎用値3" />
-        <value4 AltName="汎用値4" />
-        <value5 AltName="汎用値5" />
+        <graveGenerateTime AltName="Grave creation time" />
+        <deadTimeValueId AltName="Death time storage ID" ProjectEnum="EVENT_VALUE_global" />
+        <deadFlagId AltName="Death flag ID" ProjectEnum="EVENT_FLAG_GLOBAL_EVENT" />
+        <graveSoulValue AltName="grave soul cost" />
+        <chrNameTextId AltName="Character text ID" />
+        <aReserved1 AltName="reservation" Padding="true" />
+        <value0 AltName="Generic value 0" />
+        <value1 AltName="Generic value 1" />
+        <value2 AltName="Generic value 2" />
+        <value3 AltName="Generic value 3" />
+        <value4 AltName="Generic value 4" />
+        <value5 AltName="Generic value 5" />
     </Field>
 </PARAMMETA>

@@ -1,43 +1,43 @@
 <?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <spellSlot AltName="スペルスロット" ProjectEnum="LevelStatTypes" />
-        <spellUsesLevel AltName="スペル使用回数レベル" ProjectEnum="LevelStatTypes" />
-        <hpMax AltName="最大HP" ProjectEnum="LevelStatTypes" />
-        <staminaMax AltName="スタミナ" ProjectEnum="LevelStatTypes" />
-        <equipLoadMax AltName="装備重量" ProjectEnum="LevelStatTypes" />
-        <physicalAttackByStrength AltName="筋力 物理攻撃力" ProjectEnum="LevelStatTypes" />
-        <physicalAttackByDexterity AltName="技量 物理攻撃力" ProjectEnum="LevelStatTypes" />
-        <magicAttack AltName="魔力 攻撃力" ProjectEnum="LevelStatTypes" />
-        <flameAttack AltName="炎 攻撃力" ProjectEnum="LevelStatTypes" />
-        <lightningAttack AltName="雷 攻撃力" ProjectEnum="LevelStatTypes" />
-        <darkAttack AltName="闇 攻撃力" ProjectEnum="LevelStatTypes" />
-        <weaponBreakAdditionalEffect AltName="武器破壊 追加効果攻撃力" ProjectEnum="LevelStatTypes" />
-        <bleedingAdditionalEffect AltName="出血 追加効果攻撃力" ProjectEnum="LevelStatTypes" />
-        <poisonAdditionalEffect AltName="毒 追加効果攻撃力" ProjectEnum="LevelStatTypes" />
-        <curseAdditionalEffect AltName="呪 追加効果攻撃力" ProjectEnum="LevelStatTypes" />
-        <chantingTimeCorrectScale AltName="詠唱時間 補正倍率" ProjectEnum="LevelStatTypes" />
-        <criticalAttackCorrectScale AltName="クリティカル 補正倍率" ProjectEnum="LevelStatTypes" />
-        <fluctuationCorrectScaleMin AltName="揺らぎ補正倍率 最小" ProjectEnum="LevelStatTypes" />
-        <fluctuationCorrectScaleMax AltName="揺らぎ補正倍率 最大" ProjectEnum="LevelStatTypes" />
-        <weaponBreakResistance AltName="武器破壊 耐性値" ProjectEnum="LevelStatTypes" />
-        <bleedingResistance AltName="出血 耐性値" ProjectEnum="LevelStatTypes" />
-        <poisonResistance AltName="毒 耐性値" ProjectEnum="LevelStatTypes" />
-        <petrifactionResistance AltName="石化 耐性値" ProjectEnum="LevelStatTypes" />
-        <curseResistance AltName="呪 耐性値" ProjectEnum="LevelStatTypes" />
-        <magicResistance AltName="魔力 抵抗力" ProjectEnum="LevelStatTypes" />
-        <flameResistance AltName="炎 抵抗力" ProjectEnum="LevelStatTypes" />
-        <lightningResistance AltName="雷 抵抗力" ProjectEnum="LevelStatTypes" />
-        <darkResistance AltName="闇 抵抗力" ProjectEnum="LevelStatTypes" />
-        <stepInvincibleTimeRate AltName="ステップ 無敵時間割合" ProjectEnum="LevelStatTypes" />
-        <rollingInvincibleTimeRate AltName="ローリング 無敵時間割合" ProjectEnum="LevelStatTypes" />
-        <jumpInvincibleTimeRate AltName="ジャンプ 無敵時間割合" ProjectEnum="LevelStatTypes" />
-        <changeEquipSpeedScale AltName="装備切替 速度倍率" ProjectEnum="LevelStatTypes" />
-        <useItemSpeedScale AltName="アイテム使用 速度倍率" ProjectEnum="LevelStatTypes" />
-        <blockSpeedScale AltName="ガード構え 速度倍率" ProjectEnum="LevelStatTypes" />
-        <defense AltName="防御力" ProjectEnum="LevelStatTypes" />
-        <itemDropTicketCount AltName="アイテムドロップ チケット枚数分母" ProjectEnum="LevelStatTypes" />
-        <misfireChestTrapTicketCount AltName="宝箱トラップ不発 チケット枚数分母" ProjectEnum="LevelStatTypes" />
-        <criticalTicketCount AltName="クリティカル チケット枚数分母" ProjectEnum="LevelStatTypes" />
+        <spellSlot AltName="spell slot" ProjectEnum="LevelStatTypes" />
+        <spellUsesLevel AltName="Spell usage level" ProjectEnum="LevelStatTypes" />
+        <hpMax AltName="Max HP" ProjectEnum="LevelStatTypes" />
+        <staminaMax AltName="stamina" ProjectEnum="LevelStatTypes" />
+        <equipLoadMax AltName="Equipment weight" ProjectEnum="LevelStatTypes" />
+        <physicalAttackByStrength AltName="Strength Physical attack power" ProjectEnum="LevelStatTypes" />
+        <physicalAttackByDexterity AltName="Skill Physical attack power" ProjectEnum="LevelStatTypes" />
+        <magicAttack AltName="Magic attack power" ProjectEnum="LevelStatTypes" />
+        <flameAttack AltName="Flame attack power" ProjectEnum="LevelStatTypes" />
+        <lightningAttack AltName="Lightning attack power" ProjectEnum="LevelStatTypes" />
+        <darkAttack AltName="darkness attack power" ProjectEnum="LevelStatTypes" />
+        <weaponBreakAdditionalEffect AltName="Weapon destruction additional effect attack power" ProjectEnum="LevelStatTypes" />
+        <bleedingAdditionalEffect AltName="Bleeding additional effect attack power" ProjectEnum="LevelStatTypes" />
+        <poisonAdditionalEffect AltName="Poison additional effect attack power" ProjectEnum="LevelStatTypes" />
+        <curseAdditionalEffect AltName="Curse additional effect attack power" ProjectEnum="LevelStatTypes" />
+        <chantingTimeCorrectScale AltName="Cast time correction magnification" ProjectEnum="LevelStatTypes" />
+        <criticalAttackCorrectScale AltName="Critical correction multiplier" ProjectEnum="LevelStatTypes" />
+        <fluctuationCorrectScaleMin AltName="Fluctuation correction magnification minimum" ProjectEnum="LevelStatTypes" />
+        <fluctuationCorrectScaleMax AltName="Fluctuation correction magnification maximum" ProjectEnum="LevelStatTypes" />
+        <weaponBreakResistance AltName="Weapon destruction resistance value" ProjectEnum="LevelStatTypes" />
+        <bleedingResistance AltName="Bleeding resistance value" ProjectEnum="LevelStatTypes" />
+        <poisonResistance AltName="Poison resistance value" ProjectEnum="LevelStatTypes" />
+        <petrifactionResistance AltName="Petrification resistance value" ProjectEnum="LevelStatTypes" />
+        <curseResistance AltName="Curse resistance value" ProjectEnum="LevelStatTypes" />
+        <magicResistance AltName="magic resistance" ProjectEnum="LevelStatTypes" />
+        <flameResistance AltName="flame resistance" ProjectEnum="LevelStatTypes" />
+        <lightningResistance AltName="lightning resistance" ProjectEnum="LevelStatTypes" />
+        <darkResistance AltName="darkness resistance" ProjectEnum="LevelStatTypes" />
+        <stepInvincibleTimeRate AltName="Step invincibility time percentage" ProjectEnum="LevelStatTypes" />
+        <rollingInvincibleTimeRate AltName="Rolling invincibility time percentage" ProjectEnum="LevelStatTypes" />
+        <jumpInvincibleTimeRate AltName="Jump invincibility time percentage" ProjectEnum="LevelStatTypes" />
+        <changeEquipSpeedScale AltName="Equipment switching speed multiplier" ProjectEnum="LevelStatTypes" />
+        <useItemSpeedScale AltName="Item use speed multiplier" ProjectEnum="LevelStatTypes" />
+        <blockSpeedScale AltName="Guard stance speed multiplier" ProjectEnum="LevelStatTypes" />
+        <defense AltName="Defense power" ProjectEnum="LevelStatTypes" />
+        <itemDropTicketCount AltName="Item drop ticket number denominator" ProjectEnum="LevelStatTypes" />
+        <misfireChestTrapTicketCount AltName="Treasure chest trap failure denominator of number of tickets" ProjectEnum="LevelStatTypes" />
+        <criticalTicketCount AltName="Critical ticket count denominator" ProjectEnum="LevelStatTypes" />
     </Field>
 </PARAMMETA>

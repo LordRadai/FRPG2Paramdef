@@ -1,66 +1,66 @@
 <?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <attackType AltName="攻撃属性" ProjectEnum="DAMAGE_ATTACK_TYPE" />
-        <objBreak AltName="OBJ破壊" ProjectEnum="DAMAGE_OBJ_BREAK_TYPE" />
-        <armorBreak AltName="アーマー無効" ProjectEnum="DAMAGE_ARMOR_BREAK_TYPE" />
-        <guardBreak AltName="防御アクション無効" ProjectEnum="DAMAGE_GUARD_BREAK_TYPE" />
-        <negatePoiseRate AltName="強靭度無効化割合" />
-        <negateCutDamageRate AltName="盾カット率無効化割合" />
-        <damageWeightType AltName="攻撃時ウェイト" ProjectEnum="CHR_WEIGHT_TYPE" />
-        <damageMotion AltName="ダメージモーション" ProjectEnum="DAMAGE_MOTION_TYPE" />
-        <deadMotion AltName="死亡モーション" ProjectEnum="DAMAGE_DEAD_MOTION_TYPE" />
-        <deadDamageMotion AltName="死亡時ダメージモーション" ProjectEnum="DAMAGE_MOTION_TYPE" />
-        <isInstantDeath AltName="即死フラグ" IsBool="true" />
-        <stun AltName="気絶値" />
-        <isDamageStaminaAlways AltName="スタミナダメージ" IsBool="true" />
-        <isHollowOnlyDamage AltName="亡者ダメージ" IsBool="true" />
-        <downStiff AltName="ダウン硬直時間[sec]" />
-        <downStiffShortCut AltName="ダウン硬直時間　短縮時間[sec]" />
-        <damageRotateSpeed AltName="ダメージ旋回速度[deg/sec]" />
-        <blowUpAccel AltName="吹き飛び　上昇速度[m/sec]" />
-        <blowBrake AltName="吹き飛び　停止加速度[m/sec^2]" />
-        <lowerDmgStartTimeRate AltName="下半身ダメージ しゃがみ行き時間 補正倍率[倍]" />
-        <lowerDmgEndTimeRate AltName="下半身ダメージ しゃがみ戻り時間 補正倍率[倍]" />
-        <guardStiffRate AltName="ガード硬直 倍率[倍]" />
-        <guardReactionSpeed AltName="ガード反動 速度[m/sec]" />
-        <guardReactionAddRate AltName="ガード反動 加算自補正倍率[倍]" />
-        <guardReactionDecelerationSpeed AltName="ガード反動 減速速度[m/sec]" />
-        <guardReactionDecelerationTime AltName="ガード反動 減速開始時間[sec]" />
-        <guardRotationSpeed AltName="ガード旋回速度[deg/sec]" />
-        <guardAttackLevelType AltName="ガード ガード弾きレベル" ProjectEnum="GUARD_ATTACK_LEVEL_TYPE" />
-        <isForceLower AltName="強制下半身ダメージ" IsBool="true" />
-        <objDamage AltName="OBJダメージ値" />
-        <objAttackAttr AltName="OBJ攻撃属性" ProjectEnum="DAMAGE_OBJ_ATTACK_ATTR_ENUM" />
-        <cameraRumble AltName="カメラノイズパラメータＩＤ" />
-        <padRumble AltName="パッド振動パラメータＩＤ" />
-        <rumbleTime AltName="振動時間[sec]" />
-        <rumbleDecStartRange AltName="振動減衰開始距離[m]" />
-        <rumbleDecEndRange AltName="振動減衰終了距離[m]" />
-        <windPriority AltName="風：優先度" />
-        <windRadius AltName="風：半径[m]" />
-        <windMinSpeed AltName="風：最小風力[m/s]" />
-        <windMaxSpeed AltName="風：最大風力[m/s]" />
-        <windFrequency AltName="風：周波数" />
-        <windGinStartDistance AltName="風：減衰開始処理" />
-        <windLife AltName="風：延長寿命" />
-        <windCateId AltName="風：影響カテゴリ" ProjectEnum="DAMAGE_WIND_CATE_ID" />
-        <staggerTime AltName="よろけ時間" />
-        <staggerMoveRate AltName="よろけ移動倍率" />
-        <staggerRotRate AltName="よろけ旋回倍率" />
-        <damageMotionWeightDisable AltName="ウェイト計算無効" IsBool="true" />
-        <headShotDisable AltName="ヘッドショット無効設定" IsBool="true" />
-        <isWet AltName="濡れる" IsBool="true" />
-        <damageImpactPowerType AltName="ダメージ衝撃力タイプ" ProjectEnum="DAMAGE_IMPACT_POWER_TYPE" />
-        <wetId AltName="濡れカテゴリ" Refs="ChrWetParam" />
-        <pushBackRate AltName="押し返し反映割合[倍]" />
-        <poiseDamage AltName="強靭度削り値" />
-        <damageDistDecrementStart AltName="ダメージ減衰距離 開始" />
-        <damageDistDecrementEnd AltName="ダメージ減衰距離 終了" />
-        <damageDecrementHpMaxRate AltName="ダメージ値 最大減衰倍率" />
-        <damageDecrementStaminaMaxRate AltName="スタミナ奪取量 最大減衰倍率" />
-        <damageDecrementStunMaxRate AltName="気絶値 最大減衰倍率" />
-        <damageDecrementPoiseMaxRate AltName="強靭削り値 最大減衰倍率" />
-        <damageDecrementKnockBackMaxRate AltName="ノックバック距離 最大減衰倍率" />
+        <attackType AltName="attack attribute" ProjectEnum="DAMAGE_ATTACK_TYPE" />
+        <objBreak AltName="OBJ destruction" ProjectEnum="DAMAGE_OBJ_BREAK_TYPE" />
+        <armorBreak AltName="Armor disabled" ProjectEnum="DAMAGE_ARMOR_BREAK_TYPE" />
+        <guardBreak AltName="Defensive action disabled" ProjectEnum="DAMAGE_GUARD_BREAK_TYPE" />
+        <negatePoiseRate AltName="Toughness invalidation rate" />
+        <negateCutDamageRate AltName="Shield cut rate invalidation rate" />
+        <damageWeightType AltName="Weight when attacking" ProjectEnum="CHR_WEIGHT_TYPE" />
+        <damageMotion AltName="damage motion" ProjectEnum="DAMAGE_MOTION_TYPE" />
+        <deadMotion AltName="death motion" ProjectEnum="DAMAGE_DEAD_MOTION_TYPE" />
+        <deadDamageMotion AltName="Damage motion upon death" ProjectEnum="DAMAGE_MOTION_TYPE" />
+        <isInstantDeath AltName="instant death flag" IsBool="true" />
+        <stun AltName="fainting value" />
+        <isDamageStaminaAlways AltName="Stamina damage" IsBool="true" />
+        <isHollowOnlyDamage AltName="Death damage" IsBool="true" />
+        <downStiff AltName="Down stiffness time [sec]" />
+        <downStiffShortCut AltName="Down stiffness time reduction time [sec]" />
+        <damageRotateSpeed AltName="Damage rotation speed [deg/sec]" />
+        <blowUpAccel AltName="Blow-off Rising speed [m/sec]" />
+        <blowBrake AltName="Blow-off Stopping acceleration [m/sec^2]" />
+        <lowerDmgStartTimeRate AltName="Lower body damage Crouching time Correction multiplier [x]" />
+        <lowerDmgEndTimeRate AltName="Lower body damage Crouching return time Correction multiplier [x]" />
+        <guardStiffRate AltName="Guard stiffness magnification [x]" />
+        <guardReactionSpeed AltName="Guard recoil speed [m/sec]" />
+        <guardReactionAddRate AltName="Guard recoil additive self-correction magnification [x]" />
+        <guardReactionDecelerationSpeed AltName="Guard reaction deceleration speed [m/sec]" />
+        <guardReactionDecelerationTime AltName="Guard reaction deceleration start time [sec]" />
+        <guardRotationSpeed AltName="Guard turning speed [deg/sec]" />
+        <guardAttackLevelType AltName="Guard guard play level" ProjectEnum="GUARD_ATTACK_LEVEL_TYPE" />
+        <isForceLower AltName="Forced lower body damage" IsBool="true" />
+        <objDamage AltName="OBJ damage value" />
+        <objAttackAttr AltName="OBJ attack attribute" ProjectEnum="DAMAGE_OBJ_ATTACK_ATTR_ENUM" />
+        <cameraRumble AltName="Camera noise parameter ID" />
+        <padRumble AltName="Pad vibration parameter ID" />
+        <rumbleTime AltName="Vibration time [sec]" />
+        <rumbleDecStartRange AltName="Vibration damping start distance [m]" />
+        <rumbleDecEndRange AltName="Vibration damping end distance [m]" />
+        <windPriority AltName="Wind: Priority" />
+        <windRadius AltName="Wind: radius [m]" />
+        <windMinSpeed AltName="Wind: Minimum wind force [m/s]" />
+        <windMaxSpeed AltName="Wind: Maximum wind force [m/s]" />
+        <windFrequency AltName="Wind: frequency" />
+        <windGinStartDistance AltName="Wind: Decay start processing" />
+        <windLife AltName="Wind: extended life" />
+        <windCateId AltName="Wind: influence category" ProjectEnum="DAMAGE_WIND_CATE_ID" />
+        <staggerTime AltName="Stagger time" />
+        <staggerMoveRate AltName="Stagger movement magnification" />
+        <staggerRotRate AltName="Stagger turning magnification" />
+        <damageMotionWeightDisable AltName="Weight calculation disabled" IsBool="true" />
+        <headShotDisable AltName="Headshot disable setting" IsBool="true" />
+        <isWet AltName="get wet" IsBool="true" />
+        <damageImpactPowerType AltName="Damage impact force type" ProjectEnum="DAMAGE_IMPACT_POWER_TYPE" />
+        <wetId AltName="wet category" Refs="ChrWetParam" />
+        <pushBackRate AltName="Pushback reflection ratio [times]" />
+        <poiseDamage AltName="Toughness cutting value" />
+        <damageDistDecrementStart AltName="Damage falloff distance start" />
+        <damageDistDecrementEnd AltName="Damage falloff distance End" />
+        <damageDecrementHpMaxRate AltName="Damage value Maximum attenuation factor" />
+        <damageDecrementStaminaMaxRate AltName="Stamina taken maximum attenuation multiplier" />
+        <damageDecrementStunMaxRate AltName="Faint value Maximum attenuation factor" />
+        <damageDecrementPoiseMaxRate AltName="Tough cutting value Maximum damping magnification" />
+        <damageDecrementKnockBackMaxRate AltName="Knockback distance Maximum attenuation factor" />
     </Field>
 </PARAMMETA>

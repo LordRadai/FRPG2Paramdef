@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <bodyScaleHead AltName="頭" />
-        <bodyScaleBreast AltName="胸" />
-        <bodyScaleAbdomen AltName="腹" />
-        <bodyScaleArm AltName="腕" />
-        <bodyScaleLeg AltName="足" />
+        <bodyScaleHead AltName="head" />
+        <bodyScaleBreast AltName="chest" />
+        <bodyScaleAbdomen AltName="stomach" />
+        <bodyScaleArm AltName="arm" />
+        <bodyScaleLeg AltName="feet" />
     </Field>
 </PARAMMETA>

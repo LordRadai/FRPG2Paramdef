@@ -1,49 +1,49 @@
 <?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <materialNone AltName="なし" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
-        <materialMetal AltName="鉄" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
-        <materialHeavyMetal AltName="重鉄" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
-        <materialWood AltName="木" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
-        <materialWater AltName="水" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
-        <materialSwamp AltName="沼" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
-        <materialLumber AltName="木材" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
-        <materialMeat AltName="生者肉" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
-        <materialDeadMeat AltName="亡者肉" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
-        <materialInsect AltName="虫" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
-        <materialGiant AltName="巨人" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
-        <materialBone AltName="骨" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
-        <materialCopper AltName="銅" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
-        <materialEnergy AltName="エネルギー" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
-        <materialFire AltName="炎" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
-        <materialThunder AltName="雷" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
-        <materialDark AltName="闇" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
-        <materialMagicalPower AltName="魔力" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
-        <materialStone AltName="石" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
-        <materialDirt AltName="土" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
-        <materialCarpet AltName="カーペット" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
-        <materialGrass AltName="草" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
-        <materialBallast AltName="砂利" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
-        <materialCloth AltName="布" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
-        <materialSand AltName="砂" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
-        <materialAsh AltName="灰" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
-        <materialPoisonSwamp AltName="毒沼" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
-        <materialOil AltName="油" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
-        <materialCoalTar AltName="コールタール" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
-        <materialLava AltName="溶岩" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
-        <materialThread AltName="蜘蛛の糸" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
-        <materialCrystal AltName="硫黄結晶" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
-        <materialSoul AltName="ソウル" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
-        <materialFrog AltName="美声カエル" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
-        <unkMaterial0 AltName="美声カエル" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
-        <unkMaterial1 AltName="美声カエル [1]" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
-        <unkMaterial2 AltName="美声カエル [2]" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
-        <unkMaterial3 AltName="美声カエル [3]" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
-        <unkMaterial4 AltName="美声カエル [4]" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
-        <unkMaterial5 AltName="美声カエル [5]" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
-        <unkMaterial6 AltName="美声カエル [6]" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
-        <unkMaterial7 AltName="美声カエル [7]" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
-        <unkMaterial8 AltName="美声カエル [8]" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
-        <dummy AltName="予約領域" Padding="true" />
+        <materialNone AltName="none" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
+        <materialMetal AltName="iron" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
+        <materialHeavyMetal AltName="heavy iron" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
+        <materialWood AltName="tree" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
+        <materialWater AltName="water" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
+        <materialSwamp AltName="Swamp" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
+        <materialLumber AltName="wood" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
+        <materialMeat AltName="flesh of the living" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
+        <materialDeadMeat AltName="corpse meat" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
+        <materialInsect AltName="insect" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
+        <materialGiant AltName="giant" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
+        <materialBone AltName="bone" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
+        <materialCopper AltName="copper" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
+        <materialEnergy AltName="energy" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
+        <materialFire AltName="flame" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
+        <materialThunder AltName="thunder" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
+        <materialDark AltName="darkness" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
+        <materialMagicalPower AltName="magic power" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
+        <materialStone AltName="stone" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
+        <materialDirt AltName="soil" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
+        <materialCarpet AltName="carpet" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
+        <materialGrass AltName="grass" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
+        <materialBallast AltName="gravel" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
+        <materialCloth AltName="cloth" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
+        <materialSand AltName="sand" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
+        <materialAsh AltName="ash" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
+        <materialPoisonSwamp AltName="poisonous swamp" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
+        <materialOil AltName="oil" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
+        <materialCoalTar AltName="coal tar" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
+        <materialLava AltName="lava" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
+        <materialThread AltName="spider thread" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
+        <materialCrystal AltName="sulfur crystals" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
+        <materialSoul AltName="soul" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
+        <materialFrog AltName="beautiful voice frog" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
+        <unkMaterial0 AltName="beautiful voice frog" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
+        <unkMaterial1 AltName="Beautiful voice frog [1]" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
+        <unkMaterial2 AltName="Beautiful voice frog [2]" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
+        <unkMaterial3 AltName="Beautiful voice frog [3]" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
+        <unkMaterial4 AltName="Beautiful voice frog [4]" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
+        <unkMaterial5 AltName="Beautiful voice frog [5]" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
+        <unkMaterial6 AltName="Beautiful voice frog [6]" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
+        <unkMaterial7 AltName="Beautiful voice frog [7]" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
+        <unkMaterial8 AltName="Beautiful voice frog [8]" ProjectEnum="DAMAGE_EFFECT_MATERIAL" />
+        <dummy AltName="reserved area" Padding="true" />
     </Field>
 </PARAMMETA>

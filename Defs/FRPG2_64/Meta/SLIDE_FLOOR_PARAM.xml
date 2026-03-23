@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <maxSpeed AltName="最大速度[m/s]" />
-        <startSpeed AltName="初速度[m/s]" />
-        <accel AltName="加速度[m/s^2]" />
-        <decel AltName="減速度[m/s^2]" />
-        <slideSpeed AltName="すべる判定速度[m/s]" />
+        <maxSpeed AltName="Maximum speed [m/s]" />
+        <startSpeed AltName="Initial velocity [m/s]" />
+        <accel AltName="Acceleration [m/s^2]" />
+        <decel AltName="Deceleration [m/s^2]" />
+        <slideSpeed AltName="Slip judgment speed [m/s]" />
     </Field>
 </PARAMMETA>

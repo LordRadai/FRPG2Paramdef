@@ -1,22 +1,22 @@
 <?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <cameraType AltName="カメラ挙動タイプ" ProjectEnum="CAMERA_TYPE" />
-        <cameraBasePosType AltName="カメラ基準点タイプ" ProjectEnum="CAMERA_BASE_POS_TYPE" />
-        <copyStartDirection AltName="開始時向きを元のカメラに合わせる" />
-        <startTransType AltName="切り替え開始時補間タイプ" ProjectEnum="CAMERA_INTERPOLATE_TYPE" />
-        <endTransType AltName="切り替え終了時補間タイプ" ProjectEnum="CAMERA_INTERPOLATE_TYPE" />
-        <inCameraStartTransType AltName="カメラ開始時補間タイプ" ProjectEnum="CAMERA_INTERPOLATE_TYPE" />
-        <inCameraEndTransType AltName="カメラ終了時補間タイプ" ProjectEnum="CAMERA_INTERPOLATE_TYPE" />
-        <rayCollidesExecType AltName="レイヒット時処理タイプ" ProjectEnum="CAMERA_COLLIDES_EXEC_TYPE" />
-        <sphereCollidesExecType AltName="球ヒット時処理タイプ" ProjectEnum="CAMERA_COLLIDES_EXEC_TYPE" />
-        <selectType AltName="複数存在時の分岐判定タイプ" ProjectEnum="CAMERA_GRAPPLER_SELECT_TYPE" />
-        <reserved AltName="ダミー" Padding="true" />
-        <startTransTime AltName="切り替え開始時補間時間" />
-        <endTransTime AltName="切り替え終了時補間時間" />
-        <inCameraStartTransTime AltName="カメラ開始時補間時間" />
-        <inCameraEndTransTime AltName="カメラ終了時補間時間" />
-        <rayWidth AltName="レイ太さ" />
-        <sphereSize AltName="球サイズ" />
+        <cameraType AltName="Camera behavior type" ProjectEnum="CAMERA_TYPE" />
+        <cameraBasePosType AltName="Camera reference point type" ProjectEnum="CAMERA_BASE_POS_TYPE" />
+        <copyStartDirection AltName="Adjust starting orientation to original camera" />
+        <startTransType AltName="Interpolation type at the start of switching" ProjectEnum="CAMERA_INTERPOLATE_TYPE" />
+        <endTransType AltName="Interpolation type at end of switching" ProjectEnum="CAMERA_INTERPOLATE_TYPE" />
+        <inCameraStartTransType AltName="Camera start interpolation type" ProjectEnum="CAMERA_INTERPOLATE_TYPE" />
+        <inCameraEndTransType AltName="Interpolation type at camera end" ProjectEnum="CAMERA_INTERPOLATE_TYPE" />
+        <rayCollidesExecType AltName="Ray hit processing type" ProjectEnum="CAMERA_COLLIDES_EXEC_TYPE" />
+        <sphereCollidesExecType AltName="Ball hit processing type" ProjectEnum="CAMERA_COLLIDES_EXEC_TYPE" />
+        <selectType AltName="Branch judgment type when multiple exist" ProjectEnum="CAMERA_GRAPPLER_SELECT_TYPE" />
+        <reserved AltName="dummy" Padding="true" />
+        <startTransTime AltName="Interpolation time at switching start" />
+        <endTransTime AltName="Interpolation time at end of switching" />
+        <inCameraStartTransTime AltName="Interpolation time at camera start" />
+        <inCameraEndTransTime AltName="Interpolation time at camera end" />
+        <rayWidth AltName="Ray thickness" />
+        <sphereSize AltName="ball size" />
     </Field>
 </PARAMMETA>

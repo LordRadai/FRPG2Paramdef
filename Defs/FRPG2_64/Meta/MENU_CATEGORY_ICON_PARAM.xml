@@ -1,24 +1,24 @@
 <?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <bagSubscript AltName="道具袋配列用添字" />
-        <cofferSubscript AltName="貴重品箱配列用添字" />
-        <repositorySubscript AltName="倉庫配列用添字" />
-        <shopSubscript AltName="ショップ配列用添字" />
-        <inventory AltName="インベントリ" IsBool="true" />
-        <equipWeapon AltName="武器装備" IsBool="true" />
-        <equipHelmet AltName="兜装備" IsBool="true" />
-        <equipArmor AltName="鎧装備" IsBool="true" />
-        <equipGauntlet AltName="小手装備" IsBool="true" />
-        <equipLeggings AltName="具足装備" IsBool="true" />
-        <equipRing AltName="指輪装備" IsBool="true" />
-        <equipArrow AltName="矢装備" IsBool="true" />
-        <equipItem AltName="アイテム装備" IsBool="true" />
-        <equipSpell AltName="スペル装備" IsBool="true" />
-        <equipGesture AltName="ジェスチャー装備" IsBool="true" />
-        <repository AltName="倉庫" IsBool="true" />
-        <shop AltName="ショップ" IsBool="true" />
-        <equipWeaponArmor AltName="武器防具" IsBool="true" />
-        <padding AltName="パディング" Padding="true" />
+        <bagSubscript AltName="Subscript for tool bag array" />
+        <cofferSubscript AltName="Subscript for valuables box array" />
+        <repositorySubscript AltName="Subscript for warehouse array" />
+        <shopSubscript AltName="Subscript for shop array" />
+        <inventory AltName="inventory" IsBool="true" />
+        <equipWeapon AltName="weapon equipment" IsBool="true" />
+        <equipHelmet AltName="Helmet equipment" IsBool="true" />
+        <equipArmor AltName="armor equipment" IsBool="true" />
+        <equipGauntlet AltName="Kote equipment" IsBool="true" />
+        <equipLeggings AltName="armored equipment" IsBool="true" />
+        <equipRing AltName="ring equipment" IsBool="true" />
+        <equipArrow AltName="arrow equipment" IsBool="true" />
+        <equipItem AltName="Item equipment" IsBool="true" />
+        <equipSpell AltName="spell equipment" IsBool="true" />
+        <equipGesture AltName="Gesture equipment" IsBool="true" />
+        <repository AltName="warehouse" IsBool="true" />
+        <shop AltName="shop" IsBool="true" />
+        <equipWeaponArmor AltName="weapons armor" IsBool="true" />
+        <padding AltName="padding" Padding="true" />
     </Field>
 </PARAMMETA>

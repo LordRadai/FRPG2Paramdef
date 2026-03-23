@@ -1,26 +1,26 @@
 <?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <EnemyId AltName="登録エネミー" ProjectEnum="ENEMY_LIST_ENUM" />
-        <HighLogicId AltName="上位ロジックID" />
-        <LowLogicId AltName="下位ロジックID" />
-        <startUpStateType AltName="起動ステートタイプ" />
-        <bAnotherWorldGenerate AltName="異次元空間生成" IsBool="true" />
-        <memoryBlock1 AltName="メモリ1" IsBool="true" />
-        <memoryBlock2 AltName="メモリ2" IsBool="true" />
-        <memoryBlock3 AltName="メモリ3" IsBool="true" />
-        <memoryBlock4 AltName="メモリ4" IsBool="true" />
-        <memoryBlock5 AltName="メモリ5" IsBool="true" />
-        <memoryBlock6 AltName="メモリ6" IsBool="true" />
-        <memoryBlock7 AltName="メモリ7" IsBool="true" />
-        <memoryBlock8 AltName="メモリ8" IsBool="true" />
-        <memoryBlock9 AltName="メモリ9" IsBool="true" />
-        <memoryBlock10 AltName="メモリ10" IsBool="true" />
-        <memoryBlock11 AltName="メモリ11" IsBool="true" />
-        <memoryBlock12 AltName="メモリ12" IsBool="true" />
-        <memoryBlock13 AltName="メモリ13" IsBool="true" />
-        <memoryBlock14 AltName="メモリ14" IsBool="true" />
-        <memoryBlock15 AltName="メモリ15" IsBool="true" />
-        <memoryBlock16 AltName="メモリ16" IsBool="true" />
+        <EnemyId AltName="registered enemy" ProjectEnum="ENEMY_LIST_ENUM" />
+        <HighLogicId AltName="Upper logic ID" />
+        <LowLogicId AltName="Lower logic ID" />
+        <startUpStateType AltName="Startup state type" />
+        <bAnotherWorldGenerate AltName="Extradimensional space generation" IsBool="true" />
+        <memoryBlock1 AltName="memory 1" IsBool="true" />
+        <memoryBlock2 AltName="memory 2" IsBool="true" />
+        <memoryBlock3 AltName="memory 3" IsBool="true" />
+        <memoryBlock4 AltName="memory 4" IsBool="true" />
+        <memoryBlock5 AltName="memory 5" IsBool="true" />
+        <memoryBlock6 AltName="memory 6" IsBool="true" />
+        <memoryBlock7 AltName="memory 7" IsBool="true" />
+        <memoryBlock8 AltName="memory 8" IsBool="true" />
+        <memoryBlock9 AltName="memory 9" IsBool="true" />
+        <memoryBlock10 AltName="memory 10" IsBool="true" />
+        <memoryBlock11 AltName="memory 11" IsBool="true" />
+        <memoryBlock12 AltName="memory 12" IsBool="true" />
+        <memoryBlock13 AltName="memory 13" IsBool="true" />
+        <memoryBlock14 AltName="memory 14" IsBool="true" />
+        <memoryBlock15 AltName="memory 15" IsBool="true" />
+        <memoryBlock16 AltName="memory 16" IsBool="true" />
     </Field>
 </PARAMMETA>

@@ -1,18 +1,18 @@
 <?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <sizeType AltName="《小型/大型》" ProjectEnum="OBJ_SIZE_ENUM" />
-        <weightType AltName="《重量》" ProjectEnum="OBJ_WEIGHT_TYPE_ENUM" />
-        <breakAction AltName="《破壊可能行動》" ProjectEnum="OBJ_BREAK_ACTION_TYPE_ENUM" />
-        <durabilityType AltName="《荷重限界》" ProjectEnum="OBJ_UPPER_DURABILITY_TYPE_ENUM" />
+        <sizeType AltName="《Small/Large》" ProjectEnum="OBJ_SIZE_ENUM" />
+        <weightType AltName="&quot;weight&quot;" ProjectEnum="OBJ_WEIGHT_TYPE_ENUM" />
+        <breakAction AltName="《Destructible Action》" ProjectEnum="OBJ_BREAK_ACTION_TYPE_ENUM" />
+        <durabilityType AltName="《Load limit》" ProjectEnum="OBJ_UPPER_DURABILITY_TYPE_ENUM" />
         <hp AltName="《HP》" />
-        <dummy AltName="ダミー" Padding="true" />
-        <impact AltName="《接触衝撃耐性》" />
-        <mass AltName="《質量》" />
-        <friction AltName="《摩擦係数》" />
-        <restitution AltName="《反発係数》" />
-        <objAttackAttr AltName="《ダメージ_攻撃属性》" ProjectEnum="DAMAGE_OBJ_ATTACK_ATTR_ENUM" />
-        <rumbleScale AltName="《ヒット時揺れ最大幅》" />
-        <rumbleTime AltName="《ヒット時揺れ時間》" />
+        <dummy AltName="dummy" Padding="true" />
+        <impact AltName="《Contact impact resistance》" />
+        <mass AltName="&quot;mass&quot;" />
+        <friction AltName="《Friction coefficient》" />
+        <restitution AltName="《Coefficient of restitution》" />
+        <objAttackAttr AltName="《Damage_Attack Attribute》" ProjectEnum="DAMAGE_OBJ_ATTACK_ATTR_ENUM" />
+        <rumbleScale AltName="《Maximum swing width on hit》" />
+        <rumbleTime AltName="《Swing time on hit》" />
     </Field>
 </PARAMMETA>

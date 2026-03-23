@@ -1,23 +1,23 @@
 <?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <oneClientHpPercent AltName="クライアント1名時 エネミー最大HP補正" />
-        <oneClientHpDamagePercent AltName="クライアント1名時 エネミーHPダメージ補正" />
-        <oneClientAilmentDamagePercent AltName="クライアント1名時 エネミー耐性ダメージ補正" />
-        <oneClientStaminaDamagePercent AltName="クライアント1名時 エネミー被スタミナ奪取量補正" />
-        <oneClientPoiseDamagePercent AltName="クライアント1名時 エネミー被強靭削り値補正" />
-        <oneClientStunDamagePercent AltName="クライアント1名時 エネミー被気絶値補正" />
-        <twoClientsHpPercent AltName="クライアント2名時 エネミー最大HP補正" />
-        <twoClientsHpDamagePercent AltName="クライアント2名時 エネミーHPダメージ補正" />
-        <twoClientsAilmentDamagePercent AltName="クライアント2名時 エネミー耐性ダメージ補正" />
-        <twoClientsStaminaDamagePercent AltName="クライアント2名時 エネミー被スタミナ奪取量補正" />
-        <twoClientsPoiseDamagePercent AltName="クライアント2名時 エネミー被強靭削り値補正" />
-        <twoClientsStunDamagePercent AltName="クライアント2名時 エネミー被気絶値補正" />
-        <threeClientsHpPercent AltName="クライアント3名時 エネミー最大HP補正" />
-        <threeClientsHpDamagePercent AltName="クライアント3名時 エネミーHPダメージ補正" />
-        <threeClientsAilmentDamagePercent AltName="クライアント3名時 エネミー耐性ダメージ補正" />
-        <threeClientsStaminaDamagePercent AltName="クライアント3名時 エネミー被スタミナ奪取量補正" />
-        <threeClientsPoiseDamagePercent AltName="クライアント3名時 エネミー被強靭削り値補正" />
-        <threeClientsStunDamagePercent AltName="クライアント3名時 エネミー被気絶値補正" />
+        <oneClientHpPercent AltName="Enemy maximum HP correction when 1 client" />
+        <oneClientHpDamagePercent AltName="Enemy HP damage correction for 1 client" />
+        <oneClientAilmentDamagePercent AltName="Enemy resistance damage correction for 1 client" />
+        <oneClientStaminaDamagePercent AltName="When there is 1 client, the amount of stamina taken from the enemy is corrected." />
+        <oneClientPoiseDamagePercent AltName="When there is 1 client, enemy strength reduction value correction" />
+        <oneClientStunDamagePercent AltName="Enemy stun value correction when 1 client" />
+        <twoClientsHpPercent AltName="Enemy maximum HP correction when 2 clients" />
+        <twoClientsHpDamagePercent AltName="Enemy HP damage correction for 2 clients" />
+        <twoClientsAilmentDamagePercent AltName="Enemy resistance damage correction for 2 clients" />
+        <twoClientsStaminaDamagePercent AltName="When there are 2 clients, the amount of stamina taken from the enemy is corrected." />
+        <twoClientsPoiseDamagePercent AltName="When there are 2 clients, enemy toughness machining value correction" />
+        <twoClientsStunDamagePercent AltName="Enemy stun value correction when 2 clients" />
+        <threeClientsHpPercent AltName="Enemy maximum HP correction when 3 clients" />
+        <threeClientsHpDamagePercent AltName="Enemy HP damage correction for 3 clients" />
+        <threeClientsAilmentDamagePercent AltName="Enemy resistance damage correction for 3 clients" />
+        <threeClientsStaminaDamagePercent AltName="When there are 3 clients, the amount of stamina taken from the enemy is corrected." />
+        <threeClientsPoiseDamagePercent AltName="When there are 3 clients, enemy strength reduction value correction" />
+        <threeClientsStunDamagePercent AltName="Enemy stun value correction when 3 clients" />
     </Field>
 </PARAMMETA>

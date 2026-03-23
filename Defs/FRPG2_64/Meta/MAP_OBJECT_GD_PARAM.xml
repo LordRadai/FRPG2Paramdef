@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <animId AltName="アニメID" />
-        <initialFrameHead AltName="【開始】初期フレーム" />
-        <initialFrameTail AltName="【終了】初期フレーム" />
-        <isLoopAnim AltName="ループ再生するか" IsBool="true" />
-        <isBreakable AltName="破壊可能か" IsBool="true" />
-        <isPrefab AltName="プレハブか" IsBool="true" />
-        <cameraHit AltName="カメラ当たり時挙動" ProjectEnum="OBJ_CAMERA_HIT_ENUM" />
-        <emissiveScale0 AltName="エミッシブスケール0" />
-        <emissiveScale1 AltName="エミッシブスケール1" />
-        <pad2 AltName="パディング" Padding="true" />
+        <animId AltName="Anime ID" />
+        <initialFrameHead AltName="[Start] Initial frame" />
+        <initialFrameTail AltName="[End] Initial frame" />
+        <isLoopAnim AltName="Do you want to play it in a loop?" IsBool="true" />
+        <isBreakable AltName="Is it destructible?" IsBool="true" />
+        <isPrefab AltName="Prefabricated?" IsBool="true" />
+        <cameraHit AltName="Behavior when hitting the camera" ProjectEnum="OBJ_CAMERA_HIT_ENUM" />
+        <emissiveScale0 AltName="emissive scale 0" />
+        <emissiveScale1 AltName="emissive scale 1" />
+        <pad2 AltName="padding" Padding="true" />
         <sfxId0 AltName="SFX ID" />
         <sfxId1 AltName="SFX ID" />
         <sfxId2 AltName="SFX ID" />
@@ -18,25 +18,25 @@
         <sfxId4 AltName="SFX ID" />
         <sfxId5 AltName="SFX ID" />
         <sfxIdBreak0 AltName="SFX ID" />
-        <sfxPoint0 AltName="発生地点" ProjectEnum="OBJ_RESIDENT_SFX_POINT_ENUM" />
-        <sfxPoint1 AltName="発生地点" ProjectEnum="OBJ_RESIDENT_SFX_POINT_ENUM" />
-        <sfxPoint2 AltName="発生地点" ProjectEnum="OBJ_RESIDENT_SFX_POINT_ENUM" />
-        <sfxPoint3 AltName="発生地点" ProjectEnum="OBJ_RESIDENT_SFX_POINT_ENUM" />
-        <sfxPoint4 AltName="発生地点" ProjectEnum="OBJ_RESIDENT_SFX_POINT_ENUM" />
-        <sfxPoint5 AltName="発生地点" ProjectEnum="OBJ_RESIDENT_SFX_POINT_ENUM" />
-        <sfxPointBreak0 AltName="発生地点" ProjectEnum="OBJ_RESIDENT_SFX_POINT_ENUM" />
-        <sfxDmyPolyId0 AltName="ダミポリID" />
-        <sfxDmyPolyId1 AltName="ダミポリID" />
-        <sfxDmyPolyId2 AltName="ダミポリID" />
-        <sfxDmyPolyId3 AltName="ダミポリID" />
-        <sfxDmyPolyId4 AltName="ダミポリID" />
-        <sfxDmyPolyId5 AltName="ダミポリID" />
-        <sfxDmyPolyIdBreak0 AltName="ダミポリID" />
-        <doesFollow0 AltName="追従する" IsBool="true" />
-        <doesFollow1 AltName="追従する" IsBool="true" />
-        <doesFollow2 AltName="追従する" IsBool="true" />
-        <doesFollow3 AltName="追従する" IsBool="true" />
-        <doesFollow4 AltName="追従する" IsBool="true" />
-        <doesFollow5 AltName="追従する" IsBool="true" />
+        <sfxPoint0 AltName="Point of occurrence" ProjectEnum="OBJ_RESIDENT_SFX_POINT_ENUM" />
+        <sfxPoint1 AltName="Point of occurrence" ProjectEnum="OBJ_RESIDENT_SFX_POINT_ENUM" />
+        <sfxPoint2 AltName="Point of occurrence" ProjectEnum="OBJ_RESIDENT_SFX_POINT_ENUM" />
+        <sfxPoint3 AltName="Point of occurrence" ProjectEnum="OBJ_RESIDENT_SFX_POINT_ENUM" />
+        <sfxPoint4 AltName="Point of occurrence" ProjectEnum="OBJ_RESIDENT_SFX_POINT_ENUM" />
+        <sfxPoint5 AltName="Point of occurrence" ProjectEnum="OBJ_RESIDENT_SFX_POINT_ENUM" />
+        <sfxPointBreak0 AltName="Point of occurrence" ProjectEnum="OBJ_RESIDENT_SFX_POINT_ENUM" />
+        <sfxDmyPolyId0 AltName="Damipoli ID" />
+        <sfxDmyPolyId1 AltName="Damipoli ID" />
+        <sfxDmyPolyId2 AltName="Damipoli ID" />
+        <sfxDmyPolyId3 AltName="Damipoli ID" />
+        <sfxDmyPolyId4 AltName="Damipoli ID" />
+        <sfxDmyPolyId5 AltName="Damipoli ID" />
+        <sfxDmyPolyIdBreak0 AltName="Damipoli ID" />
+        <doesFollow0 AltName="follow" IsBool="true" />
+        <doesFollow1 AltName="follow" IsBool="true" />
+        <doesFollow2 AltName="follow" IsBool="true" />
+        <doesFollow3 AltName="follow" IsBool="true" />
+        <doesFollow4 AltName="follow" IsBool="true" />
+        <doesFollow5 AltName="follow" IsBool="true" />
     </Field>
 </PARAMMETA>

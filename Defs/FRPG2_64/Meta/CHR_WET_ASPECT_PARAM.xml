@@ -5,9 +5,9 @@
         <colorG AltName="G" />
         <colorB AltName="B" />
         <colorA AltName="A" />
-        <shiness AltName="オーバーライド" />
-        <shinessRate AltName="オーバーライド率" />
-        <fresnel AltName="オーバーライド" />
-        <fresnelRate AltName="オーバーライド率" />
+        <shiness AltName="override" />
+        <shinessRate AltName="Override rate" />
+        <fresnel AltName="override" />
+        <fresnelRate AltName="Override rate" />
     </Field>
 </PARAMMETA>

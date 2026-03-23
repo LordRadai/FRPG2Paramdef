@@ -1,27 +1,27 @@
 <?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <host AltName="ホスト" />
-        <white AltName="白霊" />
-        <smallWhite AltName="小白霊" />
-        <gold AltName="金霊" />
-        <smallGold AltName="小金霊" />
-        <coopBlue AltName="救援青霊" />
-        <versusBlue AltName="報復青霊" />
-        <blackSign AltName="黒霊（サイン）" />
-        <blackIntrude AltName="黒霊（乱入）" />
-        <redSign AltName="赤霊（サイン）" />
-        <redIntrude AltName="赤霊（乱入）" />
-        <bellGuard AltName="鐘守灰霊" />
-        <ratKing AltName="ねずみの王灰霊" />
-        <dragon AltName="竜霊" />
-        <mirrorKnightSign AltName="ミラーナイト霊（サイン）" />
-        <abyssSign AltName="深淵霊（サイン）" />
-        <duelBlue AltName="決闘青霊" />
-        <duelRed AltName="決闘赤霊" />
-        <dummy01 AltName="徘徊幻影" />
-        <dummy02 AltName="篝火幻影" />
-        <mirrorKnightIntrude AltName="ミラーナイト霊(乱入)" />
-        <abyssIntrude AltName="深淵霊（乱入）" />
+        <host AltName="host" />
+        <white AltName="white spirit" />
+        <smallWhite AltName="small white spirit" />
+        <gold AltName="Golden spirit" />
+        <smallGold AltName="small gold spirit" />
+        <coopBlue AltName="Relief spirit" />
+        <versusBlue AltName="Spirit of Retribution" />
+        <blackSign AltName="Black spirit (sign)" />
+        <blackIntrude AltName="Black spirit (intrusion)" />
+        <redSign AltName="Red spirit (sign)" />
+        <redIntrude AltName="Red spirit (intrusion)" />
+        <bellGuard AltName="Bell Keeper Ash Ghost" />
+        <ratKing AltName="Mouse King Ash Spirit" />
+        <dragon AltName="dragon spirit" />
+        <mirrorKnightSign AltName="Mirror Knight Spirit (Sign)" />
+        <abyssSign AltName="Abyssal Spirit (Sign)" />
+        <duelBlue AltName="Duel Blue Spirit" />
+        <duelRed AltName="Duel Red Spirit" />
+        <dummy01 AltName="wandering phantom" />
+        <dummy02 AltName="bonfire illusion" />
+        <mirrorKnightIntrude AltName="Mirror Knight Spirit (Intrusion)" />
+        <abyssIntrude AltName="Abyssal Spirit (Intrusion)" />
     </Field>
 </PARAMMETA>

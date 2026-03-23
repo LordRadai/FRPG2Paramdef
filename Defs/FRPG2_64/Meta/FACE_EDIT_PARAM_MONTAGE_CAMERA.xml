@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <fov AltName="画角" />
-        <positionX AltName="カメラ位置X" />
-        <positionY AltName="カメラ位置Y" />
-        <positionZ AltName="カメラ位置Z" />
-        <lookAtX AltName="カメラ焦点X" />
-        <lookAtY AltName="カメラ焦点Y" />
-        <lookAtZ AltName="カメラ焦点Z" />
+        <fov AltName="Angle of view" />
+        <positionX AltName="camera position" />
+        <positionY AltName="Camera position Y" />
+        <positionZ AltName="Camera position Z" />
+        <lookAtX AltName="camera focus x" />
+        <lookAtY AltName="camera focus Y" />
+        <lookAtZ AltName="camera focus Z" />
     </Field>
 </PARAMMETA>

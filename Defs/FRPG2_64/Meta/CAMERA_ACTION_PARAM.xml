@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <cameraType AltName="カメラ挙動タイプ" ProjectEnum="CAMERA_TYPE" />
-        <cameraBasePosType AltName="カメラ基準点タイプ" ProjectEnum="CAMERA_BASE_POS_TYPE" />
-        <reserved AltName="ダミー" Padding="true" />
-        <fovY AltName="画角(deg)" />
-        <lookAtOffsetX AltName="焦点(X軸) オフセット(m)" />
-        <lookAtOffsetY AltName="焦点(Y軸) オフセット(m)" />
-        <lookAtOffsetZ AltName="焦点(Z軸) オフセット(m)" />
-        <positionOffsetX AltName="位置(X軸) オフセット(m)" />
-        <positionOffsetY AltName="位置(Y軸) オフセット(m)" />
-        <positionOffsetZ AltName="位置(Z軸) オフセット(m)" />
+        <cameraType AltName="Camera behavior type" ProjectEnum="CAMERA_TYPE" />
+        <cameraBasePosType AltName="Camera reference point type" ProjectEnum="CAMERA_BASE_POS_TYPE" />
+        <reserved AltName="dummy" Padding="true" />
+        <fovY AltName="Angle of view (deg)" />
+        <lookAtOffsetX AltName="Focus (X axis) Offset (m)" />
+        <lookAtOffsetY AltName="Focus (Y axis) Offset (m)" />
+        <lookAtOffsetZ AltName="Focus (Z axis) Offset (m)" />
+        <positionOffsetX AltName="Position (X axis) Offset (m)" />
+        <positionOffsetY AltName="Position (Y axis) Offset (m)" />
+        <positionOffsetZ AltName="Position (Z axis) Offset (m)" />
     </Field>
 </PARAMMETA>

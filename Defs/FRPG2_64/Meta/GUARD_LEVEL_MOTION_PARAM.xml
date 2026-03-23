@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <superSmallGuardLevel AltName="極小" ProjectEnum="GUARD_MOTION_TYPE" />
-        <smallGuardLevel AltName="小" ProjectEnum="GUARD_MOTION_TYPE" />
-        <mediumGuardLevel AltName="中" ProjectEnum="GUARD_MOTION_TYPE" />
-        <largeGuardLvel AltName="大" ProjectEnum="GUARD_MOTION_TYPE" />
-        <superLargeGuardLevel AltName="特大" ProjectEnum="GUARD_MOTION_TYPE" />
-        <ultraLargeGuardLevel AltName="特特大" ProjectEnum="GUARD_MOTION_TYPE" />
-        <flipGuardLevel AltName="弾き" ProjectEnum="GUARD_MOTION_TYPE" />
+        <superSmallGuardLevel AltName="Extremely small" ProjectEnum="GUARD_MOTION_TYPE" />
+        <smallGuardLevel AltName="small" ProjectEnum="GUARD_MOTION_TYPE" />
+        <mediumGuardLevel AltName="Medium" ProjectEnum="GUARD_MOTION_TYPE" />
+        <largeGuardLvel AltName="large" ProjectEnum="GUARD_MOTION_TYPE" />
+        <superLargeGuardLevel AltName="extra large" ProjectEnum="GUARD_MOTION_TYPE" />
+        <ultraLargeGuardLevel AltName="extra large" ProjectEnum="GUARD_MOTION_TYPE" />
+        <flipGuardLevel AltName="Play" ProjectEnum="GUARD_MOTION_TYPE" />
     </Field>
 </PARAMMETA>

@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <sideWalk AltName="《水平移動で破壊》" IsBool="true" />
-        <walk AltName="《歩行で破壊》" IsBool="true" />
-        <dash AltName="《ダッシュで破壊》" IsBool="true" />
-        <rolling AltName="《回避で破壊》" IsBool="true" />
-        <jump AltName="《ジャンプで破壊》" IsBool="true" />
-        <fall AltName="《落下で破壊》" IsBool="true" />
-        <damaged AltName="《ダメージ中で破壊》" IsBool="true" />
-        <attack AltName="《攻撃中で破壊》" IsBool="true" />
-        <fall_attack AltName="《落下攻撃中で破壊》" IsBool="true" />
-        <dummy AltName="ダミー" Padding="true" />
+        <sideWalk AltName="《Destroy by horizontal movement》" IsBool="true" />
+        <walk AltName="《Destroy by walking》" IsBool="true" />
+        <dash AltName="《Destroy it》" IsBool="true" />
+        <rolling AltName="《Destroy by Evasion》" IsBool="true" />
+        <jump AltName="《Destruction by jumping》" IsBool="true" />
+        <fall AltName="《Destroyed by falling》" IsBool="true" />
+        <damaged AltName="《Destroyed during damage》" IsBool="true" />
+        <attack AltName="《Destroyed during attack》" IsBool="true" />
+        <fall_attack AltName="《Destroyed during falling attack》" IsBool="true" />
+        <dummy AltName="dummy" Padding="true" />
     </Field>
 </PARAMMETA>

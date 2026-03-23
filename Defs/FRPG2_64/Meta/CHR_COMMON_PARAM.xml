@@ -1,254 +1,254 @@
 <?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <heightType AltName="身長" ProjectEnum="CHR_HEIGHT_TYPE" />
-        <weightType AltName="体重" ProjectEnum="CHR_WEIGHT_TYPE" />
-        <loadWeightRateMin AltName="ウェイト中 防具重量割合 最小" />
-        <loadWeightRateMax AltName="ウェイト中 防具重量割合 最大" />
-        <tireKeepTime AltName="疲労状態継続時間" />
-        <staminaCostDash AltName="スタミナ消費倍率 ダッシュ" />
-        <staminaCostLockOnDash AltName="スタミナ消費倍率 ロックオンダッシュ" />
-        <staminaCostLadder AltName="スタミナ消費倍率 はしごダッシュ" />
-        <staminaCostRope AltName="スタミナ消費倍率 ロープすべり降り" />
-        <staminaCostEvasionBase AltName="スタミナ 消費量 回避ベース値" />
-        <staminaCostStep AltName="スタミナ 消費倍率 ステップ" />
-        <staminaCostRolling AltName="スタミナ 消費倍率 ローリング" />
-        <staminaCostDashJump AltName="スタミナ 消費倍率 ダッシュジャンプ" />
-        <staminaCostStandJump AltName="スタミナ 消費倍率 スタンドジャンプ" />
-        <staminaCostRateEvasion AltName="スタミナ 消費倍率 補正倍率 回避動作中" />
-        <staminaCostRateAttack AltName="スタミナ 消費倍率 補正倍率 攻撃動作中" />
-        <moveDemeritPercentMin AltName="スタミナ低下 移動系デメリット最小地点 [%]" />
-        <moveDemeritPercentMax AltName="スタミナ低下 移動系デメリット最大地点 [%]" />
-        <equipDemeritPercentMin AltName="スタミナ低下 装備系デメリット最小地点 [%]" />
-        <equipDemeritPercentMax AltName="スタミナ低下 装備系デメリット最大地点 [%]" />
-        <attackDemeritPercentMin AltName="スタミナ低下 攻撃系デメリット最小地点 [%]" />
-        <attackDemeritPercentMax AltName="スタミナ低下 攻撃系デメリット最大地点 [%]" />
-        <attackExtraLackOfStatsRate AltName="スタミナ不足攻撃 ステータス不足割合 [%]" />
-        <rollingExtraLackOfStatsRate AltName="スタミナ不足ローリング ステータス不足割合 [%]" />
-        <attackKeepEmptyStaminaTime AltName="スタミナ切れ攻撃 継続時間 [sec]" />
-        <emptyStaminaAttackExtraLackOfStatsRate AltName="スタミナ切れ攻撃 ステータス不足割合 [%]" />
-        <shotReserveSpeed AltName="スタミナ切れ攻撃 攻撃予備動作 再生倍率" />
-        <attackWaitSpeed AltName="スタミナ切れ攻撃 攻撃待機 再生倍率" />
-        <armorType AltName="基本アーマー種類" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
-        <damageWeaponType AltName="ダメージ武器タイプ" ProjectEnum="DAMAGE_CHARACTER_TYPE" />
-        <deadRagdollFitGround AltName="死亡時ラグドールを地面に沿わせる" IsBool="true" />
-        <dummy0 AltName="ダミー" Padding="true" />
-        <deadTimerA AltName="死亡タイマー 経過時間Ａ" />
-        <dyingHpMax AltName="瀕死 最大ＨＰ[%]" />
-        <dyingHpMin AltName="瀕死 最小ＨＰ[%]" />
-        <dyingMoveBlendMaxRate AltName="瀕死 移動時 ブレンド率" />
-        <ctrlType AltName="基本制御タイプ" ProjectEnum="CHR_CTRL_TYPE" />
-        <collisionType AltName="移動コリジョンタイプ" ProjectEnum="CHR_COLLISION_TYPE" />
-        <fHitHeight AltName="移動コリジョン高さ [m]" />
-        <fHitRadius AltName="移動コリジョン半径 [m]" />
-        <fChrHeight AltName="身長 [m]" />
-        <fGuardAngleY AltName="防御角度上下 [deg]" />
-        <fGuardAngleX AltName="防御角度左右 [deg]" />
-        <fMaxLinearVelocity AltName="最高速度[m/s]" />
-        <loadGravityRateBaseMin AltName="重量 算出基準 最小 [kg]" />
-        <loadGravityRateBaseMax AltName="重量 算出基準 最大 [kg]" />
-        <gravityFactorMin AltName="重力加速度倍率 最小" />
-        <gravityFactorMax AltName="重力加速度倍率 最大" />
-        <gravitySpeedMax AltName="重力最大速度 [m/s]" />
-        <flyCtrlValue AltName="飛行制動率" />
-        <lockPointType AltName="ロックポイントタイプ" />
-        <lockDummy AltName="ロック制御ダミー" Padding="true" />
-        <lockCameraCategory AltName="ロックカメラ補正カテゴリ" ProjectEnum="LOCK_ON_CAMERA_OFFSET_TYPE_ENUM" />
-        <lockDisableRadius AltName="ロック不可半径[m]" />
-        <lockDisableHeight AltName="ロック不可高さ[m]" />
-        <guardKnockBackRateSuperSmall AltName="ガードノックバック減少割合 ウェイト補正割合 極小" />
-        <guardKnockBackRateSmall AltName="ガードノックバック減少割合 ウェイト補正割合 小" />
-        <guardKnockBackRateMedium AltName="ガードノックバック減少割合 ウェイト補正割合 中" />
-        <guardKnockBackRateLarge AltName="ガードノックバック減少割合 ウェイト補正割合 大" />
-        <guardKnockBackRateSuperLarge AltName="ガードノックバック減少割合 ウェイト補正割合 特大" />
-        <guardKnockBackRateUltraLarge AltName="ガードノックバック減少割合 ウェイト補正割合 特特大" />
-        <guardKnockBackRateFlip AltName="ガードノックバック減少割合 ウェイト補正割合 弾き" />
-        <guardRotationRate AltName="ガード旋回 反映割合[%]" />
-        <headShotEnable AltName="ヘッドショット" IsBool="true" />
-        <guardBreakEnable AltName="ガードブレイク" IsBool="true" />
-        <backStabEnable AltName="バックスタブ" IsBool="true" />
-        <parryBreakStabEnable AltName="パリィブレイクスタブ" IsBool="true" />
-        <parryBreakDefenselessTime AltName="パリィブレイク 無防備時間" />
-        <parryBreakShorteningTime AltName="パリィブレイク ＰＡＤ入力 短縮時間[sec]" />
-        <guardBreakStabEnable AltName="ガードブレイクスタブ" IsBool="true" />
-        <pad0 AltName="パディング" Padding="true" />
-        <downAttackLength AltName="ダウン追い打ち 許容距離[m]" />
-        <backStabSideAngle AltName="バックスタブ 左右角度 [deg]" />
-        <backStabUpSideAngle AltName="バックスタブ 上下角度 [deg]" />
-        <backStabHeight AltName="バックスタブ 高低差 [m]" />
-        <backStabLength AltName="バックスタブ 距離[m]" />
-        <parryBreakStabSideAngle AltName="パリィブレイクスタブ 左右角度 [deg]" />
-        <parryBreakStabUpSideAngle AltName="パリィブレイクスタブ 上下角度 [deg]" />
-        <parryBreakStabHeight AltName="パリィブレイクスタブ 高低差 [m]" />
-        <parryStabLength AltName="パリィブレイクスタブ 距離[m]" />
-        <guardBreakStabSideAngle AltName="ガードブレイクスタブ 左右角度 [deg]" />
-        <guardBreakStabUpSideAngle AltName="ガードブレイクスタブ 上下角度 [deg]" />
-        <guardBreakStabHeight AltName="ガードブレイクスタブ 高低差 [m]" />
-        <guardBreakStabLength AltName="ガードブレイクスタブ 距離[m]" />
-        <lowerEnable AltName="下半身ダメージ" IsBool="true" />
-        <pad1 AltName="パディング" Padding="true" />
-        <lowerDmgBendingValue AltName="下半身ダメージ しゃがみ量[%]" />
-        <lowerDmgBendingStartTime AltName="下半身ダメージ しゃがみ行き時間[sec]" />
-        <lowerDmgBendingEndTime AltName="下半身ダメージ しゃがみ戻り時間[sec]" />
-        <lowerDmgMoveDecelerationRate AltName="下半身ダメージ 移動速度 減少割合[%]" />
-        <lowerDmgRotateDecelerationRate AltName="下半身ダメージ 旋回速度 減少割合[%]" />
-        <ragdollMassFactor AltName="ラグドール質量倍率" />
-        <ragdollFrictionFactor AltName="ラグドール摩擦係数倍率" />
-        <ragdollRestitutionFactor AltName="ラグドール反発係数倍率" />
-        <ragdollMaxLinearVelocityFactor AltName="ラグドール最大速度倍率" />
-        <ragdollMaxAngularVelocityFactor AltName="ラグドール最大角速度倍率" />
-        <ragdollGravityFactorMin AltName="ラグドール重力加速度倍率 最小" />
-        <ragdollGravityFactorMax AltName="ラグドール重力加速度倍率 最大" />
-        <jumpAttackSideAngle AltName="ジャンプ衝突 発生左右角度[°]" />
-        <damageRotationSpeed AltName="ダメージ方向 旋回速度 [deg/sec]" />
-        <damageMoveDistRate AltName="ダメージ ノックバック減少割合 [%]" />
-        <heavyDamageKnockBackDist AltName="ダメージ 特大ダメージ後退 [m]" />
-        <heavyDamageStiff AltName="ダメージ 特大ダメージ硬直 [Sec]" />
-        <heavyDamageDefenselessTime AltName="ダメージ 特大ダメージ無防備時間 [Sec]" />
-        <bleedingDamageStiff AltName="ダメージ 出血硬直[Sec]" />
-        <heavyDamageShorteningTime AltName="ダメージ 特大ダメージ無防備時間 ＰＡＤ入力 短縮時間 [Se" />
-        <guardBreakDamageDefenselessTime AltName="ダメージ ガードブレイクダメージ無防備時間 [Sec]" />
-        <guardBreakDamageShorteningTime AltName="ダメージ ガードブレイクダメージ無防備時間 ＰＡＤ入力 短縮時" />
-        <blowDecelerationTimeFirst AltName="ダメージ 吹飛びダメージ減速１開始時間 [Sec]" />
-        <blowDecelerationTimeSecond AltName="ダメージ 吹飛びダメージ減速２開始時間 [Sec]" />
-        <blowDecelerationFirst AltName="ダメージ 吹飛びダメージ減速度１ [m/sec^2]" />
-        <blowDecelerationSecond AltName="ダメージ 吹飛びダメージ減速度２ [m/sec^2]" />
-        <attackPushBackRate AltName="押し返し反映割合[%]" />
-        <parryRotationSpeed AltName="パリィ旋回速度 [deg/sec]" />
-        <BreathDamageEnable AltName="ブレスダメージ有効無効設定" IsBool="true" />
-        <dummy1 AltName="ダミー" Padding="true" />
-        <hitLowerBodyHeight AltName="ＨＩＴ判定 下半身高さ" />
-        <hitFrontAngle AltName="ＨＩＴ時正面認識 左右角度" />
-        <attackMoveSpeed AltName="歩行攻撃移動速度 [m/s]" />
-        <attackRotationSpeed AltName="歩行攻撃旋回速度 [deg/s]" />
-        <attackRange AltName="攻撃範囲 [m]" />
-        <fLookAtRotationLeftMax AltName="LookAt 旋回限界角度 左 [deg]" />
-        <fLookAtRotationRightMax AltName="LookAt 旋回限界角度 右 [deg]" />
-        <fLookAtRotationUpperMax AltName="LookAt 旋回限界角度 上 [deg]" />
-        <fLookAtRotationLownerMax AltName="LookAt 旋回限界角度 下 [deg]" />
-        <fLookAtVisibilitySideMax AltName="LookAt 認識限界角度 左右 [deg]" />
-        <fLookAtVisibilityUpperMax AltName="LookAt 認識限界角度 上下 [deg]" />
-        <fLookAtRotationSideSpeedMax AltName="LookAt 左右旋回速度 [deg/sec]" />
-        <fLookAtRotationUpperSpeedMax AltName="LookAt 上下旋回速度 [deg/sec]" />
-        <isLookAtDummyPolyBasePos AltName="LookAt ダミポリ位置を基準にする" IsBool="true" />
-        <lookAtDummy AltName="ダミー" Padding="true" />
-        <fShootingLookAtRotationLeftMax AltName="射撃 LookAt 旋回限界角度 左 [deg]" />
-        <fShootingLookAtRotationRightMax AltName="射撃 LookAt 旋回限界角度 右 [deg]" />
-        <fShootingLookAtRotationUpperMax AltName="射撃 LookAt 旋回限界角度 上 [deg]" />
-        <fShootingLookAtRotationLownerMax AltName="射撃 LookAt 旋回限界角度 下 [deg]" />
-        <fShootingLookAtVisibilitySideMax AltName="射撃 LookAt 認識限界角度 左右 [deg]" />
-        <fShootingLookAtVisibilityUpperMax AltName="射撃 LookAt 認識限界角度 上下 [deg]" />
-        <fShootingLookAtRotationSideSpeedMax AltName="射撃 LookAt 左右旋回速度 [deg/sec]" />
-        <fShootingLookAtRotationUpperSpeedMax AltName="射撃 LookAt 上下旋回速度 [deg/sec]" />
-        <shootingIsLookAtDummyPolyBasePos AltName="射撃 LookAt ダミポリ位置を基準にする" IsBool="true" />
-        <shootingLookAtDummy AltName="ダミー" Padding="true" />
-        <footDummyPoly001 AltName="足裏ダミポリ番号1" />
-        <footDummyPoly002 AltName="足裏ダミポリ番号2" />
-        <footDummyPoly003 AltName="足裏ダミポリ番号3" />
-        <footDummyPoly004 AltName="足裏ダミポリ番号4" />
-        <footDummyPoly005 AltName="足裏ダミポリ番号5" />
-        <footDummyPoly006 AltName="足裏ダミポリ番号6" />
-        <footDummyPoly007 AltName="足裏ダミポリ番号7" />
-        <footDummyPoly008 AltName="足裏ダミポリ番号8" />
-        <footEffectOffset AltName="足エフェクト前後オフセット" />
-        <footEffectOffsetMoveRate AltName="足エフェクト移動量オフセット倍率" />
-        <footRayMargin AltName="足エフェクト余白" />
-        <footRayMinLength AltName="足エフェクト判定レイキャスト最短" />
-        <footRayMaxLength AltName="足エフェクト判定レイキャスト最長（上り坂）" />
-        <footRayMaxDownHillLength AltName="足エフェクト判定レイキャスト最長（下り坂）" />
-        <footRayUpDownMargin AltName="足エフェクト判定上下変化許容量" />
-        <footRunSpeedRate AltName="走り足音判定速度割合[%]" />
-        <footSoundLevelSuperSmall AltName="音大きさ　極小" />
-        <footSoundLevelSmall AltName="音大きさ　小" />
-        <footSoundLevelNormal AltName="音大きさ　中" />
-        <footSoundLevelLarge AltName="音大きさ　大" />
-        <footSoundLevelSuperLarge AltName="音大きさ　特大" />
-        <footSoundDummy AltName="ダミー" Padding="true" />
-        <single1HandNormal AltName="詠唱時間 片手 弱 [sec]" />
-        <single1HandStrong AltName="詠唱時間 片手 強 [sec]" />
-        <single2HandedNormal AltName="詠唱時間 両手 弱 [sec]" />
-        <single2HandedStrong AltName="詠唱時間 両手 強 [sec]" />
-        <dual1HandNormal AltName="詠唱時間 二刀流 弱 [sec]" />
-        <dual1HandStrong AltName="詠唱時間 二刀流 強 [sec]" />
-        <dual2HandedNormal AltName="詠唱時間 二刀流両手 弱 [sec]" />
-        <dual2HandedStrong AltName="詠唱時間 二刀流両手 強 [sec]" />
-        <bladePartsDamage AltName="ブレード部位ダメージ有効設定" IsBool="true" />
-        <partsDummy AltName="ダミー" Padding="true" />
-        <damageAdjustPartsRateSuperSmall AltName="部位ダメージ倍率　極小" />
-        <damageAdjustPartsRateSmall AltName="部位ダメージ倍率　小" />
-        <damageAdjustPartsRateNormal AltName="部位ダメージ倍率　中" />
-        <damageAdjustPartsRateLarge AltName="部位ダメージ倍率　大" />
-        <damageAdjustPartsRateSuperLarge AltName="部位ダメージ倍率　特大" />
-        <grabAttackDamageRate AltName="投げ中ダメージ倍率" />
-        <receiveSlashDamageRate AltName="通常物理 被ダメージ倍率 斬撃" />
-        <receiveThrustDamageRate AltName="通常物理 被ダメージ倍率 刺突" />
-        <receiveStrikeDamageRate AltName="通常物理 被ダメージ倍率 打撃" />
-        <fallStrikeFallDist AltName="落下攻撃 発生落下高度" />
-        <jumpFallStrikeHeight AltName="ジャンプ落下攻撃 発生落下高度" />
-        <isSlopeAdjust AltName="常に傾斜に沿う" IsBool="true" />
-        <slopeAdjustDummy AltName="ダミー" Padding="true" />
-        <slopeAdjustPitchMax AltName="傾斜最大ピッチ角度" />
-        <slopeAdjustRollMax AltName="傾斜最大ロール角度" />
-        <slopeAdjustPitchSpeed AltName="傾斜ピッチ補正速度" />
-        <slopeAdjustRollSpeed AltName="傾斜ロール補正速度" />
-        <fallStabSlashAnim AltName="落下投げアニメID 斬り" ProjectEnum="PLAYER_SP_ATTACK_MOTION" />
-        <fallStabStabAnim AltName="落下投げアニメID 突き" ProjectEnum="PLAYER_SP_ATTACK_MOTION" />
-        <fallStabGrabParamId AltName="落下投げ 投げパラメータID" />
-        <fallStabDummyPolyId AltName="落下投げ 基準ダミポリID" />
-        <fallStabDummyPolyReverse AltName="落下投げ 向き反転" IsBool="true" />
-        <fallStabDummy AltName="ダミー" Padding="true" />
-        <fallStabDistance AltName="落下投げ 距離[m]" />
-        <fallStabAngle AltName="落下投げ 角度[deg]" />
-        <poisonRecoverTimeMin AltName="状態異常 毒 ゲージ回復時間 最小値[sec]" />
-        <poisonRecoverTimeMax AltName="状態異常 毒 ゲージ回復時間 最大値[sec]" />
-        <burningRecoverTimeMin AltName="状態異常 燃焼 ゲージ回復時間 最小値[sec]" />
-        <burningRecoverTimeMax AltName="状態異常 燃焼 ゲージ回復時間 最大値[sec]" />
-        <bleedingRecoverTimeMin AltName="状態異常 出血 ゲージ回復時間 最小値[sec]" />
-        <bleedingRecoverTimeMax AltName="状態異常 出血 ゲージ回復時間 最大値[sec]" />
-        <curseRecoverTimeMin AltName="状態異常 呪死 ゲージ回復時間 最小値[sec]" />
-        <curseRecoverTimeMax AltName="状態異常 呪死 ゲージ回復時間 最大値[sec]" />
-        <weaponBreakRecoverTimeMin AltName="状態異常 武器破損 ゲージ回復時間 最小値[sec]" />
-        <weaponBreakRecoverTimeMax AltName="状態異常 武器破損 ゲージ回復時間 最大値[sec]" />
-        <petrifiedRecoverTimeMin AltName="状態異常 石化 ゲージ回復時間 最小値[sec]" />
-        <petrifiedRecoverTimeMax AltName="状態異常 石化 ゲージ回復時間 最大値[sec]" />
-        <poisonWetEffectTimeMin AltName="毒濡れ 効果時間 最小値[sec]" />
-        <poisonWetEffectTimeMax AltName="毒濡れ 効果時間 最大値[sec]" />
-        <oilWetEffectTimeMin AltName="油濡れ 効果時間 最小値[sec]" />
-        <oilWetEffectTimeMax AltName="油濡れ 効果時間 最大値[sec]" />
-        <WatierWetEffectTimeMin AltName="水濡れ 効果時間 最小値[sec]" />
-        <WatierWetEffectTimeMax AltName="水濡れ 効果時間 最大値[sec]" />
-        <itemAnimSpeedRateMin AltName="アイテムアニメ速度 補正倍率 最小[倍]" />
-        <itemAnimSpeedRateMax AltName="アイテムアニメ速度 補正倍率 最大[倍]" />
-        <downStiffRate AltName="ダウン硬直時間　倍率[倍]" />
-        <downShorteningTime AltName="ダウン硬直時間　ＰＡＤ入力 短縮時間[sec]" />
-        <damageUpperRotationAngleY AltName="ダメージ上半身捻り範囲 Y" />
-        <damageUpperRotationAngleX AltName="ダメージ上半身捻り範囲 X" />
-        <damageUpperRotationAngleZ AltName="ダメージ上半身捻り範囲 Z" />
-        <damageUpperRotationAngleCenter AltName="ダメージ上半身捻り範囲　中央" />
-        <environmentSfxRain AltName="環境SFX：雨" Refs="ChrFullBodySfxParam" />
-        <environmentSfxWaterFall AltName="環境SFX：滝" Refs="ChrFullBodySfxParam" />
-        <moveWindParamSmall AltName="移動風：小" Refs="ChrPointWindParam" />
-        <moveWindParamMedium AltName="移動風：中" Refs="ChrPointWindParam" />
-        <moveWindParamLarge AltName="移動風：大" Refs="ChrPointWindParam" />
-        <atkAutoHomingDistance AltName="接近オートホーミング 距離[m]" />
-        <atkAutoHomingSdAngle AltName="接近オートホーミング 左右角度[deg]" />
-        <atkAutoHomingUdAngle AltName="接近オートホーミング 上下角度[deg]" />
-        <shotAutoHomingDistance AltName="射撃オートホーミング 距離[m]" />
-        <shotAutoHomingSdAngle AltName="射撃オートホーミング 左右角度[deg]" />
-        <shotAutoHomingUdAngle AltName="射撃オートホーミング 上下角度[deg]" />
-        <footEffectSize AltName="足エフェクトサイズ" ProjectEnum="CHR_WEIGHT_TYPE" />
-        <grabDamageRateSlash AltName="投げ 被ダメージ倍率 斬撃" />
-        <grabDamageRateBlow AltName="投げ 被ダメージ倍率 打撃" />
-        <grabDamageRateStab AltName="投げ 被ダメージ倍率刺突" />
-        <grabDamageRateBullet AltName="投げ 被ダメージ倍率 弾" />
-        <disallowDamageDecrementDist AltName="距離減衰無効距離" />
-        <lockInvisibleReleaseTime AltName="不可視ロック解除時間[sec]" />
-        <fHitOffsetX AltName="移動コリジョンオフセット左右 [m]" />
-        <fHitOffsetZ AltName="移動コリジョンオフセット前後[m]" />
-        <takeWaterHeightLow AltName="着水判定高さ足首" />
-        <takeWaterHeightMiddle AltName="着水判定高さ股下" />
-        <takeWaterType AltName="着水タイプ" ProjectEnum="CHR_TAKE_WATER_TYPE" />
-        <takeWaterDummy AltName="ダミー" Padding="true" />
+        <heightType AltName="height" ProjectEnum="CHR_HEIGHT_TYPE" />
+        <weightType AltName="body weight" ProjectEnum="CHR_WEIGHT_TYPE" />
+        <loadWeightRateMin AltName="Weight Medium Armor Weight Percentage Minimum" />
+        <loadWeightRateMax AltName="During weight Armor weight percentage Max." />
+        <tireKeepTime AltName="Fatigue state duration" />
+        <staminaCostDash AltName="Stamina consumption multiplier dash" />
+        <staminaCostLockOnDash AltName="Stamina consumption multiplier Lock-on dash" />
+        <staminaCostLadder AltName="Stamina consumption multiplier ladder dash" />
+        <staminaCostRope AltName="Stamina consumption multiplier rope sliding down" />
+        <staminaCostEvasionBase AltName="Stamina consumption Evasion base value" />
+        <staminaCostStep AltName="Stamina consumption multiplier step" />
+        <staminaCostRolling AltName="Stamina consumption multiplier rolling" />
+        <staminaCostDashJump AltName="Stamina consumption multiplier dash jump" />
+        <staminaCostStandJump AltName="Stamina consumption multiplier stand jump" />
+        <staminaCostRateEvasion AltName="Stamina consumption magnification correction magnification During evasive action" />
+        <staminaCostRateAttack AltName="Stamina consumption multiplier Correction multiplier During attack operation" />
+        <moveDemeritPercentMin AltName="Decreased stamina Movement system disadvantage minimum point [%]" />
+        <moveDemeritPercentMax AltName="Decreased stamina Movement system disadvantage maximum point [%]" />
+        <equipDemeritPercentMin AltName="Stamina decrease Minimum equipment disadvantage point [%]" />
+        <equipDemeritPercentMax AltName="Stamina decrease Maximum equipment demerit point [%]" />
+        <attackDemeritPercentMin AltName="Stamina decrease Attack system disadvantage minimum point [%]" />
+        <attackDemeritPercentMax AltName="Stamina decrease Attack system demerit maximum point [%]" />
+        <attackExtraLackOfStatsRate AltName="Stamina insufficient attack Status insufficient rate [%]" />
+        <rollingExtraLackOfStatsRate AltName="Stamina Insufficiency Rolling Status Insufficiency Ratio [%]" />
+        <attackKeepEmptyStaminaTime AltName="Stamina exhaustion attack duration [sec]" />
+        <emptyStaminaAttackExtraLackOfStatsRate AltName="Stamina exhaustion attack Status deficiency rate [%]" />
+        <shotReserveSpeed AltName="Attack that runs out of stamina Preliminary attack movement Regeneration rate" />
+        <attackWaitSpeed AltName="Attack out of stamina Attack standby Regeneration rate" />
+        <armorType AltName="Basic armor type" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <damageWeaponType AltName="damage weapon type" ProjectEnum="DAMAGE_CHARACTER_TYPE" />
+        <deadRagdollFitGround AltName="Make the ragdoll follow the ground when dying" IsBool="true" />
+        <dummy0 AltName="dummy" Padding="true" />
+        <deadTimerA AltName="Death timer elapsed time A" />
+        <dyingHpMax AltName="Dying Max HP [%]" />
+        <dyingHpMin AltName="Dying Minimum HP [%]" />
+        <dyingMoveBlendMaxRate AltName="Dying Blend rate when moving" />
+        <ctrlType AltName="Basic control type" ProjectEnum="CHR_CTRL_TYPE" />
+        <collisionType AltName="moving collision type" ProjectEnum="CHR_COLLISION_TYPE" />
+        <fHitHeight AltName="Moving collision height [m]" />
+        <fHitRadius AltName="Moving collision radius [m]" />
+        <fChrHeight AltName="Height [m]" />
+        <fGuardAngleY AltName="Defense angle up and down [deg]" />
+        <fGuardAngleX AltName="Defense angle left and right [deg]" />
+        <fMaxLinearVelocity AltName="Maximum speed [m/s]" />
+        <loadGravityRateBaseMin AltName="Weight Calculation Criteria Minimum [kg]" />
+        <loadGravityRateBaseMax AltName="Weight Calculation standard Maximum [kg]" />
+        <gravityFactorMin AltName="Gravity acceleration multiplier minimum" />
+        <gravityFactorMax AltName="Gravity acceleration multiplier maximum" />
+        <gravitySpeedMax AltName="Maximum gravity velocity [m/s]" />
+        <flyCtrlValue AltName="flight braking rate" />
+        <lockPointType AltName="lock point type" />
+        <lockDummy AltName="lock control dummy" Padding="true" />
+        <lockCameraCategory AltName="Lock camera correction category" ProjectEnum="LOCK_ON_CAMERA_OFFSET_TYPE_ENUM" />
+        <lockDisableRadius AltName="Unlockable radius [m]" />
+        <lockDisableHeight AltName="Unlockable height [m]" />
+        <guardKnockBackRateSuperSmall AltName="Guard knockback reduction rate Weight correction rate Very small" />
+        <guardKnockBackRateSmall AltName="Guard knockback reduction rate Weight correction rate Small" />
+        <guardKnockBackRateMedium AltName="Guard knockback reduction rate Weight correction rate Medium" />
+        <guardKnockBackRateLarge AltName="Guard knockback reduction rate Weight correction rate Large" />
+        <guardKnockBackRateSuperLarge AltName="Guard knockback reduction rate Weight correction rate Extra large" />
+        <guardKnockBackRateUltraLarge AltName="Guard knockback reduction rate Weight correction rate Extra large" />
+        <guardKnockBackRateFlip AltName="Guard knockback reduction rate Weight correction rate" />
+        <guardRotationRate AltName="Guard rotation reflection ratio [%]" />
+        <headShotEnable AltName="head shot" IsBool="true" />
+        <guardBreakEnable AltName="guard break" IsBool="true" />
+        <backStabEnable AltName="back stab" IsBool="true" />
+        <parryBreakStabEnable AltName="parry break stab" IsBool="true" />
+        <parryBreakDefenselessTime AltName="Parry break defenseless time" />
+        <parryBreakShorteningTime AltName="Parry break PAD input reduction time [sec]" />
+        <guardBreakStabEnable AltName="guard break stab" IsBool="true" />
+        <pad0 AltName="padding" Padding="true" />
+        <downAttackLength AltName="Down follow-up allowable distance [m]" />
+        <backStabSideAngle AltName="Backstab left/right angle [deg]" />
+        <backStabUpSideAngle AltName="Backstab vertical angle [deg]" />
+        <backStabHeight AltName="Backstab height difference [m]" />
+        <backStabLength AltName="Backstab distance [m]" />
+        <parryBreakStabSideAngle AltName="Parry break stub left/right angle [deg]" />
+        <parryBreakStabUpSideAngle AltName="Parry break stub vertical angle [deg]" />
+        <parryBreakStabHeight AltName="Parry break stab height difference [m]" />
+        <parryStabLength AltName="Parry break stab distance [m]" />
+        <guardBreakStabSideAngle AltName="Guard break stub left/right angle [deg]" />
+        <guardBreakStabUpSideAngle AltName="Guard break stub vertical angle [deg]" />
+        <guardBreakStabHeight AltName="Guard break stub height difference [m]" />
+        <guardBreakStabLength AltName="Guard break stab distance [m]" />
+        <lowerEnable AltName="lower body damage" IsBool="true" />
+        <pad1 AltName="padding" Padding="true" />
+        <lowerDmgBendingValue AltName="Lower body damage crouching amount [%]" />
+        <lowerDmgBendingStartTime AltName="Lower body damage Crouching time [sec]" />
+        <lowerDmgBendingEndTime AltName="Lower body damage Crouching return time [sec]" />
+        <lowerDmgMoveDecelerationRate AltName="Lower body damage movement speed reduction rate [%]" />
+        <lowerDmgRotateDecelerationRate AltName="Lower body damage Turning speed reduction rate [%]" />
+        <ragdollMassFactor AltName="Ragdoll mass multiplier" />
+        <ragdollFrictionFactor AltName="Ragdoll friction coefficient multiplier" />
+        <ragdollRestitutionFactor AltName="Ragdoll repulsion coefficient multiplier" />
+        <ragdollMaxLinearVelocityFactor AltName="Ragdoll maximum speed multiplier" />
+        <ragdollMaxAngularVelocityFactor AltName="Ragdoll maximum angular velocity multiplier" />
+        <ragdollGravityFactorMin AltName="Ragdoll Gravity Acceleration Multiplier Minimum" />
+        <ragdollGravityFactorMax AltName="Ragdoll gravity acceleration multiplier maximum" />
+        <jumpAttackSideAngle AltName="Jump collision occurrence left/right angle [°]" />
+        <damageRotationSpeed AltName="Damage direction Turning speed [deg/sec]" />
+        <damageMoveDistRate AltName="Damage knockback reduction rate [%]" />
+        <heavyDamageKnockBackDist AltName="Damage Extra large damage setback [m]" />
+        <heavyDamageStiff AltName="Damage Extra large damage recovery [Sec]" />
+        <heavyDamageDefenselessTime AltName="Damage Extra large damage Defenseless time [Sec]" />
+        <bleedingDamageStiff AltName="Damage Bleeding Stiffness [Sec]" />
+        <heavyDamageShorteningTime AltName="Damage Extra large damage defenseless time PAD input reduction time [Se" />
+        <guardBreakDamageDefenselessTime AltName="Damage Guard break damage Defenseless time [Sec]" />
+        <guardBreakDamageShorteningTime AltName="Damage Guard break damage Defenseless time PAD input When reduced" />
+        <blowDecelerationTimeFirst AltName="Damage Blow-up damage deceleration 1 start time [Sec]" />
+        <blowDecelerationTimeSecond AltName="Damage Blow-up damage deceleration 2 start time [Sec]" />
+        <blowDecelerationFirst AltName="Damage Blow-up damage deceleration 1 [m/sec^2]" />
+        <blowDecelerationSecond AltName="Damage Blow-up damage deceleration 2 [m/sec^2]" />
+        <attackPushBackRate AltName="Push-back reflection ratio [%]" />
+        <parryRotationSpeed AltName="Parry turning speed [deg/sec]" />
+        <BreathDamageEnable AltName="Breath damage enable/disable settings" IsBool="true" />
+        <dummy1 AltName="dummy" Padding="true" />
+        <hitLowerBodyHeight AltName="HIT judgment Lower body height" />
+        <hitFrontAngle AltName="Front recognition during HIT left and right angle" />
+        <attackMoveSpeed AltName="Walking attack movement speed [m/s]" />
+        <attackRotationSpeed AltName="Walking attack turning speed [deg/s]" />
+        <attackRange AltName="Attack range [m]" />
+        <fLookAtRotationLeftMax AltName="LookAt Turning limit angle left [deg]" />
+        <fLookAtRotationRightMax AltName="LookAt Turning limit angle right [deg]" />
+        <fLookAtRotationUpperMax AltName="LookAt Turning limit angle upper [deg]" />
+        <fLookAtRotationLownerMax AltName="LookAt Turning limit angle lower [deg]" />
+        <fLookAtVisibilitySideMax AltName="LookAt Recognition limit angle left and right [deg]" />
+        <fLookAtVisibilityUpperMax AltName="LookAt Recognition limit angle Up and down [deg]" />
+        <fLookAtRotationSideSpeedMax AltName="LookAt Left and right turning speed [deg/sec]" />
+        <fLookAtRotationUpperSpeedMax AltName="LookAt Vertical rotation speed [deg/sec]" />
+        <isLookAtDummyPolyBasePos AltName="LookAt Based on dummy poly position" IsBool="true" />
+        <lookAtDummy AltName="dummy" Padding="true" />
+        <fShootingLookAtRotationLeftMax AltName="Shooting LookAt Turning limit angle left [deg]" />
+        <fShootingLookAtRotationRightMax AltName="Shooting LookAt Turning limit angle right [deg]" />
+        <fShootingLookAtRotationUpperMax AltName="Shooting LookAt Turning limit angle up [deg]" />
+        <fShootingLookAtRotationLownerMax AltName="Shooting LookAt Turning limit angle lower [deg]" />
+        <fShootingLookAtVisibilitySideMax AltName="Shooting LookAt recognition limit angle left and right [deg]" />
+        <fShootingLookAtVisibilityUpperMax AltName="Shooting LookAt recognition limit angle up/down [deg]" />
+        <fShootingLookAtRotationSideSpeedMax AltName="Shooting LookAt Left and right turning speed [deg/sec]" />
+        <fShootingLookAtRotationUpperSpeedMax AltName="Shooting LookAt Vertical rotation speed [deg/sec]" />
+        <shootingIsLookAtDummyPolyBasePos AltName="Shooting LookAt Based on dummy poly position" IsBool="true" />
+        <shootingLookAtDummy AltName="dummy" Padding="true" />
+        <footDummyPoly001 AltName="Sole dummy poly number 1" />
+        <footDummyPoly002 AltName="Sole dummy poly number 2" />
+        <footDummyPoly003 AltName="Sole dummy poly number 3" />
+        <footDummyPoly004 AltName="Sole dummy poly number 4" />
+        <footDummyPoly005 AltName="Sole dummy poly number 5" />
+        <footDummyPoly006 AltName="Sole dummy poly number 6" />
+        <footDummyPoly007 AltName="Sole dummy poly number 7" />
+        <footDummyPoly008 AltName="Sole dummy poly number 8" />
+        <footEffectOffset AltName="Foot effect front and back offset" />
+        <footEffectOffsetMoveRate AltName="Foot effect movement amount offset magnification" />
+        <footRayMargin AltName="foot effect margin" />
+        <footRayMinLength AltName="Foot effect judgment ray cast shortest" />
+        <footRayMaxLength AltName="Longest leg effect judgment ray cast (uphill)" />
+        <footRayMaxDownHillLength AltName="Longest leg effect judgment ray cast (downhill)" />
+        <footRayUpDownMargin AltName="Leg effect judgment vertical change tolerance" />
+        <footRunSpeedRate AltName="Running footsteps judgment speed ratio [%]" />
+        <footSoundLevelSuperSmall AltName="Sound volume extremely small" />
+        <footSoundLevelSmall AltName="Sound volume small" />
+        <footSoundLevelNormal AltName="Sound volume medium" />
+        <footSoundLevelLarge AltName="Sound volume large" />
+        <footSoundLevelSuperLarge AltName="Sound size extra large" />
+        <footSoundDummy AltName="dummy" Padding="true" />
+        <single1HandNormal AltName="Casting time one hand weak [sec]" />
+        <single1HandStrong AltName="Casting time one hand strong [sec]" />
+        <single2HandedNormal AltName="Casting time both hands weak [sec]" />
+        <single2HandedStrong AltName="Casting time Two hands Strong [sec]" />
+        <dual1HandNormal AltName="Casting time Dual wielding weak [sec]" />
+        <dual1HandStrong AltName="Casting Time Dual Wield Strong [sec]" />
+        <dual2HandedNormal AltName="Casting time Dual wielding two-handed Weak [sec]" />
+        <dual2HandedStrong AltName="Casting Time Dual Wield Two Hands Strong [sec]" />
+        <bladePartsDamage AltName="Blade part damage enable setting" IsBool="true" />
+        <partsDummy AltName="dummy" Padding="true" />
+        <damageAdjustPartsRateSuperSmall AltName="Part damage multiplier extremely small" />
+        <damageAdjustPartsRateSmall AltName="Part damage multiplier small" />
+        <damageAdjustPartsRateNormal AltName="Part damage multiplier medium" />
+        <damageAdjustPartsRateLarge AltName="Part damage multiplier large" />
+        <damageAdjustPartsRateSuperLarge AltName="Part damage multiplier extra large" />
+        <grabAttackDamageRate AltName="Damage multiplier while throwing" />
+        <receiveSlashDamageRate AltName="Normal physical damage multiplier slash" />
+        <receiveThrustDamageRate AltName="Normal physics Damage multiplier Pierce" />
+        <receiveStrikeDamageRate AltName="Normal physical damage multiplier hit" />
+        <fallStrikeFallDist AltName="Falling attack Falling height" />
+        <jumpFallStrikeHeight AltName="Jump fall attack Fall height" />
+        <isSlopeAdjust AltName="always follow the slope" IsBool="true" />
+        <slopeAdjustDummy AltName="dummy" Padding="true" />
+        <slopeAdjustPitchMax AltName="Inclination maximum pitch angle" />
+        <slopeAdjustRollMax AltName="Tilt maximum roll angle" />
+        <slopeAdjustPitchSpeed AltName="Incline pitch correction speed" />
+        <slopeAdjustRollSpeed AltName="Tilt roll correction speed" />
+        <fallStabSlashAnim AltName="Falling throw anime ID Slash" ProjectEnum="PLAYER_SP_ATTACK_MOTION" />
+        <fallStabStabAnim AltName="Falling throw anime ID Tsuki" ProjectEnum="PLAYER_SP_ATTACK_MOTION" />
+        <fallStabGrabParamId AltName="Falling throw Throwing parameter ID" />
+        <fallStabDummyPolyId AltName="Falling throw standard dummy poly ID" />
+        <fallStabDummyPolyReverse AltName="Falling throw direction reversal" IsBool="true" />
+        <fallStabDummy AltName="dummy" Padding="true" />
+        <fallStabDistance AltName="Falling throw distance [m]" />
+        <fallStabAngle AltName="Falling throw angle [deg]" />
+        <poisonRecoverTimeMin AltName="Status abnormality Poison Gauge recovery time Minimum value [sec]" />
+        <poisonRecoverTimeMax AltName="Status abnormality Poison Gauge recovery time Maximum value [sec]" />
+        <burningRecoverTimeMin AltName="Status abnormality Combustion Gauge recovery time Minimum value [sec]" />
+        <burningRecoverTimeMax AltName="Status abnormality Combustion Gauge recovery time Maximum value [sec]" />
+        <bleedingRecoverTimeMin AltName="Status abnormality Bleeding Gauge recovery time Minimum value [sec]" />
+        <bleedingRecoverTimeMax AltName="Status abnormality Bleeding Gauge recovery time Maximum value [sec]" />
+        <curseRecoverTimeMin AltName="Status abnormality Cursed death Gauge recovery time Minimum value [sec]" />
+        <curseRecoverTimeMax AltName="Status abnormality Cursed death Gauge recovery time Maximum value [sec]" />
+        <weaponBreakRecoverTimeMin AltName="Status abnormality Weapon damage Gauge recovery time Minimum value [sec]" />
+        <weaponBreakRecoverTimeMax AltName="Status abnormality Weapon damage Gauge recovery time Maximum value [sec]" />
+        <petrifiedRecoverTimeMin AltName="Status abnormality Petrification Gauge recovery time Minimum value [sec]" />
+        <petrifiedRecoverTimeMax AltName="Status abnormality Petrification Gauge recovery time Maximum value [sec]" />
+        <poisonWetEffectTimeMin AltName="Poison wet effect time minimum value [sec]" />
+        <poisonWetEffectTimeMax AltName="Poison wet effect time maximum value [sec]" />
+        <oilWetEffectTimeMin AltName="Oil wet effect time minimum value [sec]" />
+        <oilWetEffectTimeMax AltName="Oil wet effect time maximum value [sec]" />
+        <WatierWetEffectTimeMin AltName="Water wetting effect time minimum value [sec]" />
+        <WatierWetEffectTimeMax AltName="Water wet effect time maximum value [sec]" />
+        <itemAnimSpeedRateMin AltName="Item animation speed correction magnification minimum [times]" />
+        <itemAnimSpeedRateMax AltName="Item animation speed correction magnification maximum [times]" />
+        <downStiffRate AltName="Down stiffness time magnification [times]" />
+        <downShorteningTime AltName="Down stiffness time PAD input reduction time [sec]" />
+        <damageUpperRotationAngleY AltName="Damage upper body twist range Y" />
+        <damageUpperRotationAngleX AltName="Damage upper body twisting range X" />
+        <damageUpperRotationAngleZ AltName="Damage upper body twisting range Z" />
+        <damageUpperRotationAngleCenter AltName="Damage upper body twisting range center" />
+        <environmentSfxRain AltName="Environmental SFX: Rain" Refs="ChrFullBodySfxParam" />
+        <environmentSfxWaterFall AltName="Environmental SFX: Waterfall" Refs="ChrFullBodySfxParam" />
+        <moveWindParamSmall AltName="Moving wind: small" Refs="ChrPointWindParam" />
+        <moveWindParamMedium AltName="Moving wind: medium" Refs="ChrPointWindParam" />
+        <moveWindParamLarge AltName="Moving wind: large" Refs="ChrPointWindParam" />
+        <atkAutoHomingDistance AltName="Approach autohoming distance [m]" />
+        <atkAutoHomingSdAngle AltName="Approach autohoming left/right angle [deg]" />
+        <atkAutoHomingUdAngle AltName="Approach autohoming vertical angle [deg]" />
+        <shotAutoHomingDistance AltName="Shooting autohoming distance [m]" />
+        <shotAutoHomingSdAngle AltName="Shooting autohoming left/right angle [deg]" />
+        <shotAutoHomingUdAngle AltName="Shooting autohoming vertical angle [deg]" />
+        <footEffectSize AltName="foot effect size" ProjectEnum="CHR_WEIGHT_TYPE" />
+        <grabDamageRateSlash AltName="Throw Damage multiplier Slash" />
+        <grabDamageRateBlow AltName="Throw Damage multiplier Hit" />
+        <grabDamageRateStab AltName="Throw Damage multiplier piercing" />
+        <grabDamageRateBullet AltName="Throwing damage multiplier bullet" />
+        <disallowDamageDecrementDist AltName="Distance attenuation invalid distance" />
+        <lockInvisibleReleaseTime AltName="Invisible lock release time [sec]" />
+        <fHitOffsetX AltName="Moving collision offset left and right [m]" />
+        <fHitOffsetZ AltName="Before and after moving collision offset [m]" />
+        <takeWaterHeightLow AltName="Water landing judgment height ankle" />
+        <takeWaterHeightMiddle AltName="Water landing judgment height inseam" />
+        <takeWaterType AltName="Water landing type" ProjectEnum="CHR_TAKE_WATER_TYPE" />
+        <takeWaterDummy AltName="dummy" Padding="true" />
         <bulletDamageRatePhysical AltName="Bullet damage rate [Physical]" />
         <bulletDamageRateMagic AltName="Bullet damage rate [Magic]" />
         <bulletDamageRateMiracle AltName="Bullet damage rate [Miracle]" />

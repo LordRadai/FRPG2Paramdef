@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <minValue AltName="最低変動値" />
-        <maxValue AltName="最大変動値" />
-        <faceParamType AltName="FaceGenParam名" />
-        <faceParamCategory AltName="カテゴリ" ProjectEnum="CHR_EDIT_FACE_PARAM_CATEGORY" />
-        <montageUsed AltName="モンタージュ使用" />
-        <menuReverse AltName="メニュー反転操作" />
-        <dummy AltName="ダミー" Padding="true" />
+        <minValue AltName="Minimum fluctuation value" />
+        <maxValue AltName="Maximum fluctuation value" />
+        <faceParamType AltName="FaceGenParam name" />
+        <faceParamCategory AltName="category" ProjectEnum="CHR_EDIT_FACE_PARAM_CATEGORY" />
+        <montageUsed AltName="Use montage" />
+        <menuReverse AltName="Menu reversal operation" />
+        <dummy AltName="Dummy" Padding="true" />
     </Field>
 </PARAMMETA>

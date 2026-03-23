@@ -4,6 +4,6 @@
         <colorR AltName="R" />
         <colorG AltName="G" />
         <colorB AltName="B" />
-        <reserved AltName="予約領域" Padding="true" />
+        <reserved AltName="reserved area" Padding="true" />
     </Field>
 </PARAMMETA>

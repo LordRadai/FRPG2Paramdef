@@ -1,150 +1,150 @@
 <?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <interfereId0 AltName="干渉設定ID" />
-        <cullingPriorityNeck0 AltName="首-表示優先度" />
-        <cullingPriorityElbowRight0 AltName="右腕-表示優先度" />
-        <cullingValueElbowRight0 AltName="右腕-カリング値" />
-        <cullingPriorityElbowLeft0 AltName="左腕-表示優先度" />
-        <cullingValueElbowLeft0 AltName="左腕-カリング値" />
-        <cullingPriorityWaist0 AltName="腰-表示優先度" />
-        <cullingValueWaist0 AltName="腰-カリング値" />
-        <clothCtrlType0 AltName="クロス制御設定" ProjectEnum="EQUIP_CLOTH_CTRL_TYPE" />
-        <cullingGroup00_0 AltName="カリンググループ０" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup01_0 AltName="カリンググループ１" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup02_0 AltName="カリンググループ２" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup03_0 AltName="カリンググループ３" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup04_0 AltName="カリンググループ４" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup05_0 AltName="カリンググループ５" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup06_0 AltName="カリンググループ６" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup07_0 AltName="カリンググループ７" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup08_0 AltName="カリンググループ８" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup09_0 AltName="カリンググループ９" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup10_0 AltName="カリンググループ１０" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup11_0 AltName="カリンググループ１１" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup12_0 AltName="カリンググループ１２" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup13_0 AltName="カリンググループ１３" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup14_0 AltName="カリンググループ１４" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup15_0 AltName="カリンググループ１５" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup16_0 AltName="カリンググループ１６" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup17_0 AltName="カリンググループ１７" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup18_0 AltName="カリンググループ１８" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup19_0 AltName="カリンググループ１９" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup20_0 AltName="カリンググループ２０" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup21_0 AltName="カリンググループ２１" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup22_0 AltName="カリンググループ２２" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup23_0 AltName="カリンググループ２３" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup24_0 AltName="カリンググループ２４" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup25_0 AltName="カリンググループ２５" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup26_0 AltName="カリンググループ２６" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup27_0 AltName="カリンググループ２７" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup28_0 AltName="カリンググループ２８" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup29_0 AltName="カリンググループ２９" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup30_0 AltName="カリンググループ３０" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup31_0 AltName="カリンググループ３１" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup32_0 AltName="カリンググループ３２" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup33_0 AltName="カリンググループ３３" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup34_0 AltName="カリンググループ３４" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup35_0 AltName="カリンググループ３５" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup36_0 AltName="カリンググループ３６" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup37_0 AltName="カリンググループ３７" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup38_0 AltName="カリンググループ３８" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup39_0 AltName="カリンググループ３９" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup40_0 AltName="カリンググループ４０" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup41_0 AltName="カリンググループ４１" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup42_0 AltName="カリンググループ４２" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup43_0 AltName="カリンググループ４３" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup44_0 AltName="カリンググループ４４" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup45_0 AltName="カリンググループ４５" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup46_0 AltName="カリンググループ４６" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup47_0 AltName="カリンググループ４７" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup48_0 AltName="カリンググループ４８" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup49_0 AltName="カリンググループ４９" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup50_0 AltName="カリンググループ５０" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup51_0 AltName="カリンググループ５１" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup52_0 AltName="カリンググループ５２" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup53_0 AltName="カリンググループ５３" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup54_0 AltName="カリンググループ５４" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup55_0 AltName="カリンググループ５５" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup56_0 AltName="カリンググループ５６" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup57_0 AltName="カリンググループ５７" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup58_0 AltName="カリンググループ５８" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup59_0 AltName="カリンググループ５９" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup60_0 AltName="カリンググループ６０" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup61_0 AltName="カリンググループ６１" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup62_0 AltName="カリンググループ６２" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup63_0 AltName="カリンググループ６３" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingPriorityNeck1 AltName="首-表示優先度" />
-        <cullingPriorityElbowRight1 AltName="右腕-表示優先度" />
-        <cullingValueElbowRight1 AltName="右腕-カリング値" />
-        <cullingPriorityElbowLeft1 AltName="左腕-表示優先度" />
-        <cullingValueElbowLeft1 AltName="左腕-カリング値" />
-        <cullingPriorityWaist1 AltName="腰-表示優先度" />
-        <cullingValueWaist1 AltName="腰-カリング値" />
-        <clothCtrlType1 AltName="クロス制御設定" ProjectEnum="EQUIP_CLOTH_CTRL_TYPE" />
-        <cullingGroup00_1 AltName="カリンググループ０" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup01_1 AltName="カリンググループ１" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup02_1 AltName="カリンググループ２" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup03_1 AltName="カリンググループ３" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup04_1 AltName="カリンググループ４" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup05_1 AltName="カリンググループ５" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup06_1 AltName="カリンググループ６" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup07_1 AltName="カリンググループ７" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup08_1 AltName="カリンググループ８" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup09_1 AltName="カリンググループ９" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup10_1 AltName="カリンググループ１０" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup11_1 AltName="カリンググループ１１" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup12_1 AltName="カリンググループ１２" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup13_1 AltName="カリンググループ１３" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup14_1 AltName="カリンググループ１４" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup15_1 AltName="カリンググループ１５" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup16_1 AltName="カリンググループ１６" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup17_1 AltName="カリンググループ１７" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup18_1 AltName="カリンググループ１８" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup19_1 AltName="カリンググループ１９" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup20_1 AltName="カリンググループ２０" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup21_1 AltName="カリンググループ２１" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup22_1 AltName="カリンググループ２２" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup23_1 AltName="カリンググループ２３" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup24_1 AltName="カリンググループ２４" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup25_1 AltName="カリンググループ２５" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup26_1 AltName="カリンググループ２６" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup27_1 AltName="カリンググループ２７" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup28_1 AltName="カリンググループ２８" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup29_1 AltName="カリンググループ２９" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup30_1 AltName="カリンググループ３０" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup31_1 AltName="カリンググループ３１" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup32_1 AltName="カリンググループ３２" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup33_1 AltName="カリンググループ３３" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup34_1 AltName="カリンググループ３４" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup35_1 AltName="カリンググループ３５" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup36_1 AltName="カリンググループ３６" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup37_1 AltName="カリンググループ３７" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup38_1 AltName="カリンググループ３８" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup39_1 AltName="カリンググループ３９" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup40_1 AltName="カリンググループ４０" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup41_1 AltName="カリンググループ４１" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup42_1 AltName="カリンググループ４２" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup43_1 AltName="カリンググループ４３" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup44_1 AltName="カリンググループ４４" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup45_1 AltName="カリンググループ４５" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup46_1 AltName="カリンググループ４６" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup47_1 AltName="カリンググループ４７" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup48_1 AltName="カリンググループ４８" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup49_1 AltName="カリンググループ４９" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup50_1 AltName="カリンググループ５０" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup51_1 AltName="カリンググループ５１" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup52_1 AltName="カリンググループ５２" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup53_1 AltName="カリンググループ５３" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup54_1 AltName="カリンググループ５４" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup55_1 AltName="カリンググループ５５" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup56_1 AltName="カリンググループ５６" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup57_1 AltName="カリンググループ５７" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup58_1 AltName="カリンググループ５８" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup59_1 AltName="カリンググループ５９" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup60_1 AltName="カリンググループ６０" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup61_1 AltName="カリンググループ６１" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup62_1 AltName="カリンググループ６２" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
-        <cullingGroup63_1 AltName="カリンググループ６３" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <interfereId0 AltName="Interference setting ID" />
+        <cullingPriorityNeck0 AltName="neck-display priority" />
+        <cullingPriorityElbowRight0 AltName="Right arm - display priority" />
+        <cullingValueElbowRight0 AltName="Right arm - culling value" />
+        <cullingPriorityElbowLeft0 AltName="Left arm - display priority" />
+        <cullingValueElbowLeft0 AltName="Left arm - culling value" />
+        <cullingPriorityWaist0 AltName="Waist-display priority" />
+        <cullingValueWaist0 AltName="Waist - culling value" />
+        <clothCtrlType0 AltName="Cross control settings" ProjectEnum="EQUIP_CLOTH_CTRL_TYPE" />
+        <cullingGroup00_0 AltName="culling group 0" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup01_0 AltName="Culling group 1" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup02_0 AltName="Culling group 2" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup03_0 AltName="Culling group 3" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup04_0 AltName="Culling group 4" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup05_0 AltName="Culling group 5" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup06_0 AltName="Culling group 6" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup07_0 AltName="Culling group 7" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup08_0 AltName="Culling group 8" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup09_0 AltName="Culling group 9" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup10_0 AltName="Culling group 10" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup11_0 AltName="Culling group 11" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup12_0 AltName="Culling group 12" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup13_0 AltName="Culling group 13" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup14_0 AltName="Culling group 14" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup15_0 AltName="Culling group 15" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup16_0 AltName="Culling group 16" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup17_0 AltName="Culling group 17" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup18_0 AltName="Culling group 18" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup19_0 AltName="Culling group 19" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup20_0 AltName="Culling group 20" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup21_0 AltName="Culling group 21" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup22_0 AltName="Culling group 22" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup23_0 AltName="Culling group 23" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup24_0 AltName="culling group 24" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup25_0 AltName="Culling group 25" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup26_0 AltName="culling group 26" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup27_0 AltName="Culling group 27" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup28_0 AltName="Culling group 28" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup29_0 AltName="Culling group 29" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup30_0 AltName="culling group 30" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup31_0 AltName="Culling group 31" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup32_0 AltName="Culling group 32" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup33_0 AltName="Culling group 33" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup34_0 AltName="Culling group 34" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup35_0 AltName="Culling group 35" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup36_0 AltName="Culling group 36" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup37_0 AltName="Culling group 37" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup38_0 AltName="Culling group 38" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup39_0 AltName="Culling group 39" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup40_0 AltName="culling group 40" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup41_0 AltName="Culling group 41" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup42_0 AltName="Culling group 42" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup43_0 AltName="Culling group 43" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup44_0 AltName="Culling group 44" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup45_0 AltName="Culling group 45" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup46_0 AltName="culling group 46" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup47_0 AltName="Culling group 47" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup48_0 AltName="culling group 48" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup49_0 AltName="Culling group 49" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup50_0 AltName="culling group 50" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup51_0 AltName="Culling group 51" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup52_0 AltName="Culling group 52" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup53_0 AltName="Culling group 53" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup54_0 AltName="Culling group 54" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup55_0 AltName="Culling group 55" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup56_0 AltName="culling group 56" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup57_0 AltName="Culling group 57" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup58_0 AltName="culling group 58" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup59_0 AltName="culling group 59" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup60_0 AltName="culling group 60" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup61_0 AltName="culling group 61" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup62_0 AltName="culling group 62" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup63_0 AltName="Culling group 63" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingPriorityNeck1 AltName="neck-display priority" />
+        <cullingPriorityElbowRight1 AltName="Right arm - display priority" />
+        <cullingValueElbowRight1 AltName="Right arm - culling value" />
+        <cullingPriorityElbowLeft1 AltName="Left arm - display priority" />
+        <cullingValueElbowLeft1 AltName="Left arm - culling value" />
+        <cullingPriorityWaist1 AltName="Waist-display priority" />
+        <cullingValueWaist1 AltName="Waist - culling value" />
+        <clothCtrlType1 AltName="Cross control settings" ProjectEnum="EQUIP_CLOTH_CTRL_TYPE" />
+        <cullingGroup00_1 AltName="culling group 0" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup01_1 AltName="Culling group 1" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup02_1 AltName="Culling group 2" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup03_1 AltName="Culling group 3" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup04_1 AltName="Culling group 4" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup05_1 AltName="Culling group 5" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup06_1 AltName="Culling group 6" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup07_1 AltName="Culling group 7" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup08_1 AltName="Culling group 8" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup09_1 AltName="Culling group 9" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup10_1 AltName="Culling group 10" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup11_1 AltName="Culling group 11" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup12_1 AltName="Culling group 12" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup13_1 AltName="Culling group 13" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup14_1 AltName="Culling group 14" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup15_1 AltName="Culling group 15" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup16_1 AltName="Culling group 16" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup17_1 AltName="Culling group 17" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup18_1 AltName="Culling group 18" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup19_1 AltName="Culling group 19" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup20_1 AltName="Culling group 20" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup21_1 AltName="Culling group 21" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup22_1 AltName="Culling group 22" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup23_1 AltName="Culling group 23" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup24_1 AltName="culling group 24" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup25_1 AltName="Culling group 25" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup26_1 AltName="culling group 26" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup27_1 AltName="Culling group 27" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup28_1 AltName="Culling group 28" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup29_1 AltName="Culling group 29" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup30_1 AltName="culling group 30" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup31_1 AltName="Culling group 31" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup32_1 AltName="Culling group 32" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup33_1 AltName="Culling group 33" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup34_1 AltName="Culling group 34" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup35_1 AltName="Culling group 35" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup36_1 AltName="Culling group 36" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup37_1 AltName="Culling group 37" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup38_1 AltName="Culling group 38" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup39_1 AltName="Culling group 39" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup40_1 AltName="culling group 40" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup41_1 AltName="Culling group 41" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup42_1 AltName="Culling group 42" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup43_1 AltName="Culling group 43" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup44_1 AltName="Culling group 44" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup45_1 AltName="Culling group 45" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup46_1 AltName="culling group 46" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup47_1 AltName="Culling group 47" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup48_1 AltName="culling group 48" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup49_1 AltName="Culling group 49" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup50_1 AltName="culling group 50" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup51_1 AltName="Culling group 51" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup52_1 AltName="Culling group 52" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup53_1 AltName="Culling group 53" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup54_1 AltName="Culling group 54" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup55_1 AltName="Culling group 55" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup56_1 AltName="culling group 56" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup57_1 AltName="Culling group 57" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup58_1 AltName="culling group 58" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup59_1 AltName="culling group 59" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup60_1 AltName="culling group 60" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup61_1 AltName="culling group 61" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup62_1 AltName="culling group 62" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
+        <cullingGroup63_1 AltName="Culling group 63" ProjectEnum="EQUIP_CULLING_GROUP_CTRL" />
     </Field>
 </PARAMMETA>

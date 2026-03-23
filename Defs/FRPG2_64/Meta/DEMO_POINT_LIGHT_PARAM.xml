@@ -1,24 +1,24 @@
 <?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <offsetX AltName="位置X" />
-        <offsetY AltName="位置Y" />
-        <offsetZ AltName="位置Z" />
-        <diffuseR AltName="デフューズR" />
-        <diffuseG AltName="デフューズG" />
-        <diffuseB AltName="デフューズB" />
-        <diffuseA AltName="デフューズA" />
-        <specularR AltName="スペキュラR" />
-        <specularG AltName="スペキュラG" />
-        <specularB AltName="スペキュラB" />
-        <specularA AltName="スペキュラA" />
-        <radius AltName="ライトの半径" />
-        <priority AltName="優先度" />
-        <depthShadow AltName="影の濃さ" />
-        <blinkTimeMax AltName="明滅の時間(最大)" />
-        <blinkTimeMin AltName="明滅の時間(最小)" />
-        <blinkPower AltName="明滅の強さ" />
-        <enableShadow AltName="影を落とす" IsBool="true" />
-        <dummy AltName="ダミー" Padding="true" />
+        <offsetX AltName="position" />
+        <offsetY AltName="position Y" />
+        <offsetZ AltName="position Z" />
+        <diffuseR AltName="Diffuse R" />
+        <diffuseG AltName="Diffuse G" />
+        <diffuseB AltName="Diffuse B" />
+        <diffuseA AltName="Diffuse A" />
+        <specularR AltName="Specular R" />
+        <specularG AltName="Specular G" />
+        <specularB AltName="Specular B" />
+        <specularA AltName="Specular A" />
+        <radius AltName="light radius" />
+        <priority AltName="priority" />
+        <depthShadow AltName="darkness of shadow" />
+        <blinkTimeMax AltName="Blinking time (maximum)" />
+        <blinkTimeMin AltName="Blinking time (min)" />
+        <blinkPower AltName="strength of flickering" />
+        <enableShadow AltName="cast a shadow" IsBool="true" />
+        <dummy AltName="dummy" Padding="true" />
     </Field>
 </PARAMMETA>

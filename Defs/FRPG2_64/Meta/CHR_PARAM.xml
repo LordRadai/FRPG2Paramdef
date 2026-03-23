@@ -1,113 +1,113 @@
 <?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <modelId AltName="モデルID" />
-        <animId AltName="アニメID" />
-        <commonId AltName="共通ＩＤ" />
-        <moveId AltName="移動ＩＤ" />
-        <npcStatusId AltName="NPCステータスＩＤ" />
-        <groupType AltName="所属設定" ProjectEnum="CHR_GROUP_TYPE" />
-        <categoryType AltName="キャラクターカテゴリ" ProjectEnum="CHR_CATEGORY_TYPE" />
-        <materialType AltName="本体材質" ProjectEnum="MATERIAL_TYPE_ENUM" />
-        <visualType AltName="見た目" ProjectEnum="CHR_VISUAL_TYPE" />
-        <multiplayParamId AltName="マルチプレイ補正ID" />
-        <respawnNum AltName="リスポーン数" />
-        <isUndead AltName="死亡しない" IsBool="true" />
-        <isRunaway AltName="落下死亡時に逃亡する" IsBool="true" />
-        <hitPoint AltName="体力　1周目" />
-        <staminaPoint AltName="スタミナ値" />
-        <staminaRecoveryValue AltName="秒間スタミナ回復値 [point/s]" />
-        <staminaLoanMin AltName="スタミナ 借金量 最小" />
-        <staminaLoanMax AltName="スタミナ 借金量 最大" />
-        <staminaCostMoveBase AltName="スタミナ消費量 ベース値" />
-        <deadType AltName="死亡タイプ１" ProjectEnum="DEAD_TYPE_PARAM_ID" />
-        <deadType02 AltName="死亡タイプ２" ProjectEnum="DEAD_TYPE_PARAM_ID" />
-        <defaultEquipWeapon AltName="初期装備" ProjectEnum="ENEMY_WEAPON_TYPE" />
-        <equipWeaponAId00 AltName="所持装備 装備１武器ID" />
-        <equipWeaponAId01 AltName="所持装備 装備２武器ID" />
-        <equipWeaponAId02 AltName="所持装備 装備３武器ID" />
-        <equipWeaponAId03 AltName="所持装備 装備４武器ID" />
-        <equipWeaponAId04 AltName="所持装備 装備５武器ID" />
-        <equipWeaponAId05 AltName="所持装備 装備６武器ID" />
-        <equipAccessory01 AltName="装飾品カリングID1" />
-        <equipAccessory02 AltName="装飾品カリングID2" />
-        <equipAccessory03 AltName="装飾品カリングID3" />
-        <equipAccessory04 AltName="装飾品カリングID4" />
-        <equipAccessory05 AltName="装飾品カリングID5" />
-        <roundDamageCategory AltName="周回ダメージ補正カテゴリ" ProjectEnum="CHR_ROUND_DAMAGE_CATEGORY" />
-        <guardPassiveLevelType AltName="盾 ガードレベル" ProjectEnum="GUARD_PASSIVE_LEVEL_TYPE" />
-        <parryType AltName="盾 パリィ種類" ProjectEnum="PARRY_TYPES" />
-        <spellParrySfxId AltName="盾 スペルパリィSFXID" />
-        <shieldMaterialType AltName="盾 盾材質" ProjectEnum="MATERIAL_TYPE_ENUM" />
-        <shieldReceiveValue AltName="盾 受け能力" />
-        <shieldDefenseValue AltName="盾 防御力" />
-        <shieldMagicDefenseValue AltName="盾 魔力耐性" />
-        <shieldMiracleDefenseValue AltName="盾 奇蹟耐性" />
-        <shieldPyromancyDefenseValue AltName="盾 呪術耐性" />
-        <shieldDarkMagicDefenseValue AltName="盾 闇術耐性" />
-        <shieldPoisonDefenseValue AltName="盾 毒耐性" />
-        <shieldBleedingDefenseValue AltName="盾 出血耐性" />
-        <shieldDestructionDefenseValue AltName="盾 武器破壊耐性" />
-        <shieldCurseDefenseValue AltName="盾 呪い耐性" />
-        <armorDefenseValue AltName="防具 防御力" />
-        <armorMagicDefenseValue AltName="防具 魔力耐性" />
-        <armorMiracleDefenseValue AltName="防具 奇蹟耐性" />
-        <armorPyromancyDefenseValue AltName="防具 呪術耐性" />
-        <armorDarkMagicDefenseValue AltName="防具 闇術耐性" />
-        <armorPoisonDefenseValue AltName="防具 毒耐性" />
-        <armorBleedingDefenseValue AltName="防具 出血耐性" />
-        <armorDestructionDefenseValue AltName="防具 武器破壊耐性" />
-        <armorCurseDefenseValue AltName="防具 呪い耐性" />
-        <armorMaterialType AltName="防具 材質" ProjectEnum="MATERIAL_TYPE_ENUM" />
-        <armorToughValue AltName="防具 強靱度" />
-        <armorStunBaseValue AltName="防具 気絶基本ゲージ" />
-        <armorStunRecoveryRate AltName="防具 気絶回復速度 [%/sec]" />
-        <dropSoulValue AltName="入手ソウル量" />
-        <dropType AltName="ドロップ抽選タイプ" ProjectEnum="CHR_ITEM_DROP_TYPE" />
-        <damageAdjustRate AltName="ダメージ倍率" />
-        <damageAdjustRatePlayer AltName="ダメージ倍率 プレイヤー" />
-        <damageAdjustRateEnemy AltName="ダメージ倍率　エネミー" />
-        <damageAdjustRateNeutral AltName="ダメージ倍率　中立" />
-        <damageAdjustRateHitObj AltName="被ダメージ倍率　OBJ" />
-        <residentDamageId1 AltName="常時ダメージＩＤ１" />
-        <residentDamageId2 AltName="常時ダメージＩＤ２" />
-        <residentDamageId3 AltName="常時ダメージＩＤ３" />
-        <stunDisableFlag AltName="気絶無効フラグ" IsBool="true" />
-        <isPartsGuardDamage AltName="部位はじき：ダメージ" IsBool="true" />
-        <isPartsGuardBullet AltName="部位はじき：バレット" IsBool="true" />
-        <isPartsGuardSpellParry AltName="部位はじき：スペルパリィ" IsBool="true" />
-        <stunMaxValue AltName="気絶値最大値" />
-        <stunRecoverValue AltName="気絶値回復速度[sec/point]" />
-        <changeStunMaxValue AltName="[変更時]気絶値最大値" />
-        <changeStunRecoverValue AltName="[変更時]気絶値回復速度[sec/point]" />
-        <fadeInTime AltName="フェードイン時間[sec]" />
-        <generateSfx AltName="生成時SFX" Refs="ChrFullBodySfxParam" />
-        <partsGuardSpellParryAngle AltName="部位はじき：スペルパリィ有効角度" />
-        <poiseValue AltName="強靭度ゲージ" />
-        <poiseRecoveryValue AltName="強靭度回復量[p/s]" />
-        <changePoiseValue AltName="[変更時]強靭度ゲージ" />
-        <changePoiseRecoveryValue AltName="[変更時]強靭度回復量[p/s]" />
-        <overKillRate AltName="オーバーキル HP割合" />
-        <decLimitTime AltName="マルチプレイ制限時間減少量[sec]" />
-        <isDisallowMultiTarget AltName="複数ロックオン無効" IsBool="true" />
-        <isHollow AltName="亡者" IsBool="true" />
-        <isClothHitMap AltName="クロスがマップと当たる" IsBool="true" />
-        <roundDropSoulCategory AltName="周回獲得ソウル補正カテゴリ" ProjectEnum="CHR_ROUND_DROP_SOUL_CATEGORY" />
-        <itemLotId AltName="初週アイテム抽選ID（ホスト）" Refs="ItemLotParam2_Chr" />
-        <itemLotIdForGuest AltName="初週アイテム抽選ID（ゲスト）" Refs="ItemLotParam2_Chr" />
-        <guardDelay AltName="ガード判定遅延時間[sec]" />
-        <hitPoint02 AltName="体力　2周目" />
-        <hitPoint03 AltName="体力　3周目" />
-        <hitPoint04 AltName="体力　4周目" />
-        <hitPoint05 AltName="体力　5周目" />
-        <hitPoint06 AltName="体力　6周目" />
-        <hitPoint07 AltName="体力　7周目" />
-        <hitPoint08 AltName="体力　8周目" />
-        <nameTextId AltName="キャラ名テキストID" />
-        <bStrongDrop AltName="強者ドロップ" IsBool="true" />
-        <bThrowableByEnemy AltName="敵に投げられるのが可能か" IsBool="true" />
-        <bBulletAllDelete AltName="弾全削除" IsBool="true" />
-        <padding AltName="予約" Padding="true" />
+        <modelId AltName="model id" />
+        <animId AltName="Anime ID" />
+        <commonId AltName="Common ID" />
+        <moveId AltName="Mobile ID" />
+        <npcStatusId AltName="NPC status ID" />
+        <groupType AltName="Affiliation setting" ProjectEnum="CHR_GROUP_TYPE" />
+        <categoryType AltName="Character category" ProjectEnum="CHR_CATEGORY_TYPE" />
+        <materialType AltName="Body material" ProjectEnum="MATERIAL_TYPE_ENUM" />
+        <visualType AltName="appearance" ProjectEnum="CHR_VISUAL_TYPE" />
+        <multiplayParamId AltName="Multiplayer correction ID" />
+        <respawnNum AltName="Number of respawns" />
+        <isUndead AltName="not die" IsBool="true" />
+        <isRunaway AltName="Escape when falling to death" IsBool="true" />
+        <hitPoint AltName="Physical fitness 1st lap" />
+        <staminaPoint AltName="Stamina value" />
+        <staminaRecoveryValue AltName="Stamina recovery value per second [point/s]" />
+        <staminaLoanMin AltName="Stamina Debt amount minimum" />
+        <staminaLoanMax AltName="Stamina debt amount maximum" />
+        <staminaCostMoveBase AltName="Stamina consumption base value" />
+        <deadType AltName="death type 1" ProjectEnum="DEAD_TYPE_PARAM_ID" />
+        <deadType02 AltName="death type 2" ProjectEnum="DEAD_TYPE_PARAM_ID" />
+        <defaultEquipWeapon AltName="Initial equipment" ProjectEnum="ENEMY_WEAPON_TYPE" />
+        <equipWeaponAId00 AltName="Possession Equipment Equipment 1 Weapon ID" />
+        <equipWeaponAId01 AltName="Possession Equipment Equipment 2 Weapon ID" />
+        <equipWeaponAId02 AltName="Possession Equipment Equipment 3 Weapon ID" />
+        <equipWeaponAId03 AltName="Possessed Equipment Equipment 4 Weapon ID" />
+        <equipWeaponAId04 AltName="Possession Equipment Equipment 5 Weapon ID" />
+        <equipWeaponAId05 AltName="Possession Equipment Equipment 6 Weapon ID" />
+        <equipAccessory01 AltName="Ornaments culling ID1" />
+        <equipAccessory02 AltName="Ornaments culling ID2" />
+        <equipAccessory03 AltName="Ornaments culling ID3" />
+        <equipAccessory04 AltName="Ornaments culling ID4" />
+        <equipAccessory05 AltName="Ornaments culling ID5" />
+        <roundDamageCategory AltName="Round damage correction category" ProjectEnum="CHR_ROUND_DAMAGE_CATEGORY" />
+        <guardPassiveLevelType AltName="shield guard level" ProjectEnum="GUARD_PASSIVE_LEVEL_TYPE" />
+        <parryType AltName="Shield parry type" ProjectEnum="PARRY_TYPES" />
+        <spellParrySfxId AltName="Shield Spell Parry SFXID" />
+        <shieldMaterialType AltName="Shield Shield material" ProjectEnum="MATERIAL_TYPE_ENUM" />
+        <shieldReceiveValue AltName="Shield receiving ability" />
+        <shieldDefenseValue AltName="shield defense power" />
+        <shieldMagicDefenseValue AltName="Shield Magic Resistance" />
+        <shieldMiracleDefenseValue AltName="Shield Miracle Resistance" />
+        <shieldPyromancyDefenseValue AltName="Shield Curse Resistance" />
+        <shieldDarkMagicDefenseValue AltName="Shield Dark Arts Resistance" />
+        <shieldPoisonDefenseValue AltName="Shield Poison Resistance" />
+        <shieldBleedingDefenseValue AltName="Shield Bleeding Resistance" />
+        <shieldDestructionDefenseValue AltName="Shield Weapon Break Resistance" />
+        <shieldCurseDefenseValue AltName="Shield Curse Resistance" />
+        <armorDefenseValue AltName="Armor defense power" />
+        <armorMagicDefenseValue AltName="Armor Magic resistance" />
+        <armorMiracleDefenseValue AltName="Armor Miracle Resistance" />
+        <armorPyromancyDefenseValue AltName="Armor Curse Resistance" />
+        <armorDarkMagicDefenseValue AltName="Armor Dark Arts Resistance" />
+        <armorPoisonDefenseValue AltName="Armor Poison Resistance" />
+        <armorBleedingDefenseValue AltName="Armor Bleeding Resistance" />
+        <armorDestructionDefenseValue AltName="Armor Weapon Break Resistance" />
+        <armorCurseDefenseValue AltName="Armor Curse Resistance" />
+        <armorMaterialType AltName="Armor material" ProjectEnum="MATERIAL_TYPE_ENUM" />
+        <armorToughValue AltName="Armor toughness" />
+        <armorStunBaseValue AltName="Armor Stun Basic Gauge" />
+        <armorStunRecoveryRate AltName="Armor Stun recovery speed [%/sec]" />
+        <dropSoulValue AltName="Amount of souls obtained" />
+        <dropType AltName="Drop lottery type" ProjectEnum="CHR_ITEM_DROP_TYPE" />
+        <damageAdjustRate AltName="Damage multiplier" />
+        <damageAdjustRatePlayer AltName="Damage multiplier player" />
+        <damageAdjustRateEnemy AltName="Damage multiplier enemy" />
+        <damageAdjustRateNeutral AltName="Damage multiplier neutral" />
+        <damageAdjustRateHitObj AltName="Damage multiplier OBJ" />
+        <residentDamageId1 AltName="Constant damage ID1" />
+        <residentDamageId2 AltName="Constant damage ID2" />
+        <residentDamageId3 AltName="Constant damage ID3" />
+        <stunDisableFlag AltName="Stun invalid flag" IsBool="true" />
+        <isPartsGuardDamage AltName="Part repulsion: Damage" IsBool="true" />
+        <isPartsGuardBullet AltName="Part: Barrett" IsBool="true" />
+        <isPartsGuardSpellParry AltName="Part: Spell Parry" IsBool="true" />
+        <stunMaxValue AltName="Maximum faint value" />
+        <stunRecoverValue AltName="Faint value recovery speed [sec/point]" />
+        <changeStunMaxValue AltName="[When changed] Maximum faint value" />
+        <changeStunRecoverValue AltName="[When changed] Faint value recovery speed [sec/point]" />
+        <fadeInTime AltName="Fade-in time [sec]" />
+        <generateSfx AltName="SFX when generated" Refs="ChrFullBodySfxParam" />
+        <partsGuardSpellParryAngle AltName="Part repulsion: Spell parry effective angle" />
+        <poiseValue AltName="toughness gauge" />
+        <poiseRecoveryValue AltName="Strength recovery amount [p/s]" />
+        <changePoiseValue AltName="[When changed] Toughness gauge" />
+        <changePoiseRecoveryValue AltName="[When changed] Strength recovery amount [p/s]" />
+        <overKillRate AltName="Overkill HP percentage" />
+        <decLimitTime AltName="Multiplayer time limit reduction amount [sec]" />
+        <isDisallowMultiTarget AltName="Multiple lock-on disabled" IsBool="true" />
+        <isHollow AltName="deceased" IsBool="true" />
+        <isClothHitMap AltName="The cross hits the map" IsBool="true" />
+        <roundDropSoulCategory AltName="Lapse acquisition soul correction category" ProjectEnum="CHR_ROUND_DROP_SOUL_CATEGORY" />
+        <itemLotId AltName="First week item lottery ID (host)" Refs="ItemLotParam2_Chr" />
+        <itemLotIdForGuest AltName="First week item lottery ID (guest)" Refs="ItemLotParam2_Chr" />
+        <guardDelay AltName="Guard judgment delay time [sec]" />
+        <hitPoint02 AltName="Physical fitness 2nd lap" />
+        <hitPoint03 AltName="Physical fitness 3rd lap" />
+        <hitPoint04 AltName="Physical fitness 4th lap" />
+        <hitPoint05 AltName="Physical fitness 5th lap" />
+        <hitPoint06 AltName="Physical fitness 6th lap" />
+        <hitPoint07 AltName="Physical fitness 7th lap" />
+        <hitPoint08 AltName="Physical fitness 8th lap" />
+        <nameTextId AltName="Character name text ID" />
+        <bStrongDrop AltName="Strong drop" IsBool="true" />
+        <bThrowableByEnemy AltName="Is it possible to be thrown at the enemy?" IsBool="true" />
+        <bBulletAllDelete AltName="Delete all bullets" IsBool="true" />
+        <padding AltName="reservation" Padding="true" />
         <effectID AltName="SpEffectID" />
     </Field>
 </PARAMMETA>

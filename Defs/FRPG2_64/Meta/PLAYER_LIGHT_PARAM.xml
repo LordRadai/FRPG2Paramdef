@@ -1,31 +1,31 @@
 <?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <offsetX AltName="位置X" />
-        <offsetY AltName="位置Y" />
-        <offsetZ AltName="位置Z" />
-        <diffuseR AltName="デフューズR" />
-        <diffuseG AltName="デフューズG" />
-        <diffuseB AltName="デフューズB" />
-        <dummy0 AltName="ダミー" Padding="true" />
-        <specularR AltName="スペキュラR" />
-        <specularG AltName="スペキュラG" />
-        <specularB AltName="スペキュラB" />
-        <dummy1 AltName="ダミー" Padding="true" />
-        <diffuseA AltName="デフューズA" />
-        <specularA AltName="スペキュラA" />
-        <radius AltName="ライトの半径" />
-        <priority AltName="優先度" />
-        <depthShadow AltName="影の濃さ" />
-        <blinkTimeMax AltName="明滅の時間(最大)" />
-        <blinkTimeMin AltName="明滅の時間(最小)" />
-        <blinkPower AltName="明滅の強さ" />
-        <windDepthShadow AltName="影響後の影の濃さ" />
-        <windBlinkTimeMax AltName="影響後の明滅の時間(最大)" />
-        <windBlinkTimeMin AltName="影響後の明滅の時間(最小)" />
-        <windBlinkPower AltName="影響後の明滅の強さ" />
-        <enableShadow AltName="影を落とす" IsBool="true" />
-        <enableWind AltName="風の影響を受ける" IsBool="true" />
-        <dummy3 AltName="ダミー" Padding="true" />
+        <offsetX AltName="position" />
+        <offsetY AltName="position Y" />
+        <offsetZ AltName="position Z" />
+        <diffuseR AltName="Diffuse R" />
+        <diffuseG AltName="Diffuse G" />
+        <diffuseB AltName="Diffuse B" />
+        <dummy0 AltName="dummy" Padding="true" />
+        <specularR AltName="Specular R" />
+        <specularG AltName="Specular G" />
+        <specularB AltName="Specular B" />
+        <dummy1 AltName="dummy" Padding="true" />
+        <diffuseA AltName="Diffuse A" />
+        <specularA AltName="Specular A" />
+        <radius AltName="light radius" />
+        <priority AltName="priority" />
+        <depthShadow AltName="darkness of shadow" />
+        <blinkTimeMax AltName="Blinking time (maximum)" />
+        <blinkTimeMin AltName="Blinking time (min)" />
+        <blinkPower AltName="strength of flickering" />
+        <windDepthShadow AltName="Darkness of shadow after impact" />
+        <windBlinkTimeMax AltName="Blinking time after impact (maximum)" />
+        <windBlinkTimeMin AltName="Blinking time after impact (minimum)" />
+        <windBlinkPower AltName="Intensity of flickering after impact" />
+        <enableShadow AltName="cast a shadow" IsBool="true" />
+        <enableWind AltName="affected by the wind" IsBool="true" />
+        <dummy3 AltName="dummy" Padding="true" />
     </Field>
 </PARAMMETA>

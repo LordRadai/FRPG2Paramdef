@@ -1,35 +1,35 @@
 <?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <minSlash AltName="強化ベース値 最小 斬撃" />
-        <minThrust AltName="強化ベース値 最小 刺突" />
-        <minStrike AltName="強化ベース値 最小 打撃" />
-        <minPhysical AltName="強化ベース値 最小 物理" />
-        <minMagic AltName="強化ベース値 最小 魔力" />
-        <minThunder AltName="強化ベース値 最小 雷" />
-        <minFire AltName="強化ベース値 最小 炎" />
-        <minDark AltName="強化ベース値 最小 闇" />
-        <minPoison AltName="強化ベース値 最小 毒" />
-        <minBleeding AltName="強化ベース値 最小 出血" />
-        <minPetrifaction AltName="強化ベース値 最小 石化" />
-        <minCurse AltName="強化ベース値 最小 呪" />
-        <maxSlash AltName="強化ベース値 最大 斬撃" />
-        <maxThrust AltName="強化ベース値 最大 刺突" />
-        <maxStrike AltName="強化ベース値 最大 打撃" />
-        <maxPhysical AltName="強化ベース値 最大 物理" />
-        <maxMagic AltName="強化ベース値 最大 魔力" />
-        <maxThunder AltName="強化ベース値 最大 雷" />
-        <maxFire AltName="強化ベース値 最大 炎" />
-        <maxDark AltName="強化ベース値 最大 闇" />
-        <maxPoison AltName="強化ベース値 最大 毒" />
-        <maxBleeding AltName="強化ベース値 最大 出血" />
-        <maxPetrifaction AltName="強化ベース値 最大 石化" />
-        <maxCurse AltName="強化ベース値 最大 呪" />
-        <maxLevel AltName="強化最大レベル" />
-        <dummy AltName="ダミー" Padding="true" />
-        <menuResistanceScale AltName="メニュー表示用 属性防御力補正倍率 [倍]" />
-        <attrSpec AltName="属性強化可否" Refs="CustomAttrSpecParam" />
-        <attrCost AltName="属性強化コスト" Refs="CustomAttrCostParam" />
-        <reinforceCost AltName="Lv強化コスト" Refs="ReinforceCostParam" />
+        <minSlash AltName="Enhancement base value minimum slash" />
+        <minThrust AltName="Enhancement base value minimum piercing" />
+        <minStrike AltName="Enhancement base value minimum hit" />
+        <minPhysical AltName="Enhancement base value minimum physical" />
+        <minMagic AltName="Enhancement base value minimum magic power" />
+        <minThunder AltName="Enhancement base value minimum lightning" />
+        <minFire AltName="Enhancement base value minimum flame" />
+        <minDark AltName="Enhancement base value minimum darkness" />
+        <minPoison AltName="Enhancement base value minimum poison" />
+        <minBleeding AltName="Enhancement base value minimum bleeding" />
+        <minPetrifaction AltName="Enhancement base value minimum petrification" />
+        <minCurse AltName="Enhancement base value minimum curse" />
+        <maxSlash AltName="Enhancement base value maximum slashing" />
+        <maxThrust AltName="Enhancement base value maximum piercing" />
+        <maxStrike AltName="Enhancement base value maximum hit" />
+        <maxPhysical AltName="Enhancement base value maximum physical" />
+        <maxMagic AltName="Enhancement base value maximum magic power" />
+        <maxThunder AltName="Enhancement base value maximum lightning" />
+        <maxFire AltName="Enhancement base value maximum flame" />
+        <maxDark AltName="Enhancement base value maximum darkness" />
+        <maxPoison AltName="Enhancement base value maximum poison" />
+        <maxBleeding AltName="Enhancement base value maximum bleeding" />
+        <maxPetrifaction AltName="Enhancement base value maximum petrification" />
+        <maxCurse AltName="Enhancement base value maximum curse" />
+        <maxLevel AltName="Maximum enhancement level" />
+        <dummy AltName="dummy" Padding="true" />
+        <menuResistanceScale AltName="Attribute defense power correction magnification for menu display [x]" />
+        <attrSpec AltName="Possibility of attribute enhancement" Refs="CustomAttrSpecParam" />
+        <attrCost AltName="Attribute enhancement cost" Refs="CustomAttrCostParam" />
+        <reinforceCost AltName="Lv enhancement cost" Refs="ReinforceCostParam" />
     </Field>
 </PARAMMETA>

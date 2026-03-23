@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <whiteDoorCategory AltName="白扉カテゴリ" ProjectEnum="OBJ_WHITE_DOOR_CATEGORY_ENUM" />
-        <aReserved AltName="予約" Padding="true" />
-        <waitTime AltName="待機時間[秒]" />
-        <defaultSfxId AltName="デフォルトSFXID（白・灰）" />
-        <multiPlaySfxId AltName="マルチプレイ時SFXID（黒）" />
-        <frontKeyGuideParamId AltName="前から入る際のキーガイドパラメータID" Refs="KeyGuideParam" />
-        <backKeyGuideParamId AltName="後ろから入る際のキーガイドパラメータID" Refs="KeyGuideParam" />
-        <passFlagId AltName="開通時イベントフラグ" />
-        <enableKeyGuideFlagId AltName="キーガイド有効フラグ" />
+        <whiteDoorCategory AltName="White door category" ProjectEnum="OBJ_WHITE_DOOR_CATEGORY_ENUM" />
+        <aReserved AltName="reservation" Padding="true" />
+        <waitTime AltName="Waiting time [seconds]" />
+        <defaultSfxId AltName="Default SFXID (white/gray)" />
+        <multiPlaySfxId AltName="SFXID during multiplayer (black)" />
+        <frontKeyGuideParamId AltName="Key guide parameter ID when entering from the front" Refs="KeyGuideParam" />
+        <backKeyGuideParamId AltName="Key guide parameter ID when entering from the back" Refs="KeyGuideParam" />
+        <passFlagId AltName="Opening event flag" />
+        <enableKeyGuideFlagId AltName="Key guide enable flag" />
     </Field>
 </PARAMMETA>

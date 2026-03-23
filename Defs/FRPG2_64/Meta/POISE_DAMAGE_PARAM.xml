@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <damageMinimum AltName="ダメージ削り値 発生ダメージ極小" />
-        <damageSmall AltName="ダメージ削り値 発生ダメージ小" />
-        <damageMiddle AltName="ダメージ削り値 発生ダメージ中" />
-        <damageHeavy AltName="ダメージ削り値 発生ダメージ大" />
-        <damageSuperHeavy AltName="ダメージ削り値 発生ダメージ特大" />
-        <addValueMinimum AltName="ダメージ削り値 極小" />
-        <addValueSmall AltName="ダメージ削り値 小" />
-        <addValueMiddle AltName="ダメージ削り値 中" />
-        <addValueHeavy AltName="ダメージ削り値 大" />
-        <addValueSuperHeavy AltName="ダメージ削り値 特大" />
+        <damageMinimum AltName="Damage reduction value Minimal damage generated" />
+        <damageSmall AltName="Damage reduction value Small damage generated" />
+        <damageMiddle AltName="Damage reduction value During generated damage" />
+        <damageHeavy AltName="Damage reduction value Large damage generated" />
+        <damageSuperHeavy AltName="Damage reduction value Extra large damage generated" />
+        <addValueMinimum AltName="Damage reduction value extremely small" />
+        <addValueSmall AltName="Damage reduction value small" />
+        <addValueMiddle AltName="Damage reduction value medium" />
+        <addValueHeavy AltName="Damage reduction value large" />
+        <addValueSuperHeavy AltName="Damage reduction value extra large" />
     </Field>
 </PARAMMETA>

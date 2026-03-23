@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <changeNameFlagId AltName="差し替えフラグ" ProjectEnum="EVENT_FLAG_GLOBAL_TALK" />
-        <beforeNameTextId AltName="差し替え前名前テキストID" />
+        <changeNameFlagId AltName="replacement flag" ProjectEnum="EVENT_FLAG_GLOBAL_TALK" />
+        <beforeNameTextId AltName="Name text ID before replacement" />
     </Field>
 </PARAMMETA>

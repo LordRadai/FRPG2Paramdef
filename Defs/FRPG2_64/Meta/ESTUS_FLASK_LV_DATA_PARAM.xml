@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <spEffectId AltName="特殊効果ID" />
-        <usableCount AltName="使用回数" />
-        <padding AltName="パディング" Padding="true" />
+        <spEffectId AltName="special effect ID" />
+        <usableCount AltName="Number of uses" />
+        <padding AltName="padding" Padding="true" />
     </Field>
 </PARAMMETA>

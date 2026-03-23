@@ -1,21 +1,21 @@
 <?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <noneObj0 AltName="《無》" />
-        <superSmallObj0 AltName="《極小》" />
-        <smallObj0 AltName="《小》" />
-        <normalObj0 AltName="《中》" />
-        <largeObj0 AltName="《大》" />
-        <superLargeObj0 AltName="《特大》" />
-        <hyperLargeObj0 AltName="《超特大》" />
+        <noneObj0 AltName="《None》" />
+        <superSmallObj0 AltName="《Minimum》" />
+        <smallObj0 AltName="&quot;small&quot;" />
+        <normalObj0 AltName="《Middle》" />
+        <largeObj0 AltName="&quot;large&quot;" />
+        <superLargeObj0 AltName="《Extra Large》" />
+        <hyperLargeObj0 AltName="《Super Extra Large》" />
         <infiniteObj0 AltName="《∞》" />
-        <noneObj1 AltName="《無》" />
-        <superSmallObj1 AltName="《極小》" />
-        <smallObj1 AltName="《小》" />
-        <normalObj1 AltName="《中》" />
-        <largeObj1 AltName="《大》" />
-        <superLargeObj1 AltName="《特大》" />
-        <hyperLargeObj1 AltName="《超特大》" />
+        <noneObj1 AltName="《None》" />
+        <superSmallObj1 AltName="《Minimum》" />
+        <smallObj1 AltName="&quot;small&quot;" />
+        <normalObj1 AltName="《Middle》" />
+        <largeObj1 AltName="&quot;large&quot;" />
+        <superLargeObj1 AltName="《Extra Large》" />
+        <hyperLargeObj1 AltName="《Super Extra Large》" />
         <infiniteObj1 AltName="《∞》" />
     </Field>
 </PARAMMETA>

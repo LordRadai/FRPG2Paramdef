@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <type AltName="種類" ProjectEnum="SOUND_SPECIAL_EQUIPMENT_TYPE" />
-        <aReserved AltName="予約領域" Padding="true" />
+        <type AltName="kinds" ProjectEnum="SOUND_SPECIAL_EQUIPMENT_TYPE" />
+        <aReserved AltName="reserved area" Padding="true" />
     </Field>
 </PARAMMETA>

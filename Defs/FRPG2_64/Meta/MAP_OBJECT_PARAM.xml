@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <animSpeedBaseRate AltName="《アニメ速度ベース》" />
-        <animSpeedOverwrteRate AltName="《アニメ速度可変》" />
-        <animSpeedSharplyRate AltName="《急開放アクション アニメ再生速度倍率》" />
-        <material AltName="《材質》" ProjectEnum="MATERIAL_TYPE_ENUM" />
-        <moveDumyPolyId AltName="《位置修正 ダミポリID》" />
-        <moveType AltName="《移動設定》" IsBool="true" />
-        <weaponStorage AltName="《武器収納設定》" ProjectEnum="GIMMIC_STORAGE_TYPE_ENUM" />
-        <rotationType AltName="《旋回設定》" ProjectEnum="GIMMIC_ROTATION_TYPE" />
-        <timeActId AltName="《タイムアクトID》" />
-        <breakLogicSoundVolume AltName="《破壊時音量》" />
-        <naviCtrlType AltName="《ナビ制御タイプ》" ProjectEnum="OBJ_NAVI_CTRL_TYPE_ENUM" />
-        <sharplyAnimEnable AltName="《急開放アクション許可》" IsBool="true" />
-        <enableDecal AltName="《デカール貼り付けを許可》" IsBool="true" />
+        <animSpeedBaseRate AltName="《Anime speed base》" />
+        <animSpeedOverwrteRate AltName="《Variable animation speed》" />
+        <animSpeedSharplyRate AltName="《Sudden release action animation playback speed multiplier》" />
+        <material AltName="《Material》" ProjectEnum="MATERIAL_TYPE_ENUM" />
+        <moveDumyPolyId AltName="《Position correction Damipoly ID》" />
+        <moveType AltName="《Movement settings》" IsBool="true" />
+        <weaponStorage AltName="《Weapon storage settings》" ProjectEnum="GIMMIC_STORAGE_TYPE_ENUM" />
+        <rotationType AltName="《Turning setting》" ProjectEnum="GIMMIC_ROTATION_TYPE" />
+        <timeActId AltName="《Time act ID》" />
+        <breakLogicSoundVolume AltName="《Volume upon destruction》" />
+        <naviCtrlType AltName="《Navigation control type》" ProjectEnum="OBJ_NAVI_CTRL_TYPE_ENUM" />
+        <sharplyAnimEnable AltName="《Sudden release action permission》" IsBool="true" />
+        <enableDecal AltName="《Allow decal pasting》" IsBool="true" />
         <unk1C />
     </Field>
 </PARAMMETA>

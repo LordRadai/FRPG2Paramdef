@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <lockOnRangeMax AltName="ロックオン最大距離[m]" />
-        <lockOnRangeAttack AltName="ロックオン攻撃有効距離[m]" />
-        <lockOnRange AltName="ロックオン距離[m]" />
-        <lockAreaHeight AltName="ロックエリア縦[%]" />
-        <lockAreaWidth AltName="ロックエリア横[%]" />
-        <lockAngleUD AltName="ロック最大上下角度" />
-        <lockAngleLR AltName="ロック最大左右角度" />
-        <lockOutsideRange AltName="視界外ロック距離[m]" />
+        <lockOnRangeMax AltName="Maximum lock-on distance [m]" />
+        <lockOnRangeAttack AltName="Lock-on attack effective distance [m]" />
+        <lockOnRange AltName="Lock-on distance [m]" />
+        <lockAreaHeight AltName="Lock area vertical [%]" />
+        <lockAreaWidth AltName="Lock area side [%]" />
+        <lockAngleUD AltName="Lock maximum vertical angle" />
+        <lockAngleLR AltName="Lock maximum left/right angle" />
+        <lockOutsideRange AltName="Out of sight lock distance [m]" />
     </Field>
 </PARAMMETA>

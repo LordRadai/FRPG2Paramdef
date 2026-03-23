@@ -1,69 +1,69 @@
 <?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <atkIdSingle1HandNormal1st AltName="攻撃アニメ 片手 弱1段目" Refs="WeaponAttackMotionParam" />
-        <atkIdSingle1HandNormal2nd AltName="攻撃アニメ 片手 弱2段目" Refs="WeaponAttackMotionParam" />
-        <atkIdSingle1HandStrong1st AltName="攻撃アニメ 片手 強1段目" Refs="WeaponAttackMotionParam" />
-        <atkIdSingle1HandStrong2nd AltName="攻撃アニメ 片手 強2段目" Refs="WeaponAttackMotionParam" />
-        <atkIdSingle1HandDash AltName="攻撃アニメ 片手 ダッシュ" Refs="WeaponAttackMotionParam" />
-        <atkIdSingle1HandRolling AltName="攻撃アニメ 片手 ローリング" Refs="WeaponAttackMotionParam" />
-        <atkIdSingle1HandStep AltName="攻撃アニメ 片手 ステップ" Refs="WeaponAttackMotionParam" />
-        <atkIdSingle1HandDown AltName="攻撃アニメ 片手 ダウン" Refs="WeaponAttackMotionParam" />
-        <atkIdSingle1HandFall AltName="攻撃アニメ 片手 落下" Refs="WeaponAttackMotionParam" />
-        <atkIdSingle1HandJump AltName="攻撃アニメ 片手 ジャンプ" Refs="WeaponAttackMotionParam" />
-        <atkIdSingle2HandNormal1st AltName="攻撃アニメ 両手 弱１段目" Refs="WeaponAttackMotionParam" />
-        <atkIdSingle2HandNormal2nd AltName="攻撃アニメ 両手 弱２段目" Refs="WeaponAttackMotionParam" />
-        <atkIdSingle2HandStrong1st AltName="攻撃アニメ 両手 強１段目" Refs="WeaponAttackMotionParam" />
-        <atkIdSingle2HandStrong2nd AltName="攻撃アニメ 両手 強２段目" Refs="WeaponAttackMotionParam" />
-        <atkIdSingle2HandDash AltName="攻撃アニメ 両手 ダッシュ" Refs="WeaponAttackMotionParam" />
-        <atkIdSingle2HandRolling AltName="攻撃アニメ 両手 ローリング" Refs="WeaponAttackMotionParam" />
-        <atkIdSingle2HandStep AltName="攻撃アニメ 両手 ステップ" Refs="WeaponAttackMotionParam" />
-        <atkIdSingle2HandDown AltName="攻撃アニメ 両手 ダウン" Refs="WeaponAttackMotionParam" />
-        <atkIdSingle2HandFall AltName="攻撃アニメ 両手 落下" Refs="WeaponAttackMotionParam" />
-        <atkIdSingle2HandJump AltName="攻撃アニメ 両手 ジャンプ" Refs="WeaponAttackMotionParam" />
-        <atkIdDual1HandNormal1st AltName="攻撃アニメ 二刀流 弱1段目" Refs="WeaponAttackMotionParam" />
-        <atkIdDual1HandNormal2nd AltName="攻撃アニメ 二刀流 弱2段目" Refs="WeaponAttackMotionParam" />
-        <atkIdDual1HandStrong1st AltName="攻撃アニメ 二刀流 強1段目" Refs="WeaponAttackMotionParam" />
-        <atkIdDual1HandStrong2nd AltName="攻撃アニメ 二刀流 強2段目" Refs="WeaponAttackMotionParam" />
-        <atkIdDual1HandDash AltName="攻撃アニメ 二刀流 ダッシュ" Refs="WeaponAttackMotionParam" />
-        <atkIdDual1HandRolling AltName="攻撃アニメ 二刀流 ローリング" Refs="WeaponAttackMotionParam" />
-        <atkIdDual1HandStep AltName="攻撃アニメ 二刀流 ステップ" Refs="WeaponAttackMotionParam" />
-        <atkIdDual1HandDown AltName="攻撃アニメ 二刀流 ダウン" Refs="WeaponAttackMotionParam" />
-        <atkIdDual1HandFall AltName="攻撃アニメ 二刀流 落下" Refs="WeaponAttackMotionParam" />
-        <atkIdDual1HandJump AltName="攻撃アニメ 二刀流 ジャンプ" Refs="WeaponAttackMotionParam" />
-        <atkIdDual2HandNormal1st AltName="攻撃アニメ 二刀流両手 弱1段目" Refs="WeaponAttackMotionParam" />
-        <atkIdDual2HandNormal2nd AltName="攻撃アニメ 二刀流両手 弱2段目" Refs="WeaponAttackMotionParam" />
-        <atkIdDual2HandStrong1st AltName="攻撃アニメ 二刀流両手 強1段目" Refs="WeaponAttackMotionParam" />
-        <atkIdDual2HandStrong2nd AltName="攻撃アニメ 二刀流両手 強2段目" Refs="WeaponAttackMotionParam" />
-        <atkIdDual2HandDash AltName="攻撃アニメ 二刀流両手 ダッシュ" Refs="WeaponAttackMotionParam" />
-        <atkIdDual2HandRolling AltName="攻撃アニメ 二刀流両手 ローリング" Refs="WeaponAttackMotionParam" />
-        <atkIdDual2HandStep AltName="攻撃アニメ 二刀流両手 ステップ" Refs="WeaponAttackMotionParam" />
-        <atkIdDual2HandDown AltName="攻撃アニメ 二刀流両手 ダウン" Refs="WeaponAttackMotionParam" />
-        <atkIdDual2HandFall AltName="攻撃アニメ 二刀流両手 落下" Refs="WeaponAttackMotionParam" />
-        <atkIdDual2HandJump AltName="攻撃アニメ 二刀流両手 ジャンプ" Refs="WeaponAttackMotionParam" />
-        <atkIdLeft1HandNormal1st AltName="攻撃アニメ 左片手 弱1段目" Refs="WeaponAttackMotionParam" />
-        <atkIdLeft1HandNormal2nd AltName="攻撃アニメ 左片手 弱2段目" Refs="WeaponAttackMotionParam" />
-        <atkIdLeft1HandStrong1st AltName="攻撃アニメ 左片手 強1段目" Refs="WeaponAttackMotionParam" />
-        <atkIdLeft1HandStrong2nd AltName="攻撃アニメ 左片手 強2段目" Refs="WeaponAttackMotionParam" />
-        <atkIdLeft1HandDash AltName="攻撃アニメ 左片手 ダッシュ" Refs="WeaponAttackMotionParam" />
-        <atkIdLeft1HandRolling AltName="攻撃アニメ 左片手 ローリング" Refs="WeaponAttackMotionParam" />
-        <atkIdLeft1HandStep AltName="攻撃アニメ 左片手 ステップ" Refs="WeaponAttackMotionParam" />
-        <atkIdLeft1HandDown AltName="攻撃アニメ 左片手 ダウン" Refs="WeaponAttackMotionParam" />
-        <atkIdLeft1HandFall AltName="攻撃アニメ 左片手 落下" Refs="WeaponAttackMotionParam" />
-        <atkIdLeft1HandJump AltName="攻撃アニメ 左片手 ジャンプ" Refs="WeaponAttackMotionParam" />
-        <atkIdOppositeSingle2HandNormal AltName="攻撃アニメ 両手逆腕 弱" Refs="WeaponAttackMotionParam" />
-        <atkIdOppositeSingle2HandStrong AltName="攻撃アニメ 両手逆腕 強" Refs="WeaponAttackMotionParam" />
-        <atkIdOppositeDual2HandNormal1st AltName="攻撃アニメ 二刀流両手逆腕 弱1" Refs="WeaponAttackMotionParam" />
-        <atkIdOppositeDual2HandNormal2nd AltName="攻撃アニメ 二刀流両手逆腕 弱2" Refs="WeaponAttackMotionParam" />
-        <atkIdOppositeDual2HandStrong AltName="攻撃アニメ 二刀流両手逆腕 強" Refs="WeaponAttackMotionParam" />
-        <atkIdGuardBreak1Hand AltName="攻撃アニメ 片手 ガード崩し" Refs="WeaponAttackMotionParam" />
-        <atkIdGuardBreak2Hand AltName="攻撃アニメ 両手 ガード崩し" Refs="WeaponAttackMotionParam" />
-        <atkIdGuardNormal1st AltName="攻撃アニメ ガード構え 弱1段目" Refs="WeaponAttackMotionParam" />
-        <atkIdGuardNormal2nd AltName="攻撃アニメ ガード構え 弱2段目" Refs="WeaponAttackMotionParam" />
-        <atkIdGuardStrong1st AltName="攻撃アニメ ガード構え 強1段目" Refs="WeaponAttackMotionParam" />
-        <atkIdGuardStrong2nd AltName="攻撃アニメ ガード構え 強2段目" Refs="WeaponAttackMotionParam" />
-        <atkIdParryBreakStab AltName="攻撃アニメ パリィブレイクスタブ" Refs="WeaponAttackMotionParam" />
-        <atkIdGuardBreakStab AltName="攻撃アニメ ガードブレイクスタブ" Refs="WeaponAttackMotionParam" />
-        <atkIdBackStab AltName="攻撃アニメ バックスタブ" Refs="WeaponAttackMotionParam" />
+        <atkIdSingle1HandNormal1st AltName="Attack animation one-handed weak 1st hit" Refs="WeaponAttackMotionParam" />
+        <atkIdSingle1HandNormal2nd AltName="Attack animation one-handed weak 2nd hit" Refs="WeaponAttackMotionParam" />
+        <atkIdSingle1HandStrong1st AltName="Attack animation one-handed strong 1st hit" Refs="WeaponAttackMotionParam" />
+        <atkIdSingle1HandStrong2nd AltName="Attack animation one-handed strong 2nd hit" Refs="WeaponAttackMotionParam" />
+        <atkIdSingle1HandDash AltName="attack anime one handed dash" Refs="WeaponAttackMotionParam" />
+        <atkIdSingle1HandRolling AltName="Attack animation one handed rolling" Refs="WeaponAttackMotionParam" />
+        <atkIdSingle1HandStep AltName="attack anime one handed step" Refs="WeaponAttackMotionParam" />
+        <atkIdSingle1HandDown AltName="Attack anime one handed down" Refs="WeaponAttackMotionParam" />
+        <atkIdSingle1HandFall AltName="Attack anime one handed fall" Refs="WeaponAttackMotionParam" />
+        <atkIdSingle1HandJump AltName="attack anime one handed jump" Refs="WeaponAttackMotionParam" />
+        <atkIdSingle2HandNormal1st AltName="Attack animation both hands weak 1st hit" Refs="WeaponAttackMotionParam" />
+        <atkIdSingle2HandNormal2nd AltName="Attack animation both hands weak 2nd hit" Refs="WeaponAttackMotionParam" />
+        <atkIdSingle2HandStrong1st AltName="Attack animation both hands strong 1st hit" Refs="WeaponAttackMotionParam" />
+        <atkIdSingle2HandStrong2nd AltName="Attack animation both hands strong 2nd hit" Refs="WeaponAttackMotionParam" />
+        <atkIdSingle2HandDash AltName="Attack animation two-handed dash" Refs="WeaponAttackMotionParam" />
+        <atkIdSingle2HandRolling AltName="Attack animation two-handed rolling" Refs="WeaponAttackMotionParam" />
+        <atkIdSingle2HandStep AltName="attack anime two hands step" Refs="WeaponAttackMotionParam" />
+        <atkIdSingle2HandDown AltName="Attack anime both hands down" Refs="WeaponAttackMotionParam" />
+        <atkIdSingle2HandFall AltName="Attack anime both hands falling" Refs="WeaponAttackMotionParam" />
+        <atkIdSingle2HandJump AltName="attack anime two handed jump" Refs="WeaponAttackMotionParam" />
+        <atkIdDual1HandNormal1st AltName="Attack Animation Dual Wielding Weak 1st Stage" Refs="WeaponAttackMotionParam" />
+        <atkIdDual1HandNormal2nd AltName="Attack animation dual wield weak 2nd hit" Refs="WeaponAttackMotionParam" />
+        <atkIdDual1HandStrong1st AltName="Attack animation dual wield strong 1st stage" Refs="WeaponAttackMotionParam" />
+        <atkIdDual1HandStrong2nd AltName="Attack animation dual wield strong 2nd stage" Refs="WeaponAttackMotionParam" />
+        <atkIdDual1HandDash AltName="Attack anime dual wield dash" Refs="WeaponAttackMotionParam" />
+        <atkIdDual1HandRolling AltName="Attack anime dual wielding rolling" Refs="WeaponAttackMotionParam" />
+        <atkIdDual1HandStep AltName="attack anime dual wield step" Refs="WeaponAttackMotionParam" />
+        <atkIdDual1HandDown AltName="attack anime dual wield down" Refs="WeaponAttackMotionParam" />
+        <atkIdDual1HandFall AltName="attack anime dual wield falling" Refs="WeaponAttackMotionParam" />
+        <atkIdDual1HandJump AltName="attack anime dual wield jump" Refs="WeaponAttackMotionParam" />
+        <atkIdDual2HandNormal1st AltName="Attack Animation Dual Wield Two Hands Weak 1st Stage" Refs="WeaponAttackMotionParam" />
+        <atkIdDual2HandNormal2nd AltName="Attack Animation Dual Wield Two Hands Weak 2nd Stage" Refs="WeaponAttackMotionParam" />
+        <atkIdDual2HandStrong1st AltName="Attack Animation Dual Wield Two Hands Strong 1st Stage" Refs="WeaponAttackMotionParam" />
+        <atkIdDual2HandStrong2nd AltName="Attack Animation Dual Wield Two Hands Strong 2nd Stage" Refs="WeaponAttackMotionParam" />
+        <atkIdDual2HandDash AltName="Attack anime dual wielding two handed dash" Refs="WeaponAttackMotionParam" />
+        <atkIdDual2HandRolling AltName="Attack animation dual wielding two handed rolling" Refs="WeaponAttackMotionParam" />
+        <atkIdDual2HandStep AltName="Attack animation dual wielding two handed step" Refs="WeaponAttackMotionParam" />
+        <atkIdDual2HandDown AltName="Attack anime dual wielding both hands down" Refs="WeaponAttackMotionParam" />
+        <atkIdDual2HandFall AltName="Attack anime two-handed two-handed fall" Refs="WeaponAttackMotionParam" />
+        <atkIdDual2HandJump AltName="Attack animation two-handed two-handed jump" Refs="WeaponAttackMotionParam" />
+        <atkIdLeft1HandNormal1st AltName="Attack animation left hand weak 1st hit" Refs="WeaponAttackMotionParam" />
+        <atkIdLeft1HandNormal2nd AltName="Attack animation left hand weak 2nd hit" Refs="WeaponAttackMotionParam" />
+        <atkIdLeft1HandStrong1st AltName="Attack animation left hand strong 1st hit" Refs="WeaponAttackMotionParam" />
+        <atkIdLeft1HandStrong2nd AltName="Attack animation left hand strong 2nd hit" Refs="WeaponAttackMotionParam" />
+        <atkIdLeft1HandDash AltName="Attack animation left hand dash" Refs="WeaponAttackMotionParam" />
+        <atkIdLeft1HandRolling AltName="Attack animation left hand rolling" Refs="WeaponAttackMotionParam" />
+        <atkIdLeft1HandStep AltName="Attack animation left hand step" Refs="WeaponAttackMotionParam" />
+        <atkIdLeft1HandDown AltName="Attack animation left hand down" Refs="WeaponAttackMotionParam" />
+        <atkIdLeft1HandFall AltName="Attack animation left hand falling" Refs="WeaponAttackMotionParam" />
+        <atkIdLeft1HandJump AltName="Attack animation left hand jump" Refs="WeaponAttackMotionParam" />
+        <atkIdOppositeSingle2HandNormal AltName="Attack animation two-handed reverse arm weak" Refs="WeaponAttackMotionParam" />
+        <atkIdOppositeSingle2HandStrong AltName="Attack animation two-handed reverse arm strong" Refs="WeaponAttackMotionParam" />
+        <atkIdOppositeDual2HandNormal1st AltName="Attack Animation Dual Wield Two-handed Reverse Arm Weak 1" Refs="WeaponAttackMotionParam" />
+        <atkIdOppositeDual2HandNormal2nd AltName="Attack Animation Dual Wield Two-handed Reverse Arm Weak 2" Refs="WeaponAttackMotionParam" />
+        <atkIdOppositeDual2HandStrong AltName="Attack Animation Dual Wield Two-handed Reverse Arm Strong" Refs="WeaponAttackMotionParam" />
+        <atkIdGuardBreak1Hand AltName="Attack animation one handed guard break" Refs="WeaponAttackMotionParam" />
+        <atkIdGuardBreak2Hand AltName="Attack animation two-handed guard break" Refs="WeaponAttackMotionParam" />
+        <atkIdGuardNormal1st AltName="Attack animation Guard stance Weak 1st hit" Refs="WeaponAttackMotionParam" />
+        <atkIdGuardNormal2nd AltName="Attack animation Guard stance Weak 2nd hit" Refs="WeaponAttackMotionParam" />
+        <atkIdGuardStrong1st AltName="Attack animation Guard stance Strong 1st hit" Refs="WeaponAttackMotionParam" />
+        <atkIdGuardStrong2nd AltName="Attack animation Guard stance Strong 2nd hit" Refs="WeaponAttackMotionParam" />
+        <atkIdParryBreakStab AltName="Attack anime parry break stab" Refs="WeaponAttackMotionParam" />
+        <atkIdGuardBreakStab AltName="Attack Anime Guard Break Stab" Refs="WeaponAttackMotionParam" />
+        <atkIdBackStab AltName="attack anime backstab" Refs="WeaponAttackMotionParam" />
     </Field>
 </PARAMMETA>

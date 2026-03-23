@@ -1,18 +1,18 @@
 <?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <cellSizeX AltName="セルサイズX" />
-        <cellSizeY AltName="セルサイズY" />
-        <cellSizeZ AltName="セルサイズZ" />
-        <cellOffsetX AltName="セルオフセットX" />
-        <cellOffsetY AltName="セルオフセットY" />
-        <cellOffsetZ AltName="セルオフセットZ" />
-        <enableBloodstain AltName="血痕・死亡幻影有効" IsBool="true" />
-        <enableBloodMessage AltName="血文字有効" IsBool="true" />
-        <enableGhost AltName="幻影有効" IsBool="true" />
-        <enableMultiPlay AltName="マルチプレイ有効" IsBool="true" />
-        <enableRingSearch AltName="指輪検索有効" IsBool="true" />
-        <enableBreakInSearch AltName="乱入検索有効" IsBool="true" />
-        <dummy AltName="ダミー" Padding="true" />
+        <cellSizeX AltName="Cell size" />
+        <cellSizeY AltName="Cell size Y" />
+        <cellSizeZ AltName="Cell size Z" />
+        <cellOffsetX AltName="cell offset" />
+        <cellOffsetY AltName="Cell offset Y" />
+        <cellOffsetZ AltName="Cell offset Z" />
+        <enableBloodstain AltName="Bloodstain/death illusion effective" IsBool="true" />
+        <enableBloodMessage AltName="blood letter valid" IsBool="true" />
+        <enableGhost AltName="Illusion enabled" IsBool="true" />
+        <enableMultiPlay AltName="Multiplayer enabled" IsBool="true" />
+        <enableRingSearch AltName="Ring search enabled" IsBool="true" />
+        <enableBreakInSearch AltName="Intrusive search enabled" IsBool="true" />
+        <dummy AltName="dummy" Padding="true" />
     </Field>
 </PARAMMETA>

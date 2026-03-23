@@ -2,6 +2,6 @@
 <PARAMMETA XmlVersion="0">
     <Field>
         <sfxId AltName="SFX ID" />
-        <dummyPolyId AltName="生成ダミポリ" />
+        <dummyPolyId AltName="Generated dummy poly" />
     </Field>
 </PARAMMETA>

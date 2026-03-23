@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <soulLevelThreshold AltName="必要ソウル 閾レベル" />
-        <dummy AltName="ダミー" Padding="true" />
-        <increasedSoulsFromThreshold AltName="必要ソウル 増加量" />
-        <necessarySouls AltName="必要ソウル" />
+        <soulLevelThreshold AltName="Required soul threshold level" />
+        <dummy AltName="dummy" Padding="true" />
+        <increasedSoulsFromThreshold AltName="Required soul increase amount" />
+        <necessarySouls AltName="required soul" />
     </Field>
 </PARAMMETA>

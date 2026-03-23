@@ -1,23 +1,23 @@
 <?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <none AltName="ホスト" />
-        <white AltName="白霊" />
-        <smallWhite AltName="小白霊" />
-        <gold AltName="金霊" />
-        <smallGold AltName="小金霊" />
-        <coopBlue AltName="救援青霊" />
-        <versusBlue AltName="報復青霊" />
-        <signBlack AltName="闇霊（サイン）" />
-        <intrudeBlack AltName="闇霊（乱入）" />
-        <signRed AltName="赤霊（サイン）" />
-        <intrudeRed AltName="赤霊（乱入）" />
-        <bellGuard AltName="鐘守灰霊" />
-        <ratKing AltName="ねずみの王灰霊" />
-        <dragon AltName="竜霊" />
-        <mirrorKnight AltName="ミラーナイト霊" />
-        <abyss AltName="深淵霊" />
-        <duelBlue AltName="決闘青霊" />
-        <duelRed AltName="決闘赤霊" />
+        <none AltName="host" />
+        <white AltName="white spirit" />
+        <smallWhite AltName="small white spirit" />
+        <gold AltName="Golden spirit" />
+        <smallGold AltName="small gold spirit" />
+        <coopBlue AltName="Relief spirit" />
+        <versusBlue AltName="Spirit of Retribution" />
+        <signBlack AltName="Dark spirit (sign)" />
+        <intrudeBlack AltName="Dark spirit (intrusion)" />
+        <signRed AltName="Red spirit (sign)" />
+        <intrudeRed AltName="Red spirit (intrusion)" />
+        <bellGuard AltName="Bell Keeper Ash Ghost" />
+        <ratKing AltName="Mouse King Ash Spirit" />
+        <dragon AltName="dragon spirit" />
+        <mirrorKnight AltName="mirror night spirit" />
+        <abyss AltName="abyssal spirit" />
+        <duelBlue AltName="Duel Blue Spirit" />
+        <duelRed AltName="Duel Red Spirit" />
     </Field>
 </PARAMMETA>

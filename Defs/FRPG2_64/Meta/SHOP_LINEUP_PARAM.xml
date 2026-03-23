@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <saleItem AltName="販売アイテムID" />
-        <price AltName="販売価格" />
-        <saleFlag AltName="販売開始フラグ" />
-        <saleEndFlag AltName="販売終了フラグ" />
-        <saleFlagItem AltName="販売開始条件アイテム" />
-        <saleEndFlagItem AltName="販売終了条件アイテム" />
-        <displayOrder AltName="陳列順序" />
-        <priceRate AltName="価格倍率" />
-        <unitSales AltName="販売個数" />
-        <padding AltName="予約" Padding="true" />
+        <saleItem AltName="Sales item ID" />
+        <price AltName="Sales price" />
+        <saleFlag AltName="Sales start flag" />
+        <saleEndFlag AltName="End of sale flag" />
+        <saleFlagItem AltName="Sales start condition items" />
+        <saleEndFlagItem AltName="Sale end condition items" />
+        <displayOrder AltName="display order" />
+        <priceRate AltName="price multiple" />
+        <unitSales AltName="Sales quantity" />
+        <padding AltName="reservation" Padding="true" />
     </Field>
 </PARAMMETA>

@@ -2,7 +2,7 @@
 <PARAMMETA XmlVersion="0">
     <Field>
         <sfxId AltName="SFXID" />
-        <lightId AltName="光源ID" />
-        <life AltName="寿命[秒]" />
+        <lightId AltName="Light source ID" />
+        <life AltName="Lifespan [seconds]" />
     </Field>
 </PARAMMETA>

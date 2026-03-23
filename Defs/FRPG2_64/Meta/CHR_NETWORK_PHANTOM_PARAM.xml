@@ -1,47 +1,47 @@
 <?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <level0ShaderType AltName="制約レベル０シェーダー設定" ProjectEnum="CHR_VISUAL_TYPE" />
-        <level0FullBodySfx AltName="制約レベル０ 適用全身SFX" Refs="ChrFullBodySfxParam" />
-        <level1FullBodySfx AltName="制約レベル１ 適用全身SFX" Refs="ChrFullBodySfxParam" />
-        <level2FullBodySfx AltName="制約レベル２ 適用全身SFX" Refs="ChrFullBodySfxParam" />
-        <level3FullBodySfx AltName="制約レベル３ 適用全身SFX" Refs="ChrFullBodySfxParam" />
-        <entryMotionType AltName="出現モーション" ProjectEnum="PLAYER_MULTI_ENTRY_MOTION" />
-        <speedDownHpMinRate AltName="速度低下発生HP 最小[%]" />
-        <speedDownHpMaxRate AltName="速度低下発生HP 最大[%]" />
-        <speedDownRate AltName="速度低下割合[%]" />
-        <entrySfxId AltName="生成SFXID" />
-        <entryFullBodySfx AltName="生成全身SFXパラメータ" />
-        <deadType AltName="死亡タイプ" ProjectEnum="DEAD_TYPE_PARAM_ID" />
-        <limitTime AltName="マルチプレイ制限時間[Sec]" />
-        <returnWaitTime AltName="マルチプレイ終了帰還待ち時間[sec]" />
-        <respawnPosTypeSuccess AltName="マルチ終了帰還位置 成功" ProjectEnum="MULT_END_RESPAWN_POS_TYPE" />
-        <respawnPosTypeFaild AltName="マルチ終了帰還位置 失敗" ProjectEnum="MULT_END_RESPAWN_POS_TYPE" />
-        <respawnPosTypeDead AltName="マルチ終了帰還位置 死亡" ProjectEnum="MULT_END_RESPAWN_POS_TYPE" />
-        <pad1 AltName="予約領域" Padding="true" />
-        <respawnConditionTypeSuccess AltName="マルチ終了復帰状態 成功" ProjectEnum="MULT_END_RESPAWN_CONDITION_TYPE" />
-        <respawnConditionTypeFaild AltName="マルチ終了復帰状態 失敗" ProjectEnum="MULT_END_RESPAWN_CONDITION_TYPE" />
-        <respawnConditionTypeDead AltName="マルチ終了復帰状態 死亡" ProjectEnum="MULT_END_RESPAWN_CONDITION_TYPE" />
-        <pad2 AltName="予約領域" Padding="true" />
-        <voiceChatType AltName="ボイスチャット設定" />
-        <hostReturnWarpEnable AltName="ホストからの送還許可" IsBool="true" />
-        <ownerReturnWarpEnable AltName="自力帰還許可" IsBool="true" />
-        <handicapEnable AltName="ハンディ設定" IsBool="true" />
-        <maxHpRate AltName="最大HP補正[倍]" />
-        <summonEnable AltName="召喚者設定" IsBool="true" />
-        <summonSupportEnable AltName="召喚者補助許可設定" IsBool="true" />
-        <isEnableBossSoul AltName="獲得ソウル許可 ボス" IsBool="true" />
-        <isEnableEnemySoul AltName="獲得ソウル許可 ザコ" IsBool="true" />
-        <isEnableNpcSoul AltName="獲得ソウル許可 NPC" IsBool="true" />
-        <isEnableHostSoul AltName="獲得ソウル許可 ホスト" IsBool="true" />
-        <isEnableNetPhantomSoul AltName="獲得ソウル許可 霊体" IsBool="true" />
-        <healItemUsageType AltName="回復アイテム使用タイプ" ProjectEnum="HEAL_ITEM_USAGE_TYPE" />
-        <getSoulRate AltName="獲得ソウル補正倍率[倍]" />
-        <fadeOutTimeStep1 AltName="マルチプレイ見た目一段階落とす時間[Sec]" />
-        <fadeOutTimeStep2 AltName="マルチプレイ見た目二段階落とす時間[Sec]" />
-        <level1ShaderType AltName="制約レベル１シェーダー設定" ProjectEnum="CHR_VISUAL_TYPE" />
-        <level2ShaderType AltName="制約レベル２シェーダー設定" ProjectEnum="CHR_VISUAL_TYPE" />
-        <level3ShaderType AltName="制約レベル３シェーダー設定" ProjectEnum="CHR_VISUAL_TYPE" />
-        <getBossSoulRate AltName="獲得ボスソウル補正倍率[倍]" />
+        <level0ShaderType AltName="Constraint level 0 shader settings" ProjectEnum="CHR_VISUAL_TYPE" />
+        <level0FullBodySfx AltName="Restriction level 0 applicable whole body SFX" Refs="ChrFullBodySfxParam" />
+        <level1FullBodySfx AltName="Restriction level 1 applicable whole body SFX" Refs="ChrFullBodySfxParam" />
+        <level2FullBodySfx AltName="Restriction level 2 applicable whole body SFX" Refs="ChrFullBodySfxParam" />
+        <level3FullBodySfx AltName="Restriction level 3 applicable whole body SFX" Refs="ChrFullBodySfxParam" />
+        <entryMotionType AltName="appearance motion" ProjectEnum="PLAYER_MULTI_ENTRY_MOTION" />
+        <speedDownHpMinRate AltName="Speed ​​reduction occurrence HP minimum [%]" />
+        <speedDownHpMaxRate AltName="Speed ​​reduction occurrence HP maximum [%]" />
+        <speedDownRate AltName="Speed ​​reduction rate [%]" />
+        <entrySfxId AltName="Generate SFXID" />
+        <entryFullBodySfx AltName="Generated whole body SFX parameters" />
+        <deadType AltName="death type" ProjectEnum="DEAD_TYPE_PARAM_ID" />
+        <limitTime AltName="Multiplayer time limit [Sec]" />
+        <returnWaitTime AltName="Multiplayer end return waiting time [sec]" />
+        <respawnPosTypeSuccess AltName="Multi-end return position success" ProjectEnum="MULT_END_RESPAWN_POS_TYPE" />
+        <respawnPosTypeFaild AltName="Multi end return position failure" ProjectEnum="MULT_END_RESPAWN_POS_TYPE" />
+        <respawnPosTypeDead AltName="Multi end return position death" ProjectEnum="MULT_END_RESPAWN_POS_TYPE" />
+        <pad1 AltName="reserved area" Padding="true" />
+        <respawnConditionTypeSuccess AltName="Multi end return status success" ProjectEnum="MULT_END_RESPAWN_CONDITION_TYPE" />
+        <respawnConditionTypeFaild AltName="Multi-end return status failure" ProjectEnum="MULT_END_RESPAWN_CONDITION_TYPE" />
+        <respawnConditionTypeDead AltName="Multi-completion return state Death" ProjectEnum="MULT_END_RESPAWN_CONDITION_TYPE" />
+        <pad2 AltName="reserved area" Padding="true" />
+        <voiceChatType AltName="Voice chat settings" />
+        <hostReturnWarpEnable AltName="Permission to repatriate from host" IsBool="true" />
+        <ownerReturnWarpEnable AltName="Permission to return on your own" IsBool="true" />
+        <handicapEnable AltName="Handy setting" IsBool="true" />
+        <maxHpRate AltName="Maximum HP correction [x]" />
+        <summonEnable AltName="Summoner settings" IsBool="true" />
+        <summonSupportEnable AltName="Summoner assistance permission setting" IsBool="true" />
+        <isEnableBossSoul AltName="Obtained soul permission boss" IsBool="true" />
+        <isEnableEnemySoul AltName="Acquired soul permission Zako" IsBool="true" />
+        <isEnableNpcSoul AltName="Obtained soul permission NPC" IsBool="true" />
+        <isEnableHostSoul AltName="Obtain Soul Permission Host" IsBool="true" />
+        <isEnableNetPhantomSoul AltName="Obtained Soul Permission Spiritual Body" IsBool="true" />
+        <healItemUsageType AltName="Recovery item use type" ProjectEnum="HEAL_ITEM_USAGE_TYPE" />
+        <getSoulRate AltName="Obtained soul correction magnification [x]" />
+        <fadeOutTimeStep1 AltName="Time to lower multiplayer appearance by one level [Sec]" />
+        <fadeOutTimeStep2 AltName="Time to reduce multiplayer appearance to two levels [Sec]" />
+        <level1ShaderType AltName="Constraint level 1 shader settings" ProjectEnum="CHR_VISUAL_TYPE" />
+        <level2ShaderType AltName="Constraint level 2 shader settings" ProjectEnum="CHR_VISUAL_TYPE" />
+        <level3ShaderType AltName="Constraint level 3 shader settings" ProjectEnum="CHR_VISUAL_TYPE" />
+        <getBossSoulRate AltName="Obtained boss soul correction magnification [x]" />
     </Field>
 </PARAMMETA>

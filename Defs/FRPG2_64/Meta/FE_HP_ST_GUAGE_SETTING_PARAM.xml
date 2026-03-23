@@ -1,18 +1,18 @@
 <?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <HpGainPar AltName="体力減少速度" />
-        <StGainPar AltName="スタミナ減少速度" />
-        <HpGainAnimLimit AltName="体力減少演出開始閾値" />
-        <StGainAnimLimit AltName="スタミナ減少演出開始閾値" />
-        <HpGainDelay AltName="体力減少演出開始遅延時間" />
-        <StGainDelay AltName="スタミナ減少演出開始遅延時間" />
-        <EnemyHpGainPar AltName="敵体力減少速度" />
-        <EnemyHpGainAnimLimit AltName="敵体力減少演出開始閾値" />
-        <EnemyHpGainDelay AltName="敵体力減少演出開始遅延時間" />
-        <HpMinSize AltName="最小ステータス時の体力ゲージの長さ" />
-        <StMinSize AltName="最小ステータス時のスタミナゲージの長さ" />
-        <HpMaxSize AltName="最大ステータス時の体力ゲージの長さ体力" />
-        <StMaxSize AltName="最大ステータス時のスタミナゲージの長さスタミナ" />
+        <HpGainPar AltName="Stamina loss speed" />
+        <StGainPar AltName="Stamina reduction speed" />
+        <HpGainAnimLimit AltName="Threshold for starting physical strength reduction effect" />
+        <StGainAnimLimit AltName="Stamina reduction effect start threshold" />
+        <HpGainDelay AltName="Stamina reduction effect start delay time" />
+        <StGainDelay AltName="Stamina reduction effect start delay time" />
+        <EnemyHpGainPar AltName="Enemy health reduction speed" />
+        <EnemyHpGainAnimLimit AltName="Enemy physical strength reduction effect start threshold" />
+        <EnemyHpGainDelay AltName="Enemy physical strength reduction effect start delay time" />
+        <HpMinSize AltName="Length of health gauge at minimum status" />
+        <StMinSize AltName="Stamina gauge length at minimum status" />
+        <HpMaxSize AltName="Length of stamina gauge at max status stamina" />
+        <StMaxSize AltName="Stamina gauge length at maximum status Stamina" />
     </Field>
 </PARAMMETA>

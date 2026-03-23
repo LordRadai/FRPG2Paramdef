@@ -1,68 +1,68 @@
 <?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <lotDropType AltName="抽選ドロップタイプ" ProjectEnum="ITEM_LOT_DROP_TYPE" />
-        <lotCount AltName="抽選回数" />
-        <padding AltName="パディング" Padding="true" />
-        <itemNum1 AltName="個数" />
-        <itemNum2 AltName="個数" />
-        <itemNum3 AltName="個数" />
-        <itemNum4 AltName="個数" />
-        <itemNum5 AltName="個数" />
-        <itemNum6 AltName="個数" />
-        <itemNum7 AltName="個数" />
-        <itemNum8 AltName="個数" />
-        <itemNum9 AltName="個数" />
-        <itemNum10 AltName="個数" />
-        <reinforceLevel1 AltName="強化レベル" />
-        <reinforceLevel2 AltName="強化レベル" />
-        <reinforceLevel3 AltName="強化レベル" />
-        <reinforceLevel4 AltName="強化レベル" />
-        <reinforceLevel5 AltName="強化レベル" />
-        <reinforceLevel6 AltName="強化レベル" />
-        <reinforceLevel7 AltName="強化レベル" />
-        <reinforceLevel8 AltName="強化レベル" />
-        <reinforceLevel9 AltName="強化レベル" />
-        <reinforceLevel10 AltName="強化レベル" />
-        <attribute1 AltName="属性" ProjectEnum="ITEM_LOT_ATTR_TYPE" />
-        <attribute2 AltName="属性" ProjectEnum="ITEM_LOT_ATTR_TYPE" />
-        <attribute3 AltName="属性" ProjectEnum="ITEM_LOT_ATTR_TYPE" />
-        <attribute4 AltName="属性" ProjectEnum="ITEM_LOT_ATTR_TYPE" />
-        <attribute5 AltName="属性" ProjectEnum="ITEM_LOT_ATTR_TYPE" />
-        <attribute6 AltName="属性" ProjectEnum="ITEM_LOT_ATTR_TYPE" />
-        <attribute7 AltName="属性" ProjectEnum="ITEM_LOT_ATTR_TYPE" />
-        <attribute8 AltName="属性" ProjectEnum="ITEM_LOT_ATTR_TYPE" />
-        <attribute9 AltName="属性" ProjectEnum="ITEM_LOT_ATTR_TYPE" />
-        <attribute10 AltName="属性" ProjectEnum="ITEM_LOT_ATTR_TYPE" />
-        <bExFlag1 AltName="【通常】再入手可能/【確定取得】抽選終了後" IsBool="true" />
-        <bExFlag2 AltName="【通常】再入手可能/【確定取得】抽選終了後" IsBool="true" />
-        <bExFlag3 AltName="【通常】再入手可能/【確定取得】抽選終了後" IsBool="true" />
-        <bExFlag4 AltName="【通常】再入手可能/【確定取得】抽選終了後" IsBool="true" />
-        <bExFlag5 AltName="【通常】再入手可能/【確定取得】抽選終了後" IsBool="true" />
-        <bExFlag6 AltName="【通常】再入手可能/【確定取得】抽選終了後" IsBool="true" />
-        <bExFlag7 AltName="【通常】再入手可能/【確定取得】抽選終了後" IsBool="true" />
-        <bExFlag8 AltName="【通常】再入手可能/【確定取得】抽選終了後" IsBool="true" />
-        <bExFlag9 AltName="【通常】再入手可能/【確定取得】抽選終了後" IsBool="true" />
-        <bExFlag10 AltName="【通常】再入手可能/【確定取得】抽選終了後" IsBool="true" />
-        <itemId1 AltName="アイテムID" Refs="ItemParam" />
-        <itemId2 AltName="アイテムID" Refs="ItemParam" />
-        <itemId3 AltName="アイテムID" Refs="ItemParam" />
-        <itemId4 AltName="アイテムID" Refs="ItemParam" />
-        <itemId5 AltName="アイテムID" Refs="ItemParam" />
-        <itemId6 AltName="アイテムID" Refs="ItemParam" />
-        <itemId7 AltName="アイテムID" Refs="ItemParam" />
-        <itemId8 AltName="アイテムID" Refs="ItemParam" />
-        <itemId9 AltName="アイテムID" Refs="ItemParam" />
-        <itemId10 AltName="アイテムID" Refs="ItemParam" />
-        <itemWeight1 AltName="抽選重み" />
-        <itemWeight2 AltName="抽選重み" />
-        <itemWeight3 AltName="抽選重み" />
-        <itemWeight4 AltName="抽選重み" />
-        <itemWeight5 AltName="抽選重み" />
-        <itemWeight6 AltName="抽選重み" />
-        <itemWeight7 AltName="抽選重み" />
-        <itemWeight8 AltName="抽選重み" />
-        <itemWeight9 AltName="抽選重み" />
-        <itemWeight10 AltName="抽選重み" />
+        <lotDropType AltName="lottery drop type" ProjectEnum="ITEM_LOT_DROP_TYPE" />
+        <lotCount AltName="Number of drawings" />
+        <padding AltName="padding" Padding="true" />
+        <itemNum1 AltName="Number of pieces" />
+        <itemNum2 AltName="Number of pieces" />
+        <itemNum3 AltName="Number of pieces" />
+        <itemNum4 AltName="Number of pieces" />
+        <itemNum5 AltName="Number of pieces" />
+        <itemNum6 AltName="Number of pieces" />
+        <itemNum7 AltName="Number of pieces" />
+        <itemNum8 AltName="Number of pieces" />
+        <itemNum9 AltName="Number of pieces" />
+        <itemNum10 AltName="Number of pieces" />
+        <reinforceLevel1 AltName="Reinforcement level" />
+        <reinforceLevel2 AltName="Reinforcement level" />
+        <reinforceLevel3 AltName="Reinforcement level" />
+        <reinforceLevel4 AltName="Reinforcement level" />
+        <reinforceLevel5 AltName="Reinforcement level" />
+        <reinforceLevel6 AltName="Reinforcement level" />
+        <reinforceLevel7 AltName="Reinforcement level" />
+        <reinforceLevel8 AltName="Reinforcement level" />
+        <reinforceLevel9 AltName="Reinforcement level" />
+        <reinforceLevel10 AltName="Reinforcement level" />
+        <attribute1 AltName="attribute" ProjectEnum="ITEM_LOT_ATTR_TYPE" />
+        <attribute2 AltName="attribute" ProjectEnum="ITEM_LOT_ATTR_TYPE" />
+        <attribute3 AltName="attribute" ProjectEnum="ITEM_LOT_ATTR_TYPE" />
+        <attribute4 AltName="attribute" ProjectEnum="ITEM_LOT_ATTR_TYPE" />
+        <attribute5 AltName="attribute" ProjectEnum="ITEM_LOT_ATTR_TYPE" />
+        <attribute6 AltName="attribute" ProjectEnum="ITEM_LOT_ATTR_TYPE" />
+        <attribute7 AltName="attribute" ProjectEnum="ITEM_LOT_ATTR_TYPE" />
+        <attribute8 AltName="attribute" ProjectEnum="ITEM_LOT_ATTR_TYPE" />
+        <attribute9 AltName="attribute" ProjectEnum="ITEM_LOT_ATTR_TYPE" />
+        <attribute10 AltName="attribute" ProjectEnum="ITEM_LOT_ATTR_TYPE" />
+        <bExFlag1 AltName="[Normal] Re-obtainable/[Confirmed acquisition] After the lottery ends" IsBool="true" />
+        <bExFlag2 AltName="[Normal] Re-obtainable/[Confirmed acquisition] After the lottery ends" IsBool="true" />
+        <bExFlag3 AltName="[Normal] Re-obtainable/[Confirmed acquisition] After the lottery ends" IsBool="true" />
+        <bExFlag4 AltName="[Normal] Re-obtainable/[Confirmed acquisition] After the lottery ends" IsBool="true" />
+        <bExFlag5 AltName="[Normal] Re-obtainable/[Confirmed acquisition] After the lottery ends" IsBool="true" />
+        <bExFlag6 AltName="[Normal] Re-obtainable/[Confirmed acquisition] After the lottery ends" IsBool="true" />
+        <bExFlag7 AltName="[Normal] Re-obtainable/[Confirmed acquisition] After the lottery ends" IsBool="true" />
+        <bExFlag8 AltName="[Normal] Re-obtainable/[Confirmed acquisition] After the lottery ends" IsBool="true" />
+        <bExFlag9 AltName="[Normal] Re-obtainable/[Confirmed acquisition] After the lottery ends" IsBool="true" />
+        <bExFlag10 AltName="[Normal] Re-obtainable/[Confirmed acquisition] After the lottery ends" IsBool="true" />
+        <itemId1 AltName="Item ID" Refs="ItemParam" />
+        <itemId2 AltName="Item ID" Refs="ItemParam" />
+        <itemId3 AltName="Item ID" Refs="ItemParam" />
+        <itemId4 AltName="Item ID" Refs="ItemParam" />
+        <itemId5 AltName="Item ID" Refs="ItemParam" />
+        <itemId6 AltName="Item ID" Refs="ItemParam" />
+        <itemId7 AltName="Item ID" Refs="ItemParam" />
+        <itemId8 AltName="Item ID" Refs="ItemParam" />
+        <itemId9 AltName="Item ID" Refs="ItemParam" />
+        <itemId10 AltName="Item ID" Refs="ItemParam" />
+        <itemWeight1 AltName="Lottery weight" />
+        <itemWeight2 AltName="Lottery weight" />
+        <itemWeight3 AltName="Lottery weight" />
+        <itemWeight4 AltName="Lottery weight" />
+        <itemWeight5 AltName="Lottery weight" />
+        <itemWeight6 AltName="Lottery weight" />
+        <itemWeight7 AltName="Lottery weight" />
+        <itemWeight8 AltName="Lottery weight" />
+        <itemWeight9 AltName="Lottery weight" />
+        <itemWeight10 AltName="Lottery weight" />
     </Field>
 </PARAMMETA>

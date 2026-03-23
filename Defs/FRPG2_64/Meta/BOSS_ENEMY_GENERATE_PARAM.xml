@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <generatorBeginId AltName="ジェネレータ開始ＩＤ" />
-        <generatorEndId AltName="ジェネレータ終了ＩＤ" />
-        <dummyPolyBeginId AltName="ダミポリ開始ＩＤ" />
-        <dummyPolyEndId AltName="ダミポリ停止ＩＤ" />
-        <isCopyPlayerProtector AltName="プレイヤー防具を引き継ぐ" IsBool="true" />
-        <isAnotherWorld AltName="異次元空間生成" IsBool="true" />
-        <dummy AltName="ダミー" Padding="true" />
+        <generatorBeginId AltName="Generator start ID" />
+        <generatorEndId AltName="Generator end ID" />
+        <dummyPolyBeginId AltName="Damipoli start ID" />
+        <dummyPolyEndId AltName="Damipoli stop ID" />
+        <isCopyPlayerProtector AltName="Inherit player armor" IsBool="true" />
+        <isAnotherWorld AltName="Extradimensional space generation" IsBool="true" />
+        <dummy AltName="dummy" Padding="true" />
     </Field>
 </PARAMMETA>

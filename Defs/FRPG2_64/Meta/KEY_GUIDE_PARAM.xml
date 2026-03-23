@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <textId AltName="テキストID" />
-        <width_radius AltName="X軸半長or半径" />
-        <height AltName="Y軸半長" />
-        <depth AltName="Z軸半長" />
-        <depthOffset AltName="Z軸オフセット" />
-        <shapeType AltName="形状" ProjectEnum="KEY_GUIDE_SHAPE_TYPE" />
-        <angleType AltName="ダミポリ方向" ProjectEnum="KEY_GUIDE_ANGLE_TYPE" />
-        <angleDeg AltName="許容角度" />
-        <bFollow AltName="追従" IsBool="true" />
-        <dummyPolyId AltName="ダミポリID" />
-        <bEnableActing AltName="アクション中表示可能" IsBool="true" />
-        <posAngleDeg AltName="位置許容角度" />
+        <textId AltName="text id" />
+        <width_radius AltName="X-axis half length or radius" />
+        <height AltName="Y-axis half length" />
+        <depth AltName="Z axis half length" />
+        <depthOffset AltName="Z-axis offset" />
+        <shapeType AltName="shape" ProjectEnum="KEY_GUIDE_SHAPE_TYPE" />
+        <angleType AltName="Dummy poly direction" ProjectEnum="KEY_GUIDE_ANGLE_TYPE" />
+        <angleDeg AltName="Allowable angle" />
+        <bFollow AltName="Follow" IsBool="true" />
+        <dummyPolyId AltName="Damipoli ID" />
+        <bEnableActing AltName="Can be displayed during action" IsBool="true" />
+        <posAngleDeg AltName="Position tolerance angle" />
     </Field>
 </PARAMMETA>

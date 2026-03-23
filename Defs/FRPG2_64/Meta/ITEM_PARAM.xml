@@ -1,36 +1,36 @@
 <?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <iconId AltName="アイテムアイコンID" />
-        <specialEffectId AltName="特殊効果ID" />
-        <startSfxId AltName="アイテム開始SFXID" />
-        <actionSfxId AltName="アイテム発動SFXID" />
-        <effectSfxId AltName="アイテム効果SFXID" />
-        <weaponParamId AltName="武器ID" />
-        <armorParamId AltName="防具ID" />
-        <arrowParamId AltName="矢ID" />
-        <ringParamId AltName="指輪ID" />
-        <spellParamId AltName="スペルID" />
-        <gestureId AltName="ジェスチャーID" />
-        <sortId AltName="デフォルトソートID" />
-        <price AltName="販売ベース価格" />
-        <salePrice AltName="売却ベース価格" />
-        <motionSpeedRate AltName="アイテム使用モーション速度倍率(倍単位)" />
-        <weight AltName="重量(kg単位)" />
-        <itemTypeParamId AltName="アイテムタイプ" Refs="ItemTypeParam" />
-        <itemUsageParamId AltName="使用方法" Refs="ItemUsageParam" />
-        <getFrag AltName="入手フラグ" />
-        <maxNum AltName="１スロットストック個数" />
-        <spEffectTargetRegion AltName="特殊効果管理カテゴリ" ProjectEnum="SP_EFFECT_TARGET_REGION" />
-        <spEffectDuplication AltName="特殊効果の重複判定" ProjectEnum="SP_EFFECT_DUPLICATION" />
-        <spEffectSfxPriority AltName="効果SFXの優先度" />
-        <menuIconCategory AltName="メニュー用アイコンカテゴリ" ProjectEnum="ITEM_MENU_ICON_CATEGORY" />
-        <enchantType AltName="エンチャントの許可" ProjectEnum="ITEM_ENCHANT_TYPE" />
-        <completeTrophy AltName="収集トロフィーの種類" ProjectEnum="ITEM_COMPLETE_TROPHY_TYPE" />
-        <isOnlyOne AltName="１セーブ１個のみ" IsBool="true" />
-        <isOnlyOneUtilGameClear AltName="1周回1個のみ" IsBool="true" />
-        <isTakeOver AltName="周回時に所持状態を引き継ぐか？" IsBool="true" />
-        <canGet_WhenGetAllItem AltName="デバッグ用全アイテム入手で入手可能か？" IsBool="true" />
-        <padding AltName="予約" Padding="true" />
+        <iconId AltName="Item icon ID" />
+        <specialEffectId AltName="special effect ID" />
+        <startSfxId AltName="Item start SFXID" />
+        <actionSfxId AltName="Item activation SFXID" />
+        <effectSfxId AltName="Item effect SFXID" />
+        <weaponParamId AltName="Weapon ID" />
+        <armorParamId AltName="Armor ID" />
+        <arrowParamId AltName="Arrow ID" />
+        <ringParamId AltName="ring ID" />
+        <spellParamId AltName="spell id" />
+        <gestureId AltName="Gesture ID" />
+        <sortId AltName="Default sort ID" />
+        <price AltName="Sales base price" />
+        <salePrice AltName="Sale base price" />
+        <motionSpeedRate AltName="Item use motion speed multiplier (in multiplication units)" />
+        <weight AltName="Weight (in kg)" />
+        <itemTypeParamId AltName="item type" Refs="ItemTypeParam" />
+        <itemUsageParamId AltName="How to use" Refs="ItemUsageParam" />
+        <getFrag AltName="Obtained flag" />
+        <maxNum AltName="1 slot stock quantity" />
+        <spEffectTargetRegion AltName="Special effects management category" ProjectEnum="SP_EFFECT_TARGET_REGION" />
+        <spEffectDuplication AltName="Duplicate determination of special effects" ProjectEnum="SP_EFFECT_DUPLICATION" />
+        <spEffectSfxPriority AltName="Effect SFX priority" />
+        <menuIconCategory AltName="Menu icon category" ProjectEnum="ITEM_MENU_ICON_CATEGORY" />
+        <enchantType AltName="Enchantment permission" ProjectEnum="ITEM_ENCHANT_TYPE" />
+        <completeTrophy AltName="Types of collected trophies" ProjectEnum="ITEM_COMPLETE_TROPHY_TYPE" />
+        <isOnlyOne AltName="1 save only 1 item" IsBool="true" />
+        <isOnlyOneUtilGameClear AltName="Only 1 piece per lap" IsBool="true" />
+        <isTakeOver AltName="Will the possession status be inherited during the rotation?" IsBool="true" />
+        <canGet_WhenGetAllItem AltName="Is it possible to obtain all items for debugging?" IsBool="true" />
+        <padding AltName="reservation" Padding="true" />
     </Field>
 </PARAMMETA>

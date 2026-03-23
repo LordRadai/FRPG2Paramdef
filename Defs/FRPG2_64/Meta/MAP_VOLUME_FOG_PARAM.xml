@@ -5,7 +5,7 @@
         <colorG AltName="G" />
         <colorB AltName="B" />
         <colorA AltName="A" />
-        <dist AltName="フォグの距離" />
-        <density AltName="フォグの強さ" />
+        <dist AltName="fog distance" />
+        <density AltName="fog strength" />
     </Field>
 </PARAMMETA>
