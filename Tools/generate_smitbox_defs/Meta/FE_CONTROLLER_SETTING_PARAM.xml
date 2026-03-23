@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PARAMMETA XmlVersion="0">
-    <Field>
-        <StartReactionLine AltName="Minimum input sensitivity" />
-        <StartMoveSpeedRatio AltName="Minimum movement magnification" />
-        <MaxSpeed AltName="Setting cursor movement speed" />
-    </Field>
-</PARAMMETA>

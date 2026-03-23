@@ -7,7 +7,7 @@
         <action0GrabDamageId00 AltName="《Action 0 Throwing damage ID_1》" />
         <action0GrabDamageId01 AltName="《Action 0 Throwing damage ID_2》" />
         <action0GrabDamageId02 AltName="《Action 0 Throwing damage ID_3》" />
-        <action0AttackWalkMoveAttack AltName="《Action 0 Walking Attack ID》" ProjectEnum="ENEMY_ATTACK_TYPE" />
+        <action0AttackWalkMoveAttack AltName="《Action 0 Walking Attack ID》" Refs="EnemyAttackMoveParam" />
         <action0AttackInvincible AltName="《Action 0 non-interruptible type》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
         <action0HandType AltName="《Action 0 Attacker》" />
         <action0IsSpell AltName="《Action 0 Spell Flag》" IsBool="true" />
@@ -32,7 +32,7 @@
         <action1GrabDamageId00 AltName="《Action 1 Throwing damage ID_1》" />
         <action1GrabDamageId01 AltName="《Action 1 Throwing damage ID_2》" />
         <action1GrabDamageId02 AltName="《Action 1 Throwing damage ID_3》" />
-        <action1AttackWalkMoveAttack AltName="《Action 1 Walking attack ID》" ProjectEnum="ENEMY_ATTACK_TYPE" />
+        <action1AttackWalkMoveAttack AltName="《Action 1 Walking attack ID》" Refs="EnemyAttackMoveParam" />
         <action1AttackInvincible AltName="《Action 1 Non-interruptible type》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
         <action1HandType AltName="《Action 1 Attacker》" />
         <action1IsSpell AltName="《Action 1 Spell Flag》" IsBool="true" />
@@ -57,7 +57,7 @@
         <action2GrabDamageId00 AltName="《Action 2 Throwing damage ID_1》" />
         <action2GrabDamageId01 AltName="《Action 2 Throwing Damage ID_2》" />
         <action2GrabDamageId02 AltName="《Action 2 Throwing damage ID_3》" />
-        <action2AttackWalkMoveAttack AltName="《Action 2 Walking Attack ID》" ProjectEnum="ENEMY_ATTACK_TYPE" />
+        <action2AttackWalkMoveAttack AltName="《Action 2 Walking Attack ID》" Refs="EnemyAttackMoveParam" />
         <action2AttackInvincible AltName="《Action 2 Non-interruptible type》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
         <action2HandType AltName="《Action 2 Attacker》" />
         <action2IsSpell AltName="《Action 2 Spell Flag》" IsBool="true" />
@@ -82,7 +82,7 @@
         <action3GrabDamageId00 AltName="《Action 3 Throwing damage ID_1》" />
         <action3GrabDamageId01 AltName="《Action 3 Throwing damage ID_2》" />
         <action3GrabDamageId02 AltName="《Action 3 Throwing damage ID_3》" />
-        <action3AttackWalkMoveAttack AltName="《Action 3 Walking attack ID》" ProjectEnum="ENEMY_ATTACK_TYPE" />
+        <action3AttackWalkMoveAttack AltName="《Action 3 Walking attack ID》" Refs="EnemyAttackMoveParam" />
         <action3AttackInvincible AltName="《Action 3 Non-interruptible type》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
         <action3HandType AltName="《Action 3 Attacker》" />
         <action3IsSpell AltName="《Action 3 Spell Flag》" IsBool="true" />
@@ -107,7 +107,7 @@
         <action4GrabDamageId00 AltName="《Action 4 Throwing damage ID_1》" />
         <action4GrabDamageId01 AltName="《Action 4 Throwing damage ID_2》" />
         <action4GrabDamageId02 AltName="《Action 4 Throwing damage ID_3》" />
-        <action4AttackWalkMoveAttack AltName="《Action 4 Walking Attack ID》" ProjectEnum="ENEMY_ATTACK_TYPE" />
+        <action4AttackWalkMoveAttack AltName="《Action 4 Walking Attack ID》" Refs="EnemyAttackMoveParam" />
         <action4AttackInvincible AltName="《Action 4 Non-interruptible type》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
         <action4HandType AltName="《Action 4 Attacker》" />
         <action4IsSpell AltName="《Action 4 Spell Flag》" IsBool="true" />
@@ -132,7 +132,7 @@
         <action5GrabDamageId00 AltName="《Action 5 Throwing damage ID_1》" />
         <action5GrabDamageId01 AltName="《Action 5 Throwing damage ID_2》" />
         <action5GrabDamageId02 AltName="《Action 5 Throwing damage ID_3》" />
-        <action5AttackWalkMoveAttack AltName="《Action 5 Walking attack ID》" ProjectEnum="ENEMY_ATTACK_TYPE" />
+        <action5AttackWalkMoveAttack AltName="《Action 5 Walking attack ID》" Refs="EnemyAttackMoveParam" />
         <action5AttackInvincible AltName="《Action 5 Non-interruptible type》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
         <action5HandType AltName="《Action 5 Attacker》" />
         <action5IsSpell AltName="《Action 5 Spell Flag》" IsBool="true" />
@@ -157,7 +157,7 @@
         <action6GrabDamageId00 AltName="《Action 6 Throwing damage ID_1》" />
         <action6GrabDamageId01 AltName="《Action 6 Throwing damage ID_2》" />
         <action6GrabDamageId02 AltName="《Action 6 Throwing damage ID_3》" />
-        <action6AttackWalkMoveAttack AltName="《Action 6 Walking Attack ID》" ProjectEnum="ENEMY_ATTACK_TYPE" />
+        <action6AttackWalkMoveAttack AltName="《Action 6 Walking Attack ID》" Refs="EnemyAttackMoveParam" />
         <action6AttackInvincible AltName="《Action 6 Non-interruptible type》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
         <action6HandType AltName="《Action 6 Attacker》" />
         <action6IsSpell AltName="《Action 6 Spell Flag》" IsBool="true" />
@@ -182,7 +182,7 @@
         <action7GrabDamageId00 AltName="《Action 7 Throwing damage ID_1》" />
         <action7GrabDamageId01 AltName="《Action 7 Throwing damage ID_2》" />
         <action7GrabDamageId02 AltName="《Action 7 Throwing damage ID_3》" />
-        <action7AttackWalkMoveAttack AltName="《Action 7 Walking Attack ID》" ProjectEnum="ENEMY_ATTACK_TYPE" />
+        <action7AttackWalkMoveAttack AltName="《Action 7 Walking Attack ID》" Refs="EnemyAttackMoveParam" />
         <action7AttackInvincible AltName="《Action 7 Non-interruptible type》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
         <action7HandType AltName="《Action 7 Attacker》" />
         <action7IsSpell AltName="《Action 7 Spell Flag》" IsBool="true" />
@@ -207,7 +207,7 @@
         <action8GrabDamageId00 AltName="《Action 8 Throwing damage ID_1》" />
         <action8GrabDamageId01 AltName="《Action 8 Throwing damage ID_2》" />
         <action8GrabDamageId02 AltName="《Action 8 Throwing damage ID_3》" />
-        <action8AttackWalkMoveAttack AltName="《Action 8 Walking Attack ID》" ProjectEnum="ENEMY_ATTACK_TYPE" />
+        <action8AttackWalkMoveAttack AltName="《Action 8 Walking Attack ID》" Refs="EnemyAttackMoveParam" />
         <action8AttackInvincible AltName="《Action 8 Non-interruptible type》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
         <action8HandType AltName="《Action 8 Attacker》" />
         <action8IsSpell AltName="《Action 8 Spell Flag》" IsBool="true" />
@@ -232,7 +232,7 @@
         <action9GrabDamageId00 AltName="《Action 9 Throwing damage ID_1》" />
         <action9GrabDamageId01 AltName="《Action 9 Throwing damage ID_2》" />
         <action9GrabDamageId02 AltName="《Action 9 Throwing damage ID_3》" />
-        <action9AttackWalkMoveAttack AltName="《Action 9 Walking Attack ID》" ProjectEnum="ENEMY_ATTACK_TYPE" />
+        <action9AttackWalkMoveAttack AltName="《Action 9 Walking Attack ID》" Refs="EnemyAttackMoveParam" />
         <action9AttackInvincible AltName="《Action 9 Non-interruptible type》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
         <action9HandType AltName="《Action 9 Attacker》" />
         <action9IsSpell AltName="《Action 9 Spell Flag》" IsBool="true" />

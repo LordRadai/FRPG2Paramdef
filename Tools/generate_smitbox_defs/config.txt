@@ -11,10 +11,14 @@ CHR_PARAM_ID : ChrParam
 CHR_POINT_WIND_PARAM_ENUM : ChrPointWindParam
 CHR_WET_ASPECT_PARAM_ID : ChrWetAspectParam
 CHR_WET_PARAM_ID : ChrWetParam
+CHR_ROUND_DROP_SOUL_CATEGORY : ChrRoundDropSoulParam
 CUSTOM_ATTR_COST_PARAM_ENUM : CustomAttrCostParam
 CUSTOM_ATTR_SPEC_PARAM_ENUM : CustomAttrSpecParam
 DAMAGE_CTRL_PARAM_ENUM : DamageCtrlParam
+DAMAGE_DEAD_MOTION_TYPE : DamageDeadMotionWeightParam
+DAMAGE_MOTION_TYPE : DamageMotionLadderWeightParam, DamageMotionRopeWeightParam, DamageMotionWeightParam
 DEAD_TYPE_PARAM_TYPE : DeadTypeParam
+ENEMY_ATTACK_TYPE : EnemyAttackMoveParam
 ENEMY_DAMAGE_PARAM_ID : EnemyDamageParam, PlayerDamageParam, SystemDamageParam
 ENEMY_SHOT_SFX_PARAM_ENUM : EnemyShotSfxParam
 ITEM_LOT_PARAM_CHR_ENUM : ItemLotParam2_Chr
@@ -28,6 +32,7 @@ MATERIAL_TYPE_ENUM : MaterialParam
 ONLINE_EVENT_PARAM_ID : OnlineEventParam
 PLAYER_STATUS_PARAM_ID : DbgPlayerStatusParam, NpcPlayerStatusParam, PlayerStatusParam
 REINFORCE_COST_PARAM_ENUM : ReinforceCostParam
+VOW_TYPES : VowParam
 WEAPON_ACTION_CATEGORY_PARAM_ID : WeaponActionCategoryParam
 WEAPON_ATTACK_MOTION_PARAM_ID : WeaponAttackMotionParam
 WEAPON_REINFOCE_PARAM_ID : WeaponReinforceParam

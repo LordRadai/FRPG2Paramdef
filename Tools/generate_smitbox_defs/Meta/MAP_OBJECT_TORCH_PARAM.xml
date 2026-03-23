@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PARAMMETA XmlVersion="0">
-    <Field>
-        <fireTime AltName="Lighting time [seconds]" />
-        <motionDummyPolyId AltName="Motion standard dummy poly" />
-        <bFirstEnable AltName="Is it valid from the beginning?" IsBool="true" />
-        <aReserved AltName="Reservation" Padding="true" />
-    </Field>
-</PARAMMETA>

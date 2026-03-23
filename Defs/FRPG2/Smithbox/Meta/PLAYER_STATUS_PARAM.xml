@@ -108,7 +108,7 @@
         <gestureSlot06 AltName="Gesture 06 ID" />
         <gestureSlot07 AltName="Gesture 07 ID" />
         <gestureSlot08 AltName="Gesture 08 ID" />
-        <vowType AltName="Pledge" ProjectEnum="VOW_TYPES" />
+        <vowType AltName="Pledge" Refs="VowParam" />
         <vowLevel AltName="Pledge level" />
         <vowContribution AltName="Pledged contribution" />
     </Field>

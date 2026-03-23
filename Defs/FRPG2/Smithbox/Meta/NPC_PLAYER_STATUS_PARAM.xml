@@ -6,7 +6,7 @@
         <bodyType AltName="Body shape" />
         <faceType AltName="Face type" ProjectEnum="NPC_FACE_TYPE" />
         <faceId AltName="Face ID" />
-        <vowType AltName="Pledge" ProjectEnum="VOW_TYPES" />
+        <vowType AltName="Pledge" Refs="VowParam" />
         <vowLevel AltName="Pledge level" />
         <lifeForceLevel AltName="Vitality" />
         <stayingPowerLevel AltName="Endurance" />

@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <noneSize AltName="Nothing" ProjectEnum="DAMAGE_MOTION_TYPE" />
-        <superSmallSize AltName="Extremely small" ProjectEnum="DAMAGE_MOTION_TYPE" />
-        <smallSize AltName="Small" ProjectEnum="DAMAGE_MOTION_TYPE" />
-        <normalSize AltName="Medium" ProjectEnum="DAMAGE_MOTION_TYPE" />
-        <largeSize AltName="Large" ProjectEnum="DAMAGE_MOTION_TYPE" />
-        <superLargeSize AltName="Extra large" ProjectEnum="DAMAGE_MOTION_TYPE" />
-        <hyperLargeSize AltName="Super extra large" ProjectEnum="DAMAGE_MOTION_TYPE" />
-        <ultraLargeSize AltName="Super super extra large" ProjectEnum="DAMAGE_MOTION_TYPE" />
+        <noneSize AltName="Nothing" Refs="DamageMotionLadderWeightParam, DamageMotionRopeWeightParam, DamageMotionWeightParam" />
+        <superSmallSize AltName="Extremely small" Refs="DamageMotionLadderWeightParam, DamageMotionRopeWeightParam, DamageMotionWeightParam" />
+        <smallSize AltName="Small" Refs="DamageMotionLadderWeightParam, DamageMotionRopeWeightParam, DamageMotionWeightParam" />
+        <normalSize AltName="Medium" Refs="DamageMotionLadderWeightParam, DamageMotionRopeWeightParam, DamageMotionWeightParam" />
+        <largeSize AltName="Large" Refs="DamageMotionLadderWeightParam, DamageMotionRopeWeightParam, DamageMotionWeightParam" />
+        <superLargeSize AltName="Extra large" Refs="DamageMotionLadderWeightParam, DamageMotionRopeWeightParam, DamageMotionWeightParam" />
+        <hyperLargeSize AltName="Super extra large" Refs="DamageMotionLadderWeightParam, DamageMotionRopeWeightParam, DamageMotionWeightParam" />
+        <ultraLargeSize AltName="Super super extra large" Refs="DamageMotionLadderWeightParam, DamageMotionRopeWeightParam, DamageMotionWeightParam" />
     </Field>
 </PARAMMETA>

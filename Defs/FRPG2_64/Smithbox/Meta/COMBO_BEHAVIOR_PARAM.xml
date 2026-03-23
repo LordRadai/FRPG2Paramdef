@@ -22,10 +22,10 @@
         <combo0NonInterruptibleType02 AltName="《Combo action 0, non-interruptible type 2》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
         <combo0NonInterruptibleType03 AltName="《Combo action 0, non-interruptible type 3》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
         <combo0NonInterruptibleType04 AltName="《Combo action 0, non-interruptible type 4》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
-        <combo0AttackMoveId01 AltName="《Combo action 0 Walking attack ID 1》" ProjectEnum="ENEMY_ATTACK_TYPE" />
-        <combo0AttackMoveId02 AltName="《Combo action 0 Walking attack ID 2》" ProjectEnum="ENEMY_ATTACK_TYPE" />
-        <combo0AttackMoveId03 AltName="《Combo action 0 Walking attack ID 3》" ProjectEnum="ENEMY_ATTACK_TYPE" />
-        <combo0AttackMoveId04 AltName="《Combo action 0 Walking attack ID 4》" ProjectEnum="ENEMY_ATTACK_TYPE" />
+        <combo0AttackMoveId01 AltName="《Combo action 0 Walking attack ID 1》" Refs="EnemyAttackMoveParam" />
+        <combo0AttackMoveId02 AltName="《Combo action 0 Walking attack ID 2》" Refs="EnemyAttackMoveParam" />
+        <combo0AttackMoveId03 AltName="《Combo action 0 Walking attack ID 3》" Refs="EnemyAttackMoveParam" />
+        <combo0AttackMoveId04 AltName="《Combo action 0 Walking attack ID 4》" Refs="EnemyAttackMoveParam" />
         <combo0AttackHomingCancel01 AltName="《Combo action 0 Homing cancellation enable setting 1》" IsBool="true" />
         <combo0AttackHomingCancel02 AltName="《Combo action 0 homing cancellation enable setting 2》" IsBool="true" />
         <combo0AttackHomingCancel03 AltName="《Combo action 0 homing cancellation enable setting 3》" IsBool="true" />
@@ -86,10 +86,10 @@
         <combo1NonInterruptibleType02 AltName="《Combo action 1 non-interruptible type 2》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
         <combo1NonInterruptibleType03 AltName="《Combo action 1 non-interruptible type 3》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
         <combo1NonInterruptibleType04 AltName="《Combo action 1 non-interruptible type 4》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
-        <combo1AttackMoveId01 AltName="《Combo action 1 Walking attack ID 1》" ProjectEnum="ENEMY_ATTACK_TYPE" />
-        <combo1AttackMoveId02 AltName="《Combo action 1 Walking attack ID 2》" ProjectEnum="ENEMY_ATTACK_TYPE" />
-        <combo1AttackMoveId03 AltName="《Combo action 1 Walking attack ID 3》" ProjectEnum="ENEMY_ATTACK_TYPE" />
-        <combo1AttackMoveId04 AltName="《Combo action 1 Walking attack ID 4》" ProjectEnum="ENEMY_ATTACK_TYPE" />
+        <combo1AttackMoveId01 AltName="《Combo action 1 Walking attack ID 1》" Refs="EnemyAttackMoveParam" />
+        <combo1AttackMoveId02 AltName="《Combo action 1 Walking attack ID 2》" Refs="EnemyAttackMoveParam" />
+        <combo1AttackMoveId03 AltName="《Combo action 1 Walking attack ID 3》" Refs="EnemyAttackMoveParam" />
+        <combo1AttackMoveId04 AltName="《Combo action 1 Walking attack ID 4》" Refs="EnemyAttackMoveParam" />
         <combo1AttackHomingCancel01 AltName="《Combo action 1 homing cancellation enable setting 1》" IsBool="true" />
         <combo1AttackHomingCancel02 AltName="《Combo action 1 homing cancellation enable setting 2》" IsBool="true" />
         <combo1AttackHomingCancel03 AltName="《Combo action 1 homing cancellation enable setting 3》" IsBool="true" />
@@ -150,10 +150,10 @@
         <combo2NonInterruptibleType02 AltName="《Combo action 2 non-interruptible type 2》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
         <combo2NonInterruptibleType03 AltName="《Combo action 2 non-interruptible type 3》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
         <combo2NonInterruptibleType04 AltName="《Combo action 2 non-interruptible type 4》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
-        <combo2AttackMoveId01 AltName="《Combo action 2 Walking attack ID 1》" ProjectEnum="ENEMY_ATTACK_TYPE" />
-        <combo2AttackMoveId02 AltName="《Combo action 2 Walking attack ID 2》" ProjectEnum="ENEMY_ATTACK_TYPE" />
-        <combo2AttackMoveId03 AltName="《Combo action 2 Walking attack ID 3》" ProjectEnum="ENEMY_ATTACK_TYPE" />
-        <combo2AttackMoveId04 AltName="《Combo action 2 walking attack ID4》" ProjectEnum="ENEMY_ATTACK_TYPE" />
+        <combo2AttackMoveId01 AltName="《Combo action 2 Walking attack ID 1》" Refs="EnemyAttackMoveParam" />
+        <combo2AttackMoveId02 AltName="《Combo action 2 Walking attack ID 2》" Refs="EnemyAttackMoveParam" />
+        <combo2AttackMoveId03 AltName="《Combo action 2 Walking attack ID 3》" Refs="EnemyAttackMoveParam" />
+        <combo2AttackMoveId04 AltName="《Combo action 2 walking attack ID4》" Refs="EnemyAttackMoveParam" />
         <combo2AttackHomingCancel01 AltName="《Combo action 2 homing cancellation enable setting 1》" IsBool="true" />
         <combo2AttackHomingCancel02 AltName="《Combo action 2 homing cancellation enable setting 2》" IsBool="true" />
         <combo2AttackHomingCancel03 AltName="《Combo action 2 homing cancellation enable setting 3》" IsBool="true" />
@@ -214,10 +214,10 @@
         <combo3NonInterruptibleType02 AltName="《Combo action 3 non-interruptible type 2》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
         <combo3NonInterruptibleType03 AltName="《Combo action 3 non-interruptible type 3》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
         <combo3NonInterruptibleType04 AltName="《Combo action 3 non-interruptible type 4》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
-        <combo3AttackMoveId01 AltName="《Combo action 3 walking attack ID1》" ProjectEnum="ENEMY_ATTACK_TYPE" />
-        <combo3AttackMoveId02 AltName="《Combo action 3 Walking attack ID 2》" ProjectEnum="ENEMY_ATTACK_TYPE" />
-        <combo3AttackMoveId03 AltName="《Combo action 3 walking attack ID3》" ProjectEnum="ENEMY_ATTACK_TYPE" />
-        <combo3AttackMoveId04 AltName="《Combo action 3 walking attack ID 4》" ProjectEnum="ENEMY_ATTACK_TYPE" />
+        <combo3AttackMoveId01 AltName="《Combo action 3 walking attack ID1》" Refs="EnemyAttackMoveParam" />
+        <combo3AttackMoveId02 AltName="《Combo action 3 Walking attack ID 2》" Refs="EnemyAttackMoveParam" />
+        <combo3AttackMoveId03 AltName="《Combo action 3 walking attack ID3》" Refs="EnemyAttackMoveParam" />
+        <combo3AttackMoveId04 AltName="《Combo action 3 walking attack ID 4》" Refs="EnemyAttackMoveParam" />
         <combo3AttackHomingCancel01 AltName="《Combo action 3 homing cancellation enable setting 1》" IsBool="true" />
         <combo3AttackHomingCancel02 AltName="《Combo action 3 homing cancellation enable setting 2》" IsBool="true" />
         <combo3AttackHomingCancel03 AltName="《Combo action 3 homing cancellation enable setting 3》" IsBool="true" />
@@ -278,10 +278,10 @@
         <combo4NonInterruptibleType02 AltName="《Combo action 4 non-interruptible type 2》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
         <combo4NonInterruptibleType03 AltName="《Combo action 4 non-interruptible type 3》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
         <combo4NonInterruptibleType04 AltName="《Combo action 4 non-interruptible type 4》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
-        <combo4AttackMoveId01 AltName="《Combo action 4 Walking attack ID1》" ProjectEnum="ENEMY_ATTACK_TYPE" />
-        <combo4AttackMoveId02 AltName="《Combo action 4 Walking attack ID 2》" ProjectEnum="ENEMY_ATTACK_TYPE" />
-        <combo4AttackMoveId03 AltName="《Combo Action 4 Walking Attack ID3》" ProjectEnum="ENEMY_ATTACK_TYPE" />
-        <combo4AttackMoveId04 AltName="《Combo action 4 Walking attack ID 4》" ProjectEnum="ENEMY_ATTACK_TYPE" />
+        <combo4AttackMoveId01 AltName="《Combo action 4 Walking attack ID1》" Refs="EnemyAttackMoveParam" />
+        <combo4AttackMoveId02 AltName="《Combo action 4 Walking attack ID 2》" Refs="EnemyAttackMoveParam" />
+        <combo4AttackMoveId03 AltName="《Combo Action 4 Walking Attack ID3》" Refs="EnemyAttackMoveParam" />
+        <combo4AttackMoveId04 AltName="《Combo action 4 Walking attack ID 4》" Refs="EnemyAttackMoveParam" />
         <combo4AttackHomingCancel01 AltName="《Combo action 4 homing cancellation enable setting 1》" IsBool="true" />
         <combo4AttackHomingCancel02 AltName="《Combo action 4 homing cancellation enable setting 2》" IsBool="true" />
         <combo4AttackHomingCancel03 AltName="《Combo action 4 homing cancellation enable setting 3》" IsBool="true" />
@@ -342,10 +342,10 @@
         <combo5NonInterruptibleType02 AltName="《Combo action 5 non-interruptible type 2》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
         <combo5NonInterruptibleType03 AltName="《Combo action 5 non-interruptible type 3》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
         <combo5NonInterruptibleType04 AltName="《Combo action 5 non-interruptible type 4》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
-        <combo5AttackMoveId01 AltName="《Combo action 5 Walking attack ID 1》" ProjectEnum="ENEMY_ATTACK_TYPE" />
-        <combo5AttackMoveId02 AltName="《Combo action 5 Walking attack ID 2》" ProjectEnum="ENEMY_ATTACK_TYPE" />
-        <combo5AttackMoveId03 AltName="《Combo Action 5 Walking Attack ID3》" ProjectEnum="ENEMY_ATTACK_TYPE" />
-        <combo5AttackMoveId04 AltName="《Combo action 5 Walking attack ID 4》" ProjectEnum="ENEMY_ATTACK_TYPE" />
+        <combo5AttackMoveId01 AltName="《Combo action 5 Walking attack ID 1》" Refs="EnemyAttackMoveParam" />
+        <combo5AttackMoveId02 AltName="《Combo action 5 Walking attack ID 2》" Refs="EnemyAttackMoveParam" />
+        <combo5AttackMoveId03 AltName="《Combo Action 5 Walking Attack ID3》" Refs="EnemyAttackMoveParam" />
+        <combo5AttackMoveId04 AltName="《Combo action 5 Walking attack ID 4》" Refs="EnemyAttackMoveParam" />
         <combo5AttackHomingCancel01 AltName="《Combo action 5 homing cancellation enable setting 1》" IsBool="true" />
         <combo5AttackHomingCancel02 AltName="《Combo action 5 homing cancellation enable setting 2》" IsBool="true" />
         <combo5AttackHomingCancel03 AltName="《Combo action 5 homing cancellation enable setting 3》" IsBool="true" />
@@ -406,10 +406,10 @@
         <combo6NonInterruptibleType02 AltName="《Combo action 6 non-interruptible type 2》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
         <combo6NonInterruptibleType03 AltName="《Combo action 6 non-interruptible type 3》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
         <combo6NonInterruptibleType04 AltName="《Combo action 6 non-interruptible type 4》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
-        <combo6AttackMoveId01 AltName="《Combo action 6 Walking attack ID1》" ProjectEnum="ENEMY_ATTACK_TYPE" />
-        <combo6AttackMoveId02 AltName="《Combo action 6 Walking attack ID2》" ProjectEnum="ENEMY_ATTACK_TYPE" />
-        <combo6AttackMoveId03 AltName="《Combo Action 6 Walking Attack ID3》" ProjectEnum="ENEMY_ATTACK_TYPE" />
-        <combo6AttackMoveId04 AltName="《Combo action 6 Walking attack ID 4》" ProjectEnum="ENEMY_ATTACK_TYPE" />
+        <combo6AttackMoveId01 AltName="《Combo action 6 Walking attack ID1》" Refs="EnemyAttackMoveParam" />
+        <combo6AttackMoveId02 AltName="《Combo action 6 Walking attack ID2》" Refs="EnemyAttackMoveParam" />
+        <combo6AttackMoveId03 AltName="《Combo Action 6 Walking Attack ID3》" Refs="EnemyAttackMoveParam" />
+        <combo6AttackMoveId04 AltName="《Combo action 6 Walking attack ID 4》" Refs="EnemyAttackMoveParam" />
         <combo6AttackHomingCancel01 AltName="《Combo action 6 homing cancellation enable setting 1》" IsBool="true" />
         <combo6AttackHomingCancel02 AltName="《Combo action 6 homing cancellation enable setting 2》" IsBool="true" />
         <combo6AttackHomingCancel03 AltName="《Combo action 6 homing cancellation enable setting 3》" IsBool="true" />

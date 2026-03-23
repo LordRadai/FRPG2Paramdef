@@ -16,7 +16,7 @@
         <bRootChange AltName="Route change menu" IsBool="true" />
         <bPresent AltName="Menu to give ○○" IsBool="true" />
         <bPledgeView AltName="Pledge list menu" IsBool="true" />
-        <pledgeType AltName="Type of contract" ProjectEnum="VOW_TYPES" />
+        <pledgeType AltName="Type of contract" Refs="VowParam" />
         <bTalk AltName="Talking menu" IsBool="true" />
         <bEstusFlaskFortify AltName="Est Bottle Enhancement" IsBool="true" />
         <bLevelUp AltName="Level up" IsBool="true" />

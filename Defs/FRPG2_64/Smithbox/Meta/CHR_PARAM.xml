@@ -92,7 +92,7 @@
         <isDisallowMultiTarget AltName="Multiple lock-on disabled" IsBool="true" />
         <isHollow AltName="Deceased" IsBool="true" />
         <isClothHitMap AltName="The cross hits the map" IsBool="true" />
-        <roundDropSoulCategory AltName="Lapse acquisition soul correction category" ProjectEnum="CHR_ROUND_DROP_SOUL_CATEGORY" />
+        <roundDropSoulCategory AltName="Lapse acquisition soul correction category" Refs="ChrRoundDropSoulParam" />
         <itemLotId AltName="First week item lottery ID (host)" Refs="ItemLotParam2_Chr" />
         <itemLotIdForGuest AltName="First week item lottery ID (guest)" Refs="ItemLotParam2_Chr" />
         <guardDelay AltName="Guard judgment delay time [sec]" />

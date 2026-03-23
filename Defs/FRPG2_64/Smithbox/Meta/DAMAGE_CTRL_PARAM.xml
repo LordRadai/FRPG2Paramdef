@@ -8,9 +8,9 @@
         <negatePoiseRate AltName="Toughness invalidation rate" />
         <negateCutDamageRate AltName="Shield cut rate invalidation rate" />
         <damageWeightType AltName="Weight when attacking" ProjectEnum="CHR_WEIGHT_TYPE" />
-        <damageMotion AltName="Damage motion" ProjectEnum="DAMAGE_MOTION_TYPE" />
-        <deadMotion AltName="Death motion" ProjectEnum="DAMAGE_DEAD_MOTION_TYPE" />
-        <deadDamageMotion AltName="Damage motion upon death" ProjectEnum="DAMAGE_MOTION_TYPE" />
+        <damageMotion AltName="Damage motion" Refs="DamageMotionLadderWeightParam, DamageMotionRopeWeightParam, DamageMotionWeightParam" />
+        <deadMotion AltName="Death motion" Refs="DamageDeadMotionWeightParam" />
+        <deadDamageMotion AltName="Damage motion upon death" Refs="DamageMotionLadderWeightParam, DamageMotionRopeWeightParam, DamageMotionWeightParam" />
         <isInstantDeath AltName="Instant death flag" IsBool="true" />
         <stun AltName="Fainting value" />
         <isDamageStaminaAlways AltName="Stamina damage" IsBool="true" />

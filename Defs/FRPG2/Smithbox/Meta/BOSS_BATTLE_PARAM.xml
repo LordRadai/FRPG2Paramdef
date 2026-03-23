@@ -17,7 +17,7 @@
         <genEventGroupId1 AltName="Generator event group ID1" />
         <genEventGroupId2 AltName="Generator event group ID2" />
         <genEventGroupId3 AltName="Generator event group ID3" />
-        <roundSoulDropCategory AltName="Orbital Soul Drop Category" ProjectEnum="CHR_ROUND_DROP_SOUL_CATEGORY" />
+        <roundSoulDropCategory AltName="Orbital Soul Drop Category" Refs="ChrRoundDropSoulParam" />
         <bossNameTextId1 AltName="Boss name text ID1" />
         <bossNameTextId2 AltName="Boss name text ID2" />
         <bossNameTextId3 AltName="Boss name text ID3" />
