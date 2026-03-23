@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <startTime AltName="開始にかかる時間[sec]"/>
-        <frequencyTime AltName="開始後揺れる時間[sec]"/>
-        <endTime AltName="終了にかかる時間[sec]"/>
-        <fovY AltName="変動後の画角[％](無しは100)"/>
-        <distance AltName="変動後の距離[％](無しは100)"/>
-        <frequencyNum AltName="揺れる回数"/>
-        <frequencyFovY AltName="揺れた時に変動する画角[％](無しは100)"/>
-        <frequencyDistance AltName="揺れた時に変動する距離[％](無しは100)"/>
+        <startTime AltName="開始にかかる時間[sec]" />
+        <frequencyTime AltName="開始後揺れる時間[sec]" />
+        <endTime AltName="終了にかかる時間[sec]" />
+        <fovY AltName="変動後の画角[％](無しは100)" />
+        <distance AltName="変動後の距離[％](無しは100)" />
+        <frequencyNum AltName="揺れる回数" />
+        <frequencyFovY AltName="揺れた時に変動する画角[％](無しは100)" />
+        <frequencyDistance AltName="揺れた時に変動する距離[％](無しは100)" />
     </Field>
 </PARAMMETA>

@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <Time AltName="時間"/>
+        <Time AltName="時間" />
     </Field>
 </PARAMMETA>

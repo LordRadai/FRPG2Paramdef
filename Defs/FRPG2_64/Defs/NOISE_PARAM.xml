@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>NOISE_PARAM</ParamType>
+    <DataVersion>1</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>104</FormatVersion>
+    <Fields>
+        <Field Def="f32 strengthX" />
+        <Field Def="f32 strengthY" />
+        <Field Def="f32 strengthZ" />
+        <Field Def="f32 frequency" />
+        <Field Def="f32 startScale" />
+        <Field Def="f32 middleScale" />
+        <Field Def="f32 lastScale" />
+        <Field Def="u32 octavesNum" />
+        <Field Def="f32 lacunarity" />
+        <Field Def="f32 gain" />
+    </Fields>
+</PARAMDEF>

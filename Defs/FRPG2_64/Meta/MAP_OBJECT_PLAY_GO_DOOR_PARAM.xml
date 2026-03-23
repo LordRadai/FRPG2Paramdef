@@ -1,6 +1,13 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
-  <Self Wiki="Defines parameters related to Majula play region." Row0Dummy="" />
-  <Field>
-  </Field>
+    <Field>
+        <Unk00 />
+        <Unk01 />
+        <Unk02 />
+        <Unk03 />
+        <Unk04 />
+        <Unk05 />
+        <Unk06 />
+        <Unk07 />
+    </Field>
 </PARAMMETA>

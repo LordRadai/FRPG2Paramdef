@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <skinNo AltName="肌番号"/>
-        <dummy AltName="dummy"/>
-        <skinR AltName="肌R"/>
-        <skinG AltName="肌G"/>
-        <skinB AltName="肌B"/>
+        <skinNo AltName="肌番号" />
+        <dummy AltName="dummy" Padding="true" />
+        <skinR AltName="肌R" />
+        <skinG AltName="肌G" />
+        <skinB AltName="肌B" />
     </Field>
 </PARAMMETA>

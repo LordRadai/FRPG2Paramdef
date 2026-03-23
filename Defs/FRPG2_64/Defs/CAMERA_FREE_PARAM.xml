@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>CAMERA_FREE_PARAM</ParamType>
+    <DataVersion>1</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="angle32 fovY" />
+        <Field Def="f32 nearClip" />
+        <Field Def="f32 farClip" />
+    </Fields>
+</PARAMDEF>

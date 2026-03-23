@@ -1,26 +1,26 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <attackAnim AltName="攻撃アニメ" ProjectEnum="PLAYER_NORMAL_ATTACK_MOTION"/>
-        <controlType AltName="制御" ProjectEnum="WEAPON_ACTION_CONTROL_TYPES"/>
-        <dummy0 AltName="ダミー"/>
-        <startPlaySpeed AltName="アニメ速度 開始部"/>
-        <endPlaySpeed AltName="アニメ速度 終了部"/>
-        <rotationSpeedScale AltName="旋回速度 倍率"/>
-        <limitAngleScale AltName="限界角度 倍率"/>
-        <predictPositionTime AltName="位置予測 時間"/>
-        <wristTiltRate AltName="手首角度 割合"/>
-        <staggerHandMaxBlendWeight AltName="攻撃軌跡ブレ 最大ブレンド率"/>
-        <staggerPelvisMaxBlendWeight AltName="ステータス不足 攻撃よれ 最大ブレンド率"/>
-        <attackPushBackRate AltName="押し返し反映割合"/>
-        <damageId01 AltName="ダメージID_01" Refs="EnemyDamageParam, PlayerDamageParam, SystemDamageParam"/>
-        <damageId02 AltName="ダメージID_02" Refs="EnemyDamageParam, PlayerDamageParam, SystemDamageParam"/>
-        <damageId03 AltName="ダメージID_03" Refs="EnemyDamageParam, PlayerDamageParam, SystemDamageParam"/>
-        <bulletId01 AltName="バレットID_01" Refs="BulletParam, EnemyBulletParam, SystemBulletParam"/>
-        <bulletDamageId01 AltName="バレットダメージID_01" Refs="EnemyDamageParam, PlayerDamageParam, SystemDamageParam"/>
-        <bulletId02 AltName="バレットID_02" Refs="BulletParam, EnemyBulletParam, SystemBulletParam"/>
-        <bulletDamageId02 AltName="バレットダメージID_02" Refs="EnemyDamageParam, PlayerDamageParam, SystemDamageParam"/>
-        <bulletId03 AltName="バレットID_03" Refs="BulletParam, EnemyBulletParam, SystemBulletParam"/>
-        <bulletDamageId03 AltName="バレットダメージID_03" Refs="EnemyDamageParam, PlayerDamageParam, SystemDamageParam"/>
+        <attackAnim AltName="攻撃アニメ" ProjectEnum="PLAYER_NORMAL_ATTACK_MOTION" />
+        <controlType AltName="制御" ProjectEnum="WEAPON_ACTION_CONTROL_TYPES" />
+        <dummy0 AltName="ダミー" Padding="true" />
+        <startPlaySpeed AltName="アニメ速度 開始部" />
+        <endPlaySpeed AltName="アニメ速度 終了部" />
+        <rotationSpeedScale AltName="旋回速度 倍率" />
+        <limitAngleScale AltName="限界角度 倍率" />
+        <predictPositionTime AltName="位置予測 時間" />
+        <wristTiltRate AltName="手首角度 割合" />
+        <staggerHandMaxBlendWeight AltName="攻撃軌跡ブレ 最大ブレンド率" />
+        <staggerPelvisMaxBlendWeight AltName="ステータス不足 攻撃よれ 最大ブレンド率" />
+        <attackPushBackRate AltName="押し返し反映割合" />
+        <damageId01 AltName="ダメージID_01" />
+        <damageId02 AltName="ダメージID_02" />
+        <damageId03 AltName="ダメージID_03" />
+        <bulletId01 AltName="バレットID_01" />
+        <bulletDamageId01 AltName="バレットダメージID_01" />
+        <bulletId02 AltName="バレットID_02" />
+        <bulletDamageId02 AltName="バレットダメージID_02" />
+        <bulletId03 AltName="バレットID_03" />
+        <bulletDamageId03 AltName="バレットダメージID_03" />
     </Field>
 </PARAMMETA>

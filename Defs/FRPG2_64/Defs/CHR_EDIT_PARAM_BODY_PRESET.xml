@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>CHR_EDIT_PARAM_BODY_PRESET</ParamType>
+    <DataVersion>1</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>104</FormatVersion>
+    <Fields>
+        <Field Def="f32 bodyScaleHead" />
+        <Field Def="f32 bodyScaleBreast" />
+        <Field Def="f32 bodyScaleAbdomen" />
+        <Field Def="f32 bodyScaleArm" />
+        <Field Def="f32 bodyScaleLeg" />
+    </Fields>
+</PARAMDEF>

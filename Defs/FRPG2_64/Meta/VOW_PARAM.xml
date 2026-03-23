@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <requiredContributionLv1 AltName="誓約レベル1 必要貢献度"/>
-        <requiredContributionLv2 AltName="誓約レベル2 必要貢献度"/>
-        <requiredContributionLv3 AltName="誓約レベル3 必要貢献度"/>
-        <padding0 AltName="パディング用のダミー"/>
+        <requiredContributionLv1 AltName="誓約レベル1 必要貢献度" />
+        <requiredContributionLv2 AltName="誓約レベル2 必要貢献度" />
+        <requiredContributionLv3 AltName="誓約レベル3 必要貢献度" />
+        <padding0 AltName="パディング用のダミー" Padding="true" />
     </Field>
 </PARAMMETA>

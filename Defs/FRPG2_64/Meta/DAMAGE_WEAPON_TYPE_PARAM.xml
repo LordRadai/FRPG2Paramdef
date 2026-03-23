@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <phantomRate AltName="霊体"/>
-        <freshRate AltName="生・布"/>
-        <hardRate AltName="やや硬い"/>
-        <veryHardRate AltName="とても硬い"/>
-        <giantRate AltName="巨人・デーモン"/>
+        <phantomRate AltName="霊体" />
+        <freshRate AltName="生・布" />
+        <hardRate AltName="やや硬い" />
+        <veryHardRate AltName="とても硬い" />
+        <giantRate AltName="巨人・デーモン" />
     </Field>
 </PARAMMETA>

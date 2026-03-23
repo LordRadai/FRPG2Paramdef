@@ -1,47 +1,47 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <cameraType AltName="カメラ挙動タイプ" ProjectEnum="CAMERA_TYPE"/>
-        <cameraBasePosType AltName="カメラ基準点タイプ" ProjectEnum="CAMERA_BASE_POS_TYPE"/>
-        <reserved AltName="ダミー"/>
-        <fovY AltName="画角(deg)"/>
-        <hitCollision AltName="コリジョンサイズ"/>
-        <fulcrumOffsetX AltName="支点(X軸) オフセット(m)"/>
-        <fulcrumOffsetY AltName="支点(Y軸) オフセット(m)"/>
-        <fulcrumOffsetZ AltName="支点(Z軸) オフセット(m)"/>
-        <lookAtOffsetX AltName="焦点(X軸) オフセット(m)"/>
-        <lookAtOffsetY AltName="焦点(Y軸) オフセット(m)"/>
-        <lookAtOffsetZ AltName="焦点(Z軸) オフセット(m)"/>
-        <positionOffsetX AltName="位置(X軸) オフセット(m)"/>
-        <positionOffsetY AltName="位置(Y軸) オフセット(m)"/>
-        <positionOffsetZ AltName="位置(Z軸) オフセット(m)"/>
-        <rotHiSpeedRateIncTime AltName="高速回転率増加時間[sec]"/>
-        <rotRangeMinX AltName="X軸回転最小値[deg]"/>
-        <rotRangeMaxX AltName="X軸回転最大値[deg]"/>
-        <rotSpeedX_Min AltName="X軸回転速度[deg/sec]最小値"/>
-        <rotSpeedX_Max AltName="X軸回転速度[deg/sec]最大値"/>
-        <rotSpeedY_Min AltName="Y軸回転速度[deg/sec]最小値"/>
-        <rotSpeedY_Max AltName="Y軸回転速度[deg/sec]最大値"/>
-        <rotHiSpeedX_Min AltName="X軸高速回転速度[deg/sec]最小値"/>
-        <rotHiSpeedX_Max AltName="X軸高速回転速度[deg/sec]最大値"/>
-        <rotHiSpeedY_Min AltName="Y軸高速回転速度[deg/sec]最小値"/>
-        <rotHiSpeedY_Max AltName="Y軸高速回転速度[deg/sec]最大値"/>
-        <directPitchAng AltName="ダイレクトピッチ角度[deg]"/>
-        <directPitchRate AltName="ダイレクトピッチレート(0.0～1.0)"/>
-        <escapeWallRotAddY AltName="壁回避Y軸回転加算値[deg/sec]"/>
-        <escapeWallRotMaxY AltName="壁回避Y軸回転最大値[deg/sec]"/>
-        <escapeWallRotDampRatio AltName="壁回避回転減衰率"/>
-        <escapeWallWingAngY AltName="壁回避羽角度[deg]"/>
-        <escapeWallWingLen AltName="壁回避羽長[m]"/>
-        <escapeWallWingRadius AltName="壁回避羽半径[m]"/>
-        <escapeWallWingSeparate AltName="壁回避羽間隔[m]"/>
-        <resetMinTime AltName="リセットにかかる最小時間[sec]"/>
-        <resetMaxTime AltName="リセットにかかる最大時間[sec]"/>
-        <resetSpeedChangeRate AltName="リセット速度の変化レート"/>
-        <startTransType AltName="切り替え開始時補間タイプ" ProjectEnum="CAMERA_INTERPOLATE_TYPE"/>
-        <endTransType AltName="切り替え終了時補間タイプ" ProjectEnum="CAMERA_INTERPOLATE_TYPE"/>
-        <reserved1 AltName="ダミー"/>
-        <startTransTime AltName="切り替え開始時補間時間"/>
-        <endTransTime AltName="切り替え終了時補間時間"/>
+        <cameraType AltName="カメラ挙動タイプ" ProjectEnum="CAMERA_TYPE" />
+        <cameraBasePosType AltName="カメラ基準点タイプ" ProjectEnum="CAMERA_BASE_POS_TYPE" />
+        <reserved AltName="ダミー" Padding="true" />
+        <fovY AltName="画角(deg)" />
+        <hitCollision AltName="コリジョンサイズ" />
+        <fulcrumOffsetX AltName="支点(X軸) オフセット(m)" />
+        <fulcrumOffsetY AltName="支点(Y軸) オフセット(m)" />
+        <fulcrumOffsetZ AltName="支点(Z軸) オフセット(m)" />
+        <lookAtOffsetX AltName="焦点(X軸) オフセット(m)" />
+        <lookAtOffsetY AltName="焦点(Y軸) オフセット(m)" />
+        <lookAtOffsetZ AltName="焦点(Z軸) オフセット(m)" />
+        <positionOffsetX AltName="位置(X軸) オフセット(m)" />
+        <positionOffsetY AltName="位置(Y軸) オフセット(m)" />
+        <positionOffsetZ AltName="位置(Z軸) オフセット(m)" />
+        <rotHiSpeedRateIncTime AltName="高速回転率増加時間[sec]" />
+        <rotRangeMinX AltName="X軸回転最小値[deg]" />
+        <rotRangeMaxX AltName="X軸回転最大値[deg]" />
+        <rotSpeedX_Min AltName="X軸回転速度[deg/sec]最小値" />
+        <rotSpeedX_Max AltName="X軸回転速度[deg/sec]最大値" />
+        <rotSpeedY_Min AltName="Y軸回転速度[deg/sec]最小値" />
+        <rotSpeedY_Max AltName="Y軸回転速度[deg/sec]最大値" />
+        <rotHiSpeedX_Min AltName="X軸高速回転速度[deg/sec]最小値" />
+        <rotHiSpeedX_Max AltName="X軸高速回転速度[deg/sec]最大値" />
+        <rotHiSpeedY_Min AltName="Y軸高速回転速度[deg/sec]最小値" />
+        <rotHiSpeedY_Max AltName="Y軸高速回転速度[deg/sec]最大値" />
+        <directPitchAng AltName="ダイレクトピッチ角度[deg]" />
+        <directPitchRate AltName="ダイレクトピッチレート(0.0～1.0)" />
+        <escapeWallRotAddY AltName="壁回避Y軸回転加算値[deg/sec]" />
+        <escapeWallRotMaxY AltName="壁回避Y軸回転最大値[deg/sec]" />
+        <escapeWallRotDampRatio AltName="壁回避回転減衰率" />
+        <escapeWallWingAngY AltName="壁回避羽角度[deg]" />
+        <escapeWallWingLen AltName="壁回避羽長[m]" />
+        <escapeWallWingRadius AltName="壁回避羽半径[m]" />
+        <escapeWallWingSeparate AltName="壁回避羽間隔[m]" />
+        <resetMinTime AltName="リセットにかかる最小時間[sec]" />
+        <resetMaxTime AltName="リセットにかかる最大時間[sec]" />
+        <resetSpeedChangeRate AltName="リセット速度の変化レート" />
+        <startTransType AltName="切り替え開始時補間タイプ" ProjectEnum="CAMERA_INTERPOLATE_TYPE" />
+        <endTransType AltName="切り替え終了時補間タイプ" ProjectEnum="CAMERA_INTERPOLATE_TYPE" />
+        <reserved1 AltName="ダミー" Padding="true" />
+        <startTransTime AltName="切り替え開始時補間時間" />
+        <endTransTime AltName="切り替え終了時補間時間" />
     </Field>
 </PARAMMETA>

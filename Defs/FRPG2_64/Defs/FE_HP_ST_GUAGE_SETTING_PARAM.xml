@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>FE_HP_ST_GUAGE_SETTING_PARAM</ParamType>
+    <DataVersion>3</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="f32 HpGainPar" />
+        <Field Def="f32 StGainPar" />
+        <Field Def="f32 HpGainAnimLimit" />
+        <Field Def="f32 StGainAnimLimit" />
+        <Field Def="f32 HpGainDelay" />
+        <Field Def="f32 StGainDelay" />
+        <Field Def="f32 EnemyHpGainPar" />
+        <Field Def="f32 EnemyHpGainAnimLimit" />
+        <Field Def="f32 EnemyHpGainDelay" />
+        <Field Def="f32 HpMinSize" />
+        <Field Def="f32 StMinSize" />
+        <Field Def="f32 HpMaxSize" />
+        <Field Def="f32 StMaxSize" />
+    </Fields>
+</PARAMDEF>

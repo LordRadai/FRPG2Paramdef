@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>GENERAL_LOCATION_EVENT_PARAM_ST</ParamType>
+    <DataVersion>1</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="f32 positionX" />
+        <Field Def="f32 positionY" />
+        <Field Def="f32 positionZ" />
+        <Field Def="f32 angleX" />
+        <Field Def="f32 angleY" />
+        <Field Def="f32 angleZ" />
+        <Field Def="u8 formType" />
+        <Field Def="u8 colorR" />
+        <Field Def="u8 colorG" />
+        <Field Def="u8 colorB" />
+        <Field Def="f32 radius" />
+        <Field Def="f32 height" />
+        <Field Def="f32 depth" />
+        <Field Def="dummy8 aReserved[2]" />
+        <Field Def="u8 memoryBlockId" />
+        <Field Def="u8 categoryType" />
+        <Field Def="u32 categoryId" />
+    </Fields>
+</PARAMDEF>

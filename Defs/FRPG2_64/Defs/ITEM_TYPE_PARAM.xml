@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>ITEM_TYPE_PARAM</ParamType>
+    <DataVersion>7</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="s32 itemIdWhenFailure" />
+        <Field Def="f32 itemUseMaxSpeed" />
+        <Field Def="f32 itemUseMaxSpeedChangeSec" />
+        <Field Def="f32 itemUseMaxSpeedReturnSec" />
+        <Field Def="u32 itemMotionType" />
+        <Field Def="u32 ladderItemMotionType" />
+        <Field Def="u8 itemCateType" />
+        <Field Def="u8 itemMotionArmType" />
+        <Field Def="u8 itemModelType" />
+        <Field Def="u8 itemSpecialReset:1" />
+        <Field Def="u8 canMoveRepository:1" />
+    </Fields>
+</PARAMDEF>

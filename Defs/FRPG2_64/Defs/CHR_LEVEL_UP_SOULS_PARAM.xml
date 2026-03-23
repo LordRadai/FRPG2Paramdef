@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>CHR_LEVEL_UP_SOULS_PARAM</ParamType>
+    <DataVersion>1</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="u16 soulLevelThreshold" />
+        <Field Def="dummy8 dummy[2]" />
+        <Field Def="u32 increasedSoulsFromThreshold" />
+        <Field Def="u32 necessarySouls" />
+    </Fields>
+</PARAMDEF>

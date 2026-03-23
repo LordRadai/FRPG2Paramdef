@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <aReserved AltName="(予約領域)"/>
+        <aReserved AltName="(予約領域)" Padding="true" />
     </Field>
 </PARAMMETA>

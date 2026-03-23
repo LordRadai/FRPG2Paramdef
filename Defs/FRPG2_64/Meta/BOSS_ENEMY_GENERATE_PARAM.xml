@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <generatorBeginId AltName="ジェネレータ開始ＩＤ"/>
-        <generatorEndId AltName="ジェネレータ終了ＩＤ"/>
-        <dummyPolyBeginId AltName="ダミポリ開始ＩＤ"/>
-        <dummyPolyEndId AltName="ダミポリ停止ＩＤ"/>
-        <isCopyPlayerProtector AltName="プレイヤー防具を引き継ぐ" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <isAnotherWorld AltName="異次元空間生成" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <dummy AltName="ダミー"/>
+        <generatorBeginId AltName="ジェネレータ開始ＩＤ" />
+        <generatorEndId AltName="ジェネレータ終了ＩＤ" />
+        <dummyPolyBeginId AltName="ダミポリ開始ＩＤ" />
+        <dummyPolyEndId AltName="ダミポリ停止ＩＤ" />
+        <isCopyPlayerProtector AltName="プレイヤー防具を引き継ぐ" IsBool="true" />
+        <isAnotherWorld AltName="異次元空間生成" IsBool="true" />
+        <dummy AltName="ダミー" Padding="true" />
     </Field>
 </PARAMMETA>

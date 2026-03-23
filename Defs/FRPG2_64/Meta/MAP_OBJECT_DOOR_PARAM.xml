@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <doorType AltName="扉タイプ" ProjectEnum="DOOR_TYPE_ENUM"/>
-        <aReserved AltName="予約"/>
-        <openKeyGuideParam AltName="開く際のキーガイドパラメータID" ProjectEnum="KEY_GUIDE_PARAM_TYPE"/>
-        <closeKeyGuideParam AltName="閉じる際のキーガイドパラメータID" ProjectEnum="KEY_GUIDE_PARAM_TYPE"/>
+        <doorType AltName="扉タイプ" ProjectEnum="DOOR_TYPE_ENUM" />
+        <aReserved AltName="予約" Padding="true" />
+        <openKeyGuideParam AltName="開く際のキーガイドパラメータID" Refs="KeyGuideParam" />
+        <closeKeyGuideParam AltName="閉じる際のキーガイドパラメータID" Refs="KeyGuideParam" />
     </Field>
 </PARAMMETA>

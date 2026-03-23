@@ -1,18 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <HpGainPar AltName="体力減少速度"/>
-        <StGainPar AltName="スタミナ減少速度"/>
-        <HpGainAnimLimit AltName="体力減少演出開始閾値"/>
-        <StGainAnimLimit AltName="スタミナ減少演出開始閾値"/>
-        <HpGainDelay AltName="体力減少演出開始遅延時間"/>
-        <StGainDelay AltName="スタミナ減少演出開始遅延時間"/>
-        <EnemyHpGainPar AltName="敵体力減少速度"/>
-        <EnemyHpGainAnimLimit AltName="敵体力減少演出開始閾値"/>
-        <EnemyHpGainDelay AltName="敵体力減少演出開始遅延時間"/>
-        <HpMinSize AltName="最小ステータス時の体力ゲージの長さ"/>
-        <StMinSize AltName="最小ステータス時のスタミナゲージの長さ"/>
-        <HpMaxSize AltName="最大ステータス時の体力ゲージの長さ体力"/>
-        <StMaxSize AltName="最大ステータス時のスタミナゲージの長さスタミナ"/>
+        <HpGainPar AltName="体力減少速度" />
+        <StGainPar AltName="スタミナ減少速度" />
+        <HpGainAnimLimit AltName="体力減少演出開始閾値" />
+        <StGainAnimLimit AltName="スタミナ減少演出開始閾値" />
+        <HpGainDelay AltName="体力減少演出開始遅延時間" />
+        <StGainDelay AltName="スタミナ減少演出開始遅延時間" />
+        <EnemyHpGainPar AltName="敵体力減少速度" />
+        <EnemyHpGainAnimLimit AltName="敵体力減少演出開始閾値" />
+        <EnemyHpGainDelay AltName="敵体力減少演出開始遅延時間" />
+        <HpMinSize AltName="最小ステータス時の体力ゲージの長さ" />
+        <StMinSize AltName="最小ステータス時のスタミナゲージの長さ" />
+        <HpMaxSize AltName="最大ステータス時の体力ゲージの長さ体力" />
+        <StMaxSize AltName="最大ステータス時のスタミナゲージの長さスタミナ" />
     </Field>
 </PARAMMETA>

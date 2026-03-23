@@ -1,24 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <bagSubscript AltName="道具袋配列用添字"/>
-        <cofferSubscript AltName="貴重品箱配列用添字"/>
-        <repositorySubscript AltName="倉庫配列用添字"/>
-        <shopSubscript AltName="ショップ配列用添字"/>
-        <inventory AltName="インベントリ" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <equipWeapon AltName="武器装備" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <equipHelmet AltName="兜装備" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <equipArmor AltName="鎧装備" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <equipGauntlet AltName="小手装備" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <equipLeggings AltName="具足装備" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <equipRing AltName="指輪装備" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <equipArrow AltName="矢装備" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <equipItem AltName="アイテム装備" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <equipSpell AltName="スペル装備" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <equipGesture AltName="ジェスチャー装備" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <repository AltName="倉庫" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <shop AltName="ショップ" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <equipWeaponArmor AltName="武器防具" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <padding AltName="パディング"/>
+        <bagSubscript AltName="道具袋配列用添字" />
+        <cofferSubscript AltName="貴重品箱配列用添字" />
+        <repositorySubscript AltName="倉庫配列用添字" />
+        <shopSubscript AltName="ショップ配列用添字" />
+        <inventory AltName="インベントリ" IsBool="true" />
+        <equipWeapon AltName="武器装備" IsBool="true" />
+        <equipHelmet AltName="兜装備" IsBool="true" />
+        <equipArmor AltName="鎧装備" IsBool="true" />
+        <equipGauntlet AltName="小手装備" IsBool="true" />
+        <equipLeggings AltName="具足装備" IsBool="true" />
+        <equipRing AltName="指輪装備" IsBool="true" />
+        <equipArrow AltName="矢装備" IsBool="true" />
+        <equipItem AltName="アイテム装備" IsBool="true" />
+        <equipSpell AltName="スペル装備" IsBool="true" />
+        <equipGesture AltName="ジェスチャー装備" IsBool="true" />
+        <repository AltName="倉庫" IsBool="true" />
+        <shop AltName="ショップ" IsBool="true" />
+        <equipWeaponArmor AltName="武器防具" IsBool="true" />
+        <padding AltName="パディング" Padding="true" />
     </Field>
 </PARAMMETA>

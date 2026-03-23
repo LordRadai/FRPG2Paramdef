@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <red AltName="赤"/>
-        <green AltName="緑"/>
-        <blue AltName="青"/>
-        <alpha AltName="α値"/>
+        <red AltName="赤" />
+        <green AltName="緑" />
+        <blue AltName="青" />
+        <alpha AltName="α値" />
     </Field>
 </PARAMMETA>

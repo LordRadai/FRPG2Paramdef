@@ -1,35 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <lv1Soul AltName="必要ソウル"/>
-        <lv2Soul AltName="必要ソウル"/>
-        <lv3Soul AltName="必要ソウル"/>
-        <lv4Soul AltName="必要ソウル"/>
-        <lv5Soul AltName="必要ソウル"/>
-        <lv6Soul AltName="必要ソウル"/>
-        <lv7Soul AltName="必要ソウル"/>
-        <lv8Soul AltName="必要ソウル"/>
-        <lv9Soul AltName="必要ソウル"/>
-        <lv10Soul AltName="必要ソウル"/>
-        <lv1ItemID AltName="必要アイテムID" Refs="ItemParam"/>
-        <lv2ItemID AltName="必要アイテムID" Refs="ItemParam"/>
-        <lv3ItemID AltName="必要アイテムID" Refs="ItemParam"/>
-        <lv4ItemID AltName="必要アイテムID" Refs="ItemParam"/>
-        <lv5ItemID AltName="必要アイテムID" Refs="ItemParam"/>
-        <lv6ItemID AltName="必要アイテムID" Refs="ItemParam"/>
-        <lv7ItemID AltName="必要アイテムID" Refs="ItemParam"/>
-        <lv8ItemID AltName="必要アイテムID" Refs="ItemParam"/>
-        <lv9ItemID AltName="必要アイテムID" Refs="ItemParam"/>
-        <lv10ItemID AltName="必要アイテムID" Refs="ItemParam"/>
-        <lv1ItemCount AltName="必要アイテム数"/>
-        <lv2ItemCount AltName="必要アイテム数"/>
-        <lv3ItemCount AltName="必要アイテム数"/>
-        <lv4ItemCount AltName="必要アイテム数"/>
-        <lv5ItemCount AltName="必要アイテム数"/>
-        <lv6ItemCount AltName="必要アイテム数"/>
-        <lv7ItemCount AltName="必要アイテム数"/>
-        <lv8ItemCount AltName="必要アイテム数"/>
-        <lv9ItemCount AltName="必要アイテム数"/>
-        <lv10ItemCount AltName="必要アイテム数"/>
+        <lv1Soul AltName="必要ソウル" />
+        <lv2Soul AltName="必要ソウル" />
+        <lv3Soul AltName="必要ソウル" />
+        <lv4Soul AltName="必要ソウル" />
+        <lv5Soul AltName="必要ソウル" />
+        <lv6Soul AltName="必要ソウル" />
+        <lv7Soul AltName="必要ソウル" />
+        <lv8Soul AltName="必要ソウル" />
+        <lv9Soul AltName="必要ソウル" />
+        <lv10Soul AltName="必要ソウル" />
+        <lv1ItemID AltName="必要アイテムID" />
+        <lv2ItemID AltName="必要アイテムID" />
+        <lv3ItemID AltName="必要アイテムID" />
+        <lv4ItemID AltName="必要アイテムID" />
+        <lv5ItemID AltName="必要アイテムID" />
+        <lv6ItemID AltName="必要アイテムID" />
+        <lv7ItemID AltName="必要アイテムID" />
+        <lv8ItemID AltName="必要アイテムID" />
+        <lv9ItemID AltName="必要アイテムID" />
+        <lv10ItemID AltName="必要アイテムID" />
+        <lv1ItemCount AltName="必要アイテム数" />
+        <lv2ItemCount AltName="必要アイテム数" />
+        <lv3ItemCount AltName="必要アイテム数" />
+        <lv4ItemCount AltName="必要アイテム数" />
+        <lv5ItemCount AltName="必要アイテム数" />
+        <lv6ItemCount AltName="必要アイテム数" />
+        <lv7ItemCount AltName="必要アイテム数" />
+        <lv8ItemCount AltName="必要アイテム数" />
+        <lv9ItemCount AltName="必要アイテム数" />
+        <lv10ItemCount AltName="必要アイテム数" />
     </Field>
 </PARAMMETA>

@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <superSmallHitBackDistance AltName="攻撃弾き 反動 極小"/>
-        <superSmallHitBackDuration AltName="攻撃弾き 硬直 極小"/>
-        <smallHitBackDistance AltName="攻撃弾き 反動 小"/>
-        <smallHitBackDuration AltName="攻撃弾き 硬直 小"/>
-        <normalHitBackDistance AltName="攻撃弾き 反動 中"/>
-        <normalHitBackDuration AltName="攻撃弾き 硬直 中"/>
-        <largeHitBackDistance AltName="攻撃弾き 反動 大"/>
-        <largeHitBackDuration AltName="攻撃弾き 硬直 大"/>
-        <superLargeHitBackDistance AltName="攻撃弾き 反動 特大"/>
-        <superLargeHitBackDuration AltName="攻撃弾き 硬直 特大"/>
+        <superSmallHitBackDistance AltName="攻撃弾き 反動 極小" />
+        <superSmallHitBackDuration AltName="攻撃弾き 硬直 極小" />
+        <smallHitBackDistance AltName="攻撃弾き 反動 小" />
+        <smallHitBackDuration AltName="攻撃弾き 硬直 小" />
+        <normalHitBackDistance AltName="攻撃弾き 反動 中" />
+        <normalHitBackDuration AltName="攻撃弾き 硬直 中" />
+        <largeHitBackDistance AltName="攻撃弾き 反動 大" />
+        <largeHitBackDuration AltName="攻撃弾き 硬直 大" />
+        <superLargeHitBackDistance AltName="攻撃弾き 反動 特大" />
+        <superLargeHitBackDuration AltName="攻撃弾き 硬直 特大" />
     </Field>
 </PARAMMETA>

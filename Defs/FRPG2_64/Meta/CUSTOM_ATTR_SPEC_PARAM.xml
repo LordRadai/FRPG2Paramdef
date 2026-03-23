@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <physical AltName="物理" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <fire AltName="炎" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <magic AltName="魔法" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <thunder AltName="雷" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <dark AltName="闇" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <poison AltName="毒" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <bleed AltName="出血" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <physicalByCrude AltName="物理(粗製)" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <physicalByEnchanted AltName="物理(魔力)" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <physicalByAbyss AltName="物理(深淵)" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <padding AltName="予約"/>
+        <physical AltName="物理" IsBool="true" />
+        <fire AltName="炎" IsBool="true" />
+        <magic AltName="魔法" IsBool="true" />
+        <thunder AltName="雷" IsBool="true" />
+        <dark AltName="闇" IsBool="true" />
+        <poison AltName="毒" IsBool="true" />
+        <bleed AltName="出血" IsBool="true" />
+        <physicalByCrude AltName="物理(粗製)" IsBool="true" />
+        <physicalByEnchanted AltName="物理(魔力)" IsBool="true" />
+        <physicalByAbyss AltName="物理(深淵)" IsBool="true" />
+        <padding AltName="予約" Padding="true" />
     </Field>
 </PARAMMETA>

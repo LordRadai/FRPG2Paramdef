@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>SHOP_LINEUP_PARAM</ParamType>
+    <DataVersion>4</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="s32 saleItem" />
+        <Field Def="s32 price" />
+        <Field Def="s32 saleFlag" />
+        <Field Def="s32 saleEndFlag" />
+        <Field Def="u32 saleFlagItem" />
+        <Field Def="u32 saleEndFlagItem" />
+        <Field Def="u32 displayOrder" />
+        <Field Def="f32 priceRate" />
+        <Field Def="s8 unitSales" />
+        <Field Def="dummy8 padding[3]" />
+    </Fields>
+</PARAMDEF>

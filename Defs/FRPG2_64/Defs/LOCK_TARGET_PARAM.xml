@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>LOCK_TARGET_PARAM</ParamType>
+    <DataVersion>1</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>104</FormatVersion>
+    <Fields>
+        <Field Def="f32 lockOnRangeMaxRate" />
+        <Field Def="f32 lockOnRangeRate" />
+    </Fields>
+</PARAMDEF>

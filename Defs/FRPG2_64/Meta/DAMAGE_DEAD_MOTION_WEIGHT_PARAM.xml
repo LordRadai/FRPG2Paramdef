@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <noneSize AltName="無" ProjectEnum="DAMAGE_DEAD_MOTION_TYPE"/>
-        <superSmallSize AltName="極小" ProjectEnum="DAMAGE_DEAD_MOTION_TYPE"/>
-        <smallSize AltName="小" ProjectEnum="DAMAGE_DEAD_MOTION_TYPE"/>
-        <normalSize AltName="中" ProjectEnum="DAMAGE_DEAD_MOTION_TYPE"/>
-        <largeSize AltName="大" ProjectEnum="DAMAGE_DEAD_MOTION_TYPE"/>
-        <superLargeSize AltName="特大" ProjectEnum="DAMAGE_DEAD_MOTION_TYPE"/>
-        <hyperLargeSize AltName="超特大" ProjectEnum="DAMAGE_DEAD_MOTION_TYPE"/>
-        <ultraLargeSize AltName="超超特大" ProjectEnum="DAMAGE_DEAD_MOTION_TYPE"/>
+        <noneSize AltName="無" ProjectEnum="DAMAGE_DEAD_MOTION_TYPE" />
+        <superSmallSize AltName="極小" ProjectEnum="DAMAGE_DEAD_MOTION_TYPE" />
+        <smallSize AltName="小" ProjectEnum="DAMAGE_DEAD_MOTION_TYPE" />
+        <normalSize AltName="中" ProjectEnum="DAMAGE_DEAD_MOTION_TYPE" />
+        <largeSize AltName="大" ProjectEnum="DAMAGE_DEAD_MOTION_TYPE" />
+        <superLargeSize AltName="特大" ProjectEnum="DAMAGE_DEAD_MOTION_TYPE" />
+        <hyperLargeSize AltName="超特大" ProjectEnum="DAMAGE_DEAD_MOTION_TYPE" />
+        <ultraLargeSize AltName="超超特大" ProjectEnum="DAMAGE_DEAD_MOTION_TYPE" />
     </Field>
 </PARAMMETA>

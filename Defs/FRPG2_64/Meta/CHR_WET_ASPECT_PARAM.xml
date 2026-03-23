@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <colorR AltName="R"/>
-        <colorG AltName="G"/>
-        <colorB AltName="B"/>
-        <colorA AltName="A"/>
-        <shiness AltName="オーバーライド"/>
-        <shinessRate AltName="オーバーライド率"/>
-        <fresnel AltName="オーバーライド"/>
-        <fresnelRate AltName="オーバーライド率"/>
+        <colorR AltName="R" />
+        <colorG AltName="G" />
+        <colorB AltName="B" />
+        <colorA AltName="A" />
+        <shiness AltName="オーバーライド" />
+        <shinessRate AltName="オーバーライド率" />
+        <fresnel AltName="オーバーライド" />
+        <fresnelRate AltName="オーバーライド率" />
     </Field>
 </PARAMMETA>

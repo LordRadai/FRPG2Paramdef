@@ -1,27 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <groupMask AltName="表示グループマスク"/>
-        <memoryBlock AltName="メモリブロック"/>
-        <addGroupMask AltName="オブジェクト表示グループマスク"/>
-        <iblTextureId AltName="環境マップテクスチャID"/>
-        <img0MulColorR AltName="img0乗算色R"/>
-        <img0MulColorG AltName="img0乗算色G"/>
-        <img0MulColorB AltName="img0乗算色B"/>
-        <filterId AltName="フィルタID"/>
-        <alpha0Factor AltName="α0係数"/>
-        <img1MulColorR AltName="img1乗算色R"/>
-        <img1MulColorG AltName="img1乗算色G"/>
-        <img1MulColorB AltName="img1乗算色B"/>
-        <reserved0 AltName="予約領域"/>
-        <alpha1Factor AltName="α1係数"/>
-        <positionFactor AltName="位置係数"/>
-        <scaleFactor AltName="スケール係数"/>
-        <uvFactor AltName="UV係数"/>
-        <disableLightId0 AltName="ID1"/>
-        <disableLightId1 AltName="ID2"/>
-        <disableSfxId0 AltName="ID1"/>
-        <disableSfxId1 AltName="ID2"/>
-        <lodFactorScale AltName="LOD係数のスケーラ"/>
+        <groupMask AltName="表示グループマスク" />
+        <memoryBlock AltName="メモリブロック" />
+        <addGroupMask AltName="オブジェクト表示グループマスク" />
+        <iblTextureId AltName="環境マップテクスチャID" />
+        <img0MulColorR AltName="img0乗算色R" />
+        <img0MulColorG AltName="img0乗算色G" />
+        <img0MulColorB AltName="img0乗算色B" />
+        <filterId AltName="フィルタID" />
+        <alpha0Factor AltName="α0係数" />
+        <img1MulColorR AltName="img1乗算色R" />
+        <img1MulColorG AltName="img1乗算色G" />
+        <img1MulColorB AltName="img1乗算色B" />
+        <reserved0 AltName="予約領域" Padding="true" />
+        <alpha1Factor AltName="α1係数" />
+        <positionFactor AltName="位置係数" />
+        <scaleFactor AltName="スケール係数" />
+        <uvFactor AltName="UV係数" />
+        <disableLightId0 AltName="ID1" />
+        <disableLightId1 AltName="ID2" />
+        <disableSfxId0 AltName="ID1" />
+        <disableSfxId1 AltName="ID2" />
+        <lodFactorScale AltName="LOD係数のスケーラ" />
     </Field>
 </PARAMMETA>

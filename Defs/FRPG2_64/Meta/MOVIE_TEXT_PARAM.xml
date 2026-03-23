@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <begin AltName="開始時間"/>
-        <end AltName="終了時間"/>
-        <textId AltName="テキストID"/>
+        <begin AltName="開始時間" />
+        <end AltName="終了時間" />
+        <textId AltName="テキストID" />
     </Field>
 </PARAMMETA>

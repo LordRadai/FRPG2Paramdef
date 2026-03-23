@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <scale AltName="《倍率》"/>
+        <scale AltName="《倍率》" />
     </Field>
 </PARAMMETA>

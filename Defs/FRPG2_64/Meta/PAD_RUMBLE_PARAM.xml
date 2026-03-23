@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <largeMotorPower AltName="大モーターの強さ"/>
-        <largeStartScale AltName="大モーターの初期最大スケール"/>
-        <largeMiddleScale AltName="大モーターの中間点スケール"/>
-        <largeLastScale AltName="大モーターの終点最大スケール"/>
-        <smallMotorPower AltName="小モーターの強さ"/>
-        <smallStartScale AltName="小モーターの初期最大スケール"/>
-        <smallMiddleScale AltName="小モーターの中間点スケール"/>
-        <smallLastScale AltName="小モーターの終点最大スケール"/>
+        <largeMotorPower AltName="大モーターの強さ" />
+        <largeStartScale AltName="大モーターの初期最大スケール" />
+        <largeMiddleScale AltName="大モーターの中間点スケール" />
+        <largeLastScale AltName="大モーターの終点最大スケール" />
+        <smallMotorPower AltName="小モーターの強さ" />
+        <smallStartScale AltName="小モーターの初期最大スケール" />
+        <smallMiddleScale AltName="小モーターの中間点スケール" />
+        <smallLastScale AltName="小モーターの終点最大スケール" />
     </Field>
 </PARAMMETA>

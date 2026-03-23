@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>SOUND_RESIDENT_PARAM</ParamType>
+    <DataVersion>1</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="u8 equipId1" />
+        <Field Def="u8 equipId2" />
+        <Field Def="u8 equipId3" />
+        <Field Def="u8 equipId4" />
+    </Fields>
+</PARAMDEF>

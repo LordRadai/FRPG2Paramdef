@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <sfxId AltName="SFX ID"/>
-        <dummyPolyId AltName="生成ダミポリ"/>
+        <sfxId AltName="SFX ID" />
+        <dummyPolyId AltName="生成ダミポリ" />
     </Field>
 </PARAMMETA>

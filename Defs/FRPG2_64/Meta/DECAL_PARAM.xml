@@ -1,20 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <width AltName="X"/>
-        <height AltName="Y"/>
-        <depth AltName="Z"/>
-        <texId AltName="テクスチャID"/>
-        <bumpTexId AltName="バンプテクスチャID"/>
-        <colorR AltName="色R"/>
-        <colorG AltName="色G"/>
-        <colorB AltName="色B"/>
-        <colorA AltName="色A"/>
-        <invisibleDeleteTime AltName="視野外での削除までの時間"/>
-        <parallaxScale AltName="視差マップスケール"/>
-        <lightId AltName="ライトID"/>
-        <flipType AltName="左右フリップ" ProjectEnum="DECAL_FLIP_TYPE"/>
-        <rotateType AltName="回転" ProjectEnum="DECAL_ROTATE_TYPE"/>
-        <aReserved AltName="予約領域"/>
+        <width AltName="X" />
+        <height AltName="Y" />
+        <depth AltName="Z" />
+        <texId AltName="テクスチャID" />
+        <bumpTexId AltName="バンプテクスチャID" />
+        <colorR AltName="色R" />
+        <colorG AltName="色G" />
+        <colorB AltName="色B" />
+        <colorA AltName="色A" />
+        <invisibleDeleteTime AltName="視野外での削除までの時間" />
+        <parallaxScale AltName="視差マップスケール" />
+        <lightId AltName="ライトID" />
+        <flipType AltName="左右フリップ" ProjectEnum="DECAL_FLIP_TYPE" />
+        <rotateType AltName="回転" ProjectEnum="DECAL_ROTATE_TYPE" />
+        <aReserved AltName="予約領域" Padding="true" />
     </Field>
 </PARAMMETA>

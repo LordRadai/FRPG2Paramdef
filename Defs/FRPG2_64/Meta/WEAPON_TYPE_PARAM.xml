@@ -1,112 +1,112 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <allowMagic AltName="使用許可スペル 魔術" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <allowMiracle AltName="使用許可スペル 奇蹟" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <allowPyromancy AltName="使用許可スペル 呪術" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <allowDarkMagic AltName="使用許可スペル 闇魔術" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <rightStance1HMotionId AltName="装備アニメ 片手 右手 構え" ProjectEnum="PLAYER_WEAPON_STANCE_MOTION"/>
-        <leftStance1HMotionId AltName="装備アニメ 片手 左手 構え" ProjectEnum="PLAYER_WEAPON_STANCE_MOTION"/>
-        <rightStance2HMotionId AltName="装備アニメ 両手 右手 構え" ProjectEnum="PLAYER_WEAPON_STANCE_MOTION"/>
-        <leftStance2HMotionId AltName="装備アニメ 両手 左手 構え" ProjectEnum="PLAYER_WEAPON_STANCE_MOTION"/>
-        <rightStanceDual1HMotionId AltName="装備アニメ 二刀流 片手 右手 構え" ProjectEnum="PLAYER_WEAPON_STANCE_MOTION"/>
-        <leftStanceDual1HMotionId AltName="装備アニメ 二刀流 片手 左手 構え" ProjectEnum="PLAYER_WEAPON_STANCE_MOTION"/>
-        <rightStanceDual2HMotionId AltName="装備アニメ 二刀流 両手 右手 構え" ProjectEnum="PLAYER_WEAPON_STANCE_MOTION"/>
-        <leftStanceDual2HMotionId AltName="装備アニメ 二刀流 両手 左手 構え" ProjectEnum="PLAYER_WEAPON_STANCE_MOTION"/>
-        <changeWeaponAnim AltName="装備アニメ 装備切替" ProjectEnum="PLAYER_STORE_WEAPON_MOTION"/>
-        <dmyPolyId1HandStanceRightChr AltName="ダミポリID 片手構え 右手 キャラ"/>
-        <dmyPolyId1HandStanceRightWeapon AltName="ダミポリID 片手構え 右手 武器"/>
-        <dmyPolyId1HandStanceLeftChr AltName="ダミポリID 片手構え 左手 キャラ"/>
-        <dmyPolyId1HandStanceLeftWeapon AltName="ダミポリID 片手構え 左手 武器"/>
-        <dmyPolyIdR2HandStanceChrMain AltName="ダミポリID 右両手構え 右手 キャラ"/>
-        <dmyPolyIdR2HandStanceWeaponMain AltName="ダミポリID 右両手構え 右手 武器"/>
-        <dmyPolyIdR2HandStanceChrSub AltName="ダミポリID 右両手構え 左手 キャラ"/>
-        <dmyPolyIdR2HandStanceWeaponSub AltName="ダミポリID 右両手構え 左手 武器"/>
-        <dmyPolyIdL2HandStanceChrMain AltName="ダミポリID 左両手構え 右手 キャラ"/>
-        <dmyPolyIdL2HandStanceWeaponMain AltName="ダミポリID 左両手構え 右手 武器"/>
-        <dmyPolyIdL2HandStanceChrSub AltName="ダミポリID 左両手構え 左手 キャラ"/>
-        <dmyPolyIdL2HandStanceWeaponSub AltName="ダミポリID 左両手構え 左手 武器"/>
-        <dmyPolyIdRightStoreChr AltName="ダミポリID 収納場所 右手 キャラ"/>
-        <dmyPolyIdRightStoreWeapon AltName="ダミポリID 収納場所 右手 武器"/>
-        <dmyPolyIdLeftStoreChr AltName="ダミポリID 収納場所 左手 キャラ"/>
-        <dmyPolyIdLeftStoreWeapon AltName="ダミポリID 収納場所 左手 武器"/>
-        <shootCategory AltName="装備設定 射撃設定" ProjectEnum="RANGE_WEAPON_CATEGORY"/>
-        <weaponType AltName="装備設定 武器種別" ProjectEnum="WEAPON_TYPE"/>
-        <attackSeCategory AltName="装備設定 攻撃SEカテゴリ" ProjectEnum="WEAPON_ATTACK_SE_CATEGORY"/>
-        <dualWieldingPermission AltName="装備設定 二刀流許可" Refs="DualWieldingPermissionParam"/>
-        <weaponStabilizeBlengWeight AltName="装備揺れ押さえ 反映割合[%]"/>
-        <weaponSpineTwistBlendWeight AltName="装備上半身捻り 反映割合[%]"/>
-        <parryStabYawCorrectAngle AltName="スタブ 左右角度補正値 パリィブレイクスタブ [deg]"/>
-        <guardBreakStabYawCorrectAngle AltName="スタブ 左右角度補正値 ガードブレイクスタブ [deg]"/>
-        <backStabYawCorrectAngle AltName="スタブ 左右角度補正値 バックスタブ [deg]"/>
-        <guardPassiveLevelType AltName="ガード ガードレベル" ProjectEnum="GUARD_PASSIVE_LEVEL_TYPE"/>
-        <guardReleaseSpeedCategory AltName="ガード ガード解除速度" ProjectEnum="GUARD_RELEASE_SPEED_CATEGORY"/>
-        <parryType AltName="パリィ パリィ種類" ProjectEnum="PARRY_TYPES"/>
-        <allowDarkMiracle AltName="使用許可スペル 闇奇蹟" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <leftDamageScale AltName="左装備時 ダメージ 補正倍率 [倍]"/>
-        <leftStaminaDamageScale AltName="左装備時 スタミナ奪取量 補正倍率 [倍]"/>
-        <leftDurabilityDamageScale AltName="左装備時 耐久削り値 補正倍率 [倍]"/>
-        <rightDamageScale AltName="右装備時 ダメージ 補正倍率 [倍]"/>
-        <rightDtaminaDamageScale AltName="右装備時 スタミナ奪取量 補正倍率 [倍]"/>
-        <rightDurabilityDamageScale AltName="右装備時 耐久削り値 補正倍率 [倍]"/>
-        <counterDamageScale AltName="カウンターダメージ　補正倍率[倍]"/>
-        <fallStrikeFallDistRate AltName="落下攻撃 発生落下高度 倍率"/>
-        <jumpAttackVerticalSpeedRate AltName="ジャンプ攻撃 上昇速度 補正倍率[倍]"/>
-        <jumpAttackSideDistMinRate AltName="ジャンプ攻撃 水平速度 最少距離 補正倍率[倍]"/>
-        <jumpAttackSideDistMaxRate AltName="ジャンプ攻撃 水平速度 最大距離 補正倍率[倍]"/>
-        <jumpAttackSideSpeedMinRate AltName="ジャンプ攻撃 水平速度 最少 補正倍率[倍]"/>
-        <jumpAttackSideSpeedMaxRate AltName="ジャンプ攻撃 水平速度 最大 補正倍率[倍]"/>
-        <jumpFallAttackFallDistRate AltName="ジャンプ落下攻撃 発生落下高度 倍率"/>
-        <jumpFallAttackVerticalSpeedRate AltName="ジャンプ落下攻撃 上昇速度 補正倍率[倍]"/>
-        <jumpFallAttackSideDistMinRate AltName="ジャンプ落下攻撃 水平速度 最少距離 補正倍率[倍]"/>
-        <jumpFallAttackSideDistMaxRate AltName="ジャンプ落下攻撃 水平速度 最大距離 補正倍率[倍]"/>
-        <jumpFallAttackSideSpeedMinRate AltName="ジャンプ落下攻撃 水平速度 最少 補正倍率[倍]"/>
-        <jumpFallAttackSideSpeedMaxRate AltName="ジャンプ落下攻撃 水平速度 最大 補正倍率[倍]"/>
-        <fallStabType AltName="落下投げ種類" ProjectEnum="FALL_STAB_TYPES"/>
-        <damageWeaponType AltName="ダメージ武器タイプ" ProjectEnum="DAMAGE_WEAPON_TYPE"/>
-        <menuShotRange AltName="メニュー用 射程距離"/>
-        <backStabAttackAnimId AltName="投げ掴み バックスタブ投げ掴み[中]アニメID" ProjectEnum="PLAYER_SP_ATTACK_MOTION"/>
-        <gdBreakStabAttackAnimId AltName="投げ掴み ガードブレイクスタブ投げ掴み[中]アニメID" ProjectEnum="PLAYER_SP_ATTACK_MOTION"/>
-        <lookAtRotationLeftRate AltName="攻撃時LookAt 旋回限界角度 左 補正倍率[倍]"/>
-        <lookAtRotationRightRate AltName="攻撃時LookAt 旋回限界角度 右 補正倍率[倍]"/>
-        <lookAtRotationUpperRate AltName="攻撃時LookAt 旋回限界角度 上 補正倍率[倍]"/>
-        <lookAtRotationLowerRate AltName="攻撃時LookAt 旋回限界角度 下 補正倍率[倍]"/>
-        <lookAtVisibilitySideRate AltName="攻撃時LookAt 認識限界角度 左右 補正倍率[倍]"/>
-        <lookAtVisibilityUpperRate AltName="攻撃時LookAt 認識限界角度 上下 補正倍率[倍]"/>
-        <lookAtRotationSideSpeedRate AltName="攻撃時LookAt 左右旋回速度 補正倍率[倍]"/>
-        <lookAtRotationUpperSpeedRate AltName="攻撃時LookAt 上下旋回速度 補正倍率[倍]"/>
-        <staminaRecoveryScale AltName="ガード時 スタミナ回復値 倍率"/>
-        <stabilityAddRateSingle1Hand AltName="受け能力 加算補正値 片手 [%]"/>
-        <stabilityAddRateSingle2Handed AltName="受け能力 加算補正値 両手 [%]"/>
-        <stabilityAddRateDual1Hand AltName="受け能力 加算補正値 二刀流 [%]"/>
-        <stabilityAddRateDual2Handed AltName="受け能力 加算補正値 二刀流両手 [%]"/>
-        <meleeAutoPivotRotationSpeedScale AltName="旋回ホーミング 速度 補正倍率 [倍]"/>
-        <meleeAutoPivotLimitAngleScale AltName="旋回ホーミング 限界角度 補正倍率 [倍]"/>
-        <manualPivotRotationSpeedScale AltName="任意旋回 速度 補正倍率 [倍]"/>
-        <manualPivotLimitAngleScale AltName="任意旋回 限界角度 補正倍率 [倍]"/>
-        <moveAccelerationScale AltName="向き変更 加速度 補正倍率 [倍]"/>
-        <moveMaxSpeedScale AltName="向き変更 最大速度 補正倍率 [倍]"/>
-        <moveDecelerationScale AltName="向き変更 減速度 補正倍率 [倍]"/>
-        <moveRotationSpeedScale AltName="向き変更 旋回速度 補正倍率 [倍]"/>
-        <canPredictShot AltName="予測射撃許可フラグ" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <shotSeCategory AltName="発射SEカテゴリ" ProjectEnum="RANGED_ATK_SHOT_SE_CATEGORY"/>
-        <dummy AltName="ダミー"/>
-        <rangedAutoPivotRotationSpeedScale AltName="自動旋回 速度 補正倍率 [倍]"/>
-        <rangedManualPivotRotationSpeedScale AltName="その場旋回 速度 補正倍率 [倍]"/>
-        <spellChantTimeScale AltName="詠唱時間 倍率 [倍]"/>
-        <toughnessPeriodScale AltName="強靭度期間 倍率 [倍]"/>
-        <decreaseSpeedRateParallelWalk AltName="射撃構え移動 速度減少割合 平行移動 [%]"/>
-        <decreaseSpeedRateWalk AltName="射撃構え移動 速度減少割合 歩行 [%]"/>
-        <decreaseSpeedRateLockOnWalk AltName="射撃構え移動 速度減少割合 ロックオン移動 [%]"/>
-        <afterAttackAccelerationScale AltName="攻撃後 歩き出し 加速度 補正倍率 [倍]"/>
-        <afterAttackMaxSpeedScale AltName="攻撃後 歩き出し 速度 最大 補正倍率 [倍]"/>
-        <afterAttackDecelerationScale AltName="攻撃後 歩き出し 減速度 補正倍率 [倍]"/>
-        <afterAttackRotationSpeedScale AltName="攻撃後 歩き出し 旋回速度 補正倍率 [倍]"/>
-        <weaponMenuCategory AltName="(メニュー用)カテゴリ" ProjectEnum="MENU_CATEGORY_ICON"/>
-        <snipeCameraParamId AltName="精密射撃カメラID"/>
-        <canGuardAttack AltName="ガード付き攻撃許可" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <unk138/>
-        <abyssRate AltName="Mundane damage rate"/>
-        <dummy1 AltName="ダミー"/>
+        <allowMagic AltName="使用許可スペル 魔術" IsBool="true" />
+        <allowMiracle AltName="使用許可スペル 奇蹟" IsBool="true" />
+        <allowPyromancy AltName="使用許可スペル 呪術" IsBool="true" />
+        <allowDarkMagic AltName="使用許可スペル 闇魔術" IsBool="true" />
+        <rightStance1HMotionId AltName="装備アニメ 片手 右手 構え" ProjectEnum="PLAYER_WEAPON_STANCE_MOTION" />
+        <leftStance1HMotionId AltName="装備アニメ 片手 左手 構え" ProjectEnum="PLAYER_WEAPON_STANCE_MOTION" />
+        <rightStance2HMotionId AltName="装備アニメ 両手 右手 構え" ProjectEnum="PLAYER_WEAPON_STANCE_MOTION" />
+        <leftStance2HMotionId AltName="装備アニメ 両手 左手 構え" ProjectEnum="PLAYER_WEAPON_STANCE_MOTION" />
+        <rightStanceDual1HMotionId AltName="装備アニメ 二刀流 片手 右手 構え" ProjectEnum="PLAYER_WEAPON_STANCE_MOTION" />
+        <leftStanceDual1HMotionId AltName="装備アニメ 二刀流 片手 左手 構え" ProjectEnum="PLAYER_WEAPON_STANCE_MOTION" />
+        <rightStanceDual2HMotionId AltName="装備アニメ 二刀流 両手 右手 構え" ProjectEnum="PLAYER_WEAPON_STANCE_MOTION" />
+        <leftStanceDual2HMotionId AltName="装備アニメ 二刀流 両手 左手 構え" ProjectEnum="PLAYER_WEAPON_STANCE_MOTION" />
+        <changeWeaponAnim AltName="装備アニメ 装備切替" ProjectEnum="PLAYER_STORE_WEAPON_MOTION" />
+        <dmyPolyId1HandStanceRightChr AltName="ダミポリID 片手構え 右手 キャラ" />
+        <dmyPolyId1HandStanceRightWeapon AltName="ダミポリID 片手構え 右手 武器" />
+        <dmyPolyId1HandStanceLeftChr AltName="ダミポリID 片手構え 左手 キャラ" />
+        <dmyPolyId1HandStanceLeftWeapon AltName="ダミポリID 片手構え 左手 武器" />
+        <dmyPolyIdR2HandStanceChrMain AltName="ダミポリID 右両手構え 右手 キャラ" />
+        <dmyPolyIdR2HandStanceWeaponMain AltName="ダミポリID 右両手構え 右手 武器" />
+        <dmyPolyIdR2HandStanceChrSub AltName="ダミポリID 右両手構え 左手 キャラ" />
+        <dmyPolyIdR2HandStanceWeaponSub AltName="ダミポリID 右両手構え 左手 武器" />
+        <dmyPolyIdL2HandStanceChrMain AltName="ダミポリID 左両手構え 右手 キャラ" />
+        <dmyPolyIdL2HandStanceWeaponMain AltName="ダミポリID 左両手構え 右手 武器" />
+        <dmyPolyIdL2HandStanceChrSub AltName="ダミポリID 左両手構え 左手 キャラ" />
+        <dmyPolyIdL2HandStanceWeaponSub AltName="ダミポリID 左両手構え 左手 武器" />
+        <dmyPolyIdRightStoreChr AltName="ダミポリID 収納場所 右手 キャラ" />
+        <dmyPolyIdRightStoreWeapon AltName="ダミポリID 収納場所 右手 武器" />
+        <dmyPolyIdLeftStoreChr AltName="ダミポリID 収納場所 左手 キャラ" />
+        <dmyPolyIdLeftStoreWeapon AltName="ダミポリID 収納場所 左手 武器" />
+        <shootCategory AltName="装備設定 射撃設定" ProjectEnum="RANGE_WEAPON_CATEGORY" />
+        <weaponType AltName="装備設定 武器種別" ProjectEnum="WEAPON_TYPE" />
+        <attackSeCategory AltName="装備設定 攻撃SEカテゴリ" ProjectEnum="WEAPON_ATTACK_SE_CATEGORY" />
+        <dualWieldingPermission AltName="装備設定 二刀流許可" ProjectEnum="DUAL_WIELDING_PERMISSION_ID" />
+        <weaponStabilizeBlengWeight AltName="装備揺れ押さえ 反映割合[%]" />
+        <weaponSpineTwistBlendWeight AltName="装備上半身捻り 反映割合[%]" />
+        <parryStabYawCorrectAngle AltName="スタブ 左右角度補正値 パリィブレイクスタブ [deg]" />
+        <guardBreakStabYawCorrectAngle AltName="スタブ 左右角度補正値 ガードブレイクスタブ [deg]" />
+        <backStabYawCorrectAngle AltName="スタブ 左右角度補正値 バックスタブ [deg]" />
+        <guardPassiveLevelType AltName="ガード ガードレベル" ProjectEnum="GUARD_PASSIVE_LEVEL_TYPE" />
+        <guardReleaseSpeedCategory AltName="ガード ガード解除速度" ProjectEnum="GUARD_RELEASE_SPEED_CATEGORY" />
+        <parryType AltName="パリィ パリィ種類" ProjectEnum="PARRY_TYPES" />
+        <allowDarkMiracle AltName="使用許可スペル 闇奇蹟" IsBool="true" />
+        <leftDamageScale AltName="左装備時 ダメージ 補正倍率 [倍]" />
+        <leftStaminaDamageScale AltName="左装備時 スタミナ奪取量 補正倍率 [倍]" />
+        <leftDurabilityDamageScale AltName="左装備時 耐久削り値 補正倍率 [倍]" />
+        <rightDamageScale AltName="右装備時 ダメージ 補正倍率 [倍]" />
+        <rightDtaminaDamageScale AltName="右装備時 スタミナ奪取量 補正倍率 [倍]" />
+        <rightDurabilityDamageScale AltName="右装備時 耐久削り値 補正倍率 [倍]" />
+        <counterDamageScale AltName="カウンターダメージ　補正倍率[倍]" />
+        <fallStrikeFallDistRate AltName="落下攻撃 発生落下高度 倍率" />
+        <jumpAttackVerticalSpeedRate AltName="ジャンプ攻撃 上昇速度 補正倍率[倍]" />
+        <jumpAttackSideDistMinRate AltName="ジャンプ攻撃 水平速度 最少距離 補正倍率[倍]" />
+        <jumpAttackSideDistMaxRate AltName="ジャンプ攻撃 水平速度 最大距離 補正倍率[倍]" />
+        <jumpAttackSideSpeedMinRate AltName="ジャンプ攻撃 水平速度 最少 補正倍率[倍]" />
+        <jumpAttackSideSpeedMaxRate AltName="ジャンプ攻撃 水平速度 最大 補正倍率[倍]" />
+        <jumpFallAttackFallDistRate AltName="ジャンプ落下攻撃 発生落下高度 倍率" />
+        <jumpFallAttackVerticalSpeedRate AltName="ジャンプ落下攻撃 上昇速度 補正倍率[倍]" />
+        <jumpFallAttackSideDistMinRate AltName="ジャンプ落下攻撃 水平速度 最少距離 補正倍率[倍]" />
+        <jumpFallAttackSideDistMaxRate AltName="ジャンプ落下攻撃 水平速度 最大距離 補正倍率[倍]" />
+        <jumpFallAttackSideSpeedMinRate AltName="ジャンプ落下攻撃 水平速度 最少 補正倍率[倍]" />
+        <jumpFallAttackSideSpeedMaxRate AltName="ジャンプ落下攻撃 水平速度 最大 補正倍率[倍]" />
+        <fallStabType AltName="落下投げ種類" ProjectEnum="FALL_STAB_TYPES" />
+        <damageWeaponType AltName="ダメージ武器タイプ" ProjectEnum="DAMAGE_WEAPON_TYPE" />
+        <menuShotRange AltName="メニュー用 射程距離" />
+        <backStabAttackAnimId AltName="投げ掴み バックスタブ投げ掴み[中]アニメID" ProjectEnum="PLAYER_SP_ATTACK_MOTION" />
+        <gdBreakStabAttackAnimId AltName="投げ掴み ガードブレイクスタブ投げ掴み[中]アニメID" ProjectEnum="PLAYER_SP_ATTACK_MOTION" />
+        <lookAtRotationLeftRate AltName="攻撃時LookAt 旋回限界角度 左 補正倍率[倍]" />
+        <lookAtRotationRightRate AltName="攻撃時LookAt 旋回限界角度 右 補正倍率[倍]" />
+        <lookAtRotationUpperRate AltName="攻撃時LookAt 旋回限界角度 上 補正倍率[倍]" />
+        <lookAtRotationLowerRate AltName="攻撃時LookAt 旋回限界角度 下 補正倍率[倍]" />
+        <lookAtVisibilitySideRate AltName="攻撃時LookAt 認識限界角度 左右 補正倍率[倍]" />
+        <lookAtVisibilityUpperRate AltName="攻撃時LookAt 認識限界角度 上下 補正倍率[倍]" />
+        <lookAtRotationSideSpeedRate AltName="攻撃時LookAt 左右旋回速度 補正倍率[倍]" />
+        <lookAtRotationUpperSpeedRate AltName="攻撃時LookAt 上下旋回速度 補正倍率[倍]" />
+        <staminaRecoveryScale AltName="ガード時 スタミナ回復値 倍率" />
+        <stabilityAddRateSingle1Hand AltName="受け能力 加算補正値 片手 [%]" />
+        <stabilityAddRateSingle2Handed AltName="受け能力 加算補正値 両手 [%]" />
+        <stabilityAddRateDual1Hand AltName="受け能力 加算補正値 二刀流 [%]" />
+        <stabilityAddRateDual2Handed AltName="受け能力 加算補正値 二刀流両手 [%]" />
+        <meleeAutoPivotRotationSpeedScale AltName="旋回ホーミング 速度 補正倍率 [倍]" />
+        <meleeAutoPivotLimitAngleScale AltName="旋回ホーミング 限界角度 補正倍率 [倍]" />
+        <manualPivotRotationSpeedScale AltName="任意旋回 速度 補正倍率 [倍]" />
+        <manualPivotLimitAngleScale AltName="任意旋回 限界角度 補正倍率 [倍]" />
+        <moveAccelerationScale AltName="向き変更 加速度 補正倍率 [倍]" />
+        <moveMaxSpeedScale AltName="向き変更 最大速度 補正倍率 [倍]" />
+        <moveDecelerationScale AltName="向き変更 減速度 補正倍率 [倍]" />
+        <moveRotationSpeedScale AltName="向き変更 旋回速度 補正倍率 [倍]" />
+        <canPredictShot AltName="予測射撃許可フラグ" IsBool="true" />
+        <shotSeCategory AltName="発射SEカテゴリ" ProjectEnum="RANGED_ATK_SHOT_SE_CATEGORY" />
+        <dummy AltName="ダミー" Padding="true" />
+        <rangedAutoPivotRotationSpeedScale AltName="自動旋回 速度 補正倍率 [倍]" />
+        <rangedManualPivotRotationSpeedScale AltName="その場旋回 速度 補正倍率 [倍]" />
+        <spellChantTimeScale AltName="詠唱時間 倍率 [倍]" />
+        <toughnessPeriodScale AltName="強靭度期間 倍率 [倍]" />
+        <decreaseSpeedRateParallelWalk AltName="射撃構え移動 速度減少割合 平行移動 [%]" />
+        <decreaseSpeedRateWalk AltName="射撃構え移動 速度減少割合 歩行 [%]" />
+        <decreaseSpeedRateLockOnWalk AltName="射撃構え移動 速度減少割合 ロックオン移動 [%]" />
+        <afterAttackAccelerationScale AltName="攻撃後 歩き出し 加速度 補正倍率 [倍]" />
+        <afterAttackMaxSpeedScale AltName="攻撃後 歩き出し 速度 最大 補正倍率 [倍]" />
+        <afterAttackDecelerationScale AltName="攻撃後 歩き出し 減速度 補正倍率 [倍]" />
+        <afterAttackRotationSpeedScale AltName="攻撃後 歩き出し 旋回速度 補正倍率 [倍]" />
+        <weaponMenuCategory AltName="(メニュー用)カテゴリ" ProjectEnum="MENU_CATEGORY_ICON" />
+        <snipeCameraParamId AltName="精密射撃カメラID" />
+        <canGuardAttack AltName="ガード付き攻撃許可" IsBool="true" />
+        <unk138 />
+        <abyssRate AltName="Mundane damage rate" />
+        <dummy1 AltName="ダミー" Padding="true" />
     </Field>
 </PARAMMETA>

@@ -1,34 +1,34 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <armorId AltName="防具ID"/>
-        <armorType AltName="防具種別" ProjectEnum="ARMOR_TYPE"/>
-        <armorCategory AltName="防具系統" ProjectEnum="EQUIP_CATEGORY"/>
-        <dummy0 AltName="ダミー"/>
-        <modelId AltName="防具モデルID"/>
-        <modelGender AltName="防具モデル性別" ProjectEnum="EQUIP_MODEL_GENDER"/>
-        <dummy1 AltName="ダミー"/>
-        <clothCollidableId AltName="クロスコリジョンID"/>
-        <interfereId AltName="干渉データID"/>
-        <iconId AltName="アイコンID"/>
-        <armorReinforceId AltName="防具成長設定"/>
-        <defenseStatAffectScale AltName="ステータス影響倍率 防御力"/>
-        <defenseSlashScale AltName="物理防御力倍率 斬撃"/>
-        <defenseThrustScale AltName="物理防御力倍率 刺突"/>
-        <defenseStrikeScale AltName="物理防御力倍率 打撃"/>
-        <prerequisiteStrength AltName="必要ステータス 筋力"/>
-        <prerequisiteDexterity AltName="必要ステータス 技量"/>
-        <prerequisiteIntelligence AltName="必要ステータス 理力"/>
-        <prerequisiteFaith AltName="必要ステータス 信仰"/>
-        <weight AltName="パラメータ 重量"/>
-        <durability AltName="パラメータ 耐久値"/>
-        <repairCost AltName="パラメータ 修理コスト [soul]"/>
-        <strong AltName="パラメータ 強靱度"/>
-        <handsUpWeight AltName="脇開き量[%]"/>
-        <handsUpFLevel AltName="脇上げ"/>
-        <itemDropWeight AltName="アイテムドロップ率補正[%] x0.01"/>
-        <material AltName="パラメータ 材質" ProjectEnum="MATERIAL_TYPE_ENUM"/>
-        <brokenSfxId AltName="破損 SFX ID"/>
-        <brokenSoundType AltName="破損 サウンドタイプ" ProjectEnum="EQUIP_BREAK_SOUND_MATERIAL_TYPE"/>
+        <armorId AltName="防具ID" />
+        <armorType AltName="防具種別" ProjectEnum="ARMOR_TYPE" />
+        <armorCategory AltName="防具系統" ProjectEnum="EQUIP_CATEGORY" />
+        <dummy0 AltName="ダミー" Padding="true" />
+        <modelId AltName="防具モデルID" />
+        <modelGender AltName="防具モデル性別" ProjectEnum="EQUIP_MODEL_GENDER" />
+        <dummy1 AltName="ダミー" Padding="true" />
+        <clothCollidableId AltName="クロスコリジョンID" />
+        <interfereId AltName="干渉データID" />
+        <iconId AltName="アイコンID" />
+        <armorReinforceId AltName="防具成長設定" />
+        <defenseStatAffectScale AltName="ステータス影響倍率 防御力" />
+        <defenseSlashScale AltName="物理防御力倍率 斬撃" />
+        <defenseThrustScale AltName="物理防御力倍率 刺突" />
+        <defenseStrikeScale AltName="物理防御力倍率 打撃" />
+        <prerequisiteStrength AltName="必要ステータス 筋力" />
+        <prerequisiteDexterity AltName="必要ステータス 技量" />
+        <prerequisiteIntelligence AltName="必要ステータス 理力" />
+        <prerequisiteFaith AltName="必要ステータス 信仰" />
+        <weight AltName="パラメータ 重量" />
+        <durability AltName="パラメータ 耐久値" />
+        <repairCost AltName="パラメータ 修理コスト [soul]" />
+        <strong AltName="パラメータ 強靱度" />
+        <handsUpWeight AltName="脇開き量[%]" />
+        <handsUpFLevel AltName="脇上げ" />
+        <itemDropWeight AltName="アイテムドロップ率補正[%] x0.01" />
+        <material AltName="パラメータ 材質" ProjectEnum="MATERIAL_TYPE_ENUM" />
+        <brokenSfxId AltName="破損 SFX ID" />
+        <brokenSoundType AltName="破損 サウンドタイプ" ProjectEnum="EQUIP_BREAK_SOUND_MATERIAL_TYPE" />
     </Field>
 </PARAMMETA>

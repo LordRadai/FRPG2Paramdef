@@ -1,26 +1,26 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <standbyLowSfxId AltName="足首"/>
-        <standbyMiddleSfxId AltName="股下"/>
-        <standbyHighSfxId AltName="腰"/>
-        <lowSpeedLowSfxId AltName="足首"/>
-        <lowSpeedMiddleSfxId AltName="股下"/>
-        <lowSpeedHighSfxId AltName="腰"/>
-        <middleSpeedLowSfxId AltName="足首"/>
-        <middleSpeedMiddleSfxId AltName="股下"/>
-        <middleSpeedHighSfxId AltName="腰"/>
-        <highSpeedLowSfxId AltName="足首"/>
-        <highSpeedMiddleSfxId AltName="股下"/>
-        <highSpeedHighSfxId AltName="腰"/>
-        <stepLowSfxId AltName="足首"/>
-        <stepSpeedMiddleSfxId AltName="股下"/>
-        <stepSpeedHighSfxId AltName="腰"/>
-        <rollingLowSfxId AltName="足首"/>
-        <rollingMiddleSfxId AltName="股下"/>
-        <rollingHighSfxId AltName="腰"/>
-        <jumpLowSfxId AltName="足首"/>
-        <jumpMiddleSfxId AltName="股下"/>
-        <jumpHighSfxId AltName="腰"/>
+        <standbyLowSfxId AltName="足首" />
+        <standbyMiddleSfxId AltName="股下" />
+        <standbyHighSfxId AltName="腰" />
+        <lowSpeedLowSfxId AltName="足首" />
+        <lowSpeedMiddleSfxId AltName="股下" />
+        <lowSpeedHighSfxId AltName="腰" />
+        <middleSpeedLowSfxId AltName="足首" />
+        <middleSpeedMiddleSfxId AltName="股下" />
+        <middleSpeedHighSfxId AltName="腰" />
+        <highSpeedLowSfxId AltName="足首" />
+        <highSpeedMiddleSfxId AltName="股下" />
+        <highSpeedHighSfxId AltName="腰" />
+        <stepLowSfxId AltName="足首" />
+        <stepSpeedMiddleSfxId AltName="股下" />
+        <stepSpeedHighSfxId AltName="腰" />
+        <rollingLowSfxId AltName="足首" />
+        <rollingMiddleSfxId AltName="股下" />
+        <rollingHighSfxId AltName="腰" />
+        <jumpLowSfxId AltName="足首" />
+        <jumpMiddleSfxId AltName="股下" />
+        <jumpHighSfxId AltName="腰" />
     </Field>
 </PARAMMETA>

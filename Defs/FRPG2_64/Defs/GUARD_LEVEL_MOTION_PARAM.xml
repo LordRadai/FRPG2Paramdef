@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>GUARD_LEVEL_MOTION_PARAM</ParamType>
+    <DataVersion>1</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="u8 superSmallGuardLevel" />
+        <Field Def="u8 smallGuardLevel" />
+        <Field Def="u8 mediumGuardLevel" />
+        <Field Def="u8 largeGuardLvel" />
+        <Field Def="u8 superLargeGuardLevel" />
+        <Field Def="u8 ultraLargeGuardLevel" />
+        <Field Def="u8 flipGuardLevel" />
+    </Fields>
+</PARAMDEF>

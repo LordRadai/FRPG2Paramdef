@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <feType AltName="演出タイプ" ProjectEnum="RESULT_EVENT_FE_TYPE_ENUM"/>
-        <msgType AltName="メッセージタイプ" ProjectEnum="RESULT_EVENT_MSG_TYPE_ENUM"/>
-        <vowContribute AltName="誓約貢献増減値"/>
-        <endType AltName="終了タイプ" ProjectEnum="RESULT_EVENT_END_TYPE_ENUM"/>
-        <msgId AltName="メッセージId"/>
-        <rewardItemId01 AltName="勝利報酬アイテム抽選ID"/>
-        <exRewardItemId01 AltName="運営イベント追加報酬アイテム抽選ID"/>
-        <dummy AltName="予約"/>
+        <feType AltName="演出タイプ" ProjectEnum="RESULT_EVENT_FE_TYPE_ENUM" />
+        <msgType AltName="メッセージタイプ" ProjectEnum="RESULT_EVENT_MSG_TYPE_ENUM" />
+        <vowContribute AltName="誓約貢献増減値" />
+        <endType AltName="終了タイプ" ProjectEnum="RESULT_EVENT_END_TYPE_ENUM" />
+        <msgId AltName="メッセージId" />
+        <rewardItemId01 AltName="勝利報酬アイテム抽選ID" />
+        <exRewardItemId01 AltName="運営イベント追加報酬アイテム抽選ID" />
+        <dummy AltName="予約" Padding="true" />
     </Field>
 </PARAMMETA>

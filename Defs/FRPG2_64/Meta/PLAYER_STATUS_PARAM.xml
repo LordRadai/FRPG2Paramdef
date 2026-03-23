@@ -1,115 +1,115 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <genderType AltName="性別" ProjectEnum="PLAYER_GENDER_TYPE"/>
-        <livingType AltName="生死" ProjectEnum="PLAYER_HUMAN_CONDITIONS_TYPE"/>
-        <bodyType AltName="体型"/>
-        <pad01 AltName="パディング01"/>
-        <soulLevel AltName="ソウルレベル"/>
-        <lifeForceLevel AltName="生命力"/>
-        <soulPoint AltName="ソウル総量"/>
-        <stayingPowerLevel AltName="持久力"/>
-        <attunementLevel AltName="記憶力"/>
-        <vitalityLevel AltName="体力"/>
-        <strengthLevel AltName="筋力"/>
-        <dexterityLevel AltName="技量"/>
-        <intelligenceLevel AltName="理力"/>
-        <faithLevel AltName="信仰"/>
-        <enduranceLevel AltName="耐久力"/>
-        <quicknessLevel AltName="敏捷"/>
-        <luckLevel AltName="運"/>
-        <facePresetNo AltName="FG時顔プリセット番号"/>
-        <pad00 AltName="パディング00"/>
-        <beltItem01 AltName="ベルトスロット 01 [アイテム]" Refs="ItemParam"/>
-        <beltItem02 AltName="ベルトスロット 02 [アイテム]" Refs="ItemParam"/>
-        <beltItem03 AltName="ベルトスロット 03 [アイテム]" Refs="ItemParam"/>
-        <beltItem04 AltName="ベルトスロット 04 [アイテム]" Refs="ItemParam"/>
-        <beltItem05 AltName="ベルトスロット 05 [アイテム]" Refs="ItemParam"/>
-        <beltItem06 AltName="ベルトスロット 06 [アイテム]" Refs="ItemParam"/>
-        <beltItem07 AltName="ベルトスロット 07 [アイテム]" Refs="ItemParam"/>
-        <beltItem08 AltName="ベルトスロット 08 [アイテム]" Refs="ItemParam"/>
-        <beltItem09 AltName="ベルトスロット 09 [アイテム]" Refs="ItemParam"/>
-        <beltItem10 AltName="ベルトスロット 10 [アイテム]" Refs="ItemParam"/>
-        <beltItem01Num AltName="ベルトスロット .01 [アイテム数]"/>
-        <beltItem02Num AltName="ベルトスロット .02 [アイテム数]"/>
-        <beltItem03Num AltName="ベルトスロット .03 [アイテム数]"/>
-        <beltItem04Num AltName="ベルトスロット .04 [アイテム数]"/>
-        <beltItem05Num AltName="ベルトスロット .05 [アイテム数]"/>
-        <beltItem06Num AltName="ベルトスロット .06 [アイテム数]"/>
-        <beltItem07Num AltName="ベルトスロット .07 [アイテム数]"/>
-        <beltItem08Num AltName="ベルトスロット .08 [アイテム数]"/>
-        <beltItem09Num AltName="ベルトスロット .09 [アイテム数]"/>
-        <beltItem10Num AltName="ベルトスロット .10 [アイテム数]"/>
-        <spellSlotItem01 AltName="スペルスロット 01 アイテム" Refs="ItemParam"/>
-        <spellSlotItem02 AltName="スペルスロット 02 アイテム" Refs="ItemParam"/>
-        <spellSlotItem03 AltName="スペルスロット 03 アイテム" Refs="ItemParam"/>
-        <spellSlotItem04 AltName="スペルスロット 04 アイテム" Refs="ItemParam"/>
-        <spellSlotItem05 AltName="スペルスロット 05 アイテム" Refs="ItemParam"/>
-        <spellSlotItem06 AltName="スペルスロット 06 アイテム" Refs="ItemParam"/>
-        <spellSlotItem07 AltName="スペルスロット 07 アイテム" Refs="ItemParam"/>
-        <spellSlotItem08 AltName="スペルスロット 08 アイテム" Refs="ItemParam"/>
-        <spellSlotItem09 AltName="スペルスロット 09 アイテム" Refs="ItemParam"/>
-        <spellSlotItem10 AltName="スペルスロット 10 アイテム" Refs="ItemParam"/>
-        <rightWeapon01 AltName="右武器 01" Refs="ItemParam"/>
-        <rightWeapon02 AltName="右武器 02" Refs="ItemParam"/>
-        <rightWeapon03 AltName="右武器 03" Refs="ItemParam"/>
-        <leftWeapon01 AltName="左武器 01" Refs="ItemParam"/>
-        <leftWeapon02 AltName="左武器 02" Refs="ItemParam"/>
-        <leftWeapon03 AltName="左武器 03" Refs="ItemParam"/>
-        <headArmor AltName="頭防具" Refs="ItemParam"/>
-        <bodyArmor AltName="胴防具" Refs="ItemParam"/>
-        <armArmor AltName="腕防具" Refs="ItemParam"/>
-        <legArmor AltName="足防具" Refs="ItemParam"/>
-        <ringSlot01 AltName="指輪 01 ID" Refs="ItemParam"/>
-        <ringSlot02 AltName="指輪 02 ID" Refs="ItemParam"/>
-        <ringSlot03 AltName="指輪 03 ID" Refs="ItemParam"/>
-        <ringSlot04 AltName="指輪 04 ID" Refs="ItemParam"/>
-        <rightWeapon01Enhanced AltName="右武器 01 強化段階"/>
-        <rightWeapon01Attribute AltName="右武器 01 付与属性" ProjectEnum="PLAYER_EQUIP_ATTRIBUTE_TYPE"/>
-        <dummyR1 AltName="パディング用ダミー"/>
-        <rightWeapon02Enhanced AltName="右武器 02 強化段階"/>
-        <rightWeapon02Attribute AltName="右武器 02 付与属性" ProjectEnum="PLAYER_EQUIP_ATTRIBUTE_TYPE"/>
-        <dummyR2 AltName="パディング用ダミー"/>
-        <rightWeapon03Enhanced AltName="右武器 03 強化段階"/>
-        <rightWeapon03Attribute AltName="右武器 03 付与属性" ProjectEnum="PLAYER_EQUIP_ATTRIBUTE_TYPE"/>
-        <dummyR3 AltName="パディング用ダミー"/>
-        <leftWeapon01Enhanced AltName="左武器 01 強化段階"/>
-        <leftWeapon01Attribute AltName="左武器 01 付与属性" ProjectEnum="PLAYER_EQUIP_ATTRIBUTE_TYPE"/>
-        <dummyL1 AltName="パディング用ダミー"/>
-        <leftWeapon02Enhanced AltName="左武器 02 強化段階"/>
-        <leftWeapon02Attribute AltName="左武器 02 付与属性" ProjectEnum="PLAYER_EQUIP_ATTRIBUTE_TYPE"/>
-        <dummyL2 AltName="パディング用ダミー"/>
-        <leftWeapon03Enhanced AltName="左武器 03 強化段階"/>
-        <leftWeapon03Attribute AltName="左武器 03 付与属性" ProjectEnum="PLAYER_EQUIP_ATTRIBUTE_TYPE"/>
-        <dummyL3 AltName="パディング用ダミー"/>
-        <headArmorEnhanced AltName="頭防具 強化段階"/>
-        <bodyArmorEnhanced AltName="胴防具 強化段階"/>
-        <armArmorEnhanced AltName="腕防具 強化段階"/>
-        <legArmorEnhanced AltName="足防具 強化段階"/>
-        <bagItemParam01 AltName="アイテムセット01" Refs="PlayerStatusItemParam"/>
-        <bagItemParam02 AltName="アイテムセット02" Refs="PlayerStatusItemParam"/>
-        <bagItemParam03 AltName="アイテムセット03" Refs="PlayerStatusItemParam"/>
-        <estusFlaskLvUsableCount AltName="エスト瓶強化レベル 使用回数"/>
-        <estusFlaskLvHealPoint AltName="エスト瓶強化レベル 回復量"/>
-        <dummy AltName="パディング用ダミー"/>
-        <arrowSlot01 AltName="矢 01 ID" Refs="ItemParam"/>
-        <arrowSlot02 AltName="矢 02 ID" Refs="ItemParam"/>
-        <boltSlot01 AltName="ボルト 01 ID" Refs="ItemParam"/>
-        <boltSlot02 AltName="ボルト 02 ID" Refs="ItemParam"/>
-        <arrowSlot01Num AltName="矢 01 本数"/>
-        <arrowSlot02Num AltName="矢 02 本数"/>
-        <boltSlot01Num AltName="ボルト 01 本数"/>
-        <boltSlot02Num AltName="ボルト 02 本数"/>
-        <gestureSlot01 AltName="ジェスチャー 01 ID" Refs="ItemParam"/>
-        <gestureSlot02 AltName="ジェスチャー 02 ID" Refs="ItemParam"/>
-        <gestureSlot03 AltName="ジェスチャー 03 ID" Refs="ItemParam"/>
-        <gestureSlot04 AltName="ジェスチャー 04 ID" Refs="ItemParam"/>
-        <gestureSlot05 AltName="ジェスチャー 05 ID" Refs="ItemParam"/>
-        <gestureSlot06 AltName="ジェスチャー 06 ID" Refs="ItemParam"/>
-        <gestureSlot07 AltName="ジェスチャー 07 ID" Refs="ItemParam"/>
-        <gestureSlot08 AltName="ジェスチャー 08 ID" Refs="ItemParam"/>
-        <vowType AltName="誓約" Refs="VowParam"/>
-        <vowLevel AltName="誓約レベル"/>
-        <vowContribution AltName="誓約貢献度"/>
+        <genderType AltName="性別" ProjectEnum="PLAYER_GENDER_TYPE" />
+        <livingType AltName="生死" ProjectEnum="PLAYER_HUMAN_CONDITIONS_TYPE" />
+        <bodyType AltName="体型" />
+        <pad01 AltName="パディング01" Padding="true" />
+        <soulLevel AltName="ソウルレベル" />
+        <lifeForceLevel AltName="生命力" />
+        <soulPoint AltName="ソウル総量" />
+        <stayingPowerLevel AltName="持久力" />
+        <attunementLevel AltName="記憶力" />
+        <vitalityLevel AltName="体力" />
+        <strengthLevel AltName="筋力" />
+        <dexterityLevel AltName="技量" />
+        <intelligenceLevel AltName="理力" />
+        <faithLevel AltName="信仰" />
+        <enduranceLevel AltName="耐久力" />
+        <quicknessLevel AltName="敏捷" />
+        <luckLevel AltName="運" />
+        <facePresetNo AltName="FG時顔プリセット番号" />
+        <pad00 AltName="パディング00" Padding="true" />
+        <beltItem01 AltName="ベルトスロット 01 [アイテム]" />
+        <beltItem02 AltName="ベルトスロット 02 [アイテム]" />
+        <beltItem03 AltName="ベルトスロット 03 [アイテム]" />
+        <beltItem04 AltName="ベルトスロット 04 [アイテム]" />
+        <beltItem05 AltName="ベルトスロット 05 [アイテム]" />
+        <beltItem06 AltName="ベルトスロット 06 [アイテム]" />
+        <beltItem07 AltName="ベルトスロット 07 [アイテム]" />
+        <beltItem08 AltName="ベルトスロット 08 [アイテム]" />
+        <beltItem09 AltName="ベルトスロット 09 [アイテム]" />
+        <beltItem10 AltName="ベルトスロット 10 [アイテム]" />
+        <beltItem01Num AltName="ベルトスロット .01 [アイテム数]" />
+        <beltItem02Num AltName="ベルトスロット .02 [アイテム数]" />
+        <beltItem03Num AltName="ベルトスロット .03 [アイテム数]" />
+        <beltItem04Num AltName="ベルトスロット .04 [アイテム数]" />
+        <beltItem05Num AltName="ベルトスロット .05 [アイテム数]" />
+        <beltItem06Num AltName="ベルトスロット .06 [アイテム数]" />
+        <beltItem07Num AltName="ベルトスロット .07 [アイテム数]" />
+        <beltItem08Num AltName="ベルトスロット .08 [アイテム数]" />
+        <beltItem09Num AltName="ベルトスロット .09 [アイテム数]" />
+        <beltItem10Num AltName="ベルトスロット .10 [アイテム数]" />
+        <spellSlotItem01 AltName="スペルスロット 01 アイテム" />
+        <spellSlotItem02 AltName="スペルスロット 02 アイテム" />
+        <spellSlotItem03 AltName="スペルスロット 03 アイテム" />
+        <spellSlotItem04 AltName="スペルスロット 04 アイテム" />
+        <spellSlotItem05 AltName="スペルスロット 05 アイテム" />
+        <spellSlotItem06 AltName="スペルスロット 06 アイテム" />
+        <spellSlotItem07 AltName="スペルスロット 07 アイテム" />
+        <spellSlotItem08 AltName="スペルスロット 08 アイテム" />
+        <spellSlotItem09 AltName="スペルスロット 09 アイテム" />
+        <spellSlotItem10 AltName="スペルスロット 10 アイテム" />
+        <rightWeapon01 AltName="右武器 01" />
+        <rightWeapon02 AltName="右武器 02" />
+        <rightWeapon03 AltName="右武器 03" />
+        <leftWeapon01 AltName="左武器 01" />
+        <leftWeapon02 AltName="左武器 02" />
+        <leftWeapon03 AltName="左武器 03" />
+        <headArmor AltName="頭防具" />
+        <bodyArmor AltName="胴防具" />
+        <armArmor AltName="腕防具" />
+        <legArmor AltName="足防具" />
+        <ringSlot01 AltName="指輪 01 ID" />
+        <ringSlot02 AltName="指輪 02 ID" />
+        <ringSlot03 AltName="指輪 03 ID" />
+        <ringSlot04 AltName="指輪 04 ID" />
+        <rightWeapon01Enhanced AltName="右武器 01 強化段階" />
+        <rightWeapon01Attribute AltName="右武器 01 付与属性" ProjectEnum="PLAYER_EQUIP_ATTRIBUTE_TYPE" />
+        <dummyR1 AltName="パディング用ダミー" Padding="true" />
+        <rightWeapon02Enhanced AltName="右武器 02 強化段階" />
+        <rightWeapon02Attribute AltName="右武器 02 付与属性" ProjectEnum="PLAYER_EQUIP_ATTRIBUTE_TYPE" />
+        <dummyR2 AltName="パディング用ダミー" Padding="true" />
+        <rightWeapon03Enhanced AltName="右武器 03 強化段階" />
+        <rightWeapon03Attribute AltName="右武器 03 付与属性" ProjectEnum="PLAYER_EQUIP_ATTRIBUTE_TYPE" />
+        <dummyR3 AltName="パディング用ダミー" Padding="true" />
+        <leftWeapon01Enhanced AltName="左武器 01 強化段階" />
+        <leftWeapon01Attribute AltName="左武器 01 付与属性" ProjectEnum="PLAYER_EQUIP_ATTRIBUTE_TYPE" />
+        <dummyL1 AltName="パディング用ダミー" Padding="true" />
+        <leftWeapon02Enhanced AltName="左武器 02 強化段階" />
+        <leftWeapon02Attribute AltName="左武器 02 付与属性" ProjectEnum="PLAYER_EQUIP_ATTRIBUTE_TYPE" />
+        <dummyL2 AltName="パディング用ダミー" Padding="true" />
+        <leftWeapon03Enhanced AltName="左武器 03 強化段階" />
+        <leftWeapon03Attribute AltName="左武器 03 付与属性" ProjectEnum="PLAYER_EQUIP_ATTRIBUTE_TYPE" />
+        <dummyL3 AltName="パディング用ダミー" Padding="true" />
+        <headArmorEnhanced AltName="頭防具 強化段階" />
+        <bodyArmorEnhanced AltName="胴防具 強化段階" />
+        <armArmorEnhanced AltName="腕防具 強化段階" />
+        <legArmorEnhanced AltName="足防具 強化段階" />
+        <bagItemParam01 AltName="アイテムセット01" />
+        <bagItemParam02 AltName="アイテムセット02" />
+        <bagItemParam03 AltName="アイテムセット03" />
+        <estusFlaskLvUsableCount AltName="エスト瓶強化レベル 使用回数" />
+        <estusFlaskLvHealPoint AltName="エスト瓶強化レベル 回復量" />
+        <dummy AltName="パディング用ダミー" Padding="true" />
+        <arrowSlot01 AltName="矢 01 ID" />
+        <arrowSlot02 AltName="矢 02 ID" />
+        <boltSlot01 AltName="ボルト 01 ID" />
+        <boltSlot02 AltName="ボルト 02 ID" />
+        <arrowSlot01Num AltName="矢 01 本数" />
+        <arrowSlot02Num AltName="矢 02 本数" />
+        <boltSlot01Num AltName="ボルト 01 本数" />
+        <boltSlot02Num AltName="ボルト 02 本数" />
+        <gestureSlot01 AltName="ジェスチャー 01 ID" />
+        <gestureSlot02 AltName="ジェスチャー 02 ID" />
+        <gestureSlot03 AltName="ジェスチャー 03 ID" />
+        <gestureSlot04 AltName="ジェスチャー 04 ID" />
+        <gestureSlot05 AltName="ジェスチャー 05 ID" />
+        <gestureSlot06 AltName="ジェスチャー 06 ID" />
+        <gestureSlot07 AltName="ジェスチャー 07 ID" />
+        <gestureSlot08 AltName="ジェスチャー 08 ID" />
+        <vowType AltName="誓約" ProjectEnum="VOW_TYPES" />
+        <vowLevel AltName="誓約レベル" />
+        <vowContribution AltName="誓約貢献度" />
     </Field>
 </PARAMMETA>

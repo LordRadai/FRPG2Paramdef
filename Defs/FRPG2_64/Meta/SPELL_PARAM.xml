@@ -1,92 +1,92 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <spellCategory AltName="スペルカテゴリ" ProjectEnum="SPELL_CATEGORY"/>
-        <isDual2HandedSpellAllowed AltName="二刀流両手スペル許可" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <availableCondition AltName="使用可能条件" ProjectEnum="SPELL_AVAILABLE_CONDITION"/>
-        <dummy0 AltName="ダミー"/>
-        <intelligence AltName="必要ステータス 理力"/>
-        <faith AltName="必要ステータス 信仰"/>
-        <baseSpellBulletId AltName="ベースバレットID" Refs="BulletParam, EnemyBulletParam, SystemBulletParam"/>
-        <baseSpellDamageId AltName="ベースダメージID" Refs="EnemyDamageParam, PlayerDamageParam, SystemDamageParam"/>
-        <single1HNormalChantTimeScale AltName="詠唱時間 補正倍率 片手 弱 [sec]"/>
-        <single1HNormalHoldCastTime AltName="発動時間 片手 弱 [sec]"/>
-        <single1HNormalAnimIdSpellChanting AltName="アニメ設定 詠唱 片手 弱" ProjectEnum="PLAYER_SPELL_CHANTING_MOTION"/>
-        <single1HNormalAnimIdSpellCasting AltName="アニメ設定 発動 片手 弱" ProjectEnum="PLAYER_SPELL_CASTING_MOTION"/>
-        <single1HNormalStaminaCostScale AltName="スタミナ消費量 倍率 片手 弱 [倍]"/>
-        <single1HStrongChantTimeScale AltName="詠唱時間 補正倍率 片手 強 [sec]"/>
-        <single1HStrongHoldCastTime AltName="発動時間 片手 強 [sec]"/>
-        <single1HStrongAnimIdSpellChanting AltName="アニメ設定 詠唱 片手 強" ProjectEnum="PLAYER_SPELL_CHANTING_MOTION"/>
-        <single1HStrongAnimIdSpellCasting AltName="アニメ設定 発動 片手 強" ProjectEnum="PLAYER_SPELL_CASTING_MOTION"/>
-        <single1HStrongStaminaCostScale AltName="スタミナ消費量 倍率 片手 強 [倍]"/>
-        <single2HNormalChantTimeScale AltName="詠唱時間 補正倍率 両手 弱 [sec]"/>
-        <single2HNormalHoldCastTime AltName="発動時間 両手 弱 [sec]"/>
-        <single2HNormalAnimIdSpellChanting AltName="アニメ設定 詠唱 両手 弱" ProjectEnum="PLAYER_SPELL_CHANTING_MOTION"/>
-        <single2HNormalAnimIdSpellCasting AltName="アニメ設定 発動 両手 弱" ProjectEnum="PLAYER_SPELL_CASTING_MOTION"/>
-        <single2HNormalStaminaCostScale AltName="スタミナ消費量 倍率 両手 弱 [倍]"/>
-        <single2HStrongChantTimeScale AltName="詠唱時間 補正倍率 両手 強 [sec]"/>
-        <single2HHoldCastTime AltName="発動時間 両手 強 [sec]"/>
-        <single2HAnimIdSpellChanting AltName="アニメ設定 詠唱 両手 強" ProjectEnum="PLAYER_SPELL_CHANTING_MOTION"/>
-        <single2HAnimIdSpellCasting AltName="アニメ設定 発動 両手 強" ProjectEnum="PLAYER_SPELL_CASTING_MOTION"/>
-        <single2HStaminaCostScale AltName="スタミナ消費量 倍率 両手 強 [倍]"/>
-        <dual1HNormalChantTimeScale AltName="詠唱時間 補正倍率 二刀流片手 弱 [sec]"/>
-        <dual1HNormalHoldCastTime AltName="発動時間 二刀流片手 弱 [sec]"/>
-        <dual1HNormalAnimIdSpellChanting AltName="アニメ設定 詠唱 二刀流片手 弱" ProjectEnum="PLAYER_SPELL_CHANTING_MOTION"/>
-        <dual1HNormalAnimIdSpellCasting AltName="アニメ設定 発動 二刀流片手 弱" ProjectEnum="PLAYER_SPELL_CASTING_MOTION"/>
-        <dual1HNormalStaminaCostScale AltName="スタミナ消費量 倍率 二刀流片手 弱 [倍]"/>
-        <dual1HStrongChantTimeScale AltName="詠唱時間 補正倍率 二刀流片手 強 [sec]"/>
-        <dual1HStrongHoldCastTime AltName="発動時間 二刀流片手 強 [sec]"/>
-        <dual1HStrongAnimIdSpellChanting AltName="アニメ設定 詠唱 二刀流片手 強" ProjectEnum="PLAYER_SPELL_CHANTING_MOTION"/>
-        <dual1HStrongAnimIdSpellCasting AltName="アニメ設定 発動 二刀流片手 強" ProjectEnum="PLAYER_SPELL_CASTING_MOTION"/>
-        <dual1HStrongStaminaCostScale AltName="スタミナ消費量 倍率 二刀流片手 強 [倍]"/>
-        <dual2HNormalChantTimeScale AltName="詠唱時間 補正倍率 二刀流両手 弱 [sec]"/>
-        <dual2HNormalHoldCastTime AltName="発動時間 二刀流両手 弱 [sec]"/>
-        <dual2HNormalAnimIdSpellChanting AltName="アニメ設定 詠唱 二刀流両手 弱" ProjectEnum="PLAYER_SPELL_CHANTING_MOTION"/>
-        <dual2HNormalAnimIdSpellCasting AltName="アニメ設定 発動 二刀流両手 弱" ProjectEnum="PLAYER_SPELL_CASTING_MOTION"/>
-        <dual2HNormalStaminaCostScale AltName="スタミナ消費量 倍率 二刀流両手 弱 [倍]"/>
-        <dual2HStrongChantTimeScale AltName="詠唱時間 補正倍率 二刀流両手 強 [sec]"/>
-        <dual2HStrongHoldCastTime AltName="発動時間 二刀流両手 強 [sec]"/>
-        <dual2HStrongAnimIdSpellChanting AltName="アニメ設定 詠唱 二刀流両手 強" ProjectEnum="PLAYER_SPELL_CHANTING_MOTION"/>
-        <dual2HStrongAnimIdSpellCasting AltName="アニメ設定 発動 二刀流両手 強" ProjectEnum="PLAYER_SPELL_CASTING_MOTION"/>
-        <dual2HStrongStaminaCostScale AltName="スタミナ消費量 倍率 二刀流両手 強 [倍]"/>
-        <lockonAvailableDistanceScale AltName="ロックオン 攻撃有効距離 補正倍率 [倍]"/>
-        <canMove AltName="移動許可フラグ" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <canWaitShoot AltName="発射待ち許可フラグ" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <canPredictShot AltName="予測射撃許可フラグ" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <dummy1 AltName="ダミー"/>
-        <se0Id AltName="詠唱中SE0 ID"/>
-        <sfx0Id AltName="詠唱中SFX0 ID"/>
-        <sfx0AttachTarget AltName="詠唱中SFX0 アタッチ対象" ProjectEnum="SPELL_CHANT_SFX_ATTACH_TYPE"/>
-        <sfx0AttachDummyPolyIdRight AltName="詠唱中SFX0 右装備 ダミポリID"/>
-        <sfx0AttachDummyPolyIdLeft AltName="詠唱中SFX0 左装備 ダミポリID"/>
-        <sfx0DisableEraseFade AltName="詠唱SFX0 即削除" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <se1Id AltName="詠唱中SE1 ID"/>
-        <sfx1Id AltName="詠唱中SFX1 ID"/>
-        <sfx1AttachTarget AltName="詠唱中SFX1 アタッチ対象" ProjectEnum="SPELL_CHANT_SFX_ATTACH_TYPE"/>
-        <sfx1AttachDummyPolyIdRight AltName="詠唱中SFX1 右装備 ダミポリID"/>
-        <sfx1AttachDummyPolyIdLeft AltName="詠唱中SFX1 左装備 ダミポリID"/>
-        <sfx1DisableEraseFade AltName="詠唱SFX1 即削除" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <decreaseSpeedRateParallelWalk AltName="スペル詠唱移動速度 減少割合 平行移動 [%]"/>
-        <decreaseSpeedRateWalk AltName="スペル詠唱移動速度 減少割合 歩行 [%]"/>
-        <decreaseSpeedRateLockOnWalk AltName="スペル詠唱移動速度 減少割合 ロックオン移動 [%]"/>
-        <startPlaySpeed AltName="スペル開始部 アニメ再生倍率 [倍]"/>
-        <endPlaySpeed AltName="スペル終了部 アニメ再生倍率 [倍]"/>
-        <toughnessPeriodScale AltName="強靭度期間 倍率 [倍]"/>
-        <shootSeCategory AltName="発射SE カテゴリ"/>
-        <equipSlotNum AltName="装備に必要なスロット数"/>
-        <usageCountLv1 AltName="使用回数Lv1"/>
-        <usageCountLv2 AltName="使用回数Lv2"/>
-        <usageCountLv3 AltName="使用回数Lv3"/>
-        <usageCountLv4 AltName="使用回数Lv4"/>
-        <usageCountLv5 AltName="使用回数Lv5"/>
-        <usageCountLv6 AltName="使用回数Lv6"/>
-        <usageCountLv7 AltName="使用回数Lv7"/>
-        <usageCountLv8 AltName="使用回数Lv8"/>
-        <usageCountLv9 AltName="使用回数Lv9"/>
-        <usageCountLv10 AltName="使用回数Lv10"/>
-        <dummy2 AltName="ダミー"/>
-        <soulConsumeParamId AltName="ソウル消費ID" Refs="SpellSoulConsumeParam"/>
-        <baseLeftHandSpellBulletId AltName="ベースバレットID(左手)"/>
-        <baseLeftHandSpellDamageId AltName="ベースダメージID(左手)"/>
+        <spellCategory AltName="スペルカテゴリ" ProjectEnum="SPELL_CATEGORY" />
+        <isDual2HandedSpellAllowed AltName="二刀流両手スペル許可" IsBool="true" />
+        <availableCondition AltName="使用可能条件" ProjectEnum="SPELL_AVAILABLE_CONDITION" />
+        <dummy0 AltName="ダミー" Padding="true" />
+        <intelligence AltName="必要ステータス 理力" />
+        <faith AltName="必要ステータス 信仰" />
+        <baseSpellBulletId AltName="ベースバレットID" />
+        <baseSpellDamageId AltName="ベースダメージID" />
+        <single1HNormalChantTimeScale AltName="詠唱時間 補正倍率 片手 弱 [sec]" />
+        <single1HNormalHoldCastTime AltName="発動時間 片手 弱 [sec]" />
+        <single1HNormalAnimIdSpellChanting AltName="アニメ設定 詠唱 片手 弱" ProjectEnum="PLAYER_SPELL_CHANTING_MOTION" />
+        <single1HNormalAnimIdSpellCasting AltName="アニメ設定 発動 片手 弱" ProjectEnum="PLAYER_SPELL_CASTING_MOTION" />
+        <single1HNormalStaminaCostScale AltName="スタミナ消費量 倍率 片手 弱 [倍]" />
+        <single1HStrongChantTimeScale AltName="詠唱時間 補正倍率 片手 強 [sec]" />
+        <single1HStrongHoldCastTime AltName="発動時間 片手 強 [sec]" />
+        <single1HStrongAnimIdSpellChanting AltName="アニメ設定 詠唱 片手 強" ProjectEnum="PLAYER_SPELL_CHANTING_MOTION" />
+        <single1HStrongAnimIdSpellCasting AltName="アニメ設定 発動 片手 強" ProjectEnum="PLAYER_SPELL_CASTING_MOTION" />
+        <single1HStrongStaminaCostScale AltName="スタミナ消費量 倍率 片手 強 [倍]" />
+        <single2HNormalChantTimeScale AltName="詠唱時間 補正倍率 両手 弱 [sec]" />
+        <single2HNormalHoldCastTime AltName="発動時間 両手 弱 [sec]" />
+        <single2HNormalAnimIdSpellChanting AltName="アニメ設定 詠唱 両手 弱" ProjectEnum="PLAYER_SPELL_CHANTING_MOTION" />
+        <single2HNormalAnimIdSpellCasting AltName="アニメ設定 発動 両手 弱" ProjectEnum="PLAYER_SPELL_CASTING_MOTION" />
+        <single2HNormalStaminaCostScale AltName="スタミナ消費量 倍率 両手 弱 [倍]" />
+        <single2HStrongChantTimeScale AltName="詠唱時間 補正倍率 両手 強 [sec]" />
+        <single2HHoldCastTime AltName="発動時間 両手 強 [sec]" />
+        <single2HAnimIdSpellChanting AltName="アニメ設定 詠唱 両手 強" ProjectEnum="PLAYER_SPELL_CHANTING_MOTION" />
+        <single2HAnimIdSpellCasting AltName="アニメ設定 発動 両手 強" ProjectEnum="PLAYER_SPELL_CASTING_MOTION" />
+        <single2HStaminaCostScale AltName="スタミナ消費量 倍率 両手 強 [倍]" />
+        <dual1HNormalChantTimeScale AltName="詠唱時間 補正倍率 二刀流片手 弱 [sec]" />
+        <dual1HNormalHoldCastTime AltName="発動時間 二刀流片手 弱 [sec]" />
+        <dual1HNormalAnimIdSpellChanting AltName="アニメ設定 詠唱 二刀流片手 弱" ProjectEnum="PLAYER_SPELL_CHANTING_MOTION" />
+        <dual1HNormalAnimIdSpellCasting AltName="アニメ設定 発動 二刀流片手 弱" ProjectEnum="PLAYER_SPELL_CASTING_MOTION" />
+        <dual1HNormalStaminaCostScale AltName="スタミナ消費量 倍率 二刀流片手 弱 [倍]" />
+        <dual1HStrongChantTimeScale AltName="詠唱時間 補正倍率 二刀流片手 強 [sec]" />
+        <dual1HStrongHoldCastTime AltName="発動時間 二刀流片手 強 [sec]" />
+        <dual1HStrongAnimIdSpellChanting AltName="アニメ設定 詠唱 二刀流片手 強" ProjectEnum="PLAYER_SPELL_CHANTING_MOTION" />
+        <dual1HStrongAnimIdSpellCasting AltName="アニメ設定 発動 二刀流片手 強" ProjectEnum="PLAYER_SPELL_CASTING_MOTION" />
+        <dual1HStrongStaminaCostScale AltName="スタミナ消費量 倍率 二刀流片手 強 [倍]" />
+        <dual2HNormalChantTimeScale AltName="詠唱時間 補正倍率 二刀流両手 弱 [sec]" />
+        <dual2HNormalHoldCastTime AltName="発動時間 二刀流両手 弱 [sec]" />
+        <dual2HNormalAnimIdSpellChanting AltName="アニメ設定 詠唱 二刀流両手 弱" ProjectEnum="PLAYER_SPELL_CHANTING_MOTION" />
+        <dual2HNormalAnimIdSpellCasting AltName="アニメ設定 発動 二刀流両手 弱" ProjectEnum="PLAYER_SPELL_CASTING_MOTION" />
+        <dual2HNormalStaminaCostScale AltName="スタミナ消費量 倍率 二刀流両手 弱 [倍]" />
+        <dual2HStrongChantTimeScale AltName="詠唱時間 補正倍率 二刀流両手 強 [sec]" />
+        <dual2HStrongHoldCastTime AltName="発動時間 二刀流両手 強 [sec]" />
+        <dual2HStrongAnimIdSpellChanting AltName="アニメ設定 詠唱 二刀流両手 強" ProjectEnum="PLAYER_SPELL_CHANTING_MOTION" />
+        <dual2HStrongAnimIdSpellCasting AltName="アニメ設定 発動 二刀流両手 強" ProjectEnum="PLAYER_SPELL_CASTING_MOTION" />
+        <dual2HStrongStaminaCostScale AltName="スタミナ消費量 倍率 二刀流両手 強 [倍]" />
+        <lockonAvailableDistanceScale AltName="ロックオン 攻撃有効距離 補正倍率 [倍]" />
+        <canMove AltName="移動許可フラグ" IsBool="true" />
+        <canWaitShoot AltName="発射待ち許可フラグ" IsBool="true" />
+        <canPredictShot AltName="予測射撃許可フラグ" IsBool="true" />
+        <dummy1 AltName="ダミー" Padding="true" />
+        <se0Id AltName="詠唱中SE0 ID" />
+        <sfx0Id AltName="詠唱中SFX0 ID" />
+        <sfx0AttachTarget AltName="詠唱中SFX0 アタッチ対象" ProjectEnum="SPELL_CHANT_SFX_ATTACH_TYPE" />
+        <sfx0AttachDummyPolyIdRight AltName="詠唱中SFX0 右装備 ダミポリID" />
+        <sfx0AttachDummyPolyIdLeft AltName="詠唱中SFX0 左装備 ダミポリID" />
+        <sfx0DisableEraseFade AltName="詠唱SFX0 即削除" IsBool="true" />
+        <se1Id AltName="詠唱中SE1 ID" />
+        <sfx1Id AltName="詠唱中SFX1 ID" />
+        <sfx1AttachTarget AltName="詠唱中SFX1 アタッチ対象" ProjectEnum="SPELL_CHANT_SFX_ATTACH_TYPE" />
+        <sfx1AttachDummyPolyIdRight AltName="詠唱中SFX1 右装備 ダミポリID" />
+        <sfx1AttachDummyPolyIdLeft AltName="詠唱中SFX1 左装備 ダミポリID" />
+        <sfx1DisableEraseFade AltName="詠唱SFX1 即削除" IsBool="true" />
+        <decreaseSpeedRateParallelWalk AltName="スペル詠唱移動速度 減少割合 平行移動 [%]" />
+        <decreaseSpeedRateWalk AltName="スペル詠唱移動速度 減少割合 歩行 [%]" />
+        <decreaseSpeedRateLockOnWalk AltName="スペル詠唱移動速度 減少割合 ロックオン移動 [%]" />
+        <startPlaySpeed AltName="スペル開始部 アニメ再生倍率 [倍]" />
+        <endPlaySpeed AltName="スペル終了部 アニメ再生倍率 [倍]" />
+        <toughnessPeriodScale AltName="強靭度期間 倍率 [倍]" />
+        <shootSeCategory AltName="発射SE カテゴリ" />
+        <equipSlotNum AltName="装備に必要なスロット数" />
+        <usageCountLv1 AltName="使用回数Lv1" />
+        <usageCountLv2 AltName="使用回数Lv2" />
+        <usageCountLv3 AltName="使用回数Lv3" />
+        <usageCountLv4 AltName="使用回数Lv4" />
+        <usageCountLv5 AltName="使用回数Lv5" />
+        <usageCountLv6 AltName="使用回数Lv6" />
+        <usageCountLv7 AltName="使用回数Lv7" />
+        <usageCountLv8 AltName="使用回数Lv8" />
+        <usageCountLv9 AltName="使用回数Lv9" />
+        <usageCountLv10 AltName="使用回数Lv10" />
+        <dummy2 AltName="ダミー" Padding="true" />
+        <soulConsumeParamId AltName="ソウル消費ID" />
+        <baseLeftHandSpellBulletId AltName="ベースバレットID(左手)" />
+        <baseLeftHandSpellDamageId AltName="ベースダメージID(左手)" />
     </Field>
 </PARAMMETA>

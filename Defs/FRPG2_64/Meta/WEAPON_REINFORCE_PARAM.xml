@@ -1,67 +1,67 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <minimumPhysical AltName="物理攻撃力の最小値"/>
-        <minimumMagic AltName="魔力攻撃力の最小値"/>
-        <minimumThunder AltName="雷攻撃力の最小値"/>
-        <minimumFire AltName="炎攻撃力の最小値"/>
-        <minimumDark AltName="闇攻撃力の最小値"/>
-        <minimumPoison AltName="毒攻撃力の最小値"/>
-        <minimumBleeding AltName="出血攻撃力の最小値"/>
-        <minimumPetrifaction AltName="石化攻撃力の最小値"/>
-        <minimumCurse AltName="呪攻撃力の最小値"/>
-        <maximumPhysical AltName="物理攻撃力の最大値"/>
-        <maximumMagic AltName="魔力攻撃力の最大値"/>
-        <maximumThunder AltName="雷攻撃力の最大値"/>
-        <maximumFire AltName="炎攻撃力の最大値"/>
-        <maximumDark AltName="闇攻撃力の最大値"/>
-        <maximumPoison AltName="毒攻撃力の最大値"/>
-        <maximumBleeding AltName="出血攻撃力の最大値"/>
-        <maximumPetrifaction AltName="石化攻撃力の最大値"/>
-        <maximumCurse AltName="呪攻撃力の最大値"/>
-        <maxLevel AltName="強化最大レベル"/>
-        <dummy AltName="ダミー"/>
-        <statsAffectId AltName="ステータス影響倍率設定" Refs="WeaponStatsAffectParam"/>
-        <physical AltName="物理カット率 [%]"/>
-        <magic AltName="魔力カット率 [%]"/>
-        <thunder AltName="雷カット率 [%]"/>
-        <fire AltName="炎カット率 [%]"/>
-        <dark AltName="闇カット率 [%]"/>
-        <poison AltName="毒カット率 [%]"/>
-        <bleeding AltName="出血カット率 [%]"/>
-        <petrifaction AltName="石化カット率 [%]"/>
-        <curse AltName="呪カット率 [%]"/>
-        <stabilityRate0 AltName="受け能力 0"/>
-        <stabilityRate1 AltName="受け能力 1"/>
-        <stabilityRate2 AltName="受け能力 2"/>
-        <stabilityRate3 AltName="受け能力 3"/>
-        <stabilityRate4 AltName="受け能力 4"/>
-        <stabilityRate5 AltName="受け能力 5"/>
-        <stabilityRate6 AltName="受け能力 6"/>
-        <stabilityRate7 AltName="受け能力 7"/>
-        <stabilityRate8 AltName="受け能力 8"/>
-        <stabilityRate9 AltName="受け能力 9"/>
-        <stabilityRate10 AltName="受け能力 10"/>
-        <physicalRate AltName="初期属性値 物理"/>
-        <magicRate AltName="初期属性値 魔力"/>
-        <thunderRate AltName="初期属性値 雷"/>
-        <fireRate AltName="初期属性値 炎"/>
-        <darkRate AltName="初期属性値 闇"/>
-        <poisonRate AltName="初期属性値 毒"/>
-        <bleedingRate AltName="初期属性値 出血"/>
-        <petrifactionRate AltName="初期属性値 石化"/>
-        <curseRate AltName="初期属性値 呪"/>
-        <addMagicRate AltName="属性変動値 魔法"/>
-        <addThunderRate AltName="属性変動値 雷"/>
-        <addFireRate AltName="属性変動値 炎"/>
-        <addDarkRate AltName="属性変動値 闇"/>
-        <addPoisonRate AltName="属性変動値 毒"/>
-        <addBleedRate AltName="属性変動値 出血"/>
-        <addPhysicalRateByCrude AltName="属性変動値 物理(粗製)"/>
-        <addPhysicalRateByEnchanted AltName="属性変動値 物理(魔力)"/>
-        <addPhysicalRateByAbyss AltName="属性変動値 物理(深淵)"/>
-        <attrSpec AltName="属性強化可否" Refs="CustomAttrSpecParam"/>
-        <attrCost AltName="属性強化コスト" Refs="CustomAttrCostParam"/>
-        <reinforceCost AltName="Lv強化コスト" Refs="ReinforceCostParam"/>
+        <minimumPhysical AltName="物理攻撃力の最小値" />
+        <minimumMagic AltName="魔力攻撃力の最小値" />
+        <minimumThunder AltName="雷攻撃力の最小値" />
+        <minimumFire AltName="炎攻撃力の最小値" />
+        <minimumDark AltName="闇攻撃力の最小値" />
+        <minimumPoison AltName="毒攻撃力の最小値" />
+        <minimumBleeding AltName="出血攻撃力の最小値" />
+        <minimumPetrifaction AltName="石化攻撃力の最小値" />
+        <minimumCurse AltName="呪攻撃力の最小値" />
+        <maximumPhysical AltName="物理攻撃力の最大値" />
+        <maximumMagic AltName="魔力攻撃力の最大値" />
+        <maximumThunder AltName="雷攻撃力の最大値" />
+        <maximumFire AltName="炎攻撃力の最大値" />
+        <maximumDark AltName="闇攻撃力の最大値" />
+        <maximumPoison AltName="毒攻撃力の最大値" />
+        <maximumBleeding AltName="出血攻撃力の最大値" />
+        <maximumPetrifaction AltName="石化攻撃力の最大値" />
+        <maximumCurse AltName="呪攻撃力の最大値" />
+        <maxLevel AltName="強化最大レベル" />
+        <dummy AltName="ダミー" Padding="true" />
+        <statsAffectId AltName="ステータス影響倍率設定" Refs="WeaponStatsAffectParam" />
+        <physical AltName="物理カット率 [%]" />
+        <magic AltName="魔力カット率 [%]" />
+        <thunder AltName="雷カット率 [%]" />
+        <fire AltName="炎カット率 [%]" />
+        <dark AltName="闇カット率 [%]" />
+        <poison AltName="毒カット率 [%]" />
+        <bleeding AltName="出血カット率 [%]" />
+        <petrifaction AltName="石化カット率 [%]" />
+        <curse AltName="呪カット率 [%]" />
+        <stabilityRate0 AltName="受け能力 0" />
+        <stabilityRate1 AltName="受け能力 1" />
+        <stabilityRate2 AltName="受け能力 2" />
+        <stabilityRate3 AltName="受け能力 3" />
+        <stabilityRate4 AltName="受け能力 4" />
+        <stabilityRate5 AltName="受け能力 5" />
+        <stabilityRate6 AltName="受け能力 6" />
+        <stabilityRate7 AltName="受け能力 7" />
+        <stabilityRate8 AltName="受け能力 8" />
+        <stabilityRate9 AltName="受け能力 9" />
+        <stabilityRate10 AltName="受け能力 10" />
+        <physicalRate AltName="初期属性値 物理" />
+        <magicRate AltName="初期属性値 魔力" />
+        <thunderRate AltName="初期属性値 雷" />
+        <fireRate AltName="初期属性値 炎" />
+        <darkRate AltName="初期属性値 闇" />
+        <poisonRate AltName="初期属性値 毒" />
+        <bleedingRate AltName="初期属性値 出血" />
+        <petrifactionRate AltName="初期属性値 石化" />
+        <curseRate AltName="初期属性値 呪" />
+        <addMagicRate AltName="属性変動値 魔法" />
+        <addThunderRate AltName="属性変動値 雷" />
+        <addFireRate AltName="属性変動値 炎" />
+        <addDarkRate AltName="属性変動値 闇" />
+        <addPoisonRate AltName="属性変動値 毒" />
+        <addBleedRate AltName="属性変動値 出血" />
+        <addPhysicalRateByCrude AltName="属性変動値 物理(粗製)" />
+        <addPhysicalRateByEnchanted AltName="属性変動値 物理(魔力)" />
+        <addPhysicalRateByAbyss AltName="属性変動値 物理(深淵)" />
+        <attrSpec AltName="属性強化可否" Refs="CustomAttrSpecParam" />
+        <attrCost AltName="属性強化コスト" Refs="CustomAttrCostParam" />
+        <reinforceCost AltName="Lv強化コスト" Refs="ReinforceCostParam" />
     </Field>
 </PARAMMETA>

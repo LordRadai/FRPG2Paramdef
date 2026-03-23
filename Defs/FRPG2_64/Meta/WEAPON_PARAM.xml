@@ -1,59 +1,59 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <weaponId AltName="武器ID"/>
-        <weaponModelId AltName="武器モデルID"/>
-        <weaponReinforceId AltName="武器成長設定"/>
-        <weaponActionCategoryId AltName="武器アクションカテゴリ設定"/>
-        <weaponTypeId AltName="武器タイプ" Refs="WeaponTypeParam"/>
-        <isAtkAutoHoming AltName="接近オートホーミング" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <weaponCategory AltName="武器系統" ProjectEnum="WEAPON_SIMPLE_CATEGORY"/>
-        <clothCollidableId AltName="クロスコリジョンID"/>
-        <requiredStrength AltName="必要ステータス 筋力"/>
-        <requiredDexterity AltName="必要ステータス 技量"/>
-        <requiredIntelligence AltName="必要ステータス 理力"/>
-        <requiredFaith AltName="必要ステータス 信仰"/>
-        <weight AltName="パラメータ　重量 [kg]"/>
-        <adjustBalanceWeight AltName="パラメータ 分散重量 [kg]"/>
-        <durability AltName="パラメータ　耐久値"/>
-        <repairCost AltName="パラメータ 修理コスト [soul]"/>
-        <materialId AltName="パラメータ　材質" ProjectEnum="MATERIAL_TYPE_ENUM"/>
-        <meleeAttackBaseCost AltName="攻撃消費スタミナ 近接攻撃ベース値"/>
-        <rangedAttackBaseCost AltName="攻撃消費スタミナ 射撃攻撃ベース値"/>
-        <costCategoryId AltName="攻撃消費スタミナ 倍率カテゴリ" Refs="WeaponStaminaCostParam"/>
-        <lockonAvailableDistanceScale AltName="ロックオン 攻撃有効距離 補正倍率 [倍]"/>
-        <grabMotionRate AltName="投げつかみ 再生倍率 [倍]"/>
-        <grabRotationSpeed AltName="投げつかみ 旋回加速度 [deg/sec]"/>
-        <grabRotationMaxSpeed AltName="投げつかみ 最大旋回速度 [deg/sec]"/>
-        <backStabAttackDamageSmallId AltName="投げ掴み バックスタブ投げ掴み[小]ダメージID"/>
-        <backStabAttackDamageMiddleId AltName="投げ掴み バックスタブ投げ掴み[中]ダメージID"/>
-        <backStabAttackDamageLargeId AltName="投げ掴み バックスタブ投げ掴み[大]ダメージID"/>
-        <gdBreakStabAttackDamageSmallId AltName="投げ掴み ガードブレイクスタブ投げ掴み[小]ダメージID"/>
-        <gdBreakStabAttackDamageMiddleId AltName="投げ掴み ガードブレイクスタブ投げ掴み[中]ダメージID"/>
-        <gdBreakStabAttackDamageLargeId AltName="投げ掴み ガードブレイクスタブ投げ掴み[大]ダメージID"/>
-        <parryStabAttackDamageSmallId AltName="投げ掴み パリィブレイクスタブ投げ掴み[小]ダメージID"/>
-        <parryStabAttackDamageMiddleId AltName="投げ掴み パリィブレイクスタブ投げ掴み[中]ダメージID"/>
-        <parryStabAttackDamageLargeId AltName="投げ掴み パリィブレイクスタブ投げ掴み[大]ダメージID"/>
-        <parryEnableRate AltName="パリィ発生期間 有効割合"/>
-        <brokenSfxId AltName="武器破損 SFXID"/>
-        <brokenSoundType AltName="武器破損 サウンドタイプ" ProjectEnum="EQUIP_BREAK_SOUND_MATERIAL_TYPE"/>
-        <damageScale AltName="ダメージ 倍率"/>
-        <staminaDamageScale AltName="スタミナ奪取量 倍率"/>
-        <durabilityDamageScale AltName="耐久削り値 倍率"/>
-        <ignorePoiseRateScale AltName="強靭度無効化割合 倍率"/>
-        <ignoreDamageCutRateScale AltName="盾カット率無効化割合 倍率"/>
-        <stunDamageScale AltName="気絶値 倍率"/>
-        <damageHitRadiusScale AltName="HIT 半径 倍率"/>
-        <damageHitLengthScale AltName="HIT 長さ 倍率"/>
-        <recoilHitRaduisScale AltName="弾きHIT 半径 倍率"/>
-        <recoilHitLengthScale AltName="弾きHIT 長さ 倍率"/>
-        <menuAttackCategory1 AltName="メニュー用 攻撃属性1" ProjectEnum="WEAPON_ATTACK_CATEGORY"/>
-        <menuAttackCategory2 AltName="メニュー用 攻撃属性2" ProjectEnum="WEAPON_ATTACK_CATEGORY"/>
-        <menuPoiseDamage AltName="メニュー用 強靭削り値"/>
-        <menuCounterScale AltName="メニュー用 カウンター補正値"/>
-        <menuSpellChantSpeed AltName="メニュー用 スペル詠唱速度"/>
-        <poiseDamageScalePlayer AltName="強靭削り値補正倍率（対プレイヤー）"/>
-        <poiseDamageScaleEnemy AltName="強靭削り値補正倍率（対エネミー）"/>
-        <uninterruptibleRate AltName="Uninterruptible poise damage rate"/>
+        <weaponId AltName="武器ID" />
+        <weaponModelId AltName="武器モデルID" />
+        <weaponReinforceId AltName="武器成長設定" />
+        <weaponActionCategoryId AltName="武器アクションカテゴリ設定" />
+        <weaponTypeId AltName="武器タイプ" Refs="WeaponTypeParam" />
+        <isAtkAutoHoming AltName="接近オートホーミング" IsBool="true" />
+        <weaponCategory AltName="武器系統" ProjectEnum="WEAPON_SIMPLE_CATEGORY" />
+        <clothCollidableId AltName="クロスコリジョンID" />
+        <requiredStrength AltName="必要ステータス 筋力" />
+        <requiredDexterity AltName="必要ステータス 技量" />
+        <requiredIntelligence AltName="必要ステータス 理力" />
+        <requiredFaith AltName="必要ステータス 信仰" />
+        <weight AltName="パラメータ　重量 [kg]" />
+        <adjustBalanceWeight AltName="パラメータ 分散重量 [kg]" />
+        <durability AltName="パラメータ　耐久値" />
+        <repairCost AltName="パラメータ 修理コスト [soul]" />
+        <materialId AltName="パラメータ　材質" ProjectEnum="MATERIAL_TYPE_ENUM" />
+        <meleeAttackBaseCost AltName="攻撃消費スタミナ 近接攻撃ベース値" />
+        <rangedAttackBaseCost AltName="攻撃消費スタミナ 射撃攻撃ベース値" />
+        <costCategoryId AltName="攻撃消費スタミナ 倍率カテゴリ" Refs="WeaponStaminaCostParam" />
+        <lockonAvailableDistanceScale AltName="ロックオン 攻撃有効距離 補正倍率 [倍]" />
+        <grabMotionRate AltName="投げつかみ 再生倍率 [倍]" />
+        <grabRotationSpeed AltName="投げつかみ 旋回加速度 [deg/sec]" />
+        <grabRotationMaxSpeed AltName="投げつかみ 最大旋回速度 [deg/sec]" />
+        <backStabAttackDamageSmallId AltName="投げ掴み バックスタブ投げ掴み[小]ダメージID" />
+        <backStabAttackDamageMiddleId AltName="投げ掴み バックスタブ投げ掴み[中]ダメージID" />
+        <backStabAttackDamageLargeId AltName="投げ掴み バックスタブ投げ掴み[大]ダメージID" />
+        <gdBreakStabAttackDamageSmallId AltName="投げ掴み ガードブレイクスタブ投げ掴み[小]ダメージID" />
+        <gdBreakStabAttackDamageMiddleId AltName="投げ掴み ガードブレイクスタブ投げ掴み[中]ダメージID" />
+        <gdBreakStabAttackDamageLargeId AltName="投げ掴み ガードブレイクスタブ投げ掴み[大]ダメージID" />
+        <parryStabAttackDamageSmallId AltName="投げ掴み パリィブレイクスタブ投げ掴み[小]ダメージID" />
+        <parryStabAttackDamageMiddleId AltName="投げ掴み パリィブレイクスタブ投げ掴み[中]ダメージID" />
+        <parryStabAttackDamageLargeId AltName="投げ掴み パリィブレイクスタブ投げ掴み[大]ダメージID" />
+        <parryEnableRate AltName="パリィ発生期間 有効割合" />
+        <brokenSfxId AltName="武器破損 SFXID" />
+        <brokenSoundType AltName="武器破損 サウンドタイプ" ProjectEnum="EQUIP_BREAK_SOUND_MATERIAL_TYPE" />
+        <damageScale AltName="ダメージ 倍率" />
+        <staminaDamageScale AltName="スタミナ奪取量 倍率" />
+        <durabilityDamageScale AltName="耐久削り値 倍率" />
+        <ignorePoiseRateScale AltName="強靭度無効化割合 倍率" />
+        <ignoreDamageCutRateScale AltName="盾カット率無効化割合 倍率" />
+        <stunDamageScale AltName="気絶値 倍率" />
+        <damageHitRadiusScale AltName="HIT 半径 倍率" />
+        <damageHitLengthScale AltName="HIT 長さ 倍率" />
+        <recoilHitRaduisScale AltName="弾きHIT 半径 倍率" />
+        <recoilHitLengthScale AltName="弾きHIT 長さ 倍率" />
+        <menuAttackCategory1 AltName="メニュー用 攻撃属性1" ProjectEnum="WEAPON_ATTACK_CATEGORY" />
+        <menuAttackCategory2 AltName="メニュー用 攻撃属性2" ProjectEnum="WEAPON_ATTACK_CATEGORY" />
+        <menuPoiseDamage AltName="メニュー用 強靭削り値" />
+        <menuCounterScale AltName="メニュー用 カウンター補正値" />
+        <menuSpellChantSpeed AltName="メニュー用 スペル詠唱速度" />
+        <poiseDamageScalePlayer AltName="強靭削り値補正倍率（対プレイヤー）" />
+        <poiseDamageScaleEnemy AltName="強靭削り値補正倍率（対エネミー）" />
+        <uninterruptibleRate AltName="Uninterruptible poise damage rate" />
     </Field>
 </PARAMMETA>
