@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>FALLING_PARAM</ParamType>
+    <DataVersion>1</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>104</FormatVersion>
+    <Fields>
+        <Field Def="f32 fallingDamageSafety" />
+        <Field Def="f32 fallingDamageNormal" />
+        <Field Def="f32 fallingDamageDanger" />
+        <Field Def="f32 fallingDamageDead" />
+        <Field Def="f32 fallingDamageMitigationDodge" />
+        <Field Def="f32 fallingDamageMitigationMagic" />
+        <Field Def="f32 fallingDamageMitigationRing" />
+        <Field Def="f32 fallingDamageMitigationTramp" />
+    </Fields>
+</PARAMDEF>

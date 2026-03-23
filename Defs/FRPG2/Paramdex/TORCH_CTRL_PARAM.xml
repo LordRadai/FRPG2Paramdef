@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMDEF XmlVersion="0">
     <ParamType>TORCH_CTRL_PARAM</ParamType>
     <DataVersion>1</DataVersion>
@@ -16,7 +16,7 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="s32 lightId = -1">
-            <DisplayName>光源ID</DisplayName>
+            <DisplayName>Light source ID</DisplayName>
             <Description>光源ID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Minimum>-1</Minimum>
@@ -25,7 +25,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="f32 life">
-            <DisplayName>寿命[秒]</DisplayName>
+            <DisplayName>Lifespan [seconds]</DisplayName>
             <Description>寿命[秒]</Description>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>100000</Maximum>

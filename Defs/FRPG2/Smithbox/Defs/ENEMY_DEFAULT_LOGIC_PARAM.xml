@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>ENEMY_DEFAULT_LOGIC_PARAM</ParamType>
+    <DataVersion>1</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="u32 stateId" />
+        <Field Def="u32 upperLogickId" />
+        <Field Def="u32 lowerLogickId" />
+        <Field Def="u32 lowerStartStateId" />
+    </Fields>
+</PARAMDEF>

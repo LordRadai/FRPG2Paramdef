@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMDEF XmlVersion="0">
     <ParamType>GUARD_LEVEL_MOTION_PARAM</ParamType>
     <DataVersion>1</DataVersion>
@@ -7,7 +7,7 @@
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="u8 superSmallGuardLevel">
-            <DisplayName>極小</DisplayName>
+            <DisplayName>Extremely small</DisplayName>
             <Enum>GUARD_MOTION_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>31</Maximum>
@@ -15,7 +15,7 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="u8 smallGuardLevel">
-            <DisplayName>小</DisplayName>
+            <DisplayName>Small</DisplayName>
             <Enum>GUARD_MOTION_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>31</Maximum>
@@ -23,7 +23,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="u8 mediumGuardLevel">
-            <DisplayName>中</DisplayName>
+            <DisplayName>Medium</DisplayName>
             <Enum>GUARD_MOTION_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>31</Maximum>
@@ -31,7 +31,7 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="u8 largeGuardLvel">
-            <DisplayName>大</DisplayName>
+            <DisplayName>Large</DisplayName>
             <Enum>GUARD_MOTION_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>31</Maximum>
@@ -39,7 +39,7 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="u8 superLargeGuardLevel">
-            <DisplayName>特大</DisplayName>
+            <DisplayName>Extra large</DisplayName>
             <Enum>GUARD_MOTION_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>31</Maximum>
@@ -47,7 +47,7 @@
             <SortID>5</SortID>
         </Field>
         <Field Def="u8 ultraLargeGuardLevel">
-            <DisplayName>特特大</DisplayName>
+            <DisplayName>Extra large</DisplayName>
             <Enum>GUARD_MOTION_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>31</Maximum>
@@ -55,7 +55,7 @@
             <SortID>6</SortID>
         </Field>
         <Field Def="u8 flipGuardLevel">
-            <DisplayName>弾き</DisplayName>
+            <DisplayName>Play</DisplayName>
             <Enum>GUARD_MOTION_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>31</Maximum>

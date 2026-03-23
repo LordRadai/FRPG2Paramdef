@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMDEF XmlVersion="0">
     <ParamType>DAMAGE_MOTION_WEIGHT_PARAM</ParamType>
     <DataVersion>1</DataVersion>
@@ -7,7 +7,7 @@
     <FormatVersion>104</FormatVersion>
     <Fields>
         <Field Def="u8 noneSize">
-            <DisplayName>無</DisplayName>
+            <DisplayName>Nothing</DisplayName>
             <Enum>DAMAGE_MOTION_TYPE</Enum>
             <Description>無</Description>
             <DisplayFormat>%d</DisplayFormat>
@@ -16,7 +16,7 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="u8 superSmallSize">
-            <DisplayName>極小</DisplayName>
+            <DisplayName>Extremely small</DisplayName>
             <Enum>DAMAGE_MOTION_TYPE</Enum>
             <Description>極小</Description>
             <DisplayFormat>%d</DisplayFormat>
@@ -25,7 +25,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="u8 smallSize">
-            <DisplayName>小</DisplayName>
+            <DisplayName>Small</DisplayName>
             <Enum>DAMAGE_MOTION_TYPE</Enum>
             <Description>小</Description>
             <DisplayFormat>%d</DisplayFormat>
@@ -34,7 +34,7 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="u8 normalSize">
-            <DisplayName>中</DisplayName>
+            <DisplayName>Medium</DisplayName>
             <Enum>DAMAGE_MOTION_TYPE</Enum>
             <Description>中</Description>
             <DisplayFormat>%d</DisplayFormat>
@@ -43,7 +43,7 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="u8 largeSize">
-            <DisplayName>大</DisplayName>
+            <DisplayName>Large</DisplayName>
             <Enum>DAMAGE_MOTION_TYPE</Enum>
             <Description>大</Description>
             <DisplayFormat>%d</DisplayFormat>
@@ -52,7 +52,7 @@
             <SortID>5</SortID>
         </Field>
         <Field Def="u8 superLargeSize">
-            <DisplayName>特大</DisplayName>
+            <DisplayName>Extra large</DisplayName>
             <Enum>DAMAGE_MOTION_TYPE</Enum>
             <Description>特大</Description>
             <DisplayFormat>%d</DisplayFormat>
@@ -61,7 +61,7 @@
             <SortID>6</SortID>
         </Field>
         <Field Def="u8 hyperLargeSize">
-            <DisplayName>超特大</DisplayName>
+            <DisplayName>Super extra large</DisplayName>
             <Enum>DAMAGE_MOTION_TYPE</Enum>
             <Description>超特大</Description>
             <DisplayFormat>%d</DisplayFormat>
@@ -70,7 +70,7 @@
             <SortID>7</SortID>
         </Field>
         <Field Def="u8 ultraLargeSize">
-            <DisplayName>超超特大</DisplayName>
+            <DisplayName>Super super extra large</DisplayName>
             <Enum>DAMAGE_MOTION_TYPE</Enum>
             <Description>超超特大</Description>
             <DisplayFormat>%d</DisplayFormat>

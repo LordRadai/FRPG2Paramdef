@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMDEF XmlVersion="0">
     <ParamType>BOSS_PARAM</ParamType>
     <DataVersion>3</DataVersion>
@@ -7,14 +7,14 @@
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="u8 type">
-            <DisplayName>ボスタイプ</DisplayName>
+            <DisplayName>Boss type</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Increment>1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 isPartialPhysics = 1,000">
-            <DisplayName>部位ラグドール有効</DisplayName>
+            <DisplayName>Part ragdoll enabled</DisplayName>
             <Enum>BOOL_ENABLEDISABLE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -23,11 +23,11 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="dummy8 dummy[2]">
-            <DisplayName>ダミー</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>801</SortID>
         </Field>
         <Field Def="s32 part1Hp = 1,000">
-            <DisplayName>部位１ＨＰ</DisplayName>
+            <DisplayName>Part 1 HP</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+08</Maximum>
@@ -35,7 +35,7 @@
             <SortID>100</SortID>
         </Field>
         <Field Def="u8 part1BeakAnimId">
-            <DisplayName>壊れアニメ番号</DisplayName>
+            <DisplayName>Broken anime numbers</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>100</Maximum>
@@ -43,7 +43,7 @@
             <SortID>400</SortID>
         </Field>
         <Field Def="u8 part1BreakObjDummyPolyId">
-            <DisplayName>壊れOBJ生成ダミポリ番号</DisplayName>
+            <DisplayName>Broken OBJ generated dummy poly number</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
@@ -51,11 +51,11 @@
             <SortID>701</SortID>
         </Field>
         <Field Def="dummy8 dummy1[2]">
-            <DisplayName>ダミー</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>802</SortID>
         </Field>
         <Field Def="u32 part1BreakObjId">
-            <DisplayName>壊れOBJ番号</DisplayName>
+            <DisplayName>Broken OBJ number</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -63,7 +63,7 @@
             <SortID>700</SortID>
         </Field>
         <Field Def="u32 part1EventFlag">
-            <DisplayName>イベントフラグ</DisplayName>
+            <DisplayName>Event flag</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -71,7 +71,7 @@
             <SortID>800</SortID>
         </Field>
         <Field Def="s32 part2Hp = 1,000">
-            <DisplayName>部位２ＨＰ</DisplayName>
+            <DisplayName>Part 2HP</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+08</Maximum>
@@ -79,7 +79,7 @@
             <SortID>100</SortID>
         </Field>
         <Field Def="u8 part2BreakAnimId">
-            <DisplayName>壊れアニメ番号</DisplayName>
+            <DisplayName>Broken anime numbers</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>100</Maximum>
@@ -87,7 +87,7 @@
             <SortID>400</SortID>
         </Field>
         <Field Def="u8 part2BreakObjDummyPolyId">
-            <DisplayName>壊れOBJ生成ダミポリ番号</DisplayName>
+            <DisplayName>Broken OBJ generated dummy poly number</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
@@ -95,11 +95,11 @@
             <SortID>701</SortID>
         </Field>
         <Field Def="dummy8 dummy2[2]">
-            <DisplayName>ダミー</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>803</SortID>
         </Field>
         <Field Def="u32 part2BreakObjId">
-            <DisplayName>壊れOBJ番号</DisplayName>
+            <DisplayName>Broken OBJ number</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -107,7 +107,7 @@
             <SortID>700</SortID>
         </Field>
         <Field Def="u32 part2EventFlag">
-            <DisplayName>イベントフラグ</DisplayName>
+            <DisplayName>Event flag</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -115,7 +115,7 @@
             <SortID>800</SortID>
         </Field>
         <Field Def="s32 part3Hp = 1,000">
-            <DisplayName>部位３ＨＰ</DisplayName>
+            <DisplayName>Part 3HP</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+08</Maximum>
@@ -123,7 +123,7 @@
             <SortID>100</SortID>
         </Field>
         <Field Def="u8 part3BreakAnimId">
-            <DisplayName>壊れアニメ番号</DisplayName>
+            <DisplayName>Broken anime numbers</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>100</Maximum>
@@ -131,7 +131,7 @@
             <SortID>400</SortID>
         </Field>
         <Field Def="u8 part3BreakObjDummyPolyId">
-            <DisplayName>壊れOBJ生成ダミポリ番号</DisplayName>
+            <DisplayName>Broken OBJ generated dummy poly number</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
@@ -139,11 +139,11 @@
             <SortID>701</SortID>
         </Field>
         <Field Def="dummy8 dummy3[2]">
-            <DisplayName>ダミー</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>804</SortID>
         </Field>
         <Field Def="u32 part3BreakObjId">
-            <DisplayName>壊れOBJ番号</DisplayName>
+            <DisplayName>Broken OBJ number</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -151,7 +151,7 @@
             <SortID>700</SortID>
         </Field>
         <Field Def="u32 part3EventFlag">
-            <DisplayName>イベントフラグ</DisplayName>
+            <DisplayName>Event flag</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -159,7 +159,7 @@
             <SortID>800</SortID>
         </Field>
         <Field Def="s32 part4Hp = 1,000">
-            <DisplayName>部位４ＨＰ</DisplayName>
+            <DisplayName>Part 4HP</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+08</Maximum>
@@ -167,7 +167,7 @@
             <SortID>100</SortID>
         </Field>
         <Field Def="u8 part4BreakAnimId">
-            <DisplayName>壊れアニメ番号</DisplayName>
+            <DisplayName>Broken anime numbers</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>100</Maximum>
@@ -175,7 +175,7 @@
             <SortID>400</SortID>
         </Field>
         <Field Def="u8 part4BreakObjDummyPolyId">
-            <DisplayName>壊れOBJ生成ダミポリ番号</DisplayName>
+            <DisplayName>Broken OBJ generated dummy poly number</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
@@ -183,11 +183,11 @@
             <SortID>701</SortID>
         </Field>
         <Field Def="dummy8 dummy4[2]">
-            <DisplayName>ダミー</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>805</SortID>
         </Field>
         <Field Def="u32 part4BreakObjId">
-            <DisplayName>壊れOBJ番号</DisplayName>
+            <DisplayName>Broken OBJ number</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -195,7 +195,7 @@
             <SortID>700</SortID>
         </Field>
         <Field Def="u32 part4EventFlag">
-            <DisplayName>イベントフラグ</DisplayName>
+            <DisplayName>Event flag</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>

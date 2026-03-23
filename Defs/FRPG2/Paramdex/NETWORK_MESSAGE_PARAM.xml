@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMDEF XmlVersion="0">
     <ParamType>NETWORK_MESSAGE_PARAM</ParamType>
     <DataVersion>1</DataVersion>
@@ -7,133 +7,133 @@
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="u32 host">
-            <DisplayName>ホスト</DisplayName>
+            <DisplayName>Host</DisplayName>
             <Maximum>9999999</Maximum>
             <Increment>1</Increment>
             <SortID>1</SortID>
         </Field>
         <Field Def="u32 white">
-            <DisplayName>白霊</DisplayName>
+            <DisplayName>White spirit</DisplayName>
             <Maximum>9999999</Maximum>
             <Increment>1</Increment>
             <SortID>2</SortID>
         </Field>
         <Field Def="u32 smallWhite">
-            <DisplayName>小白霊</DisplayName>
+            <DisplayName>Small white spirit</DisplayName>
             <Maximum>9999999</Maximum>
             <Increment>1</Increment>
             <SortID>3</SortID>
         </Field>
         <Field Def="u32 gold">
-            <DisplayName>金霊</DisplayName>
+            <DisplayName>Golden spirit</DisplayName>
             <Maximum>9999999</Maximum>
             <Increment>1</Increment>
             <SortID>4</SortID>
         </Field>
         <Field Def="u32 smallGold">
-            <DisplayName>小金霊</DisplayName>
+            <DisplayName>Small gold spirit</DisplayName>
             <Maximum>9999999</Maximum>
             <Increment>1</Increment>
             <SortID>5</SortID>
         </Field>
         <Field Def="u32 coopBlue">
-            <DisplayName>救援青霊</DisplayName>
+            <DisplayName>Relief spirit</DisplayName>
             <Maximum>9999999</Maximum>
             <Increment>1</Increment>
             <SortID>6</SortID>
         </Field>
         <Field Def="u32 versusBlue">
-            <DisplayName>報復青霊</DisplayName>
+            <DisplayName>Spirit of Retribution</DisplayName>
             <Maximum>9999999</Maximum>
             <Increment>1</Increment>
             <SortID>7</SortID>
         </Field>
         <Field Def="u32 blackSign">
-            <DisplayName>黒霊（サイン）</DisplayName>
+            <DisplayName>Black spirit (sign)</DisplayName>
             <Maximum>9999999</Maximum>
             <Increment>1</Increment>
             <SortID>8</SortID>
         </Field>
         <Field Def="u32 blackIntrude">
-            <DisplayName>黒霊（乱入）</DisplayName>
+            <DisplayName>Black spirit (intrusion)</DisplayName>
             <Maximum>9999999</Maximum>
             <Increment>1</Increment>
             <SortID>9</SortID>
         </Field>
         <Field Def="u32 redSign">
-            <DisplayName>赤霊（サイン）</DisplayName>
+            <DisplayName>Red spirit (sign)</DisplayName>
             <Maximum>9999999</Maximum>
             <Increment>1</Increment>
             <SortID>10</SortID>
         </Field>
         <Field Def="u32 redIntrude">
-            <DisplayName>赤霊（乱入）</DisplayName>
+            <DisplayName>Red spirit (intrusion)</DisplayName>
             <Maximum>9999999</Maximum>
             <Increment>1</Increment>
             <SortID>11</SortID>
         </Field>
         <Field Def="u32 bellGuard">
-            <DisplayName>鐘守灰霊</DisplayName>
+            <DisplayName>Bell Keeper Ash Ghost</DisplayName>
             <Maximum>9999999</Maximum>
             <Increment>1</Increment>
             <SortID>12</SortID>
         </Field>
         <Field Def="u32 ratKing">
-            <DisplayName>ねずみの王灰霊</DisplayName>
+            <DisplayName>Mouse King Ash Spirit</DisplayName>
             <Maximum>9999999</Maximum>
             <Increment>1</Increment>
             <SortID>13</SortID>
         </Field>
         <Field Def="u32 dragon">
-            <DisplayName>竜霊</DisplayName>
+            <DisplayName>Dragon spirit</DisplayName>
             <Maximum>9999999</Maximum>
             <Increment>1</Increment>
             <SortID>14</SortID>
         </Field>
         <Field Def="u32 mirrorKnightSign">
-            <DisplayName>ミラーナイト霊（サイン）</DisplayName>
+            <DisplayName>Mirror Knight Spirit (Sign)</DisplayName>
             <Maximum>9999999</Maximum>
             <Increment>1</Increment>
             <SortID>15</SortID>
         </Field>
         <Field Def="u32 abyssSign">
-            <DisplayName>深淵霊（サイン）</DisplayName>
+            <DisplayName>Abyssal Spirit (Sign)</DisplayName>
             <Maximum>9999999</Maximum>
             <Increment>1</Increment>
             <SortID>16</SortID>
         </Field>
         <Field Def="u32 duelBlue">
-            <DisplayName>決闘青霊</DisplayName>
+            <DisplayName>Duel Blue Spirit</DisplayName>
             <Maximum>9999999</Maximum>
             <Increment>1</Increment>
             <SortID>17</SortID>
         </Field>
         <Field Def="u32 duelRed">
-            <DisplayName>決闘赤霊</DisplayName>
+            <DisplayName>Duel Red Spirit</DisplayName>
             <Maximum>9999999</Maximum>
             <Increment>1</Increment>
             <SortID>18</SortID>
         </Field>
         <Field Def="u32 dummy01">
-            <DisplayName>徘徊幻影</DisplayName>
+            <DisplayName>Wandering phantom</DisplayName>
             <Maximum>9999999</Maximum>
             <Increment>1</Increment>
             <SortID>19</SortID>
         </Field>
         <Field Def="u32 dummy02">
-            <DisplayName>篝火幻影</DisplayName>
+            <DisplayName>Bonfire illusion</DisplayName>
             <Maximum>9999999</Maximum>
             <Increment>1</Increment>
             <SortID>20</SortID>
         </Field>
         <Field Def="u32 mirrorKnightIntrude">
-            <DisplayName>ミラーナイト霊(乱入)</DisplayName>
+            <DisplayName>Mirror Knight Spirit (Intrusion)</DisplayName>
             <Maximum>9999999</Maximum>
             <Increment>1</Increment>
             <SortID>21</SortID>
         </Field>
         <Field Def="u32 abyssIntrude">
-            <DisplayName>深淵霊（乱入）</DisplayName>
+            <DisplayName>Abyssal Spirit (Intrusion)</DisplayName>
             <Maximum>9999999</Maximum>
             <Increment>1</Increment>
             <SortID>22</SortID>

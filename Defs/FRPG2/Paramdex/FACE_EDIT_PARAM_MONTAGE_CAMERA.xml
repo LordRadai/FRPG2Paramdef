@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMDEF XmlVersion="0">
     <ParamType>FACE_EDIT_PARAM_MONTAGE_CAMERA</ParamType>
     <DataVersion>1</DataVersion>
@@ -7,7 +7,7 @@
     <FormatVersion>104</FormatVersion>
     <Fields>
         <Field Def="f32 fov = 43">
-            <DisplayName>画角</DisplayName>
+            <DisplayName>Angle of view</DisplayName>
             <Description>画角</Description>
             <Minimum>5</Minimum>
             <Maximum>160</Maximum>
@@ -15,7 +15,7 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="f32 positionX">
-            <DisplayName>カメラ位置X</DisplayName>
+            <DisplayName>Camera position</DisplayName>
             <Description>カメラ位置X</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
@@ -23,7 +23,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="f32 positionY">
-            <DisplayName>カメラ位置Y</DisplayName>
+            <DisplayName>Camera position Y</DisplayName>
             <Description>カメラ位置Y</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
@@ -31,7 +31,7 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="f32 positionZ">
-            <DisplayName>カメラ位置Z</DisplayName>
+            <DisplayName>Camera position Z</DisplayName>
             <Description>カメラ位置Z</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
@@ -39,7 +39,7 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="f32 lookAtX">
-            <DisplayName>カメラ焦点X</DisplayName>
+            <DisplayName>Camera focus x</DisplayName>
             <Description>カメラ焦点X</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
@@ -47,7 +47,7 @@
             <SortID>5</SortID>
         </Field>
         <Field Def="f32 lookAtY">
-            <DisplayName>カメラ焦点Y</DisplayName>
+            <DisplayName>Camera focus Y</DisplayName>
             <Description>カメラ焦点Y</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
@@ -55,7 +55,7 @@
             <SortID>6</SortID>
         </Field>
         <Field Def="f32 lookAtZ">
-            <DisplayName>カメラ焦点Z</DisplayName>
+            <DisplayName>Camera focus Z</DisplayName>
             <Description>カメラ焦点Z</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>

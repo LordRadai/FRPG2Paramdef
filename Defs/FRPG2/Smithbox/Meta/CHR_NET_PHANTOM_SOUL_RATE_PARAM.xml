@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <none AltName="Host" />
+        <white AltName="White spirit" />
+        <smallWhite AltName="Small white spirit" />
+        <gold AltName="Golden spirit" />
+        <smallGold AltName="Small gold spirit" />
+        <coopBlue AltName="Relief spirit" />
+        <versusBlue AltName="Spirit of Retribution" />
+        <signBlack AltName="Dark spirit (sign)" />
+        <intrudeBlack AltName="Dark spirit (intrusion)" />
+        <signRed AltName="Red spirit (sign)" />
+        <intrudeRed AltName="Red spirit (intrusion)" />
+        <bellGuard AltName="Bell Keeper Ash Ghost" />
+        <ratKing AltName="Mouse King Ash Spirit" />
+        <dragon AltName="Dragon spirit" />
+        <mirrorKnight AltName="Mirror night spirit" />
+        <abyss AltName="Abyssal spirit" />
+        <duelBlue AltName="Duel Blue Spirit" />
+        <duelRed AltName="Duel Red Spirit" />
+    </Field>
+</PARAMMETA>

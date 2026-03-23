@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<PARAMMETA XmlVersion="0">
-    <Field>
-        <speedScale AltName="《衝突時速度倍率》"/>
-        <gravityFactor AltName="《重力加速度倍率》"/>
-    </Field>
-</PARAMMETA>

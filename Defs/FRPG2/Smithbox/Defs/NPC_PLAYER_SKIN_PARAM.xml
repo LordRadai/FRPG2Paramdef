@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>NPC_PLAYER_SKIN_PARAM</ParamType>
+    <DataVersion>1</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="u8 skinNo" />
+        <Field Def="dummy8 dummy[3]" />
+        <Field Def="f32 skinR" />
+        <Field Def="f32 skinG" />
+        <Field Def="f32 skinB" />
+    </Fields>
+</PARAMDEF>

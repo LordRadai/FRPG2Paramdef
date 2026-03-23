@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMDEF XmlVersion="0">
     <ParamType>FE_SCROLL_SPEED_PARAM</ParamType>
     <DataVersion>1</DataVersion>
@@ -7,7 +7,7 @@
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="f32 scrollSpeed = 1">
-            <DisplayName>スクロール速度（ピクセル/秒）</DisplayName>
+            <DisplayName>Scroll speed (pixels/sec)</DisplayName>
             <Minimum>0.0099999998</Minimum>
             <Maximum>1000</Maximum>
             <Increment>1</Increment>

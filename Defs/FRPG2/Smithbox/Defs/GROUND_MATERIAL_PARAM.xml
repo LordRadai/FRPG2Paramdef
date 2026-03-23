@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>GROUND_MATERIAL_PARAM</ParamType>
+    <DataVersion>8</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="u32 material" />
+        <Field Def="u32 subMaterial" />
+        <Field Def="f32 moveSpeedRate" />
+        <Field Def="f32 moveRotateRate" />
+        <Field Def="u8 soundLevel" />
+        <Field Def="u8 isTorchOff" />
+        <Field Def="u16 torchOffParam" />
+        <Field Def="u8 isWaterSurface" />
+        <Field Def="u8 environment" />
+        <Field Def="u8 dodgeLimitCategory" />
+        <Field Def="u8 isDisableIdleDamage" />
+        <Field Def="s32 damageId" />
+        <Field Def="u32 fallWaterSfxId" />
+        <Field Def="f32 dodgeLimitDistanceRateRollLight" />
+        <Field Def="f32 dodgeLimitDistanceRateStepLight" />
+        <Field Def="f32 dodgeLimitDistanceRateRollHeavy" />
+        <Field Def="f32 dodgeLimitDistanceRateStepHeavy" />
+        <Field Def="u32 takeWaterParamId" />
+        <Field Def="s32 sfxID0" />
+        <Field Def="s32 sfxID1" />
+        <Field Def="f32 sfxDuration" />
+    </Fields>
+</PARAMDEF>

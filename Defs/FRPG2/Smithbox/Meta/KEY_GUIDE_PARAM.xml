@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <textId AltName="Text id" />
+        <width_radius AltName="X-axis half length or radius" />
+        <height AltName="Y-axis half length" />
+        <depth AltName="Z axis half length" />
+        <depthOffset AltName="Z-axis offset" />
+        <shapeType AltName="Shape" Enum="KEY_GUIDE_SHAPE_TYPE" />
+        <angleType AltName="Dummy poly direction" Enum="KEY_GUIDE_ANGLE_TYPE" />
+        <angleDeg AltName="Allowable angle" />
+        <bFollow AltName="Follow" IsBool="true" />
+        <dummyPolyId AltName="Damipoli ID" />
+        <bEnableActing AltName="Can be displayed during action" IsBool="true" />
+        <posAngleDeg AltName="Position tolerance angle" />
+    </Field>
+    <Enums>
+        <Enum Name="KEY_GUIDE_SHAPE_TYPE" type="u8">
+            <Option Value="0" Name="Sphere" />
+            <Option Value="1" Name="Cylinder" />
+            <Option Value="2" Name="Capsule" />
+            <Option Value="3" Name="Box" />
+        </Enum>
+        <Enum Name="KEY_GUIDE_ANGLE_TYPE" type="u8">
+            <Option Value="0" Name="Dami poly same direction" />
+            <Option Value="1" Name="Dummy poly reverse direction" />
+            <Option Value="2" Name="Dummy poly relative position direction" />
+        </Enum>
+    </Enums>
+</PARAMMETA>

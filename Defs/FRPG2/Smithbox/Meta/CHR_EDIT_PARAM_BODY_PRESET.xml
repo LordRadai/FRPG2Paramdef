@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <bodyScaleHead AltName="Head" />
+        <bodyScaleBreast AltName="Chest" />
+        <bodyScaleAbdomen AltName="Stomach" />
+        <bodyScaleArm AltName="Arm" />
+        <bodyScaleLeg AltName="Feet" />
+    </Field>
+</PARAMMETA>

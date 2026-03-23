@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMDEF XmlVersion="0">
     <ParamType>DAMAGE_ATTACK_TYPE_RATE_PARAM</ParamType>
     <DataVersion>1</DataVersion>
@@ -7,14 +7,14 @@
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="f32 rate">
-            <DisplayName>倍率</DisplayName>
+            <DisplayName>Magnification</DisplayName>
             <EditFlags>Wrap</EditFlags>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="f32 break_rate">
-            <DisplayName>破壊時倍率</DisplayName>
+            <DisplayName>Destruction multiplier</DisplayName>
             <EditFlags>Wrap</EditFlags>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMDEF XmlVersion="0">
     <ParamType>FACE_EDIT_PARAM_COLOR_PRESET</ParamType>
     <DataVersion>1</DataVersion>
@@ -7,7 +7,7 @@
     <FormatVersion>104</FormatVersion>
     <Fields>
         <Field Def="f32 red">
-            <DisplayName>赤</DisplayName>
+            <DisplayName>Red</DisplayName>
             <Description>赤</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
@@ -15,7 +15,7 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="f32 green">
-            <DisplayName>緑</DisplayName>
+            <DisplayName>Green</DisplayName>
             <Description>緑</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
@@ -23,7 +23,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="f32 blue">
-            <DisplayName>青</DisplayName>
+            <DisplayName>Blue</DisplayName>
             <Description>青</Description>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>

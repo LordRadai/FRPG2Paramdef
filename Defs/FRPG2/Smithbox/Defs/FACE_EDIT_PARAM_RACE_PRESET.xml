@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>FACE_EDIT_PARAM_RACE_PRESET</ParamType>
+    <DataVersion>1</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>104</FormatVersion>
+    <Fields>
+        <Field Def="f32 Face_age" />
+        <Field Def="f32 Face_gender" />
+        <Field Def="f32 Face_caricature_geometry" />
+        <Field Def="f32 Face_caricature_texture" />
+        <Field Def="f32 Face_blow_nose_chin_ratio" />
+        <Field Def="f32 Face_forehead_nose_ratio" />
+        <Field Def="f32 Face_heavy_light" />
+        <Field Def="f32 Face_round_gaunt" />
+        <Field Def="f32 Face_tall_short" />
+        <Field Def="f32 Face_up_down" />
+        <Field Def="f32 Face_wide_thin" />
+        <Field Def="f32 Skin_Flushed_Pale" />
+        <Field Def="f32 Skin_Shade_Dark_Light" />
+        <Field Def="f32 Skin_Tint_Orange_Blue" />
+        <Field Def="f32 Skin_Tint_Purple_Yellow" />
+        <Field Def="f32 Skin_Tint_Red_Green" />
+        <Field Def="f32 Nose_Pale_Red" />
+        <Field Def="f32 Cheek_Blush_Light_Red" />
+        <Field Def="f32 Forehead_small_large" />
+        <Field Def="f32 Forehead_tall_short" />
+        <Field Def="f32 Forehead_tilt_foward_back" />
+        <Field Def="f32 Nose_sellion_down_up" />
+        <Field Def="f32 Nose_sellion_shallow_deep" />
+        <Field Def="f32 Nose_sellion_shallow_deep2" />
+        <Field Def="f32 Nose_sellion_thin_wide" />
+        <Field Def="f32 Brow_Ridge_high_low" />
+        <Field Def="f32 Brow_Ridge_Inner_down_up" />
+        <Field Def="f32 Brow_Ridge_Outer_up_down" />
+        <Field Def="f32 Eyes_down_up" />
+        <Field Def="f32 Eyes_small_large" />
+        <Field Def="f32 Eyes_tilt_inward_outward" />
+        <Field Def="f32 Eyes_apart_together" />
+        <Field Def="f32 Eye_Sockets_Bruised_Bright" />
+        <Field Def="f32 Eye_Sockets_Dark_Light" />
+        <Field Def="f32 Eyelids_Light_Dark" />
+        <Field Def="f32 Eyelids_Pale_Red" />
+        <Field Def="f32 Eyeliner_Light_Dark" />
+        <Field Def="f32 Eyeshadow_Light_Dark" />
+        <Field Def="f32 Nose_bridge_shallow_deep" />
+        <Field Def="f32 Nose_bridge_short_long" />
+        <Field Def="f32 Nose_down_up" />
+        <Field Def="f32 Nose_flat_pointed" />
+        <Field Def="f32 Nose_region_concave_convex" />
+        <Field Def="f32 Nose_short_long" />
+        <Field Def="f32 Nose_tilt_down_up" />
+        <Field Def="f32 Nose_nostril_tilt_down_up" />
+        <Field Def="f32 Nose_nostrils_small_large" />
+        <Field Def="f32 Nose_nostrils_wide_thin" />
+        <Field Def="f32 Nares_Small_Large" />
+        <Field Def="f32 Cheekbones_low_high" />
+        <Field Def="f32 Cheekbones_shallow_pronounced" />
+        <Field Def="f32 Cheekbones_thin_wide" />
+        <Field Def="f32 Cheeks_concave_convex" />
+        <Field Def="f32 Cheeks_round_gaunt" />
+        <Field Def="f32 Naso_Labial_Lines_Light_Dark" />
+        <Field Def="f32 Mouth_drawn_pursed" />
+        <Field Def="f32 Mouth_happy_sad" />
+        <Field Def="f32 Mouth_Lips_deflated_inflated" />
+        <Field Def="f32 Mouth_Lips_large_small" />
+        <Field Def="f32 Mouth_Lips_puckered_retracted" />
+        <Field Def="f32 Mouth_Lips_thin_thicks" />
+        <Field Def="f32 Mouth_puckered_retracted" />
+        <Field Def="f32 Mouth_tilt_up_down" />
+        <Field Def="f32 Mouth_underbite_overbite" />
+        <Field Def="f32 Mouth_up_down" />
+        <Field Def="f32 Mouth_wide_thin" />
+        <Field Def="f32 Mouth_Chin_distance_short_long" />
+        <Field Def="f32 Lips_Flushed_Pale" />
+        <Field Def="f32 Lipstick_Dark_Red_Light_Blue" />
+        <Field Def="f32 Lipstick_Dark_Blue_Light_Red" />
+        <Field Def="f32 Chin_foward_backward" />
+        <Field Def="f32 Chin_pronounced_recessed" />
+        <Field Def="f32 Chin_retracted_jutting" />
+        <Field Def="f32 Chin_shallow_deep" />
+        <Field Def="f32 Chin_small_large" />
+        <Field Def="f32 Chin_tall_short" />
+        <Field Def="f32 Chin_wide_thin" />
+        <Field Def="f32 Jaw_retracted_jutting" />
+        <Field Def="f32 Jaw_wide_thin" />
+        <Field Def="f32 Jaw_Neck_slope_high_low" />
+        <Field Def="f32 Jawline_concave_convex" />
+    </Fields>
+</PARAMDEF>

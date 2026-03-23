@@ -1,653 +1,653 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMDEF XmlVersion="0">
     <ParamType>WEAPON_TYPE_PARAM</ParamType>
-    <DataVersion>24</DataVersion>
+    <DataVersion>25</DataVersion>
     <BigEndian>true</BigEndian>
     <Unicode>true</Unicode>
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="u8 allowMagic">
-            <DisplayName>使用許可スペル 魔術</DisplayName>
+            <DisplayName>Permitted spell magic</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>100</SortID>
         </Field>
         <Field Def="u8 allowMiracle">
-            <DisplayName>使用許可スペル 奇蹟</DisplayName>
+            <DisplayName>Permitted Spell Miracle</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>100</SortID>
         </Field>
         <Field Def="u8 allowPyromancy">
-            <DisplayName>使用許可スペル 呪術</DisplayName>
+            <DisplayName>Permitted spell spells</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>100</SortID>
         </Field>
         <Field Def="u8 allowDarkMagic">
-            <DisplayName>使用許可スペル 闇魔術</DisplayName>
+            <DisplayName>Permitted spell: dark magic</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>100</SortID>
         </Field>
         <Field Def="u32 rightStance1HMotionId">
-            <DisplayName>装備アニメ 片手 右手 構え</DisplayName>
+            <DisplayName>Equipment animation: One hand, right hand, stance</DisplayName>
             <Enum>PLAYER_WEAPON_STANCE_MOTION</Enum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>200</SortID>
         </Field>
         <Field Def="u32 leftStance1HMotionId">
-            <DisplayName>装備アニメ 片手 左手 構え</DisplayName>
+            <DisplayName>Equipment Animation One Hand Left Hand Stance</DisplayName>
             <Enum>PLAYER_WEAPON_STANCE_MOTION</Enum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>200</SortID>
         </Field>
         <Field Def="u32 rightStance2HMotionId">
-            <DisplayName>装備アニメ 両手 右手 構え</DisplayName>
+            <DisplayName>Equipment animation: Both hands, right hand, stance</DisplayName>
             <Enum>PLAYER_WEAPON_STANCE_MOTION</Enum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>300</SortID>
         </Field>
         <Field Def="u32 leftStance2HMotionId">
-            <DisplayName>装備アニメ 両手 左手 構え</DisplayName>
+            <DisplayName>Equipment animation Both hands Left hand Stance</DisplayName>
             <Enum>PLAYER_WEAPON_STANCE_MOTION</Enum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>300</SortID>
         </Field>
         <Field Def="u32 rightStanceDual1HMotionId">
-            <DisplayName>装備アニメ 二刀流 片手 右手 構え</DisplayName>
+            <DisplayName>Equipment Animation Dual Wielding One Hand Right Hand Stance</DisplayName>
             <Enum>PLAYER_WEAPON_STANCE_MOTION</Enum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>400</SortID>
         </Field>
         <Field Def="u32 leftStanceDual1HMotionId">
-            <DisplayName>装備アニメ 二刀流 片手 左手 構え</DisplayName>
+            <DisplayName>Equipment Animation Dual Wielding One Hand Left Hand Stance</DisplayName>
             <Enum>PLAYER_WEAPON_STANCE_MOTION</Enum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>400</SortID>
         </Field>
         <Field Def="u32 rightStanceDual2HMotionId">
-            <DisplayName>装備アニメ 二刀流 両手 右手 構え</DisplayName>
+            <DisplayName>Equipment Animation Dual Wield Two Hands Right Hand Stance</DisplayName>
             <Enum>PLAYER_WEAPON_STANCE_MOTION</Enum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>500</SortID>
         </Field>
         <Field Def="u32 leftStanceDual2HMotionId">
-            <DisplayName>装備アニメ 二刀流 両手 左手 構え</DisplayName>
+            <DisplayName>Equipment Animation Dual Wield Two Hands Left Hand Stance</DisplayName>
             <Enum>PLAYER_WEAPON_STANCE_MOTION</Enum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>500</SortID>
         </Field>
         <Field Def="u8 changeWeaponAnim">
-            <DisplayName>装備アニメ 装備切替</DisplayName>
+            <DisplayName>Equipment animation equipment switching</DisplayName>
             <Enum>PLAYER_STORE_WEAPON_MOTION</Enum>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>610</SortID>
         </Field>
         <Field Def="u8 dmyPolyId1HandStanceRightChr">
-            <DisplayName>ダミポリID 片手構え 右手 キャラ</DisplayName>
+            <DisplayName>Damipoli ID one-handed stance right hand character</DisplayName>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>700</SortID>
         </Field>
         <Field Def="u8 dmyPolyId1HandStanceRightWeapon">
-            <DisplayName>ダミポリID 片手構え 右手 武器</DisplayName>
+            <DisplayName>Damipoly ID One-handed stance Right hand Weapon</DisplayName>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>700</SortID>
         </Field>
         <Field Def="u8 dmyPolyId1HandStanceLeftChr">
-            <DisplayName>ダミポリID 片手構え 左手 キャラ</DisplayName>
+            <DisplayName>Damipoli ID one-handed stance left hand character</DisplayName>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>700</SortID>
         </Field>
         <Field Def="u8 dmyPolyId1HandStanceLeftWeapon">
-            <DisplayName>ダミポリID 片手構え 左手 武器</DisplayName>
+            <DisplayName>Damipoli ID One-handed stance Left hand weapon</DisplayName>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>700</SortID>
         </Field>
         <Field Def="u8 dmyPolyIdR2HandStanceChrMain">
-            <DisplayName>ダミポリID 右両手構え 右手 キャラ</DisplayName>
+            <DisplayName>Damipoly ID right hand stance right hand character</DisplayName>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>800</SortID>
         </Field>
         <Field Def="u8 dmyPolyIdR2HandStanceWeaponMain">
-            <DisplayName>ダミポリID 右両手構え 右手 武器</DisplayName>
+            <DisplayName>Damipoly ID right hand stance right hand weapon</DisplayName>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>800</SortID>
         </Field>
         <Field Def="u8 dmyPolyIdR2HandStanceChrSub">
-            <DisplayName>ダミポリID 右両手構え 左手 キャラ</DisplayName>
+            <DisplayName>Damipoly ID right hand stance left hand character</DisplayName>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>800</SortID>
         </Field>
         <Field Def="u8 dmyPolyIdR2HandStanceWeaponSub">
-            <DisplayName>ダミポリID 右両手構え 左手 武器</DisplayName>
+            <DisplayName>Damipoly ID Right hand stance Left hand weapon</DisplayName>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>800</SortID>
         </Field>
         <Field Def="u8 dmyPolyIdL2HandStanceChrMain">
-            <DisplayName>ダミポリID 左両手構え 右手 キャラ</DisplayName>
+            <DisplayName>Damipoly ID left hand stance right hand character</DisplayName>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>900</SortID>
         </Field>
         <Field Def="u8 dmyPolyIdL2HandStanceWeaponMain">
-            <DisplayName>ダミポリID 左両手構え 右手 武器</DisplayName>
+            <DisplayName>Damipoly ID left hand stance right hand weapon</DisplayName>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>900</SortID>
         </Field>
         <Field Def="u8 dmyPolyIdL2HandStanceChrSub">
-            <DisplayName>ダミポリID 左両手構え 左手 キャラ</DisplayName>
+            <DisplayName>Damipoly ID left hand stance left hand character</DisplayName>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>900</SortID>
         </Field>
         <Field Def="u8 dmyPolyIdL2HandStanceWeaponSub">
-            <DisplayName>ダミポリID 左両手構え 左手 武器</DisplayName>
+            <DisplayName>Damipoly ID left hand stance left hand weapon</DisplayName>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>900</SortID>
         </Field>
         <Field Def="u8 dmyPolyIdRightStoreChr">
-            <DisplayName>ダミポリID 収納場所 右手 キャラ</DisplayName>
+            <DisplayName>Damipoly ID storage location right hand character</DisplayName>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>1000</SortID>
         </Field>
         <Field Def="u8 dmyPolyIdRightStoreWeapon">
-            <DisplayName>ダミポリID 収納場所 右手 武器</DisplayName>
+            <DisplayName>Damipoly ID Storage location Right hand Weapon</DisplayName>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>1000</SortID>
         </Field>
         <Field Def="u8 dmyPolyIdLeftStoreChr">
-            <DisplayName>ダミポリID 収納場所 左手 キャラ</DisplayName>
+            <DisplayName>Damipoly ID storage location left hand character</DisplayName>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>1000</SortID>
         </Field>
         <Field Def="u8 dmyPolyIdLeftStoreWeapon">
-            <DisplayName>ダミポリID 収納場所 左手 武器</DisplayName>
+            <DisplayName>Damipoly ID storage location left hand weapon</DisplayName>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>1000</SortID>
         </Field>
         <Field Def="u8 shootCategory">
-            <DisplayName>装備設定 射撃設定</DisplayName>
+            <DisplayName>Equipment settings Shooting settings</DisplayName>
             <Enum>RANGE_WEAPON_CATEGORY</Enum>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>1110</SortID>
         </Field>
         <Field Def="s8 weaponType">
-            <DisplayName>装備設定 武器種別</DisplayName>
+            <DisplayName>Equipment settings Weapon type</DisplayName>
             <Enum>WEAPON_TYPE</Enum>
             <Maximum>127</Maximum>
             <Increment>1</Increment>
             <SortID>1110</SortID>
         </Field>
         <Field Def="u8 attackSeCategory">
-            <DisplayName>装備設定 攻撃SEカテゴリ</DisplayName>
+            <DisplayName>Equipment settings Attack SE category</DisplayName>
             <Enum>WEAPON_ATTACK_SE_CATEGORY</Enum>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>1110</SortID>
         </Field>
         <Field Def="u32 dualWieldingPermission">
-            <DisplayName>装備設定 二刀流許可</DisplayName>
+            <DisplayName>Equipment settings Dual wielding permission</DisplayName>
             <Enum>DUAL_WIELDING_PERMISSION_ID</Enum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>1100</SortID>
         </Field>
         <Field Def="f32 weaponStabilizeBlengWeight = 100">
-            <DisplayName>装備揺れ押さえ 反映割合[%]</DisplayName>
+            <DisplayName>Equipment swing suppression reflection ratio [%]</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>600</SortID>
         </Field>
         <Field Def="f32 weaponSpineTwistBlendWeight = 100">
-            <DisplayName>装備上半身捻り 反映割合[%]</DisplayName>
+            <DisplayName>Equipment upper body twist reflection rate [%]</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>600</SortID>
         </Field>
         <Field Def="angle32 parryStabYawCorrectAngle">
-            <DisplayName>スタブ 左右角度補正値 パリィブレイクスタブ [deg]</DisplayName>
+            <DisplayName>Stub Left/right angle correction value Parry break stub [deg]</DisplayName>
             <Maximum>180</Maximum>
             <Increment>1</Increment>
             <SortID>1200</SortID>
         </Field>
         <Field Def="angle32 guardBreakStabYawCorrectAngle">
-            <DisplayName>スタブ 左右角度補正値 ガードブレイクスタブ [deg]</DisplayName>
+            <DisplayName>Stub Left/right angle correction value Guard break stub [deg]</DisplayName>
             <Maximum>180</Maximum>
             <Increment>1</Increment>
             <SortID>1200</SortID>
         </Field>
         <Field Def="angle32 backStabYawCorrectAngle">
-            <DisplayName>スタブ 左右角度補正値 バックスタブ [deg]</DisplayName>
+            <DisplayName>Stub Left/right angle correction value Back stub [deg]</DisplayName>
             <Maximum>180</Maximum>
             <Increment>1</Increment>
             <SortID>1200</SortID>
         </Field>
         <Field Def="u8 guardPassiveLevelType">
-            <DisplayName>ガード ガードレベル</DisplayName>
+            <DisplayName>Guard guard level</DisplayName>
             <Enum>GUARD_PASSIVE_LEVEL_TYPE</Enum>
             <Maximum>10000</Maximum>
             <Increment>1</Increment>
             <SortID>1300</SortID>
         </Field>
         <Field Def="u8 guardReleaseSpeedCategory">
-            <DisplayName>ガード ガード解除速度</DisplayName>
+            <DisplayName>Guard Guard release speed</DisplayName>
             <Enum>GUARD_RELEASE_SPEED_CATEGORY</Enum>
             <Maximum>255</Maximum>
             <Increment>10</Increment>
             <SortID>1300</SortID>
         </Field>
         <Field Def="u8 parryType">
-            <DisplayName>パリィ パリィ種類</DisplayName>
+            <DisplayName>Parry Parry type</DisplayName>
             <Enum>PARRY_TYPES</Enum>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>1300</SortID>
         </Field>
         <Field Def="u8 allowDarkMiracle">
-            <DisplayName>使用許可スペル 闇奇蹟</DisplayName>
+            <DisplayName>Permitted Spell: Dark Miracle</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>100</SortID>
         </Field>
         <Field Def="f32 leftDamageScale = 1">
-            <DisplayName>左装備時 ダメージ 補正倍率 [倍]</DisplayName>
+            <DisplayName>When equipped on the left, damage correction multiplier [x]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>1450</SortID>
         </Field>
         <Field Def="f32 leftStaminaDamageScale = 1">
-            <DisplayName>左装備時 スタミナ奪取量 補正倍率 [倍]</DisplayName>
+            <DisplayName>When equipped on the left, stamina taken amount correction multiplier [x]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>1450</SortID>
         </Field>
         <Field Def="f32 leftDurabilityDamageScale = 1">
-            <DisplayName>左装備時 耐久削り値 補正倍率 [倍]</DisplayName>
+            <DisplayName>When equipped on the left Durability reduction value correction magnification [x]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>1450</SortID>
         </Field>
         <Field Def="f32 rightDamageScale = 1">
-            <DisplayName>右装備時 ダメージ 補正倍率 [倍]</DisplayName>
+            <DisplayName>When equipped on the right, damage correction multiplier [x]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>1400</SortID>
         </Field>
         <Field Def="f32 rightDtaminaDamageScale = 1">
-            <DisplayName>右装備時 スタミナ奪取量 補正倍率 [倍]</DisplayName>
+            <DisplayName>When equipped on the right, stamina taken amount correction multiplier [x]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>1400</SortID>
         </Field>
         <Field Def="f32 rightDurabilityDamageScale = 1">
-            <DisplayName>右装備時 耐久削り値 補正倍率 [倍]</DisplayName>
+            <DisplayName>When equipped on the right, durability reduction value correction magnification [x]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>1400</SortID>
         </Field>
         <Field Def="f32 counterDamageScale = 1">
-            <DisplayName>カウンターダメージ　補正倍率[倍]</DisplayName>
+            <DisplayName>Counter damage correction magnification [x]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>1480</SortID>
         </Field>
         <Field Def="f32 fallStrikeFallDistRate = 1">
-            <DisplayName>落下攻撃 発生落下高度 倍率</DisplayName>
+            <DisplayName>Falling attack Falling height Multiplier</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>1500</SortID>
         </Field>
         <Field Def="f32 jumpAttackVerticalSpeedRate = 1">
-            <DisplayName>ジャンプ攻撃 上昇速度 補正倍率[倍]</DisplayName>
+            <DisplayName>Jump attack rise speed correction multiplier [x]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>1500</SortID>
         </Field>
         <Field Def="f32 jumpAttackSideDistMinRate = 1">
-            <DisplayName>ジャンプ攻撃 水平速度 最少距離 補正倍率[倍]</DisplayName>
+            <DisplayName>Jump attack Horizontal speed Minimum distance Correction magnification [x]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>1500</SortID>
         </Field>
         <Field Def="f32 jumpAttackSideDistMaxRate = 1">
-            <DisplayName>ジャンプ攻撃 水平速度 最大距離 補正倍率[倍]</DisplayName>
+            <DisplayName>Jump attack Horizontal speed Maximum distance Correction magnification [x]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>1500</SortID>
         </Field>
         <Field Def="f32 jumpAttackSideSpeedMinRate = 1">
-            <DisplayName>ジャンプ攻撃 水平速度 最少 補正倍率[倍]</DisplayName>
+            <DisplayName>Jump attack horizontal speed minimum correction magnification [x]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>1500</SortID>
         </Field>
         <Field Def="f32 jumpAttackSideSpeedMaxRate = 1">
-            <DisplayName>ジャンプ攻撃 水平速度 最大 補正倍率[倍]</DisplayName>
+            <DisplayName>Jump attack horizontal speed maximum correction magnification [x]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>1500</SortID>
         </Field>
         <Field Def="f32 jumpFallAttackFallDistRate = 1">
-            <DisplayName>ジャンプ落下攻撃 発生落下高度 倍率</DisplayName>
+            <DisplayName>Jump fall attack Occurrence fall height Multiplier</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>1500</SortID>
         </Field>
         <Field Def="f32 jumpFallAttackVerticalSpeedRate = 1">
-            <DisplayName>ジャンプ落下攻撃 上昇速度 補正倍率[倍]</DisplayName>
+            <DisplayName>Jump falling attack Rising speed Correction multiplier [x]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>1500</SortID>
         </Field>
         <Field Def="f32 jumpFallAttackSideDistMinRate = 1">
-            <DisplayName>ジャンプ落下攻撃 水平速度 最少距離 補正倍率[倍]</DisplayName>
+            <DisplayName>Jump falling attack Horizontal speed Minimum distance Correction magnification [x]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>1500</SortID>
         </Field>
         <Field Def="f32 jumpFallAttackSideDistMaxRate = 1">
-            <DisplayName>ジャンプ落下攻撃 水平速度 最大距離 補正倍率[倍]</DisplayName>
+            <DisplayName>Jump falling attack Horizontal speed Maximum distance Correction magnification [x]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>1500</SortID>
         </Field>
         <Field Def="f32 jumpFallAttackSideSpeedMinRate = 1">
-            <DisplayName>ジャンプ落下攻撃 水平速度 最少 補正倍率[倍]</DisplayName>
+            <DisplayName>Jump fall attack horizontal speed minimum correction magnification [x]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>1500</SortID>
         </Field>
         <Field Def="f32 jumpFallAttackSideSpeedMaxRate = 1">
-            <DisplayName>ジャンプ落下攻撃 水平速度 最大 補正倍率[倍]</DisplayName>
+            <DisplayName>Jump fall attack horizontal speed maximum correction magnification [x]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>1500</SortID>
         </Field>
         <Field Def="u8 fallStabType = 1">
-            <DisplayName>落下投げ種類</DisplayName>
+            <DisplayName>Falling throw type</DisplayName>
             <Enum>FALL_STAB_TYPES</Enum>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>1500</SortID>
         </Field>
         <Field Def="u8 damageWeaponType">
-            <DisplayName>ダメージ武器タイプ</DisplayName>
+            <DisplayName>Damage weapon type</DisplayName>
             <Enum>DAMAGE_WEAPON_TYPE</Enum>
             <SortID>4000</SortID>
         </Field>
         <Field Def="s16 menuShotRange">
-            <DisplayName>メニュー用 射程距離</DisplayName>
+            <DisplayName>Range for menu</DisplayName>
             <Maximum>9999</Maximum>
             <Increment>1</Increment>
             <SortID>3000</SortID>
         </Field>
         <Field Def="u32 backStabAttackAnimId">
-            <DisplayName>投げ掴み バックスタブ投げ掴み[中]アニメID</DisplayName>
+            <DisplayName>Throw grab Backstab throw grab [Medium] Anime ID</DisplayName>
             <Enum>PLAYER_SP_ATTACK_MOTION</Enum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>1500</SortID>
         </Field>
         <Field Def="u32 gdBreakStabAttackAnimId">
-            <DisplayName>投げ掴み ガードブレイクスタブ投げ掴み[中]アニメID</DisplayName>
+            <DisplayName>Throw Grab Guard Break Stab Throw Grab [Medium] Anime ID</DisplayName>
             <Enum>PLAYER_SP_ATTACK_MOTION</Enum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>1500</SortID>
         </Field>
         <Field Def="f32 lookAtRotationLeftRate = 1">
-            <DisplayName>攻撃時LookAt 旋回限界角度 左 補正倍率[倍]</DisplayName>
+            <DisplayName>LookAt when attacking Turning limit angle Left Correction magnification [x]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>1600</SortID>
         </Field>
         <Field Def="f32 lookAtRotationRightRate = 1">
-            <DisplayName>攻撃時LookAt 旋回限界角度 右 補正倍率[倍]</DisplayName>
+            <DisplayName>LookAt when attacking Turning limit angle Right Correction magnification [x]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>1600</SortID>
         </Field>
         <Field Def="f32 lookAtRotationUpperRate = 1">
-            <DisplayName>攻撃時LookAt 旋回限界角度 上 補正倍率[倍]</DisplayName>
+            <DisplayName>LookAt when attacking Turning limit angle Upper correction magnification [x]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>1600</SortID>
         </Field>
         <Field Def="f32 lookAtRotationLowerRate = 1">
-            <DisplayName>攻撃時LookAt 旋回限界角度 下 補正倍率[倍]</DisplayName>
+            <DisplayName>LookAt when attacking Turning limit angle Lower correction magnification [x]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>1600</SortID>
         </Field>
         <Field Def="f32 lookAtVisibilitySideRate = 1">
-            <DisplayName>攻撃時LookAt 認識限界角度 左右 補正倍率[倍]</DisplayName>
+            <DisplayName>LookAt when attacking Recognition limit angle Left/right correction magnification [times]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>1600</SortID>
         </Field>
         <Field Def="f32 lookAtVisibilityUpperRate = 1">
-            <DisplayName>攻撃時LookAt 認識限界角度 上下 補正倍率[倍]</DisplayName>
+            <DisplayName>LookAt when attacking Recognition limit angle Up/down correction magnification [times]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>1600</SortID>
         </Field>
         <Field Def="f32 lookAtRotationSideSpeedRate = 1">
-            <DisplayName>攻撃時LookAt 左右旋回速度 補正倍率[倍]</DisplayName>
+            <DisplayName>LookAt when attacking Left and right turning speed correction magnification [x]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>1600</SortID>
         </Field>
         <Field Def="f32 lookAtRotationUpperSpeedRate = 1">
-            <DisplayName>攻撃時LookAt 上下旋回速度 補正倍率[倍]</DisplayName>
+            <DisplayName>LookAt when attacking Vertical rotation speed correction magnification [x]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>1600</SortID>
         </Field>
         <Field Def="f32 staminaRecoveryScale">
-            <DisplayName>ガード時 スタミナ回復値 倍率</DisplayName>
+            <DisplayName>Stamina recovery value multiplier when guarding</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>1700</SortID>
         </Field>
         <Field Def="f32 stabilityAddRateSingle1Hand">
-            <DisplayName>受け能力 加算補正値 片手 [%]</DisplayName>
+            <DisplayName>Reception ability Additional correction value One hand [%]</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>1700</SortID>
         </Field>
         <Field Def="f32 stabilityAddRateSingle2Handed">
-            <DisplayName>受け能力 加算補正値 両手 [%]</DisplayName>
+            <DisplayName>Reception ability Additional correction value Both hands [%]</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>1700</SortID>
         </Field>
         <Field Def="f32 stabilityAddRateDual1Hand">
-            <DisplayName>受け能力 加算補正値 二刀流 [%]</DisplayName>
+            <DisplayName>Reception ability Additional correction value Dual wielding [%]</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>1700</SortID>
         </Field>
         <Field Def="f32 stabilityAddRateDual2Handed">
-            <DisplayName>受け能力 加算補正値 二刀流両手 [%]</DisplayName>
+            <DisplayName>Reception ability Additional correction value Dual wielding two-handed [%]</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>1700</SortID>
         </Field>
         <Field Def="f32 meleeAutoPivotRotationSpeedScale = 1">
-            <DisplayName>旋回ホーミング 速度 補正倍率 [倍]</DisplayName>
+            <DisplayName>Turning homing speed correction magnification [times]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>1800</SortID>
         </Field>
         <Field Def="f32 meleeAutoPivotLimitAngleScale = 1">
-            <DisplayName>旋回ホーミング 限界角度 補正倍率 [倍]</DisplayName>
+            <DisplayName>Turning homing limit angle correction magnification [times]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>1800</SortID>
         </Field>
         <Field Def="f32 manualPivotRotationSpeedScale = 1">
-            <DisplayName>任意旋回 速度 補正倍率 [倍]</DisplayName>
+            <DisplayName>Arbitrary turning speed correction magnification [times]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>1800</SortID>
         </Field>
         <Field Def="f32 manualPivotLimitAngleScale = 1">
-            <DisplayName>任意旋回 限界角度 補正倍率 [倍]</DisplayName>
+            <DisplayName>Arbitrary turning limit angle correction magnification [times]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>1800</SortID>
         </Field>
         <Field Def="f32 moveAccelerationScale = 1">
-            <DisplayName>向き変更 加速度 補正倍率 [倍]</DisplayName>
+            <DisplayName>Direction change acceleration correction magnification [times]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>1800</SortID>
         </Field>
         <Field Def="f32 moveMaxSpeedScale = 1">
-            <DisplayName>向き変更 最大速度 補正倍率 [倍]</DisplayName>
+            <DisplayName>Direction change Maximum speed Correction magnification [x]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>1800</SortID>
         </Field>
         <Field Def="f32 moveDecelerationScale = 1">
-            <DisplayName>向き変更 減速度 補正倍率 [倍]</DisplayName>
+            <DisplayName>Direction change deceleration correction magnification [times]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>1800</SortID>
         </Field>
         <Field Def="f32 moveRotationSpeedScale = 1">
-            <DisplayName>向き変更 旋回速度 補正倍率 [倍]</DisplayName>
+            <DisplayName>Direction change Turning speed Correction magnification [times]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>1800</SortID>
         </Field>
         <Field Def="u8 canPredictShot">
-            <DisplayName>予測射撃許可フラグ</DisplayName>
+            <DisplayName>Predictive shooting permission flag</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>1900</SortID>
         </Field>
         <Field Def="u8 shotSeCategory">
-            <DisplayName>発射SEカテゴリ</DisplayName>
+            <DisplayName>Launch SE category</DisplayName>
             <Enum>RANGED_ATK_SHOT_SE_CATEGORY</Enum>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>1910</SortID>
         </Field>
         <Field Def="dummy8 dummy[2]">
-            <DisplayName>ダミー</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>5001</SortID>
         </Field>
         <Field Def="f32 rangedAutoPivotRotationSpeedScale">
-            <DisplayName>自動旋回 速度 補正倍率 [倍]</DisplayName>
+            <DisplayName>Automatic turning speed correction magnification [times]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>1900</SortID>
         </Field>
         <Field Def="f32 rangedManualPivotRotationSpeedScale">
-            <DisplayName>その場旋回 速度 補正倍率 [倍]</DisplayName>
+            <DisplayName>On-spot turning speed correction magnification [times]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>1900</SortID>
         </Field>
         <Field Def="f32 spellChantTimeScale = 1">
-            <DisplayName>詠唱時間 倍率 [倍]</DisplayName>
+            <DisplayName>Casting time magnification [times]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>1910</SortID>
         </Field>
         <Field Def="f32 toughnessPeriodScale">
-            <DisplayName>強靭度期間 倍率 [倍]</DisplayName>
+            <DisplayName>Toughness period Magnification [times]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>1910</SortID>
         </Field>
         <Field Def="f32 decreaseSpeedRateParallelWalk">
-            <DisplayName>射撃構え移動 速度減少割合 平行移動 [%]</DisplayName>
+            <DisplayName>Shooting stance movement Speed ​​reduction rate Parallel movement [%]</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>1950</SortID>
         </Field>
         <Field Def="f32 decreaseSpeedRateWalk">
-            <DisplayName>射撃構え移動 速度減少割合 歩行 [%]</DisplayName>
+            <DisplayName>Shooting stance movement Speed ​​reduction rate Walking [%]</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>1950</SortID>
         </Field>
         <Field Def="f32 decreaseSpeedRateLockOnWalk">
-            <DisplayName>射撃構え移動 速度減少割合 ロックオン移動 [%]</DisplayName>
+            <DisplayName>Shooting stance movement Speed ​​reduction rate Lock-on movement [%]</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>1950</SortID>
         </Field>
         <Field Def="f32 afterAttackAccelerationScale = 1">
-            <DisplayName>攻撃後 歩き出し 加速度 補正倍率 [倍]</DisplayName>
+            <DisplayName>Start walking after attack Acceleration correction magnification [x]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>2000</SortID>
         </Field>
         <Field Def="f32 afterAttackMaxSpeedScale = 1">
-            <DisplayName>攻撃後 歩き出し 速度 最大 補正倍率 [倍]</DisplayName>
+            <DisplayName>Start walking after attack Speed ​​Maximum correction magnification [x]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>2000</SortID>
         </Field>
         <Field Def="f32 afterAttackDecelerationScale = 1">
-            <DisplayName>攻撃後 歩き出し 減速度 補正倍率 [倍]</DisplayName>
+            <DisplayName>Start walking after attack Deceleration correction magnification [x]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>2000</SortID>
         </Field>
         <Field Def="f32 afterAttackRotationSpeedScale = 1">
-            <DisplayName>攻撃後 歩き出し 旋回速度 補正倍率 [倍]</DisplayName>
+            <DisplayName>Start walking after attack Turning speed correction magnification [x]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>2000</SortID>
         </Field>
         <Field Def="u32 weaponMenuCategory">
-            <DisplayName>(メニュー用)カテゴリ</DisplayName>
+            <DisplayName>(For menu) Category</DisplayName>
             <Enum>MENU_CATEGORY_ICON</Enum>
             <SortID>50</SortID>
         </Field>
         <Field Def="s32 snipeCameraParamId">
-            <DisplayName>精密射撃カメラID</DisplayName>
+            <DisplayName>Precision shooting camera ID</DisplayName>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>3000</SortID>
         </Field>
         <Field Def="u8 canGuardAttack">
-            <DisplayName>ガード付き攻撃許可</DisplayName>
+            <DisplayName>Guarded attack permission</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
@@ -661,7 +661,7 @@
             <SortID>5002</SortID>
         </Field>
         <Field Def="dummy8 dummy1[1]">
-            <DisplayName>ダミー</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>5003</SortID>
         </Field>
     </Fields>

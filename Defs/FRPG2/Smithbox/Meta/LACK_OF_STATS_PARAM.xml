@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <minValueByStats AltName="ST deficiency minimum value" />
+        <maxValueByStats AltName="ST deficiency maximum value" />
+        <minValueByStamina AltName="Lack of stamina minimum value" />
+        <maxValueByStamina AltName="Lack of stamina maximum value" />
+    </Field>
+</PARAMMETA>

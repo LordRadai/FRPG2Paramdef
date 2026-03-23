@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>NPC_INFO_PARAM</ParamType>
+    <DataVersion>1</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="s32 graveGenerateTime" />
+        <Field Def="u32 deadTimeValueId" />
+        <Field Def="u32 deadFlagId" />
+        <Field Def="u32 graveSoulValue" />
+        <Field Def="u32 chrNameTextId" />
+        <Field Def="dummy8 aReserved1[4]" />
+        <Field Def="s32 value0" />
+        <Field Def="s32 value1" />
+        <Field Def="s32 value2" />
+        <Field Def="s32 value3" />
+        <Field Def="s32 value4" />
+        <Field Def="s32 value5" />
+    </Fields>
+</PARAMDEF>

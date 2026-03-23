@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>MAP_OBJECT_WHITE_DOOR_PARAM</ParamType>
+    <DataVersion>5</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="u8 whiteDoorCategory" />
+        <Field Def="dummy8 aReserved[3]" />
+        <Field Def="f32 waitTime" />
+        <Field Def="s32 defaultSfxId" />
+        <Field Def="s32 multiPlaySfxId" />
+        <Field Def="u32 frontKeyGuideParamId" />
+        <Field Def="u32 backKeyGuideParamId" />
+        <Field Def="s32 passFlagId" />
+        <Field Def="s32 enableKeyGuideFlagId" />
+    </Fields>
+</PARAMDEF>

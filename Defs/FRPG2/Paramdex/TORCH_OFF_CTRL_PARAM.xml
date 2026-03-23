@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMDEF XmlVersion="0">
     <ParamType>TORCH_OFF_CTRL_PARAM</ParamType>
     <DataVersion>1</DataVersion>
@@ -7,7 +7,7 @@
     <FormatVersion>104</FormatVersion>
     <Fields>
         <Field Def="s32 sfxIdSmall = -1">
-            <DisplayName>SFXID（小）</DisplayName>
+            <DisplayName>SFXID (small)</DisplayName>
             <Description>SFXID（小）</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Minimum>-1</Minimum>
@@ -16,7 +16,7 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="s32 sfxIdNormal = -1">
-            <DisplayName>SFXID（中）</DisplayName>
+            <DisplayName>SFXID (medium)</DisplayName>
             <Description>SFXID（中）</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Minimum>-1</Minimum>
@@ -25,7 +25,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="s32 sfxIdLarge = -1">
-            <DisplayName>SFXID（大）</DisplayName>
+            <DisplayName>SFXID (large)</DisplayName>
             <Description>SFXID（大）</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Minimum>-1</Minimum>
@@ -34,7 +34,7 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="f32 fadeTime">
-            <DisplayName>フェードアウト時間[sec]</DisplayName>
+            <DisplayName>Fade out time [sec]</DisplayName>
             <Description>松明フェードアウト時間</Description>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>10</Maximum>

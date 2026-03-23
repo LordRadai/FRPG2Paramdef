@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMDEF XmlVersion="0">
     <ParamType>CHR_MULTIPLAY_PARAM</ParamType>
     <DataVersion>2</DataVersion>
@@ -7,109 +7,109 @@
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="u16 oneClientHpPercent = 100">
-            <DisplayName>クライアント1名時 エネミー最大HP補正</DisplayName>
+            <DisplayName>Enemy maximum HP correction when 1 client</DisplayName>
             <Maximum>30000</Maximum>
             <Increment>10</Increment>
             <SortID>1</SortID>
         </Field>
         <Field Def="u16 oneClientHpDamagePercent = 100">
-            <DisplayName>クライアント1名時 エネミーHPダメージ補正</DisplayName>
+            <DisplayName>Enemy HP damage correction for 1 client</DisplayName>
             <Maximum>30000</Maximum>
             <Increment>10</Increment>
             <SortID>2</SortID>
         </Field>
         <Field Def="u16 oneClientAilmentDamagePercent = 100">
-            <DisplayName>クライアント1名時 エネミー耐性ダメージ補正</DisplayName>
+            <DisplayName>Enemy resistance damage correction for 1 client</DisplayName>
             <Maximum>30000</Maximum>
             <Increment>10</Increment>
             <SortID>3</SortID>
         </Field>
         <Field Def="u16 oneClientStaminaDamagePercent = 100">
-            <DisplayName>クライアント1名時 エネミー被スタミナ奪取量補正</DisplayName>
+            <DisplayName>When there is 1 client, the amount of stamina taken from the enemy is corrected.</DisplayName>
             <Maximum>30000</Maximum>
             <Increment>10</Increment>
             <SortID>4</SortID>
         </Field>
         <Field Def="u16 oneClientPoiseDamagePercent = 100">
-            <DisplayName>クライアント1名時 エネミー被強靭削り値補正</DisplayName>
+            <DisplayName>When there is 1 client, enemy strength reduction value correction</DisplayName>
             <Maximum>30000</Maximum>
             <Increment>10</Increment>
             <SortID>5</SortID>
         </Field>
         <Field Def="u16 oneClientStunDamagePercent = 100">
-            <DisplayName>クライアント1名時 エネミー被気絶値補正</DisplayName>
+            <DisplayName>Enemy stun value correction when 1 client</DisplayName>
             <Maximum>30000</Maximum>
             <Increment>10</Increment>
             <SortID>6</SortID>
         </Field>
         <Field Def="u16 twoClientsHpPercent = 100">
-            <DisplayName>クライアント2名時 エネミー最大HP補正</DisplayName>
+            <DisplayName>Enemy maximum HP correction when 2 clients</DisplayName>
             <Maximum>30000</Maximum>
             <Increment>10</Increment>
             <SortID>7</SortID>
         </Field>
         <Field Def="u16 twoClientsHpDamagePercent = 100">
-            <DisplayName>クライアント2名時 エネミーHPダメージ補正</DisplayName>
+            <DisplayName>Enemy HP damage correction for 2 clients</DisplayName>
             <Maximum>30000</Maximum>
             <Increment>10</Increment>
             <SortID>8</SortID>
         </Field>
         <Field Def="u16 twoClientsAilmentDamagePercent = 100">
-            <DisplayName>クライアント2名時 エネミー耐性ダメージ補正</DisplayName>
+            <DisplayName>Enemy resistance damage correction for 2 clients</DisplayName>
             <Maximum>30000</Maximum>
             <Increment>10</Increment>
             <SortID>9</SortID>
         </Field>
         <Field Def="u16 twoClientsStaminaDamagePercent = 100">
-            <DisplayName>クライアント2名時 エネミー被スタミナ奪取量補正</DisplayName>
+            <DisplayName>When there are 2 clients, the amount of stamina taken from the enemy is corrected.</DisplayName>
             <Maximum>30000</Maximum>
             <Increment>10</Increment>
             <SortID>10</SortID>
         </Field>
         <Field Def="u16 twoClientsPoiseDamagePercent = 100">
-            <DisplayName>クライアント2名時 エネミー被強靭削り値補正</DisplayName>
+            <DisplayName>When there are 2 clients, enemy toughness machining value correction</DisplayName>
             <Maximum>30000</Maximum>
             <Increment>10</Increment>
             <SortID>11</SortID>
         </Field>
         <Field Def="u16 twoClientsStunDamagePercent = 100">
-            <DisplayName>クライアント2名時 エネミー被気絶値補正</DisplayName>
+            <DisplayName>Enemy stun value correction when 2 clients</DisplayName>
             <Maximum>30000</Maximum>
             <Increment>10</Increment>
             <SortID>12</SortID>
         </Field>
         <Field Def="u16 threeClientsHpPercent = 100">
-            <DisplayName>クライアント3名時 エネミー最大HP補正</DisplayName>
+            <DisplayName>Enemy maximum HP correction when 3 clients</DisplayName>
             <Maximum>30000</Maximum>
             <Increment>10</Increment>
             <SortID>7</SortID>
         </Field>
         <Field Def="u16 threeClientsHpDamagePercent = 100">
-            <DisplayName>クライアント3名時 エネミーHPダメージ補正</DisplayName>
+            <DisplayName>Enemy HP damage correction for 3 clients</DisplayName>
             <Maximum>30000</Maximum>
             <Increment>10</Increment>
             <SortID>8</SortID>
         </Field>
         <Field Def="u16 threeClientsAilmentDamagePercent = 100">
-            <DisplayName>クライアント3名時 エネミー耐性ダメージ補正</DisplayName>
+            <DisplayName>Enemy resistance damage correction for 3 clients</DisplayName>
             <Maximum>30000</Maximum>
             <Increment>10</Increment>
             <SortID>9</SortID>
         </Field>
         <Field Def="u16 threeClientsStaminaDamagePercent = 100">
-            <DisplayName>クライアント3名時 エネミー被スタミナ奪取量補正</DisplayName>
+            <DisplayName>When there are 3 clients, the amount of stamina taken from the enemy is corrected.</DisplayName>
             <Maximum>30000</Maximum>
             <Increment>10</Increment>
             <SortID>10</SortID>
         </Field>
         <Field Def="u16 threeClientsPoiseDamagePercent = 100">
-            <DisplayName>クライアント3名時 エネミー被強靭削り値補正</DisplayName>
+            <DisplayName>When there are 3 clients, enemy strength reduction value correction</DisplayName>
             <Maximum>30000</Maximum>
             <Increment>10</Increment>
             <SortID>11</SortID>
         </Field>
         <Field Def="u16 threeClientsStunDamagePercent = 100">
-            <DisplayName>クライアント3名時 エネミー被気絶値補正</DisplayName>
+            <DisplayName>Enemy stun value correction when 3 clients</DisplayName>
             <Maximum>30000</Maximum>
             <Increment>10</Increment>
             <SortID>12</SortID>

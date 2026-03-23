@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <positionX AltName="Position" />
+        <positionY AltName="Position Y" />
+        <positionZ AltName="Position Z" />
+        <angleX AltName="Angle x" />
+        <angleY AltName="Angle Y" />
+        <angleZ AltName="Angle Z" />
+        <formType AltName="Shape" Enum="GENERAL_LOCATION_FORM_TYPE_ENUM" />
+        <colorR AltName="Color R" />
+        <colorG AltName="Color G" />
+        <colorB AltName="Color B" />
+        <radius AltName="Radius/X width" />
+        <height AltName="Height/Y width" />
+        <depth AltName="Z width" />
+        <aReserved AltName="Reservation" Padding="true" />
+        <memoryBlockId AltName="Memory block ID" />
+        <categoryType AltName="Category" Enum="GENERAL_LOCATION_EVENT_ENUM" />
+        <categoryId AltName="ID in category" />
+    </Field>
+    <Enums>
+        <Enum Name="GENERAL_LOCATION_FORM_TYPE_ENUM" type="u8">
+            <Option Value="0" Name="Point" />
+            <Option Value="1" Name="Sphere" />
+            <Option Value="2" Name="Cylinder" />
+            <Option Value="3" Name="Box" />
+        </Enum>
+        <Enum Name="GENERAL_LOCATION_EVENT_ENUM" type="u8">
+            <Option Value="0" Name="No setting" />
+            <Option Value="1" Name="Black spirit invasion" />
+            <Option Value="2" Name="Logic" />
+            <Option Value="3" Name="Event trigger" />
+            <Option Value="4" Name="Bullet firing" />
+            <Option Value="5" Name="Navigation point" />
+            <Option Value="6" Name="Vagrant" />
+            <Option Value="7" Name="Navigation mesh change" />
+            <Option Value="8" Name="Not lockable" />
+            <Option Value="9" Name="Generator operating conditions" />
+            <Option Value="10" Name="Event judgment" />
+            <Option Value="11" Name="Logic intrusion prohibited" />
+            <Option Value="12" Name="Resident event blood letter" />
+            <Option Value="13" Name="Event blood letter" />
+            <Option Value="14" Name="Wind generator" />
+            <Option Value="15" Name="Slippery floor" />
+            <Option Value="16" Name="Gas" />
+            <Option Value="17" Name="Damage" />
+            <Option Value="18" Name="Bright area" />
+            <Option Value="19" Name="No blood writing allowed" />
+            <Option Value="20" Name="Blood text hidden" />
+            <Option Value="21" Name="Petrified statue" />
+            <Option Value="22" Name="Advice blood letters" />
+            <Option Value="23" Name="Backread safety between map connections" />
+        </Enum>
+    </Enums>
+</PARAMMETA>

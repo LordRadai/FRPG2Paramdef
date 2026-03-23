@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<PARAMMETA XmlVersion="0">
-    <Field>
-        <isLiquid AltName="液体か？" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <isArrowPenetrate AltName="矢が刺さるか？" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <padding AltName="予約"/>
-    </Field>
-</PARAMMETA>

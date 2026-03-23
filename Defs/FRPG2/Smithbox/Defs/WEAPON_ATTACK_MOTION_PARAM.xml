@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>WEAPON_ATTACK_MOTION_PARAM</ParamType>
+    <DataVersion>1</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="u32 attackAnim" />
+        <Field Def="u8 controlType" />
+        <Field Def="dummy8 dummy0[3]" />
+        <Field Def="f32 startPlaySpeed" />
+        <Field Def="f32 endPlaySpeed" />
+        <Field Def="f32 rotationSpeedScale" />
+        <Field Def="f32 limitAngleScale" />
+        <Field Def="f32 predictPositionTime" />
+        <Field Def="f32 wristTiltRate" />
+        <Field Def="f32 staggerHandMaxBlendWeight" />
+        <Field Def="f32 staggerPelvisMaxBlendWeight" />
+        <Field Def="f32 attackPushBackRate" />
+        <Field Def="u32 damageId01" />
+        <Field Def="u32 damageId02" />
+        <Field Def="u32 damageId03" />
+        <Field Def="u32 bulletId01" />
+        <Field Def="u32 bulletDamageId01" />
+        <Field Def="u32 bulletId02" />
+        <Field Def="u32 bulletDamageId02" />
+        <Field Def="u32 bulletId03" />
+        <Field Def="u32 bulletDamageId03" />
+    </Fields>
+</PARAMDEF>

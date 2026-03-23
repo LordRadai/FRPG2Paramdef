@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <materialNone AltName="None" Enum="DAMAGE_EFFECT_MATERIAL" />
+        <materialMetal AltName="Iron" Enum="DAMAGE_EFFECT_MATERIAL" />
+        <materialHeavyMetal AltName="Heavy iron" Enum="DAMAGE_EFFECT_MATERIAL" />
+        <materialWood AltName="Tree" Enum="DAMAGE_EFFECT_MATERIAL" />
+        <materialWater AltName="Water" Enum="DAMAGE_EFFECT_MATERIAL" />
+        <materialSwamp AltName="Swamp" Enum="DAMAGE_EFFECT_MATERIAL" />
+        <materialLumber AltName="Wood" Enum="DAMAGE_EFFECT_MATERIAL" />
+        <materialMeat AltName="Flesh of the living" Enum="DAMAGE_EFFECT_MATERIAL" />
+        <materialDeadMeat AltName="Corpse meat" Enum="DAMAGE_EFFECT_MATERIAL" />
+        <materialInsect AltName="Insect" Enum="DAMAGE_EFFECT_MATERIAL" />
+        <materialGiant AltName="Giant" Enum="DAMAGE_EFFECT_MATERIAL" />
+        <materialBone AltName="Bone" Enum="DAMAGE_EFFECT_MATERIAL" />
+        <materialCopper AltName="Copper" Enum="DAMAGE_EFFECT_MATERIAL" />
+        <materialEnergy AltName="Energy" Enum="DAMAGE_EFFECT_MATERIAL" />
+        <materialFire AltName="Flame" Enum="DAMAGE_EFFECT_MATERIAL" />
+        <materialThunder AltName="Thunder" Enum="DAMAGE_EFFECT_MATERIAL" />
+        <materialDark AltName="Darkness" Enum="DAMAGE_EFFECT_MATERIAL" />
+        <materialMagicalPower AltName="Magic power" Enum="DAMAGE_EFFECT_MATERIAL" />
+        <materialStone AltName="Stone" Enum="DAMAGE_EFFECT_MATERIAL" />
+        <materialDirt AltName="Soil" Enum="DAMAGE_EFFECT_MATERIAL" />
+        <materialCarpet AltName="Carpet" Enum="DAMAGE_EFFECT_MATERIAL" />
+        <materialGrass AltName="Grass" Enum="DAMAGE_EFFECT_MATERIAL" />
+        <materialBallast AltName="Gravel" Enum="DAMAGE_EFFECT_MATERIAL" />
+        <materialCloth AltName="Cloth" Enum="DAMAGE_EFFECT_MATERIAL" />
+        <materialSand AltName="Sand" Enum="DAMAGE_EFFECT_MATERIAL" />
+        <materialAsh AltName="Ash" Enum="DAMAGE_EFFECT_MATERIAL" />
+        <materialPoisonSwamp AltName="Poisonous swamp" Enum="DAMAGE_EFFECT_MATERIAL" />
+        <materialOil AltName="Oil" Enum="DAMAGE_EFFECT_MATERIAL" />
+        <materialCoalTar AltName="Coal tar" Enum="DAMAGE_EFFECT_MATERIAL" />
+        <materialLava AltName="Lava" Enum="DAMAGE_EFFECT_MATERIAL" />
+        <materialThread AltName="Spider thread" Enum="DAMAGE_EFFECT_MATERIAL" />
+        <materialCrystal AltName="Sulfur crystals" Enum="DAMAGE_EFFECT_MATERIAL" />
+        <materialSoul AltName="Soul" Enum="DAMAGE_EFFECT_MATERIAL" />
+        <materialFrog AltName="Beautiful voice frog" Enum="DAMAGE_EFFECT_MATERIAL" />
+        <unkMaterial0 AltName="Beautiful voice frog" Enum="DAMAGE_EFFECT_MATERIAL" />
+        <unkMaterial1 AltName="Beautiful voice frog [1]" Enum="DAMAGE_EFFECT_MATERIAL" />
+        <unkMaterial2 AltName="Beautiful voice frog [2]" Enum="DAMAGE_EFFECT_MATERIAL" />
+        <unkMaterial3 AltName="Beautiful voice frog [3]" Enum="DAMAGE_EFFECT_MATERIAL" />
+        <unkMaterial4 AltName="Beautiful voice frog [4]" Enum="DAMAGE_EFFECT_MATERIAL" />
+        <unkMaterial5 AltName="Beautiful voice frog [5]" Enum="DAMAGE_EFFECT_MATERIAL" />
+        <unkMaterial6 AltName="Beautiful voice frog [6]" Enum="DAMAGE_EFFECT_MATERIAL" />
+        <unkMaterial7 AltName="Beautiful voice frog [7]" Enum="DAMAGE_EFFECT_MATERIAL" />
+        <unkMaterial8 AltName="Beautiful voice frog [8]" Enum="DAMAGE_EFFECT_MATERIAL" />
+        <dummy AltName="Reserved area" Padding="true" />
+    </Field>
+    <Enums>
+        <Enum Name="DAMAGE_EFFECT_MATERIAL" type="u8">
+            <Option Value="0" Name="(No setting)" />
+            <Option Value="1" Name="None" />
+            <Option Value="2" Name="Iron" />
+            <Option Value="3" Name="Heavy iron" />
+            <Option Value="4" Name="Tree" />
+            <Option Value="5" Name="Water" />
+            <Option Value="6" Name="Swamp" />
+            <Option Value="7" Name="Wood" />
+            <Option Value="8" Name="Flesh of the living" />
+            <Option Value="9" Name="Corpse meat" />
+            <Option Value="10" Name="Insect" />
+            <Option Value="11" Name="Giant" />
+            <Option Value="12" Name="Bone" />
+            <Option Value="13" Name="Copper" />
+            <Option Value="14" Name="Energy" />
+            <Option Value="15" Name="Flame" />
+            <Option Value="16" Name="Lightning" />
+            <Option Value="17" Name="Darkness" />
+            <Option Value="18" Name="Magic power" />
+            <Option Value="19" Name="Stone" />
+            <Option Value="20" Name="Soil" />
+            <Option Value="21" Name="Carpet" />
+            <Option Value="22" Name="Grass" />
+            <Option Value="23" Name="Gravel" />
+            <Option Value="24" Name="Cloth" />
+            <Option Value="25" Name="Sand" />
+            <Option Value="26" Name="Ash" />
+            <Option Value="27" Name="Poisonous swamp" />
+            <Option Value="28" Name="Oil" />
+            <Option Value="29" Name="Coal tar" />
+            <Option Value="30" Name="Lava" />
+            <Option Value="31" Name="Spider thread" />
+            <Option Value="32" Name="Sulfur crystals" />
+            <Option Value="33" Name="Soul" />
+            <Option Value="34" Name="Frog" />
+        </Enum>
+    </Enums>
+</PARAMMETA>

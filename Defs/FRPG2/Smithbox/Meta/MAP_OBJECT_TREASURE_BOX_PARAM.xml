@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <forceTrapEnable AltName="《Forced activation of trap》" />
+        <aReserved1 AltName="Reservation" Padding="true" />
+        <trapGasDamageId AltName="《Trap Gas: Damage》" />
+        <trapHealDamageId AltName="《Trap Gas: Recovery》" />
+        <trapBurstDamageId AltName="《Trap Explosion》" />
+        <trapArrowDamageId AltName="《Trap Continuous Arrow》" />
+        <trapEnemy AltName="《Trap Generate: Enemy》" />
+    </Field>
+</PARAMMETA>

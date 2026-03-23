@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <HpGainPar AltName="Stamina loss speed" />
+        <StGainPar AltName="Stamina reduction speed" />
+        <HpGainAnimLimit AltName="Threshold for starting physical strength reduction effect" />
+        <StGainAnimLimit AltName="Stamina reduction effect start threshold" />
+        <HpGainDelay AltName="Stamina reduction effect start delay time" />
+        <StGainDelay AltName="Stamina reduction effect start delay time" />
+        <EnemyHpGainPar AltName="Enemy health reduction speed" />
+        <EnemyHpGainAnimLimit AltName="Enemy physical strength reduction effect start threshold" />
+        <EnemyHpGainDelay AltName="Enemy physical strength reduction effect start delay time" />
+        <HpMinSize AltName="Length of health gauge at minimum status" />
+        <StMinSize AltName="Stamina gauge length at minimum status" />
+        <HpMaxSize AltName="Length of stamina gauge at max status stamina" />
+        <StMaxSize AltName="Stamina gauge length at maximum status Stamina" />
+    </Field>
+</PARAMMETA>

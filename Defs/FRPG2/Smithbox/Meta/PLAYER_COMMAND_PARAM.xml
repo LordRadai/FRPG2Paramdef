@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <CommandType AltName="コマンド検出方法" ProjectEnum="PLAYER_COMMAND_TYPE"/>
+        <dummy0 AltName="ダミー"/>
+        <fTimeOut AltName="タイムアウト秒"/>
+        <fDetectContinueTime AltName="検出継続時間"/>
+        <fCommandCompletionTime AltName="コマンド成立許容時間"/>
+        <dummy1 AltName="ダミー"/>
+        <fCenterAng AltName="基準角度"/>
+        <fDetectAng AltName="検出許容角度"/>
+        <fDetectTurnAng AltName="検出回転角度"/>
+        <dummy2 AltName="ダミー"/>
+        <fInputThreshold AltName="アナログ入力閾値"/>
+        <fNeutralThreshold AltName="未入力閾値"/>
+        <dummy3 AltName="ダミー"/>
+        <stickSide AltName="スティック左右" ProjectEnum="PLAYER_COMMAND_STICK_SIDE"/>
+        <stickView AltName="スティック視点" ProjectEnum="PLAYER_COMMAND_STICK_VIEW"/>
+        <turnDir AltName="スティック回転方向" ProjectEnum="PLAYER_COMMAND_STICK_TURN_DIR"/>
+        <dummy4 AltName="ダミー"/>
+    </Field>
+</PARAMMETA>

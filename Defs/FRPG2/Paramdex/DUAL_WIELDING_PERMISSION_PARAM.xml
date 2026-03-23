@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMDEF XmlVersion="0">
     <ParamType>DUAL_WIELDING_PERMISSION_PARAM</ParamType>
-    <DataVersion>3</DataVersion>
+    <DataVersion>5</DataVersion>
     <BigEndian>true</BigEndian>
     <Unicode>true</Unicode>
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="u8 none">
-            <DisplayName>なし</DisplayName>
+            <DisplayName>None</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1</Maximum>
@@ -15,7 +15,7 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="u8 unarmed">
-            <DisplayName>二刀流 素手</DisplayName>
+            <DisplayName>Dual wielding bare hands</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1</Maximum>
@@ -23,7 +23,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="u8 fist">
-            <DisplayName>二刀流 拳</DisplayName>
+            <DisplayName>Dual wield fist</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1</Maximum>
@@ -31,7 +31,7 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="u8 dagger">
-            <DisplayName>二刀流 短剣</DisplayName>
+            <DisplayName>Dual wield dagger</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1</Maximum>
@@ -39,7 +39,7 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="u8 thrustingSword">
-            <DisplayName>二刀流 刺剣</DisplayName>
+            <DisplayName>Dual sword sword</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1</Maximum>
@@ -47,7 +47,7 @@
             <SortID>5</SortID>
         </Field>
         <Field Def="u8 sword">
-            <DisplayName>二刀流 片手剣</DisplayName>
+            <DisplayName>Two-handed sword</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1</Maximum>
@@ -55,7 +55,7 @@
             <SortID>6</SortID>
         </Field>
         <Field Def="u8 doublelBlade">
-            <DisplayName>二刀流 双刃剣</DisplayName>
+            <DisplayName>Dual-edged sword</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1</Maximum>
@@ -63,7 +63,7 @@
             <SortID>7</SortID>
         </Field>
         <Field Def="u8 hammer">
-            <DisplayName>二刀流 片手槌</DisplayName>
+            <DisplayName>Dual wielding one-handed hammer</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1</Maximum>
@@ -71,7 +71,7 @@
             <SortID>8</SortID>
         </Field>
         <Field Def="u8 greatSword">
-            <DisplayName>二刀流 両手剣</DisplayName>
+            <DisplayName>Two-handed sword</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1</Maximum>
@@ -79,7 +79,7 @@
             <SortID>9</SortID>
         </Field>
         <Field Def="u8 axe">
-            <DisplayName>二刀流 片手斧</DisplayName>
+            <DisplayName>Dual-wielding one-handed ax</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1</Maximum>
@@ -87,7 +87,7 @@
             <SortID>10</SortID>
         </Field>
         <Field Def="u8 greatHammer">
-            <DisplayName>二刀流 両手槌</DisplayName>
+            <DisplayName>Two-handed hammer</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1</Maximum>
@@ -95,7 +95,7 @@
             <SortID>11</SortID>
         </Field>
         <Field Def="u8 ultraGreatSword">
-            <DisplayName>二刀流 両手特大剣</DisplayName>
+            <DisplayName>Two-handed two-handed oversized sword</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1</Maximum>
@@ -103,7 +103,7 @@
             <SortID>12</SortID>
         </Field>
         <Field Def="u8 greatAxe">
-            <DisplayName>二刀流 両手斧</DisplayName>
+            <DisplayName>Dual-wielding two-handed ax</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1</Maximum>
@@ -111,7 +111,7 @@
             <SortID>13</SortID>
         </Field>
         <Field Def="u8 scythe">
-            <DisplayName>二刀流 両手鎌</DisplayName>
+            <DisplayName>Two-handed sickle</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1</Maximum>
@@ -119,7 +119,7 @@
             <SortID>14</SortID>
         </Field>
         <Field Def="u8 halberd">
-            <DisplayName>二刀流 両手長斧</DisplayName>
+            <DisplayName>Dual-wielding two-handed long ax</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1</Maximum>
@@ -127,7 +127,7 @@
             <SortID>15</SortID>
         </Field>
         <Field Def="u8 spear">
-            <DisplayName>二刀流 槍</DisplayName>
+            <DisplayName>Dual wielding spear</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1</Maximum>
@@ -135,7 +135,7 @@
             <SortID>16</SortID>
         </Field>
         <Field Def="u8 lance">
-            <DisplayName>二刀流 突撃槍</DisplayName>
+            <DisplayName>Dual wield assault spear</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1</Maximum>
@@ -143,7 +143,7 @@
             <SortID>17</SortID>
         </Field>
         <Field Def="u8 whip">
-            <DisplayName>二刀流 鞭</DisplayName>
+            <DisplayName>Dual wielding whip</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1</Maximum>
@@ -151,7 +151,7 @@
             <SortID>18</SortID>
         </Field>
         <Field Def="u8 bow">
-            <DisplayName>二刀流 片手ボウ</DisplayName>
+            <DisplayName>Dual wielding one-handed bow</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1</Maximum>
@@ -159,7 +159,7 @@
             <SortID>19</SortID>
         </Field>
         <Field Def="u8 burstBow">
-            <DisplayName>二刀流 連射片手ボウ</DisplayName>
+            <DisplayName>Dual-wielding rapid-fire one-handed bow</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1</Maximum>
@@ -167,7 +167,7 @@
             <SortID>20</SortID>
         </Field>
         <Field Def="u8 wand">
-            <DisplayName>二刀流 片手杖</DisplayName>
+            <DisplayName>Dual wielding one-handed cane</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1</Maximum>
@@ -175,7 +175,7 @@
             <SortID>21</SortID>
         </Field>
         <Field Def="u8 bell">
-            <DisplayName>二刀流 片手ベル</DisplayName>
+            <DisplayName>Dual wielding one-handed bell</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1</Maximum>
@@ -183,7 +183,7 @@
             <SortID>22</SortID>
         </Field>
         <Field Def="u8 rightShield">
-            <DisplayName>二刀流 右盾</DisplayName>
+            <DisplayName>Dual sword right shield</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1</Maximum>
@@ -191,7 +191,7 @@
             <SortID>23</SortID>
         </Field>
         <Field Def="u8 leftShield">
-            <DisplayName>二刀流 左盾</DisplayName>
+            <DisplayName>Dual sword left shield</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1</Maximum>
@@ -199,7 +199,7 @@
             <SortID>24</SortID>
         </Field>
         <Field Def="u8 claw">
-            <DisplayName>二刀流 かぎ爪</DisplayName>
+            <DisplayName>Dual wielding claws</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1</Maximum>

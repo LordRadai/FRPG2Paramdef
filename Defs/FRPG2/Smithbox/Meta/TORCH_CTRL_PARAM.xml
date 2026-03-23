@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <sfxId AltName="SFXID" />
+        <lightId AltName="Light source ID" />
+        <life AltName="Lifespan [seconds]" />
+    </Field>
+</PARAMMETA>

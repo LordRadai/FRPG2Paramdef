@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>CAMERA_MENU_PARAM</ParamType>
+    <DataVersion>2</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="u8 cameraType" />
+        <Field Def="u8 cameraBasePosType" />
+        <Field Def="dummy8 reserved[2]" />
+        <Field Def="angle32 fovY" />
+        <Field Def="f32 hitCollision" />
+        <Field Def="f32 fulcrumOffsetX" />
+        <Field Def="f32 fulcrumOffsetY" />
+        <Field Def="f32 fulcrumOffsetZ" />
+        <Field Def="f32 lookAtOffsetX" />
+        <Field Def="f32 lookAtOffsetY" />
+        <Field Def="f32 lookAtOffsetZ" />
+        <Field Def="f32 positionOffsetX" />
+        <Field Def="f32 positionOffsetY" />
+        <Field Def="f32 positionOffsetZ" />
+        <Field Def="f32 rotHiSpeedRateIncTime" />
+        <Field Def="angle32 rotRangeMinX" />
+        <Field Def="angle32 rotRangeMaxX" />
+        <Field Def="angle32 rotSpeedX_Min" />
+        <Field Def="angle32 rotSpeedX_Max" />
+        <Field Def="angle32 rotSpeedY_Min" />
+        <Field Def="angle32 rotSpeedY_Max" />
+        <Field Def="angle32 rotHiSpeedX_Min" />
+        <Field Def="angle32 rotHiSpeedX_Max" />
+        <Field Def="angle32 rotHiSpeedY_Min" />
+        <Field Def="angle32 rotHiSpeedY_Max" />
+        <Field Def="angle32 directPitchAng" />
+        <Field Def="f32 directPitchRate" />
+        <Field Def="angle32 escapeWallRotAddY" />
+        <Field Def="angle32 escapeWallRotMaxY" />
+        <Field Def="f32 escapeWallRotDampRatio" />
+        <Field Def="angle32 escapeWallWingAngY" />
+        <Field Def="f32 escapeWallWingLen" />
+        <Field Def="f32 escapeWallWingRadius" />
+        <Field Def="f32 escapeWallWingSeparate" />
+        <Field Def="f32 resetMinTime" />
+        <Field Def="f32 resetMaxTime" />
+        <Field Def="f32 resetSpeedChangeRate" />
+        <Field Def="u8 startTransType" />
+        <Field Def="u8 endTransType" />
+        <Field Def="dummy8 reserved1[2]" />
+        <Field Def="f32 startTransTime" />
+        <Field Def="f32 endTransTime" />
+    </Fields>
+</PARAMDEF>

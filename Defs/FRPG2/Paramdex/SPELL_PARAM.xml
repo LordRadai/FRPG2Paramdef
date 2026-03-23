@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMDEF XmlVersion="0">
     <ParamType>SPELL_PARAM</ParamType>
     <DataVersion>14</DataVersion>
@@ -7,7 +7,7 @@
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="s32 spellCategory">
-            <DisplayName>スペルカテゴリ</DisplayName>
+            <DisplayName>Spell category</DisplayName>
             <Enum>SPELL_CATEGORY</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -15,7 +15,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 isDual2HandedSpellAllowed">
-            <DisplayName>二刀流両手スペル許可</DisplayName>
+            <DisplayName>Dual-wielding two-handed spells allowed</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -24,16 +24,16 @@
             <SortID>100</SortID>
         </Field>
         <Field Def="u8 availableCondition">
-            <DisplayName>使用可能条件</DisplayName>
+            <DisplayName>Conditions for use</DisplayName>
             <Enum>SPELL_AVAILABLE_CONDITION</Enum>
             <SortID>110</SortID>
         </Field>
         <Field Def="dummy8 dummy0[2]">
-            <DisplayName>ダミー</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>1501</SortID>
         </Field>
         <Field Def="u16 intelligence">
-            <DisplayName>必要ステータス 理力</DisplayName>
+            <DisplayName>Required status Reason</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>999</Maximum>
@@ -41,7 +41,7 @@
             <SortID>200</SortID>
         </Field>
         <Field Def="u16 faith">
-            <DisplayName>必要ステータス 信仰</DisplayName>
+            <DisplayName>Required status Faith</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>999</Maximum>
@@ -49,7 +49,7 @@
             <SortID>200</SortID>
         </Field>
         <Field Def="u32 baseSpellBulletId">
-            <DisplayName>ベースバレットID</DisplayName>
+            <DisplayName>Base bullet ID</DisplayName>
             <DisplayFormat>%u</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -57,7 +57,7 @@
             <SortID>210</SortID>
         </Field>
         <Field Def="u32 baseSpellDamageId">
-            <DisplayName>ベースダメージID</DisplayName>
+            <DisplayName>Base damage ID</DisplayName>
             <DisplayFormat>%u</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -65,7 +65,7 @@
             <SortID>210</SortID>
         </Field>
         <Field Def="f32 single1HNormalChantTimeScale">
-            <DisplayName>詠唱時間 補正倍率 片手 弱 [sec]</DisplayName>
+            <DisplayName>Casting time correction magnification one hand weak [sec]</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>60</Maximum>
@@ -73,7 +73,7 @@
             <SortID>400</SortID>
         </Field>
         <Field Def="f32 single1HNormalHoldCastTime">
-            <DisplayName>発動時間 片手 弱 [sec]</DisplayName>
+            <DisplayName>Activation time one hand weak [sec]</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>60</Maximum>
@@ -81,7 +81,7 @@
             <SortID>440</SortID>
         </Field>
         <Field Def="u32 single1HNormalAnimIdSpellChanting">
-            <DisplayName>アニメ設定 詠唱 片手 弱</DisplayName>
+            <DisplayName>Anime setting Chanting One-handed weak</DisplayName>
             <Enum>PLAYER_SPELL_CHANTING_MOTION</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -89,7 +89,7 @@
             <SortID>405</SortID>
         </Field>
         <Field Def="u32 single1HNormalAnimIdSpellCasting">
-            <DisplayName>アニメ設定 発動 片手 弱</DisplayName>
+            <DisplayName>Anime setting Activation One-handed Weak</DisplayName>
             <Enum>PLAYER_SPELL_CASTING_MOTION</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -97,7 +97,7 @@
             <SortID>406</SortID>
         </Field>
         <Field Def="f32 single1HNormalStaminaCostScale">
-            <DisplayName>スタミナ消費量 倍率 片手 弱 [倍]</DisplayName>
+            <DisplayName>Stamina consumption magnification one hand weak [times]</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>10</Maximum>
@@ -105,7 +105,7 @@
             <SortID>430</SortID>
         </Field>
         <Field Def="f32 single1HStrongChantTimeScale">
-            <DisplayName>詠唱時間 補正倍率 片手 強 [sec]</DisplayName>
+            <DisplayName>Casting time correction magnification one hand strong [sec]</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>60</Maximum>
@@ -113,7 +113,7 @@
             <SortID>400</SortID>
         </Field>
         <Field Def="f32 single1HStrongHoldCastTime">
-            <DisplayName>発動時間 片手 強 [sec]</DisplayName>
+            <DisplayName>Activation time: One hand strong [sec]</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>60</Maximum>
@@ -121,7 +121,7 @@
             <SortID>440</SortID>
         </Field>
         <Field Def="u32 single1HStrongAnimIdSpellChanting">
-            <DisplayName>アニメ設定 詠唱 片手 強</DisplayName>
+            <DisplayName>Anime setting Chanting One-handed Strong</DisplayName>
             <Enum>PLAYER_SPELL_CHANTING_MOTION</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -129,7 +129,7 @@
             <SortID>405</SortID>
         </Field>
         <Field Def="u32 single1HStrongAnimIdSpellCasting">
-            <DisplayName>アニメ設定 発動 片手 強</DisplayName>
+            <DisplayName>Anime setting Activation One-handed Strong</DisplayName>
             <Enum>PLAYER_SPELL_CASTING_MOTION</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -137,7 +137,7 @@
             <SortID>406</SortID>
         </Field>
         <Field Def="f32 single1HStrongStaminaCostScale">
-            <DisplayName>スタミナ消費量 倍率 片手 強 [倍]</DisplayName>
+            <DisplayName>Stamina consumption multiplier one hand strong [times]</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>10</Maximum>
@@ -145,7 +145,7 @@
             <SortID>430</SortID>
         </Field>
         <Field Def="f32 single2HNormalChantTimeScale">
-            <DisplayName>詠唱時間 補正倍率 両手 弱 [sec]</DisplayName>
+            <DisplayName>Casting time correction magnification both hands weak [sec]</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>60</Maximum>
@@ -153,7 +153,7 @@
             <SortID>400</SortID>
         </Field>
         <Field Def="f32 single2HNormalHoldCastTime">
-            <DisplayName>発動時間 両手 弱 [sec]</DisplayName>
+            <DisplayName>Activation time Two-handed weak [sec]</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>60</Maximum>
@@ -161,7 +161,7 @@
             <SortID>440</SortID>
         </Field>
         <Field Def="u32 single2HNormalAnimIdSpellChanting">
-            <DisplayName>アニメ設定 詠唱 両手 弱</DisplayName>
+            <DisplayName>Anime setting Chanting Both hands Weak</DisplayName>
             <Enum>PLAYER_SPELL_CHANTING_MOTION</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -169,7 +169,7 @@
             <SortID>405</SortID>
         </Field>
         <Field Def="u32 single2HNormalAnimIdSpellCasting">
-            <DisplayName>アニメ設定 発動 両手 弱</DisplayName>
+            <DisplayName>Anime setting Activation two-handed weak</DisplayName>
             <Enum>PLAYER_SPELL_CASTING_MOTION</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -177,7 +177,7 @@
             <SortID>406</SortID>
         </Field>
         <Field Def="f32 single2HNormalStaminaCostScale">
-            <DisplayName>スタミナ消費量 倍率 両手 弱 [倍]</DisplayName>
+            <DisplayName>Stamina consumption magnification Both hands weak [times]</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>10</Maximum>
@@ -185,7 +185,7 @@
             <SortID>430</SortID>
         </Field>
         <Field Def="f32 single2HStrongChantTimeScale">
-            <DisplayName>詠唱時間 補正倍率 両手 強 [sec]</DisplayName>
+            <DisplayName>Casting time Correction magnification Two hands Strong [sec]</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>60</Maximum>
@@ -193,7 +193,7 @@
             <SortID>400</SortID>
         </Field>
         <Field Def="f32 single2HHoldCastTime">
-            <DisplayName>発動時間 両手 強 [sec]</DisplayName>
+            <DisplayName>Activation time Two-handed Strong [sec]</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>60</Maximum>
@@ -201,7 +201,7 @@
             <SortID>440</SortID>
         </Field>
         <Field Def="u32 single2HAnimIdSpellChanting">
-            <DisplayName>アニメ設定 詠唱 両手 強</DisplayName>
+            <DisplayName>Anime setting Chanting Both hands Strong</DisplayName>
             <Enum>PLAYER_SPELL_CHANTING_MOTION</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -209,7 +209,7 @@
             <SortID>405</SortID>
         </Field>
         <Field Def="u32 single2HAnimIdSpellCasting">
-            <DisplayName>アニメ設定 発動 両手 強</DisplayName>
+            <DisplayName>Anime setting Activation Two-handed Strong</DisplayName>
             <Enum>PLAYER_SPELL_CASTING_MOTION</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -217,7 +217,7 @@
             <SortID>406</SortID>
         </Field>
         <Field Def="f32 single2HStaminaCostScale">
-            <DisplayName>スタミナ消費量 倍率 両手 強 [倍]</DisplayName>
+            <DisplayName>Stamina consumption multiplier Two-handed Strong [x]</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>10</Maximum>
@@ -225,7 +225,7 @@
             <SortID>430</SortID>
         </Field>
         <Field Def="f32 dual1HNormalChantTimeScale">
-            <DisplayName>詠唱時間 補正倍率 二刀流片手 弱 [sec]</DisplayName>
+            <DisplayName>Casting time Correction magnification Dual wielding one hand Weak [sec]</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>60</Maximum>
@@ -233,7 +233,7 @@
             <SortID>400</SortID>
         </Field>
         <Field Def="f32 dual1HNormalHoldCastTime">
-            <DisplayName>発動時間 二刀流片手 弱 [sec]</DisplayName>
+            <DisplayName>Activation time Dual wielding one hand Weak [sec]</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>60</Maximum>
@@ -241,7 +241,7 @@
             <SortID>440</SortID>
         </Field>
         <Field Def="u32 dual1HNormalAnimIdSpellChanting">
-            <DisplayName>アニメ設定 詠唱 二刀流片手 弱</DisplayName>
+            <DisplayName>Anime setting Chanting Dual wielding one hand Weak</DisplayName>
             <Enum>PLAYER_SPELL_CHANTING_MOTION</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -249,7 +249,7 @@
             <SortID>405</SortID>
         </Field>
         <Field Def="u32 dual1HNormalAnimIdSpellCasting">
-            <DisplayName>アニメ設定 発動 二刀流片手 弱</DisplayName>
+            <DisplayName>Anime setting Activation Dual wielding one hand Weak</DisplayName>
             <Enum>PLAYER_SPELL_CASTING_MOTION</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -257,7 +257,7 @@
             <SortID>406</SortID>
         </Field>
         <Field Def="f32 dual1HNormalStaminaCostScale">
-            <DisplayName>スタミナ消費量 倍率 二刀流片手 弱 [倍]</DisplayName>
+            <DisplayName>Stamina consumption multiplier Dual wielding one hand Weak [times]</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>10</Maximum>
@@ -265,7 +265,7 @@
             <SortID>430</SortID>
         </Field>
         <Field Def="f32 dual1HStrongChantTimeScale">
-            <DisplayName>詠唱時間 補正倍率 二刀流片手 強 [sec]</DisplayName>
+            <DisplayName>Casting time Correction magnification Dual wielding one hand Strong [sec]</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>60</Maximum>
@@ -273,7 +273,7 @@
             <SortID>400</SortID>
         </Field>
         <Field Def="f32 dual1HStrongHoldCastTime">
-            <DisplayName>発動時間 二刀流片手 強 [sec]</DisplayName>
+            <DisplayName>Activation time Dual wielding one hand Strong [sec]</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>60</Maximum>
@@ -281,7 +281,7 @@
             <SortID>440</SortID>
         </Field>
         <Field Def="u32 dual1HStrongAnimIdSpellChanting">
-            <DisplayName>アニメ設定 詠唱 二刀流片手 強</DisplayName>
+            <DisplayName>Anime setting Chanting Dual wielding one hand Strong</DisplayName>
             <Enum>PLAYER_SPELL_CHANTING_MOTION</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -289,7 +289,7 @@
             <SortID>405</SortID>
         </Field>
         <Field Def="u32 dual1HStrongAnimIdSpellCasting">
-            <DisplayName>アニメ設定 発動 二刀流片手 強</DisplayName>
+            <DisplayName>Anime setting Activation Dual wielding one hand Strong</DisplayName>
             <Enum>PLAYER_SPELL_CASTING_MOTION</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -297,7 +297,7 @@
             <SortID>406</SortID>
         </Field>
         <Field Def="f32 dual1HStrongStaminaCostScale">
-            <DisplayName>スタミナ消費量 倍率 二刀流片手 強 [倍]</DisplayName>
+            <DisplayName>Stamina consumption multiplier Dual wielding one hand Strong [x]</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>10</Maximum>
@@ -305,7 +305,7 @@
             <SortID>430</SortID>
         </Field>
         <Field Def="f32 dual2HNormalChantTimeScale">
-            <DisplayName>詠唱時間 補正倍率 二刀流両手 弱 [sec]</DisplayName>
+            <DisplayName>Casting time Correction magnification Two-handed two-handed Weak [sec]</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>60</Maximum>
@@ -313,7 +313,7 @@
             <SortID>400</SortID>
         </Field>
         <Field Def="f32 dual2HNormalHoldCastTime">
-            <DisplayName>発動時間 二刀流両手 弱 [sec]</DisplayName>
+            <DisplayName>Activation time Dual wield two-handed Weak [sec]</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>60</Maximum>
@@ -321,7 +321,7 @@
             <SortID>440</SortID>
         </Field>
         <Field Def="u32 dual2HNormalAnimIdSpellChanting">
-            <DisplayName>アニメ設定 詠唱 二刀流両手 弱</DisplayName>
+            <DisplayName>Anime setting Chanting Dual wielding Two-handed Weak</DisplayName>
             <Enum>PLAYER_SPELL_CHANTING_MOTION</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -329,7 +329,7 @@
             <SortID>405</SortID>
         </Field>
         <Field Def="u32 dual2HNormalAnimIdSpellCasting">
-            <DisplayName>アニメ設定 発動 二刀流両手 弱</DisplayName>
+            <DisplayName>Anime setting Activation Two-handed two-handed Weak</DisplayName>
             <Enum>PLAYER_SPELL_CASTING_MOTION</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -337,7 +337,7 @@
             <SortID>406</SortID>
         </Field>
         <Field Def="f32 dual2HNormalStaminaCostScale">
-            <DisplayName>スタミナ消費量 倍率 二刀流両手 弱 [倍]</DisplayName>
+            <DisplayName>Stamina consumption multiplier dual-wielding two-handed weak [times]</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>10</Maximum>
@@ -345,7 +345,7 @@
             <SortID>430</SortID>
         </Field>
         <Field Def="f32 dual2HStrongChantTimeScale">
-            <DisplayName>詠唱時間 補正倍率 二刀流両手 強 [sec]</DisplayName>
+            <DisplayName>Casting time Correction magnification Two-handed two-handed Strong [sec]</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>60</Maximum>
@@ -353,7 +353,7 @@
             <SortID>400</SortID>
         </Field>
         <Field Def="f32 dual2HStrongHoldCastTime">
-            <DisplayName>発動時間 二刀流両手 強 [sec]</DisplayName>
+            <DisplayName>Activation time Dual wield two-handed Strong [sec]</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>60</Maximum>
@@ -361,7 +361,7 @@
             <SortID>440</SortID>
         </Field>
         <Field Def="u32 dual2HStrongAnimIdSpellChanting">
-            <DisplayName>アニメ設定 詠唱 二刀流両手 強</DisplayName>
+            <DisplayName>Anime setting Chanting Dual wielding Two-handed Strong</DisplayName>
             <Enum>PLAYER_SPELL_CHANTING_MOTION</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -369,7 +369,7 @@
             <SortID>405</SortID>
         </Field>
         <Field Def="u32 dual2HStrongAnimIdSpellCasting">
-            <DisplayName>アニメ設定 発動 二刀流両手 強</DisplayName>
+            <DisplayName>Anime setting Activation Two-handed two-handed Strong</DisplayName>
             <Enum>PLAYER_SPELL_CASTING_MOTION</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -377,7 +377,7 @@
             <SortID>406</SortID>
         </Field>
         <Field Def="f32 dual2HStrongStaminaCostScale">
-            <DisplayName>スタミナ消費量 倍率 二刀流両手 強 [倍]</DisplayName>
+            <DisplayName>Stamina consumption multiplier Dual wielding two-handed Strong [x]</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>10</Maximum>
@@ -385,14 +385,14 @@
             <SortID>430</SortID>
         </Field>
         <Field Def="f32 lockonAvailableDistanceScale">
-            <DisplayName>ロックオン 攻撃有効距離 補正倍率 [倍]</DisplayName>
+            <DisplayName>Lock-on attack effective distance correction magnification [x]</DisplayName>
             <EditFlags>Wrap</EditFlags>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>700</SortID>
         </Field>
         <Field Def="u8 canMove">
-            <DisplayName>移動許可フラグ</DisplayName>
+            <DisplayName>Movement permission flag</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1</Maximum>
@@ -400,7 +400,7 @@
             <SortID>800</SortID>
         </Field>
         <Field Def="u8 canWaitShoot">
-            <DisplayName>発射待ち許可フラグ</DisplayName>
+            <DisplayName>Launch waiting permission flag</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1</Maximum>
@@ -408,7 +408,7 @@
             <SortID>800</SortID>
         </Field>
         <Field Def="u8 canPredictShot">
-            <DisplayName>予測射撃許可フラグ</DisplayName>
+            <DisplayName>Predictive shooting permission flag</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1</Maximum>
@@ -416,11 +416,11 @@
             <SortID>800</SortID>
         </Field>
         <Field Def="dummy8 dummy1[1]">
-            <DisplayName>ダミー</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>1502</SortID>
         </Field>
         <Field Def="s32 se0Id">
-            <DisplayName>詠唱中SE0 ID</DisplayName>
+            <DisplayName>Chanting SE0 ID</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -428,7 +428,7 @@
             <SortID>910</SortID>
         </Field>
         <Field Def="s32 sfx0Id">
-            <DisplayName>詠唱中SFX0 ID</DisplayName>
+            <DisplayName>SFX0 ID while chanting</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -436,7 +436,7 @@
             <SortID>900</SortID>
         </Field>
         <Field Def="u8 sfx0AttachTarget">
-            <DisplayName>詠唱中SFX0 アタッチ対象</DisplayName>
+            <DisplayName>SFX0 while chanting Attach target</DisplayName>
             <Enum>SPELL_CHANT_SFX_ATTACH_TYPE</Enum>
             <DisplayFormat>%u</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -445,7 +445,7 @@
             <SortID>900</SortID>
         </Field>
         <Field Def="u8 sfx0AttachDummyPolyIdRight">
-            <DisplayName>詠唱中SFX0 右装備 ダミポリID</DisplayName>
+            <DisplayName>SFX0 while chanting Right equipment Damipoly ID</DisplayName>
             <DisplayFormat>%u</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
@@ -453,7 +453,7 @@
             <SortID>900</SortID>
         </Field>
         <Field Def="u8 sfx0AttachDummyPolyIdLeft">
-            <DisplayName>詠唱中SFX0 左装備 ダミポリID</DisplayName>
+            <DisplayName>SFX0 while chanting Left equipment Damipoly ID</DisplayName>
             <DisplayFormat>%u</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
@@ -461,13 +461,13 @@
             <SortID>900</SortID>
         </Field>
         <Field Def="u8 sfx0DisableEraseFade">
-            <DisplayName>詠唱SFX0 即削除</DisplayName>
+            <DisplayName>Chant SFX0 Immediately deleted</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <EditFlags>Wrap</EditFlags>
             <SortID>900</SortID>
         </Field>
         <Field Def="s32 se1Id">
-            <DisplayName>詠唱中SE1 ID</DisplayName>
+            <DisplayName>SE1 ID while chanting</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -475,7 +475,7 @@
             <SortID>910</SortID>
         </Field>
         <Field Def="s32 sfx1Id">
-            <DisplayName>詠唱中SFX1 ID</DisplayName>
+            <DisplayName>SFX1 ID while chanting</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -483,7 +483,7 @@
             <SortID>900</SortID>
         </Field>
         <Field Def="u8 sfx1AttachTarget">
-            <DisplayName>詠唱中SFX1 アタッチ対象</DisplayName>
+            <DisplayName>SFX1 while chanting Attach target</DisplayName>
             <Enum>SPELL_CHANT_SFX_ATTACH_TYPE</Enum>
             <DisplayFormat>%u</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -492,7 +492,7 @@
             <SortID>900</SortID>
         </Field>
         <Field Def="u8 sfx1AttachDummyPolyIdRight">
-            <DisplayName>詠唱中SFX1 右装備 ダミポリID</DisplayName>
+            <DisplayName>SFX1 while chanting Right equipment Damipoly ID</DisplayName>
             <DisplayFormat>%u</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
@@ -500,7 +500,7 @@
             <SortID>900</SortID>
         </Field>
         <Field Def="u8 sfx1AttachDummyPolyIdLeft">
-            <DisplayName>詠唱中SFX1 左装備 ダミポリID</DisplayName>
+            <DisplayName>SFX1 while chanting Left equipment Damipoly ID</DisplayName>
             <DisplayFormat>%u</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
@@ -508,13 +508,13 @@
             <SortID>900</SortID>
         </Field>
         <Field Def="u8 sfx1DisableEraseFade">
-            <DisplayName>詠唱SFX1 即削除</DisplayName>
+            <DisplayName>Chanting SFX1 Immediately deleted</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <EditFlags>Wrap</EditFlags>
             <SortID>900</SortID>
         </Field>
         <Field Def="f32 decreaseSpeedRateParallelWalk">
-            <DisplayName>スペル詠唱移動速度 減少割合 平行移動 [%]</DisplayName>
+            <DisplayName>Spell casting movement speed reduction rate parallel movement [%]</DisplayName>
             <DisplayFormat>%.2f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>100</Maximum>
@@ -522,7 +522,7 @@
             <SortID>1100</SortID>
         </Field>
         <Field Def="f32 decreaseSpeedRateWalk">
-            <DisplayName>スペル詠唱移動速度 減少割合 歩行 [%]</DisplayName>
+            <DisplayName>Spell casting movement speed reduction rate Walking [%]</DisplayName>
             <DisplayFormat>%.2f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>100</Maximum>
@@ -530,7 +530,7 @@
             <SortID>1100</SortID>
         </Field>
         <Field Def="f32 decreaseSpeedRateLockOnWalk">
-            <DisplayName>スペル詠唱移動速度 減少割合 ロックオン移動 [%]</DisplayName>
+            <DisplayName>Spell casting movement speed reduction rate Lock-on movement [%]</DisplayName>
             <DisplayFormat>%.2f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>100</Maximum>
@@ -538,7 +538,7 @@
             <SortID>1100</SortID>
         </Field>
         <Field Def="f32 startPlaySpeed">
-            <DisplayName>スペル開始部 アニメ再生倍率 [倍]</DisplayName>
+            <DisplayName>Spell start part Anime playback magnification [times]</DisplayName>
             <DisplayFormat>%.2f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>10</Maximum>
@@ -546,7 +546,7 @@
             <SortID>1150</SortID>
         </Field>
         <Field Def="f32 endPlaySpeed">
-            <DisplayName>スペル終了部 アニメ再生倍率 [倍]</DisplayName>
+            <DisplayName>End of spell animation playback magnification [times]</DisplayName>
             <DisplayFormat>%.2f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>10</Maximum>
@@ -554,7 +554,7 @@
             <SortID>1150</SortID>
         </Field>
         <Field Def="f32 toughnessPeriodScale">
-            <DisplayName>強靭度期間 倍率 [倍]</DisplayName>
+            <DisplayName>Toughness period Magnification [times]</DisplayName>
             <DisplayFormat>%.2f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>10</Maximum>
@@ -562,14 +562,14 @@
             <SortID>1200</SortID>
         </Field>
         <Field Def="s32 shootSeCategory">
-            <DisplayName>発射SE カテゴリ</DisplayName>
+            <DisplayName>Launch SE Category</DisplayName>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>1000</SortID>
         </Field>
         <Field Def="u8 equipSlotNum = 1">
-            <DisplayName>装備に必要なスロット数</DisplayName>
+            <DisplayName>Number of slots required for equipment</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>1</Minimum>
@@ -578,7 +578,7 @@
             <SortID>1300</SortID>
         </Field>
         <Field Def="u8 usageCountLv1">
-            <DisplayName>使用回数Lv1</DisplayName>
+            <DisplayName>Usage count Lv1</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>99</Maximum>
@@ -586,7 +586,7 @@
             <SortID>1400</SortID>
         </Field>
         <Field Def="u8 usageCountLv2">
-            <DisplayName>使用回数Lv2</DisplayName>
+            <DisplayName>Usage count Lv2</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>99</Maximum>
@@ -594,7 +594,7 @@
             <SortID>1400</SortID>
         </Field>
         <Field Def="u8 usageCountLv3">
-            <DisplayName>使用回数Lv3</DisplayName>
+            <DisplayName>Usage count Lv3</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>99</Maximum>
@@ -602,7 +602,7 @@
             <SortID>1400</SortID>
         </Field>
         <Field Def="u8 usageCountLv4">
-            <DisplayName>使用回数Lv4</DisplayName>
+            <DisplayName>Usage count Lv4</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>99</Maximum>
@@ -610,7 +610,7 @@
             <SortID>1400</SortID>
         </Field>
         <Field Def="u8 usageCountLv5">
-            <DisplayName>使用回数Lv5</DisplayName>
+            <DisplayName>Usage count Lv5</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>99</Maximum>
@@ -618,7 +618,7 @@
             <SortID>1400</SortID>
         </Field>
         <Field Def="u8 usageCountLv6">
-            <DisplayName>使用回数Lv6</DisplayName>
+            <DisplayName>Usage count Lv6</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>99</Maximum>
@@ -626,7 +626,7 @@
             <SortID>1400</SortID>
         </Field>
         <Field Def="u8 usageCountLv7">
-            <DisplayName>使用回数Lv7</DisplayName>
+            <DisplayName>Usage count Lv7</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>99</Maximum>
@@ -634,7 +634,7 @@
             <SortID>1400</SortID>
         </Field>
         <Field Def="u8 usageCountLv8">
-            <DisplayName>使用回数Lv8</DisplayName>
+            <DisplayName>Usage count Lv8</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>99</Maximum>
@@ -642,7 +642,7 @@
             <SortID>1400</SortID>
         </Field>
         <Field Def="u8 usageCountLv9">
-            <DisplayName>使用回数Lv9</DisplayName>
+            <DisplayName>Usage count Lv9</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>99</Maximum>
@@ -650,7 +650,7 @@
             <SortID>1400</SortID>
         </Field>
         <Field Def="u8 usageCountLv10">
-            <DisplayName>使用回数Lv10</DisplayName>
+            <DisplayName>Usage count Lv10</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>99</Maximum>
@@ -658,11 +658,11 @@
             <SortID>1400</SortID>
         </Field>
         <Field Def="dummy8 dummy2[1]">
-            <DisplayName>ダミー</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>1503</SortID>
         </Field>
         <Field Def="u32 soulConsumeParamId">
-            <DisplayName>ソウル消費ID</DisplayName>
+            <DisplayName>Soul consumption ID</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -670,7 +670,7 @@
             <SortID>1500</SortID>
         </Field>
         <Field Def="u32 baseLeftHandSpellBulletId">
-            <DisplayName>ベースバレットID(左手)</DisplayName>
+            <DisplayName>Base bullet ID (left hand)</DisplayName>
             <DisplayFormat>%u</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -678,7 +678,7 @@
             <SortID>211</SortID>
         </Field>
         <Field Def="u32 baseLeftHandSpellDamageId">
-            <DisplayName>ベースダメージID(左手)</DisplayName>
+            <DisplayName>Base damage ID (left hand)</DisplayName>
             <DisplayFormat>%u</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>

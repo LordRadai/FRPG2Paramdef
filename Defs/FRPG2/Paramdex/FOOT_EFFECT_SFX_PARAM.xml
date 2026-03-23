@@ -1,230 +1,230 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMDEF XmlVersion="0">
     <ParamType>FOOT_EFFECT_SFX_PARAM</ParamType>
-    <DataVersion>1</DataVersion>
+    <DataVersion>2</DataVersion>
     <BigEndian>true</BigEndian>
     <Unicode>true</Unicode>
     <FormatVersion>104</FormatVersion>
     <Fields>
         <Field Def="u32 none">
-            <DisplayName>なし</DisplayName>
+            <DisplayName>None</DisplayName>
             <Description>なし</Description>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>1</SortID>
         </Field>
         <Field Def="u32 metal">
-            <DisplayName>鉄</DisplayName>
+            <DisplayName>Iron</DisplayName>
             <Description>鉄</Description>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>2</SortID>
         </Field>
         <Field Def="u32 heavymetal">
-            <DisplayName>重鉄</DisplayName>
+            <DisplayName>Heavy iron</DisplayName>
             <Description>重鉄</Description>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>3</SortID>
         </Field>
         <Field Def="u32 wood">
-            <DisplayName>木</DisplayName>
+            <DisplayName>Tree</DisplayName>
             <Description>木</Description>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>4</SortID>
         </Field>
         <Field Def="u32 water">
-            <DisplayName>水</DisplayName>
+            <DisplayName>Water</DisplayName>
             <Description>水</Description>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>5</SortID>
         </Field>
         <Field Def="u32 swamp">
-            <DisplayName>沼</DisplayName>
+            <DisplayName>Swamp</DisplayName>
             <Description>沼</Description>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>6</SortID>
         </Field>
         <Field Def="u32 lumber">
-            <DisplayName>木材</DisplayName>
+            <DisplayName>Wood</DisplayName>
             <Description>木材</Description>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>7</SortID>
         </Field>
         <Field Def="u32 meat">
-            <DisplayName>生者肉</DisplayName>
+            <DisplayName>Flesh of the living</DisplayName>
             <Description>生者肉</Description>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>8</SortID>
         </Field>
         <Field Def="u32 deadmeat">
-            <DisplayName>亡者肉</DisplayName>
+            <DisplayName>Corpse meat</DisplayName>
             <Description>亡者肉</Description>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>9</SortID>
         </Field>
         <Field Def="u32 insect">
-            <DisplayName>虫</DisplayName>
+            <DisplayName>Insect</DisplayName>
             <Description>虫</Description>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>10</SortID>
         </Field>
         <Field Def="u32 giant">
-            <DisplayName>巨人</DisplayName>
+            <DisplayName>Giant</DisplayName>
             <Description>巨人</Description>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>11</SortID>
         </Field>
         <Field Def="u32 bone">
-            <DisplayName>骨</DisplayName>
+            <DisplayName>Bone</DisplayName>
             <Description>骨</Description>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>12</SortID>
         </Field>
         <Field Def="u32 copper">
-            <DisplayName>銅</DisplayName>
+            <DisplayName>Copper</DisplayName>
             <Description>銅</Description>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>13</SortID>
         </Field>
         <Field Def="u32 energy">
-            <DisplayName>エネルギー</DisplayName>
+            <DisplayName>Energy</DisplayName>
             <Description>エネルギー</Description>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>14</SortID>
         </Field>
         <Field Def="u32 fire">
-            <DisplayName>炎</DisplayName>
+            <DisplayName>Flame</DisplayName>
             <Description>炎</Description>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>15</SortID>
         </Field>
         <Field Def="u32 thunder">
-            <DisplayName>雷</DisplayName>
+            <DisplayName>Thunder</DisplayName>
             <Description>雷</Description>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>16</SortID>
         </Field>
         <Field Def="u32 dark">
-            <DisplayName>闇</DisplayName>
+            <DisplayName>Darkness</DisplayName>
             <Description>闇</Description>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>17</SortID>
         </Field>
         <Field Def="u32 magic">
-            <DisplayName>魔力</DisplayName>
+            <DisplayName>Magic power</DisplayName>
             <Description>魔力</Description>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>18</SortID>
         </Field>
         <Field Def="u32 stone">
-            <DisplayName>石</DisplayName>
+            <DisplayName>Stone</DisplayName>
             <Description>石</Description>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>19</SortID>
         </Field>
         <Field Def="u32 dirt">
-            <DisplayName>土</DisplayName>
+            <DisplayName>Soil</DisplayName>
             <Description>土</Description>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>20</SortID>
         </Field>
         <Field Def="u32 carpet">
-            <DisplayName>カーペット</DisplayName>
+            <DisplayName>Carpet</DisplayName>
             <Description>カーペット</Description>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>21</SortID>
         </Field>
         <Field Def="u32 grass">
-            <DisplayName>草</DisplayName>
+            <DisplayName>Grass</DisplayName>
             <Description>草</Description>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>22</SortID>
         </Field>
         <Field Def="u32 gravel">
-            <DisplayName>砂利</DisplayName>
+            <DisplayName>Gravel</DisplayName>
             <Description>砂利</Description>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>23</SortID>
         </Field>
         <Field Def="u32 cloth">
-            <DisplayName>布</DisplayName>
+            <DisplayName>Cloth</DisplayName>
             <Description>布</Description>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>24</SortID>
         </Field>
         <Field Def="u32 sand">
-            <DisplayName>砂</DisplayName>
+            <DisplayName>Sand</DisplayName>
             <Description>砂</Description>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>25</SortID>
         </Field>
         <Field Def="u32 ash">
-            <DisplayName>灰</DisplayName>
+            <DisplayName>Ash</DisplayName>
             <Description>灰</Description>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>26</SortID>
         </Field>
         <Field Def="u32 poisonswamp">
-            <DisplayName>毒沼</DisplayName>
+            <DisplayName>Poisonous swamp</DisplayName>
             <Description>毒沼</Description>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>27</SortID>
         </Field>
         <Field Def="u32 oil">
-            <DisplayName>油</DisplayName>
+            <DisplayName>Oil</DisplayName>
             <Description>油</Description>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>28</SortID>
         </Field>
         <Field Def="u32 coaltar">
-            <DisplayName>コールタール</DisplayName>
+            <DisplayName>Coal tar</DisplayName>
             <Description>コールタール</Description>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>29</SortID>
         </Field>
         <Field Def="u32 lava">
-            <DisplayName>溶岩</DisplayName>
+            <DisplayName>Lava</DisplayName>
             <Description>溶岩</Description>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>30</SortID>
         </Field>
         <Field Def="u32 string">
-            <DisplayName>蜘蛛の糸</DisplayName>
+            <DisplayName>Spider thread</DisplayName>
             <Description>蜘蛛の糸</Description>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>31</SortID>
         </Field>
         <Field Def="u32 sulfurcrystal">
-            <DisplayName>硫黄結晶</DisplayName>
+            <DisplayName>Sulfur crystals</DisplayName>
             <Description>硫黄結晶</Description>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>

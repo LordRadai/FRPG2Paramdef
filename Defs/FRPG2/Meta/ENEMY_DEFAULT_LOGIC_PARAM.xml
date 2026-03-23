@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<PARAMMETA XmlVersion="0">
-    <Field>
-        <stateId AltName="キャラ起動ステートID"/>
-        <upperLogickId AltName="上位ロジックID"/>
-        <lowerLogickId AltName="下位ロジックID"/>
-        <lowerStartStateId AltName="下位ロジックステートID"/>
-    </Field>
-</PARAMMETA>

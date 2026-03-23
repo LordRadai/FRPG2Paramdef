@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <whiteDoorCategory AltName="White door category" Enum="OBJ_WHITE_DOOR_CATEGORY_ENUM" />
+        <aReserved AltName="Reservation" Padding="true" />
+        <waitTime AltName="Waiting time [seconds]" />
+        <defaultSfxId AltName="Default SFXID (white/gray)" />
+        <multiPlaySfxId AltName="SFXID during multiplayer (black)" />
+        <frontKeyGuideParamId AltName="Key guide parameter ID when entering from the front" Refs="KeyGuideParam" />
+        <backKeyGuideParamId AltName="Key guide parameter ID when entering from the back" Refs="KeyGuideParam" />
+        <passFlagId AltName="Opening event flag" />
+        <enableKeyGuideFlagId AltName="Key guide enable flag" />
+    </Field>
+    <Enums>
+        <Enum Name="OBJ_WHITE_DOOR_CATEGORY_ENUM" type="u8">
+            <Option Value="0" Name="End of multiplayer section" />
+            <Option Value="1" Name="Boss room" />
+            <Option Value="2" Name="Boss room exit" />
+            <Option Value="3" Name="Host goal point" />
+            <Option Value="4" Name="Mouse King Ashrei goal point" />
+            <Option Value="5" Name="Scenario white door" />
+        </Enum>
+    </Enums>
+</PARAMMETA>

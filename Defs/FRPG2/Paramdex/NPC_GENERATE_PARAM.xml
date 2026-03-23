@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMDEF XmlVersion="0">
     <ParamType>NPC_GENERATE_PARAM</ParamType>
     <DataVersion>2</DataVersion>
@@ -7,170 +7,170 @@
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="u32 chrId">
-            <DisplayName>キャラクターID</DisplayName>
+            <DisplayName>Character ID</DisplayName>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>1</SortID>
         </Field>
         <Field Def="u8 gender">
-            <DisplayName>性別</DisplayName>
+            <DisplayName>Sex</DisplayName>
             <Enum>NPC_GENDER_TYPE</Enum>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>2</SortID>
         </Field>
         <Field Def="u8 bodyScaleType">
-            <DisplayName>体型タイプ</DisplayName>
+            <DisplayName>Body type</DisplayName>
             <Maximum>10</Maximum>
             <Increment>1</Increment>
             <SortID>3</SortID>
         </Field>
         <Field Def="u8 deceased">
-            <DisplayName>生者亡者</DisplayName>
+            <DisplayName>Living and dead</DisplayName>
             <Enum>NPC_DECEASED_TYPE</Enum>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>4</SortID>
         </Field>
         <Field Def="u8 equipType">
-            <DisplayName>装備タイプ</DisplayName>
+            <DisplayName>Equipment type</DisplayName>
             <Enum>NPC_EQUIP_TYPE</Enum>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>5</SortID>
         </Field>
         <Field Def="u8 faceType">
-            <DisplayName>顔タイプ</DisplayName>
+            <DisplayName>Face type</DisplayName>
             <Enum>NPC_FACE_TYPE</Enum>
             <Maximum>2</Maximum>
             <Increment>1</Increment>
             <SortID>6</SortID>
         </Field>
         <Field Def="u8 skinNo = 1">
-            <DisplayName>肌番号</DisplayName>
+            <DisplayName>Skin number</DisplayName>
             <Minimum>1</Minimum>
             <Maximum>2</Maximum>
             <Increment>1</Increment>
             <SortID>7</SortID>
         </Field>
         <Field Def="s8 facePresetNo = -1">
-            <DisplayName>FG顔プリセット番号</DisplayName>
+            <DisplayName>FG face preset number</DisplayName>
             <Minimum>-1</Minimum>
             <Maximum>120</Maximum>
             <Increment>1</Increment>
             <SortID>8</SortID>
         </Field>
         <Field Def="dummy8 dummy[1]">
-            <DisplayName>dummy</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>26</SortID>
         </Field>
         <Field Def="f32 skinR">
-            <DisplayName>肌Ｒ</DisplayName>
+            <DisplayName>Skin R</DisplayName>
             <Minimum>-1</Minimum>
             <Maximum>1</Maximum>
             <Increment>0.0099999998</Increment>
             <SortID>9</SortID>
         </Field>
         <Field Def="f32 skinG">
-            <DisplayName>肌Ｇ</DisplayName>
+            <DisplayName>Skin G</DisplayName>
             <Minimum>-1</Minimum>
             <Maximum>1</Maximum>
             <Increment>0.0099999998</Increment>
             <SortID>10</SortID>
         </Field>
         <Field Def="f32 skinB">
-            <DisplayName>肌Ｂ</DisplayName>
+            <DisplayName>Skin B</DisplayName>
             <Minimum>-1</Minimum>
             <Maximum>1</Maximum>
             <Increment>0.0099999998</Increment>
             <SortID>11</SortID>
         </Field>
         <Field Def="s32 faceId = -1">
-            <DisplayName>顔ＩＤ</DisplayName>
+            <DisplayName>Face ID</DisplayName>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>12</SortID>
         </Field>
         <Field Def="s32 equipWeaponIdL1 = -1">
-            <DisplayName>左手武器１</DisplayName>
+            <DisplayName>Left hand weapon 1</DisplayName>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>13</SortID>
         </Field>
         <Field Def="s32 equipWeaponIdL2 = -1">
-            <DisplayName>左手武器２</DisplayName>
+            <DisplayName>Left hand weapon 2</DisplayName>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>14</SortID>
         </Field>
         <Field Def="s32 equipWeaponIdL3 = -1">
-            <DisplayName>左手武器３</DisplayName>
+            <DisplayName>Left hand weapon 3</DisplayName>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>15</SortID>
         </Field>
         <Field Def="s32 equipWeaponIdR1 = -1">
-            <DisplayName>右手武器１</DisplayName>
+            <DisplayName>Right hand weapon 1</DisplayName>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>16</SortID>
         </Field>
         <Field Def="s32 equipWeaponIdR2 = -1">
-            <DisplayName>右手武器２</DisplayName>
+            <DisplayName>Right hand weapon 2</DisplayName>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>17</SortID>
         </Field>
         <Field Def="s32 equipWeaponIdR3 = -1">
-            <DisplayName>右手武器３</DisplayName>
+            <DisplayName>Right hand weapon 3</DisplayName>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>18</SortID>
         </Field>
         <Field Def="s32 equipHeadId = -1">
-            <DisplayName>兜</DisplayName>
+            <DisplayName>Helmet</DisplayName>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>19</SortID>
         </Field>
         <Field Def="s32 equipBodyId = -1">
-            <DisplayName>鎧</DisplayName>
+            <DisplayName>Armor</DisplayName>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>20</SortID>
         </Field>
         <Field Def="s32 equipArmId = -1">
-            <DisplayName>篭手</DisplayName>
+            <DisplayName>Gauntlet</DisplayName>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>21</SortID>
         </Field>
         <Field Def="s32 equipLegId = -1">
-            <DisplayName>脚絆</DisplayName>
+            <DisplayName>Gaiter</DisplayName>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>22</SortID>
         </Field>
         <Field Def="s32 equipQuiverId = -1">
-            <DisplayName>矢筒</DisplayName>
+            <DisplayName>Quiver</DisplayName>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>23</SortID>
         </Field>
         <Field Def="s32 equipArrowId = -1">
-            <DisplayName>矢</DisplayName>
+            <DisplayName>Arrow</DisplayName>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>

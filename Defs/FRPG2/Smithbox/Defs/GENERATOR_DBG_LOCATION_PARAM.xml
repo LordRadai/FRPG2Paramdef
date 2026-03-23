@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>GENERATOR_DBG_LOCATION_PARAM</ParamType>
+    <DataVersion>1</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="f32 radius" />
+        <Field Def="f32 height" />
+        <Field Def="u8 colorR" />
+        <Field Def="u8 colorG" />
+        <Field Def="u8 colorB" />
+        <Field Def="dummy8 aReserved1[5]" />
+    </Fields>
+</PARAMDEF>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMDEF XmlVersion="0">
     <ParamType>PLAY_AREA_PARAM</ParamType>
     <DataVersion>2</DataVersion>
@@ -7,28 +7,28 @@
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="s32 multiPlayZoneId">
-            <DisplayName>マルチプレイ区間ID</DisplayName>
+            <DisplayName>Multiplayer section ID</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+08</Maximum>
             <Increment>1</Increment>
             <SortID>1000</SortID>
         </Field>
         <Field Def="f32 coopBlueDisableDistance">
-            <DisplayName>救援青霊侵入不可能距離</DisplayName>
+            <DisplayName>Relief blue spirit impenetrable distance</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>1000</Maximum>
             <Increment>0.1</Increment>
             <SortID>2000</SortID>
         </Field>
         <Field Def="f32 otherDisableDistance">
-            <DisplayName>その他霊侵入不可能距離</DisplayName>
+            <DisplayName>Other distances where spirits cannot penetrate</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>1000</Maximum>
             <Increment>0.1</Increment>
             <SortID>2100</SortID>
         </Field>
         <Field Def="u8 multiPlayType">
-            <DisplayName>領域タイプ</DisplayName>
+            <DisplayName>Area type</DisplayName>
             <Enum>PLAY_AREA_MULTIPLAY_ENUM</Enum>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>1000</Maximum>
@@ -36,36 +36,36 @@
             <SortID>1100</SortID>
         </Field>
         <Field Def="u8 enableSearchBellGuard:1">
-            <DisplayName>鐘守検索有効</DisplayName>
+            <DisplayName>Bellkeeper search enabled</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <Maximum>1</Maximum>
             <SortID>3000</SortID>
         </Field>
         <Field Def="u8 enableSearchCoopBlue:1">
-            <DisplayName>救援青霊検索有効</DisplayName>
+            <DisplayName>Rescue spirit search enabled</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <Maximum>1</Maximum>
             <SortID>3001</SortID>
         </Field>
         <Field Def="u8 enableSearchVsBlue:1">
-            <DisplayName>報復青霊検索有効</DisplayName>
+            <DisplayName>Retaliation blue spirit search enabled</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <Maximum>1</Maximum>
             <SortID>3002</SortID>
         </Field>
         <Field Def="u8 enableSearchAbyss:1">
-            <DisplayName>深淵霊検索有効</DisplayName>
+            <DisplayName>Abyssal spirit search enabled</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <Maximum>1</Maximum>
             <SortID>3003</SortID>
         </Field>
         <Field Def="u8 enableBossCheck:1">
-            <DisplayName>エリアボス判定有効</DisplayName>
+            <DisplayName>Area boss judgment valid</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <SortID>3004</SortID>
         </Field>
         <Field Def="dummy8 dummy[2]">
-            <DisplayName>パディング</DisplayName>
+            <DisplayName>Padding</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>1000</Maximum>
             <Increment>1</Increment>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMDEF XmlVersion="0">
     <ParamType>ITEM_PARAM</ParamType>
     <DataVersion>21</DataVersion>
@@ -7,188 +7,188 @@
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="s32 iconId = -1">
-            <DisplayName>アイテムアイコンID</DisplayName>
+            <DisplayName>Item icon ID</DisplayName>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>100</SortID>
         </Field>
         <Field Def="s32 specialEffectId = -1">
-            <DisplayName>特殊効果ID</DisplayName>
+            <DisplayName>Special effect ID</DisplayName>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>5000</SortID>
         </Field>
         <Field Def="s32 startSfxId = -1">
-            <DisplayName>アイテム開始SFXID</DisplayName>
+            <DisplayName>Item start SFXID</DisplayName>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>5025</SortID>
         </Field>
         <Field Def="s32 actionSfxId = -1">
-            <DisplayName>アイテム発動SFXID</DisplayName>
+            <DisplayName>Item activation SFXID</DisplayName>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>5050</SortID>
         </Field>
         <Field Def="s32 effectSfxId = -1">
-            <DisplayName>アイテム効果SFXID</DisplayName>
+            <DisplayName>Item effect SFXID</DisplayName>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>5075</SortID>
         </Field>
         <Field Def="s32 weaponParamId = -1">
-            <DisplayName>武器ID</DisplayName>
+            <DisplayName>Weapon ID</DisplayName>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>5100</SortID>
         </Field>
         <Field Def="s32 armorParamId = -1">
-            <DisplayName>防具ID</DisplayName>
+            <DisplayName>Armor ID</DisplayName>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>5200</SortID>
         </Field>
         <Field Def="s32 arrowParamId = -1">
-            <DisplayName>矢ID</DisplayName>
+            <DisplayName>Arrow ID</DisplayName>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>5250</SortID>
         </Field>
         <Field Def="s32 ringParamId = -1">
-            <DisplayName>指輪ID</DisplayName>
+            <DisplayName>Ring ID</DisplayName>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>5300</SortID>
         </Field>
         <Field Def="s32 spellParamId = -1">
-            <DisplayName>スペルID</DisplayName>
+            <DisplayName>Spell id</DisplayName>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>5400</SortID>
         </Field>
         <Field Def="s32 gestureId = -1">
-            <DisplayName>ジェスチャーID</DisplayName>
+            <DisplayName>Gesture ID</DisplayName>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>5500</SortID>
         </Field>
         <Field Def="s32 sortId">
-            <DisplayName>デフォルトソートID</DisplayName>
+            <DisplayName>Default sort ID</DisplayName>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>6100</SortID>
         </Field>
         <Field Def="s32 price">
-            <DisplayName>販売ベース価格</DisplayName>
+            <DisplayName>Sales base price</DisplayName>
             <Maximum>8388607</Maximum>
             <Increment>1</Increment>
             <SortID>30000</SortID>
         </Field>
         <Field Def="s32 salePrice">
-            <DisplayName>売却ベース価格</DisplayName>
+            <DisplayName>Sale base price</DisplayName>
             <Maximum>8388607</Maximum>
             <Increment>1</Increment>
             <SortID>30100</SortID>
         </Field>
         <Field Def="f32 motionSpeedRate = 1">
-            <DisplayName>アイテム使用モーション速度倍率(倍単位)</DisplayName>
+            <DisplayName>Item use motion speed multiplier (in multiplication units)</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.0099999998</Increment>
             <SortID>1000</SortID>
         </Field>
         <Field Def="f32 weight">
-            <DisplayName>重量(kg単位)</DisplayName>
+            <DisplayName>Weight (in kg)</DisplayName>
             <Maximum>999.90002</Maximum>
             <Increment>0.1</Increment>
             <SortID>1100</SortID>
         </Field>
         <Field Def="u32 itemTypeParamId">
-            <DisplayName>アイテムタイプ</DisplayName>
+            <DisplayName>Item type</DisplayName>
             <Enum>ITEM_TYPE_PARAM_ID</Enum>
             <SortID>300</SortID>
         </Field>
         <Field Def="u32 itemUsageParamId">
-            <DisplayName>使用方法</DisplayName>
+            <DisplayName>How to use</DisplayName>
             <Enum>ITEM_USAGE_PARAM_ID</Enum>
             <SortID>4000</SortID>
         </Field>
         <Field Def="s16 getFrag = -1">
-            <DisplayName>入手フラグ</DisplayName>
+            <DisplayName>Obtained flag</DisplayName>
             <Minimum>-1</Minimum>
             <Maximum>32767</Maximum>
             <Increment>1</Increment>
             <SortID>4300</SortID>
         </Field>
         <Field Def="u16 maxNum = 1">
-            <DisplayName>１スロットストック個数</DisplayName>
+            <DisplayName>1 slot stock quantity</DisplayName>
             <Maximum>999</Maximum>
             <Increment>1</Increment>
             <SortID>1200</SortID>
         </Field>
         <Field Def="u8 spEffectTargetRegion">
-            <DisplayName>特殊効果管理カテゴリ</DisplayName>
+            <DisplayName>Special effects management category</DisplayName>
             <Enum>SP_EFFECT_TARGET_REGION</Enum>
             <SortID>5005</SortID>
         </Field>
         <Field Def="u8 spEffectDuplication">
-            <DisplayName>特殊効果の重複判定</DisplayName>
+            <DisplayName>Duplicate determination of special effects</DisplayName>
             <Enum>SP_EFFECT_DUPLICATION</Enum>
             <SortID>5010</SortID>
         </Field>
         <Field Def="u8 spEffectSfxPriority">
-            <DisplayName>効果SFXの優先度</DisplayName>
+            <DisplayName>Effect SFX priority</DisplayName>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>5015</SortID>
         </Field>
         <Field Def="s8 menuIconCategory">
-            <DisplayName>メニュー用アイコンカテゴリ</DisplayName>
+            <DisplayName>Menu icon category</DisplayName>
             <Enum>ITEM_MENU_ICON_CATEGORY</Enum>
             <SortID>6000</SortID>
         </Field>
         <Field Def="u8 enchantType">
-            <DisplayName>エンチャントの許可</DisplayName>
+            <DisplayName>Enchantment permission</DisplayName>
             <Enum>ITEM_ENCHANT_TYPE</Enum>
             <SortID>5700</SortID>
         </Field>
         <Field Def="s8 completeTrophy">
-            <DisplayName>収集トロフィーの種類</DisplayName>
+            <DisplayName>Types of collected trophies</DisplayName>
             <Enum>ITEM_COMPLETE_TROPHY_TYPE</Enum>
             <SortID>5600</SortID>
         </Field>
         <Field Def="u8 isOnlyOne:1">
-            <DisplayName>１セーブ１個のみ</DisplayName>
+            <DisplayName>1 save only 1 item</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <SortID>4100</SortID>
         </Field>
         <Field Def="u8 isOnlyOneUtilGameClear:1">
-            <DisplayName>1周回1個のみ</DisplayName>
+            <DisplayName>Only 1 piece per lap</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <SortID>4200</SortID>
         </Field>
         <Field Def="u8 isTakeOver:1">
-            <DisplayName>周回時に所持状態を引き継ぐか？</DisplayName>
+            <DisplayName>Will the possession status be inherited during the rotation?</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <SortID>4400</SortID>
         </Field>
         <Field Def="u8 canGet_WhenGetAllItem:1">
-            <DisplayName>デバッグ用全アイテム入手で入手可能か？</DisplayName>
+            <DisplayName>Is it possible to obtain all items for debugging?</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <SortID>99999</SortID>
         </Field>
         <Field Def="dummy8 padding[1]">
-            <DisplayName>予約</DisplayName>
+            <DisplayName>Reservation</DisplayName>
             <SortID>100000</SortID>
         </Field>
     </Fields>

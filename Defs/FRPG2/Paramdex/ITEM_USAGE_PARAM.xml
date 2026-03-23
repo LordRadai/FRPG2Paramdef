@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMDEF XmlVersion="0">
     <ParamType>ITEM_USAGE_PARAM</ParamType>
     <DataVersion>8</DataVersion>
@@ -7,7 +7,7 @@
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="s32 eventFlag = -1">
-            <DisplayName>使用許可するイベントフラグ</DisplayName>
+            <DisplayName>Event flags that are allowed to be used</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
@@ -15,67 +15,67 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="u8 condition">
-            <DisplayName>指定状態のみ許可</DisplayName>
+            <DisplayName>Allow only specified states</DisplayName>
             <Enum>ITEM_USE_PERMIT_TYPE_CONDITION</Enum>
             <SortID>100</SortID>
         </Field>
         <Field Def="u8 isAllowUseOnLadder:1">
-            <DisplayName>はしご中使用許可</DisplayName>
+            <DisplayName>Permission to use ladders</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <SortID>1</SortID>
         </Field>
         <Field Def="u8 isAllowMultipleUse:1">
-            <DisplayName>使用個数設定許可</DisplayName>
+            <DisplayName>Permission to set the number of pieces used</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <SortID>1</SortID>
         </Field>
         <Field Def="u8 isConsume:1">
-            <DisplayName>消耗品</DisplayName>
+            <DisplayName>Consumables</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <SortID>1</SortID>
         </Field>
         <Field Def="u8 isNormalConsumu:1">
-            <DisplayName>通常タイミングで消費する</DisplayName>
+            <DisplayName>Consume at normal time</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <SortID>1</SortID>
         </Field>
         <Field Def="u8 permitOnlineSingle:1">
-            <DisplayName>オンラインシングルプレイ許可</DisplayName>
+            <DisplayName>Online single play allowed</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <SortID>110</SortID>
         </Field>
         <Field Def="u8 permitOnlineMulti:1">
-            <DisplayName>マルチプレイ許可</DisplayName>
+            <DisplayName>Multiplayer allowed</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <SortID>110</SortID>
         </Field>
         <Field Def="u8 permitOffline:1">
-            <DisplayName>オフライン許可</DisplayName>
+            <DisplayName>Offline permission</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <SortID>110</SortID>
         </Field>
         <Field Def="u8 permitOnlineGuest:1">
-            <DisplayName>ゲスト時許可</DisplayName>
+            <DisplayName>Guest permission</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <SortID>110</SortID>
         </Field>
         <Field Def="u8 permitBattlePhantom:1">
-            <DisplayName>決闘霊体時許可</DisplayName>
+            <DisplayName>Permission for dueling spirits</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <SortID>110</SortID>
         </Field>
         <Field Def="u8 permitLeave:1">
-            <DisplayName>破棄許可</DisplayName>
+            <DisplayName>Destruction permission</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <SortID>110</SortID>
         </Field>
         <Field Def="u8 permitDrop:1">
-            <DisplayName>譲渡許可</DisplayName>
+            <DisplayName>Transfer permission</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <SortID>110</SortID>
         </Field>
         <Field Def="u8 exEvalFuncID">
-            <DisplayName>拡張使用許可判定関数ID（仮）</DisplayName>
+            <DisplayName>Extended use permission determination function ID (tentative)</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>

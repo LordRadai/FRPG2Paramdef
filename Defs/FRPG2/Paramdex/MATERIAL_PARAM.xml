@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMDEF XmlVersion="0">
     <ParamType>MATERIAL_PARAM</ParamType>
     <DataVersion>1</DataVersion>
@@ -7,17 +7,17 @@
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="u8 isLiquid:1">
-            <DisplayName>液体か？</DisplayName>
+            <DisplayName>Is it liquid?</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <SortID>1</SortID>
         </Field>
         <Field Def="u8 isArrowPenetrate:1">
-            <DisplayName>矢が刺さるか？</DisplayName>
+            <DisplayName>Will the arrow hit?</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <SortID>2</SortID>
         </Field>
         <Field Def="dummy8 padding[3]">
-            <DisplayName>予約</DisplayName>
+            <DisplayName>Reservation</DisplayName>
             <SortID>4</SortID>
         </Field>
     </Fields>

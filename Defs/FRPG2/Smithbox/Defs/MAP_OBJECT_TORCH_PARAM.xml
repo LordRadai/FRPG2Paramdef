@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>MAP_OBJECT_TORCH_PARAM</ParamType>
+    <DataVersion>3</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="f32 fireTime" />
+        <Field Def="u8 motionDummyPolyId" />
+        <Field Def="u8 bFirstEnable" />
+        <Field Def="dummy8 aReserved[2]" />
+    </Fields>
+</PARAMDEF>

@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <iconId AltName="Item icon ID" />
+        <specialEffectId AltName="Special effect ID" />
+        <startSfxId AltName="Item start SFXID" />
+        <actionSfxId AltName="Item activation SFXID" />
+        <effectSfxId AltName="Item effect SFXID" />
+        <weaponParamId AltName="Weapon ID" />
+        <armorParamId AltName="Armor ID" />
+        <arrowParamId AltName="Arrow ID" />
+        <ringParamId AltName="Ring ID" />
+        <spellParamId AltName="Spell id" />
+        <gestureId AltName="Gesture ID" />
+        <sortId AltName="Default sort ID" />
+        <price AltName="Sales base price" />
+        <salePrice AltName="Sale base price" />
+        <motionSpeedRate AltName="Item use motion speed multiplier (in multiplication units)" />
+        <weight AltName="Weight (in kg)" />
+        <itemTypeParamId AltName="Item type" Refs="ItemTypeParam" />
+        <itemUsageParamId AltName="How to use" Refs="ItemUsageParam" />
+        <getFrag AltName="Obtained flag" />
+        <maxNum AltName="1 slot stock quantity" />
+        <spEffectTargetRegion AltName="Special effects management category" ProjectEnum="SP_EFFECT_TARGET_REGION" />
+        <spEffectDuplication AltName="Duplicate determination of special effects" ProjectEnum="SP_EFFECT_DUPLICATION" />
+        <spEffectSfxPriority AltName="Effect SFX priority" />
+        <menuIconCategory AltName="Menu icon category" Enum="ITEM_MENU_ICON_CATEGORY" />
+        <enchantType AltName="Enchantment permission" Enum="ITEM_ENCHANT_TYPE" />
+        <completeTrophy AltName="Types of collected trophies" Enum="ITEM_COMPLETE_TROPHY_TYPE" />
+        <isOnlyOne AltName="1 save only 1 item" IsBool="true" />
+        <isOnlyOneUtilGameClear AltName="Only 1 piece per lap" IsBool="true" />
+        <isTakeOver AltName="Will the possession status be inherited during the rotation?" IsBool="true" />
+        <canGet_WhenGetAllItem AltName="Is it possible to obtain all items for debugging?" IsBool="true" />
+        <padding AltName="Reservation" Padding="true" />
+    </Field>
+    <Enums>
+        <Enum Name="ITEM_MENU_ICON_CATEGORY" type="s8">
+            <Option Value="-1" Name="None" />
+            <Option Value="0" Name="Weapons (WP)" />
+            <Option Value="1" Name="Shield (SD)" />
+            <Option Value="2" Name="Helmet (HD)" />
+            <Option Value="3" Name="Armor (BD)" />
+            <Option Value="4" Name="Kote (AM)" />
+            <Option Value="5" Name="Gusoku (LG)" />
+            <Option Value="6" Name="Arrow (AS)" />
+            <Option Value="7" Name="Ring" />
+            <Option Value="8" Name="Item" />
+            <Option Value="9" Name="Spell (MA)" />
+            <Option Value="10" Name="Gesture (GE)" />
+        </Enum>
+        <Enum Name="ITEM_ENCHANT_TYPE" type="u8">
+            <Option Value="0" Name="Not possible" />
+            <Option Value="1" Name="Pine resin only" />
+            <Option Value="2" Name="Spell enchantment only" />
+            <Option Value="3" Name="Pine resin and spell enchantment" />
+        </Enum>
+        <Enum Name="ITEM_COMPLETE_TROPHY_TYPE" type="s8">
+            <Option Value="0" Name="None" />
+            <Option Value="1" Name="Gesture" />
+            <Option Value="2" Name="Magic" />
+            <Option Value="3" Name="Miracle" />
+            <Option Value="4" Name="Magic" />
+            <Option Value="5" Name="Dark arts" />
+        </Enum>
+    </Enums>
+</PARAMMETA>

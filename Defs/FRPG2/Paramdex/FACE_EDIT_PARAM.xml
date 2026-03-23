@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMDEF XmlVersion="0">
     <ParamType>FACE_EDIT_PARAM</ParamType>
     <DataVersion>1</DataVersion>
@@ -7,48 +7,48 @@
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="f32 minValue">
-            <DisplayName>最低変動値</DisplayName>
+            <DisplayName>Minimum fluctuation value</DisplayName>
             <Minimum>-100</Minimum>
             <Maximum>255</Maximum>
             <Increment>0.1</Increment>
             <SortID>4</SortID>
         </Field>
         <Field Def="f32 maxValue">
-            <DisplayName>最大変動値</DisplayName>
+            <DisplayName>Maximum fluctuation value</DisplayName>
             <Minimum>-100</Minimum>
             <Maximum>255</Maximum>
             <Increment>0.1</Increment>
             <SortID>5</SortID>
         </Field>
         <Field Def="fixstr faceParamType[64]">
-            <DisplayName>FaceGenParam名</DisplayName>
+            <DisplayName>FaceGenParam name</DisplayName>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>1</SortID>
         </Field>
         <Field Def="u8 faceParamCategory">
-            <DisplayName>カテゴリ</DisplayName>
+            <DisplayName>Category</DisplayName>
             <Enum>CHR_EDIT_FACE_PARAM_CATEGORY</Enum>
             <Maximum>30</Maximum>
             <Increment>1</Increment>
             <SortID>2</SortID>
         </Field>
         <Field Def="u8 montageUsed">
-            <DisplayName>モンタージュ使用</DisplayName>
+            <DisplayName>Use montage</DisplayName>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>3</SortID>
         </Field>
         <Field Def="u8 menuReverse">
-            <DisplayName>メニュー反転操作</DisplayName>
+            <DisplayName>Menu reversal operation</DisplayName>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>6</SortID>
         </Field>
         <Field Def="dummy8 dummy[9]">
-            <DisplayName>ダミー　</DisplayName>
+            <DisplayName>Dummy</DisplayName>
             <SortID>8</SortID>
         </Field>
     </Fields>

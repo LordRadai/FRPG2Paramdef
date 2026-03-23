@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>MATERIAL_PARAM</ParamType>
+    <DataVersion>1</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="u8 isLiquid:1" />
+        <Field Def="u8 isArrowPenetrate:1" />
+        <Field Def="dummy8 padding[3]" />
+    </Fields>
+</PARAMDEF>
