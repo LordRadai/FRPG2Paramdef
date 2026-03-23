@@ -4,8 +4,8 @@ split_paramdef.py
 
 Splits a PARAMDEF XML into two separate files:
 
-  1. <n>.paramdef.xml  - lean struct definition, one self-closing <Field Def="..."/> per field
-  2. <n>.parammeta.xml - metadata (AltName from DisplayName, ProjectEnum from Enum, Refs)
+  1. <n>def  - lean struct definition, one self-closing <Field Def="..."/> per field
+  2. <n>meta - metadata (AltName from DisplayName, ProjectEnum from Enum, Refs)
 
 Optionally accepts a config.txt mapping enum names to Refs values.
 When a field's <Enum> matches a key in the config, ProjectEnum is replaced by Refs.
@@ -123,6 +123,12 @@ def split(src: Path, def_dst: Path, meta_dst: Path, enum_config: dict | None = N
         if "=" in def_attr:
             clean_def = def_attr.split("=", 1)[0].strip()
 
+        # Strip C-style bitfield width suffix from the name token (e.g. "u8 physical:1" -> "u8 physical")
+        if ":" in clean_def:
+            parts = clean_def.split()
+            parts[-1] = parts[-1].split(":")[0]
+            clean_def = " ".join(parts)
+
         # PARAMDEF entry (self-closing, default stripped)
         ET.SubElement(def_fields, "Field", {"Def": clean_def})
 
@@ -131,8 +137,10 @@ def split(src: Path, def_dst: Path, meta_dst: Path, enum_config: dict | None = N
         # e.g. "f32 chameleonAngle1 = 1" -> tag "chameleonAngle1"
         #      "u8 intrudeEnable"         -> tag "intrudeEnable"
         #      "dummy8 aReserved[3]"      -> tag "aReserved"
-        raw_name   = clean_def.split()[-1] if clean_def.strip() else "unknown"
-        field_name = raw_name.split("[")[0]
+        tokens     = clean_def.split()
+        field_type = tokens[0] if tokens else ""
+        raw_name   = tokens[-1] if tokens else "unknown"
+        field_name = raw_name.split("[")[0].split(":")[0]
 
         meta_attribs: dict[str, str] = {}
 
@@ -140,11 +148,18 @@ def split(src: Path, def_dst: Path, meta_dst: Path, enum_config: dict | None = N
         if display and display.strip():
             meta_attribs["AltName"] = display.strip()
 
+        if field_type == "dummy8":
+            meta_attribs["Padding"] = "true"
+
         enum = (field.findtext("Enum") or "").strip()
         if enum:
-            # If the enum name has a Refs mapping in the config, emit Refs instead of ProjectEnum
             if enum_config and enum in enum_config:
-                meta_attribs["Refs"] = enum_config[enum]
+                val = enum_config[enum]
+                if val == "bool":
+                    # Reserved value: emit IsBool instead of Refs or ProjectEnum
+                    meta_attribs["IsBool"] = "true"
+                else:
+                    meta_attribs["Refs"] = val
             else:
                 meta_attribs["ProjectEnum"] = enum
 
@@ -153,7 +168,11 @@ def split(src: Path, def_dst: Path, meta_dst: Path, enum_config: dict | None = N
         if refs and refs.strip():
             meta_attribs["Refs"] = refs.strip()
 
-        ET.SubElement(meta_field, field_name, meta_attribs)
+        # ET may reorder attributes; enforce the desired output order explicitly
+        ATTR_ORDER = ["AltName", "Padding", "IsBool", "ProjectEnum", "Refs"]
+        ordered = {k: meta_attribs[k] for k in ATTR_ORDER if k in meta_attribs}
+        ordered.update({k: v for k, v in meta_attribs.items() if k not in ordered})
+        ET.SubElement(meta_field, field_name, ordered)
 
     write_xml(def_root,  def_dst)
     write_xml(meta_root, meta_dst)
@@ -175,7 +194,7 @@ def file_stem(src: Path) -> str:
 def main() -> None:
     parser = argparse.ArgumentParser(
         description=(
-            "Split PARAMDEF XML file(s) into .paramdef.xml and meta files.\n\n"
+            "Split PARAMDEF XML file(s) into def and meta files.\n\n"
             "Single file:\n"
             "  python split_paramdef.py input.xml --def ./defs --meta ./meta\n\n"
             "With enum-to-refs config:\n"

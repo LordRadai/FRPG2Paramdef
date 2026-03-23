@@ -1,0 +1,291 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>CHR_NETWORK_PHANTOM_PARAM</ParamType>
+    <DataVersion>6</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="s32 level0ShaderType">
+            <DisplayName>Constraint level 0 shader settings</DisplayName>
+            <Enum>CHR_VISUAL_TYPE</Enum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u32 level0FullBodySfx">
+            <DisplayName>Restriction level 0 applicable whole body SFX</DisplayName>
+            <Enum>CHR_FULLBODY_SFX_PARAM_ENUM</Enum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>5</SortID>
+        </Field>
+        <Field Def="u32 level1FullBodySfx">
+            <DisplayName>Restriction level 1 applicable whole body SFX</DisplayName>
+            <Enum>CHR_FULLBODY_SFX_PARAM_ENUM</Enum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>5</SortID>
+        </Field>
+        <Field Def="u32 level2FullBodySfx">
+            <DisplayName>Restriction level 2 applicable whole body SFX</DisplayName>
+            <Enum>CHR_FULLBODY_SFX_PARAM_ENUM</Enum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>5</SortID>
+        </Field>
+        <Field Def="u32 level3FullBodySfx">
+            <DisplayName>Restriction level 3 applicable whole body SFX</DisplayName>
+            <Enum>CHR_FULLBODY_SFX_PARAM_ENUM</Enum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>5</SortID>
+        </Field>
+        <Field Def="u8 entryMotionType">
+            <DisplayName>appearance motion</DisplayName>
+            <Enum>PLAYER_MULTI_ENTRY_MOTION</Enum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>5</SortID>
+        </Field>
+        <Field Def="u8 speedDownHpMinRate">
+            <DisplayName>Speed ​​reduction occurrence HP minimum [%]</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>100</Maximum>
+            <Increment>1</Increment>
+            <SortID>80</SortID>
+        </Field>
+        <Field Def="u8 speedDownHpMaxRate = 100">
+            <DisplayName>Speed ​​reduction occurrence HP maximum [%]</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>100</Maximum>
+            <Increment>1</Increment>
+            <SortID>80</SortID>
+        </Field>
+        <Field Def="u8 speedDownRate">
+            <DisplayName>Speed ​​reduction rate [%]</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>100</Maximum>
+            <Increment>1</Increment>
+            <SortID>80</SortID>
+        </Field>
+        <Field Def="u32 entrySfxId">
+            <DisplayName>Generate SFXID</DisplayName>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>5</SortID>
+        </Field>
+        <Field Def="u32 entryFullBodySfx">
+            <DisplayName>Generated whole body SFX parameters</DisplayName>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>5</SortID>
+        </Field>
+        <Field Def="u32 deadType">
+            <DisplayName>death type</DisplayName>
+            <Enum>DEAD_TYPE_PARAM_ID</Enum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>5</SortID>
+        </Field>
+        <Field Def="f32 limitTime = -1">
+            <DisplayName>Multiplayer time limit [Sec]</DisplayName>
+            <Minimum>-1</Minimum>
+            <Maximum>9999.9004</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>10</SortID>
+        </Field>
+        <Field Def="f32 returnWaitTime">
+            <DisplayName>Multiplayer end return waiting time [sec]</DisplayName>
+            <Maximum>600</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>12</SortID>
+        </Field>
+        <Field Def="u8 respawnPosTypeSuccess">
+            <DisplayName>Multi-end return position success</DisplayName>
+            <Enum>MULT_END_RESPAWN_POS_TYPE</Enum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>13</SortID>
+        </Field>
+        <Field Def="u8 respawnPosTypeFaild">
+            <DisplayName>Multi end return position failure</DisplayName>
+            <Enum>MULT_END_RESPAWN_POS_TYPE</Enum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>14</SortID>
+        </Field>
+        <Field Def="u8 respawnPosTypeDead">
+            <DisplayName>Multi end return position death</DisplayName>
+            <Enum>MULT_END_RESPAWN_POS_TYPE</Enum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>15</SortID>
+        </Field>
+        <Field Def="dummy8 pad1[1]">
+            <DisplayName>reserved area</DisplayName>
+            <Maximum>100</Maximum>
+            <Increment>1</Increment>
+            <SortID>101</SortID>
+        </Field>
+        <Field Def="u8 respawnConditionTypeSuccess">
+            <DisplayName>Multi end return status success</DisplayName>
+            <Enum>MULT_END_RESPAWN_CONDITION_TYPE</Enum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>16</SortID>
+        </Field>
+        <Field Def="u8 respawnConditionTypeFaild">
+            <DisplayName>Multi-end return status failure</DisplayName>
+            <Enum>MULT_END_RESPAWN_CONDITION_TYPE</Enum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>17</SortID>
+        </Field>
+        <Field Def="u8 respawnConditionTypeDead">
+            <DisplayName>Multi-completion return state Death</DisplayName>
+            <Enum>MULT_END_RESPAWN_CONDITION_TYPE</Enum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>18</SortID>
+        </Field>
+        <Field Def="dummy8 pad2[1]">
+            <DisplayName>reserved area</DisplayName>
+            <Maximum>100</Maximum>
+            <Increment>1</Increment>
+            <SortID>102</SortID>
+        </Field>
+        <Field Def="u8 voiceChatType">
+            <DisplayName>Voice chat settings</DisplayName>
+            <Maximum>2</Maximum>
+            <Increment>1</Increment>
+            <SortID>20</SortID>
+        </Field>
+        <Field Def="u8 hostReturnWarpEnable">
+            <DisplayName>Permission to repatriate from host</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <Maximum>100</Maximum>
+            <Increment>1</Increment>
+            <SortID>30</SortID>
+        </Field>
+        <Field Def="u8 ownerReturnWarpEnable">
+            <DisplayName>Permission to return on your own</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <Maximum>100</Maximum>
+            <Increment>1</Increment>
+            <SortID>30</SortID>
+        </Field>
+        <Field Def="u8 handicapEnable">
+            <DisplayName>Handy setting</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <Maximum>100</Maximum>
+            <Increment>1</Increment>
+            <SortID>40</SortID>
+        </Field>
+        <Field Def="f32 maxHpRate = 1">
+            <DisplayName>Maximum HP correction [x]</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>50</SortID>
+        </Field>
+        <Field Def="u8 summonEnable">
+            <DisplayName>Summoner settings</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <Maximum>100</Maximum>
+            <Increment>1</Increment>
+            <SortID>60</SortID>
+        </Field>
+        <Field Def="u8 summonSupportEnable">
+            <DisplayName>Summoner assistance permission setting</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <Maximum>100</Maximum>
+            <Increment>1</Increment>
+            <SortID>60</SortID>
+        </Field>
+        <Field Def="u8 isEnableBossSoul">
+            <DisplayName>Obtained soul permission boss</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <Maximum>100</Maximum>
+            <Increment>1</Increment>
+            <SortID>71</SortID>
+        </Field>
+        <Field Def="u8 isEnableEnemySoul">
+            <DisplayName>Acquired soul permission Zako</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <Maximum>100</Maximum>
+            <Increment>1</Increment>
+            <SortID>71</SortID>
+        </Field>
+        <Field Def="u8 isEnableNpcSoul">
+            <DisplayName>Obtained soul permission NPC</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <Maximum>100</Maximum>
+            <Increment>1</Increment>
+            <SortID>71</SortID>
+        </Field>
+        <Field Def="u8 isEnableHostSoul">
+            <DisplayName>Obtain Soul Permission Host</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <Maximum>100</Maximum>
+            <Increment>1</Increment>
+            <SortID>71</SortID>
+        </Field>
+        <Field Def="u8 isEnableNetPhantomSoul">
+            <DisplayName>Obtained Soul Permission Spiritual Body</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <Maximum>100</Maximum>
+            <Increment>1</Increment>
+            <SortID>71</SortID>
+        </Field>
+        <Field Def="u8 healItemUsageType">
+            <DisplayName>Recovery item use type</DisplayName>
+            <Enum>HEAL_ITEM_USAGE_TYPE</Enum>
+            <SortID>100</SortID>
+        </Field>
+        <Field Def="f32 getSoulRate = 1">
+            <DisplayName>Obtained soul correction magnification [x]</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>70</SortID>
+        </Field>
+        <Field Def="f32 fadeOutTimeStep1">
+            <DisplayName>Time to lower multiplayer appearance by one level [Sec]</DisplayName>
+            <Maximum>9999.9004</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>11</SortID>
+        </Field>
+        <Field Def="f32 fadeOutTimeStep2">
+            <DisplayName>Time to reduce multiplayer appearance to two levels [Sec]</DisplayName>
+            <Maximum>9999.9004</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>11</SortID>
+        </Field>
+        <Field Def="s32 level1ShaderType">
+            <DisplayName>Constraint level 1 shader settings</DisplayName>
+            <Enum>CHR_VISUAL_TYPE</Enum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>1</SortID>
+        </Field>
+        <Field Def="s32 level2ShaderType">
+            <DisplayName>Constraint level 2 shader settings</DisplayName>
+            <Enum>CHR_VISUAL_TYPE</Enum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>2</SortID>
+        </Field>
+        <Field Def="s32 level3ShaderType">
+            <DisplayName>Constraint level 3 shader settings</DisplayName>
+            <Enum>CHR_VISUAL_TYPE</Enum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>3</SortID>
+        </Field>
+        <Field Def="f32 getBossSoulRate = 1">
+            <DisplayName>Obtained boss soul correction magnification [x]</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>70</SortID>
+        </Field>
+    </Fields>
+</PARAMDEF>

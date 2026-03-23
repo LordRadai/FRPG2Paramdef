@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PARAMMETA XmlVersion="0">
-    <Field>
-        <equipId1 AltName="装備セットID1" />
-        <equipId2 AltName="装備セットID2" />
-        <equipId3 AltName="装備セットID3" />
-        <equipId4 AltName="装備セットID4" />
-    </Field>
-</PARAMMETA>

@@ -1,0 +1,604 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>DAMAGE_ADJUST_PARAM</ParamType>
+    <DataVersion>7</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="f32 pcFallAtkAdjustLightWeight = 1">
+            <DisplayName>Player Falling Attack Weight Correction Multiplier Small</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>1</SortID>
+        </Field>
+        <Field Def="f32 pcFallAtkAdjustMiddleWeight = 1">
+            <DisplayName>Player Falling Attack Weight Correction Multiplier Medium</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>2</SortID>
+        </Field>
+        <Field Def="f32 pcFallAtkAdjustHeavyWeight = 1">
+            <DisplayName>Player Falling Attack Weight Correction Multiplier Large</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>3</SortID>
+        </Field>
+        <Field Def="f32 pcKillStaminaAdjust = 1">
+            <DisplayName>Player stamina gain adjustment multiplier</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>4</SortID>
+        </Field>
+        <Field Def="f32 pcSpecialMoveKillStaminaAdjust = 1">
+            <DisplayName>Player Special Movement Stamina Capture Amount Adjustment Multiplier</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>5</SortID>
+        </Field>
+        <Field Def="f32 pcLackOfStatAdjust = 1">
+            <DisplayName>Player status deficiency correction multiplier</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>6</SortID>
+        </Field>
+        <Field Def="f32 pcFluctuationAdjustMin = 1">
+            <DisplayName>Player fluctuation correction magnification minimum</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>7</SortID>
+        </Field>
+        <Field Def="f32 pcFluctuationAdjustMax = 1">
+            <DisplayName>Player fluctuation correction magnification maximum</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>8</SortID>
+        </Field>
+        <Field Def="f32 pcDifficultyAdjustVeryEasy = 1">
+            <DisplayName>Player Difficulty Adjustment Multiplier Very Easy</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>9</SortID>
+        </Field>
+        <Field Def="f32 pcDifficultyAdjustEasy = 1">
+            <DisplayName>Player Difficulty correction magnification Easy</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>10</SortID>
+        </Field>
+        <Field Def="f32 pcDifficultyAdjustNormal = 1">
+            <DisplayName>Player Difficulty Correction Multiplier Normal</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>11</SortID>
+        </Field>
+        <Field Def="f32 pcDifficultyAdjustHard = 1">
+            <DisplayName>Player Difficulty Correction Multiplier Hard</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>12</SortID>
+        </Field>
+        <Field Def="f32 pcDifficultyAdjustVeryHard = 1">
+            <DisplayName>Player Difficulty Adjustment Multiplier Very Hard</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>13</SortID>
+        </Field>
+        <Field Def="f32 pcDifficultyAdjustHell = 1">
+            <DisplayName>Player Difficulty Adjustment Multiplier Hell</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>14</SortID>
+        </Field>
+        <Field Def="f32 pcDurabilityRateWeapon = 1">
+            <DisplayName>Player Durability Reduction Value Correction Multiplier Weapon</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>15</SortID>
+        </Field>
+        <Field Def="f32 pcDurabilityRateHead = 1">
+            <DisplayName>Player Durability Reduction Value Correction Multiplier Head Armor</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>16</SortID>
+        </Field>
+        <Field Def="f32 pcDurabilityRateBody = 1">
+            <DisplayName>Player Durability reduction value Correction multiplier Body armor</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>17</SortID>
+        </Field>
+        <Field Def="f32 pcDurabilityRateArm = 1">
+            <DisplayName>Player Durability Reduction Value Correction Multiplier Arm Armor</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>18</SortID>
+        </Field>
+        <Field Def="f32 pcDurabilityRateReg = 1">
+            <DisplayName>Player Durability Reduction Value Correction Multiplier Foot Armor</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>19</SortID>
+        </Field>
+        <Field Def="f32 pcDurabilityRateRing = 1">
+            <DisplayName>Player durability reduction value Correction multiplier Ring</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>20</SortID>
+        </Field>
+        <Field Def="f32 pcDurabilityRateGuardWeapon = 1">
+            <DisplayName>Player Durability Reduction Value Correction Multiplier Weapon</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>21</SortID>
+        </Field>
+        <Field Def="f32 pcDurabilityRateGuardHead = 1">
+            <DisplayName>Player Durability Reduction Value Correction Multiplier Head Armor</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>22</SortID>
+        </Field>
+        <Field Def="f32 pcDurabilityRateGuardBody = 1">
+            <DisplayName>Player Durability reduction value Correction multiplier Body armor</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>23</SortID>
+        </Field>
+        <Field Def="f32 pcDurabilityRateGuardArm = 1">
+            <DisplayName>Player Durability Reduction Value Correction Multiplier Arm Armor</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>24</SortID>
+        </Field>
+        <Field Def="f32 pcDurabilityRateGuardReg = 1">
+            <DisplayName>Player Durability Reduction Value Correction Multiplier Foot Armor</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>25</SortID>
+        </Field>
+        <Field Def="f32 pcDurabilityRateGuardRing = 1">
+            <DisplayName>Player durability reduction value Correction multiplier Ring</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>26</SortID>
+        </Field>
+        <Field Def="f32 pcCoorpAdjust01 = 1">
+            <DisplayName>Player cooperative play correction multiplier 1</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>27</SortID>
+        </Field>
+        <Field Def="f32 pcCoorpAdjust02 = 1">
+            <DisplayName>Player cooperative play correction multiplier 2</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>28</SortID>
+        </Field>
+        <Field Def="f32 pcCoorpAdjust03 = 1">
+            <DisplayName>Player cooperative play correction multiplier 3</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>29</SortID>
+        </Field>
+        <Field Def="f32 pcCoorpAdjust04 = 1">
+            <DisplayName>Player cooperative play correction multiplier 4</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>30</SortID>
+        </Field>
+        <Field Def="f32 pcCoorpAdjust05 = 1">
+            <DisplayName>Player cooperative play correction multiplier 5</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>31</SortID>
+        </Field>
+        <Field Def="f32 pcCoorpAdjust06 = 1">
+            <DisplayName>Player cooperative play correction multiplier 6</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>32</SortID>
+        </Field>
+        <Field Def="f32 pcInvasionAdjust01 = 1">
+            <DisplayName>Player Hostile play correction multiplier 1</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>33</SortID>
+        </Field>
+        <Field Def="f32 pcInvasionAdjust02 = 1">
+            <DisplayName>Player Hostile play correction multiplier 2</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>34</SortID>
+        </Field>
+        <Field Def="f32 pcInvasionAdjust03 = 1">
+            <DisplayName>Player Hostile play correction multiplier 3</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>35</SortID>
+        </Field>
+        <Field Def="f32 pcGameCycleAdjust01 = 1">
+            <DisplayName>Player lap correction magnification 1</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>36</SortID>
+        </Field>
+        <Field Def="f32 pcGameCycleAdjust02 = 1">
+            <DisplayName>Player lap correction magnification 2</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>37</SortID>
+        </Field>
+        <Field Def="f32 pcGameCycleAdjust03 = 1">
+            <DisplayName>Player lap correction magnification 3</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>38</SortID>
+        </Field>
+        <Field Def="f32 pcGameCycleAdjust04 = 1">
+            <DisplayName>Player lap correction magnification 4</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>39</SortID>
+        </Field>
+        <Field Def="f32 pcGameCycleAdjust05 = 1">
+            <DisplayName>Player lap correction multiplier 5</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>40</SortID>
+        </Field>
+        <Field Def="f32 pcGameCycleAdjust06 = 1">
+            <DisplayName>Player lap correction magnification 6</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>41</SortID>
+        </Field>
+        <Field Def="f32 pcGameCycleAdjust07 = 1">
+            <DisplayName>Player lap correction magnification 7</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>42</SortID>
+        </Field>
+        <Field Def="f32 pcGameCycleAdjust08 = 1">
+            <DisplayName>Player lap correction magnification 8</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>43</SortID>
+        </Field>
+        <Field Def="f32 ecFluctuationAdjustMin = 1">
+            <DisplayName>Energy fluctuation correction magnification minimum</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>44</SortID>
+        </Field>
+        <Field Def="f32 ecFluctuationAdjustMax = 1">
+            <DisplayName>Energy fluctuation correction magnification maximum</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>45</SortID>
+        </Field>
+        <Field Def="f32 ecDifficultyAdjustVeryEasy = 1">
+            <DisplayName>Enemy Difficulty Correction Multiplier Very Easy</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>46</SortID>
+        </Field>
+        <Field Def="f32 ecDifficultyAdjustEasy = 1">
+            <DisplayName>Enemy Difficulty correction magnification Easy</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>47</SortID>
+        </Field>
+        <Field Def="f32 ecDifficultyAdjustNormal = 1">
+            <DisplayName>Enemy Difficulty correction magnification Normal</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>48</SortID>
+        </Field>
+        <Field Def="f32 ecDifficultyAdjustHard = 1">
+            <DisplayName>Enemy difficulty correction magnification Hard</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>49</SortID>
+        </Field>
+        <Field Def="f32 ecDifficultyAdjustVeryHard = 1">
+            <DisplayName>Enemy Difficulty Adjustment Multiplier Very Hard</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>50</SortID>
+        </Field>
+        <Field Def="f32 ecDifficultyAdjustHell = 1">
+            <DisplayName>Enemy Difficulty Adjustment Multiplier Hell</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>51</SortID>
+        </Field>
+        <Field Def="f32 ecCoorpAdjust01 = 1">
+            <DisplayName>Enemy cooperative play correction multiplier 1</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>52</SortID>
+        </Field>
+        <Field Def="f32 ecCoorpAdjust02 = 1">
+            <DisplayName>Enemy cooperative play correction multiplier 2</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>53</SortID>
+        </Field>
+        <Field Def="f32 ecCoorpAdjust03 = 1">
+            <DisplayName>Enemy cooperative play correction multiplier 3</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>54</SortID>
+        </Field>
+        <Field Def="f32 ecCoorpAdjust04 = 1">
+            <DisplayName>Enemy cooperative play correction multiplier 4</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>55</SortID>
+        </Field>
+        <Field Def="f32 ecCoorpAdjust05 = 1">
+            <DisplayName>Enemy cooperative play correction multiplier 5</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>56</SortID>
+        </Field>
+        <Field Def="f32 ecCoorpAdjust06 = 1">
+            <DisplayName>Enemy cooperative play correction multiplier 6</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>57</SortID>
+        </Field>
+        <Field Def="f32 ecInvasionAdjust01 = 1">
+            <DisplayName>Enemy Hostile play correction multiplier 1</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>58</SortID>
+        </Field>
+        <Field Def="f32 ecInvasionAdjust02 = 1">
+            <DisplayName>Enemy Hostile play correction multiplier 2</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>59</SortID>
+        </Field>
+        <Field Def="f32 ecInvasionAdjust03 = 1">
+            <DisplayName>Enemy Hostile play correction multiplier 3</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>60</SortID>
+        </Field>
+        <Field Def="f32 ecGameCycleAdjust01 = 1">
+            <DisplayName>Enemy orbit correction magnification 1</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>61</SortID>
+        </Field>
+        <Field Def="f32 ecGameCycleAdjust02 = 1">
+            <DisplayName>Enemy orbit correction magnification 2</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>62</SortID>
+        </Field>
+        <Field Def="f32 ecGameCycleAdjust03 = 1">
+            <DisplayName>Enemy orbit correction magnification 3</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>63</SortID>
+        </Field>
+        <Field Def="f32 ecGameCycleAdjust04 = 1">
+            <DisplayName>Enemy orbit correction magnification 4</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>64</SortID>
+        </Field>
+        <Field Def="f32 ecGameCycleAdjust05 = 1">
+            <DisplayName>Enemy orbit correction magnification 5</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>65</SortID>
+        </Field>
+        <Field Def="f32 ecGameCycleAdjust06 = 1">
+            <DisplayName>Enemy orbit correction magnification 6</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>66</SortID>
+        </Field>
+        <Field Def="f32 ecGameCycleAdjust07 = 1">
+            <DisplayName>Enemy rotation correction magnification 7</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>67</SortID>
+        </Field>
+        <Field Def="f32 ecGameCycleAdjust08 = 1">
+            <DisplayName>Enemy orbit correction magnification 8</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>68</SortID>
+        </Field>
+        <Field Def="f32 ecNtVerAdjust = 1">
+            <DisplayName>Attack power multiplier for NT version finale event</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>69</SortID>
+        </Field>
+        <Field Def="f32 attributeAdjustNormalMul01 = 1">
+            <DisplayName>Physical attribute adjustment Multiplication factor First lap</DisplayName>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>100</SortID>
+        </Field>
+        <Field Def="f32 attributeAdjustMagic = 1">
+            <DisplayName>Magic attribute adjustment magnification</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>110</SortID>
+        </Field>
+        <Field Def="f32 attributeAdjustThunder = 1">
+            <DisplayName>Lightning attribute adjustment magnification</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>110</SortID>
+        </Field>
+        <Field Def="f32 attributeAdjustFire = 1">
+            <DisplayName>Fire attribute adjustment magnification</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>110</SortID>
+        </Field>
+        <Field Def="f32 attributeAdjustDark = 1">
+            <DisplayName>Dark attribute adjustment magnification</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>110</SortID>
+        </Field>
+        <Field Def="f32 attributeAdjustPoison = 1">
+            <DisplayName>Poison attribute adjustment magnification</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>110</SortID>
+        </Field>
+        <Field Def="f32 attributeAdjustBleed = 1">
+            <DisplayName>Bleeding attribute adjustment magnification</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>110</SortID>
+        </Field>
+        <Field Def="f32 attributeAdjustWeaponBreak = 1">
+            <DisplayName>Weapon destruction attribute adjustment magnification</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>110</SortID>
+        </Field>
+        <Field Def="f32 attributeAdjustCurse = 1">
+            <DisplayName>Cursed attribute adjustment magnification</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>110</SortID>
+        </Field>
+        <Field Def="f32 attributeAdjustBurning = 1">
+            <DisplayName>Combustion attribute adjustment magnification</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>110</SortID>
+        </Field>
+        <Field Def="f32 attributeAdjustDeadlyPoison = 1">
+            <DisplayName>Deadly poison attribute adjustment magnification</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>110</SortID>
+        </Field>
+        <Field Def="f32 attributeAdjustPetrified = 1">
+            <DisplayName>Petrification attribute adjustment magnification</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>110</SortID>
+        </Field>
+        <Field Def="f32 vowStrongAtkAdjustRate = 1">
+            <DisplayName>Pledge [Strong] Damage multiplier</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>200</SortID>
+        </Field>
+        <Field Def="f32 vowStrongDefAdjustRate = 1">
+            <DisplayName>Pledge [Strong] Damage multiplier</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>200</SortID>
+        </Field>
+        <Field Def="f32 attributeAdjustNormalDiv01 = 1">
+            <DisplayName>Physical attribute adjustment division magnification first round</DisplayName>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>101</SortID>
+        </Field>
+        <Field Def="f32 attributeAdjustNormalMul02 = 1">
+            <DisplayName>Physical attribute adjustment Multiplication magnification laps</DisplayName>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>102</SortID>
+        </Field>
+        <Field Def="f32 attributeAdjustNormalDiv02 = 1">
+            <DisplayName>Physical attribute adjustment division magnification laps</DisplayName>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>103</SortID>
+        </Field>
+        <Field Def="f32 pcAttributeAdjustNormalMul = 1">
+            <DisplayName>Player physical attribute adjustment multiplication factor</DisplayName>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>300</SortID>
+        </Field>
+        <Field Def="f32 pcAttributeAdjustNormalDiv = 1">
+            <DisplayName>Player physical attribute adjustment division magnification</DisplayName>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>301</SortID>
+        </Field>
+        <Field Def="f32 pcAttributeAdjustMagic = 1">
+            <DisplayName>Player magic attribute adjustment magnification</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>302</SortID>
+        </Field>
+        <Field Def="f32 pcAttributeAdjustThunder = 1">
+            <DisplayName>Player thunder attribute adjustment magnification</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>303</SortID>
+        </Field>
+        <Field Def="f32 pcAttributeAdjustFire = 1">
+            <DisplayName>Player fire attribute adjustment magnification</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>304</SortID>
+        </Field>
+        <Field Def="f32 pcAttributeAdjustDark = 1">
+            <DisplayName>Player dark attribute adjustment magnification</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>305</SortID>
+        </Field>
+        <Field Def="f32 pcAttributeAdjustPoison = 1">
+            <DisplayName>Player poison attribute adjustment magnification</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>306</SortID>
+        </Field>
+        <Field Def="f32 pcAttributeAdjustBleed = 1">
+            <DisplayName>Player bleeding attribute adjustment magnification</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>307</SortID>
+        </Field>
+        <Field Def="f32 pcAttributeAdjustWeaponBreak = 1">
+            <DisplayName>Player weapon break attribute adjustment magnification</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>308</SortID>
+        </Field>
+        <Field Def="f32 pcAttributeAdjustCurse = 1">
+            <DisplayName>Player curse attribute adjustment magnification</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>309</SortID>
+        </Field>
+        <Field Def="f32 pcAttributeAdjustBurning = 1">
+            <DisplayName>Player burning attribute adjustment magnification</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>310</SortID>
+        </Field>
+        <Field Def="f32 pcAttributeAdjustDeadlyPoison = 1">
+            <DisplayName>Player deadly poison attribute adjustment magnification</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>311</SortID>
+        </Field>
+        <Field Def="f32 pcAttributeAdjustPetrified = 1">
+            <DisplayName>Player petrified attribute adjustment magnification</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>312</SortID>
+        </Field>
+    </Fields>
+</PARAMDEF>

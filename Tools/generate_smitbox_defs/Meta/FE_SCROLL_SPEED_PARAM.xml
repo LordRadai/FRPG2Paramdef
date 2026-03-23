@@ -1,6 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PARAMMETA XmlVersion="0">
-    <Field>
-        <scrollSpeed AltName="スクロール速度（ピクセル/秒）" />
-    </Field>
-</PARAMMETA>

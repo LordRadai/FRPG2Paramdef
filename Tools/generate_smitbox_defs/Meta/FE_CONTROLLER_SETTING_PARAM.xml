@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PARAMMETA XmlVersion="0">
-    <Field>
-        <StartReactionLine AltName="入力最低感度" />
-        <StartMoveSpeedRatio AltName="最低移動倍率" />
-        <MaxSpeed AltName="設定カーソル移動速度" />
-    </Field>
-</PARAMMETA>

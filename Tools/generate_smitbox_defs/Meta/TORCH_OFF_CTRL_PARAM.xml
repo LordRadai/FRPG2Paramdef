@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PARAMMETA XmlVersion="0">
-    <Field>
-        <sfxIdSmall AltName="SFXID（小）" />
-        <sfxIdNormal AltName="SFXID（中）" />
-        <sfxIdLarge AltName="SFXID（大）" />
-        <fadeTime AltName="フェードアウト時間[sec]" />
-    </Field>
-</PARAMMETA>

@@ -1,0 +1,226 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>DUAL_WIELDING_PERMISSION_PARAM</ParamType>
+    <DataVersion>5</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="u8 none">
+            <DisplayName>none</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>1</SortID>
+        </Field>
+        <Field Def="u8 unarmed">
+            <DisplayName>Dual wielding bare hands</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>2</SortID>
+        </Field>
+        <Field Def="u8 fist">
+            <DisplayName>dual wield fist</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>3</SortID>
+        </Field>
+        <Field Def="u8 dagger">
+            <DisplayName>dual wield dagger</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>4</SortID>
+        </Field>
+        <Field Def="u8 thrustingSword">
+            <DisplayName>Dual sword sword</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>5</SortID>
+        </Field>
+        <Field Def="u8 sword">
+            <DisplayName>Two-handed sword</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>6</SortID>
+        </Field>
+        <Field Def="u8 doublelBlade">
+            <DisplayName>dual-edged sword</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>7</SortID>
+        </Field>
+        <Field Def="u8 hammer">
+            <DisplayName>Dual wielding one-handed hammer</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>8</SortID>
+        </Field>
+        <Field Def="u8 greatSword">
+            <DisplayName>Two-handed sword</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>9</SortID>
+        </Field>
+        <Field Def="u8 axe">
+            <DisplayName>Dual-wielding one-handed ax</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>10</SortID>
+        </Field>
+        <Field Def="u8 greatHammer">
+            <DisplayName>Two-handed hammer</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>11</SortID>
+        </Field>
+        <Field Def="u8 ultraGreatSword">
+            <DisplayName>Two-handed two-handed oversized sword</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>12</SortID>
+        </Field>
+        <Field Def="u8 greatAxe">
+            <DisplayName>dual-wielding two-handed ax</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>13</SortID>
+        </Field>
+        <Field Def="u8 scythe">
+            <DisplayName>Two-handed sickle</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>14</SortID>
+        </Field>
+        <Field Def="u8 halberd">
+            <DisplayName>Dual-wielding two-handed long ax</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>15</SortID>
+        </Field>
+        <Field Def="u8 spear">
+            <DisplayName>dual wielding spear</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>16</SortID>
+        </Field>
+        <Field Def="u8 lance">
+            <DisplayName>Dual wield assault spear</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>17</SortID>
+        </Field>
+        <Field Def="u8 whip">
+            <DisplayName>dual wielding whip</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>18</SortID>
+        </Field>
+        <Field Def="u8 bow">
+            <DisplayName>Dual wielding one-handed bow</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>19</SortID>
+        </Field>
+        <Field Def="u8 burstBow">
+            <DisplayName>Dual-wielding rapid-fire one-handed bow</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>20</SortID>
+        </Field>
+        <Field Def="u8 wand">
+            <DisplayName>Dual wielding one-handed cane</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>21</SortID>
+        </Field>
+        <Field Def="u8 bell">
+            <DisplayName>Dual wielding one-handed bell</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>22</SortID>
+        </Field>
+        <Field Def="u8 rightShield">
+            <DisplayName>Dual sword right shield</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>23</SortID>
+        </Field>
+        <Field Def="u8 leftShield">
+            <DisplayName>Dual sword left shield</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>24</SortID>
+        </Field>
+        <Field Def="u8 claw">
+            <DisplayName>dual wielding claws</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>25</SortID>
+        </Field>
+        <Field Def="u8 unk0">
+            <DisplayName>Dual-wielding Unknown0</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>26</SortID>
+        </Field>
+        <Field Def="u8 unk1">
+            <DisplayName>Dual-wielding Unknown1</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>27</SortID>
+        </Field>
+    </Fields>
+</PARAMDEF>

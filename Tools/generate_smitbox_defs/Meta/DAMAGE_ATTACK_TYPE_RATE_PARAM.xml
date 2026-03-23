@@ -1,7 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PARAMMETA XmlVersion="0">
-    <Field>
-        <rate AltName="倍率" />
-        <break_rate AltName="破壊時倍率" />
-    </Field>
-</PARAMMETA>

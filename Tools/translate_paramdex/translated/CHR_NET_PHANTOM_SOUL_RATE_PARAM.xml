@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>CHR_NET_PHANTOM_SOUL_RATE_PARAM</ParamType>
+    <DataVersion>1</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="f32 none = 1">
+            <DisplayName>host</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>1</SortID>
+        </Field>
+        <Field Def="f32 white = 1">
+            <DisplayName>white spirit</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>2</SortID>
+        </Field>
+        <Field Def="f32 smallWhite = 1">
+            <DisplayName>small white spirit</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>3</SortID>
+        </Field>
+        <Field Def="f32 gold = 1">
+            <DisplayName>Golden spirit</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>4</SortID>
+        </Field>
+        <Field Def="f32 smallGold = 1">
+            <DisplayName>small gold spirit</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>5</SortID>
+        </Field>
+        <Field Def="f32 coopBlue = 1">
+            <DisplayName>Relief spirit</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>6</SortID>
+        </Field>
+        <Field Def="f32 versusBlue = 1">
+            <DisplayName>Spirit of Retribution</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>7</SortID>
+        </Field>
+        <Field Def="f32 signBlack = 1">
+            <DisplayName>Dark spirit (sign)</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>8</SortID>
+        </Field>
+        <Field Def="f32 intrudeBlack = 1">
+            <DisplayName>Dark spirit (intrusion)</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>9</SortID>
+        </Field>
+        <Field Def="f32 signRed = 1">
+            <DisplayName>Red spirit (sign)</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>10</SortID>
+        </Field>
+        <Field Def="f32 intrudeRed = 1">
+            <DisplayName>Red spirit (intrusion)</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>11</SortID>
+        </Field>
+        <Field Def="f32 bellGuard = 1">
+            <DisplayName>Bell Keeper Ash Ghost</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>12</SortID>
+        </Field>
+        <Field Def="f32 ratKing = 1">
+            <DisplayName>Mouse King Ash Spirit</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>13</SortID>
+        </Field>
+        <Field Def="f32 dragon = 1">
+            <DisplayName>dragon spirit</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>14</SortID>
+        </Field>
+        <Field Def="f32 mirrorKnight = 1">
+            <DisplayName>mirror night spirit</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>15</SortID>
+        </Field>
+        <Field Def="f32 abyss = 1">
+            <DisplayName>abyssal spirit</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>16</SortID>
+        </Field>
+        <Field Def="f32 duelBlue = 1">
+            <DisplayName>Duel Blue Spirit</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>17</SortID>
+        </Field>
+        <Field Def="f32 duelRed = 1">
+            <DisplayName>Duel Red Spirit</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>18</SortID>
+        </Field>
+    </Fields>
+</PARAMDEF>

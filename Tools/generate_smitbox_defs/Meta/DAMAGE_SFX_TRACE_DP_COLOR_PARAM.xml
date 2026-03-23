@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PARAMMETA XmlVersion="0">
-    <Field>
-        <colorR AltName="R" />
-        <colorG AltName="G" />
-        <colorB AltName="B" />
-        <reserved AltName="予約領域" />
-    </Field>
-</PARAMMETA>

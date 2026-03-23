@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PARAMMETA XmlVersion="0">
-    <Field>
-        <minLv AltName="最小値・初期値" />
-        <maxLv AltName="最大値" />
-        <padding AltName="パディング" />
-    </Field>
-</PARAMMETA>
