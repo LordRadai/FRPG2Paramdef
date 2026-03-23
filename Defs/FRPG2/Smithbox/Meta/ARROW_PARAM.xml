@@ -36,7 +36,7 @@
         <Enum Name="ARROW_TYPE" type="u8">
             <Option Value="0" Name="Invalid" />
             <Option Value="1" Name="Arrow" />
-            <Option Value="2" Name="Oya" />
+            <Option Value="2" Name="Great arrow" />
             <Option Value="4" Name="Bolt" />
         </Enum>
     </Enums>

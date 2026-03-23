@@ -21,6 +21,15 @@
             <Option Value="200906" Name="Pledge cancellation [Road to the Ancient Dragon]《ID:200906》" />
             <Option Value="200907" Name="Pledge cancellation [Strong person]《ID:200907》" />
             <Option Value="200908" Name="Vow cancellation [Pilgrimage to the Abyss]《ID:200908》" />
+            <Option Value="201000" Name="Dullahan [Talk: Part 1]《ID:201000》" />
+            <Option Value="201001" Name="Dullahan [Talk: Part 2]《ID:201001》" />
+            <Option Value="201002" Name="Dullahan [Talk: Part 3]《ID:201002》" />
+            <Option Value="201003" Name="Dullahan [Talk: Part 4]《ID:201003》" />
+            <Option Value="201004" Name="Dullahan [Talk: Part 5]《ID:201004》" />
+            <Option Value="201010" Name="Dullahan [Menu Conversation: Part 1]《ID:201010》" />
+            <Option Value="201011" Name="Dullahan [Menu Conversation: Part 2]《ID:201011》" />
+            <Option Value="201012" Name="Dullahan [Menu Conversation: Part 3]《ID:201012》" />
+            <Option Value="201020" Name="Dullahan [Menu conversation: Defeat Dullahan]《ID:201020》" />
             <Option Value="201100" Name="Dragon Shrine Maiden: Madura [Talk: Part 1]《ID:201100》" />
             <Option Value="201101" Name="Dragon Shrine Maiden: Madura [Talk: Part 2]《ID:201101》" />
             <Option Value="201102" Name="Dragon Shrine Maiden: Madura [Talk: Part 3]《ID:201102》" />
@@ -38,8 +47,25 @@
             <Option Value="201127" Name="Dragon Shrine Maiden: Madura [Menu Conversation: Part 8]《ID:201127》" />
             <Option Value="201128" Name="Dragon Shrine Maiden: Madura [Menu Conversation: Part 9]《ID:201128》" />
             <Option Value="201140" Name="Dragon Shrine Maiden: Inside the castle [Talk to: After defeating 4 bosses]《ID:201140》" />
+            <Option Value="201150" Name="Dragon Shrine Maiden: Before clearing [Talk to: Part 1]《ID:201150》" />
             <Option Value="201160" Name="Dragon Shrine Maiden: Immortal Shrine [Talk: Part 1]《ID:201160》" />
             <Option Value="201180" Name="Dragon Shrine Maiden: Andeel's Hall [Talk: Part 1]《ID:201180》" />
+            <Option Value="201400" Name="Grave Keeper [Automatic Conversation]《ID:201400》" />
+            <Option Value="201401" Name="Grave Keeper [Talk: Part 1]《ID:201401》" />
+            <Option Value="201402" Name="Grave Keeper [Talk: Part 2]《ID:201402》" />
+            <Option Value="201403" Name="Grave Keeper [Talk: Part 3]《ID:201403》" />
+            <Option Value="201404" Name="Grave Keeper [Talk: Part 4]《ID:201404》" />
+            <Option Value="201405" Name="Grave Keeper [Talk: Part 5]《ID:201405》" />
+            <Option Value="201410" Name="Grave Keeper [Menu Conversation: Part 1]《ID:201410》" />
+            <Option Value="201411" Name="Grave Keeper [Menu Conversation: Part 2]《ID:201411》" />
+            <Option Value="201412" Name="Grave Keeper [Menu Conversation: Part 3]《ID:201412》" />
+            <Option Value="201700" Name="Queen [Talk: Part 1]《ID:201700》" />
+            <Option Value="201701" Name="Queen [Talk: Part 2]《ID:201701》" />
+            <Option Value="201702" Name="Queen [Talk: Part 3]《ID:201702》" />
+            <Option Value="201703" Name="Queen [Talk: Part 2.1]《ID:201703》" />
+            <Option Value="201710" Name="Queen [After obtaining the king's ring: Talk to: Part 1]《ID:201710》" />
+            <Option Value="201711" Name="Queen [After obtaining the king's ring: Talk to: Part 2]《ID:201711》" />
+            <Option Value="201720" Name="Queen [After obtaining Dragon Chaos: Talk to: Part 1]《ID:201720》" />
             <Option Value="201800" Name="Ladder shop [Talk_Part 1]《ID:201800》" />
             <Option Value="201801" Name="Ladder shop [Talk_Part 2]《ID:201801》" />
             <Option Value="201802" Name="Ladder shop [Menu conversation_Part 1]《ID:201802》" />
@@ -52,6 +78,30 @@
             <Option Value="201853" Name="Ladder shop: Migration [Menu conversation_Part 3]《ID:201853》" />
             <Option Value="201854" Name="Ladder shop: Migration [Menu conversation_Part 4]《ID:201854》" />
             <Option Value="201855" Name="Ladder shop: Migration [Ladder menu: First conversation]《ID:201855》" />
+            <Option Value="201900" Name="Retired fire protector 1 [Talk: First time]《ID:201900》" />
+            <Option Value="202000" Name="Retired fire protector 2 [Talk: First time]《ID:202000》" />
+            <Option Value="202100" Name="Retired fire protector 3 [Talk: First time]《ID:202100》" />
+            <Option Value="202300" Name="Spirit of the Prime Minister [Talk: Part 1]《ID:202300》" />
+            <Option Value="202301" Name="Spirit of the Prime Minister [Talk: Part 2]《ID:202301》" />
+            <Option Value="202302" Name="Spirit of the Prime Minister [Talk: Part 3]《ID:202302》" />
+            <Option Value="202303" Name="Spirit of the Prime Minister [Talk: Part 4]《ID:202303》" />
+            <Option Value="202304" Name="Spirit of the Prime Minister [Talk: Part 5]《ID:202304》" />
+            <Option Value="202305" Name="Spirit of the Prime Minister [Talk: Part 6]《ID:202305》" />
+            <Option Value="202306" Name="Spirit of the Prime Minister [Talk: Part 7]《ID:202306》" />
+            <Option Value="202307" Name="Spirit of the Prime Minister [Talk: Part 8]《ID:202307》" />
+            <Option Value="202310" Name="Spirit of the Prime Minister [Menu Conversation: Part 3]《ID:202310》" />
+            <Option Value="202311" Name="Spirit of the Prime Minister [Menu Conversation: Part 4]《ID:202311》" />
+            <Option Value="202312" Name="Spirit of the Prime Minister [Menu Conversation: Part 5]《ID:202312》" />
+            <Option Value="202313" Name="Spirit of the Prime Minister [Menu Conversation: Part 6]《ID:202313》" />
+            <Option Value="202314" Name="Spirit of the Prime Minister [Menu Conversation: Part 7]《ID:202314》" />
+            <Option Value="202400" Name="Fire Guardian Housekeeper [Talk: Part 1]《ID:202400》" />
+            <Option Value="202401" Name="Fire Guardian Housekeeper [Talk to: Part 3]《ID:202401》" />
+            <Option Value="202402" Name="Fire Guardian Housekeeper [Talk to: Part 4]《ID:202402》" />
+            <Option Value="202500" Name="Kingdom Captain [Talk: Part 1]《ID:202500》" />
+            <Option Value="202501" Name="Kingdom Captain [Talk: Part 2]《ID:202501》" />
+            <Option Value="202502" Name="Kingdom Captain [Talk: Part 3]《ID:202502》" />
+            <Option Value="202503" Name="Kingdom Captain [Talk: Part 4]《ID:202503》" />
+            <Option Value="202504" Name="Kingdom Captain [Talk: Part 5]《ID:202504》" />
             <Option Value="202700" Name="Pilgrim of the Abyss [Lottery in progress]《ID:202700》" />
             <Option Value="202701" Name="Pilgrim of the Abyss [Scum Bottom_Appearance]《ID:202701》" />
             <Option Value="202702" Name="Pilgrim of the Abyss [Drangraig_Appearance]《ID:202702》" />
@@ -76,6 +126,8 @@
             <Option Value="202922" Name="Dwarf [Encounter: Scum Bottom]《ID:202922》" />
             <Option Value="202923" Name="Dwarf [Encounter: Door of Pharos]《ID:202923》" />
             <Option Value="202924" Name="Dwarf [Encounter: Altar of Amana]《ID:202924》" />
+            <Option Value="202930" Name="Dwarf: Gap Cave [Talk: Part 1]《ID:202930》" />
+            <Option Value="202931" Name="Dwarf: Gap Cave [Talk: Part 2]《ID:202931》" />
             <Option Value="203100" Name="Blue Cult Warrior [First look: Talking_Part 1]《ID:203100》" />
             <Option Value="203101" Name="Blue Cult Warrior [First look: Talking_Part 2]《ID:203101》" />
             <Option Value="203102" Name="Blue Cult Warrior [First look: Talking_Part 3]《ID:203102》" />
@@ -88,6 +140,54 @@
             <Option Value="203109" Name="Blue Warrior [Menu Conversation: Part 6]《ID:203109》" />
             <Option Value="203110" Name="Blue Warrior [Menu Conversation: Part 7]《ID:203110》" />
             <Option Value="203111" Name="Blue Warrior [Menu Conversation: Part 8]《ID:203111》" />
+            <Option Value="203112" Name="Blue Cult Warrior [Menu Conversation: Part 1.5]《ID:203112》" />
+            <Option Value="203115" Name="Blue Church Warrior [Greetings: Message to increase immigrants: Part 1]《ID:203115》" />
+            <Option Value="203116" Name="Blue Church Warrior [Greetings: Message to increase immigrants: Part 2]《ID:203116》" />
+            <Option Value="203117" Name="Blue Church Warrior [Greetings: Message to increase immigrants: Part 3]《ID:203117》" />
+            <Option Value="203200" Name="Wandering Warrior: Hunting Forest [Talk: Part 1]《ID:203200》" />
+            <Option Value="203201" Name="Wandering Warrior: Hunting Forest [Talk: Part 2]《ID:203201》" />
+            <Option Value="203202" Name="Wandering Warrior: Hunting Forest [Talk: Part 3]《ID:203202》" />
+            <Option Value="203210" Name="Wandering Warrior: Forest of Shadows [Talk: Part 1]《ID:203210》" />
+            <Option Value="203211" Name="Wandering Warrior: Forest of Shadows [Talk: Part 2]《ID:203211》" />
+            <Option Value="203212" Name="Wandering Warrior: Forest of Shadows [Talk: Part 3]《ID:203212》" />
+            <Option Value="203220" Name="Wandering Warrior: Jeldora: Aid [Talk: Part 1]《ID:203220》" />
+            <Option Value="203221" Name="Wandering Warrior: Jeldora: Aid [Talk: Part 2]《ID:203221》" />
+            <Option Value="203230" Name="Wandering Warrior: Geldra: Unaided [Talk: Part 1]《ID:203230》" />
+            <Option Value="203240" Name="Wandering Warrior: Jeldora: Patch Death [Talk: Part 1]《ID:203240》" />
+            <Option Value="203241" Name="Wandering Warrior: Geldra: Patch Death [Talk: Part 2]《ID:203241》" />
+            <Option Value="203250" Name="Wandering Warrior &amp; Patch: Geldra [Trap Trigger]《ID:203250》" />
+            <Option Value="203300" Name="Moonlight Old Man [Shadow Forest: Talk to: Part 1]《ID:203300》" />
+            <Option Value="203301" Name="Moonlight Old Man [Shadow Forest: Unpetrification]《ID:203301》" />
+            <Option Value="203310" Name="Moonlight Old Man [Drangraig: Talk to: Part 1]《ID:203310》" />
+            <Option Value="203311" Name="Moonlight Old Man [Drangraig: Talk to: Part 2]《ID:203311》" />
+            <Option Value="203320" Name="Moonlight Old Man [Giant Forest: Talk to: Part 1]《ID:203320》" />
+            <Option Value="203321" Name="Moonlight Old Man [Giant Forest: Talk to: Part 2]《ID:203321》" />
+            <Option Value="203322" Name="Moonlight Old Man [Giant Forest: Talk to: Part 3]《ID:203322》" />
+            <Option Value="203330" Name="Moonlight Old Man [Memory of the Titan: Talking: Part 1]《ID:203330》" />
+            <Option Value="203400" Name="Patch: Giant's Forest [Before trap activation: Talk 1]《ID:203400》" />
+            <Option Value="203401" Name="Patch: Giant's Forest [Before trap activation: Talk 2]《ID:203401》" />
+            <Option Value="203410" Name="Patch: Giant's Forest [After trap activation: Talk 1]《ID:203410》" />
+            <Option Value="203411" Name="Patch: Giant's Forest [After trap activation: Talk 2]《ID:203411》" />
+            <Option Value="203420" Name="Patch: Giant's Forest [Unread before trap activation: After trap activation: Talk 1]《ID:203420》" />
+            <Option Value="203421" Name="Patch: Giant's Forest [Unread before trap activation: After trap activation: Talk 2]《ID:203421》" />
+            <Option Value="203440" Name="Patch: Valley of Water [Obtain treasure: Talk to: Part 1]《ID:203440》" />
+            <Option Value="203441" Name="Patch: Valley of Water [Treasure Acquisition: Talk to: Part 2]《ID:203441》" />
+            <Option Value="203460" Name="Patch: Geldra: Wandering [Event Battle Conversation]《ID:203460》" />
+            <Option Value="203461" Name="Patch: Geldra: Patch [Event Battle Conversation]《ID:203461》" />
+            <Option Value="203470" Name="Patch: Geldra: Aid [Talk: Part 1]《ID:203470》" />
+            <Option Value="203500" Name="Map drawing: Giant's Forest [Talk: Part 1]《ID:203500》" />
+            <Option Value="203501" Name="Map drawing: Giant's Forest [Talk: Part 2]《ID:203501》" />
+            <Option Value="203502" Name="Map drawing: Giant's Forest [Talk: Part 3]《ID:203502》" />
+            <Option Value="203503" Name="Map drawing: Giant's Forest [Talk: Part 4]《ID:203503》" />
+            <Option Value="203504" Name="Map drawing: Giant's Forest [Talk: Part 5]《ID:203504》" />
+            <Option Value="203505" Name="Map drawing: Giant's Forest [Talk: Part 6]《ID:203505》" />
+            <Option Value="203550" Name="Map writer: Madura [Talk: First time]《ID:203550》" />
+            <Option Value="203551" Name="Map writer: Madura [Talk to: Wandering Warrior: After moving to Hollow Forest]《ID:203551》" />
+            <Option Value="203560" Name="Map writer: Madura [Talk: Part 1]《ID:203560》" />
+            <Option Value="203561" Name="Map writer: Madura [Talk: Part 2]《ID:203561》" />
+            <Option Value="203562" Name="Map writer: Madura [Talk: Part 3]《ID:203562》" />
+            <Option Value="203570" Name="Map writer: Madura [Talk: All bonfires lit: Part 1]《ID:203570》" />
+            <Option Value="203571" Name="Map writer: Madura [Talk: All bonfires lit: Part 2]《ID:203571》" />
             <Option Value="203600" Name="Female Knight [1st encounter: Talk to: Part 1]《ID:203600》" />
             <Option Value="203601" Name="Female Knight [1st encounter: Talk to: Part 2]《ID:203601》" />
             <Option Value="203602" Name="Female Knight [1st encounter: Talk to: Part 3]《ID:203602》" />
@@ -114,6 +214,8 @@
             <Option Value="203643" Name="Female Knight [Appearing: Scum Bottom]《ID:203643》" />
             <Option Value="203650" Name="Female Knight [5th encounter: Talk to: Part 1]《ID:203650》" />
             <Option Value="203651" Name="Female Knight [5th encounter: Talk to: Part 2]《ID:203651》" />
+            <Option Value="203700" Name="Bell Keeper [Talk: Part 1]《ID:203700》" />
+            <Option Value="203701" Name="Bell Keeper [Talk: Part 2]《ID:203701》" />
             <Option Value="203800" Name="Yorozu Baba [Talk to you_first conversation]《ID:203800》" />
             <Option Value="203801" Name="Yorozu Baba [Menu Conversation_Part 1]《ID:203801》" />
             <Option Value="203802" Name="Yorozu Baba [Menu Conversation_Part 2]《ID:203802》" />
@@ -121,6 +223,26 @@
             <Option Value="203850" Name="Yorozu Granny: After moving [Talk to you_first conversation]《ID:203850》" />
             <Option Value="203851" Name="Yorozu Granny: After moving [Menu conversation_Part 1]《ID:203851》" />
             <Option Value="203852" Name="Yorozu Granny: After moving [Menu conversation_Part 2]《ID:203852》" />
+            <Option Value="203900" Name="Bard Girl 1 [Talk: Part 1]《ID:203900》" />
+            <Option Value="203901" Name="Bard Girl 1 [Talk: Part 2]《ID:203901》" />
+            <Option Value="203902" Name="Bard Girl 1 [Talk: Part 3]《ID:203902》" />
+            <Option Value="203903" Name="Bard Girl 1 [Talk: Part 4]《ID:203903》" />
+            <Option Value="203904" Name="Bard Girl 1 [Talk: Part 5]《ID:203904》" />
+            <Option Value="204000" Name="Bard Girl 2 [Talk: Part 1]《ID:204000》" />
+            <Option Value="204001" Name="Bard Girl 2 [Talk: Part 2]《ID:204001》" />
+            <Option Value="204002" Name="Bard Girl 2 [Talk: Part 3]《ID:204002》" />
+            <Option Value="204003" Name="Bard Girl 2 [Talk: Part 4]《ID:204003》" />
+            <Option Value="204100" Name="Prisoner Girl [Talk: Part 1]《ID:204100》" />
+            <Option Value="204200" Name="Armor shop [Weak: Talk to: First time]《ID:204200》" />
+            <Option Value="204210" Name="Armor shop [Weak: Menu conversation: Part 1]《ID:204210》" />
+            <Option Value="204211" Name="Armor shop [Weak: Menu conversation: Part 2]《ID:204211》" />
+            <Option Value="204220" Name="Armor shop [Normal: Talk to: First time]《ID:204220》" />
+            <Option Value="204221" Name="Armor shop [Normal: Talk to: First time 2]《ID:204221》" />
+            <Option Value="204230" Name="Armor shop [Normal: Menu conversation: Part 1]《ID:204230》" />
+            <Option Value="204231" Name="Armor shop [Normal: Menu conversation: Part 2]《ID:204231》" />
+            <Option Value="204232" Name="Armor shop [Normal: Menu conversation: Blue moon sword possession]《ID:204232》" />
+            <Option Value="204240" Name="Armor shop [bullish: talk to: first time]《ID:204240》" />
+            <Option Value="204241" Name="Armor shop [Bull: Talk: First time 2]《ID:204241》" />
             <Option Value="204300" Name="Material shop [Talk: First conversation]《ID:204300》" />
             <Option Value="204301" Name="Material shop [Menu conversation: Part 1]《ID:204301》" />
             <Option Value="204302" Name="Material shop [Menu conversation: Part 2]《ID:204302》" />
@@ -130,6 +252,87 @@
             <Option Value="204350" Name="Material shop: Migration [Talk: First conversation]《ID:204350》" />
             <Option Value="204351" Name="Material shop: Migration [Menu conversation: Part 1]《ID:204351》" />
             <Option Value="204352" Name="Material shop: Migration [Menu conversation: Part 2]《ID:204352》" />
+            <Option Value="204353" Name="Material shop: Migration [Menu conversation: Part 3]《ID:204353》" />
+            <Option Value="204354" Name="Material shop: Migration [Menu conversation: Part 4]《ID:204354》" />
+            <Option Value="204355" Name="Material shop: Migration [Menu conversation: Part 5]《ID:204355》" />
+            <Option Value="204400" Name="Magician [Talk: Part 1]《ID:204400》" />
+            <Option Value="204401" Name="Magician [Talk: Part 2]《ID:204401》" />
+            <Option Value="204402" Name="Magician [Talk: Part 3]《ID:204402》" />
+            <Option Value="204403" Name="Magician [Talk: Part 4]《ID:204403》" />
+            <Option Value="204410" Name="Magician [Change request]《ID:204410》" />
+            <Option Value="204411" Name="Jujutsuya [Thank you for changing clothes]《ID:204411》" />
+            <Option Value="204420" Name="Magic shop [Menu conversation: Part 1]《ID:204420》" />
+            <Option Value="204421" Name="Magic shop [Menu conversation: Part 2]《ID:204421》" />
+            <Option Value="204450" Name="Magician: Madura [Talk: First conversation]《ID:204450》" />
+            <Option Value="204460" Name="Sorcerer: Madura [Menu Conversation: Part 1]《ID:204460》" />
+            <Option Value="204461" Name="Sorcerer: Madura [Menu Conversation: Part 2]《ID:204461》" />
+            <Option Value="204462" Name="Sorcerer: Madura [Menu Conversation: Part 3]《ID:204462》" />
+            <Option Value="204463" Name="Sorcerer: Madura [Menu Conversation: Part 4]《ID:204463》" />
+            <Option Value="204500" Name="Blacksmith [Outside: Locked: Talk to: Part 1]《ID:204500》" />
+            <Option Value="204510" Name="Blacksmith [Talk: First time]《ID:204510》" />
+            <Option Value="204520" Name="Blacksmith [Menu conversation: Part 1]《ID:204520》" />
+            <Option Value="204521" Name="Blacksmith [Menu Conversation: Part 2]《ID:204521》" />
+            <Option Value="204522" Name="Blacksmith [Menu Conversation: Part 3: When not moving to the material shop &amp; Survival]《ID:204522》" />
+            <Option Value="204523" Name="Blacksmith [Menu Conversation: Part 4: Moving to Material Shop &amp; Survival]《ID:204523》" />
+            <Option Value="204524" Name="Blacksmith [Menu conversation: Part 5: Moving to material shop &amp; survival]《ID:204524》" />
+            <Option Value="204525" Name="Blacksmith [Menu Conversation: Part 6: Moving to Ladder Shop &amp; Survival]《ID:204525》" />
+            <Option Value="204526" Name="Blacksmith [Menu Conversation: Part 7: Moving to Ladder Shop &amp; Survival]《ID:204526》" />
+            <Option Value="204530" Name="Blacksmith [Menu conversation: Pilot fire: When you have pilot fire]《ID:204530》" />
+            <Option Value="204600" Name="EX Blacksmith [Talk: Part 1]《ID:204600》" />
+            <Option Value="204601" Name="EX Blacksmith [Talk: Part 2]《ID:204601》" />
+            <Option Value="204602" Name="EX Blacksmith [Talk: Part 3]《ID:204602》" />
+            <Option Value="204610" Name="EX Blacksmith [Menu Conversation: Part 1]《ID:204610》" />
+            <Option Value="204611" Name="EX Blacksmith [Menu Conversation: Part 2]《ID:204611》" />
+            <Option Value="204612" Name="EX Blacksmith [Menu Conversation: Part 3]《ID:204612》" />
+            <Option Value="204800" Name="Magician [Talk: Reason is 10 or higher]《ID:204800》" />
+            <Option Value="204810" Name="Magician [Menu conversation: Part 1]《ID:204810》" />
+            <Option Value="204811" Name="Magician [Menu Conversation: Part 2]《ID:204811》" />
+            <Option Value="204820" Name="Magician: Migration [Talk: First time]《ID:204820》" />
+            <Option Value="204830" Name="Magician: Migration: Migration and Death [Menu Conversation: Part 1]《ID:204830》" />
+            <Option Value="204831" Name="Magician: Migration: Migration and Death [Menu Conversation: Part 2]《ID:204831》" />
+            <Option Value="204832" Name="Magician: Migration: Migration and Death [Menu Conversation: Part 3]《ID:204832》" />
+            <Option Value="204833" Name="Magician: Migration: Migration and Death [Menu Conversation: Part 4]《ID:204833》" />
+            <Option Value="204834" Name="Magician: Migration: Migration and Death [Menu Conversation: Part 5]《ID:204834》" />
+            <Option Value="204840" Name="Magician: Migration [Menu conversation: There is no magician: Part 1]《ID:204840》" />
+            <Option Value="204850" Name="Magician: Migration [Menu conversation: There is a magician: Part 1]《ID:204850》" />
+            <Option Value="204851" Name="Magician: Migration [Menu conversation: There is a magician: Part 2]《ID:204851》" />
+            <Option Value="204860" Name="Magician: Migration: Migration [Menu conversation: Part 1]《ID:204860》" />
+            <Option Value="204861" Name="Magician: Migration: Migration [Menu conversation: Part 2]《ID:204861》" />
+            <Option Value="204862" Name="Magician: Migration: Migration [Menu conversation: Part 3]《ID:204862》" />
+            <Option Value="204863" Name="Magician: Migration: Migration [Menu conversation: Part 4]《ID:204863》" />
+            <Option Value="204864" Name="Magician: Migration: Migration [Menu conversation: Part 5]《ID:204864》" />
+            <Option Value="204865" Name="Magician: Migration: Migration [Menu conversation: Part 6]《ID:204865》" />
+            <Option Value="204870" Name="Magician: Migration: Transference [Menu conversation: Part 1]《ID:204870》" />
+            <Option Value="204871" Name="Magician: Migration: Transference [Menu conversation: Part 2]《ID:204871》" />
+            <Option Value="204872" Name="Magician: Migration: Transference [Menu conversation: Part 3]《ID:204872》" />
+            <Option Value="204873" Name="Magician: Migration: Transference [Menu conversation: Part 4]《ID:204873》" />
+            <Option Value="204874" Name="Magician: Migration: Transference [Menu Conversation: Part 5]《ID:204874》" />
+            <Option Value="204900" Name="Spellmania [Talk: Part 1]《ID:204900》" />
+            <Option Value="204901" Name="Spellmania [Talk: Part 2: Reason/faith above a certain level]《ID:204901》" />
+            <Option Value="204910" Name="Spellmania [Menu: Start conversation: Item possession 1]《ID:204910》" />
+            <Option Value="204911" Name="Spellmania [Menu: Start conversation: Item possession 2]《ID:204911》" />
+            <Option Value="204912" Name="Spellmania [Menu: Start conversation: Item possession 3]《ID:204912》" />
+            <Option Value="204920" Name="Spellmania [Menu Conversation: Part 1]《ID:204920》" />
+            <Option Value="204921" Name="Spellmania [Menu Conversation: Part 2]《ID:204921》" />
+            <Option Value="204922" Name="Spellmania [Menu Conversation: Part 3]《ID:204922》" />
+            <Option Value="204923" Name="Spellmania [Menu Conversation: Part 4]《ID:204923》" />
+            <Option Value="204924" Name="Spellmania [Menu Conversation: Part 5]《ID:204924》" />
+            <Option Value="204925" Name="Spellmania [Menu Conversation: Part 6]《ID:204925》" />
+            <Option Value="205000" Name="Miracle Man [Talk: First time 1]《ID:205000》" />
+            <Option Value="205010" Name="Miracle Man [Menu Conversation: Part 1]《ID:205010》" />
+            <Option Value="205011" Name="Miracle Man [Menu Conversation: Part 2]《ID:205011》" />
+            <Option Value="205012" Name="Miracle Man [Menu Conversation: Part 3]《ID:205012》" />
+            <Option Value="205013" Name="Miracle Man [Menu Conversation: Part 4]《ID:205013》" />
+            <Option Value="205050" Name="Miracle Man: Migration [Talk: Part 1]《ID:205050》" />
+            <Option Value="205060" Name="Miracle Man: Migration [Menu Conversation: Part 1]《ID:205060》" />
+            <Option Value="205061" Name="Miracle Man: Migration [Menu Conversation: Part 2]《ID:205061》" />
+            <Option Value="205062" Name="Miracle Man: Immigration [Menu Conversation: Part 3]《ID:205062》" />
+            <Option Value="205100" Name="Dark magician [Talk 1: Status is below standard]《ID:205100》" />
+            <Option Value="205101" Name="Dark magician [Talk 1: Status is above standard]《ID:205101》" />
+            <Option Value="205110" Name="Dark Magician [Menu Conversation: Part 1]《ID:205110》" />
+            <Option Value="205111" Name="Dark Magician [Menu Conversation: Part 2]《ID:205111》" />
+            <Option Value="205112" Name="Dark Magician [Menu Conversation: Part 3]《ID:205112》" />
+            <Option Value="205113" Name="Dark Magician [Menu Conversation: Part 4]《ID:205113》" />
             <Option Value="205200" Name="Sealed person [Unsealed: Living person: Talk to 1]《ID:205200》" />
             <Option Value="205201" Name="Sealed person [Unsealed: Living person: Talk to 2]《ID:205201》" />
             <Option Value="205202" Name="Sealed person [Unsealed: living: after conversation with dead]《ID:205202》" />
@@ -145,21 +348,81 @@
             <Option Value="205229" Name="Sealed person [Unsealed: Dead: 4th person request: 4th person request: YES]《ID:205229》" />
             <Option Value="205230" Name="Sealed person [Unsealed: Dead: 4th person quest completed]《ID:205230》" />
             <Option Value="205240" Name="Sealed person [Seal: Dead: Talk 1]《ID:205240》" />
+            <Option Value="205300" Name="Curious item shop [Talk: First time]《ID:205300》" />
+            <Option Value="205310" Name="Rare item shop [Menu conversation: Part 1]《ID:205310》" />
+            <Option Value="205311" Name="Rare item shop [Menu conversation: Part 2]《ID:205311》" />
+            <Option Value="205312" Name="Curious item shop [Menu conversation: Part 3]《ID:205312》" />
+            <Option Value="205313" Name="Rare item shop [Menu conversation: Part 4]《ID:205313》" />
+            <Option Value="205320" Name="Curious item shop [If you took the dragon egg]《ID:205320》" />
+            <Option Value="205400" Name="Top weapon shop [Talk: Part 1]《ID:205400》" />
+            <Option Value="205410" Name="Top weapon shop: Geldra [Talk: First time]《ID:205410》" />
+            <Option Value="205420" Name="Top weapon shop: Geldra [Menu conversation:: Part 1]《ID:205420》" />
+            <Option Value="205421" Name="Top weapon shop: Geldra [Menu conversation:: Part 2]《ID:205421》" />
+            <Option Value="205422" Name="Top weapon shop: Geldra [Menu conversation:: Part 3]《ID:205422》" />
+            <Option Value="205423" Name="Top weapon shop: Geldra [Menu conversation:: Part 4]《ID:205423》" />
+            <Option Value="205500" Name="Cat [Talk: First time]《ID:205500》" />
+            <Option Value="205501" Name="Cat [Talk: High level of death]《ID:205501》" />
+            <Option Value="205510" Name="Cat [Menu conversation: Part 1]《ID:205510》" />
+            <Option Value="205511" Name="Cat [Menu Conversation: Part 2]《ID:205511》" />
+            <Option Value="205512" Name="Cat [Menu Conversation: Part 3]《ID:205512》" />
+            <Option Value="205513" Name="Cat [Menu Conversation: Part 4]《ID:205513》" />
+            <Option Value="205514" Name="Cat [Menu Conversation: Part 5]《ID:205514》" />
+            <Option Value="205515" Name="Cat [Menu Conversation: Part 6]《ID:205515》" />
+            <Option Value="205516" Name="Cat [Menu Conversation: Part 7]《ID:205516》" />
+            <Option Value="205517" Name="Cat [Menu Conversation: Part 8]《ID:205517》" />
+            <Option Value="205518" Name="Cat [Menu Conversation: Part 9]《ID:205518》" />
+            <Option Value="205520" Name="Cat [Menu conversation: 4 bosses defeated: Part 1]《ID:205520》" />
+            <Option Value="205521" Name="Cat [Menu conversation: 4 bosses defeated: Part 2]《ID:205521》" />
+            <Option Value="205522" Name="Cat [Menu conversation: 4 bosses defeated: Part 3]《ID:205522》" />
+            <Option Value="205523" Name="Cat [Menu conversation: 4 bosses defeated: Part 4]《ID:205523》" />
+            <Option Value="205524" Name="Cat [Menu conversation: 4 bosses defeated: Part 5]《ID:205524》" />
+            <Option Value="205530" Name="Cat [Menu conversation: Queen [Talk: Part 1] ON: Part 1]《ID:205530》" />
+            <Option Value="205531" Name="Cat [Menu conversation: Queen [Talk: Part 1] is ON: Part 2]《ID:205531》" />
+            <Option Value="205532" Name="Cat [Menu conversation: Queen [Talk: Part 1] ON: Part 3]《ID:205532》" />
+            <Option Value="205533" Name="Cat [Menu conversation: Queen [Talk: Part 1] is ON: Part 4]《ID:205533》" />
+            <Option Value="205534" Name="Cat [Menu conversation: Queen [Talk: Part 1] is ON: Part 5]《ID:205534》" />
+            <Option Value="205540" Name="Cat [Menu conversation: When holding the King's ring: Part 1]《ID:205540》" />
+            <Option Value="205541" Name="Cat [Menu conversation: When holding the King's ring: Part 2]《ID:205541》" />
+            <Option Value="205542" Name="Cat [Menu conversation: When holding the king's ring: Part 3]《ID:205542》" />
+            <Option Value="205543" Name="Cat [Menu conversation: When holding the King's ring: Part 4]《ID:205543》" />
+            <Option Value="205544" Name="Cat [Menu conversation: When holding the King's ring: Part 5]《ID:205544》" />
             <Option Value="205600" Name="Black Phantom Shop [Talk_First conversation]《ID:205600》" />
             <Option Value="205601" Name="Black Phantom Shop [Talk_First conversation for vow cancellation]《ID:205601》" />
             <Option Value="205602" Name="Black Phantom Shop [Menu Conversation_Part 1]《ID:205602》" />
             <Option Value="205603" Name="Black Phantom Shop [Menu Conversation_Part 2]《ID:205603》" />
+            <Option Value="205604" Name="Black Phantom Shop [Talk_First Pledge NO 2nd Time]《ID:205604》" />
             <Option Value="205700" Name="Chaplain of Absolution [Talk to Part 1]《ID:205700》" />
             <Option Value="205701" Name="Chaplain of Absolution [Talk to Part 2]《ID:205701》" />
             <Option Value="205800" Name="Guardian Knight [Talk_Does not have proof of goodwill_First conversation]《ID:205800》" />
             <Option Value="205801" Name="Guardian Knight [Talk_Possession of Goodwill Proof_First Conversation]《ID:205801》" />
-            <Option Value="205802" Name="Guardian Knight [Talk_Pledge Rank 1]《ID:205802》" />
+            <Option Value="205802" Name="Guardian Knight [If you have proof of goodwill: YES/NO Dialogue: NO: First look]《ID:205802》" />
             <Option Value="205803" Name="Guardian Knight [Talk_Pledge Rank 2]《ID:205803》" />
             <Option Value="205804" Name="Guardian Knight [Talk_Pledge Rank 3]《ID:205804》" />
             <Option Value="205805" Name="Guardian Knight [Menu Conversation_Part 1]《ID:205805》" />
             <Option Value="205806" Name="Guardian Knight [Menu Conversation_Part 2]《ID:205806》" />
             <Option Value="205807" Name="Guardian Knight [Menu Conversation_Part 3]《ID:205807》" />
             <Option Value="205808" Name="Guardian Knight [Talk_First look after vow cancellation]《ID:205808》" />
+            <Option Value="205810" Name="Guardian Knight [Menu Conversation_Part 1]《ID:205810》" />
+            <Option Value="205811" Name="Guardian Knight [Menu Conversation_Part 2]《ID:205811》" />
+            <Option Value="205812" Name="Guardian Knight [Menu Conversation_Part 3]《ID:205812》" />
+            <Option Value="205820" Name="Guardian Knight [Talk_After vow is canceled_First look]《ID:205820》" />
+            <Option Value="206000" Name="Mouse King [Talk: First Time]《ID:206000》" />
+            <Option Value="206001" Name="Mouse King [Talk: Item possession]《ID:206001》" />
+            <Option Value="206002" Name="Mouse King [Menu Conversation: Part 1]《ID:206002》" />
+            <Option Value="206003" Name="Mouse King [Menu Conversation: Part 2]《ID:206003》" />
+            <Option Value="206004" Name="Mouse King [Talk to: Refusal of pledge]《ID:206004》" />
+            <Option Value="206005" Name="Mouse King [Menu Conversation: Part 3]《ID:206005》" />
+            <Option Value="206010" Name="Mouse King [After signing the oath]《ID:206010》" />
+            <Option Value="206100" Name="Man Scorpion♂ [♀Before defeat: Talk to 1]《ID:206100》" />
+            <Option Value="206101" Name="Man Scorpion♂ [♀Before defeat: Talk to 2]《ID:206101》" />
+            <Option Value="206102" Name="Man Scorpion♂ [♀Before defeat: Talk to 3]《ID:206102》" />
+            <Option Value="206103" Name="Man Scorpion♂ [♀Before defeat: Talk to 4]《ID:206103》" />
+            <Option Value="206104" Name="Man Scorpion♂ [♀Before defeat: Talk to 5]《ID:206104》" />
+            <Option Value="206105" Name="Man Scorpion♂ [♀Before defeat: Talk to 6]《ID:206105》" />
+            <Option Value="206106" Name="Man Scorpion♂ [♀Before defeat: Talk to 7]《ID:206106》" />
+            <Option Value="206110" Name="Man Scorpion♂ [♀After defeat: Talk 1]《ID:206110》" />
+            <Option Value="206111" Name="Man Scorpion♂ [♀After defeat: Talk 2]《ID:206111》" />
+            <Option Value="206600" Name="Ancient Dragon [Talk: Part 1]《ID:206600》" />
         </Enum>
     </Enums>
 </PARAMMETA>

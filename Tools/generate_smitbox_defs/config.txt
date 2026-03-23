@@ -17,6 +17,7 @@ CUSTOM_ATTR_SPEC_PARAM_ENUM : CustomAttrSpecParam
 DAMAGE_CTRL_PARAM_ENUM : DamageCtrlParam
 DAMAGE_DEAD_MOTION_TYPE : DamageDeadMotionWeightParam
 DAMAGE_MOTION_TYPE : DamageMotionLadderWeightParam, DamageMotionRopeWeightParam, DamageMotionWeightParam
+DAMAGE_OBJ_ATTACK_ATTR_ENUM : DamageObjAttackAttrParam
 DEAD_TYPE_PARAM_TYPE : DeadTypeParam
 ENEMY_ATTACK_TYPE : EnemyAttackMoveParam
 ENEMY_DAMAGE_PARAM_ID : EnemyDamageParam, PlayerDamageParam, SystemDamageParam

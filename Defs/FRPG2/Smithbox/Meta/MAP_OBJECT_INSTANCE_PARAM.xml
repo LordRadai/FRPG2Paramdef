@@ -403,6 +403,10 @@
             <Option Value="37" Name="Rolling flame barrel" />
             <Option Value="38" Name="Destroy a wall with a rolling barrel of fire" />
             <Option Value="39" Name="Wall torch" />
+            <Option Value="40" Name="40" />
+            <Option Value="41" Name="41" />
+            <Option Value="42" Name="42" />
+            <Option Value="43" Name="Play go door" />
         </Enum>
         <Enum Name="OBJ_LABBEL_ENUM" type="u8">
             <Option Value="0" Name="None" />

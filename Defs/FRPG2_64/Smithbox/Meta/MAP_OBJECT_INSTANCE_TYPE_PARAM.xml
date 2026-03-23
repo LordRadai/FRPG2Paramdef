@@ -11,7 +11,7 @@
         <mass AltName="&quot;mass&quot;" />
         <friction AltName="《Friction coefficient》" />
         <restitution AltName="《Coefficient of restitution》" />
-        <objAttackAttr AltName="《Damage_Attack Attribute》" ProjectEnum="DAMAGE_OBJ_ATTACK_ATTR_ENUM" />
+        <objAttackAttr AltName="《Damage_Attack Attribute》" Refs="DamageObjAttackAttrParam" />
         <rumbleScale AltName="《Maximum swing width on hit》" />
         <rumbleTime AltName="《Swing time on hit》" />
     </Field>

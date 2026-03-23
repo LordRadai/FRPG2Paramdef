@@ -31,7 +31,7 @@
         <guardAttackLevelType AltName="Guard guard play level" Enum="GUARD_ATTACK_LEVEL_TYPE" />
         <isForceLower AltName="Forced lower body damage" IsBool="true" />
         <objDamage AltName="OBJ damage value" />
-        <objAttackAttr AltName="OBJ attack attribute" ProjectEnum="DAMAGE_OBJ_ATTACK_ATTR_ENUM" />
+        <objAttackAttr AltName="OBJ attack attribute" Refs="DamageObjAttackAttrParam" />
         <cameraRumble AltName="Camera noise parameter ID" />
         <padRumble AltName="Pad vibration parameter ID" />
         <rumbleTime AltName="Vibration time [sec]" />
@@ -81,47 +81,12 @@
         </Enum>
         <Enum Name="GUARD_ATTACK_LEVEL_TYPE" type="u8">
             <Option Value="0" Name="Extremely small" />
-            <Option Value="1" Name="小" />
-            <Option Value="2" Name="中" />
-            <Option Value="3" Name="大" />
+            <Option Value="1" Name="Small" />
+            <Option Value="2" Name="Medium" />
+            <Option Value="3" Name="Large" />
             <Option Value="4" Name="Extra large" />
-            <Option Value="5" Name="Extra large" />
+            <Option Value="5" Name="Extra extra large" />
             <Option Value="6" Name="Special" />
-        </Enum>
-        <Enum Name="DAMAGE_WIND_CATE_ID" type="u32">
-            <Option Value="0" Name="Invalid" />
-            <Option Value="3100000" Name="Immunity-Medium-Attack-General purpose" />
-            <Option Value="11100000" Name="General-purpose-Minimum-Attack-General purpose" />
-            <Option Value="12100000" Name="General-purpose-Small-Attack-General purpose" />
-            <Option Value="13100000" Name="General-purpose-Medium-Attack-General purpose" />
-            <Option Value="14100000" Name="General-purpose-Large-Attack-General purpose" />
-            <Option Value="15100000" Name="General Purpose-Extra Large-Attack-General Purpose" />
-            <Option Value="16100000" Name="General Purpose-Extra Large-Attack-General Purpose" />
-            <Option Value="21100000" Name="PC-Tiny-Attack-General Purpose" />
-            <Option Value="22100000" Name="PC-Small-Attack-General Purpose" />
-            <Option Value="23100000" Name="PC-Medium-Attack-General purpose" />
-            <Option Value="24100000" Name="PC-Large-Attack-General" />
-            <Option Value="25100000" Name="PC-Extra Large-Attack-General Purpose" />
-            <Option Value="26100000" Name="PC-Extra Large-Attack-General Purpose" />
-            <Option Value="31100000" Name="Enemy - Minimal - Attack - General purpose" />
-            <Option Value="31200000" Name="Energy - Extremely small - Ground vibration - General purpose" />
-            <Option Value="32100000" Name="Enemy - Small - Attack - General purpose" />
-            <Option Value="32200000" Name="Energy - Small - Ground vibration - General purpose" />
-            <Option Value="33100000" Name="Enemy-Medium-Attack-General" />
-            <Option Value="33200000" Name="Energy-Medium-Ground Vibration-General Purpose" />
-            <Option Value="34100000" Name="Enemy-Large-Attack-General" />
-            <Option Value="34200000" Name="Energy-Large-Ground Vibration-General Purpose" />
-            <Option Value="35100000" Name="Enemy - Extra Large - Attack - General Purpose" />
-            <Option Value="35200000" Name="Enemy - Extra Large - Ground Vibration - General Purpose" />
-            <Option Value="36100000" Name="Enemy - Extra Large - Attack - General Purpose" />
-            <Option Value="36200000" Name="Enemy - Extra Large - Ground Vibration - General Purpose" />
-            <Option Value="41100000" Name="Object - Minimal - Attack - General purpose" />
-            <Option Value="42100000" Name="Object-Small-Attack-General Purpose" />
-            <Option Value="43100000" Name="Object-Medium-Attack-General Purpose" />
-            <Option Value="44100000" Name="Object-Large-Attack-General Purpose" />
-            <Option Value="45100000" Name="Object - Extra Large - Attack - General Purpose" />
-            <Option Value="46100000" Name="Object - Extra Large - Attack - General Purpose" />
-            <Option Value="90000000" Name="Test" />
         </Enum>
         <Enum Name="DAMAGE_IMPACT_POWER_TYPE" type="u8">
             <Option Value="0" Name="None" />
