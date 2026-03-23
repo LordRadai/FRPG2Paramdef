@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMDEF XmlVersion="0">
     <ParamType>DAMAGE_OVER_WRITE_PARAM</ParamType>
     <DataVersion>3</DataVersion>
@@ -7,189 +7,189 @@
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="u8 damageOverWriteNoMotion">
-            <DisplayName>ノーモーション</DisplayName>
+            <DisplayName>no motion</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 damageOverWriteSmall">
-            <DisplayName>極小</DisplayName>
+            <DisplayName>Extremely small</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 damageOverWriteSmallKnockBack">
-            <DisplayName>小ノックバック</DisplayName>
+            <DisplayName>small knockback</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 damageOverWriteLargeKnockBack">
-            <DisplayName>大ノックバック</DisplayName>
+            <DisplayName>big knockback</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 damageOverWriteLarge">
-            <DisplayName>特大</DisplayName>
+            <DisplayName>extra large</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 damageOverWriteBlow">
-            <DisplayName>吹き飛ばし</DisplayName>
+            <DisplayName>blow away</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 damageOverWriteUpper">
-            <DisplayName>打ち上げ</DisplayName>
+            <DisplayName>launch</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 damageOverWriteBreath">
-            <DisplayName>ブレス</DisplayName>
+            <DisplayName>breath</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 damageOverWriteStumble">
-            <DisplayName>転倒</DisplayName>
+            <DisplayName>fall down</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 damageOverWriteBreakDown">
-            <DisplayName>崩れ落ち</DisplayName>
+            <DisplayName>collapse</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 damageOverWriteAerialDown">
-            <DisplayName>空中転倒</DisplayName>
+            <DisplayName>Fall in the air</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 damageOverWriteDown">
-            <DisplayName>ダウン</DisplayName>
+            <DisplayName>down</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 damageOverWriteDownAttack">
-            <DisplayName>ダウン攻撃</DisplayName>
+            <DisplayName>down attack</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 damageOverWriteLadder">
-            <DisplayName>はしご</DisplayName>
+            <DisplayName>ladder</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 damageOverWriteRope">
-            <DisplayName>ロープ</DisplayName>
+            <DisplayName>rope</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 damageOverWriteParryBreak">
-            <DisplayName>パリィブレイク</DisplayName>
+            <DisplayName>parry break</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 damageOverWriteGuardBreak">
-            <DisplayName>ガードブレイク</DisplayName>
+            <DisplayName>guard break</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 damageOverWriteStun">
-            <DisplayName>気絶</DisplayName>
+            <DisplayName>Fainting</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 damageOverWriteBleeding">
-            <DisplayName>出血</DisplayName>
+            <DisplayName>bleeding</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 damageOverWriteGrab">
-            <DisplayName>掴み</DisplayName>
+            <DisplayName>grab</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 damageOverWriteHeadShot">
-            <DisplayName>ヘッドショット</DisplayName>
+            <DisplayName>head shot</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 damageOverWriteFallSmall">
-            <DisplayName>落下中小ダメージ</DisplayName>
+            <DisplayName>Small and medium damage from falling</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 damageOverWriteFallLarge">
-            <DisplayName>落下中大ダメージ</DisplayName>
+            <DisplayName>Heavy damage while falling</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 damageOverWriteAerialSmall">
-            <DisplayName>空中小ダメージ</DisplayName>
+            <DisplayName>Small air damage</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 damageOverWriteAerialLarge">
-            <DisplayName>空中大ダメージ</DisplayName>
+            <DisplayName>Heavy damage in the air</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 damageOverWriteGroundJumpAttack">
-            <DisplayName>ジャンプ地上衝突</DisplayName>
+            <DisplayName>jump ground collision</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 damageOverWriteAerialJumpAttack">
-            <DisplayName>ジャンプ空中衝突</DisplayName>
+            <DisplayName>jump mid-air collision</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>

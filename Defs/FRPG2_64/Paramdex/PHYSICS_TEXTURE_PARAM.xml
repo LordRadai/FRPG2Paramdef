@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMDEF XmlVersion="0">
     <ParamType>PHYSICS_TEXTURE_PARAM</ParamType>
     <DataVersion>1</DataVersion>
@@ -7,7 +7,7 @@
     <FormatVersion>104</FormatVersion>
     <Fields>
         <Field Def="u8 layerType">
-            <DisplayName>レイヤータイプ</DisplayName>
+            <DisplayName>layer type</DisplayName>
             <Enum>PXT_LAYER_TYPE</Enum>
             <Description>レイヤータイプ</Description>
             <Maximum>2</Maximum>
@@ -15,7 +15,7 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="dummy8 dummy0[3]">
-            <DisplayName>ダミー0</DisplayName>
+            <DisplayName>dummy 0</DisplayName>
             <Description>ダミー0</Description>
             <Minimum>-1e+09</Minimum>
             <Maximum>1e+09</Maximum>
@@ -23,7 +23,7 @@
             <SortID>9</SortID>
         </Field>
         <Field Def="f32 refractiveReal">
-            <DisplayName>屈折率</DisplayName>
+            <DisplayName>refractive index</DisplayName>
             <Description>屈折率</Description>
             <Minimum>-1e+09</Minimum>
             <Maximum>1e+09</Maximum>
@@ -31,7 +31,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="f32 refractiveImag">
-            <DisplayName>屈折率の虚数部</DisplayName>
+            <DisplayName>Imaginary part of refractive index</DisplayName>
             <Description>屈折率の虚数部.</Description>
             <Minimum>-1e+09</Minimum>
             <Maximum>1e+09</Maximum>
@@ -39,7 +39,7 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="f32 fresnel">
-            <DisplayName>垂直反射率</DisplayName>
+            <DisplayName>vertical reflectance</DisplayName>
             <Description>垂直反射率</Description>
             <Minimum>-1e+09</Minimum>
             <Maximum>1e+09</Maximum>
@@ -47,14 +47,14 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="s32 fresnelInt">
-            <DisplayName>垂直反射率(255基準)</DisplayName>
+            <DisplayName>Vertical reflectance (255 standard)</DisplayName>
             <Description>255基準の垂直反射率.テクスチャにはここの値が使用される.</Description>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>5</SortID>
         </Field>
         <Field Def="f32 roughness">
-            <DisplayName>滑らかさ</DisplayName>
+            <DisplayName>smoothness</DisplayName>
             <Description>滑らかさ</Description>
             <Minimum>-1e+09</Minimum>
             <Maximum>1e+09</Maximum>
@@ -62,7 +62,7 @@
             <SortID>6</SortID>
         </Field>
         <Field Def="s32 roughnessInt">
-            <DisplayName>滑らかさ(255基準)</DisplayName>
+            <DisplayName>Smoothness (255 standard)</DisplayName>
             <Description>255基準の滑らかさ.テクスチャにはここの値が使用される.</Description>
             <Maximum>255</Maximum>
             <Increment>1</Increment>

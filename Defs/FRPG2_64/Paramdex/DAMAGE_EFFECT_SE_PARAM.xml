@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMDEF XmlVersion="0">
     <ParamType>DAMAGE_EFFECT_SE_PARAM</ParamType>
     <DataVersion>3</DataVersion>
@@ -7,7 +7,7 @@
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="u8 materialNone">
-            <DisplayName>なし</DisplayName>
+            <DisplayName>none</DisplayName>
             <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>32</Maximum>
@@ -15,7 +15,7 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="u8 materialMetal">
-            <DisplayName>鉄</DisplayName>
+            <DisplayName>iron</DisplayName>
             <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>32</Maximum>
@@ -23,7 +23,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="u8 materialHeavyMetal">
-            <DisplayName>重鉄</DisplayName>
+            <DisplayName>heavy iron</DisplayName>
             <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>32</Maximum>
@@ -31,7 +31,7 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="u8 materialWood">
-            <DisplayName>木</DisplayName>
+            <DisplayName>tree</DisplayName>
             <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>32</Maximum>
@@ -39,7 +39,7 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="u8 materialWater">
-            <DisplayName>水</DisplayName>
+            <DisplayName>water</DisplayName>
             <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>33</Maximum>
@@ -47,7 +47,7 @@
             <SortID>5</SortID>
         </Field>
         <Field Def="u8 materialSwamp">
-            <DisplayName>沼</DisplayName>
+            <DisplayName>Swamp</DisplayName>
             <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>34</Maximum>
@@ -55,7 +55,7 @@
             <SortID>6</SortID>
         </Field>
         <Field Def="u8 materialLumber">
-            <DisplayName>木材</DisplayName>
+            <DisplayName>wood</DisplayName>
             <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>35</Maximum>
@@ -63,7 +63,7 @@
             <SortID>7</SortID>
         </Field>
         <Field Def="u8 materialMeat">
-            <DisplayName>生者肉</DisplayName>
+            <DisplayName>flesh of the living</DisplayName>
             <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>36</Maximum>
@@ -71,7 +71,7 @@
             <SortID>8</SortID>
         </Field>
         <Field Def="u8 materialDeadMeat">
-            <DisplayName>亡者肉</DisplayName>
+            <DisplayName>corpse meat</DisplayName>
             <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>37</Maximum>
@@ -79,7 +79,7 @@
             <SortID>9</SortID>
         </Field>
         <Field Def="u8 materialInsect">
-            <DisplayName>虫</DisplayName>
+            <DisplayName>insect</DisplayName>
             <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>38</Maximum>
@@ -87,7 +87,7 @@
             <SortID>10</SortID>
         </Field>
         <Field Def="u8 materialGiant">
-            <DisplayName>巨人</DisplayName>
+            <DisplayName>giant</DisplayName>
             <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>39</Maximum>
@@ -95,7 +95,7 @@
             <SortID>11</SortID>
         </Field>
         <Field Def="u8 materialBone">
-            <DisplayName>骨</DisplayName>
+            <DisplayName>bone</DisplayName>
             <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>40</Maximum>
@@ -103,7 +103,7 @@
             <SortID>12</SortID>
         </Field>
         <Field Def="u8 materialCopper">
-            <DisplayName>銅</DisplayName>
+            <DisplayName>copper</DisplayName>
             <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>41</Maximum>
@@ -111,7 +111,7 @@
             <SortID>13</SortID>
         </Field>
         <Field Def="u8 materialEnergy">
-            <DisplayName>エネルギー</DisplayName>
+            <DisplayName>energy</DisplayName>
             <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>42</Maximum>
@@ -119,7 +119,7 @@
             <SortID>14</SortID>
         </Field>
         <Field Def="u8 materialFire">
-            <DisplayName>炎</DisplayName>
+            <DisplayName>flame</DisplayName>
             <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>43</Maximum>
@@ -127,7 +127,7 @@
             <SortID>15</SortID>
         </Field>
         <Field Def="u8 materialThunder">
-            <DisplayName>雷</DisplayName>
+            <DisplayName>thunder</DisplayName>
             <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>44</Maximum>
@@ -135,7 +135,7 @@
             <SortID>16</SortID>
         </Field>
         <Field Def="u8 materialDark">
-            <DisplayName>闇</DisplayName>
+            <DisplayName>darkness</DisplayName>
             <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>45</Maximum>
@@ -143,7 +143,7 @@
             <SortID>17</SortID>
         </Field>
         <Field Def="u8 materialMagicalPower">
-            <DisplayName>魔力</DisplayName>
+            <DisplayName>magic power</DisplayName>
             <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>46</Maximum>
@@ -151,7 +151,7 @@
             <SortID>18</SortID>
         </Field>
         <Field Def="u8 materialStone">
-            <DisplayName>石</DisplayName>
+            <DisplayName>stone</DisplayName>
             <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>47</Maximum>
@@ -159,7 +159,7 @@
             <SortID>19</SortID>
         </Field>
         <Field Def="u8 materialDirt">
-            <DisplayName>土</DisplayName>
+            <DisplayName>soil</DisplayName>
             <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>48</Maximum>
@@ -167,7 +167,7 @@
             <SortID>20</SortID>
         </Field>
         <Field Def="u8 materialCarpet">
-            <DisplayName>カーペット</DisplayName>
+            <DisplayName>carpet</DisplayName>
             <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>49</Maximum>
@@ -175,7 +175,7 @@
             <SortID>21</SortID>
         </Field>
         <Field Def="u8 materialGrass">
-            <DisplayName>草</DisplayName>
+            <DisplayName>grass</DisplayName>
             <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>50</Maximum>
@@ -183,7 +183,7 @@
             <SortID>22</SortID>
         </Field>
         <Field Def="u8 materialBallast">
-            <DisplayName>砂利</DisplayName>
+            <DisplayName>gravel</DisplayName>
             <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>51</Maximum>
@@ -191,7 +191,7 @@
             <SortID>23</SortID>
         </Field>
         <Field Def="u8 materialCloth">
-            <DisplayName>布</DisplayName>
+            <DisplayName>cloth</DisplayName>
             <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>52</Maximum>
@@ -199,7 +199,7 @@
             <SortID>24</SortID>
         </Field>
         <Field Def="u8 materialSand">
-            <DisplayName>砂</DisplayName>
+            <DisplayName>sand</DisplayName>
             <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>53</Maximum>
@@ -207,7 +207,7 @@
             <SortID>25</SortID>
         </Field>
         <Field Def="u8 materialAsh">
-            <DisplayName>灰</DisplayName>
+            <DisplayName>ash</DisplayName>
             <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>54</Maximum>
@@ -215,7 +215,7 @@
             <SortID>26</SortID>
         </Field>
         <Field Def="u8 materialPoisonSwamp">
-            <DisplayName>毒沼</DisplayName>
+            <DisplayName>poisonous swamp</DisplayName>
             <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>55</Maximum>
@@ -223,7 +223,7 @@
             <SortID>27</SortID>
         </Field>
         <Field Def="u8 materialOil">
-            <DisplayName>油</DisplayName>
+            <DisplayName>oil</DisplayName>
             <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>56</Maximum>
@@ -231,7 +231,7 @@
             <SortID>28</SortID>
         </Field>
         <Field Def="u8 materialCoalTar">
-            <DisplayName>コールタール</DisplayName>
+            <DisplayName>coal tar</DisplayName>
             <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>57</Maximum>
@@ -239,7 +239,7 @@
             <SortID>29</SortID>
         </Field>
         <Field Def="u8 materialLava">
-            <DisplayName>溶岩</DisplayName>
+            <DisplayName>lava</DisplayName>
             <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>58</Maximum>
@@ -247,7 +247,7 @@
             <SortID>30</SortID>
         </Field>
         <Field Def="u8 materialThread">
-            <DisplayName>蜘蛛の糸</DisplayName>
+            <DisplayName>spider thread</DisplayName>
             <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>59</Maximum>
@@ -255,7 +255,7 @@
             <SortID>31</SortID>
         </Field>
         <Field Def="u8 materialCrystal">
-            <DisplayName>硫黄結晶</DisplayName>
+            <DisplayName>sulfur crystals</DisplayName>
             <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>60</Maximum>
@@ -263,7 +263,7 @@
             <SortID>32</SortID>
         </Field>
         <Field Def="u8 materialSoul">
-            <DisplayName>ソウル</DisplayName>
+            <DisplayName>soul</DisplayName>
             <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>60</Maximum>
@@ -271,7 +271,7 @@
             <SortID>33</SortID>
         </Field>
         <Field Def="u8 materialFrog">
-            <DisplayName>美声カエル</DisplayName>
+            <DisplayName>beautiful voice frog</DisplayName>
             <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>60</Maximum>
@@ -279,7 +279,7 @@
             <SortID>34</SortID>
         </Field>
         <Field Def="u8 unkMaterial0">
-            <DisplayName>美声カエル</DisplayName>
+            <DisplayName>beautiful voice frog</DisplayName>
             <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>60</Maximum>
@@ -287,7 +287,7 @@
             <SortID>35</SortID>
         </Field>
         <Field Def="u8 unkMaterial1">
-            <DisplayName>美声カエル [1]</DisplayName>
+            <DisplayName>Beautiful voice frog [1]</DisplayName>
             <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>60</Maximum>
@@ -295,7 +295,7 @@
             <SortID>36</SortID>
         </Field>
         <Field Def="u8 unkMaterial2">
-            <DisplayName>美声カエル [2]</DisplayName>
+            <DisplayName>Beautiful voice frog [2]</DisplayName>
             <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>60</Maximum>
@@ -303,7 +303,7 @@
             <SortID>37</SortID>
         </Field>
         <Field Def="u8 unkMaterial3">
-            <DisplayName>美声カエル [3]</DisplayName>
+            <DisplayName>Beautiful voice frog [3]</DisplayName>
             <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>60</Maximum>
@@ -311,7 +311,7 @@
             <SortID>38</SortID>
         </Field>
         <Field Def="u8 unkMaterial4">
-            <DisplayName>美声カエル [4]</DisplayName>
+            <DisplayName>Beautiful voice frog [4]</DisplayName>
             <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>60</Maximum>
@@ -319,7 +319,7 @@
             <SortID>39</SortID>
         </Field>
         <Field Def="u8 unkMaterial5">
-            <DisplayName>美声カエル [5]</DisplayName>
+            <DisplayName>Beautiful voice frog [5]</DisplayName>
             <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>60</Maximum>
@@ -327,7 +327,7 @@
             <SortID>40</SortID>
         </Field>
         <Field Def="u8 unkMaterial6">
-            <DisplayName>美声カエル [6]</DisplayName>
+            <DisplayName>Beautiful voice frog [6]</DisplayName>
             <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>60</Maximum>
@@ -335,7 +335,7 @@
             <SortID>41</SortID>
         </Field>
         <Field Def="u8 unkMaterial7">
-            <DisplayName>美声カエル [7]</DisplayName>
+            <DisplayName>Beautiful voice frog [7]</DisplayName>
             <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>60</Maximum>
@@ -343,7 +343,7 @@
             <SortID>42</SortID>
         </Field>
         <Field Def="u8 unkMaterial8">
-            <DisplayName>美声カエル [8]</DisplayName>
+            <DisplayName>Beautiful voice frog [8]</DisplayName>
             <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>60</Maximum>
@@ -351,7 +351,7 @@
             <SortID>43</SortID>
         </Field>
         <Field Def="dummy8 dummy[1]">
-            <DisplayName>予約領域</DisplayName>
+            <DisplayName>reserved area</DisplayName>
             <SortID>44</SortID>
         </Field>
     </Fields>

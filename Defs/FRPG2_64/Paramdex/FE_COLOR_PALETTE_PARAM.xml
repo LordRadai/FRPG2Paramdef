@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMDEF XmlVersion="0">
     <ParamType>FE_COLOR_PALETTE_PARAM</ParamType>
     <DataVersion>1</DataVersion>
@@ -7,19 +7,19 @@
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="u32 red">
-            <DisplayName>赤</DisplayName>
+            <DisplayName>red</DisplayName>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>1</SortID>
         </Field>
         <Field Def="u32 green">
-            <DisplayName>緑</DisplayName>
+            <DisplayName>green</DisplayName>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>2</SortID>
         </Field>
         <Field Def="u32 blue">
-            <DisplayName>青</DisplayName>
+            <DisplayName>blue</DisplayName>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>3</SortID>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMDEF XmlVersion="0">
     <ParamType>BOSS_ENEMY_GENERATE_PARAM</ParamType>
     <DataVersion>1</DataVersion>
@@ -7,7 +7,7 @@
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="u32 generatorBeginId">
-            <DisplayName>ジェネレータ開始ＩＤ</DisplayName>
+            <DisplayName>Generator start ID</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+08</Maximum>
@@ -15,7 +15,7 @@
             <SortID>100</SortID>
         </Field>
         <Field Def="u32 generatorEndId">
-            <DisplayName>ジェネレータ終了ＩＤ</DisplayName>
+            <DisplayName>Generator end ID</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+08</Maximum>
@@ -23,7 +23,7 @@
             <SortID>100</SortID>
         </Field>
         <Field Def="u16 dummyPolyBeginId">
-            <DisplayName>ダミポリ開始ＩＤ</DisplayName>
+            <DisplayName>Damipoli start ID</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
@@ -31,7 +31,7 @@
             <SortID>100</SortID>
         </Field>
         <Field Def="u16 dummyPolyEndId">
-            <DisplayName>ダミポリ停止ＩＤ</DisplayName>
+            <DisplayName>Damipoli stop ID</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
@@ -39,19 +39,19 @@
             <SortID>100</SortID>
         </Field>
         <Field Def="u8 isCopyPlayerProtector">
-            <DisplayName>プレイヤー防具を引き継ぐ</DisplayName>
+            <DisplayName>Inherit player armor</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <EditFlags>Wrap</EditFlags>
             <SortID>100</SortID>
         </Field>
         <Field Def="u8 isAnotherWorld">
-            <DisplayName>異次元空間生成</DisplayName>
+            <DisplayName>Extradimensional space generation</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <EditFlags>Wrap</EditFlags>
             <SortID>100</SortID>
         </Field>
         <Field Def="dummy8 dummy[2]">
-            <DisplayName>ダミー</DisplayName>
+            <DisplayName>dummy</DisplayName>
             <SortID>101</SortID>
         </Field>
     </Fields>

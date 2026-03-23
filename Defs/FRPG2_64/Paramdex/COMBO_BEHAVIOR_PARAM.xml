@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMDEF XmlVersion="0">
     <ParamType>COMBO_BEHAVIOR_PARAM</ParamType>
     <DataVersion>11</DataVersion>
@@ -7,14 +7,14 @@
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="s32 combo0AttackMotionId">
-            <DisplayName>《コンボ行動0 コンボ一段目》</DisplayName>
+            <DisplayName>《Combo action 0 combo 1st stage》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>9999</Maximum>
             <Increment>1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 combo0ComboAttackRoute1">
-            <DisplayName>《コンボ行動0 コンボ二段目》</DisplayName>
+            <DisplayName>《Combo action 0 combo second stage》</DisplayName>
             <Enum>COMBO_ROUTE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>9999</Maximum>
@@ -22,7 +22,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 combo0ComboAttackRoute2">
-            <DisplayName>《コンボ行動0 コンボ三段目》</DisplayName>
+            <DisplayName>《Combo action 0 combo third stage》</DisplayName>
             <Enum>COMBO_ROUTE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>9999</Maximum>
@@ -30,7 +30,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 combo0ComboAttackRoute3">
-            <DisplayName>《コンボ行動0 コンボ四段目》</DisplayName>
+            <DisplayName>《Combo action 0 combo 4th stage》</DisplayName>
             <Enum>COMBO_ROUTE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>9999</Maximum>
@@ -38,14 +38,14 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 combo0BladeCtrlType">
-            <DisplayName>《コンボ行動0 近接制御タイプ》</DisplayName>
+            <DisplayName>《Combo action 0 proximity control type》</DisplayName>
             <Enum>BLADE_CTRL_TYPE</Enum>
             <Maximum>9999</Maximum>
             <Increment>1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="s32 combo0AttackId01 = -1">
-            <DisplayName>《コンボ行動0 攻撃ID1》</DisplayName>
+            <DisplayName>《Combo action 0 Attack ID 1》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -54,7 +54,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="s32 combo0AttackId02 = -1">
-            <DisplayName>《コンボ行動0 攻撃ID2》</DisplayName>
+            <DisplayName>《Combo action 0 attack ID 2》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -63,7 +63,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="s32 combo0AttackId03 = -1">
-            <DisplayName>《コンボ行動0 攻撃ID3》</DisplayName>
+            <DisplayName>《Combo action 0 attack ID 3》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -72,7 +72,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="s32 combo0AttackId04 = -1">
-            <DisplayName>《コンボ行動0 攻撃ID4》</DisplayName>
+            <DisplayName>《Combo action 0 attack ID 4》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -81,7 +81,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="s32 combo0BulletId01 = -1">
-            <DisplayName>《コンボ行動0 BulletID1》</DisplayName>
+            <DisplayName>《Combo action 0 Bullet ID1》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -90,7 +90,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="s32 combo0BulletId02 = -1">
-            <DisplayName>《コンボ行動0 BulletID2》</DisplayName>
+            <DisplayName>《Combo action 0 Bullet ID2》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -99,7 +99,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="s32 combo0BulletId03 = -1">
-            <DisplayName>《コンボ行動0 BulletID3》</DisplayName>
+            <DisplayName>《Combo action 0 Bullet ID3》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -108,7 +108,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="s32 combo0BulletId04 = -1">
-            <DisplayName>《コンボ行動0 BulletID4》</DisplayName>
+            <DisplayName>《Combo action 0 Bullet ID4》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -117,7 +117,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="f32 combo0ShtoStanceTime01">
-            <DisplayName>《コンボ行動0 射撃構え時間1》</DisplayName>
+            <DisplayName>《Combo action 0 Shooting stance time 1》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>60</Maximum>
@@ -125,7 +125,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="f32 combo0ShtoStanceTime02">
-            <DisplayName>《コンボ行動0 射撃構え時間2》</DisplayName>
+            <DisplayName>《Combo action 0 Shooting stance time 2》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>60</Maximum>
@@ -133,7 +133,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="f32 combo0ShtoStanceTime03">
-            <DisplayName>《コンボ行動0 射撃構え時間3》</DisplayName>
+            <DisplayName>《Combo action 0 Shooting stance time 3》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>60</Maximum>
@@ -141,7 +141,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="f32 combo0ShtoStanceTime04">
-            <DisplayName>《コンボ行動0 射撃構え時間4》</DisplayName>
+            <DisplayName>《Combo action 0 Shooting stance time 4》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>60</Maximum>
@@ -149,7 +149,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 combo0NonInterruptibleType01">
-            <DisplayName>《コンボ行動0 割り込み不可タイプ1》</DisplayName>
+            <DisplayName>《Combo action 0, non-interruptible type 1》</DisplayName>
             <Enum>NON_INTERRUPTIBLE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -158,7 +158,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 combo0NonInterruptibleType02">
-            <DisplayName>《コンボ行動0 割り込み不可タイプ2》</DisplayName>
+            <DisplayName>《Combo action 0, non-interruptible type 2》</DisplayName>
             <Enum>NON_INTERRUPTIBLE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -167,7 +167,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 combo0NonInterruptibleType03">
-            <DisplayName>《コンボ行動0 割り込み不可タイプ3》</DisplayName>
+            <DisplayName>《Combo action 0, non-interruptible type 3》</DisplayName>
             <Enum>NON_INTERRUPTIBLE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -176,7 +176,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 combo0NonInterruptibleType04">
-            <DisplayName>《コンボ行動0 割り込み不可タイプ4》</DisplayName>
+            <DisplayName>《Combo action 0, non-interruptible type 4》</DisplayName>
             <Enum>NON_INTERRUPTIBLE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -185,7 +185,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="u32 combo0AttackMoveId01">
-            <DisplayName>《コンボ行動0 歩行攻撃ID1》</DisplayName>
+            <DisplayName>《Combo action 0 Walking attack ID 1》</DisplayName>
             <Enum>ENEMY_ATTACK_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -194,7 +194,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="u32 combo0AttackMoveId02">
-            <DisplayName>《コンボ行動0 歩行攻撃ID2》</DisplayName>
+            <DisplayName>《Combo action 0 Walking attack ID 2》</DisplayName>
             <Enum>ENEMY_ATTACK_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -203,7 +203,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="u32 combo0AttackMoveId03">
-            <DisplayName>《コンボ行動0 歩行攻撃ID3》</DisplayName>
+            <DisplayName>《Combo action 0 Walking attack ID 3》</DisplayName>
             <Enum>ENEMY_ATTACK_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -212,7 +212,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="u32 combo0AttackMoveId04">
-            <DisplayName>《コンボ行動0 歩行攻撃ID4》</DisplayName>
+            <DisplayName>《Combo action 0 Walking attack ID 4》</DisplayName>
             <Enum>ENEMY_ATTACK_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -221,7 +221,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 combo0AttackHomingCancel01">
-            <DisplayName>《コンボ行動0 ホーミング解除有効設定1》</DisplayName>
+            <DisplayName>《Combo action 0 Homing cancellation enable setting 1》</DisplayName>
             <Enum>BOOL_ENABLEDISABLE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -230,7 +230,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 combo0AttackHomingCancel02">
-            <DisplayName>《コンボ行動0 ホーミング解除有効設定2》</DisplayName>
+            <DisplayName>《Combo action 0 homing cancellation enable setting 2》</DisplayName>
             <Enum>BOOL_ENABLEDISABLE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -239,7 +239,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 combo0AttackHomingCancel03">
-            <DisplayName>《コンボ行動0 ホーミング解除有効設定3》</DisplayName>
+            <DisplayName>《Combo action 0 homing cancellation enable setting 3》</DisplayName>
             <Enum>BOOL_ENABLEDISABLE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -248,7 +248,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 combo0AttackHomingCancel04">
-            <DisplayName>《コンボ行動0 ホーミング解除有効設定4》</DisplayName>
+            <DisplayName>《Combo action 0 homing cancellation enable setting 4》</DisplayName>
             <Enum>BOOL_ENABLEDISABLE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -257,35 +257,35 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="f32 combo0AttackRange01 = 1">
-            <DisplayName>《コンボ行動0 歩行攻撃攻撃範囲1》</DisplayName>
+            <DisplayName>《Combo action 0 Walking attack attack range 1》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>9999</Maximum>
             <Increment>0.1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="f32 combo0AttackRange02 = 1">
-            <DisplayName>《コンボ行動0 歩行攻撃攻撃範囲2》</DisplayName>
+            <DisplayName>《Combo action 0 Walking attack attack range 2》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>9999</Maximum>
             <Increment>0.1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="f32 combo0AttackRange03 = 1">
-            <DisplayName>《コンボ行動0 歩行攻撃攻撃範囲3》</DisplayName>
+            <DisplayName>《Combo action 0 Walking attack attack range 3》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>9999</Maximum>
             <Increment>0.1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="f32 combo0AttackRange04 = 1">
-            <DisplayName>《コンボ行動0 歩行攻撃攻撃範囲4》</DisplayName>
+            <DisplayName>《Combo action 0 Walking attack attack range 4》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>9999</Maximum>
             <Increment>0.1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="f32 fCombo0AttackBackSwingSpeed01 = 1">
-            <DisplayName>《コンボ行動0 攻撃開始部速度倍率1》</DisplayName>
+            <DisplayName>《Combo action 0 Attack start speed multiplier 1》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -293,7 +293,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="f32 fCombo0AttackBackSwingSpeed02 = 1">
-            <DisplayName>《コンボ行動0 攻撃開始部速度倍率2》</DisplayName>
+            <DisplayName>《Combo action 0 Attack start speed multiplier 2》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -301,7 +301,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="f32 fCombo0AttackBackSwingSpeed03 = 1">
-            <DisplayName>《コンボ行動0 攻撃開始部速度倍率3》</DisplayName>
+            <DisplayName>《Combo action 0 Attack start speed multiplier 3》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -309,7 +309,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="f32 fCombo0AttackBackSwingSpeed04 = 1">
-            <DisplayName>《コンボ行動0 攻撃開始部速度倍率4》</DisplayName>
+            <DisplayName>《Combo action 0 Attack start speed multiplier 4》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -317,7 +317,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="f32 fCombo0AttackFollowSwingSpeed01 = 1">
-            <DisplayName>《コンボ行動0 攻撃終了部速度倍率1》</DisplayName>
+            <DisplayName>《Combo action 0 Attack end speed multiplier 1》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -325,7 +325,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="f32 fCombo0AttackFollowSwingSpeed02 = 1">
-            <DisplayName>《コンボ行動0 攻撃終了部速度倍率2》</DisplayName>
+            <DisplayName>《Combo action 0 Attack end speed multiplier 2》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -333,7 +333,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="f32 fCombo0AttackFollowSwingSpeed03 = 1">
-            <DisplayName>《コンボ行動0 攻撃終了部速度倍率3》</DisplayName>
+            <DisplayName>《Combo action 0 Attack end speed multiplier 3》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -341,7 +341,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="f32 fCombo0AttackFollowSwingSpeed04 = 1">
-            <DisplayName>《コンボ行動0 攻撃終了部速度倍率4》</DisplayName>
+            <DisplayName>《Combo action 0, attack end speed multiplier 4》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -349,7 +349,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="f32 fCombo0EstimateFutureTime01 = 1">
-            <DisplayName>《コンボ行動0 位置予測時間1》</DisplayName>
+            <DisplayName>《Combo action 0 Position prediction time 1》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -357,7 +357,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="f32 fCombo0EstimateFutureTime02 = 1">
-            <DisplayName>《コンボ行動0 位置予測時間2》</DisplayName>
+            <DisplayName>《Combo action 0 Position prediction time 2》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -365,7 +365,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="f32 fCombo0EstimateFutureTime03 = 1">
-            <DisplayName>《コンボ行動0 位置予測時間3》</DisplayName>
+            <DisplayName>《Combo action 0 Position prediction time 3》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -373,7 +373,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="f32 fCombo0EstimateFutureTime04 = 1">
-            <DisplayName>《コンボ行動0 位置予測時間4》</DisplayName>
+            <DisplayName>《Combo action 0 Position prediction time 4》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -381,7 +381,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="f32 combo0AttackAngle01">
-            <DisplayName>《コンボ行動0 角度補正1[deg]》</DisplayName>
+            <DisplayName>《Combo action 0 Angle correction 1 [deg]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>-180</Minimum>
             <Maximum>180</Maximum>
@@ -389,7 +389,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="f32 combo0AttackAngle02">
-            <DisplayName>《コンボ行動0 角度補正2[deg]》</DisplayName>
+            <DisplayName>《Combo action 0 Angle correction 2[deg]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>-180</Minimum>
             <Maximum>180</Maximum>
@@ -397,7 +397,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="f32 combo0AttackAngle03">
-            <DisplayName>《コンボ行動0 角度補正3[deg]》</DisplayName>
+            <DisplayName>《Combo action 0 Angle correction 3 [deg]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>-180</Minimum>
             <Maximum>180</Maximum>
@@ -405,7 +405,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="f32 combo0AttackAngle04">
-            <DisplayName>《コンボ行動0 角度補正4[deg]》</DisplayName>
+            <DisplayName>《Combo action 0 Angle correction 4[deg]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>-180</Minimum>
             <Maximum>180</Maximum>
@@ -413,91 +413,91 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="f32 fCombo0AttackRotateHigh01">
-            <DisplayName>《コンボ行動0 旋回補間開始距離1[m]》</DisplayName>
+            <DisplayName>《Combo action 0 Turn interpolation start distance 1 [m]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="f32 fCombo0AttackRotateHigh02">
-            <DisplayName>《コンボ行動0 旋回補間開始距離2[m]》</DisplayName>
+            <DisplayName>《Combo action 0 Turn interpolation start distance 2 [m]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="f32 fCombo0AttackRotateHigh03">
-            <DisplayName>《コンボ行動0 旋回補間開始距離3[m]》</DisplayName>
+            <DisplayName>《Combo action 0 Turn interpolation start distance 3 [m]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="f32 fCombo0AttackRotateHigh04">
-            <DisplayName>《コンボ行動0 旋回補間開始距離4[m]》</DisplayName>
+            <DisplayName>《Combo action 0 Turn interpolation start distance 4 [m]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="f32 fCombo0AttackRotateLow01">
-            <DisplayName>《コンボ行動0 旋回補間終了距離1[m]》</DisplayName>
+            <DisplayName>《Combo action 0 Turn interpolation end distance 1 [m]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="f32 fCombo0AttackRotateLow02">
-            <DisplayName>《コンボ行動0 旋回補間終了距離2[m]》</DisplayName>
+            <DisplayName>《Combo action 0 Turn interpolation end distance 2 [m]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="f32 fCombo0AttackRotateLow03">
-            <DisplayName>《コンボ行動0 旋回補間終了距離3[m]》</DisplayName>
+            <DisplayName>《Combo action 0 Turn interpolation end distance 3 [m]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="f32 fCombo0AttackRotateLow04">
-            <DisplayName>《コンボ行動0 旋回補間終了距離4[m]》</DisplayName>
+            <DisplayName>《Combo action 0 Turn interpolation end distance 4 [m]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 combo0AttackHand01">
-            <DisplayName>《コンボ行動0 攻撃手1》</DisplayName>
+            <DisplayName>《Combo action 0 Attacker 1》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 combo0AttackHand02">
-            <DisplayName>《コンボ行動0 攻撃手2》</DisplayName>
+            <DisplayName>《Combo action 0 Attacker 2》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 combo0AttackHand03">
-            <DisplayName>《コンボ行動0 攻撃手3》</DisplayName>
+            <DisplayName>《Combo action 0 Attacker 3》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 combo0AttackHand04">
-            <DisplayName>《コンボ行動0 攻撃手4》</DisplayName>
+            <DisplayName>《Combo action 0 Attacker 4》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="u32 combo0AttackChantSfx">
-            <DisplayName>《コンボ行動0 詠唱SFX》</DisplayName>
+            <DisplayName>《Combo action 0 chant SFX》</DisplayName>
             <Enum>ENEMY_SHOT_SFX_PARAM_ENUM</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1</Maximum>
@@ -505,25 +505,25 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="f32 combo0Reload">
-            <DisplayName>《コンボ行動0 リロード時間[sec]》</DisplayName>
+            <DisplayName>《Combo action 0 reload time [sec]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>999</Maximum>
             <Increment>0.1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="dummy8 pad00[12]">
-            <DisplayName>予約</DisplayName>
+            <DisplayName>reservation</DisplayName>
             <SortID>0</SortID>
         </Field>
         <Field Def="s32 combo1AttackMotionId">
-            <DisplayName>《コンボ行動1 コンボ一段目》</DisplayName>
+            <DisplayName>《Combo action 1 combo 1st stage》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>9999</Maximum>
             <Increment>1</Increment>
             <SortID>1</SortID>
         </Field>
         <Field Def="u8 combo1ComboAttackRoute1">
-            <DisplayName>《コンボ行動1 コンボ二段目》</DisplayName>
+            <DisplayName>《Combo action 1 combo second stage》</DisplayName>
             <Enum>COMBO_ROUTE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>9999</Maximum>
@@ -531,7 +531,7 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="u8 combo1ComboAttackRoute2">
-            <DisplayName>《コンボ行動1 コンボ三段目》</DisplayName>
+            <DisplayName>《Combo action 1 combo third stage》</DisplayName>
             <Enum>COMBO_ROUTE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>9999</Maximum>
@@ -539,7 +539,7 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="u8 combo1ComboAttackRoute3">
-            <DisplayName>《コンボ行動1 コンボ四段目》</DisplayName>
+            <DisplayName>《Combo action 1 combo 4th stage》</DisplayName>
             <Enum>COMBO_ROUTE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>9999</Maximum>
@@ -547,14 +547,14 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="u8 combo1BladeCtrlType">
-            <DisplayName>《コンボ行動1 近接制御タイプ》</DisplayName>
+            <DisplayName>《Combo action 1 Proximity control type》</DisplayName>
             <Enum>BLADE_CTRL_TYPE</Enum>
             <Maximum>9999</Maximum>
             <Increment>1</Increment>
             <SortID>1</SortID>
         </Field>
         <Field Def="s32 combo1AttackId01 = -1">
-            <DisplayName>《コンボ行動1 攻撃ID1》</DisplayName>
+            <DisplayName>《Combo action 1 attack ID 1》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -563,7 +563,7 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="s32 combo1AttackId02 = -1">
-            <DisplayName>《コンボ行動1 攻撃ID2》</DisplayName>
+            <DisplayName>《Combo action 1 attack ID 2》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -572,7 +572,7 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="s32 combo1AttackId03 = -1">
-            <DisplayName>《コンボ行動1 攻撃ID3》</DisplayName>
+            <DisplayName>《Combo action 1 attack ID3》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -581,7 +581,7 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="s32 combo1AttackId04 = -1">
-            <DisplayName>《コンボ行動1 攻撃ID4》</DisplayName>
+            <DisplayName>《Combo action 1 attack ID 4》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -590,7 +590,7 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="s32 combo1BulletId01 = -1">
-            <DisplayName>《コンボ行動1 BulletID1》</DisplayName>
+            <DisplayName>《Combo action 1 Bullet ID1》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -599,7 +599,7 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="s32 combo1BulletId02 = -1">
-            <DisplayName>《コンボ行動1 BulletID2》</DisplayName>
+            <DisplayName>《Combo action 1 Bullet ID2》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -608,7 +608,7 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="s32 combo1BulletId03 = -1">
-            <DisplayName>《コンボ行動1 BulletID3》</DisplayName>
+            <DisplayName>《Combo action 1 Bullet ID3》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -617,7 +617,7 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="s32 combo1BulletId04 = -1">
-            <DisplayName>《コンボ行動1 BulletID4》</DisplayName>
+            <DisplayName>《Combo action 1 Bullet ID4》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -626,7 +626,7 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="f32 combo1ShtoStanceTime01">
-            <DisplayName>《コンボ行動1 射撃構え時間1》</DisplayName>
+            <DisplayName>《Combo action 1 shooting stance time 1》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>60</Maximum>
@@ -634,7 +634,7 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="f32 combo1ShtoStanceTime02">
-            <DisplayName>《コンボ行動1 射撃構え時間2》</DisplayName>
+            <DisplayName>《Combo action 1 Shooting stance time 2》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>60</Maximum>
@@ -642,7 +642,7 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="f32 combo1ShtoStanceTime03">
-            <DisplayName>《コンボ行動1 射撃構え時間3》</DisplayName>
+            <DisplayName>《Combo action 1 shooting stance time 3》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>60</Maximum>
@@ -650,7 +650,7 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="f32 combo1ShtoStanceTime04">
-            <DisplayName>《コンボ行動1 射撃構え時間4》</DisplayName>
+            <DisplayName>《Combo action 1 shooting stance time 4》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>60</Maximum>
@@ -658,7 +658,7 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="u8 combo1NonInterruptibleType01">
-            <DisplayName>《コンボ行動1 割り込み不可タイプ1》</DisplayName>
+            <DisplayName>《Combo action 1 non-interruptible type 1》</DisplayName>
             <Enum>NON_INTERRUPTIBLE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -667,7 +667,7 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="u8 combo1NonInterruptibleType02">
-            <DisplayName>《コンボ行動1 割り込み不可タイプ2》</DisplayName>
+            <DisplayName>《Combo action 1 non-interruptible type 2》</DisplayName>
             <Enum>NON_INTERRUPTIBLE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -676,7 +676,7 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="u8 combo1NonInterruptibleType03">
-            <DisplayName>《コンボ行動1 割り込み不可タイプ3》</DisplayName>
+            <DisplayName>《Combo action 1 non-interruptible type 3》</DisplayName>
             <Enum>NON_INTERRUPTIBLE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -685,7 +685,7 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="u8 combo1NonInterruptibleType04">
-            <DisplayName>《コンボ行動1 割り込み不可タイプ4》</DisplayName>
+            <DisplayName>《Combo action 1 non-interruptible type 4》</DisplayName>
             <Enum>NON_INTERRUPTIBLE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -694,7 +694,7 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="u32 combo1AttackMoveId01">
-            <DisplayName>《コンボ行動1 歩行攻撃ID1》</DisplayName>
+            <DisplayName>《Combo action 1 Walking attack ID 1》</DisplayName>
             <Enum>ENEMY_ATTACK_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -703,7 +703,7 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="u32 combo1AttackMoveId02">
-            <DisplayName>《コンボ行動1 歩行攻撃ID2》</DisplayName>
+            <DisplayName>《Combo action 1 Walking attack ID 2》</DisplayName>
             <Enum>ENEMY_ATTACK_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -712,7 +712,7 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="u32 combo1AttackMoveId03">
-            <DisplayName>《コンボ行動1 歩行攻撃ID3》</DisplayName>
+            <DisplayName>《Combo action 1 Walking attack ID 3》</DisplayName>
             <Enum>ENEMY_ATTACK_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -721,7 +721,7 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="u32 combo1AttackMoveId04">
-            <DisplayName>《コンボ行動1 歩行攻撃ID4》</DisplayName>
+            <DisplayName>《Combo action 1 Walking attack ID 4》</DisplayName>
             <Enum>ENEMY_ATTACK_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -730,7 +730,7 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="u8 combo1AttackHomingCancel01">
-            <DisplayName>《コンボ行動1 ホーミング解除有効設定1》</DisplayName>
+            <DisplayName>《Combo action 1 homing cancellation enable setting 1》</DisplayName>
             <Enum>BOOL_ENABLEDISABLE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -739,7 +739,7 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="u8 combo1AttackHomingCancel02">
-            <DisplayName>《コンボ行動1 ホーミング解除有効設定2》</DisplayName>
+            <DisplayName>《Combo action 1 homing cancellation enable setting 2》</DisplayName>
             <Enum>BOOL_ENABLEDISABLE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -748,7 +748,7 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="u8 combo1AttackHomingCancel03">
-            <DisplayName>《コンボ行動1 ホーミング解除有効設定3》</DisplayName>
+            <DisplayName>《Combo action 1 homing cancellation enable setting 3》</DisplayName>
             <Enum>BOOL_ENABLEDISABLE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -757,7 +757,7 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="u8 combo1AttackHomingCancel04">
-            <DisplayName>《コンボ行動1 ホーミング解除有効設定4》</DisplayName>
+            <DisplayName>《Combo action 1 homing cancellation enable setting 4》</DisplayName>
             <Enum>BOOL_ENABLEDISABLE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -766,35 +766,35 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="f32 combo1AttackRange01 = 1">
-            <DisplayName>《コンボ行動1 歩行攻撃攻撃範囲1》</DisplayName>
+            <DisplayName>《Combo action 1 Walking attack attack range 1》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>9999</Maximum>
             <Increment>0.1</Increment>
             <SortID>1</SortID>
         </Field>
         <Field Def="f32 combo1AttackRange02 = 1">
-            <DisplayName>《コンボ行動1 歩行攻撃攻撃範囲2》</DisplayName>
+            <DisplayName>《Combo action 1 Walking attack attack range 2》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>9999</Maximum>
             <Increment>0.1</Increment>
             <SortID>1</SortID>
         </Field>
         <Field Def="f32 combo1AttackRange03 = 1">
-            <DisplayName>《コンボ行動1 歩行攻撃攻撃範囲3》</DisplayName>
+            <DisplayName>《Combo action 1 Walking attack attack range 3》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>9999</Maximum>
             <Increment>0.1</Increment>
             <SortID>1</SortID>
         </Field>
         <Field Def="f32 combo1AttackRange04 = 1">
-            <DisplayName>《コンボ行動1 歩行攻撃攻撃範囲4》</DisplayName>
+            <DisplayName>《Combo action 1 Walking attack attack range 4》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>9999</Maximum>
             <Increment>0.1</Increment>
             <SortID>1</SortID>
         </Field>
         <Field Def="f32 fCombo1AttackBackSwingSpeed01 = 1">
-            <DisplayName>《コンボ行動1 攻撃開始部速度倍率1》</DisplayName>
+            <DisplayName>《Combo action 1 attack starting part speed multiplier 1》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -802,7 +802,7 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="f32 fCombo1AttackBackSwingSpeed02 = 1">
-            <DisplayName>《コンボ行動1 攻撃開始部速度倍率2》</DisplayName>
+            <DisplayName>《Combo action 1 attack starting part speed multiplier 2》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -810,7 +810,7 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="f32 fCombo1AttackBackSwingSpeed03 = 1">
-            <DisplayName>《コンボ行動1 攻撃開始部速度倍率3》</DisplayName>
+            <DisplayName>《Combo action 1 attack start part speed multiplier 3》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -818,7 +818,7 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="f32 fCombo1AttackBackSwingSpeed04 = 1">
-            <DisplayName>《コンボ行動1 攻撃開始部速度倍率4》</DisplayName>
+            <DisplayName>《Combo action 1 attack starting part speed multiplier 4》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -826,7 +826,7 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="f32 fCombo1AttackFollowSwingSpeed01 = 1">
-            <DisplayName>《コンボ行動1 攻撃終了部速度倍率1》</DisplayName>
+            <DisplayName>《Combo action 1 attack end speed multiplier 1》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -834,7 +834,7 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="f32 fCombo1AttackFollowSwingSpeed02 = 1">
-            <DisplayName>《コンボ行動1 攻撃終了部速度倍率2》</DisplayName>
+            <DisplayName>《Combo action 1 attack end speed multiplier 2》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -842,7 +842,7 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="f32 fCombo1AttackFollowSwingSpeed03 = 1">
-            <DisplayName>《コンボ行動1 攻撃終了部速度倍率3》</DisplayName>
+            <DisplayName>《Combo action 1 attack end speed multiplier 3》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -850,7 +850,7 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="f32 fCombo1AttackFollowSwingSpeed04 = 1">
-            <DisplayName>《コンボ行動1 攻撃終了部速度倍率4》</DisplayName>
+            <DisplayName>《Combo action 1 attack end speed multiplier 4》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -858,7 +858,7 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="f32 fCombo1EstimateFutureTime01 = 1">
-            <DisplayName>《コンボ行動1 位置予測時間1》</DisplayName>
+            <DisplayName>《Combo action 1 Position prediction time 1》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -866,7 +866,7 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="f32 fCombo1EstimateFutureTime02 = 1">
-            <DisplayName>《コンボ行動1 位置予測時間2》</DisplayName>
+            <DisplayName>《Combo action 1 Position prediction time 2》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -874,7 +874,7 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="f32 fCombo1EstimateFutureTime03 = 1">
-            <DisplayName>《コンボ行動1 位置予測時間3》</DisplayName>
+            <DisplayName>《Combo action 1 Position prediction time 3》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -882,7 +882,7 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="f32 fCombo1EstimateFutureTime04 = 1">
-            <DisplayName>《コンボ行動1 位置予測時間4》</DisplayName>
+            <DisplayName>《Combo action 1 Position prediction time 4》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -890,7 +890,7 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="f32 combo1AttackAngle01">
-            <DisplayName>《コンボ行動1 角度補正1[deg]》</DisplayName>
+            <DisplayName>《Combo action 1 Angle correction 1[deg]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>-180</Minimum>
             <Maximum>180</Maximum>
@@ -898,7 +898,7 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="f32 combo1AttackAngle02">
-            <DisplayName>《コンボ行動1 角度補正2[deg]》</DisplayName>
+            <DisplayName>《Combo action 1 Angle correction 2 [deg]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>-180</Minimum>
             <Maximum>180</Maximum>
@@ -906,7 +906,7 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="f32 combo1AttackAngle03">
-            <DisplayName>《コンボ行動1 角度補正3[deg]》</DisplayName>
+            <DisplayName>《Combo action 1 Angle correction 3 [deg]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>-180</Minimum>
             <Maximum>180</Maximum>
@@ -914,7 +914,7 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="f32 combo1AttackAngle04">
-            <DisplayName>《コンボ行動1 角度補正4[deg]》</DisplayName>
+            <DisplayName>《Combo action 1 Angle correction 4 [deg]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>-180</Minimum>
             <Maximum>180</Maximum>
@@ -922,91 +922,91 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="f32 fCombo1AttackRotateHigh01">
-            <DisplayName>《コンボ行動1 旋回補間開始距離1[m]》</DisplayName>
+            <DisplayName>《Combo action 1 turning interpolation start distance 1 [m]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>1</SortID>
         </Field>
         <Field Def="f32 fCombo1AttackRotateHigh02">
-            <DisplayName>《コンボ行動1 旋回補間開始距離2[m]》</DisplayName>
+            <DisplayName>《Combo action 1 turning interpolation start distance 2 [m]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>1</SortID>
         </Field>
         <Field Def="f32 fCombo1AttackRotateHigh03">
-            <DisplayName>《コンボ行動1 旋回補間開始距離3[m]》</DisplayName>
+            <DisplayName>《Combo action 1 Turn interpolation start distance 3 [m]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>1</SortID>
         </Field>
         <Field Def="f32 fCombo1AttackRotateHigh04">
-            <DisplayName>《コンボ行動1 旋回補間開始距離4[m]》</DisplayName>
+            <DisplayName>《Combo action 1 turning interpolation start distance 4 [m]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>1</SortID>
         </Field>
         <Field Def="f32 fCombo1AttackRotateLow01">
-            <DisplayName>《コンボ行動1 旋回補間終了距離1[m]》</DisplayName>
+            <DisplayName>《Combo action 1 turning interpolation end distance 1 [m]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>1</SortID>
         </Field>
         <Field Def="f32 fCombo1AttackRotateLow02">
-            <DisplayName>《コンボ行動1 旋回補間終了距離2[m]》</DisplayName>
+            <DisplayName>《Combo action 1 Turn interpolation end distance 2 [m]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>1</SortID>
         </Field>
         <Field Def="f32 fCombo1AttackRotateLow03">
-            <DisplayName>《コンボ行動1 旋回補間終了距離3[m]》</DisplayName>
+            <DisplayName>《Combo action 1 Turn interpolation end distance 3 [m]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>1</SortID>
         </Field>
         <Field Def="f32 fCombo1AttackRotateLow04">
-            <DisplayName>《コンボ行動1 旋回補間終了距離4[m]》</DisplayName>
+            <DisplayName>《Combo action 1 turning interpolation end distance 4 [m]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>1</SortID>
         </Field>
         <Field Def="u8 combo1AttackHand01">
-            <DisplayName>《コンボ行動1 攻撃手1》</DisplayName>
+            <DisplayName>《Combo action 1 Attacker 1》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>1</SortID>
         </Field>
         <Field Def="u8 combo1AttackHand02">
-            <DisplayName>《コンボ行動1 攻撃手2》</DisplayName>
+            <DisplayName>《Combo action 1 Attacker 2》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>1</SortID>
         </Field>
         <Field Def="u8 combo1AttackHand03">
-            <DisplayName>《コンボ行動1 攻撃手3》</DisplayName>
+            <DisplayName>《Combo action 1 Attacker 3》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>1</SortID>
         </Field>
         <Field Def="u8 combo1AttackHand04">
-            <DisplayName>《コンボ行動1 攻撃手4》</DisplayName>
+            <DisplayName>《Combo action 1 Attacker 4》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>1</SortID>
         </Field>
         <Field Def="u32 combo1AttackChantSfx">
-            <DisplayName>《コンボ行動1 詠唱SFX》</DisplayName>
+            <DisplayName>《Combo action 1 chanting SFX》</DisplayName>
             <Enum>ENEMY_SHOT_SFX_PARAM_ENUM</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1</Maximum>
@@ -1014,25 +1014,25 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="f32 combo1Reload">
-            <DisplayName>《コンボ行動1 リロード時間[sec]》</DisplayName>
+            <DisplayName>《Combo action 1 reload time [sec]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>999</Maximum>
             <Increment>0.1</Increment>
             <SortID>1</SortID>
         </Field>
         <Field Def="dummy8 pad01[12]">
-            <DisplayName>予約</DisplayName>
+            <DisplayName>reservation</DisplayName>
             <SortID>1</SortID>
         </Field>
         <Field Def="s32 combo2AttackMotionId">
-            <DisplayName>《コンボ行動2 コンボ一段目》</DisplayName>
+            <DisplayName>《Combo action 2 combo first stage》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>9999</Maximum>
             <Increment>1</Increment>
             <SortID>2</SortID>
         </Field>
         <Field Def="u8 combo2ComboAttackRoute1">
-            <DisplayName>《コンボ行動2 コンボ二段目》</DisplayName>
+            <DisplayName>《Combo action 2 combo second stage》</DisplayName>
             <Enum>COMBO_ROUTE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>9999</Maximum>
@@ -1040,7 +1040,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="u8 combo2ComboAttackRoute2">
-            <DisplayName>《コンボ行動2 コンボ三段目》</DisplayName>
+            <DisplayName>《Combo action 2 combo third stage》</DisplayName>
             <Enum>COMBO_ROUTE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>9999</Maximum>
@@ -1048,7 +1048,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="u8 combo2ComboAttackRoute3">
-            <DisplayName>《コンボ行動2 コンボ四段目》</DisplayName>
+            <DisplayName>《Combo action 2 combo 4th stage》</DisplayName>
             <Enum>COMBO_ROUTE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>9999</Maximum>
@@ -1056,14 +1056,14 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="u8 combo2BladeCtrlType">
-            <DisplayName>《コンボ行動2 近接制御タイプ》</DisplayName>
+            <DisplayName>《Combo action 2 Proximity control type》</DisplayName>
             <Enum>BLADE_CTRL_TYPE</Enum>
             <Maximum>9999</Maximum>
             <Increment>1</Increment>
             <SortID>2</SortID>
         </Field>
         <Field Def="s32 combo2AttackId01 = -1">
-            <DisplayName>《コンボ行動2 攻撃ID1》</DisplayName>
+            <DisplayName>《Combo action 2 attack ID 1》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -1072,7 +1072,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="s32 combo2AttackId02 = -1">
-            <DisplayName>《コンボ行動2 攻撃ID2》</DisplayName>
+            <DisplayName>《Combo action 2 attack ID 2》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -1081,7 +1081,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="s32 combo2AttackId03 = -1">
-            <DisplayName>《コンボ行動2 攻撃ID3》</DisplayName>
+            <DisplayName>《Combo action 2 attack ID3》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -1090,7 +1090,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="s32 combo2AttackId04 = -1">
-            <DisplayName>《コンボ行動2 攻撃ID4》</DisplayName>
+            <DisplayName>《Combo action 2 attack ID 4》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -1099,7 +1099,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="s32 combo2BulletId01 = -1">
-            <DisplayName>《コンボ行動2 BulletID1》</DisplayName>
+            <DisplayName>《Combo action 2 Bullet ID1》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -1108,7 +1108,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="s32 combo2BulletId02 = -1">
-            <DisplayName>《コンボ行動2 BulletID2》</DisplayName>
+            <DisplayName>《Combo action 2 Bullet ID2》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -1117,7 +1117,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="s32 combo2BulletId03 = -1">
-            <DisplayName>《コンボ行動2 BulletID3》</DisplayName>
+            <DisplayName>《Combo action 2 Bullet ID3》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -1126,7 +1126,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="s32 combo2BulletId04 = -1">
-            <DisplayName>《コンボ行動2 BulletID4》</DisplayName>
+            <DisplayName>《Combo action 2 Bullet ID4》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -1135,7 +1135,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="f32 combo2ShtoStanceTime01">
-            <DisplayName>《コンボ行動2 射撃構え時間1》</DisplayName>
+            <DisplayName>《Combo action 2 shooting stance time 1》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>60</Maximum>
@@ -1143,7 +1143,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="f32 combo2ShtoStanceTime02">
-            <DisplayName>《コンボ行動2 射撃構え時間2》</DisplayName>
+            <DisplayName>《Combo action 2 shooting stance time 2》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>60</Maximum>
@@ -1151,7 +1151,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="f32 combo2ShtoStanceTime03">
-            <DisplayName>《コンボ行動2 射撃構え時間3》</DisplayName>
+            <DisplayName>《Combo action 2 shooting stance time 3》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>60</Maximum>
@@ -1159,7 +1159,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="f32 combo2ShtoStanceTime04">
-            <DisplayName>《コンボ行動2 射撃構え時間4》</DisplayName>
+            <DisplayName>《Combo action 2 shooting stance time 4》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>60</Maximum>
@@ -1167,7 +1167,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="u8 combo2NonInterruptibleType01">
-            <DisplayName>《コンボ行動2 割り込み不可タイプ1》</DisplayName>
+            <DisplayName>《Combo action 2 non-interruptible type 1》</DisplayName>
             <Enum>NON_INTERRUPTIBLE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -1176,7 +1176,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="u8 combo2NonInterruptibleType02">
-            <DisplayName>《コンボ行動2 割り込み不可タイプ2》</DisplayName>
+            <DisplayName>《Combo action 2 non-interruptible type 2》</DisplayName>
             <Enum>NON_INTERRUPTIBLE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -1185,7 +1185,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="u8 combo2NonInterruptibleType03">
-            <DisplayName>《コンボ行動2 割り込み不可タイプ3》</DisplayName>
+            <DisplayName>《Combo action 2 non-interruptible type 3》</DisplayName>
             <Enum>NON_INTERRUPTIBLE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -1194,7 +1194,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="u8 combo2NonInterruptibleType04">
-            <DisplayName>《コンボ行動2 割り込み不可タイプ4》</DisplayName>
+            <DisplayName>《Combo action 2 non-interruptible type 4》</DisplayName>
             <Enum>NON_INTERRUPTIBLE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -1203,7 +1203,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="u32 combo2AttackMoveId01">
-            <DisplayName>《コンボ行動2 歩行攻撃ID1》</DisplayName>
+            <DisplayName>《Combo action 2 Walking attack ID 1》</DisplayName>
             <Enum>ENEMY_ATTACK_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -1212,7 +1212,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="u32 combo2AttackMoveId02">
-            <DisplayName>《コンボ行動2 歩行攻撃ID2》</DisplayName>
+            <DisplayName>《Combo action 2 Walking attack ID 2》</DisplayName>
             <Enum>ENEMY_ATTACK_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -1221,7 +1221,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="u32 combo2AttackMoveId03">
-            <DisplayName>《コンボ行動2 歩行攻撃ID3》</DisplayName>
+            <DisplayName>《Combo action 2 Walking attack ID 3》</DisplayName>
             <Enum>ENEMY_ATTACK_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -1230,7 +1230,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="u32 combo2AttackMoveId04">
-            <DisplayName>《コンボ行動2 歩行攻撃ID4》</DisplayName>
+            <DisplayName>《Combo action 2 walking attack ID4》</DisplayName>
             <Enum>ENEMY_ATTACK_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -1239,7 +1239,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="u8 combo2AttackHomingCancel01">
-            <DisplayName>《コンボ行動2 ホーミング解除有効設定1》</DisplayName>
+            <DisplayName>《Combo action 2 homing cancellation enable setting 1》</DisplayName>
             <Enum>BOOL_ENABLEDISABLE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -1248,7 +1248,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="u8 combo2AttackHomingCancel02">
-            <DisplayName>《コンボ行動2 ホーミング解除有効設定2》</DisplayName>
+            <DisplayName>《Combo action 2 homing cancellation enable setting 2》</DisplayName>
             <Enum>BOOL_ENABLEDISABLE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -1257,7 +1257,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="u8 combo2AttackHomingCancel03">
-            <DisplayName>《コンボ行動2 ホーミング解除有効設定3》</DisplayName>
+            <DisplayName>《Combo action 2 homing cancellation enable setting 3》</DisplayName>
             <Enum>BOOL_ENABLEDISABLE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -1266,7 +1266,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="u8 combo2AttackHomingCancel04">
-            <DisplayName>《コンボ行動2 ホーミング解除有効設定4》</DisplayName>
+            <DisplayName>《Combo action 2 homing cancellation enable setting 4》</DisplayName>
             <Enum>BOOL_ENABLEDISABLE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -1275,35 +1275,35 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="f32 combo2AttackRange01 = 1">
-            <DisplayName>《コンボ行動2 歩行攻撃攻撃範囲1》</DisplayName>
+            <DisplayName>《Combo action 2 Walking attack attack range 1》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>9999</Maximum>
             <Increment>0.1</Increment>
             <SortID>2</SortID>
         </Field>
         <Field Def="f32 combo2AttackRange02 = 1">
-            <DisplayName>《コンボ行動2 歩行攻撃攻撃範囲2》</DisplayName>
+            <DisplayName>《Combo action 2 Walking attack attack range 2》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>9999</Maximum>
             <Increment>0.1</Increment>
             <SortID>2</SortID>
         </Field>
         <Field Def="f32 combo2AttackRange03 = 1">
-            <DisplayName>《コンボ行動2 歩行攻撃攻撃範囲3》</DisplayName>
+            <DisplayName>《Combo action 2 Walking attack attack range 3》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>9999</Maximum>
             <Increment>0.1</Increment>
             <SortID>2</SortID>
         </Field>
         <Field Def="f32 combo2AttackRange04 = 1">
-            <DisplayName>《コンボ行動2 歩行攻撃攻撃範囲4》</DisplayName>
+            <DisplayName>《Combo action 2 Walking attack attack range 4》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>9999</Maximum>
             <Increment>0.1</Increment>
             <SortID>2</SortID>
         </Field>
         <Field Def="f32 fCombo2AttackBackSwingSpeed01 = 1">
-            <DisplayName>《コンボ行動2 攻撃開始部速度倍率1》</DisplayName>
+            <DisplayName>《Combo action 2 attack start part speed multiplier 1》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -1311,7 +1311,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="f32 fCombo2AttackBackSwingSpeed02 = 1">
-            <DisplayName>《コンボ行動2 攻撃開始部速度倍率2》</DisplayName>
+            <DisplayName>《Combo action 2 attack start speed multiplier 2》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -1319,7 +1319,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="f32 fCombo2AttackBackSwingSpeed03 = 1">
-            <DisplayName>《コンボ行動2 攻撃開始部速度倍率3》</DisplayName>
+            <DisplayName>《Combo action 2 attack start part speed multiplier 3》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -1327,7 +1327,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="f32 fCombo2AttackBackSwingSpeed04 = 1">
-            <DisplayName>《コンボ行動2 攻撃開始部速度倍率4》</DisplayName>
+            <DisplayName>《Combo action 2 attack start part speed multiplier 4》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -1335,7 +1335,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="f32 fCombo2AttackFollowSwingSpeed01 = 1">
-            <DisplayName>《コンボ行動2 攻撃終了部速度倍率1》</DisplayName>
+            <DisplayName>《Combo action 2 attack end speed multiplier 1》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -1343,7 +1343,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="f32 fCombo2AttackFollowSwingSpeed02 = 1">
-            <DisplayName>《コンボ行動2 攻撃終了部速度倍率2》</DisplayName>
+            <DisplayName>《Combo action 2 attack end speed multiplier 2》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -1351,7 +1351,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="f32 fCombo2AttackFollowSwingSpeed03 = 1">
-            <DisplayName>《コンボ行動2 攻撃終了部速度倍率3》</DisplayName>
+            <DisplayName>《Combo action 2 attack end speed multiplier 3》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -1359,7 +1359,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="f32 fCombo2AttackFollowSwingSpeed04 = 1">
-            <DisplayName>《コンボ行動2 攻撃終了部速度倍率4》</DisplayName>
+            <DisplayName>《Combo action 2 attack end speed multiplier 4》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -1367,7 +1367,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="f32 fCombo2EstimateFutureTime01 = 1">
-            <DisplayName>《コンボ行動2 位置予測時間1》</DisplayName>
+            <DisplayName>《Combo action 2 Position prediction time 1》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -1375,7 +1375,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="f32 fCombo2EstimateFutureTime02 = 1">
-            <DisplayName>《コンボ行動2 位置予測時間2》</DisplayName>
+            <DisplayName>《Combo action 2 Position prediction time 2》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -1383,7 +1383,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="f32 fCombo2EstimateFutureTime03 = 1">
-            <DisplayName>《コンボ行動2 位置予測時間3》</DisplayName>
+            <DisplayName>《Combo action 2 Position prediction time 3》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -1391,7 +1391,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="f32 fCombo2EstimateFutureTime04 = 1">
-            <DisplayName>《コンボ行動2 位置予測時間4》</DisplayName>
+            <DisplayName>《Combo action 2 Position prediction time 4》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -1399,7 +1399,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="f32 combo2AttackAngle01">
-            <DisplayName>《コンボ行動2 角度補正1[deg]》</DisplayName>
+            <DisplayName>《Combo action 2 Angle correction 1 [deg]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>-180</Minimum>
             <Maximum>180</Maximum>
@@ -1407,7 +1407,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="f32 combo2AttackAngle02">
-            <DisplayName>《コンボ行動2 角度補正2[deg]》</DisplayName>
+            <DisplayName>《Combo action 2 Angle correction 2[deg]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>-180</Minimum>
             <Maximum>180</Maximum>
@@ -1415,7 +1415,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="f32 combo2AttackAngle03">
-            <DisplayName>《コンボ行動2 角度補正3[deg]》</DisplayName>
+            <DisplayName>《Combo action 2 Angle correction 3 [deg]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>-180</Minimum>
             <Maximum>180</Maximum>
@@ -1423,7 +1423,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="f32 combo2AttackAngle04">
-            <DisplayName>《コンボ行動2 角度補正4[deg]》</DisplayName>
+            <DisplayName>《Combo action 2 Angle correction 4 [deg]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>-180</Minimum>
             <Maximum>180</Maximum>
@@ -1431,91 +1431,91 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="f32 fCombo2AttackRotateHigh01">
-            <DisplayName>《コンボ行動2 旋回補間開始距離1[m]》</DisplayName>
+            <DisplayName>《Combo action 2 Turn interpolation start distance 1 [m]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>2</SortID>
         </Field>
         <Field Def="f32 fCombo2AttackRotateHigh02">
-            <DisplayName>《コンボ行動2 旋回補間開始距離2[m]》</DisplayName>
+            <DisplayName>《Combo action 2 Turn interpolation start distance 2 [m]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>2</SortID>
         </Field>
         <Field Def="f32 fCombo2AttackRotateHigh03">
-            <DisplayName>《コンボ行動2 旋回補間開始距離3[m]》</DisplayName>
+            <DisplayName>《Combo action 2 Turn interpolation start distance 3 [m]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>2</SortID>
         </Field>
         <Field Def="f32 fCombo2AttackRotateHigh04">
-            <DisplayName>《コンボ行動2 旋回補間開始距離4[m]》</DisplayName>
+            <DisplayName>《Combo action 2 Turn interpolation start distance 4 [m]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>2</SortID>
         </Field>
         <Field Def="f32 fCombo2AttackRotateLow01">
-            <DisplayName>《コンボ行動2 旋回補間終了距離1[m]》</DisplayName>
+            <DisplayName>《Combo action 2 Turn interpolation end distance 1 [m]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>2</SortID>
         </Field>
         <Field Def="f32 fCombo2AttackRotateLow02">
-            <DisplayName>《コンボ行動2 旋回補間終了距離2[m]》</DisplayName>
+            <DisplayName>《Combo action 2 Turn interpolation end distance 2 [m]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>2</SortID>
         </Field>
         <Field Def="f32 fCombo2AttackRotateLow03">
-            <DisplayName>《コンボ行動2 旋回補間終了距離3[m]》</DisplayName>
+            <DisplayName>《Combo action 2 Turn interpolation end distance 3 [m]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>2</SortID>
         </Field>
         <Field Def="f32 fCombo2AttackRotateLow04">
-            <DisplayName>《コンボ行動2 旋回補間終了距離4[m]》</DisplayName>
+            <DisplayName>《Combo action 2 Turn interpolation end distance 4 [m]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>2</SortID>
         </Field>
         <Field Def="u8 combo2AttackHand01">
-            <DisplayName>《コンボ行動2 攻撃手1》</DisplayName>
+            <DisplayName>《Combo action 2 Attacker 1》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>2</SortID>
         </Field>
         <Field Def="u8 combo2AttackHand02">
-            <DisplayName>《コンボ行動2 攻撃手2》</DisplayName>
+            <DisplayName>《Combo action 2 Attacker 2》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>2</SortID>
         </Field>
         <Field Def="u8 combo2AttackHand03">
-            <DisplayName>《コンボ行動2 攻撃手3》</DisplayName>
+            <DisplayName>《Combo action 2 Attacker 3》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>2</SortID>
         </Field>
         <Field Def="u8 combo2AttackHand04">
-            <DisplayName>《コンボ行動2 攻撃手4》</DisplayName>
+            <DisplayName>《Combo action 2 Attacker 4》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>2</SortID>
         </Field>
         <Field Def="u32 combo2AttackChantSfx">
-            <DisplayName>《コンボ行動2 詠唱SFX》</DisplayName>
+            <DisplayName>《Combo action 2 chanting SFX》</DisplayName>
             <Enum>ENEMY_SHOT_SFX_PARAM_ENUM</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1</Maximum>
@@ -1523,25 +1523,25 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="f32 combo2Reload">
-            <DisplayName>《コンボ行動2 リロード時間[sec]》</DisplayName>
+            <DisplayName>《Combo action 2 reload time [sec]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>999</Maximum>
             <Increment>0.1</Increment>
             <SortID>2</SortID>
         </Field>
         <Field Def="dummy8 pad02[12]">
-            <DisplayName>予約</DisplayName>
+            <DisplayName>reservation</DisplayName>
             <SortID>2</SortID>
         </Field>
         <Field Def="s32 combo3AttackMotionId">
-            <DisplayName>《コンボ行動3 コンボ一段目》</DisplayName>
+            <DisplayName>《Combo Action 3 Combo 1st Stage》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>9999</Maximum>
             <Increment>1</Increment>
             <SortID>3</SortID>
         </Field>
         <Field Def="u8 combo3ComboAttackRoute1">
-            <DisplayName>《コンボ行動3 コンボ二段目》</DisplayName>
+            <DisplayName>《Combo action 3 combo second stage》</DisplayName>
             <Enum>COMBO_ROUTE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>9999</Maximum>
@@ -1549,7 +1549,7 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="u8 combo3ComboAttackRoute2">
-            <DisplayName>《コンボ行動3 コンボ三段目》</DisplayName>
+            <DisplayName>《Combo action 3 combo third stage》</DisplayName>
             <Enum>COMBO_ROUTE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>9999</Maximum>
@@ -1557,7 +1557,7 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="u8 combo3ComboAttackRoute3">
-            <DisplayName>《コンボ行動3 コンボ四段目》</DisplayName>
+            <DisplayName>《Combo action 3 combo 4th stage》</DisplayName>
             <Enum>COMBO_ROUTE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>9999</Maximum>
@@ -1565,14 +1565,14 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="u8 combo3BladeCtrlType">
-            <DisplayName>《コンボ行動3 近接制御タイプ》</DisplayName>
+            <DisplayName>《Combo Action 3 Proximity Control Type》</DisplayName>
             <Enum>BLADE_CTRL_TYPE</Enum>
             <Maximum>9999</Maximum>
             <Increment>1</Increment>
             <SortID>3</SortID>
         </Field>
         <Field Def="s32 combo3AttackId01 = -1">
-            <DisplayName>《コンボ行動3 攻撃ID1》</DisplayName>
+            <DisplayName>《Combo action 3 attack ID1》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -1581,7 +1581,7 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="s32 combo3AttackId02 = -1">
-            <DisplayName>《コンボ行動3 攻撃ID2》</DisplayName>
+            <DisplayName>《Combo action 3 attack ID 2》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -1590,7 +1590,7 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="s32 combo3AttackId03 = -1">
-            <DisplayName>《コンボ行動3 攻撃ID3》</DisplayName>
+            <DisplayName>《Combo action 3 attack ID 3》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -1599,7 +1599,7 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="s32 combo3AttackId04 = -1">
-            <DisplayName>《コンボ行動3 攻撃ID4》</DisplayName>
+            <DisplayName>《Combo action 3 attack ID 4》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -1608,7 +1608,7 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="s32 combo3BulletId01 = -1">
-            <DisplayName>《コンボ行動3 BulletID1》</DisplayName>
+            <DisplayName>《Combo action 3 Bullet ID1》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -1617,7 +1617,7 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="s32 combo3BulletId02 = -1">
-            <DisplayName>《コンボ行動3 BulletID2》</DisplayName>
+            <DisplayName>《Combo action 3 Bullet ID2》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -1626,7 +1626,7 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="s32 combo3BulletId03 = -1">
-            <DisplayName>《コンボ行動3 BulletID3》</DisplayName>
+            <DisplayName>《Combo action 3 Bullet ID3》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -1635,7 +1635,7 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="s32 combo3BulletId04 = -1">
-            <DisplayName>《コンボ行動3 BulletID4》</DisplayName>
+            <DisplayName>《Combo action 3 Bullet ID4》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -1644,7 +1644,7 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="f32 combo3ShtoStanceTime01">
-            <DisplayName>《コンボ行動3 射撃構え時間1》</DisplayName>
+            <DisplayName>《Combo action 3 shooting stance time 1》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>60</Maximum>
@@ -1652,7 +1652,7 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="f32 combo3ShtoStanceTime02">
-            <DisplayName>《コンボ行動3 射撃構え時間2》</DisplayName>
+            <DisplayName>《Combo action 3 shooting stance time 2》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>60</Maximum>
@@ -1660,7 +1660,7 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="f32 combo3ShtoStanceTime03">
-            <DisplayName>《コンボ行動3 射撃構え時間3》</DisplayName>
+            <DisplayName>《Combo action 3 shooting stance time 3》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>60</Maximum>
@@ -1668,7 +1668,7 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="f32 combo3ShtoStanceTime04">
-            <DisplayName>《コンボ行動3 射撃構え時間4》</DisplayName>
+            <DisplayName>《Combo action 3 shooting stance time 4》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>60</Maximum>
@@ -1676,7 +1676,7 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="u8 combo3NonInterruptibleType01">
-            <DisplayName>《コンボ行動3 割り込み不可タイプ1》</DisplayName>
+            <DisplayName>《Combo action 3 non-interruptible type 1》</DisplayName>
             <Enum>NON_INTERRUPTIBLE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -1685,7 +1685,7 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="u8 combo3NonInterruptibleType02">
-            <DisplayName>《コンボ行動3 割り込み不可タイプ2》</DisplayName>
+            <DisplayName>《Combo action 3 non-interruptible type 2》</DisplayName>
             <Enum>NON_INTERRUPTIBLE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -1694,7 +1694,7 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="u8 combo3NonInterruptibleType03">
-            <DisplayName>《コンボ行動3 割り込み不可タイプ3》</DisplayName>
+            <DisplayName>《Combo action 3 non-interruptible type 3》</DisplayName>
             <Enum>NON_INTERRUPTIBLE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -1703,7 +1703,7 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="u8 combo3NonInterruptibleType04">
-            <DisplayName>《コンボ行動3 割り込み不可タイプ4》</DisplayName>
+            <DisplayName>《Combo action 3 non-interruptible type 4》</DisplayName>
             <Enum>NON_INTERRUPTIBLE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -1712,7 +1712,7 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="u32 combo3AttackMoveId01">
-            <DisplayName>《コンボ行動3 歩行攻撃ID1》</DisplayName>
+            <DisplayName>《Combo action 3 walking attack ID1》</DisplayName>
             <Enum>ENEMY_ATTACK_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -1721,7 +1721,7 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="u32 combo3AttackMoveId02">
-            <DisplayName>《コンボ行動3 歩行攻撃ID2》</DisplayName>
+            <DisplayName>《Combo action 3 Walking attack ID 2》</DisplayName>
             <Enum>ENEMY_ATTACK_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -1730,7 +1730,7 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="u32 combo3AttackMoveId03">
-            <DisplayName>《コンボ行動3 歩行攻撃ID3》</DisplayName>
+            <DisplayName>《Combo action 3 walking attack ID3》</DisplayName>
             <Enum>ENEMY_ATTACK_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -1739,7 +1739,7 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="u32 combo3AttackMoveId04">
-            <DisplayName>《コンボ行動3 歩行攻撃ID4》</DisplayName>
+            <DisplayName>《Combo action 3 walking attack ID 4》</DisplayName>
             <Enum>ENEMY_ATTACK_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -1748,7 +1748,7 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="u8 combo3AttackHomingCancel01">
-            <DisplayName>《コンボ行動3 ホーミング解除有効設定1》</DisplayName>
+            <DisplayName>《Combo action 3 homing cancellation enable setting 1》</DisplayName>
             <Enum>BOOL_ENABLEDISABLE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -1757,7 +1757,7 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="u8 combo3AttackHomingCancel02">
-            <DisplayName>《コンボ行動3 ホーミング解除有効設定2》</DisplayName>
+            <DisplayName>《Combo action 3 homing cancellation enable setting 2》</DisplayName>
             <Enum>BOOL_ENABLEDISABLE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -1766,7 +1766,7 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="u8 combo3AttackHomingCancel03">
-            <DisplayName>《コンボ行動3 ホーミング解除有効設定3》</DisplayName>
+            <DisplayName>《Combo action 3 homing cancellation enable setting 3》</DisplayName>
             <Enum>BOOL_ENABLEDISABLE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -1775,7 +1775,7 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="u8 combo3AttackHomingCancel04">
-            <DisplayName>《コンボ行動3 ホーミング解除有効設定4》</DisplayName>
+            <DisplayName>《Combo action 3 homing cancellation enable setting 4》</DisplayName>
             <Enum>BOOL_ENABLEDISABLE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -1784,35 +1784,35 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="f32 combo3AttackRange01 = 1">
-            <DisplayName>《コンボ行動3 歩行攻撃攻撃範囲1》</DisplayName>
+            <DisplayName>《Combo action 3 Walking attack attack range 1》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>9999</Maximum>
             <Increment>0.1</Increment>
             <SortID>3</SortID>
         </Field>
         <Field Def="f32 combo3AttackRange02 = 1">
-            <DisplayName>《コンボ行動3 歩行攻撃攻撃範囲2》</DisplayName>
+            <DisplayName>《Combo action 3 Walking attack attack range 2》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>9999</Maximum>
             <Increment>0.1</Increment>
             <SortID>3</SortID>
         </Field>
         <Field Def="f32 combo3AttackRange03 = 1">
-            <DisplayName>《コンボ行動3 歩行攻撃攻撃範囲3》</DisplayName>
+            <DisplayName>《Combo action 3 Walking attack attack range 3》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>9999</Maximum>
             <Increment>0.1</Increment>
             <SortID>3</SortID>
         </Field>
         <Field Def="f32 combo3AttackRange04 = 1">
-            <DisplayName>《コンボ行動3 歩行攻撃攻撃範囲4》</DisplayName>
+            <DisplayName>《Combo action 3 Walking attack attack range 4》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>9999</Maximum>
             <Increment>0.1</Increment>
             <SortID>3</SortID>
         </Field>
         <Field Def="f32 fCombo3AttackBackSwingSpeed01 = 1">
-            <DisplayName>《コンボ行動3 攻撃開始部速度倍率1》</DisplayName>
+            <DisplayName>《Combo action 3 attack start part speed multiplier 1》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -1820,7 +1820,7 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="f32 fCombo3AttackBackSwingSpeed02 = 1">
-            <DisplayName>《コンボ行動3 攻撃開始部速度倍率2》</DisplayName>
+            <DisplayName>《Combo action 3 attack start speed multiplier 2》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -1828,7 +1828,7 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="f32 fCombo3AttackBackSwingSpeed03 = 1">
-            <DisplayName>《コンボ行動3 攻撃開始部速度倍率3》</DisplayName>
+            <DisplayName>《Combo action 3 attack start speed multiplier 3》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -1836,7 +1836,7 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="f32 fCombo3AttackBackSwingSpeed04 = 1">
-            <DisplayName>《コンボ行動3 攻撃開始部速度倍率4》</DisplayName>
+            <DisplayName>《Combo action 3 attack start speed multiplier 4》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -1844,7 +1844,7 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="f32 fCombo3AttackFollowSwingSpeed01 = 1">
-            <DisplayName>《コンボ行動3 攻撃終了部速度倍率1》</DisplayName>
+            <DisplayName>《Combo action 3 attack end speed multiplier 1》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -1852,7 +1852,7 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="f32 fCombo3AttackFollowSwingSpeed02 = 1">
-            <DisplayName>《コンボ行動3 攻撃終了部速度倍率2》</DisplayName>
+            <DisplayName>《Combo action 3 attack end speed multiplier 2》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -1860,7 +1860,7 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="f32 fCombo3AttackFollowSwingSpeed03 = 1">
-            <DisplayName>《コンボ行動3 攻撃終了部速度倍率3》</DisplayName>
+            <DisplayName>《Combo action 3 attack end speed multiplier 3》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -1868,7 +1868,7 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="f32 fCombo3AttackFollowSwingSpeed04 = 1">
-            <DisplayName>《コンボ行動3 攻撃終了部速度倍率4》</DisplayName>
+            <DisplayName>《Combo action 3 attack end speed multiplier 4》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -1876,7 +1876,7 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="f32 fCombo3EstimateFutureTime01 = 1">
-            <DisplayName>《コンボ行動3 位置予測時間1》</DisplayName>
+            <DisplayName>《Combo action 3 Position prediction time 1》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -1884,7 +1884,7 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="f32 fCombo3EstimateFutureTime02 = 1">
-            <DisplayName>《コンボ行動3 位置予測時間2》</DisplayName>
+            <DisplayName>《Combo action 3 Position prediction time 2》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -1892,7 +1892,7 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="f32 fCombo3EstimateFutureTime03 = 1">
-            <DisplayName>《コンボ行動3 位置予測時間3》</DisplayName>
+            <DisplayName>《Combo action 3 Position prediction time 3》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -1900,7 +1900,7 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="f32 fCombo3EstimateFutureTime04 = 1">
-            <DisplayName>《コンボ行動3 位置予測時間4》</DisplayName>
+            <DisplayName>《Combo action 3 Position prediction time 4》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -1908,7 +1908,7 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="f32 combo3AttackAngle01">
-            <DisplayName>《コンボ行動3 角度補正1[deg]》</DisplayName>
+            <DisplayName>《Combo action 3 Angle correction 1[deg]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>-180</Minimum>
             <Maximum>180</Maximum>
@@ -1916,7 +1916,7 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="f32 combo3AttackAngle02">
-            <DisplayName>《コンボ行動3 角度補正2[deg]》</DisplayName>
+            <DisplayName>《Combo action 3 Angle correction 2 [deg]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>-180</Minimum>
             <Maximum>180</Maximum>
@@ -1924,7 +1924,7 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="f32 combo3AttackAngle03">
-            <DisplayName>《コンボ行動3 角度補正3[deg]》</DisplayName>
+            <DisplayName>《Combo action 3 Angle correction 3 [deg]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>-180</Minimum>
             <Maximum>180</Maximum>
@@ -1932,7 +1932,7 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="f32 combo3AttackAngle04">
-            <DisplayName>《コンボ行動3 角度補正4[deg]》</DisplayName>
+            <DisplayName>《Combo action 3 Angle correction 4 [deg]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>-180</Minimum>
             <Maximum>180</Maximum>
@@ -1940,91 +1940,91 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="f32 fCombo3AttackRotateHigh01">
-            <DisplayName>《コンボ行動3 旋回補間開始距離1[m]》</DisplayName>
+            <DisplayName>《Combo action 3 turning interpolation start distance 1 [m]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>3</SortID>
         </Field>
         <Field Def="f32 fCombo3AttackRotateHigh02">
-            <DisplayName>《コンボ行動3 旋回補間開始距離2[m]》</DisplayName>
+            <DisplayName>《Combo action 3 Turn interpolation start distance 2 [m]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>3</SortID>
         </Field>
         <Field Def="f32 fCombo3AttackRotateHigh03">
-            <DisplayName>《コンボ行動3 旋回補間開始距離3[m]》</DisplayName>
+            <DisplayName>《Combo action 3 Turn interpolation start distance 3 [m]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>3</SortID>
         </Field>
         <Field Def="f32 fCombo3AttackRotateHigh04">
-            <DisplayName>《コンボ行動3 旋回補間開始距離4[m]》</DisplayName>
+            <DisplayName>《Combo action 3 turning interpolation start distance 4 [m]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>3</SortID>
         </Field>
         <Field Def="f32 fCombo3AttackRotateLow01">
-            <DisplayName>《コンボ行動3 旋回補間終了距離1[m]》</DisplayName>
+            <DisplayName>《Combo action 3 Turn interpolation end distance 1 [m]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>3</SortID>
         </Field>
         <Field Def="f32 fCombo3AttackRotateLow02">
-            <DisplayName>《コンボ行動3 旋回補間終了距離2[m]》</DisplayName>
+            <DisplayName>《Combo action 3 Turn interpolation end distance 2 [m]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>3</SortID>
         </Field>
         <Field Def="f32 fCombo3AttackRotateLow03">
-            <DisplayName>《コンボ行動3 旋回補間終了距離3[m]》</DisplayName>
+            <DisplayName>《Combo action 3 Turn interpolation end distance 3 [m]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>3</SortID>
         </Field>
         <Field Def="f32 fCombo3AttackRotateLow04">
-            <DisplayName>《コンボ行動3 旋回補間終了距離4[m]》</DisplayName>
+            <DisplayName>《Combo action 3 Turn interpolation end distance 4 [m]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>3</SortID>
         </Field>
         <Field Def="u8 combo3AttackHand01">
-            <DisplayName>《コンボ行動3 攻撃手1》</DisplayName>
+            <DisplayName>《Combo action 3 Attacker 1》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>3</SortID>
         </Field>
         <Field Def="u8 combo3AttackHand02">
-            <DisplayName>《コンボ行動3 攻撃手2》</DisplayName>
+            <DisplayName>《Combo action 3 Attacker 2》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>3</SortID>
         </Field>
         <Field Def="u8 combo3AttackHand03">
-            <DisplayName>《コンボ行動3 攻撃手3》</DisplayName>
+            <DisplayName>《Combo action 3 Attacker 3》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>3</SortID>
         </Field>
         <Field Def="u8 combo3AttackHand04">
-            <DisplayName>《コンボ行動3 攻撃手4》</DisplayName>
+            <DisplayName>《Combo action 3 Attacker 4》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>3</SortID>
         </Field>
         <Field Def="u32 combo3AttackChantSfx">
-            <DisplayName>《コンボ行動3 詠唱SFX》</DisplayName>
+            <DisplayName>《Combo action 3 chanting SFX》</DisplayName>
             <Enum>ENEMY_SHOT_SFX_PARAM_ENUM</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1</Maximum>
@@ -2032,25 +2032,25 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="f32 combo3Reload">
-            <DisplayName>《コンボ行動3 リロード時間[sec]》</DisplayName>
+            <DisplayName>《Combo action 3 reload time [sec]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>999</Maximum>
             <Increment>0.1</Increment>
             <SortID>3</SortID>
         </Field>
         <Field Def="dummy8 pad03[12]">
-            <DisplayName>予約</DisplayName>
+            <DisplayName>reservation</DisplayName>
             <SortID>3</SortID>
         </Field>
         <Field Def="s32 combo4AttackMotionId">
-            <DisplayName>《コンボ行動4 コンボ一段目》</DisplayName>
+            <DisplayName>《Combo Action 4 Combo 1st Stage》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>9999</Maximum>
             <Increment>1</Increment>
             <SortID>4</SortID>
         </Field>
         <Field Def="u8 combo4ComboAttackRoute1">
-            <DisplayName>《コンボ行動4 コンボ二段目》</DisplayName>
+            <DisplayName>《Combo action 4 combo second stage》</DisplayName>
             <Enum>COMBO_ROUTE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>9999</Maximum>
@@ -2058,7 +2058,7 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="u8 combo4ComboAttackRoute2">
-            <DisplayName>《コンボ行動4 コンボ三段目》</DisplayName>
+            <DisplayName>《Combo action 4 combo third stage》</DisplayName>
             <Enum>COMBO_ROUTE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>9999</Maximum>
@@ -2066,7 +2066,7 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="u8 combo4ComboAttackRoute3">
-            <DisplayName>《コンボ行動4 コンボ四段目》</DisplayName>
+            <DisplayName>《Combo action 4 combo 4th stage》</DisplayName>
             <Enum>COMBO_ROUTE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>9999</Maximum>
@@ -2074,14 +2074,14 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="u8 combo4BladeCtrlType">
-            <DisplayName>《コンボ行動4 近接制御タイプ》</DisplayName>
+            <DisplayName>《Combo Action 4 Proximity Control Type》</DisplayName>
             <Enum>BLADE_CTRL_TYPE</Enum>
             <Maximum>9999</Maximum>
             <Increment>1</Increment>
             <SortID>4</SortID>
         </Field>
         <Field Def="s32 combo4AttackId01 = -1">
-            <DisplayName>《コンボ行動4 攻撃ID1》</DisplayName>
+            <DisplayName>《Combo action 4 attack ID 1》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -2090,7 +2090,7 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="s32 combo4AttackId02 = -1">
-            <DisplayName>《コンボ行動4 攻撃ID2》</DisplayName>
+            <DisplayName>《Combo action 4 attack ID 2》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -2099,7 +2099,7 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="s32 combo4AttackId03 = -1">
-            <DisplayName>《コンボ行動4 攻撃ID3》</DisplayName>
+            <DisplayName>《Combo action 4 attack ID3》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -2108,7 +2108,7 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="s32 combo4AttackId04 = -1">
-            <DisplayName>《コンボ行動4 攻撃ID4》</DisplayName>
+            <DisplayName>《Combo action 4 attack ID 4》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -2117,7 +2117,7 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="s32 combo4BulletId01 = -1">
-            <DisplayName>《コンボ行動4 BulletID1》</DisplayName>
+            <DisplayName>《Combo action 4 Bullet ID1》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -2126,7 +2126,7 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="s32 combo4BulletId02 = -1">
-            <DisplayName>《コンボ行動4 BulletID2》</DisplayName>
+            <DisplayName>《Combo action 4 Bullet ID2》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -2135,7 +2135,7 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="s32 combo4BulletId03 = -1">
-            <DisplayName>《コンボ行動4 BulletID3》</DisplayName>
+            <DisplayName>《Combo action 4 Bullet ID3》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -2144,7 +2144,7 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="s32 combo4BulletId04 = -1">
-            <DisplayName>《コンボ行動4 BulletID4》</DisplayName>
+            <DisplayName>《Combo action 4 Bullet ID4》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -2153,7 +2153,7 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="f32 combo4ShtoStanceTime01">
-            <DisplayName>《コンボ行動4 射撃構え時間1》</DisplayName>
+            <DisplayName>《Combo action 4 shooting stance time 1》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>60</Maximum>
@@ -2161,7 +2161,7 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="f32 combo4ShtoStanceTime02">
-            <DisplayName>《コンボ行動4 射撃構え時間2》</DisplayName>
+            <DisplayName>《Combo action 4 shooting stance time 2》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>60</Maximum>
@@ -2169,7 +2169,7 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="f32 combo4ShtoStanceTime03">
-            <DisplayName>《コンボ行動4 射撃構え時間3》</DisplayName>
+            <DisplayName>《Combo action 4 shooting stance time 3》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>60</Maximum>
@@ -2177,7 +2177,7 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="f32 combo4ShtoStanceTime04">
-            <DisplayName>《コンボ行動4 射撃構え時間4》</DisplayName>
+            <DisplayName>《Combo action 4 Shooting stance time 4》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>60</Maximum>
@@ -2185,7 +2185,7 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="u8 combo4NonInterruptibleType01">
-            <DisplayName>《コンボ行動4 割り込み不可タイプ1》</DisplayName>
+            <DisplayName>《Combo action 4 non-interruptible type 1》</DisplayName>
             <Enum>NON_INTERRUPTIBLE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -2194,7 +2194,7 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="u8 combo4NonInterruptibleType02">
-            <DisplayName>《コンボ行動4 割り込み不可タイプ2》</DisplayName>
+            <DisplayName>《Combo action 4 non-interruptible type 2》</DisplayName>
             <Enum>NON_INTERRUPTIBLE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -2203,7 +2203,7 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="u8 combo4NonInterruptibleType03">
-            <DisplayName>《コンボ行動4 割り込み不可タイプ3》</DisplayName>
+            <DisplayName>《Combo action 4 non-interruptible type 3》</DisplayName>
             <Enum>NON_INTERRUPTIBLE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -2212,7 +2212,7 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="u8 combo4NonInterruptibleType04">
-            <DisplayName>《コンボ行動4 割り込み不可タイプ4》</DisplayName>
+            <DisplayName>《Combo action 4 non-interruptible type 4》</DisplayName>
             <Enum>NON_INTERRUPTIBLE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -2221,7 +2221,7 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="u32 combo4AttackMoveId01">
-            <DisplayName>《コンボ行動4 歩行攻撃ID1》</DisplayName>
+            <DisplayName>《Combo action 4 Walking attack ID1》</DisplayName>
             <Enum>ENEMY_ATTACK_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -2230,7 +2230,7 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="u32 combo4AttackMoveId02">
-            <DisplayName>《コンボ行動4 歩行攻撃ID2》</DisplayName>
+            <DisplayName>《Combo action 4 Walking attack ID 2》</DisplayName>
             <Enum>ENEMY_ATTACK_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -2239,7 +2239,7 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="u32 combo4AttackMoveId03">
-            <DisplayName>《コンボ行動4 歩行攻撃ID3》</DisplayName>
+            <DisplayName>《Combo Action 4 Walking Attack ID3》</DisplayName>
             <Enum>ENEMY_ATTACK_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -2248,7 +2248,7 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="u32 combo4AttackMoveId04">
-            <DisplayName>《コンボ行動4 歩行攻撃ID4》</DisplayName>
+            <DisplayName>《Combo action 4 Walking attack ID 4》</DisplayName>
             <Enum>ENEMY_ATTACK_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -2257,7 +2257,7 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="u8 combo4AttackHomingCancel01">
-            <DisplayName>《コンボ行動4 ホーミング解除有効設定1》</DisplayName>
+            <DisplayName>《Combo action 4 homing cancellation enable setting 1》</DisplayName>
             <Enum>BOOL_ENABLEDISABLE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -2266,7 +2266,7 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="u8 combo4AttackHomingCancel02">
-            <DisplayName>《コンボ行動4 ホーミング解除有効設定2》</DisplayName>
+            <DisplayName>《Combo action 4 homing cancellation enable setting 2》</DisplayName>
             <Enum>BOOL_ENABLEDISABLE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -2275,7 +2275,7 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="u8 combo4AttackHomingCancel03">
-            <DisplayName>《コンボ行動4 ホーミング解除有効設定3》</DisplayName>
+            <DisplayName>《Combo action 4 homing cancellation enable setting 3》</DisplayName>
             <Enum>BOOL_ENABLEDISABLE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -2284,7 +2284,7 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="u8 combo4AttackHomingCancel04">
-            <DisplayName>《コンボ行動4 ホーミング解除有効設定4》</DisplayName>
+            <DisplayName>《Combo action 4 homing cancellation enable setting 4》</DisplayName>
             <Enum>BOOL_ENABLEDISABLE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -2293,35 +2293,35 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="f32 combo4AttackRange01 = 1">
-            <DisplayName>《コンボ行動4 歩行攻撃攻撃範囲1》</DisplayName>
+            <DisplayName>《Combo action 4 Walking attack attack range 1》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>9999</Maximum>
             <Increment>0.1</Increment>
             <SortID>4</SortID>
         </Field>
         <Field Def="f32 combo4AttackRange02 = 1">
-            <DisplayName>《コンボ行動4 歩行攻撃攻撃範囲2》</DisplayName>
+            <DisplayName>《Combo action 4 Walking attack attack range 2》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>9999</Maximum>
             <Increment>0.1</Increment>
             <SortID>4</SortID>
         </Field>
         <Field Def="f32 combo4AttackRange03 = 1">
-            <DisplayName>《コンボ行動4 歩行攻撃攻撃範囲3》</DisplayName>
+            <DisplayName>《Combo action 4 Walking attack attack range 3》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>9999</Maximum>
             <Increment>0.1</Increment>
             <SortID>4</SortID>
         </Field>
         <Field Def="f32 combo4AttackRange04 = 1">
-            <DisplayName>《コンボ行動4 歩行攻撃攻撃範囲4》</DisplayName>
+            <DisplayName>《Combo action 4 Walking attack attack range 4》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>9999</Maximum>
             <Increment>0.1</Increment>
             <SortID>4</SortID>
         </Field>
         <Field Def="f32 fCombo4AttackBackSwingSpeed01 = 1">
-            <DisplayName>《コンボ行動4 攻撃開始部速度倍率1》</DisplayName>
+            <DisplayName>《Combo action 4 attack start part speed multiplier 1》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -2329,7 +2329,7 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="f32 fCombo4AttackBackSwingSpeed02 = 1">
-            <DisplayName>《コンボ行動4 攻撃開始部速度倍率2》</DisplayName>
+            <DisplayName>《Combo action 4 attack start speed multiplier 2》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -2337,7 +2337,7 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="f32 fCombo4AttackBackSwingSpeed03 = 1">
-            <DisplayName>《コンボ行動4 攻撃開始部速度倍率3》</DisplayName>
+            <DisplayName>《Combo action 4 attack start part speed multiplier 3》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -2345,7 +2345,7 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="f32 fCombo4AttackBackSwingSpeed04 = 1">
-            <DisplayName>《コンボ行動4 攻撃開始部速度倍率4》</DisplayName>
+            <DisplayName>《Combo action 4 attack start speed multiplier 4》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -2353,7 +2353,7 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="f32 fCombo4AttackFollowSwingSpeed01 = 1">
-            <DisplayName>《コンボ行動4 攻撃終了部速度倍率1》</DisplayName>
+            <DisplayName>《Combo action 4 attack end speed multiplier 1》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -2361,7 +2361,7 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="f32 fCombo4AttackFollowSwingSpeed02 = 1">
-            <DisplayName>《コンボ行動4 攻撃終了部速度倍率2》</DisplayName>
+            <DisplayName>《Combo action 4 attack end speed multiplier 2》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -2369,7 +2369,7 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="f32 fCombo4AttackFollowSwingSpeed03 = 1">
-            <DisplayName>《コンボ行動4 攻撃終了部速度倍率3》</DisplayName>
+            <DisplayName>《Combo action 4 attack end speed multiplier 3》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -2377,7 +2377,7 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="f32 fCombo4AttackFollowSwingSpeed04 = 1">
-            <DisplayName>《コンボ行動4 攻撃終了部速度倍率4》</DisplayName>
+            <DisplayName>《Combo action 4 attack end speed multiplier 4》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -2385,7 +2385,7 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="f32 fCombo4EstimateFutureTime01 = 1">
-            <DisplayName>《コンボ行動4 位置予測時間1》</DisplayName>
+            <DisplayName>《Combo action 4 Position prediction time 1》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -2393,7 +2393,7 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="f32 fCombo4EstimateFutureTime02 = 1">
-            <DisplayName>《コンボ行動4 位置予測時間2》</DisplayName>
+            <DisplayName>《Combo action 4 Position prediction time 2》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -2401,7 +2401,7 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="f32 fCombo4EstimateFutureTime03 = 1">
-            <DisplayName>《コンボ行動4 位置予測時間3》</DisplayName>
+            <DisplayName>《Combo action 4 Position prediction time 3》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -2409,7 +2409,7 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="f32 fCombo4EstimateFutureTime04 = 1">
-            <DisplayName>《コンボ行動4 位置予測時間4》</DisplayName>
+            <DisplayName>《Combo action 4 Position prediction time 4》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -2417,7 +2417,7 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="f32 combo4AttackAngle01">
-            <DisplayName>《コンボ行動4 角度補正1[deg]》</DisplayName>
+            <DisplayName>《Combo action 4 Angle correction 1 [deg]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>-180</Minimum>
             <Maximum>180</Maximum>
@@ -2425,7 +2425,7 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="f32 combo4AttackAngle02">
-            <DisplayName>《コンボ行動4 角度補正2[deg]》</DisplayName>
+            <DisplayName>《Combo action 4 Angle correction 2[deg]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>-180</Minimum>
             <Maximum>180</Maximum>
@@ -2433,7 +2433,7 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="f32 combo4AttackAngle03">
-            <DisplayName>《コンボ行動4 角度補正3[deg]》</DisplayName>
+            <DisplayName>《Combo action 4 Angle correction 3 [deg]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>-180</Minimum>
             <Maximum>180</Maximum>
@@ -2441,7 +2441,7 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="f32 combo4AttackAngle04">
-            <DisplayName>《コンボ行動4 角度補正4[deg]》</DisplayName>
+            <DisplayName>《Combo action 4 Angle correction 4 [deg]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>-180</Minimum>
             <Maximum>180</Maximum>
@@ -2449,91 +2449,91 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="f32 fCombo4AttackRotateHigh01">
-            <DisplayName>《コンボ行動4 旋回補間開始距離1[m]》</DisplayName>
+            <DisplayName>《Combo action 4 Turn interpolation start distance 1 [m]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>4</SortID>
         </Field>
         <Field Def="f32 fCombo4AttackRotateHigh02">
-            <DisplayName>《コンボ行動4 旋回補間開始距離2[m]》</DisplayName>
+            <DisplayName>《Combo action 4 Turn interpolation start distance 2 [m]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>4</SortID>
         </Field>
         <Field Def="f32 fCombo4AttackRotateHigh03">
-            <DisplayName>《コンボ行動4 旋回補間開始距離3[m]》</DisplayName>
+            <DisplayName>《Combo action 4 Turn interpolation start distance 3 [m]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>4</SortID>
         </Field>
         <Field Def="f32 fCombo4AttackRotateHigh04">
-            <DisplayName>《コンボ行動4 旋回補間開始距離4[m]》</DisplayName>
+            <DisplayName>《Combo action 4 Turn interpolation start distance 4 [m]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>4</SortID>
         </Field>
         <Field Def="f32 fCombo4AttackRotateLow01">
-            <DisplayName>《コンボ行動4 旋回補間終了距離1[m]》</DisplayName>
+            <DisplayName>《Combo action 4 Turn interpolation end distance 1 [m]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>4</SortID>
         </Field>
         <Field Def="f32 fCombo4AttackRotateLow02">
-            <DisplayName>《コンボ行動4 旋回補間終了距離2[m]》</DisplayName>
+            <DisplayName>《Combo action 4 Turn interpolation end distance 2 [m]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>4</SortID>
         </Field>
         <Field Def="f32 fCombo4AttackRotateLow03">
-            <DisplayName>《コンボ行動4 旋回補間終了距離3[m]》</DisplayName>
+            <DisplayName>《Combo action 4 Turn interpolation end distance 3 [m]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>4</SortID>
         </Field>
         <Field Def="f32 fCombo4AttackRotateLow04">
-            <DisplayName>《コンボ行動4 旋回補間終了距離4[m]》</DisplayName>
+            <DisplayName>《Combo action 4 Turn interpolation end distance 4 [m]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>4</SortID>
         </Field>
         <Field Def="u8 combo4AttackHand01">
-            <DisplayName>《コンボ行動4 攻撃手1》</DisplayName>
+            <DisplayName>《Combo action 4 Attacker 1》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>4</SortID>
         </Field>
         <Field Def="u8 combo4AttackHand02">
-            <DisplayName>《コンボ行動4 攻撃手2》</DisplayName>
+            <DisplayName>《Combo action 4 Attacker 2》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>4</SortID>
         </Field>
         <Field Def="u8 combo4AttackHand03">
-            <DisplayName>《コンボ行動4 攻撃手3》</DisplayName>
+            <DisplayName>《Combo action 4 Attacker 3》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>4</SortID>
         </Field>
         <Field Def="u8 combo4AttackHand04">
-            <DisplayName>《コンボ行動4 攻撃手4》</DisplayName>
+            <DisplayName>《Combo action 4 Attacker 4》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>4</SortID>
         </Field>
         <Field Def="u32 combo4AttackChantSfx">
-            <DisplayName>《コンボ行動4 詠唱SFX》</DisplayName>
+            <DisplayName>《Combo action 4 chanting SFX》</DisplayName>
             <Enum>ENEMY_SHOT_SFX_PARAM_ENUM</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1</Maximum>
@@ -2541,25 +2541,25 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="f32 combo4Reload">
-            <DisplayName>《コンボ行動4 リロード時間[sec]》</DisplayName>
+            <DisplayName>《Combo action 4 reload time [sec]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>999</Maximum>
             <Increment>0.1</Increment>
             <SortID>4</SortID>
         </Field>
         <Field Def="dummy8 pad04[12]">
-            <DisplayName>予約</DisplayName>
+            <DisplayName>reservation</DisplayName>
             <SortID>4</SortID>
         </Field>
         <Field Def="s32 combo5AttackMotionId">
-            <DisplayName>《コンボ行動5 コンボ一段目》</DisplayName>
+            <DisplayName>《Combo Action 5 Combo 1st Stage》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>9999</Maximum>
             <Increment>1</Increment>
             <SortID>5</SortID>
         </Field>
         <Field Def="u8 combo5ComboAttackRoute1">
-            <DisplayName>《コンボ行動5 コンボ二段目》</DisplayName>
+            <DisplayName>《Combo action 5 combo second stage》</DisplayName>
             <Enum>COMBO_ROUTE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>9999</Maximum>
@@ -2567,7 +2567,7 @@
             <SortID>5</SortID>
         </Field>
         <Field Def="u8 combo5ComboAttackRoute2">
-            <DisplayName>《コンボ行動5 コンボ三段目》</DisplayName>
+            <DisplayName>《Combo action 5 combo third stage》</DisplayName>
             <Enum>COMBO_ROUTE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>9999</Maximum>
@@ -2575,7 +2575,7 @@
             <SortID>5</SortID>
         </Field>
         <Field Def="u8 combo5ComboAttackRoute3">
-            <DisplayName>《コンボ行動5 コンボ四段目》</DisplayName>
+            <DisplayName>《Combo action 5 combo 4th stage》</DisplayName>
             <Enum>COMBO_ROUTE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>9999</Maximum>
@@ -2583,14 +2583,14 @@
             <SortID>5</SortID>
         </Field>
         <Field Def="u8 combo5BladeCtrlType">
-            <DisplayName>《コンボ行動5 近接制御タイプ》</DisplayName>
+            <DisplayName>《Combo Action 5 Proximity Control Type》</DisplayName>
             <Enum>BLADE_CTRL_TYPE</Enum>
             <Maximum>9999</Maximum>
             <Increment>1</Increment>
             <SortID>5</SortID>
         </Field>
         <Field Def="s32 combo5AttackId01 = -1">
-            <DisplayName>《コンボ行動5 攻撃ID1》</DisplayName>
+            <DisplayName>《Combo action 5 attack ID 1》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -2599,7 +2599,7 @@
             <SortID>5</SortID>
         </Field>
         <Field Def="s32 combo5AttackId02 = -1">
-            <DisplayName>《コンボ行動5 攻撃ID2》</DisplayName>
+            <DisplayName>《Combo action 5 attack ID 2》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -2608,7 +2608,7 @@
             <SortID>5</SortID>
         </Field>
         <Field Def="s32 combo5AttackId03 = -1">
-            <DisplayName>《コンボ行動5 攻撃ID3》</DisplayName>
+            <DisplayName>《Combo action 5 attack ID3》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -2617,7 +2617,7 @@
             <SortID>5</SortID>
         </Field>
         <Field Def="s32 combo5AttackId04 = -1">
-            <DisplayName>《コンボ行動5 攻撃ID4》</DisplayName>
+            <DisplayName>《Combo action 5 attack ID 4》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -2626,7 +2626,7 @@
             <SortID>5</SortID>
         </Field>
         <Field Def="s32 combo5BulletId01 = -1">
-            <DisplayName>《コンボ行動5 BulletID1》</DisplayName>
+            <DisplayName>《Combo action 5 Bullet ID1》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -2635,7 +2635,7 @@
             <SortID>5</SortID>
         </Field>
         <Field Def="s32 combo5BulletId02 = -1">
-            <DisplayName>《コンボ行動5 BulletID2》</DisplayName>
+            <DisplayName>《Combo action 5 Bullet ID2》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -2644,7 +2644,7 @@
             <SortID>5</SortID>
         </Field>
         <Field Def="s32 combo5BulletId03 = -1">
-            <DisplayName>《コンボ行動5 BulletID3》</DisplayName>
+            <DisplayName>《Combo action 5 Bullet ID3》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -2653,7 +2653,7 @@
             <SortID>5</SortID>
         </Field>
         <Field Def="s32 combo5BulletId04 = -1">
-            <DisplayName>《コンボ行動5 BulletID4》</DisplayName>
+            <DisplayName>《Combo action 5 Bullet ID4》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -2662,7 +2662,7 @@
             <SortID>5</SortID>
         </Field>
         <Field Def="f32 combo5ShtoStanceTime01">
-            <DisplayName>《コンボ行動5 射撃構え時間1》</DisplayName>
+            <DisplayName>《Combo action 5 shooting stance time 1》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>60</Maximum>
@@ -2670,7 +2670,7 @@
             <SortID>5</SortID>
         </Field>
         <Field Def="f32 combo5ShtoStanceTime02">
-            <DisplayName>《コンボ行動5 射撃構え時間2》</DisplayName>
+            <DisplayName>《Combo action 5 shooting stance time 2》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>60</Maximum>
@@ -2678,7 +2678,7 @@
             <SortID>5</SortID>
         </Field>
         <Field Def="f32 combo5ShtoStanceTime03">
-            <DisplayName>《コンボ行動5 射撃構え時間3》</DisplayName>
+            <DisplayName>《Combo action 5 shooting stance time 3》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>60</Maximum>
@@ -2686,7 +2686,7 @@
             <SortID>5</SortID>
         </Field>
         <Field Def="f32 combo5ShtoStanceTime04">
-            <DisplayName>《コンボ行動5 射撃構え時間4》</DisplayName>
+            <DisplayName>《Combo action 5 Shooting stance time 4》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>60</Maximum>
@@ -2694,7 +2694,7 @@
             <SortID>5</SortID>
         </Field>
         <Field Def="u8 combo5NonInterruptibleType01">
-            <DisplayName>《コンボ行動5 割り込み不可タイプ1》</DisplayName>
+            <DisplayName>《Combo action 5 non-interruptible type 1》</DisplayName>
             <Enum>NON_INTERRUPTIBLE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -2703,7 +2703,7 @@
             <SortID>5</SortID>
         </Field>
         <Field Def="u8 combo5NonInterruptibleType02">
-            <DisplayName>《コンボ行動5 割り込み不可タイプ2》</DisplayName>
+            <DisplayName>《Combo action 5 non-interruptible type 2》</DisplayName>
             <Enum>NON_INTERRUPTIBLE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -2712,7 +2712,7 @@
             <SortID>5</SortID>
         </Field>
         <Field Def="u8 combo5NonInterruptibleType03">
-            <DisplayName>《コンボ行動5 割り込み不可タイプ3》</DisplayName>
+            <DisplayName>《Combo action 5 non-interruptible type 3》</DisplayName>
             <Enum>NON_INTERRUPTIBLE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -2721,7 +2721,7 @@
             <SortID>5</SortID>
         </Field>
         <Field Def="u8 combo5NonInterruptibleType04">
-            <DisplayName>《コンボ行動5 割り込み不可タイプ4》</DisplayName>
+            <DisplayName>《Combo action 5 non-interruptible type 4》</DisplayName>
             <Enum>NON_INTERRUPTIBLE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -2730,7 +2730,7 @@
             <SortID>5</SortID>
         </Field>
         <Field Def="u32 combo5AttackMoveId01">
-            <DisplayName>《コンボ行動5 歩行攻撃ID1》</DisplayName>
+            <DisplayName>《Combo action 5 Walking attack ID 1》</DisplayName>
             <Enum>ENEMY_ATTACK_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -2739,7 +2739,7 @@
             <SortID>5</SortID>
         </Field>
         <Field Def="u32 combo5AttackMoveId02">
-            <DisplayName>《コンボ行動5 歩行攻撃ID2》</DisplayName>
+            <DisplayName>《Combo action 5 Walking attack ID 2》</DisplayName>
             <Enum>ENEMY_ATTACK_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -2748,7 +2748,7 @@
             <SortID>5</SortID>
         </Field>
         <Field Def="u32 combo5AttackMoveId03">
-            <DisplayName>《コンボ行動5 歩行攻撃ID3》</DisplayName>
+            <DisplayName>《Combo Action 5 Walking Attack ID3》</DisplayName>
             <Enum>ENEMY_ATTACK_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -2757,7 +2757,7 @@
             <SortID>5</SortID>
         </Field>
         <Field Def="u32 combo5AttackMoveId04">
-            <DisplayName>《コンボ行動5 歩行攻撃ID4》</DisplayName>
+            <DisplayName>《Combo action 5 Walking attack ID 4》</DisplayName>
             <Enum>ENEMY_ATTACK_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -2766,7 +2766,7 @@
             <SortID>5</SortID>
         </Field>
         <Field Def="u8 combo5AttackHomingCancel01">
-            <DisplayName>《コンボ行動5 ホーミング解除有効設定1》</DisplayName>
+            <DisplayName>《Combo action 5 homing cancellation enable setting 1》</DisplayName>
             <Enum>BOOL_ENABLEDISABLE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -2775,7 +2775,7 @@
             <SortID>5</SortID>
         </Field>
         <Field Def="u8 combo5AttackHomingCancel02">
-            <DisplayName>《コンボ行動5 ホーミング解除有効設定2》</DisplayName>
+            <DisplayName>《Combo action 5 homing cancellation enable setting 2》</DisplayName>
             <Enum>BOOL_ENABLEDISABLE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -2784,7 +2784,7 @@
             <SortID>5</SortID>
         </Field>
         <Field Def="u8 combo5AttackHomingCancel03">
-            <DisplayName>《コンボ行動5 ホーミング解除有効設定3》</DisplayName>
+            <DisplayName>《Combo action 5 homing cancellation enable setting 3》</DisplayName>
             <Enum>BOOL_ENABLEDISABLE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -2793,7 +2793,7 @@
             <SortID>5</SortID>
         </Field>
         <Field Def="u8 combo5AttackHomingCancel04">
-            <DisplayName>《コンボ行動5 ホーミング解除有効設定4》</DisplayName>
+            <DisplayName>《Combo action 5 homing cancellation enable setting 4》</DisplayName>
             <Enum>BOOL_ENABLEDISABLE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -2802,35 +2802,35 @@
             <SortID>5</SortID>
         </Field>
         <Field Def="f32 combo5AttackRange01 = 1">
-            <DisplayName>《コンボ行動5 歩行攻撃攻撃範囲1》</DisplayName>
+            <DisplayName>《Combo action 5 Walking attack attack range 1》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>9999</Maximum>
             <Increment>0.1</Increment>
             <SortID>5</SortID>
         </Field>
         <Field Def="f32 combo5AttackRange02 = 1">
-            <DisplayName>《コンボ行動5 歩行攻撃攻撃範囲2》</DisplayName>
+            <DisplayName>《Combo action 5 Walking attack attack range 2》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>9999</Maximum>
             <Increment>0.1</Increment>
             <SortID>5</SortID>
         </Field>
         <Field Def="f32 combo5AttackRange03 = 1">
-            <DisplayName>《コンボ行動5 歩行攻撃攻撃範囲3》</DisplayName>
+            <DisplayName>《Combo action 5 Walking attack attack range 3》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>9999</Maximum>
             <Increment>0.1</Increment>
             <SortID>5</SortID>
         </Field>
         <Field Def="f32 combo5AttackRange04 = 1">
-            <DisplayName>《コンボ行動5 歩行攻撃攻撃範囲4》</DisplayName>
+            <DisplayName>《Combo action 5 Walking attack attack range 4》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>9999</Maximum>
             <Increment>0.1</Increment>
             <SortID>5</SortID>
         </Field>
         <Field Def="f32 fCombo5AttackBackSwingSpeed01 = 1">
-            <DisplayName>《コンボ行動5 攻撃開始部速度倍率1》</DisplayName>
+            <DisplayName>《Combo action 5 attack start speed multiplier 1》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -2838,7 +2838,7 @@
             <SortID>5</SortID>
         </Field>
         <Field Def="f32 fCombo5AttackBackSwingSpeed02 = 1">
-            <DisplayName>《コンボ行動5 攻撃開始部速度倍率2》</DisplayName>
+            <DisplayName>《Combo action 5 attack start speed multiplier 2》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -2846,7 +2846,7 @@
             <SortID>5</SortID>
         </Field>
         <Field Def="f32 fCombo5AttackBackSwingSpeed03 = 1">
-            <DisplayName>《コンボ行動5 攻撃開始部速度倍率3》</DisplayName>
+            <DisplayName>《Combo action 5 attack starting part speed multiplier 3》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -2854,7 +2854,7 @@
             <SortID>5</SortID>
         </Field>
         <Field Def="f32 fCombo5AttackBackSwingSpeed04 = 1">
-            <DisplayName>《コンボ行動5 攻撃開始部速度倍率4》</DisplayName>
+            <DisplayName>《Combo action 5 attack start speed multiplier 4》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -2862,7 +2862,7 @@
             <SortID>5</SortID>
         </Field>
         <Field Def="f32 fCombo5AttackFollowSwingSpeed01 = 1">
-            <DisplayName>《コンボ行動5 攻撃終了部速度倍率1》</DisplayName>
+            <DisplayName>《Combo action 5 attack end speed multiplier 1》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -2870,7 +2870,7 @@
             <SortID>5</SortID>
         </Field>
         <Field Def="f32 fCombo5AttackFollowSwingSpeed02 = 1">
-            <DisplayName>《コンボ行動5 攻撃終了部速度倍率2》</DisplayName>
+            <DisplayName>《Combo action 5 attack end speed multiplier 2》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -2878,7 +2878,7 @@
             <SortID>5</SortID>
         </Field>
         <Field Def="f32 fCombo5AttackFollowSwingSpeed03 = 1">
-            <DisplayName>《コンボ行動5 攻撃終了部速度倍率3》</DisplayName>
+            <DisplayName>《Combo action 5 attack end speed multiplier 3》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -2886,7 +2886,7 @@
             <SortID>5</SortID>
         </Field>
         <Field Def="f32 fCombo5AttackFollowSwingSpeed04 = 1">
-            <DisplayName>《コンボ行動5 攻撃終了部速度倍率4》</DisplayName>
+            <DisplayName>《Combo action 5 attack end speed multiplier 4》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -2894,7 +2894,7 @@
             <SortID>5</SortID>
         </Field>
         <Field Def="f32 fCombo5EstimateFutureTime01 = 1">
-            <DisplayName>《コンボ行動5 位置予測時間1》</DisplayName>
+            <DisplayName>《Combo action 5 Position prediction time 1》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -2902,7 +2902,7 @@
             <SortID>5</SortID>
         </Field>
         <Field Def="f32 fCombo5EstimateFutureTime02 = 1">
-            <DisplayName>《コンボ行動5 位置予測時間2》</DisplayName>
+            <DisplayName>《Combo action 5 Position prediction time 2》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -2910,7 +2910,7 @@
             <SortID>5</SortID>
         </Field>
         <Field Def="f32 fCombo5EstimateFutureTime03 = 1">
-            <DisplayName>《コンボ行動5 位置予測時間3》</DisplayName>
+            <DisplayName>《Combo action 5 Position prediction time 3》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -2918,7 +2918,7 @@
             <SortID>5</SortID>
         </Field>
         <Field Def="f32 fCombo5EstimateFutureTime04 = 1">
-            <DisplayName>《コンボ行動5 位置予測時間4》</DisplayName>
+            <DisplayName>《Combo action 5 Position prediction time 4》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -2926,7 +2926,7 @@
             <SortID>5</SortID>
         </Field>
         <Field Def="f32 combo5AttackAngle01">
-            <DisplayName>《コンボ行動5 角度補正1[deg]》</DisplayName>
+            <DisplayName>《Combo action 5 Angle correction 1 [deg]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>-180</Minimum>
             <Maximum>180</Maximum>
@@ -2934,7 +2934,7 @@
             <SortID>5</SortID>
         </Field>
         <Field Def="f32 combo5AttackAngle02">
-            <DisplayName>《コンボ行動5 角度補正2[deg]》</DisplayName>
+            <DisplayName>《Combo action 5 Angle correction 2 [deg]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>-180</Minimum>
             <Maximum>180</Maximum>
@@ -2942,7 +2942,7 @@
             <SortID>5</SortID>
         </Field>
         <Field Def="f32 combo5AttackAngle03">
-            <DisplayName>《コンボ行動5 角度補正3[deg]》</DisplayName>
+            <DisplayName>《Combo action 5 Angle correction 3 [deg]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>-180</Minimum>
             <Maximum>180</Maximum>
@@ -2950,7 +2950,7 @@
             <SortID>5</SortID>
         </Field>
         <Field Def="f32 combo5AttackAngle04">
-            <DisplayName>《コンボ行動5 角度補正4[deg]》</DisplayName>
+            <DisplayName>《Combo action 5 Angle correction 4 [deg]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>-180</Minimum>
             <Maximum>180</Maximum>
@@ -2958,91 +2958,91 @@
             <SortID>5</SortID>
         </Field>
         <Field Def="f32 fCombo5AttackRotateHigh01">
-            <DisplayName>《コンボ行動5 旋回補間開始距離1[m]》</DisplayName>
+            <DisplayName>《Combo action 5 Turn interpolation start distance 1 [m]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>5</SortID>
         </Field>
         <Field Def="f32 fCombo5AttackRotateHigh02">
-            <DisplayName>《コンボ行動5 旋回補間開始距離2[m]》</DisplayName>
+            <DisplayName>《Combo action 5 Turn interpolation start distance 2 [m]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>5</SortID>
         </Field>
         <Field Def="f32 fCombo5AttackRotateHigh03">
-            <DisplayName>《コンボ行動5 旋回補間開始距離3[m]》</DisplayName>
+            <DisplayName>《Combo action 5 Turn interpolation start distance 3 [m]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>5</SortID>
         </Field>
         <Field Def="f32 fCombo5AttackRotateHigh04">
-            <DisplayName>《コンボ行動5 旋回補間開始距離4[m]》</DisplayName>
+            <DisplayName>《Combo action 5 Turn interpolation start distance 4 [m]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>5</SortID>
         </Field>
         <Field Def="f32 fCombo5AttackRotateLow01">
-            <DisplayName>《コンボ行動5 旋回補間終了距離1[m]》</DisplayName>
+            <DisplayName>《Combo action 5 Turn interpolation end distance 1 [m]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>5</SortID>
         </Field>
         <Field Def="f32 fCombo5AttackRotateLow02">
-            <DisplayName>《コンボ行動5 旋回補間終了距離2[m]》</DisplayName>
+            <DisplayName>《Combo action 5 Turn interpolation end distance 2 [m]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>5</SortID>
         </Field>
         <Field Def="f32 fCombo5AttackRotateLow03">
-            <DisplayName>《コンボ行動5 旋回補間終了距離3[m]》</DisplayName>
+            <DisplayName>《Combo action 5 Turn interpolation end distance 3 [m]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>5</SortID>
         </Field>
         <Field Def="f32 fCombo5AttackRotateLow04">
-            <DisplayName>《コンボ行動5 旋回補間終了距離4[m]》</DisplayName>
+            <DisplayName>《Combo action 5 Turn interpolation end distance 4 [m]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>5</SortID>
         </Field>
         <Field Def="u8 combo5AttackHand01">
-            <DisplayName>《コンボ行動5 攻撃手1》</DisplayName>
+            <DisplayName>《Combo action 5 Attacker 1》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>5</SortID>
         </Field>
         <Field Def="u8 combo5AttackHand02">
-            <DisplayName>《コンボ行動5 攻撃手2》</DisplayName>
+            <DisplayName>《Combo action 5 Attacker 2》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>5</SortID>
         </Field>
         <Field Def="u8 combo5AttackHand03">
-            <DisplayName>《コンボ行動5 攻撃手3》</DisplayName>
+            <DisplayName>《Combo action 5 Attacker 3》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>5</SortID>
         </Field>
         <Field Def="u8 combo5AttackHand04">
-            <DisplayName>《コンボ行動5 攻撃手4》</DisplayName>
+            <DisplayName>《Combo action 5 Attacker 4》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>5</SortID>
         </Field>
         <Field Def="u32 combo5AttackChantSfx">
-            <DisplayName>《コンボ行動5 詠唱SFX》</DisplayName>
+            <DisplayName>《Combo Action 5 Chanting SFX》</DisplayName>
             <Enum>ENEMY_SHOT_SFX_PARAM_ENUM</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1</Maximum>
@@ -3050,25 +3050,25 @@
             <SortID>5</SortID>
         </Field>
         <Field Def="f32 combo5Reload">
-            <DisplayName>《コンボ行動5 リロード時間[sec]》</DisplayName>
+            <DisplayName>《Combo action 5 reload time [sec]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>999</Maximum>
             <Increment>0.1</Increment>
             <SortID>5</SortID>
         </Field>
         <Field Def="dummy8 pad05[12]">
-            <DisplayName>予約</DisplayName>
+            <DisplayName>reservation</DisplayName>
             <SortID>5</SortID>
         </Field>
         <Field Def="s32 combo6AttackMotionId">
-            <DisplayName>《コンボ行動6 コンボ一段目》</DisplayName>
+            <DisplayName>《Combo Action 6 Combo 1st Stage》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>9999</Maximum>
             <Increment>1</Increment>
             <SortID>6</SortID>
         </Field>
         <Field Def="u8 combo6ComboAttackRoute1">
-            <DisplayName>《コンボ行動6 コンボ二段目》</DisplayName>
+            <DisplayName>《Combo action 6 combo second stage》</DisplayName>
             <Enum>COMBO_ROUTE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>9999</Maximum>
@@ -3076,7 +3076,7 @@
             <SortID>6</SortID>
         </Field>
         <Field Def="u8 combo6ComboAttackRoute2">
-            <DisplayName>《コンボ行動6 コンボ三段目》</DisplayName>
+            <DisplayName>《Combo action 6 combo third stage》</DisplayName>
             <Enum>COMBO_ROUTE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>9999</Maximum>
@@ -3084,7 +3084,7 @@
             <SortID>6</SortID>
         </Field>
         <Field Def="u8 combo6ComboAttackRoute3">
-            <DisplayName>《コンボ行動6 コンボ四段目》</DisplayName>
+            <DisplayName>《Combo action 6 combo 4th stage》</DisplayName>
             <Enum>COMBO_ROUTE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>9999</Maximum>
@@ -3092,14 +3092,14 @@
             <SortID>6</SortID>
         </Field>
         <Field Def="u8 combo6BladeCtrlType">
-            <DisplayName>《コンボ行動6 近接制御タイプ》</DisplayName>
+            <DisplayName>《Combo action 6 Proximity control type》</DisplayName>
             <Enum>BLADE_CTRL_TYPE</Enum>
             <Maximum>9999</Maximum>
             <Increment>1</Increment>
             <SortID>6</SortID>
         </Field>
         <Field Def="s32 combo6AttackId01 = -1">
-            <DisplayName>《コンボ行動6 攻撃ID1》</DisplayName>
+            <DisplayName>《Combo action 6 attack ID 1》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -3108,7 +3108,7 @@
             <SortID>6</SortID>
         </Field>
         <Field Def="s32 combo6AttackId02 = -1">
-            <DisplayName>《コンボ行動6 攻撃ID2》</DisplayName>
+            <DisplayName>《Combo action 6 attack ID2》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -3117,7 +3117,7 @@
             <SortID>6</SortID>
         </Field>
         <Field Def="s32 combo6AttackId03 = -1">
-            <DisplayName>《コンボ行動6 攻撃ID3》</DisplayName>
+            <DisplayName>《Combo action 6 attack ID3》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -3126,7 +3126,7 @@
             <SortID>6</SortID>
         </Field>
         <Field Def="s32 combo6AttackId04 = -1">
-            <DisplayName>《コンボ行動6 攻撃ID4》</DisplayName>
+            <DisplayName>《Combo action 6 attack ID 4》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -3135,7 +3135,7 @@
             <SortID>6</SortID>
         </Field>
         <Field Def="s32 combo6BulletId01 = -1">
-            <DisplayName>《コンボ行動6 BulletID1》</DisplayName>
+            <DisplayName>《Combo action 6 Bullet ID1》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -3144,7 +3144,7 @@
             <SortID>6</SortID>
         </Field>
         <Field Def="s32 combo6BulletId02 = -1">
-            <DisplayName>《コンボ行動6 BulletID2》</DisplayName>
+            <DisplayName>《Combo action 6 Bullet ID2》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -3153,7 +3153,7 @@
             <SortID>6</SortID>
         </Field>
         <Field Def="s32 combo6BulletId03 = -1">
-            <DisplayName>《コンボ行動6 BulletID3》</DisplayName>
+            <DisplayName>《Combo action 6 Bullet ID3》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -3162,7 +3162,7 @@
             <SortID>6</SortID>
         </Field>
         <Field Def="s32 combo6BulletId04 = -1">
-            <DisplayName>《コンボ行動6 BulletID4》</DisplayName>
+            <DisplayName>《Combo action 6 Bullet ID4》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -3171,7 +3171,7 @@
             <SortID>6</SortID>
         </Field>
         <Field Def="f32 combo6ShtoStanceTime01">
-            <DisplayName>《コンボ行動6 射撃構え時間1》</DisplayName>
+            <DisplayName>《Combo action 6 shooting stance time 1》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>60</Maximum>
@@ -3179,7 +3179,7 @@
             <SortID>6</SortID>
         </Field>
         <Field Def="f32 combo6ShtoStanceTime02">
-            <DisplayName>《コンボ行動6 射撃構え時間2》</DisplayName>
+            <DisplayName>《Combo action 6 shooting stance time 2》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>60</Maximum>
@@ -3187,7 +3187,7 @@
             <SortID>6</SortID>
         </Field>
         <Field Def="f32 combo6ShtoStanceTime03">
-            <DisplayName>《コンボ行動6 射撃構え時間3》</DisplayName>
+            <DisplayName>《Combo action 6 shooting stance time 3》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>60</Maximum>
@@ -3195,7 +3195,7 @@
             <SortID>6</SortID>
         </Field>
         <Field Def="f32 combo6ShtoStanceTime04">
-            <DisplayName>《コンボ行動6 射撃構え時間4》</DisplayName>
+            <DisplayName>《Combo action 6 Shooting stance time 4》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>60</Maximum>
@@ -3203,7 +3203,7 @@
             <SortID>6</SortID>
         </Field>
         <Field Def="u8 combo6NonInterruptibleType01">
-            <DisplayName>《コンボ行動6 割り込み不可タイプ1》</DisplayName>
+            <DisplayName>《Combo action 6 non-interruptible type 1》</DisplayName>
             <Enum>NON_INTERRUPTIBLE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -3212,7 +3212,7 @@
             <SortID>6</SortID>
         </Field>
         <Field Def="u8 combo6NonInterruptibleType02">
-            <DisplayName>《コンボ行動6 割り込み不可タイプ2》</DisplayName>
+            <DisplayName>《Combo action 6 non-interruptible type 2》</DisplayName>
             <Enum>NON_INTERRUPTIBLE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -3221,7 +3221,7 @@
             <SortID>6</SortID>
         </Field>
         <Field Def="u8 combo6NonInterruptibleType03">
-            <DisplayName>《コンボ行動6 割り込み不可タイプ3》</DisplayName>
+            <DisplayName>《Combo action 6 non-interruptible type 3》</DisplayName>
             <Enum>NON_INTERRUPTIBLE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -3230,7 +3230,7 @@
             <SortID>6</SortID>
         </Field>
         <Field Def="u8 combo6NonInterruptibleType04">
-            <DisplayName>《コンボ行動6 割り込み不可タイプ4》</DisplayName>
+            <DisplayName>《Combo action 6 non-interruptible type 4》</DisplayName>
             <Enum>NON_INTERRUPTIBLE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -3239,7 +3239,7 @@
             <SortID>6</SortID>
         </Field>
         <Field Def="u32 combo6AttackMoveId01">
-            <DisplayName>《コンボ行動6 歩行攻撃ID1》</DisplayName>
+            <DisplayName>《Combo action 6 Walking attack ID1》</DisplayName>
             <Enum>ENEMY_ATTACK_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -3248,7 +3248,7 @@
             <SortID>6</SortID>
         </Field>
         <Field Def="u32 combo6AttackMoveId02">
-            <DisplayName>《コンボ行動6 歩行攻撃ID2》</DisplayName>
+            <DisplayName>《Combo action 6 Walking attack ID2》</DisplayName>
             <Enum>ENEMY_ATTACK_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -3257,7 +3257,7 @@
             <SortID>6</SortID>
         </Field>
         <Field Def="u32 combo6AttackMoveId03">
-            <DisplayName>《コンボ行動6 歩行攻撃ID3》</DisplayName>
+            <DisplayName>《Combo Action 6 Walking Attack ID3》</DisplayName>
             <Enum>ENEMY_ATTACK_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -3266,7 +3266,7 @@
             <SortID>6</SortID>
         </Field>
         <Field Def="u32 combo6AttackMoveId04">
-            <DisplayName>《コンボ行動6 歩行攻撃ID4》</DisplayName>
+            <DisplayName>《Combo action 6 Walking attack ID 4》</DisplayName>
             <Enum>ENEMY_ATTACK_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -3275,7 +3275,7 @@
             <SortID>6</SortID>
         </Field>
         <Field Def="u8 combo6AttackHomingCancel01">
-            <DisplayName>《コンボ行動6 ホーミング解除有効設定1》</DisplayName>
+            <DisplayName>《Combo action 6 homing cancellation enable setting 1》</DisplayName>
             <Enum>BOOL_ENABLEDISABLE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -3284,7 +3284,7 @@
             <SortID>6</SortID>
         </Field>
         <Field Def="u8 combo6AttackHomingCancel02">
-            <DisplayName>《コンボ行動6 ホーミング解除有効設定2》</DisplayName>
+            <DisplayName>《Combo action 6 homing cancellation enable setting 2》</DisplayName>
             <Enum>BOOL_ENABLEDISABLE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -3293,7 +3293,7 @@
             <SortID>6</SortID>
         </Field>
         <Field Def="u8 combo6AttackHomingCancel03">
-            <DisplayName>《コンボ行動6 ホーミング解除有効設定3》</DisplayName>
+            <DisplayName>《Combo action 6 homing cancellation enable setting 3》</DisplayName>
             <Enum>BOOL_ENABLEDISABLE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -3302,7 +3302,7 @@
             <SortID>6</SortID>
         </Field>
         <Field Def="u8 combo6AttackHomingCancel04">
-            <DisplayName>《コンボ行動6 ホーミング解除有効設定4》</DisplayName>
+            <DisplayName>《Combo action 6 homing cancellation enable setting 4》</DisplayName>
             <Enum>BOOL_ENABLEDISABLE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -3311,35 +3311,35 @@
             <SortID>6</SortID>
         </Field>
         <Field Def="f32 combo6AttackRange01 = 1">
-            <DisplayName>《コンボ行動6 歩行攻撃攻撃範囲1》</DisplayName>
+            <DisplayName>《Combo action 6 Walking attack attack range 1》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>9999</Maximum>
             <Increment>0.1</Increment>
             <SortID>6</SortID>
         </Field>
         <Field Def="f32 combo6AttackRange02 = 1">
-            <DisplayName>《コンボ行動6 歩行攻撃攻撃範囲2》</DisplayName>
+            <DisplayName>《Combo action 6 Walking attack attack range 2》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>9999</Maximum>
             <Increment>0.1</Increment>
             <SortID>6</SortID>
         </Field>
         <Field Def="f32 combo6AttackRange03 = 1">
-            <DisplayName>《コンボ行動6 歩行攻撃攻撃範囲3》</DisplayName>
+            <DisplayName>《Combo action 6 Walking attack attack range 3》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>9999</Maximum>
             <Increment>0.1</Increment>
             <SortID>6</SortID>
         </Field>
         <Field Def="f32 combo6AttackRange04 = 1">
-            <DisplayName>《コンボ行動6 歩行攻撃攻撃範囲4》</DisplayName>
+            <DisplayName>《Combo action 6 Walking attack attack range 4》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>9999</Maximum>
             <Increment>0.1</Increment>
             <SortID>6</SortID>
         </Field>
         <Field Def="f32 fCombo6AttackBackSwingSpeed01 = 1">
-            <DisplayName>《コンボ行動6 攻撃開始部速度倍率1》</DisplayName>
+            <DisplayName>《Combo action 6 attack start part speed multiplier 1》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -3347,7 +3347,7 @@
             <SortID>6</SortID>
         </Field>
         <Field Def="f32 fCombo6AttackBackSwingSpeed02 = 1">
-            <DisplayName>《コンボ行動6 攻撃開始部速度倍率2》</DisplayName>
+            <DisplayName>《Combo action 6 attack start speed multiplier 2》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -3355,7 +3355,7 @@
             <SortID>6</SortID>
         </Field>
         <Field Def="f32 fCombo6AttackBackSwingSpeed03 = 1">
-            <DisplayName>《コンボ行動6 攻撃開始部速度倍率3》</DisplayName>
+            <DisplayName>《Combo action 6 attack start part speed multiplier 3》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -3363,7 +3363,7 @@
             <SortID>6</SortID>
         </Field>
         <Field Def="f32 fCombo6AttackBackSwingSpeed04 = 1">
-            <DisplayName>《コンボ行動6 攻撃開始部速度倍率4》</DisplayName>
+            <DisplayName>《Combo action 6 attack start speed multiplier 4》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -3371,7 +3371,7 @@
             <SortID>6</SortID>
         </Field>
         <Field Def="f32 fCombo6AttackFollowSwingSpeed01 = 1">
-            <DisplayName>《コンボ行動6 攻撃終了部速度倍率1》</DisplayName>
+            <DisplayName>《Combo action 6 attack end speed multiplier 1》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -3379,7 +3379,7 @@
             <SortID>6</SortID>
         </Field>
         <Field Def="f32 fCombo6AttackFollowSwingSpeed02 = 1">
-            <DisplayName>《コンボ行動6 攻撃終了部速度倍率2》</DisplayName>
+            <DisplayName>《Combo action 6 attack end speed multiplier 2》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -3387,7 +3387,7 @@
             <SortID>6</SortID>
         </Field>
         <Field Def="f32 fCombo6AttackFollowSwingSpeed03 = 1">
-            <DisplayName>《コンボ行動6 攻撃終了部速度倍率3》</DisplayName>
+            <DisplayName>《Combo action 6 attack end speed multiplier 3》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -3395,7 +3395,7 @@
             <SortID>6</SortID>
         </Field>
         <Field Def="f32 fCombo6AttackFollowSwingSpeed04 = 1">
-            <DisplayName>《コンボ行動6 攻撃終了部速度倍率4》</DisplayName>
+            <DisplayName>《Combo action 6 attack end speed multiplier 4》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -3403,7 +3403,7 @@
             <SortID>6</SortID>
         </Field>
         <Field Def="f32 fCombo6EstimateFutureTime01 = 1">
-            <DisplayName>《コンボ行動6 位置予測時間1》</DisplayName>
+            <DisplayName>《Combo action 6 Position prediction time 1》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -3411,7 +3411,7 @@
             <SortID>6</SortID>
         </Field>
         <Field Def="f32 fCombo6EstimateFutureTime02 = 1">
-            <DisplayName>《コンボ行動6 位置予測時間2》</DisplayName>
+            <DisplayName>《Combo action 6 Position prediction time 2》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -3419,7 +3419,7 @@
             <SortID>6</SortID>
         </Field>
         <Field Def="f32 fCombo6EstimateFutureTime03 = 1">
-            <DisplayName>《コンボ行動6 位置予測時間3》</DisplayName>
+            <DisplayName>《Combo action 6 Position prediction time 3》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -3427,7 +3427,7 @@
             <SortID>6</SortID>
         </Field>
         <Field Def="f32 fCombo6EstimateFutureTime04 = 1">
-            <DisplayName>《コンボ行動6 位置予測時間4》</DisplayName>
+            <DisplayName>《Combo action 6 Position prediction time 4》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.1</Minimum>
             <Maximum>9999</Maximum>
@@ -3435,7 +3435,7 @@
             <SortID>6</SortID>
         </Field>
         <Field Def="f32 combo6AttackAngle01">
-            <DisplayName>《コンボ行動6 角度補正1[deg]》</DisplayName>
+            <DisplayName>《Combo action 6 Angle correction 1[deg]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>-180</Minimum>
             <Maximum>180</Maximum>
@@ -3443,7 +3443,7 @@
             <SortID>6</SortID>
         </Field>
         <Field Def="f32 combo6AttackAngle02">
-            <DisplayName>《コンボ行動6 角度補正2[deg]》</DisplayName>
+            <DisplayName>《Combo action 6 Angle correction 2[deg]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>-180</Minimum>
             <Maximum>180</Maximum>
@@ -3451,7 +3451,7 @@
             <SortID>6</SortID>
         </Field>
         <Field Def="f32 combo6AttackAngle03">
-            <DisplayName>《コンボ行動6 角度補正3[deg]》</DisplayName>
+            <DisplayName>《Combo action 6 Angle correction 3 [deg]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>-180</Minimum>
             <Maximum>180</Maximum>
@@ -3459,7 +3459,7 @@
             <SortID>6</SortID>
         </Field>
         <Field Def="f32 combo6AttackAngle04">
-            <DisplayName>《コンボ行動6 角度補正4[deg]》</DisplayName>
+            <DisplayName>《Combo action 6 Angle correction 4 [deg]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>-180</Minimum>
             <Maximum>180</Maximum>
@@ -3467,91 +3467,91 @@
             <SortID>6</SortID>
         </Field>
         <Field Def="f32 fCombo6AttackRotateHigh01">
-            <DisplayName>《コンボ行動6 旋回補間開始距離1[m]》</DisplayName>
+            <DisplayName>《Combo action 6 Turn interpolation start distance 1 [m]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>6</SortID>
         </Field>
         <Field Def="f32 fCombo6AttackRotateHigh02">
-            <DisplayName>《コンボ行動6 旋回補間開始距離2[m]》</DisplayName>
+            <DisplayName>《Combo action 6 Turn interpolation start distance 2 [m]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>6</SortID>
         </Field>
         <Field Def="f32 fCombo6AttackRotateHigh03">
-            <DisplayName>《コンボ行動6 旋回補間開始距離3[m]》</DisplayName>
+            <DisplayName>《Combo action 6 Turn interpolation start distance 3 [m]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>6</SortID>
         </Field>
         <Field Def="f32 fCombo6AttackRotateHigh04">
-            <DisplayName>《コンボ行動6 旋回補間開始距離4[m]》</DisplayName>
+            <DisplayName>《Combo action 6 Turn interpolation start distance 4 [m]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>6</SortID>
         </Field>
         <Field Def="f32 fCombo6AttackRotateLow01">
-            <DisplayName>《コンボ行動6 旋回補間終了距離1[m]》</DisplayName>
+            <DisplayName>《Combo action 6 Turn interpolation end distance 1 [m]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>6</SortID>
         </Field>
         <Field Def="f32 fCombo6AttackRotateLow02">
-            <DisplayName>《コンボ行動6 旋回補間終了距離2[m]》</DisplayName>
+            <DisplayName>《Combo action 6 Turn interpolation end distance 2 [m]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>6</SortID>
         </Field>
         <Field Def="f32 fCombo6AttackRotateLow03">
-            <DisplayName>《コンボ行動6 旋回補間終了距離3[m]》</DisplayName>
+            <DisplayName>《Combo action 6 Turn interpolation end distance 3 [m]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>6</SortID>
         </Field>
         <Field Def="f32 fCombo6AttackRotateLow04">
-            <DisplayName>《コンボ行動6 旋回補間終了距離4[m]》</DisplayName>
+            <DisplayName>《Combo action 6 Turn interpolation end distance 4 [m]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>6</SortID>
         </Field>
         <Field Def="u8 combo6AttackHand01">
-            <DisplayName>《コンボ行動6 攻撃手1》</DisplayName>
+            <DisplayName>《Combo action 6 Attacker 1》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>6</SortID>
         </Field>
         <Field Def="u8 combo6AttackHand02">
-            <DisplayName>《コンボ行動6 攻撃手2》</DisplayName>
+            <DisplayName>《Combo action 6 Attacker 2》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>6</SortID>
         </Field>
         <Field Def="u8 combo6AttackHand03">
-            <DisplayName>《コンボ行動6 攻撃手3》</DisplayName>
+            <DisplayName>《Combo action 6 Attacker 3》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>6</SortID>
         </Field>
         <Field Def="u8 combo6AttackHand04">
-            <DisplayName>《コンボ行動6 攻撃手4》</DisplayName>
+            <DisplayName>《Combo action 6 Attacker 4》</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>6</SortID>
         </Field>
         <Field Def="u32 combo6AttackChantSfx">
-            <DisplayName>《コンボ行動6 詠唱SFX》</DisplayName>
+            <DisplayName>《Combo action 6 chanting SFX》</DisplayName>
             <Enum>ENEMY_SHOT_SFX_PARAM_ENUM</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1</Maximum>
@@ -3559,14 +3559,14 @@
             <SortID>6</SortID>
         </Field>
         <Field Def="f32 combo6Reload">
-            <DisplayName>《コンボ行動6 リロード時間[sec]》</DisplayName>
+            <DisplayName>《Combo action 6 reload time [sec]》</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>999</Maximum>
             <Increment>0.1</Increment>
             <SortID>6</SortID>
         </Field>
         <Field Def="dummy8 pad06[12]">
-            <DisplayName>予約</DisplayName>
+            <DisplayName>reservation</DisplayName>
             <SortID>6</SortID>
         </Field>
     </Fields>

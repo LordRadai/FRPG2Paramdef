@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMDEF XmlVersion="0">
     <ParamType>WEAPON_PARAM</ParamType>
     <DataVersion>24</DataVersion>
@@ -7,45 +7,45 @@
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="u32 weaponId">
-            <DisplayName>武器ID</DisplayName>
+            <DisplayName>Weapon ID</DisplayName>
             <EditFlags>Lock</EditFlags>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="u32 weaponModelId">
-            <DisplayName>武器モデルID</DisplayName>
+            <DisplayName>Weapon model ID</DisplayName>
             <EditFlags>Lock</EditFlags>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>10</SortID>
         </Field>
         <Field Def="u32 weaponReinforceId">
-            <DisplayName>武器成長設定</DisplayName>
+            <DisplayName>Weapon growth settings</DisplayName>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>10</SortID>
         </Field>
         <Field Def="u32 weaponActionCategoryId">
-            <DisplayName>武器アクションカテゴリ設定</DisplayName>
+            <DisplayName>Weapon action category settings</DisplayName>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>10</SortID>
         </Field>
         <Field Def="u32 weaponTypeId">
-            <DisplayName>武器タイプ</DisplayName>
+            <DisplayName>weapon type</DisplayName>
             <Enum>WEAPON_TYPE_PARAM_ID</Enum>
             <SortID>10</SortID>
         </Field>
         <Field Def="u8 isAtkAutoHoming">
-            <DisplayName>接近オートホーミング</DisplayName>
+            <DisplayName>Proximity autohoming</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <Maximum>10</Maximum>
             <Increment>1</Increment>
             <SortID>2710</SortID>
         </Field>
         <Field Def="u8 weaponCategory">
-            <DisplayName>武器系統</DisplayName>
+            <DisplayName>Weapon system</DisplayName>
             <Enum>WEAPON_SIMPLE_CATEGORY</Enum>
             <EditFlags>Lock</EditFlags>
             <Maximum>255</Maximum>
@@ -53,283 +53,283 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="s16 clothCollidableId">
-            <DisplayName>クロスコリジョンID</DisplayName>
+            <DisplayName>Cross collision ID</DisplayName>
             <Maximum>9999</Maximum>
             <Increment>1</Increment>
             <SortID>10</SortID>
         </Field>
         <Field Def="u16 requiredStrength">
-            <DisplayName>必要ステータス 筋力</DisplayName>
+            <DisplayName>Required status Strength</DisplayName>
             <Maximum>999</Maximum>
             <Increment>1</Increment>
             <SortID>10</SortID>
         </Field>
         <Field Def="u16 requiredDexterity">
-            <DisplayName>必要ステータス 技量</DisplayName>
+            <DisplayName>Required status Skill</DisplayName>
             <Maximum>999</Maximum>
             <Increment>1</Increment>
             <SortID>10</SortID>
         </Field>
         <Field Def="u16 requiredIntelligence">
-            <DisplayName>必要ステータス 理力</DisplayName>
+            <DisplayName>Required status Reason</DisplayName>
             <Maximum>999</Maximum>
             <Increment>1</Increment>
             <SortID>10</SortID>
         </Field>
         <Field Def="u16 requiredFaith">
-            <DisplayName>必要ステータス 信仰</DisplayName>
+            <DisplayName>Required status Faith</DisplayName>
             <Maximum>999</Maximum>
             <Increment>1</Increment>
             <SortID>10</SortID>
         </Field>
         <Field Def="f32 weight">
-            <DisplayName>パラメータ　重量 [kg]</DisplayName>
+            <DisplayName>Parameter weight [kg]</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>10</SortID>
         </Field>
         <Field Def="f32 adjustBalanceWeight">
-            <DisplayName>パラメータ 分散重量 [kg]</DisplayName>
+            <DisplayName>Parameter Distributed weight [kg]</DisplayName>
             <Maximum>1000</Maximum>
             <Increment>0.1</Increment>
             <SortID>10</SortID>
         </Field>
         <Field Def="f32 durability">
-            <DisplayName>パラメータ　耐久値</DisplayName>
+            <DisplayName>Parameter durability value</DisplayName>
             <Maximum>999</Maximum>
             <Increment>0.1</Increment>
             <SortID>10</SortID>
         </Field>
         <Field Def="u32 repairCost">
-            <DisplayName>パラメータ 修理コスト [soul]</DisplayName>
+            <DisplayName>Parameter Repair cost [soul]</DisplayName>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>10</SortID>
         </Field>
         <Field Def="s32 materialId">
-            <DisplayName>パラメータ　材質</DisplayName>
+            <DisplayName>Parameter material</DisplayName>
             <Enum>MATERIAL_TYPE_ENUM</Enum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>10</SortID>
         </Field>
         <Field Def="f32 meleeAttackBaseCost">
-            <DisplayName>攻撃消費スタミナ 近接攻撃ベース値</DisplayName>
+            <DisplayName>Attack consumption stamina Melee attack base value</DisplayName>
             <Maximum>10000</Maximum>
             <Increment>1</Increment>
             <SortID>2000</SortID>
         </Field>
         <Field Def="f32 rangedAttackBaseCost">
-            <DisplayName>攻撃消費スタミナ 射撃攻撃ベース値</DisplayName>
+            <DisplayName>Attack consumption stamina Shooting attack base value</DisplayName>
             <Maximum>10000</Maximum>
             <Increment>1</Increment>
             <SortID>2000</SortID>
         </Field>
         <Field Def="u32 costCategoryId">
-            <DisplayName>攻撃消費スタミナ 倍率カテゴリ</DisplayName>
+            <DisplayName>Attack consumption stamina multiplier category</DisplayName>
             <Enum>WEAPON_STAMINA_COST_PARAM_ID</Enum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>2000</SortID>
         </Field>
         <Field Def="f32 lockonAvailableDistanceScale">
-            <DisplayName>ロックオン 攻撃有効距離 補正倍率 [倍]</DisplayName>
+            <DisplayName>Lock-on attack effective distance correction magnification [x]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>2100</SortID>
         </Field>
         <Field Def="f32 grabMotionRate = 1">
-            <DisplayName>投げつかみ 再生倍率 [倍]</DisplayName>
+            <DisplayName>Throw grab playback magnification [x]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>2600</SortID>
         </Field>
         <Field Def="f32 grabRotationSpeed = 1">
-            <DisplayName>投げつかみ 旋回加速度 [deg/sec]</DisplayName>
+            <DisplayName>Throw and grab turning acceleration [deg/sec]</DisplayName>
             <Maximum>9999.9004</Maximum>
             <Increment>0.1</Increment>
             <SortID>2600</SortID>
         </Field>
         <Field Def="f32 grabRotationMaxSpeed = 1">
-            <DisplayName>投げつかみ 最大旋回速度 [deg/sec]</DisplayName>
+            <DisplayName>Throw grab maximum turning speed [deg/sec]</DisplayName>
             <Maximum>9999.9004</Maximum>
             <Increment>0.1</Increment>
             <SortID>2600</SortID>
         </Field>
         <Field Def="u32 backStabAttackDamageSmallId">
-            <DisplayName>投げ掴み バックスタブ投げ掴み[小]ダメージID</DisplayName>
+            <DisplayName>Throw grab Backstab throw grab [Small] Damage ID</DisplayName>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>2600</SortID>
         </Field>
         <Field Def="u32 backStabAttackDamageMiddleId">
-            <DisplayName>投げ掴み バックスタブ投げ掴み[中]ダメージID</DisplayName>
+            <DisplayName>Throw grab Backstab throw grab [Medium] Damage ID</DisplayName>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>2600</SortID>
         </Field>
         <Field Def="u32 backStabAttackDamageLargeId">
-            <DisplayName>投げ掴み バックスタブ投げ掴み[大]ダメージID</DisplayName>
+            <DisplayName>Throw grab Backstab throw grab [Large] Damage ID</DisplayName>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>2600</SortID>
         </Field>
         <Field Def="u32 gdBreakStabAttackDamageSmallId">
-            <DisplayName>投げ掴み ガードブレイクスタブ投げ掴み[小]ダメージID</DisplayName>
+            <DisplayName>Throw Grasp Guard Break Stab Throw Grasp [Small] Damage ID</DisplayName>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>2600</SortID>
         </Field>
         <Field Def="u32 gdBreakStabAttackDamageMiddleId">
-            <DisplayName>投げ掴み ガードブレイクスタブ投げ掴み[中]ダメージID</DisplayName>
+            <DisplayName>Throw Grasp Guard Break Stab Throw Grasp [Medium] Damage ID</DisplayName>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>2600</SortID>
         </Field>
         <Field Def="u32 gdBreakStabAttackDamageLargeId">
-            <DisplayName>投げ掴み ガードブレイクスタブ投げ掴み[大]ダメージID</DisplayName>
+            <DisplayName>Throw Grasp Guard Break Stab Throw Grasp [Large] Damage ID</DisplayName>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>2600</SortID>
         </Field>
         <Field Def="u32 parryStabAttackDamageSmallId">
-            <DisplayName>投げ掴み パリィブレイクスタブ投げ掴み[小]ダメージID</DisplayName>
+            <DisplayName>Throw Grab Parry Break Stab Throw Grab [Small] Damage ID</DisplayName>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>2600</SortID>
         </Field>
         <Field Def="u32 parryStabAttackDamageMiddleId">
-            <DisplayName>投げ掴み パリィブレイクスタブ投げ掴み[中]ダメージID</DisplayName>
+            <DisplayName>Throw Grab Parry Break Stab Throw Grab [Medium] Damage ID</DisplayName>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>2600</SortID>
         </Field>
         <Field Def="u32 parryStabAttackDamageLargeId">
-            <DisplayName>投げ掴み パリィブレイクスタブ投げ掴み[大]ダメージID</DisplayName>
+            <DisplayName>Throw Grab Parry Break Stab Throw Grab [Large] Damage ID</DisplayName>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>2600</SortID>
         </Field>
         <Field Def="f32 parryEnableRate = 1">
-            <DisplayName>パリィ発生期間 有効割合</DisplayName>
+            <DisplayName>Parry occurrence period Effective rate</DisplayName>
             <Maximum>1</Maximum>
             <Increment>0.1</Increment>
             <SortID>2700</SortID>
         </Field>
         <Field Def="u32 brokenSfxId">
-            <DisplayName>武器破損 SFXID</DisplayName>
+            <DisplayName>Weapon damage SFXID</DisplayName>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>2700</SortID>
         </Field>
         <Field Def="s32 brokenSoundType">
-            <DisplayName>武器破損 サウンドタイプ</DisplayName>
+            <DisplayName>Weapon damage sound type</DisplayName>
             <Enum>EQUIP_BREAK_SOUND_MATERIAL_TYPE</Enum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>2700</SortID>
         </Field>
         <Field Def="f32 damageScale">
-            <DisplayName>ダメージ 倍率</DisplayName>
+            <DisplayName>Damage multiplier</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>10</SortID>
         </Field>
         <Field Def="f32 staminaDamageScale">
-            <DisplayName>スタミナ奪取量 倍率</DisplayName>
+            <DisplayName>Stamina taken amount multiplier</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>10</SortID>
         </Field>
         <Field Def="f32 durabilityDamageScale">
-            <DisplayName>耐久削り値 倍率</DisplayName>
+            <DisplayName>Durability machining value magnification</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>10</SortID>
         </Field>
         <Field Def="f32 ignorePoiseRateScale">
-            <DisplayName>強靭度無効化割合 倍率</DisplayName>
+            <DisplayName>Toughness invalidation ratio Multiplier</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>10</SortID>
         </Field>
         <Field Def="f32 ignoreDamageCutRateScale">
-            <DisplayName>盾カット率無効化割合 倍率</DisplayName>
+            <DisplayName>Shield cut rate invalidation rate magnification</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>10</SortID>
         </Field>
         <Field Def="f32 stunDamageScale">
-            <DisplayName>気絶値 倍率</DisplayName>
+            <DisplayName>Faint value magnification</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>10</SortID>
         </Field>
         <Field Def="f32 damageHitRadiusScale">
-            <DisplayName>HIT 半径 倍率</DisplayName>
+            <DisplayName>HIT radius magnification</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>10</SortID>
         </Field>
         <Field Def="f32 damageHitLengthScale">
-            <DisplayName>HIT 長さ 倍率</DisplayName>
+            <DisplayName>HIT length magnification</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>10</SortID>
         </Field>
         <Field Def="f32 recoilHitRaduisScale">
-            <DisplayName>弾きHIT 半径 倍率</DisplayName>
+            <DisplayName>Hit radius magnification</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>10</SortID>
         </Field>
         <Field Def="f32 recoilHitLengthScale">
-            <DisplayName>弾きHIT 長さ 倍率</DisplayName>
+            <DisplayName>Play HIT length magnification</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>10</SortID>
         </Field>
         <Field Def="u8 menuAttackCategory1">
-            <DisplayName>メニュー用 攻撃属性1</DisplayName>
+            <DisplayName>Attack attribute 1 for menu</DisplayName>
             <Enum>WEAPON_ATTACK_CATEGORY</Enum>
             <Maximum>999</Maximum>
             <Increment>1</Increment>
             <SortID>4000</SortID>
         </Field>
         <Field Def="u8 menuAttackCategory2">
-            <DisplayName>メニュー用 攻撃属性2</DisplayName>
+            <DisplayName>Attack attribute 2 for menu</DisplayName>
             <Enum>WEAPON_ATTACK_CATEGORY</Enum>
             <Maximum>999</Maximum>
             <Increment>1</Increment>
             <SortID>4000</SortID>
         </Field>
         <Field Def="s16 menuPoiseDamage">
-            <DisplayName>メニュー用 強靭削り値</DisplayName>
+            <DisplayName>Tough cutting value for menu</DisplayName>
             <Maximum>999</Maximum>
             <Increment>1</Increment>
             <SortID>4000</SortID>
         </Field>
         <Field Def="s16 menuCounterScale">
-            <DisplayName>メニュー用 カウンター補正値</DisplayName>
+            <DisplayName>Counter correction value for menu</DisplayName>
             <Maximum>999</Maximum>
             <Increment>1</Increment>
             <SortID>4000</SortID>
         </Field>
         <Field Def="s16 menuSpellChantSpeed">
-            <DisplayName>メニュー用 スペル詠唱速度</DisplayName>
+            <DisplayName>Spell casting speed for menu</DisplayName>
             <Maximum>999</Maximum>
             <Increment>1</Increment>
             <SortID>4000</SortID>
         </Field>
         <Field Def="f32 poiseDamageScalePlayer = 1">
-            <DisplayName>強靭削り値補正倍率（対プレイヤー）</DisplayName>
+            <DisplayName>Strong machining value correction magnification (vs. players)</DisplayName>
             <Minimum>0.0099999998</Minimum>
             <Maximum>600</Maximum>
             <Increment>0.1</Increment>
             <SortID>10</SortID>
         </Field>
         <Field Def="f32 poiseDamageScaleEnemy = 1">
-            <DisplayName>強靭削り値補正倍率（対エネミー）</DisplayName>
+            <DisplayName>Strong machining value correction magnification (against enemy)</DisplayName>
             <Minimum>0.0099999998</Minimum>
             <Maximum>600</Maximum>
             <Increment>0.1</Increment>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMDEF XmlVersion="0">
     <ParamType>NPC_EVENT_PARAM</ParamType>
     <DataVersion>4</DataVersion>
@@ -7,7 +7,7 @@
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="u8 bShop:1">
-            <DisplayName>ショップメニュー</DisplayName>
+            <DisplayName>shop menu</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -16,7 +16,7 @@
             <SortID>100</SortID>
         </Field>
         <Field Def="u8 bPointReplace:1">
-            <DisplayName>ポイント振り直し</DisplayName>
+            <DisplayName>Redo points</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -25,7 +25,7 @@
             <SortID>200</SortID>
         </Field>
         <Field Def="u8 bRepair:1">
-            <DisplayName>装備修理メニュー</DisplayName>
+            <DisplayName>Equipment repair menu</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -34,7 +34,7 @@
             <SortID>300</SortID>
         </Field>
         <Field Def="u8 bFortify:1">
-            <DisplayName>装備強化メニュー</DisplayName>
+            <DisplayName>Equipment reinforcement menu</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -43,7 +43,7 @@
             <SortID>400</SortID>
         </Field>
         <Field Def="u8 bPledge:1">
-            <DisplayName>誓約メニュー</DisplayName>
+            <DisplayName>pledge menu</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -52,7 +52,7 @@
             <SortID>500</SortID>
         </Field>
         <Field Def="u8 bVotive:1">
-            <DisplayName>奉納メニュー</DisplayName>
+            <DisplayName>dedication menu</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -61,7 +61,7 @@
             <SortID>600</SortID>
         </Field>
         <Field Def="u8 bUptrade:1">
-            <DisplayName>下取りメニュー</DisplayName>
+            <DisplayName>Trade-in menu</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -70,7 +70,7 @@
             <SortID>700</SortID>
         </Field>
         <Field Def="u8 bBarter:1">
-            <DisplayName>物々交換メニュー</DisplayName>
+            <DisplayName>barter menu</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -79,7 +79,7 @@
             <SortID>800</SortID>
         </Field>
         <Field Def="u8 bDecriminalize:1">
-            <DisplayName>免罪メニュー</DisplayName>
+            <DisplayName>indulgence menu</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -88,7 +88,7 @@
             <SortID>900</SortID>
         </Field>
         <Field Def="u8 bContractKickout:1">
-            <DisplayName>誓約破棄メニュー</DisplayName>
+            <DisplayName>Pledge cancellation menu</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -97,7 +97,7 @@
             <SortID>1000</SortID>
         </Field>
         <Field Def="u8 bGesture:1">
-            <DisplayName>ジェスチャー</DisplayName>
+            <DisplayName>gesture</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -106,7 +106,7 @@
             <SortID>1100</SortID>
         </Field>
         <Field Def="u8 bLadder:1">
-            <DisplayName>はしごを掛けるメニュー</DisplayName>
+            <DisplayName>Menu for hanging a ladder</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -115,7 +115,7 @@
             <SortID>1200</SortID>
         </Field>
         <Field Def="u8 bRootChange:1">
-            <DisplayName>ルートチェンジメニュー</DisplayName>
+            <DisplayName>Route change menu</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -124,7 +124,7 @@
             <SortID>1300</SortID>
         </Field>
         <Field Def="u8 bPresent:1">
-            <DisplayName>○○を渡すメニュー</DisplayName>
+            <DisplayName>Menu to give ○○</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -133,7 +133,7 @@
             <SortID>1400</SortID>
         </Field>
         <Field Def="u8 bPledgeView:1">
-            <DisplayName>誓約一覧メニュー</DisplayName>
+            <DisplayName>Pledge list menu</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -142,7 +142,7 @@
             <SortID>1500</SortID>
         </Field>
         <Field Def="u8 pledgeType">
-            <DisplayName>契約のタイプ</DisplayName>
+            <DisplayName>Type of contract</DisplayName>
             <Enum>VOW_TYPES</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -151,7 +151,7 @@
             <SortID>10030</SortID>
         </Field>
         <Field Def="u8 bTalk:1">
-            <DisplayName>話すメニュー</DisplayName>
+            <DisplayName>talking menu</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -160,7 +160,7 @@
             <SortID>1600</SortID>
         </Field>
         <Field Def="u8 bEstusFlaskFortify:1">
-            <DisplayName>エスト瓶強化</DisplayName>
+            <DisplayName>Est Bottle Enhancement</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -169,7 +169,7 @@
             <SortID>1700</SortID>
         </Field>
         <Field Def="u8 bLevelUp:1">
-            <DisplayName>レベルアップ</DisplayName>
+            <DisplayName>level up</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -178,7 +178,7 @@
             <SortID>1800</SortID>
         </Field>
         <Field Def="u8 bAttributeFortify:1">
-            <DisplayName>変質強化</DisplayName>
+            <DisplayName>Alteration enhancement</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -187,7 +187,7 @@
             <SortID>1900</SortID>
         </Field>
         <Field Def="u8 bPresentArmor:1">
-            <DisplayName>装備を渡す</DisplayName>
+            <DisplayName>hand over equipment</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -196,7 +196,7 @@
             <SortID>2000</SortID>
         </Field>
         <Field Def="u8 bPyromancyFortify:1">
-            <DisplayName>呪術の炎を強化</DisplayName>
+            <DisplayName>Strengthen the flame of sorcery</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -205,7 +205,7 @@
             <SortID>2100</SortID>
         </Field>
         <Field Def="u8 bSpellDecrementState:1">
-            <DisplayName>必要能力値引き下げメニュー</DisplayName>
+            <DisplayName>Required ability reduction menu</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -214,12 +214,12 @@
             <SortID>2200</SortID>
         </Field>
         <Field Def="dummy8 reserved:1">
-            <DisplayName>予約</DisplayName>
+            <DisplayName>reservation</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <SortID>30011</SortID>
         </Field>
         <Field Def="u32 shopIdBegin">
-            <DisplayName>ラインナップ開始ID</DisplayName>
+            <DisplayName>Lineup start ID</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -227,7 +227,7 @@
             <SortID>10000</SortID>
         </Field>
         <Field Def="u32 shopIdEnd">
-            <DisplayName>ラインナップ終了ID</DisplayName>
+            <DisplayName>Lineup end ID</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -235,7 +235,7 @@
             <SortID>10010</SortID>
         </Field>
         <Field Def="u32 fortifyTyoe">
-            <DisplayName>強化タイプ</DisplayName>
+            <DisplayName>Reinforced type</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -243,7 +243,7 @@
             <SortID>10020</SortID>
         </Field>
         <Field Def="u32 votiveItemId">
-            <DisplayName>奉納アイテムID</DisplayName>
+            <DisplayName>Offering item ID</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -251,7 +251,7 @@
             <SortID>10040</SortID>
         </Field>
         <Field Def="u32 barterParamBeginId">
-            <DisplayName>ラインナップ開始ID（物々交換）</DisplayName>
+            <DisplayName>Lineup start ID (barter)</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -259,7 +259,7 @@
             <SortID>10050</SortID>
         </Field>
         <Field Def="u32 gestureId">
-            <DisplayName>ジェスチャーID</DisplayName>
+            <DisplayName>Gesture ID</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -267,7 +267,7 @@
             <SortID>10060</SortID>
         </Field>
         <Field Def="u16 npcId">
-            <DisplayName>NPCキャラID</DisplayName>
+            <DisplayName>NPC character ID</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>9999</Maximum>
@@ -275,11 +275,11 @@
             <SortID>10</SortID>
         </Field>
         <Field Def="dummy8 aReserved[1]">
-            <DisplayName>予約</DisplayName>
+            <DisplayName>reservation</DisplayName>
             <SortID>30012</SortID>
         </Field>
         <Field Def="s8 eventValueChangeType">
-            <DisplayName>イベント変数変更タイプ</DisplayName>
+            <DisplayName>Event variable change type</DisplayName>
             <Enum>NPC_EVENT_CHANGE_VALUE_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -288,7 +288,7 @@
             <SortID>30000</SortID>
         </Field>
         <Field Def="u32 eventValueId">
-            <DisplayName>イベント変数ID</DisplayName>
+            <DisplayName>Event variable ID</DisplayName>
             <Enum>EVENT_VALUE_global</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -297,7 +297,7 @@
             <SortID>30010</SortID>
         </Field>
         <Field Def="u32 pluralSelectIdBegin">
-            <DisplayName>N択選択肢開始ID</DisplayName>
+            <DisplayName>N-choice option start ID</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -305,7 +305,7 @@
             <SortID>20000</SortID>
         </Field>
         <Field Def="u32 pluralSelectIdEnd">
-            <DisplayName>N択選択肢終了ID</DisplayName>
+            <DisplayName>N option end ID</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -313,7 +313,7 @@
             <SortID>20010</SortID>
         </Field>
         <Field Def="u32 barterParamEndId">
-            <DisplayName>ラインナップ終了ID（物々交換）</DisplayName>
+            <DisplayName>Lineup end ID (barter)</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMDEF XmlVersion="0">
     <ParamType>DEMO_PARAM</ParamType>
     <DataVersion>3</DataVersion>
@@ -7,7 +7,7 @@
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="s8 groupMask">
-            <DisplayName>表示グループマスク</DisplayName>
+            <DisplayName>display group mask</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Minimum>-1</Minimum>
             <Maximum>127</Maximum>
@@ -15,14 +15,14 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="s8 memoryBlock">
-            <DisplayName>メモリブロック</DisplayName>
+            <DisplayName>memory block</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>127</Maximum>
             <Increment>1</Increment>
             <SortID>3</SortID>
         </Field>
         <Field Def="s8 addGroupMask = -1">
-            <DisplayName>オブジェクト表示グループマスク</DisplayName>
+            <DisplayName>Object display group mask</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Minimum>-1</Minimum>
             <Maximum>127</Maximum>
@@ -30,98 +30,98 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="u8 iblTextureId">
-            <DisplayName>環境マップテクスチャID</DisplayName>
+            <DisplayName>Environment map texture ID</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>4</SortID>
         </Field>
         <Field Def="u8 img0MulColorR">
-            <DisplayName>img0乗算色R</DisplayName>
+            <DisplayName>img0 Multiply color R</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>5</SortID>
         </Field>
         <Field Def="u8 img0MulColorG">
-            <DisplayName>img0乗算色G</DisplayName>
+            <DisplayName>img0 Multiply color G</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>6</SortID>
         </Field>
         <Field Def="u8 img0MulColorB">
-            <DisplayName>img0乗算色B</DisplayName>
+            <DisplayName>img0 Multiply color B</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>7</SortID>
         </Field>
         <Field Def="u8 filterId">
-            <DisplayName>フィルタID</DisplayName>
+            <DisplayName>Filter ID</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>15</Maximum>
             <Increment>1</Increment>
             <SortID>100</SortID>
         </Field>
         <Field Def="f32 alpha0Factor">
-            <DisplayName>α0係数</DisplayName>
+            <DisplayName>α0 coefficient</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>8</SortID>
         </Field>
         <Field Def="u8 img1MulColorR">
-            <DisplayName>img1乗算色R</DisplayName>
+            <DisplayName>img1 multiplication color R</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>9</SortID>
         </Field>
         <Field Def="u8 img1MulColorG">
-            <DisplayName>img1乗算色G</DisplayName>
+            <DisplayName>img1 multiplication color G</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>10</SortID>
         </Field>
         <Field Def="u8 img1MulColorB">
-            <DisplayName>img1乗算色B</DisplayName>
+            <DisplayName>img1 multiplication color B</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>11</SortID>
         </Field>
         <Field Def="dummy8 reserved0[1]">
-            <DisplayName>予約領域</DisplayName>
+            <DisplayName>reserved area</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>101</SortID>
         </Field>
         <Field Def="f32 alpha1Factor">
-            <DisplayName>α1係数</DisplayName>
+            <DisplayName>α1 coefficient</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>12</SortID>
         </Field>
         <Field Def="f32 positionFactor">
-            <DisplayName>位置係数</DisplayName>
+            <DisplayName>position factor</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>13</SortID>
         </Field>
         <Field Def="f32 scaleFactor">
-            <DisplayName>スケール係数</DisplayName>
+            <DisplayName>scale factor</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>14</SortID>
         </Field>
         <Field Def="f32 uvFactor">
-            <DisplayName>UV係数</DisplayName>
+            <DisplayName>UV factor</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
@@ -156,7 +156,7 @@
             <SortID>19</SortID>
         </Field>
         <Field Def="f32 lodFactorScale">
-            <DisplayName>LOD係数のスケーラ</DisplayName>
+            <DisplayName>LOD coefficient scaler</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>9999</Maximum>
             <Increment>1</Increment>

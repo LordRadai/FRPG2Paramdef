@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMDEF XmlVersion="0">
     <ParamType>NPC_TALK_PARAM_ST</ParamType>
     <DataVersion>3</DataVersion>
@@ -7,7 +7,7 @@
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="s32 msgId">
-            <DisplayName>メッセージID</DisplayName>
+            <DisplayName>message ID</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -15,7 +15,7 @@
             <SortID>100</SortID>
         </Field>
         <Field Def="s32 voiceId">
-            <DisplayName>ボイスＩD</DisplayName>
+            <DisplayName>Voice ID</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -23,7 +23,7 @@
             <SortID>200</SortID>
         </Field>
         <Field Def="s32 actionId = -1">
-            <DisplayName>行動ID</DisplayName>
+            <DisplayName>Behavior ID</DisplayName>
             <Enum>EVENT_VALUE_npc_action</Enum>
             <DisplayFormat>%s</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -33,7 +33,7 @@
             <SortID>300</SortID>
         </Field>
         <Field Def="u8 windowType">
-            <DisplayName>ウィンドウタイプ</DisplayName>
+            <DisplayName>window type</DisplayName>
             <Enum>NPC_TALK_WINDOW_TYPE_ENUM</Enum>
             <DisplayFormat>%s</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -42,7 +42,7 @@
             <SortID>400</SortID>
         </Field>
         <Field Def="u8 bNextPlay">
-            <DisplayName>連続会話</DisplayName>
+            <DisplayName>continuous conversation</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1</Maximum>
@@ -50,7 +50,7 @@
             <SortID>500</SortID>
         </Field>
         <Field Def="u16 changeNameNpcId">
-            <DisplayName>名前差し替えフラグ変更NPCID</DisplayName>
+            <DisplayName>Name replacement flag change NPCID</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>9999</Maximum>
@@ -58,7 +58,7 @@
             <SortID>700</SortID>
         </Field>
         <Field Def="f32 endWaitTime">
-            <DisplayName>待機時間</DisplayName>
+            <DisplayName>waiting time</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>60</Maximum>

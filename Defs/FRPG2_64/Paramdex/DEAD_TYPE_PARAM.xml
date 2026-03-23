@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMDEF XmlVersion="0">
     <ParamType>DEAD_TYPE_PARAM</ParamType>
     <DataVersion>3</DataVersion>
@@ -7,7 +7,7 @@
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="f32 deadChrDeleteTime = -1">
-            <DisplayName>死亡時モデル削除時間 [sec]</DisplayName>
+            <DisplayName>Model deletion time at death [sec]</DisplayName>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
             <Maximum>100</Maximum>
@@ -15,7 +15,7 @@
             <SortID>10</SortID>
         </Field>
         <Field Def="f32 deadLockOffTime">
-            <DisplayName>死亡時ロックオン解除 開始時間 [sec]</DisplayName>
+            <DisplayName>Lock-on release on death start time [sec]</DisplayName>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
             <Maximum>100</Maximum>
@@ -23,7 +23,7 @@
             <SortID>20</SortID>
         </Field>
         <Field Def="f32 deadItemDropTime">
-            <DisplayName>死亡時アイテムドロップ時間 [sec]</DisplayName>
+            <DisplayName>Item drop time on death [sec]</DisplayName>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
             <Maximum>100</Maximum>
@@ -31,7 +31,7 @@
             <SortID>30</SortID>
         </Field>
         <Field Def="f32 deadHitDisableTime">
-            <DisplayName>死亡時ヒット削除時間 [sec]</DisplayName>
+            <DisplayName>Hit deletion time on death [sec]</DisplayName>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
             <Maximum>100</Maximum>
@@ -39,7 +39,7 @@
             <SortID>40</SortID>
         </Field>
         <Field Def="f32 deadSoulDropTime">
-            <DisplayName>死亡時ソウルドロップ 開始時間 [sec]</DisplayName>
+            <DisplayName>Soul drop upon death start time [sec]</DisplayName>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
             <Maximum>100</Maximum>
@@ -47,7 +47,7 @@
             <SortID>50</SortID>
         </Field>
         <Field Def="f32 deadSfxTime = -1">
-            <DisplayName>死亡時SFX 開始時間 [sec]</DisplayName>
+            <DisplayName>Death SFX start time [sec]</DisplayName>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
             <Maximum>100</Maximum>
@@ -55,12 +55,12 @@
             <SortID>60</SortID>
         </Field>
         <Field Def="u32 deadSfxType">
-            <DisplayName>死亡時SFXタイプ</DisplayName>
+            <DisplayName>Death SFX type</DisplayName>
             <Enum>CHR_FULLBODY_SFX_PARAM_ENUM</Enum>
             <SortID>60</SortID>
         </Field>
         <Field Def="f32 deadFadeDelay = -1">
-            <DisplayName>死亡時フェード開始時間[sec]</DisplayName>
+            <DisplayName>Fade start time at death [sec]</DisplayName>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
             <Maximum>100</Maximum>
@@ -68,21 +68,21 @@
             <SortID>70</SortID>
         </Field>
         <Field Def="f32 deadFadeTime">
-            <DisplayName>死亡時フェード時間[sec]</DisplayName>
+            <DisplayName>Death fade time [sec]</DisplayName>
             <EditFlags>Wrap</EditFlags>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>70</SortID>
         </Field>
         <Field Def="u32 deadSeId">
-            <DisplayName>死亡時サウンドID</DisplayName>
+            <DisplayName>Death sound ID</DisplayName>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>60</SortID>
         </Field>
         <Field Def="s8 deadCullingFilterId = -1">
-            <DisplayName>死亡時非表示カリングID</DisplayName>
+            <DisplayName>Culling ID hidden on death</DisplayName>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
             <Maximum>64</Maximum>
@@ -90,24 +90,24 @@
             <SortID>80</SortID>
         </Field>
         <Field Def="u8 deadDisableParts">
-            <DisplayName>死亡時無効部位</DisplayName>
+            <DisplayName>Ineffective part at death</DisplayName>
             <Enum>CHR_PARTS_CATEGORY_TYPE</Enum>
             <SortID>90</SortID>
         </Field>
         <Field Def="u8 deadIsNoConstraint">
-            <DisplayName>バラバラ死亡</DisplayName>
+            <DisplayName>Died in pieces</DisplayName>
             <Enum>BOOL_ENABLEDISABLE_TYPE</Enum>
             <SortID>90</SortID>
         </Field>
         <Field Def="u8 deadIsChrSe">
-            <DisplayName>死亡時キャラSE</DisplayName>
+            <DisplayName>Character SE at death</DisplayName>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>100</SortID>
         </Field>
         <Field Def="u32 deadSoulBulletId">
-            <DisplayName>死亡時ソウル弾ID</DisplayName>
+            <DisplayName>Soul bullet ID at death</DisplayName>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>

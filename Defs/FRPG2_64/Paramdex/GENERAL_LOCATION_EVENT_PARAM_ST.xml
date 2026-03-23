@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMDEF XmlVersion="0">
     <ParamType>GENERAL_LOCATION_EVENT_PARAM_ST</ParamType>
     <DataVersion>1</DataVersion>
@@ -7,7 +7,7 @@
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="f32 positionX">
-            <DisplayName>位置Ｘ</DisplayName>
+            <DisplayName>position</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>-100000</Minimum>
             <Maximum>100000</Maximum>
@@ -15,7 +15,7 @@
             <SortID>100</SortID>
         </Field>
         <Field Def="f32 positionY">
-            <DisplayName>位置Ｙ</DisplayName>
+            <DisplayName>Position Y</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>-100000</Minimum>
             <Maximum>100000</Maximum>
@@ -23,7 +23,7 @@
             <SortID>110</SortID>
         </Field>
         <Field Def="f32 positionZ">
-            <DisplayName>位置Ｚ</DisplayName>
+            <DisplayName>Position Z</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>-100000</Minimum>
             <Maximum>100000</Maximum>
@@ -31,7 +31,7 @@
             <SortID>120</SortID>
         </Field>
         <Field Def="f32 angleX">
-            <DisplayName>角度Ｘ</DisplayName>
+            <DisplayName>angle x</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>-180</Minimum>
             <Maximum>180</Maximum>
@@ -39,7 +39,7 @@
             <SortID>200</SortID>
         </Field>
         <Field Def="f32 angleY">
-            <DisplayName>角度Ｙ</DisplayName>
+            <DisplayName>Angle Y</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>-180</Minimum>
             <Maximum>180</Maximum>
@@ -47,7 +47,7 @@
             <SortID>210</SortID>
         </Field>
         <Field Def="f32 angleZ">
-            <DisplayName>角度Ｚ</DisplayName>
+            <DisplayName>Angle Z</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>-180</Minimum>
             <Maximum>180</Maximum>
@@ -55,7 +55,7 @@
             <SortID>220</SortID>
         </Field>
         <Field Def="u8 formType = 1">
-            <DisplayName>形状</DisplayName>
+            <DisplayName>shape</DisplayName>
             <Enum>GENERAL_LOCATION_FORM_TYPE_ENUM</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>3</Maximum>
@@ -63,53 +63,53 @@
             <SortID>300</SortID>
         </Field>
         <Field Def="u8 colorR">
-            <DisplayName>色Ｒ</DisplayName>
+            <DisplayName>Color R</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>400</SortID>
         </Field>
         <Field Def="u8 colorG">
-            <DisplayName>色Ｇ</DisplayName>
+            <DisplayName>Color G</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>410</SortID>
         </Field>
         <Field Def="u8 colorB = 255">
-            <DisplayName>色Ｂ</DisplayName>
+            <DisplayName>Color B</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>420</SortID>
         </Field>
         <Field Def="f32 radius = 1">
-            <DisplayName>半径・X幅</DisplayName>
+            <DisplayName>Radius/X width</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>200</Maximum>
             <Increment>0.0099999998</Increment>
             <SortID>310</SortID>
         </Field>
         <Field Def="f32 height = 1">
-            <DisplayName>高さ・Y幅</DisplayName>
+            <DisplayName>Height/Y width</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>200</Maximum>
             <Increment>0.0099999998</Increment>
             <SortID>320</SortID>
         </Field>
         <Field Def="f32 depth = 1">
-            <DisplayName>Ｚ幅</DisplayName>
+            <DisplayName>Z width</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>200</Maximum>
             <Increment>0.0099999998</Increment>
             <SortID>330</SortID>
         </Field>
         <Field Def="dummy8 aReserved[2]">
-            <DisplayName>予約</DisplayName>
+            <DisplayName>reservation</DisplayName>
             <SortID>601</SortID>
         </Field>
         <Field Def="u8 memoryBlockId">
-            <DisplayName>メモリブロックID</DisplayName>
+            <DisplayName>Memory block ID</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Lock</EditFlags>
             <Maximum>255</Maximum>
@@ -117,7 +117,7 @@
             <SortID>600</SortID>
         </Field>
         <Field Def="u8 categoryType">
-            <DisplayName>カテゴリ</DisplayName>
+            <DisplayName>category</DisplayName>
             <Enum>GENERAL_LOCATION_EVENT_ENUM</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
@@ -125,7 +125,7 @@
             <SortID>500</SortID>
         </Field>
         <Field Def="u32 categoryId">
-            <DisplayName>カテゴリ内ID</DisplayName>
+            <DisplayName>ID in category</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>

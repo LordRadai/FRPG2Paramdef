@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMDEF XmlVersion="0">
     <ParamType>ARMOR_REINFORCE_PARAM</ParamType>
     <DataVersion>7</DataVersion>
@@ -7,177 +7,177 @@
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="f32 minSlash">
-            <DisplayName>強化ベース値 最小 斬撃</DisplayName>
+            <DisplayName>Enhancement base value minimum slash</DisplayName>
             <Maximum>9999</Maximum>
             <Increment>0.1</Increment>
             <SortID>10</SortID>
         </Field>
         <Field Def="f32 minThrust">
-            <DisplayName>強化ベース値 最小 刺突</DisplayName>
+            <DisplayName>Enhancement base value minimum piercing</DisplayName>
             <Maximum>9999</Maximum>
             <Increment>0.1</Increment>
             <SortID>10</SortID>
         </Field>
         <Field Def="f32 minStrike">
-            <DisplayName>強化ベース値 最小 打撃</DisplayName>
+            <DisplayName>Enhancement base value minimum hit</DisplayName>
             <Maximum>9999</Maximum>
             <Increment>0.1</Increment>
             <SortID>10</SortID>
         </Field>
         <Field Def="f32 minPhysical">
-            <DisplayName>強化ベース値 最小 物理</DisplayName>
+            <DisplayName>Enhancement base value minimum physical</DisplayName>
             <Maximum>9999</Maximum>
             <Increment>0.1</Increment>
             <SortID>10</SortID>
         </Field>
         <Field Def="f32 minMagic">
-            <DisplayName>強化ベース値 最小 魔力</DisplayName>
+            <DisplayName>Enhancement base value minimum magic power</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>20</SortID>
         </Field>
         <Field Def="f32 minThunder">
-            <DisplayName>強化ベース値 最小 雷</DisplayName>
+            <DisplayName>Enhancement base value minimum lightning</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>30</SortID>
         </Field>
         <Field Def="f32 minFire">
-            <DisplayName>強化ベース値 最小 炎</DisplayName>
+            <DisplayName>Enhancement base value minimum flame</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>40</SortID>
         </Field>
         <Field Def="f32 minDark">
-            <DisplayName>強化ベース値 最小 闇</DisplayName>
+            <DisplayName>Enhancement base value minimum darkness</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>50</SortID>
         </Field>
         <Field Def="f32 minPoison">
-            <DisplayName>強化ベース値 最小 毒</DisplayName>
+            <DisplayName>Enhancement base value minimum poison</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>60</SortID>
         </Field>
         <Field Def="f32 minBleeding">
-            <DisplayName>強化ベース値 最小 出血</DisplayName>
+            <DisplayName>Enhancement base value minimum bleeding</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>70</SortID>
         </Field>
         <Field Def="f32 minPetrifaction">
-            <DisplayName>強化ベース値 最小 石化</DisplayName>
+            <DisplayName>Enhancement base value minimum petrification</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>80</SortID>
         </Field>
         <Field Def="f32 minCurse">
-            <DisplayName>強化ベース値 最小 呪</DisplayName>
+            <DisplayName>Enhancement base value minimum curse</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>90</SortID>
         </Field>
         <Field Def="f32 maxSlash">
-            <DisplayName>強化ベース値 最大 斬撃</DisplayName>
+            <DisplayName>Enhancement base value maximum slashing</DisplayName>
             <Maximum>9999</Maximum>
             <Increment>0.1</Increment>
             <SortID>10</SortID>
         </Field>
         <Field Def="f32 maxThrust">
-            <DisplayName>強化ベース値 最大 刺突</DisplayName>
+            <DisplayName>Enhancement base value maximum piercing</DisplayName>
             <Maximum>9999</Maximum>
             <Increment>0.1</Increment>
             <SortID>10</SortID>
         </Field>
         <Field Def="f32 maxStrike">
-            <DisplayName>強化ベース値 最大 打撃</DisplayName>
+            <DisplayName>Enhancement base value maximum hit</DisplayName>
             <Maximum>9999</Maximum>
             <Increment>0.1</Increment>
             <SortID>10</SortID>
         </Field>
         <Field Def="f32 maxPhysical">
-            <DisplayName>強化ベース値 最大 物理</DisplayName>
+            <DisplayName>Enhancement base value maximum physical</DisplayName>
             <Maximum>9999</Maximum>
             <Increment>0.1</Increment>
             <SortID>10</SortID>
         </Field>
         <Field Def="f32 maxMagic">
-            <DisplayName>強化ベース値 最大 魔力</DisplayName>
+            <DisplayName>Enhancement base value maximum magic power</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>20</SortID>
         </Field>
         <Field Def="f32 maxThunder">
-            <DisplayName>強化ベース値 最大 雷</DisplayName>
+            <DisplayName>Enhancement base value maximum lightning</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>30</SortID>
         </Field>
         <Field Def="f32 maxFire">
-            <DisplayName>強化ベース値 最大 炎</DisplayName>
+            <DisplayName>Enhancement base value maximum flame</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>40</SortID>
         </Field>
         <Field Def="f32 maxDark">
-            <DisplayName>強化ベース値 最大 闇</DisplayName>
+            <DisplayName>Enhancement base value maximum darkness</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>50</SortID>
         </Field>
         <Field Def="f32 maxPoison">
-            <DisplayName>強化ベース値 最大 毒</DisplayName>
+            <DisplayName>Enhancement base value maximum poison</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>60</SortID>
         </Field>
         <Field Def="f32 maxBleeding">
-            <DisplayName>強化ベース値 最大 出血</DisplayName>
+            <DisplayName>Enhancement base value maximum bleeding</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>70</SortID>
         </Field>
         <Field Def="f32 maxPetrifaction">
-            <DisplayName>強化ベース値 最大 石化</DisplayName>
+            <DisplayName>Enhancement base value maximum petrification</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>80</SortID>
         </Field>
         <Field Def="f32 maxCurse">
-            <DisplayName>強化ベース値 最大 呪</DisplayName>
+            <DisplayName>Enhancement base value maximum curse</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>90</SortID>
         </Field>
         <Field Def="u8 maxLevel">
-            <DisplayName>強化最大レベル</DisplayName>
+            <DisplayName>Maximum enhancement level</DisplayName>
             <Maximum>10</Maximum>
             <Increment>1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="dummy8 dummy[3]">
-            <DisplayName>ダミー</DisplayName>
+            <DisplayName>dummy</DisplayName>
             <SortID>3001</SortID>
         </Field>
         <Field Def="f32 menuResistanceScale = 1">
-            <DisplayName>メニュー表示用 属性防御力補正倍率 [倍]</DisplayName>
+            <DisplayName>Attribute defense power correction magnification for menu display [x]</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>2100</SortID>
         </Field>
         <Field Def="u32 attrSpec">
-            <DisplayName>属性強化可否</DisplayName>
+            <DisplayName>Possibility of attribute enhancement</DisplayName>
             <Enum>CUSTOM_ATTR_SPEC_PARAM_ENUM</Enum>
             <SortID>3000</SortID>
         </Field>
         <Field Def="u32 attrCost">
-            <DisplayName>属性強化コスト</DisplayName>
+            <DisplayName>Attribute enhancement cost</DisplayName>
             <Enum>CUSTOM_ATTR_COST_PARAM_ENUM</Enum>
             <SortID>3000</SortID>
         </Field>
         <Field Def="u32 reinforceCost">
-            <DisplayName>Lv強化コスト</DisplayName>
+            <DisplayName>Lv enhancement cost</DisplayName>
             <Enum>REINFORCE_COST_PARAM_ENUM</Enum>
             <SortID>3000</SortID>
         </Field>

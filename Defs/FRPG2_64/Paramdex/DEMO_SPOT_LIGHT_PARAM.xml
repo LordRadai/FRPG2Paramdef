@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMDEF XmlVersion="0">
     <ParamType>DEMO_SPOT_LIGHT_PARAM</ParamType>
     <DataVersion>1</DataVersion>
@@ -7,7 +7,7 @@
     <FormatVersion>104</FormatVersion>
     <Fields>
         <Field Def="f32 offsetX">
-            <DisplayName>位置X</DisplayName>
+            <DisplayName>position</DisplayName>
             <Description>x座標の位置のオフセットを設定します。</Description>
             <DisplayFormat>%.1f</DisplayFormat>
             <Minimum>-999</Minimum>
@@ -16,7 +16,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="f32 offsetY">
-            <DisplayName>位置Y</DisplayName>
+            <DisplayName>position Y</DisplayName>
             <Description>y座標の位置のオフセットを設定します。</Description>
             <DisplayFormat>%.1f</DisplayFormat>
             <Minimum>-999</Minimum>
@@ -25,7 +25,7 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="f32 offsetZ">
-            <DisplayName>位置Z</DisplayName>
+            <DisplayName>position Z</DisplayName>
             <Description>y座標の位置のオフセットを設定します。</Description>
             <DisplayFormat>%.1f</DisplayFormat>
             <Minimum>-999</Minimum>
@@ -34,7 +34,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="u8 diffuseR">
-            <DisplayName>デフューズR</DisplayName>
+            <DisplayName>Diffuse R</DisplayName>
             <Description>デフューズの赤色を設定します。</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
@@ -42,7 +42,7 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="u8 diffuseG">
-            <DisplayName>デフューズG</DisplayName>
+            <DisplayName>Diffuse G</DisplayName>
             <Description>デフューズの緑色を設定します。</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
@@ -50,7 +50,7 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="u8 diffuseB">
-            <DisplayName>デフューズB</DisplayName>
+            <DisplayName>Diffuse B</DisplayName>
             <Description>デフューズの青色を設定します。</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
@@ -58,7 +58,7 @@
             <SortID>5</SortID>
         </Field>
         <Field Def="u8 diffuseA">
-            <DisplayName>デフューズA</DisplayName>
+            <DisplayName>Diffuse A</DisplayName>
             <Description>デフューズのαを設定します。</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
@@ -66,7 +66,7 @@
             <SortID>6</SortID>
         </Field>
         <Field Def="u8 specularR">
-            <DisplayName>スペキュラR</DisplayName>
+            <DisplayName>Specular R</DisplayName>
             <Description>スペキュラの赤色を設定します。</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
@@ -74,7 +74,7 @@
             <SortID>7</SortID>
         </Field>
         <Field Def="u8 specularG">
-            <DisplayName>スペキュラG</DisplayName>
+            <DisplayName>Specular G</DisplayName>
             <Description>スペキュラの緑色を設定します。</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
@@ -82,7 +82,7 @@
             <SortID>8</SortID>
         </Field>
         <Field Def="u8 specularB">
-            <DisplayName>スペキュラB</DisplayName>
+            <DisplayName>Specular B</DisplayName>
             <Description>スペキュラの青色を設定します。</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
@@ -90,7 +90,7 @@
             <SortID>9</SortID>
         </Field>
         <Field Def="u8 specularA">
-            <DisplayName>スペキュラA</DisplayName>
+            <DisplayName>Specular A</DisplayName>
             <Description>スペキュラのαを設定します。</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
@@ -98,7 +98,7 @@
             <SortID>10</SortID>
         </Field>
         <Field Def="f32 nearLength">
-            <DisplayName>開始距離</DisplayName>
+            <DisplayName>starting distance</DisplayName>
             <Description>スポットライトの開始距離(m)　ボックスの手前の面までの距離です</Description>
             <DisplayFormat>%.1f</DisplayFormat>
             <Maximum>999</Maximum>
@@ -106,7 +106,7 @@
             <SortID>11</SortID>
         </Field>
         <Field Def="f32 farLength">
-            <DisplayName>終了距離</DisplayName>
+            <DisplayName>End distance</DisplayName>
             <Description>スポットライトの終了距離(m)　ボックスの奥の面までの距離です</Description>
             <DisplayFormat>%.1f</DisplayFormat>
             <Maximum>999</Maximum>
@@ -114,7 +114,7 @@
             <SortID>12</SortID>
         </Field>
         <Field Def="f32 width">
-            <DisplayName>横幅</DisplayName>
+            <DisplayName>Width</DisplayName>
             <Description>スポットライトの最も奥での楕円の横の直径(m)　ボックスでは高さです</Description>
             <DisplayFormat>%.1f</DisplayFormat>
             <Maximum>999</Maximum>
@@ -122,7 +122,7 @@
             <SortID>13</SortID>
         </Field>
         <Field Def="f32 height">
-            <DisplayName>縦幅</DisplayName>
+            <DisplayName>Vertical width</DisplayName>
             <Description>スポットライトの最も奥での楕円の縦の直径(m)　ボックスでは高さです</Description>
             <DisplayFormat>%.1f</DisplayFormat>
             <Maximum>999</Maximum>
@@ -130,7 +130,7 @@
             <SortID>14</SortID>
         </Field>
         <Field Def="f32 priority">
-            <DisplayName>優先度</DisplayName>
+            <DisplayName>priority</DisplayName>
             <Description>表示しようとする光源の優先度(0.0～1.0)です。表示できる光源の最大数を超えた場合には優先度が高いものほど表示されやすくなります。ただし、状況に応じて順序が前後する可能性もあります。</Description>
             <DisplayFormat>%.1f</DisplayFormat>
             <Maximum>1</Maximum>
@@ -138,7 +138,7 @@
             <SortID>15</SortID>
         </Field>
         <Field Def="f32 depthShadow">
-            <DisplayName>影の濃さ</DisplayName>
+            <DisplayName>darkness of shadow</DisplayName>
             <Description>影の濃さ(0.0～1.0)です。高いほど濃く表示され、0.0で影無効と同等の処理となります。</Description>
             <DisplayFormat>%.1f</DisplayFormat>
             <Maximum>1</Maximum>
@@ -146,7 +146,7 @@
             <SortID>17</SortID>
         </Field>
         <Field Def="u16 blinkTimeMax">
-            <DisplayName>明滅の時間(最大)</DisplayName>
+            <DisplayName>Blinking time (maximum)</DisplayName>
             <Description>明滅の最小時間を設定します。最小～最大の範囲からランダムで抽出された値が1回の明滅時間となり、明滅毎に繰り返します。</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>99</Maximum>
@@ -154,7 +154,7 @@
             <SortID>18</SortID>
         </Field>
         <Field Def="u16 blinkTimeMin">
-            <DisplayName>明滅の時間(最小)</DisplayName>
+            <DisplayName>Blinking time (min)</DisplayName>
             <Description>明滅の最大時間を設定します。最小～最大の範囲からランダムで抽出された値が1回の明滅時間となり、明滅毎に繰り返します。</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>99</Maximum>
@@ -162,7 +162,7 @@
             <SortID>19</SortID>
         </Field>
         <Field Def="f32 blinkPower">
-            <DisplayName>明滅の強さ</DisplayName>
+            <DisplayName>strength of flickering</DisplayName>
             <Description>明滅の最小強さを設定します。最小～1.0の範囲での強さで明滅が行われます。</Description>
             <DisplayFormat>%.1f</DisplayFormat>
             <Maximum>1</Maximum>
@@ -170,7 +170,7 @@
             <SortID>20</SortID>
         </Field>
         <Field Def="u8 enableShadow">
-            <DisplayName>影を落とす</DisplayName>
+            <DisplayName>cast a shadow</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <Description>影を落とすかを設定します。</Description>
             <DisplayFormat>%d</DisplayFormat>
@@ -179,7 +179,7 @@
             <SortID>16</SortID>
         </Field>
         <Field Def="dummy8 dummy[3]">
-            <DisplayName>ダミー</DisplayName>
+            <DisplayName>dummy</DisplayName>
             <SortID>21</SortID>
         </Field>
     </Fields>

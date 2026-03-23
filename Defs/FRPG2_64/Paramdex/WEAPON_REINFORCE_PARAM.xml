@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMDEF XmlVersion="0">
     <ParamType>WEAPON_REINFORCE_PARAM</ParamType>
     <DataVersion>9</DataVersion>
@@ -7,370 +7,370 @@
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="f32 minimumPhysical">
-            <DisplayName>物理攻撃力の最小値</DisplayName>
+            <DisplayName>Minimum physical attack power</DisplayName>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>1</SortID>
         </Field>
         <Field Def="f32 minimumMagic">
-            <DisplayName>魔力攻撃力の最小値</DisplayName>
+            <DisplayName>Minimum magic attack power</DisplayName>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>2</SortID>
         </Field>
         <Field Def="f32 minimumThunder">
-            <DisplayName>雷攻撃力の最小値</DisplayName>
+            <DisplayName>Minimum lightning attack power</DisplayName>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>3</SortID>
         </Field>
         <Field Def="f32 minimumFire">
-            <DisplayName>炎攻撃力の最小値</DisplayName>
+            <DisplayName>Minimum fire attack power</DisplayName>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>4</SortID>
         </Field>
         <Field Def="f32 minimumDark">
-            <DisplayName>闇攻撃力の最小値</DisplayName>
+            <DisplayName>Minimum dark attack power</DisplayName>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>5</SortID>
         </Field>
         <Field Def="f32 minimumPoison">
-            <DisplayName>毒攻撃力の最小値</DisplayName>
+            <DisplayName>Minimum poison attack power</DisplayName>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>6</SortID>
         </Field>
         <Field Def="f32 minimumBleeding">
-            <DisplayName>出血攻撃力の最小値</DisplayName>
+            <DisplayName>Minimum bleeding attack power</DisplayName>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>7</SortID>
         </Field>
         <Field Def="f32 minimumPetrifaction">
-            <DisplayName>石化攻撃力の最小値</DisplayName>
+            <DisplayName>Minimum petrification attack power</DisplayName>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>8</SortID>
         </Field>
         <Field Def="f32 minimumCurse">
-            <DisplayName>呪攻撃力の最小値</DisplayName>
+            <DisplayName>Minimum curse attack power</DisplayName>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>9</SortID>
         </Field>
         <Field Def="f32 maximumPhysical">
-            <DisplayName>物理攻撃力の最大値</DisplayName>
+            <DisplayName>Maximum physical attack power</DisplayName>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>10</SortID>
         </Field>
         <Field Def="f32 maximumMagic">
-            <DisplayName>魔力攻撃力の最大値</DisplayName>
+            <DisplayName>Maximum magic attack power</DisplayName>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>11</SortID>
         </Field>
         <Field Def="f32 maximumThunder">
-            <DisplayName>雷攻撃力の最大値</DisplayName>
+            <DisplayName>Maximum lightning attack power</DisplayName>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>12</SortID>
         </Field>
         <Field Def="f32 maximumFire">
-            <DisplayName>炎攻撃力の最大値</DisplayName>
+            <DisplayName>Maximum flame attack power</DisplayName>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>13</SortID>
         </Field>
         <Field Def="f32 maximumDark">
-            <DisplayName>闇攻撃力の最大値</DisplayName>
+            <DisplayName>Maximum dark attack power</DisplayName>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>14</SortID>
         </Field>
         <Field Def="f32 maximumPoison">
-            <DisplayName>毒攻撃力の最大値</DisplayName>
+            <DisplayName>Maximum poison attack power</DisplayName>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>15</SortID>
         </Field>
         <Field Def="f32 maximumBleeding">
-            <DisplayName>出血攻撃力の最大値</DisplayName>
+            <DisplayName>Maximum bleeding attack power</DisplayName>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>16</SortID>
         </Field>
         <Field Def="f32 maximumPetrifaction">
-            <DisplayName>石化攻撃力の最大値</DisplayName>
+            <DisplayName>Maximum petrification attack power</DisplayName>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>17</SortID>
         </Field>
         <Field Def="f32 maximumCurse">
-            <DisplayName>呪攻撃力の最大値</DisplayName>
+            <DisplayName>Maximum curse attack power</DisplayName>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>18</SortID>
         </Field>
         <Field Def="u8 maxLevel">
-            <DisplayName>強化最大レベル</DisplayName>
+            <DisplayName>Maximum enhancement level</DisplayName>
             <Maximum>10</Maximum>
             <Increment>1</Increment>
             <SortID>19</SortID>
         </Field>
         <Field Def="dummy8 dummy[3]">
-            <DisplayName>ダミー</DisplayName>
+            <DisplayName>dummy</DisplayName>
             <SortID>63</SortID>
         </Field>
         <Field Def="u32 statsAffectId">
-            <DisplayName>ステータス影響倍率設定</DisplayName>
+            <DisplayName>Status influence multiplier setting</DisplayName>
             <Enum>WEAPON_STATS_AFFECT_PARAM_ID</Enum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>20</SortID>
         </Field>
         <Field Def="f32 physical">
-            <DisplayName>物理カット率 [%]</DisplayName>
+            <DisplayName>Physical cut rate [%]</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>21</SortID>
         </Field>
         <Field Def="f32 magic">
-            <DisplayName>魔力カット率 [%]</DisplayName>
+            <DisplayName>Magic cut rate [%]</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>22</SortID>
         </Field>
         <Field Def="f32 thunder">
-            <DisplayName>雷カット率 [%]</DisplayName>
+            <DisplayName>Lightning cut rate [%]</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>23</SortID>
         </Field>
         <Field Def="f32 fire">
-            <DisplayName>炎カット率 [%]</DisplayName>
+            <DisplayName>Flame cut rate [%]</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>24</SortID>
         </Field>
         <Field Def="f32 dark">
-            <DisplayName>闇カット率 [%]</DisplayName>
+            <DisplayName>Darkness cut rate [%]</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>25</SortID>
         </Field>
         <Field Def="f32 poison">
-            <DisplayName>毒カット率 [%]</DisplayName>
+            <DisplayName>Poison cut rate [%]</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>26</SortID>
         </Field>
         <Field Def="f32 bleeding">
-            <DisplayName>出血カット率 [%]</DisplayName>
+            <DisplayName>Bleeding cut rate [%]</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>27</SortID>
         </Field>
         <Field Def="f32 petrifaction">
-            <DisplayName>石化カット率 [%]</DisplayName>
+            <DisplayName>Petrification cut rate [%]</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>28</SortID>
         </Field>
         <Field Def="f32 curse">
-            <DisplayName>呪カット率 [%]</DisplayName>
+            <DisplayName>Curse cut rate [%]</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>29</SortID>
         </Field>
         <Field Def="f32 stabilityRate0">
-            <DisplayName>受け能力 0</DisplayName>
+            <DisplayName>Reception ability 0</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>30</SortID>
         </Field>
         <Field Def="f32 stabilityRate1">
-            <DisplayName>受け能力 1</DisplayName>
+            <DisplayName>Receiving ability 1</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>31</SortID>
         </Field>
         <Field Def="f32 stabilityRate2">
-            <DisplayName>受け能力 2</DisplayName>
+            <DisplayName>Receiving ability 2</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>32</SortID>
         </Field>
         <Field Def="f32 stabilityRate3">
-            <DisplayName>受け能力 3</DisplayName>
+            <DisplayName>Receiving ability 3</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>33</SortID>
         </Field>
         <Field Def="f32 stabilityRate4">
-            <DisplayName>受け能力 4</DisplayName>
+            <DisplayName>Receiving ability 4</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>34</SortID>
         </Field>
         <Field Def="f32 stabilityRate5">
-            <DisplayName>受け能力 5</DisplayName>
+            <DisplayName>Reception ability 5</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>35</SortID>
         </Field>
         <Field Def="f32 stabilityRate6">
-            <DisplayName>受け能力 6</DisplayName>
+            <DisplayName>Reception ability 6</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>36</SortID>
         </Field>
         <Field Def="f32 stabilityRate7">
-            <DisplayName>受け能力 7</DisplayName>
+            <DisplayName>Receiving ability 7</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>37</SortID>
         </Field>
         <Field Def="f32 stabilityRate8">
-            <DisplayName>受け能力 8</DisplayName>
+            <DisplayName>Receiving ability 8</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>38</SortID>
         </Field>
         <Field Def="f32 stabilityRate9">
-            <DisplayName>受け能力 9</DisplayName>
+            <DisplayName>Receiving ability 9</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>39</SortID>
         </Field>
         <Field Def="f32 stabilityRate10">
-            <DisplayName>受け能力 10</DisplayName>
+            <DisplayName>Reception ability 10</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>40</SortID>
         </Field>
         <Field Def="f32 physicalRate">
-            <DisplayName>初期属性値 物理</DisplayName>
+            <DisplayName>Initial attribute value Physical</DisplayName>
             <Maximum>100</Maximum>
             <Increment>100</Increment>
             <SortID>41</SortID>
         </Field>
         <Field Def="f32 magicRate">
-            <DisplayName>初期属性値 魔力</DisplayName>
+            <DisplayName>Initial attribute value Magic power</DisplayName>
             <Maximum>100</Maximum>
             <Increment>100</Increment>
             <SortID>42</SortID>
         </Field>
         <Field Def="f32 thunderRate">
-            <DisplayName>初期属性値 雷</DisplayName>
+            <DisplayName>Initial attribute value Lightning</DisplayName>
             <Maximum>100</Maximum>
             <Increment>100</Increment>
             <SortID>43</SortID>
         </Field>
         <Field Def="f32 fireRate">
-            <DisplayName>初期属性値 炎</DisplayName>
+            <DisplayName>Initial attribute value flame</DisplayName>
             <Maximum>100</Maximum>
             <Increment>100</Increment>
             <SortID>44</SortID>
         </Field>
         <Field Def="f32 darkRate">
-            <DisplayName>初期属性値 闇</DisplayName>
+            <DisplayName>Initial attribute value Darkness</DisplayName>
             <Maximum>100</Maximum>
             <Increment>100</Increment>
             <SortID>45</SortID>
         </Field>
         <Field Def="f32 poisonRate">
-            <DisplayName>初期属性値 毒</DisplayName>
+            <DisplayName>Initial attribute value poison</DisplayName>
             <Maximum>100</Maximum>
             <Increment>100</Increment>
             <SortID>46</SortID>
         </Field>
         <Field Def="f32 bleedingRate">
-            <DisplayName>初期属性値 出血</DisplayName>
+            <DisplayName>Initial attribute value bleeding</DisplayName>
             <Maximum>100</Maximum>
             <Increment>100</Increment>
             <SortID>47</SortID>
         </Field>
         <Field Def="f32 petrifactionRate">
-            <DisplayName>初期属性値 石化</DisplayName>
+            <DisplayName>Initial attribute value petrification</DisplayName>
             <Maximum>100</Maximum>
             <Increment>100</Increment>
             <SortID>48</SortID>
         </Field>
         <Field Def="f32 curseRate">
-            <DisplayName>初期属性値 呪</DisplayName>
+            <DisplayName>Initial attribute value Curse</DisplayName>
             <Maximum>100</Maximum>
             <Increment>100</Increment>
             <SortID>49</SortID>
         </Field>
         <Field Def="f32 addMagicRate">
-            <DisplayName>属性変動値 魔法</DisplayName>
+            <DisplayName>Attribute variation value magic</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>50</SortID>
         </Field>
         <Field Def="f32 addThunderRate">
-            <DisplayName>属性変動値 雷</DisplayName>
+            <DisplayName>Attribute variation value lightning</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>51</SortID>
         </Field>
         <Field Def="f32 addFireRate">
-            <DisplayName>属性変動値 炎</DisplayName>
+            <DisplayName>Attribute variation value flame</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>52</SortID>
         </Field>
         <Field Def="f32 addDarkRate">
-            <DisplayName>属性変動値 闇</DisplayName>
+            <DisplayName>Attribute variation value darkness</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>53</SortID>
         </Field>
         <Field Def="f32 addPoisonRate">
-            <DisplayName>属性変動値 毒</DisplayName>
+            <DisplayName>Attribute variation value poison</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>54</SortID>
         </Field>
         <Field Def="f32 addBleedRate">
-            <DisplayName>属性変動値 出血</DisplayName>
+            <DisplayName>Attribute variation value bleeding</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>55</SortID>
         </Field>
         <Field Def="f32 addPhysicalRateByCrude">
-            <DisplayName>属性変動値 物理(粗製)</DisplayName>
+            <DisplayName>Attribute variation value Physical (crude)</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>56</SortID>
         </Field>
         <Field Def="f32 addPhysicalRateByEnchanted">
-            <DisplayName>属性変動値 物理(魔力)</DisplayName>
+            <DisplayName>Attribute variation value Physical (Magic)</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>57</SortID>
         </Field>
         <Field Def="f32 addPhysicalRateByAbyss">
-            <DisplayName>属性変動値 物理(深淵)</DisplayName>
+            <DisplayName>Attribute variation value Physical (Abyss)</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>58</SortID>
         </Field>
         <Field Def="u32 attrSpec">
-            <DisplayName>属性強化可否</DisplayName>
+            <DisplayName>Possibility of attribute enhancement</DisplayName>
             <Enum>CUSTOM_ATTR_SPEC_PARAM_ENUM</Enum>
             <SortID>59</SortID>
         </Field>
         <Field Def="u32 attrCost">
-            <DisplayName>属性強化コスト</DisplayName>
+            <DisplayName>Attribute enhancement cost</DisplayName>
             <Enum>CUSTOM_ATTR_COST_PARAM_ENUM</Enum>
             <SortID>60</SortID>
         </Field>
         <Field Def="u32 reinforceCost">
-            <DisplayName>Lv強化コスト</DisplayName>
+            <DisplayName>Lv enhancement cost</DisplayName>
             <Enum>REINFORCE_COST_PARAM_ENUM</Enum>
             <SortID>61</SortID>
         </Field>

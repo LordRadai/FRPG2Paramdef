@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMDEF XmlVersion="0">
     <ParamType>CHR_MODEL_PARAM</ParamType>
     <DataVersion>1</DataVersion>
@@ -7,7 +7,7 @@
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="dummy8 aReserved[4]">
-            <DisplayName>(予約領域)</DisplayName>
+            <DisplayName>(Reserved area)</DisplayName>
             <SortID>2</SortID>
         </Field>
     </Fields>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMDEF XmlVersion="0">
     <ParamType>MAP_OBJECT_DOOR_PARAM</ParamType>
     <DataVersion>2</DataVersion>
@@ -7,18 +7,18 @@
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="u8 doorType">
-            <DisplayName>扉タイプ</DisplayName>
+            <DisplayName>door type</DisplayName>
             <Enum>DOOR_TYPE_ENUM</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <SortID>100</SortID>
         </Field>
         <Field Def="dummy8 aReserved[3]">
-            <DisplayName>予約</DisplayName>
+            <DisplayName>reservation</DisplayName>
             <SortID>211</SortID>
         </Field>
         <Field Def="u32 openKeyGuideParam">
-            <DisplayName>開く際のキーガイドパラメータID</DisplayName>
+            <DisplayName>Key guide parameter ID when opening</DisplayName>
             <Enum>KEY_GUIDE_PARAM_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
@@ -26,7 +26,7 @@
             <SortID>200</SortID>
         </Field>
         <Field Def="u32 closeKeyGuideParam">
-            <DisplayName>閉じる際のキーガイドパラメータID</DisplayName>
+            <DisplayName>Key guide parameter ID when closing</DisplayName>
             <Enum>KEY_GUIDE_PARAM_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>

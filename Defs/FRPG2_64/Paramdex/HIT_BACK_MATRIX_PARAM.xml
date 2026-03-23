@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMDEF XmlVersion="0">
     <ParamType>HIT_BACK_MATRIX_PARAM</ParamType>
     <DataVersion>1</DataVersion>
@@ -7,7 +7,7 @@
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="u32 noneSize">
-            <DisplayName>無</DisplayName>
+            <DisplayName>Nothing</DisplayName>
             <Enum>HIT_BACK_WEIGHT_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>31</Maximum>
@@ -15,7 +15,7 @@
             <SortID>1</SortID>
         </Field>
         <Field Def="u32 superSmallSize">
-            <DisplayName>極小</DisplayName>
+            <DisplayName>Extremely small</DisplayName>
             <Enum>HIT_BACK_WEIGHT_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>31</Maximum>
@@ -23,7 +23,7 @@
             <SortID>2</SortID>
         </Field>
         <Field Def="u32 smallSize">
-            <DisplayName>小</DisplayName>
+            <DisplayName>small</DisplayName>
             <Enum>HIT_BACK_WEIGHT_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>31</Maximum>
@@ -31,7 +31,7 @@
             <SortID>3</SortID>
         </Field>
         <Field Def="u32 normalSize">
-            <DisplayName>中</DisplayName>
+            <DisplayName>Medium</DisplayName>
             <Enum>HIT_BACK_WEIGHT_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>31</Maximum>
@@ -39,7 +39,7 @@
             <SortID>4</SortID>
         </Field>
         <Field Def="u32 largeSize">
-            <DisplayName>大</DisplayName>
+            <DisplayName>large</DisplayName>
             <Enum>HIT_BACK_WEIGHT_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>31</Maximum>
@@ -47,7 +47,7 @@
             <SortID>5</SortID>
         </Field>
         <Field Def="u32 superLargeSize">
-            <DisplayName>特大</DisplayName>
+            <DisplayName>extra large</DisplayName>
             <Enum>HIT_BACK_WEIGHT_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>31</Maximum>
@@ -55,7 +55,7 @@
             <SortID>6</SortID>
         </Field>
         <Field Def="u32 hyperLargeSize">
-            <DisplayName>超特大</DisplayName>
+            <DisplayName>Super extra large</DisplayName>
             <Enum>HIT_BACK_WEIGHT_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>31</Maximum>
@@ -63,7 +63,7 @@
             <SortID>7</SortID>
         </Field>
         <Field Def="u32 ultraLargeSize">
-            <DisplayName>超超特大</DisplayName>
+            <DisplayName>super super extra large</DisplayName>
             <Enum>HIT_BACK_WEIGHT_TYPE</Enum>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>31</Maximum>

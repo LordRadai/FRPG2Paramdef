@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <PARAMDEF XmlVersion="0">
     <ParamType>BOSS_PARTS_MODEL_PARAM</ParamType>
     <DataVersion>3</DataVersion>
@@ -7,7 +7,7 @@
     <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="u8 baseCulling">
-            <DisplayName>通常カリンググループ</DisplayName>
+            <DisplayName>Normal culling group</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>99</Maximum>
@@ -15,7 +15,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 breakCulling">
-            <DisplayName>壊れ時カリンググループ</DisplayName>
+            <DisplayName>Culling group when broken</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>99</Maximum>
@@ -23,32 +23,32 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 disableRagdollParts">
-            <DisplayName>壊れ時無効ラグドール部位</DisplayName>
+            <DisplayName>Ragdoll part disabled when broken</DisplayName>
             <Enum>BOSS_RAGDOLL_PARTS_TYPE</Enum>
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 disableHitParts1">
-            <DisplayName>壊れ時無効ヒット部位１</DisplayName>
+            <DisplayName>Invalid hit part 1 when broken</DisplayName>
             <Enum>BOSS_HIT_PARTS_TYPE</Enum>
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 disableHitParts2">
-            <DisplayName>壊れ時無効ヒット部位２</DisplayName>
+            <DisplayName>Invalid hit part 2 when broken</DisplayName>
             <Enum>BOSS_HIT_PARTS_TYPE</Enum>
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 disableHitParts3">
-            <DisplayName>壊れ時無効ヒット部位３</DisplayName>
+            <DisplayName>Invalid hit part 3 when broken</DisplayName>
             <Enum>BOSS_HIT_PARTS_TYPE</Enum>
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 disableHitParts4">
-            <DisplayName>壊れ時無効ヒット部位４</DisplayName>
+            <DisplayName>Invalid hit part 4 when broken</DisplayName>
             <Enum>BOSS_HIT_PARTS_TYPE</Enum>
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 disableResidentSfxNo">
-            <DisplayName>壊れ時無効にする常駐SFXグループ番号</DisplayName>
+            <DisplayName>Resident SFX group number to be disabled when broken</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>4</Maximum>
@@ -56,37 +56,37 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 enableWeapon1">
-            <DisplayName>装備１：有効</DisplayName>
+            <DisplayName>Equipment 1: Effective</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 enableWeapon2">
-            <DisplayName>装備２：有効</DisplayName>
+            <DisplayName>Equipment 2: Valid</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 enableWeapon3">
-            <DisplayName>装備３：有効</DisplayName>
+            <DisplayName>Equipment 3: Effective</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 enableWeapon4">
-            <DisplayName>装備４：有効</DisplayName>
+            <DisplayName>Equipment 4: Effective</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 enableWeapon5">
-            <DisplayName>装備５：有効</DisplayName>
+            <DisplayName>Equipment 5: Effective</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 enableWeapon6">
-            <DisplayName>装備６：有効</DisplayName>
+            <DisplayName>Equipment 6: Effective</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 disableDamageDpId1">
-            <DisplayName>無効ダミポリID（ダメージ）</DisplayName>
+            <DisplayName>Invalid dummy poly ID (damage)</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
@@ -94,7 +94,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 disableDamageDpId2">
-            <DisplayName>無効ダミポリID（ダメージ）</DisplayName>
+            <DisplayName>Invalid dummy poly ID (damage)</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
@@ -102,7 +102,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 disableDamageDpId3">
-            <DisplayName>無効ダミポリID（ダメージ）</DisplayName>
+            <DisplayName>Invalid dummy poly ID (damage)</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
@@ -110,7 +110,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 disableDamageDpId4">
-            <DisplayName>無効ダミポリID（ダメージ）</DisplayName>
+            <DisplayName>Invalid dummy poly ID (damage)</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
@@ -118,7 +118,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 disableDamageDpId5">
-            <DisplayName>無効ダミポリID（ダメージ）</DisplayName>
+            <DisplayName>Invalid dummy poly ID (damage)</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
@@ -126,7 +126,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 disableDamageDpId6">
-            <DisplayName>無効ダミポリID（ダメージ）</DisplayName>
+            <DisplayName>Invalid dummy poly ID (damage)</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
@@ -134,7 +134,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 disableDamageDpId7">
-            <DisplayName>無効ダミポリID（ダメージ）</DisplayName>
+            <DisplayName>Invalid dummy poly ID (damage)</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
@@ -142,7 +142,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 disableDamageDpId8">
-            <DisplayName>無効ダミポリID（ダメージ）</DisplayName>
+            <DisplayName>Invalid dummy poly ID (damage)</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
@@ -150,7 +150,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 disableSfxDpId1">
-            <DisplayName>無効ダミポリID（SFX）</DisplayName>
+            <DisplayName>Invalid dummy poly ID (SFX)</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
@@ -158,7 +158,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 disableSfxDpId2">
-            <DisplayName>無効ダミポリID（SFX）</DisplayName>
+            <DisplayName>Invalid dummy poly ID (SFX)</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
@@ -166,7 +166,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 disableSfxDpId3">
-            <DisplayName>無効ダミポリID（SFX）</DisplayName>
+            <DisplayName>Invalid dummy poly ID (SFX)</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
@@ -174,7 +174,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 disableSfxDpId4">
-            <DisplayName>無効ダミポリID（SFX）</DisplayName>
+            <DisplayName>Invalid dummy poly ID (SFX)</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
@@ -182,7 +182,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 disableSfxDpId5">
-            <DisplayName>無効ダミポリID（SFX）</DisplayName>
+            <DisplayName>Invalid dummy poly ID (SFX)</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
@@ -190,7 +190,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 disableSfxDpId6">
-            <DisplayName>無効ダミポリID（SFX）</DisplayName>
+            <DisplayName>Invalid dummy poly ID (SFX)</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
@@ -198,7 +198,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 disableSfxDpId7">
-            <DisplayName>無効ダミポリID（SFX）</DisplayName>
+            <DisplayName>Invalid dummy poly ID (SFX)</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
@@ -206,7 +206,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 disableSfxDpId8">
-            <DisplayName>無効ダミポリID（SFX）</DisplayName>
+            <DisplayName>Invalid dummy poly ID (SFX)</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
@@ -214,7 +214,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 disableSoundDpId1">
-            <DisplayName>無効ダミポリID（サウンド）</DisplayName>
+            <DisplayName>Invalid dummy poly ID (sound)</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
@@ -222,7 +222,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 disableSoundDpId2">
-            <DisplayName>無効ダミポリID（サウンド）</DisplayName>
+            <DisplayName>Invalid dummy poly ID (sound)</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
@@ -230,7 +230,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 disableSoundDpId3">
-            <DisplayName>無効ダミポリID（サウンド）</DisplayName>
+            <DisplayName>Invalid dummy poly ID (sound)</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
@@ -238,7 +238,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 disableSoundDpId4">
-            <DisplayName>無効ダミポリID（サウンド）</DisplayName>
+            <DisplayName>Invalid dummy poly ID (sound)</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
@@ -246,7 +246,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 disableSoundDpId5">
-            <DisplayName>無効ダミポリID（サウンド）</DisplayName>
+            <DisplayName>Invalid dummy poly ID (sound)</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
@@ -254,7 +254,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 disableSoundDpId6">
-            <DisplayName>無効ダミポリID（サウンド）</DisplayName>
+            <DisplayName>Invalid dummy poly ID (sound)</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
@@ -262,7 +262,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 disableSoundDpId7">
-            <DisplayName>無効ダミポリID（サウンド）</DisplayName>
+            <DisplayName>Invalid dummy poly ID (sound)</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
@@ -270,7 +270,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="u8 disableSoundDpId8">
-            <DisplayName>無効ダミポリID（サウンド）</DisplayName>
+            <DisplayName>Invalid dummy poly ID (sound)</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
@@ -278,7 +278,7 @@
             <SortID>0</SortID>
         </Field>
         <Field Def="dummy8 dummy[2]">
-            <DisplayName>ダミー</DisplayName>
+            <DisplayName>dummy</DisplayName>
             <SortID>40</SortID>
         </Field>
     </Fields>
