@@ -8,6 +8,7 @@ When giving a display name, do whatever you want but try to include unit of meas
 
 ## TODO
 Params that need to be revised are:
+* CHR_PARAM (see if groupType is an integer or was changed to a short)
 * CHUNK_PHASE_PARAM 
 * DUAL_WIELDING_PERMISSION_PARAM
 * MAP_OBJECT_PARAM 
