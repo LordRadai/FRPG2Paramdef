@@ -24,14 +24,14 @@
         <radius AltName="Radius [m]" />
         <length AltName="Length [m]" />
         <hitDistance AltName="Continuous HIT setting" />
-        <downAttackFlag AltName="Down attack flag" />
-        <onceFlag AltName="Single limited flag" />
-        <hitFlagOwner AltName="Owner hit permission" />
-        <hitFlagFriend AltName="Allow friendly hit" />
-        <hitFlagEnemy AltName="Enemy hit allowed" />
-        <hitFlagNeutral AltName="Neutral hit allowed" />
-        <hitFlagMap AltName="Map hit permission" />
-        <hitFlagObj AltName="OBJ hit permission" />
+        <downAttackFlag AltName="Down attack flag" IsBool="true" />
+        <onceFlag AltName="Single limited flag" IsBool="true" />
+        <hitFlagOwner AltName="Owner hit permission" IsBool="true" />
+        <hitFlagFriend AltName="Allow friendly hit" IsBool="true" />
+        <hitFlagEnemy AltName="Enemy hit allowed" IsBool="true" />
+        <hitFlagNeutral AltName="Neutral hit allowed" IsBool="true" />
+        <hitFlagMap AltName="Map hit permission" IsBool="true" />
+        <hitFlagObj AltName="OBJ hit permission" IsBool="true" />
         <directionType AltName="Knockback direction" Enum="DAMAGE_DIRECTION_TYPE" />
         <guardDirectionType AltName="Guard judgment direction" Enum="DAMAGE_DIRECTION_TYPE" />
         <hitPosType AltName="HIT vertical position" Enum="DAMAGE_HIT_POS_TYPE" />
@@ -59,11 +59,11 @@
         <flipHitModelType AltName="Play HIT shape type" Enum="DAMAGE_MODEL_TYPE" />
         <damagOverwrite AltName="Forced damage overwrite" IsBool="true" />
         <disallowInvincible AltName="Invincibility invalidation flag" IsBool="true" />
-        <flipFlagMapFloor AltName="Map bounce floor invalid" />
-        <flipFlagMapWall AltName="Map bounced wall invalid" />
-        <flipFlagObj AltName="OBJ bounced and disabled" />
-        <isDoorCheck AltName="Perform door judgment" />
-        <expandSfxDisable AltName="SFX expansion disabled" />
+        <flipFlagMapFloor AltName="Map bounce floor invalid" IsBool="true" />
+        <flipFlagMapWall AltName="Map bounced wall invalid" IsBool="true" />
+        <flipFlagObj AltName="OBJ bounced and disabled" IsBool="true" />
+        <isDoorCheck AltName="Perform door judgment" IsBool="true" />
+        <expandSfxDisable AltName="SFX expansion disabled" IsBool="true" />
         <dummy5 AltName="Reserved area" Padding="true" />
         <flipHitRadius AltName="Hit radius [m]" />
         <flipHitLength AltName="Play HIT length [m]" />

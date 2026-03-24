@@ -196,6 +196,11 @@ def split(
         raw_name   = tokens[-1] if tokens else "unknown"
         field_name = raw_name.split("[")[0].split(":")[0]
 
+        # Detect single-bit bitfields (e.g. "fieldName:1") before stripping
+        original_name_token = clean_def.split()[-1] if clean_def.split() else ""
+        is_single_bit = (":" in original_name_token and
+                         original_name_token.split(":")[-1] == "1")
+
         meta_attribs: dict[str, str] = {}
 
         display = field.findtext("DisplayName")
@@ -204,6 +209,9 @@ def split(
 
         if field_type == "dummy8":
             meta_attribs["Padding"] = "true"
+
+        if is_single_bit:
+            meta_attribs["IsBool"] = "true"
 
         enum = (field.findtext("Enum") or "").strip()
         if enum:
