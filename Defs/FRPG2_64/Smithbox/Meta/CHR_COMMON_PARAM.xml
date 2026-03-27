@@ -53,7 +53,7 @@
         <flyCtrlValue AltName="Flight braking rate" />
         <lockPointType AltName="Lock point type" />
         <lockDummy AltName="Lock control dummy" Padding="true" />
-        <lockCameraCategory AltName="Lock camera correction category" Enum="LOCK_ON_CAMERA_OFFSET_TYPE_ENUM" />
+        <lockCameraCategory AltName="Lock camera correction category" Refs="LockOnCameraOffsetParam" />
         <lockDisableRadius AltName="Unlockable radius [m]" />
         <lockDisableHeight AltName="Unlockable height [m]" />
         <guardKnockBackRateSuperSmall AltName="Guard knockback reduction rate Weight correction rate Very small" />
@@ -277,45 +277,6 @@
         <Enum Name="CHR_COLLISION_TYPE" type="s32">
             <Option Value="0" Name="Capsule" />
             <Option Value="1" Name="Ragdoll" />
-        </Enum>
-        <Enum Name="LOCK_ON_CAMERA_OFFSET_TYPE_ENUM" type="u32">
-            <Option Value="10010" Name="Extremely small" />
-            <Option Value="10020" Name="Small size" />
-            <Option Value="10030" Name="Medium size" />
-            <Option Value="10040" Name="Large" />
-            <Option Value="10050" Name="Extra large" />
-            <Option Value="10060" Name="Extra large" />
-            <Option Value="10070" Name="Special special large size" />
-            <Option Value="21540" Name="Exclusive - Skeleton Aristocrat" />
-            <Option Value="22120" Name="Dedicated-Wyvern" />
-            <Option Value="22235" Name="Exclusive-Giant Rat" />
-            <Option Value="23033" Name="Dedicated - Double-sided Warrior: Snake Head" />
-            <Option Value="23050" Name="Exclusive - Demon Knight" />
-            <Option Value="23096" Name="Exclusive-New Titan Senior Soldier (Deceased)" />
-            <Option Value="23097" Name="Exclusive - New Titan Advanced Soldier (Living)" />
-            <Option Value="23180" Name="Dedicated - Vagrant" />
-            <Option Value="23240" Name="Dedicated-Gargoyle" />
-            <Option Value="23250" Name="Exclusive - Warrior in the Mirror" />
-            <Option Value="23260" Name="Dedicated - Butcher" />
-            <Option Value="23320" Name="Exclusive-Queen's Knight A" />
-            <Option Value="23330" Name="Exclusive-Queen's Knight B" />
-            <Option Value="23340" Name="Exclusive-Queen's Knight C" />
-            <Option Value="25000" Name="Exclusive - Jabba the Hutt" />
-            <Option Value="25010" Name="Exclusive-Naga" />
-            <Option Value="25030" Name="Exclusive-Man Scorpion♀" />
-            <Option Value="25040" Name="Exclusive-Mirror Knight" />
-            <Option Value="25061" Name="Exclusive - Agaduran's Stand" />
-            <Option Value="25146" Name="Dedicated - Old King" />
-            <Option Value="26000" Name="Exclusive-Ancient Dragon" />
-            <Option Value="26020" Name="Exclusive-Beautiful Frog" />
-            <Option Value="26030" Name="Exclusive-Spider Queen" />
-            <Option Value="26031" Name="Exclusive-Spider Queen (Cliff)" />
-            <Option Value="26070" Name="Dedicated - Molten Demon" />
-            <Option Value="26110" Name="Dedicated - Heavy Cavalry" />
-            <Option Value="26191" Name="Dedicated - Silver Chariot" />
-            <Option Value="26250" Name="Dedicated - Ornstein" />
-            <Option Value="26260" Name="Exclusive - Forgotten Sinners" />
-            <Option Value="26270" Name="Exclusive-Queen's armor form" />
         </Enum>
         <Enum Name="CHR_TAKE_WATER_TYPE" type="u8">
             <Option Value="0" Name="Small" />
