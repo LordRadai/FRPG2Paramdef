@@ -15,5 +15,10 @@
         <bulletAndDamageLeftId04 AltName="Bullet &amp; Damage ID Left 4" />
         <bulletAndDamageLeftId05 AltName="Bullet &amp; Damage ID Left 5" />
     </Field>
-    <Enums />
+    <Enums>
+        <Enum Name="SPELL_SOUL_CONSUME_TYPE" type="u8">
+            <Option Value="0" Name="Number" />
+            <Option Value="1" Name="Percentage" />
+        </Enum>
+    </Enums>
 </PARAMMETA>

@@ -65,6 +65,12 @@
         <aReserved2 AltName="Reservation" Padding="true" />
     </Field>
     <Enums>
+        <Enum Name="GENERATOR_REGIST_OBJECT" type="s32">
+            <Option Value="0" Name="Player" />
+            <Option Value="1" Name="Skeleton Soldier (Logic 9997)" />
+            <Option Value="2" Name="Skeleton Soldier (Logic 9996)" />
+            <Option Value="3" Name="Skeleton Soldier (Logic 9995)" />
+        </Enum>
         <Enum Name="GENERATOR_JUDGE_ENUM" type="u8">
             <Option Value="0" Name="①" />
             <Option Value="1" Name="①&amp;②" />
@@ -86,8 +92,8 @@
             <Option Value="8" Name="The event flag of [specified ID] is OFF" />
             <Option Value="9" Name="More than [specified seconds] have passed since the generated character died." />
             <Option Value="10" Name="An enemy generation trap has been activated." />
-            <Option Value="11" Name="Myself infiltrated the event point [event point ID]" />
-            <Option Value="12" Name="Escape yourself from the event point [event point ID]" />
+            <Option Value="11" Name="Host invades event point [event point ID]" />
+            <Option Value="12" Name="Host escapes from event point [event point ID]" />
             <Option Value="13" Name="Event [Event ID] has ended" />
             <Option Value="14" Name="Player is not wet with [wetness parameter ID]" />
             <Option Value="15" Name="The player is wet with [wetness parameter ID]" />

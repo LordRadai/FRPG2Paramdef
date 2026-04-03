@@ -93,7 +93,7 @@
         <Enum Name="SPELL_CATEGORY" type="s32">
             <Option Value="0" Name="Magic" />
             <Option Value="1" Name="Miracle" />
-            <Option Value="2" Name="Pyromancy" />
+            <Option Value="2" Name="Magic" />
             <Option Value="3" Name="Dark magic" />
             <Option Value="4" Name="Dark miracle" />
         </Enum>

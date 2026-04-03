@@ -209,6 +209,33 @@
             <Option Value="10" Name="Cane type" />
             <Option Value="11" Name="Bell type" />
         </Enum>
+        <Enum Name="DUAL_WIELDING_PERMISSION_ID" type="u32">
+            <Option Value="0" Name="None" />
+            <Option Value="10" Name="Dual wielding bare hands" />
+            <Option Value="20" Name="Dual wield fist" />
+            <Option Value="30" Name="Dual wield dagger" />
+            <Option Value="40" Name="Dual sword sword" />
+            <Option Value="50" Name="Two-handed sword" />
+            <Option Value="60" Name="Dual-edged sword" />
+            <Option Value="70" Name="Dual wielding one-handed hammer" />
+            <Option Value="80" Name="Two-handed sword" />
+            <Option Value="90" Name="Dual-wielding one-handed ax" />
+            <Option Value="100" Name="Two-handed hammer" />
+            <Option Value="110" Name="Two-handed two-handed oversized sword" />
+            <Option Value="120" Name="Dual-wielding two-handed ax" />
+            <Option Value="130" Name="Two-handed sickle" />
+            <Option Value="140" Name="Dual-wielding two-handed long ax" />
+            <Option Value="150" Name="Dual wielding spear" />
+            <Option Value="160" Name="Dual wield assault spear" />
+            <Option Value="170" Name="Dual wielding whip" />
+            <Option Value="180" Name="Dual wielding one-handed bow" />
+            <Option Value="190" Name="Dual-wielding rapid-fire one-handed bow" />
+            <Option Value="200" Name="Dual wielding one-handed cane" />
+            <Option Value="210" Name="Dual wielding one-handed bell" />
+            <Option Value="220" Name="Dual sword right shield" />
+            <Option Value="230" Name="Dual sword left shield" />
+            <Option Value="240" Name="Dual wielding claws" />
+        </Enum>
         <Enum Name="GUARD_RELEASE_SPEED_CATEGORY" type="u8">
             <Option Value="10" Name="速" />
             <Option Value="20" Name="中" />

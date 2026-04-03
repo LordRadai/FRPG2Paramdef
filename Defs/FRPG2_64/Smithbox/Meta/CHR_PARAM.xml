@@ -132,6 +132,78 @@
             <Option Value="4" Name="Initial equipment equipment set 5" />
             <Option Value="5" Name="Initial equipment equipment set 6" />
         </Enum>
+        <Enum Name="CHR_ROUND_DAMAGE_CATEGORY" type="u8">
+            <Option Value="0" Name="Unused" />
+            <Option Value="1" Name="Lap strengthening table Lv1" />
+            <Option Value="2" Name="Lap strengthening table Lv2" />
+            <Option Value="3" Name="Lap strengthening table Lv3" />
+            <Option Value="4" Name="Round reinforcement table Lv4" />
+            <Option Value="5" Name="Round reinforcement table Lv5" />
+            <Option Value="6" Name="Round reinforcement table Lv6" />
+            <Option Value="7" Name="Round reinforcement table Lv7" />
+            <Option Value="8" Name="Lap strengthening table Lv8" />
+            <Option Value="9" Name="Laptop reinforcement table Lv9" />
+            <Option Value="10" Name="Round reinforcement table Lv10" />
+            <Option Value="11" Name="Reserve slot 1" />
+            <Option Value="12" Name="Reserve frame 2" />
+            <Option Value="13" Name="Reserve slot 3" />
+            <Option Value="14" Name="Reserve frame 4" />
+            <Option Value="15" Name="Reserve slot 5" />
+            <Option Value="16" Name="Reserve slot 6" />
+            <Option Value="17" Name="Reserve slot 7" />
+            <Option Value="18" Name="Reserve slot 8" />
+            <Option Value="19" Name="Reserve slot 9" />
+            <Option Value="20" Name="Reserve slot 10" />
+            <Option Value="21" Name="Reserve slot 11" />
+            <Option Value="22" Name="Reserve frame 12" />
+            <Option Value="23" Name="Reserve slot 13" />
+            <Option Value="24" Name="Reserve frame 14" />
+            <Option Value="25" Name="Reserve slot 15" />
+            <Option Value="26" Name="Reserve slot 16" />
+            <Option Value="27" Name="Reserve slot 17" />
+            <Option Value="28" Name="Reserve slot 18" />
+            <Option Value="29" Name="Reserve slot 19" />
+            <Option Value="30" Name="Reserve slot 20" />
+            <Option Value="31" Name="Reserve slot 21" />
+            <Option Value="32" Name="Reserve frame 22" />
+            <Option Value="33" Name="Reserve slot 23" />
+            <Option Value="34" Name="Reserve slot 24" />
+            <Option Value="35" Name="Reserve slot 25" />
+            <Option Value="36" Name="Reserve slot 26" />
+            <Option Value="37" Name="Reserve slot 27" />
+            <Option Value="38" Name="Reserve slot 28" />
+            <Option Value="39" Name="Reserve slot 29" />
+            <Option Value="40" Name="Reserve slot 30" />
+            <Option Value="41" Name="Reserve frame 31" />
+            <Option Value="42" Name="Spare frame 32" />
+            <Option Value="43" Name="Reserve frame 33" />
+            <Option Value="44" Name="Reserve frame 34" />
+            <Option Value="45" Name="Reserve frame 35" />
+            <Option Value="46" Name="Reserve frame 36" />
+            <Option Value="47" Name="Reserve slot 37" />
+            <Option Value="48" Name="Reserve slot 38" />
+            <Option Value="49" Name="Reserve slot 39" />
+            <Option Value="50" Name="Reserve slot 40" />
+            <Option Value="51" Name="Reserve frame 41" />
+            <Option Value="52" Name="Reserve frame 42" />
+            <Option Value="53" Name="Reserve frame 43" />
+            <Option Value="54" Name="Reserve frame 44" />
+            <Option Value="55" Name="Reserve frame 45" />
+            <Option Value="56" Name="Reserve frame 46" />
+            <Option Value="57" Name="Reserve frame 47" />
+            <Option Value="58" Name="Reserve frame 48" />
+            <Option Value="59" Name="Reserve frame 49" />
+            <Option Value="60" Name="Reserve slot 50" />
+            <Option Value="61" Name="Reserve frame 51" />
+            <Option Value="62" Name="Reserve frame 52" />
+            <Option Value="63" Name="Reserve frame 53" />
+            <Option Value="64" Name="Reserve frame 54" />
+            <Option Value="65" Name="Reserve frame 55" />
+            <Option Value="66" Name="Reserve frame 56" />
+            <Option Value="67" Name="Reserve frame 57" />
+            <Option Value="68" Name="Reserve frame 58" />
+            <Option Value="69" Name="Reserve frame 59" />
+        </Enum>
         <Enum Name="CHR_ITEM_DROP_TYPE" type="s32">
             <Option Value="0" Name="Dummy" />
         </Enum>

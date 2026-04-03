@@ -108,8 +108,8 @@
         </Enum>
         <Enum Name="DAMAGE_SP_EFFECT_TARGET" type="u8">
             <Option Value="0" Name="None" />
-            <Option Value="1" Name="Target" />
-            <Option Value="2" Name="Owner" />
+            <Option Value="1" Name="The one who was eaten" />
+            <Option Value="2" Name="The one who gave" />
             <Option Value="3" Name="Both" />
         </Enum>
         <Enum Name="DAMAGE_MATERIAL_SIZE" type="u8">
@@ -125,6 +125,25 @@
             <Option Value="2" Name="Two-handed sword test" />
             <Option Value="3" Name="Spear test" />
             <Option Value="4" Name="Two-handed long ax test" />
+        </Enum>
+        <Enum Name="DAMAGE_MOVEMENT_POWER_TYPE" type="u8">
+            <Option Value="0" Name="無" />
+            <Option Value="1" Name="Extremely small" />
+            <Option Value="2" Name="小" />
+            <Option Value="3" Name="中" />
+            <Option Value="4" Name="大" />
+            <Option Value="5" Name="Extra large" />
+        </Enum>
+        <Enum Name="DAMAGE_ATTACK_TYPE_RATE_TYPE" type="u8">
+            <Option Value="0" Name="弱" />
+            <Option Value="1" Name="強" />
+            <Option Value="2" Name="Jump" />
+            <Option Value="3" Name="Falling" />
+        </Enum>
+        <Enum Name="DAMAGE_STYLE_RATE_TYPE" type="u8">
+            <Option Value="0" Name="One hand" />
+            <Option Value="1" Name="Both hands" />
+            <Option Value="2" Name="Dual wielding" />
         </Enum>
     </Enums>
 </PARAMMETA>

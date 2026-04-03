@@ -171,7 +171,7 @@
         {
           "Description": "",
           "ID": "1",
-          "Name": "Small White Phantom"
+          "Name": "Kojiro Phantom"
         },
         {
           "Description": "",
@@ -603,48 +603,8 @@
         },
         {
           "Description": "",
-          "ID": "100100",
-          "Name": "Overall 2nd round flag《ID:100100》"
-        },
-        {
-          "Description": "",
-          "ID": "100110",
-          "Name": "Overall 3rd lap flag《ID:100110》"
-        },
-        {
-          "Description": "",
           "ID": "100200",
           "Name": "Petrified Forest: Encounter with the retired Fire Guardian《ID:100200》"
-        },
-        {
-          "Description": "",
-          "ID": "100300",
-          "Name": "Prison of Oblivion: Sinner's Light《ID:100300》"
-        },
-        {
-          "Description": "",
-          "ID": "100360",
-          "Name": "Molten Iron Castle: Molten Iron Light《ID:100360》"
-        },
-        {
-          "Description": "",
-          "ID": "100400",
-          "Name": "Scum Bottom: Valley Light《ID:100400》"
-        },
-        {
-          "Description": "",
-          "ID": "100420",
-          "Name": "Hollow Shadow Forest: Opened the special door to the royal castle 《ID:100420》"
-        },
-        {
-          "Description": "",
-          "ID": "100460",
-          "Name": "Shining Stone Town Jeldra: Obtaining the Ancient Dragon's Soul《ID:100460》"
-        },
-        {
-          "Description": "",
-          "ID": "100461",
-          "Name": "Shining Stone Town Jeldora: Shining Stone Light《ID:100461》"
         },
         {
           "Description": "",
@@ -670,11 +630,6 @@
           "Description": "",
           "ID": "100804",
           "Name": "Item acquisition King's ring《ID:100804》"
-        },
-        {
-          "Description": "",
-          "ID": "100805",
-          "Name": "Item acquisition Giant's Resonance《ID:100805》"
         },
         {
           "Description": "",
@@ -793,16 +748,6 @@
         },
         {
           "Description": "",
-          "ID": "100904",
-          "Name": "Item acquisition King's Soul《ID:100904》"
-        },
-        {
-          "Description": "",
-          "ID": "100905",
-          "Name": "Item acquisition Elder Dragon Soul《ID:100905》"
-        },
-        {
-          "Description": "",
           "ID": "100950",
           "Name": "Defeat Beautiful Frog《ID:100950》"
         },
@@ -889,7 +834,7 @@
         {
           "Description": "",
           "ID": "100967",
-          "Name": "Giant rat《ID:100967》"
+          "Name": "Mouse King《ID:100967》"
         },
         {
           "Description": "",
@@ -949,12 +894,12 @@
         {
           "Description": "",
           "ID": "100979",
-          "Name": "Defeat Agaduran's stand《ID:100979》"
+          "Name": "Defeat Agaduran's Stand: Scum Bottom《ID:100979》"
         },
         {
           "Description": "",
           "ID": "100980",
-          "Name": "Heavy cavalry: Defeat 2 soldiers only《ID:100980》"
+          "Name": "Defeat Agaduran's Stand: Hollow Shadow Forest《ID:100980》"
         },
         {
           "Description": "",
@@ -963,73 +908,8 @@
         },
         {
           "Description": "",
-          "ID": "101000",
-          "Name": "Dark Priest: Defeated《ID:101000》"
-        },
-        {
-          "Description": "",
-          "ID": "101001",
-          "Name": "Gargoyle: Defeated《ID:101001》"
-        },
-        {
-          "Description": "",
-          "ID": "101002",
-          "Name": "Senior Titan Soldier: Defeated《ID:101002》"
-        },
-        {
-          "Description": "",
-          "ID": "101100",
-          "Name": "2nd time: Defeat the Spider Queen《ID:101100》"
-        },
-        {
-          "Description": "",
-          "ID": "101101",
-          "Name": "2nd time: Defeat Molten Demon《ID:101101》"
-        },
-        {
-          "Description": "",
-          "ID": "101102",
-          "Name": "2nd time: Defeat the forgotten sinner《ID:101102》"
-        },
-        {
-          "Description": "",
-          "ID": "101103",
-          "Name": "2nd time: Defeat Butcher《ID:101103》"
-        },
-        {
-          "Description": "",
           "ID": "101850",
           "Name": "Unknown: Delete if unnecessary《ID:101850》"
-        },
-        {
-          "Description": "",
-          "ID": "102000",
-          "Name": "Dullahan: White Phantom can appear: Drangraig: Guardian Dragon's Nest《ID:102000》"
-        },
-        {
-          "Description": "",
-          "ID": "102001",
-          "Name": "Dullahan: Equipment transfer《ID:102001》"
-        },
-        {
-          "Description": "",
-          "ID": "102010",
-          "Name": "Dullahan: Defeat the headless Dullahan《ID:102010》"
-        },
-        {
-          "Description": "",
-          "ID": "102020",
-          "Name": "Grave guard: Close conversation: Stop《ID:102020》"
-        },
-        {
-          "Description": "",
-          "ID": "102021",
-          "Name": "Grave Keeper: Equipment Transfer《ID:102021》"
-        },
-        {
-          "Description": "",
-          "ID": "102030",
-          "Name": "Grave Guardian: White Phantom Possible to appear: Immortal Mausoleum《ID:102030》"
         },
         {
           "Description": "",
@@ -1068,138 +948,28 @@
         },
         {
           "Description": "",
-          "ID": "102089",
-          "Name": "Dragon Shrine Maiden: Ojo: Generation stopped《ID:102089》"
-        },
-        {
-          "Description": "",
-          "ID": "102090",
-          "Name": "Dragon Shrine Maiden: Item Transfer: Est Bottle《ID:102090》"
-        },
-        {
-          "Description": "",
-          "ID": "102091",
-          "Name": "Dragon Shrine Maiden: Equipment switching《ID:102091》"
-        },
-        {
-          "Description": "",
-          "ID": "102095",
-          "Name": "Dragon Shrine Maiden: Andeel's Hall: Item Transfer《ID:102095》"
-        },
-        {
-          "Description": "",
-          "ID": "102096",
-          "Name": "Dragon Shrine Maiden: Child: Andile Hall: Item Transfer《ID:102096》"
-        },
-        {
-          "Description": "",
-          "ID": "102140",
-          "Name": "Queen: Generation stopped《ID:102140》"
-        },
-        {
-          "Description": "",
           "ID": "102160",
           "Name": "Ladder shop: Install a ladder《ID:102160》"
         },
         {
           "Description": "",
-          "ID": "102161",
-          "Name": "Ladder shop: Polyplay played《ID:102161》"
-        },
-        {
-          "Description": "",
-          "ID": "102165",
-          "Name": "Ladder shop: Madura: Immigration permit《ID:102165》"
-        },
-        {
-          "Description": "",
           "ID": "102170",
-          "Name": "Ladder shop: Madura: Installing a short ladder《ID:102170》"
+          "Name": "Ladder shop: Migrate: Install long ladder《ID:102170》"
         },
         {
           "Description": "",
           "ID": "102171",
-          "Name": "Ladder shop: Madura: Normal ladder installed《ID:102171》"
+          "Name": "Ladder shop: Migrate: Set up middle ladder《ID:102171》"
         },
         {
           "Description": "",
           "ID": "102172",
-          "Name": "Ladder shop: Madura: Installing a long ladder《ID:102172》"
+          "Name": "Ladder shop: Migrate: Set up a small ladder《ID:102172》"
         },
         {
           "Description": "",
           "ID": "102173",
-          "Name": "Ladder shop: Madura: Equipment transfer《ID:102173》"
-        },
-        {
-          "Description": "",
-          "ID": "102174",
-          "Name": "Ladder shop: Madura: Install a long ladder (equipment)《ID:102174》"
-        },
-        {
-          "Description": "",
-          "ID": "102175",
-          "Name": "Ladder shop: Madura: Polyplay played《ID:102175》"
-        },
-        {
-          "Description": "",
-          "ID": "102180",
-          "Name": "Retired Firekeeper 1: Equipment Transfer《ID:102180》"
-        },
-        {
-          "Description": "",
-          "ID": "102181",
-          "Name": "Retired Firekeeper 1: Madura Invasion《ID:102181》"
-        },
-        {
-          "Description": "",
-          "ID": "102260",
-          "Name": "Spirit of the Prime Minister: Equipment Transfer《ID:102260》"
-        },
-        {
-          "Description": "",
-          "ID": "102280",
-          "Name": "Firekeeper Housekeeper: Equipment Transfer《ID:102280》"
-        },
-        {
-          "Description": "",
-          "ID": "102281",
-          "Name": "Firekeeper Housekeeper: Tutorial Clear《ID:102281》"
-        },
-        {
-          "Description": "",
-          "ID": "102300",
-          "Name": "Kingdom Captain: Equipment Transfer《ID:102300》"
-        },
-        {
-          "Description": "",
-          "ID": "102301",
-          "Name": "Kingdom Captain: Gesture Transfer《ID:102301》"
-        },
-        {
-          "Description": "",
-          "ID": "102302",
-          "Name": "Kingdom Captain: White Phantom can appear《ID:102302》"
-        },
-        {
-          "Description": "",
-          "ID": "102315",
-          "Name": "Pilgrim of the Abyss: Scum bottom: Generation stopped《ID:102315》"
-        },
-        {
-          "Description": "",
-          "ID": "102316",
-          "Name": "Pilgrim of the Abyss: Drangraig: Generation stopped《ID:102316》"
-        },
-        {
-          "Description": "",
-          "ID": "102317",
-          "Name": "Pilgrim of the Abyss: Forest of Shadows: Generation Stopped《ID:102317》"
-        },
-        {
-          "Description": "",
-          "ID": "102319",
-          "Name": "Pilgrim of the Abyss: Pledge Ring Transfer《ID:102319》"
+          "Name": "Ladder shop: Migration: Equipment transfer《ID:102173》"
         },
         {
           "Description": "",
@@ -1208,23 +978,18 @@
         },
         {
           "Description": "",
-          "ID": "102321",
-          "Name": "Pilgrim of the Abyss: After signing the vow《ID:102321》"
-        },
-        {
-          "Description": "",
           "ID": "102322",
-          "Name": "Pilgrim of the Abyss: Scum Bottom: Appearance Permission《ID:102322》"
+          "Name": "Pilgrim of the Abyss: 1st encounter《ID:102322》"
         },
         {
           "Description": "",
           "ID": "102323",
-          "Name": "Pilgrim of the Abyss: Drangraig: Appearance permission《ID:102323》"
+          "Name": "Pilgrim of the Abyss: 2nd Encounter《ID:102323》"
         },
         {
           "Description": "",
           "ID": "102324",
-          "Name": "Pilgrim of the Abyss: Forest of Shadows: Appearance Permission《ID:102324》"
+          "Name": "Pilgrim of the Abyss: 3rd Encounter《ID:102324》"
         },
         {
           "Description": "",
@@ -1255,61 +1020,6 @@
           "Description": "",
           "ID": "102330",
           "Name": "Pilgrim of the Abyss: Magic Square Invasion (Shadow Forest)《ID:102330》"
-        },
-        {
-          "Description": "",
-          "ID": "102331",
-          "Name": "Pilgrim of the Abyss: Scum Bottom: Encountering《ID:102331》"
-        },
-        {
-          "Description": "",
-          "ID": "102332",
-          "Name": "Pilgrim of the Abyss: Drangraig: Encounter《ID:102332》"
-        },
-        {
-          "Description": "",
-          "ID": "102333",
-          "Name": "Pilgrim of the Abyss: Forest of Shadows: Encounter《ID:102333》"
-        },
-        {
-          "Description": "",
-          "ID": "102334",
-          "Name": "Pilgrim of the Abyss: Magic Square Escape《ID:102334》"
-        },
-        {
-          "Description": "",
-          "ID": "102337",
-          "Name": "Pilgrim of the Abyss: Awarded Pledge Ranking 1《ID:102337》"
-        },
-        {
-          "Description": "",
-          "ID": "102338",
-          "Name": "Pilgrim of the Abyss: Awarded Pledge Ranking 2《ID:102338》"
-        },
-        {
-          "Description": "",
-          "ID": "102339",
-          "Name": "Pilgrim of the Abyss: Awarded Pledge Ranking 3《ID:102339》"
-        },
-        {
-          "Description": "",
-          "ID": "102340",
-          "Name": "Dwarf: Tamari no Tani: Immigration permission《ID:102340》"
-        },
-        {
-          "Description": "",
-          "ID": "102343",
-          "Name": "Dwarf: Pharos Doorway: Appearance Permission《ID:102343》"
-        },
-        {
-          "Description": "",
-          "ID": "102346",
-          "Name": "Dwarf: Valley of Ponds: Shop list changed《ID:102346》"
-        },
-        {
-          "Description": "",
-          "ID": "102349",
-          "Name": "Dwarf: Doorway of Pharos: Shop list changed《ID:102349》"
         },
         {
           "Description": "",
@@ -1348,208 +1058,23 @@
         },
         {
           "Description": "",
-          "ID": "102381",
-          "Name": "Broken Blue Sect Warrior: Pledge Ring Transfer《ID:102381》"
-        },
-        {
-          "Description": "",
-          "ID": "102382",
-          "Name": "Broken Blue Sect Warrior: Item Transfer《ID:102382》"
-        },
-        {
-          "Description": "",
-          "ID": "102390",
-          "Name": "Broken Blue Sect Warrior: Awarded Pledge Ranking 1《ID:102390》"
-        },
-        {
-          "Description": "",
-          "ID": "102391",
-          "Name": "Broken Blue Sect Warrior: Awarded Pledge Ranking 2《ID:102391》"
-        },
-        {
-          "Description": "",
-          "ID": "102392",
-          "Name": "Broken Blue Sect Warrior: Awarded Pledge Ranking 3《ID:102392》"
-        },
-        {
-          "Description": "",
-          "ID": "102400",
-          "Name": "Wandering Warrior: Item Transfer《ID:102400》"
-        },
-        {
-          "Description": "",
-          "ID": "102401",
-          "Name": "Wandering Warrior: Equipment Transfer《ID:102401》"
-        },
-        {
-          "Description": "",
-          "ID": "102402",
-          "Name": "Wandering Warrior: For encounter after battle《ID:102402》"
-        },
-        {
-          "Description": "",
-          "ID": "102403",
-          "Name": "Wandering Warrior: Gesture Transfer《ID:102403》"
-        },
-        {
-          "Description": "",
-          "ID": "102404",
-          "Name": "Wandering Warrior: Cromwell 2nd round flag 《ID:102404》"
-        },
-        {
-          "Description": "",
-          "ID": "102405",
-          "Name": "Wandering Warrior: Forest of Shadows: Immigration Permit《ID:102405》"
-        },
-        {
-          "Description": "",
-          "ID": "102406",
-          "Name": "Wandering Warrior: Geldra: Immigration Permit《ID:102406》"
-        },
-        {
-          "Description": "",
-          "ID": "102420",
-          "Name": "Moonlight Old Man: Equipment Transfer《ID:102420》"
-        },
-        {
-          "Description": "",
-          "ID": "102421",
-          "Name": "Moonlight Old Man: Drangraig: Immigration Permit《ID:102421》"
-        },
-        {
-          "Description": "",
-          "ID": "102422",
-          "Name": "Moonlight Old Man: Giant's Forest: Immigration Permit《ID:102422》"
-        },
-        {
-          "Description": "",
-          "ID": "102423",
-          "Name": "Moonlight Old Man: Giant's Memory: Immigration Permit《ID:102423》"
-        },
-        {
-          "Description": "",
-          "ID": "102430",
-          "Name": "Moonlight Old Man: White Phantom Appears: Geldra《ID:102430》"
-        },
-        {
-          "Description": "",
-          "ID": "102431",
-          "Name": "Moonlight Old Man: White Phantom Appearance: Drangraig《ID:102431》"
-        },
-        {
-          "Description": "",
-          "ID": "102432",
-          "Name": "Moonlight Old Man: White Phantom Appearance: Giant's Memory《ID:102432》"
-        },
-        {
-          "Description": "",
-          "ID": "102433",
-          "Name": "Moonlight Old Man: White Phantom Appears: Drangraig: Before the Last Boss《ID:102433》"
-        },
-        {
-          "Description": "",
-          "ID": "102435",
-          "Name": "Moonlight Old Man: Gesture Transfer《ID:102435》"
-        },
-        {
-          "Description": "",
-          "ID": "102436",
-          "Name": "Moonlight Old Man: White Phantom: Summoning Achieved《ID:102436》"
-        },
-        {
-          "Description": "",
-          "ID": "102440",
-          "Name": "Patch: Geldra: Item Transfer《ID:102440》"
-        },
-        {
-          "Description": "",
-          "ID": "102441",
-          "Name": "Patch: Equipment Transfer《ID:102441》"
-        },
-        {
-          "Description": "",
-          "ID": "102442",
-          "Name": "Patch: White Phantom can appear: Giant's Forest《ID:102442》"
-        },
-        {
-          "Description": "",
-          "ID": "102443",
-          "Name": "Patch: Giant's Forest: Trap activation《ID:102443》"
-        },
-        {
-          "Description": "",
-          "ID": "102444",
-          "Name": "Patch: Giant's Forest: Item Transfer《ID:102444》"
-        },
-        {
-          "Description": "",
-          "ID": "102445",
-          "Name": "Patch: For encounter after battle《ID:102445》"
-        },
-        {
-          "Description": "",
-          "ID": "102446",
-          "Name": "Patch: Tamari no Tani: Item acquisition《ID:102446》"
-        },
-        {
-          "Description": "",
-          "ID": "102450",
-          "Name": "Patch: Tamari no Tani: Immigration Permit《ID:102450》"
-        },
-        {
-          "Description": "",
-          "ID": "102451",
-          "Name": "Patch: Geldra: Immigration permission《ID:102451》"
-        },
-        {
-          "Description": "",
-          "ID": "102452",
-          "Name": "Patch: White Phantom: Summoning achievement《ID:102452》"
-        },
-        {
-          "Description": "",
-          "ID": "102460",
-          "Name": "Map writer: Madura: Immigration permit《ID:102460》"
-        },
-        {
-          "Description": "",
-          "ID": "102461",
-          "Name": "Map drawing: Skeleton defeated: Event in progress《ID:102461》"
-        },
-        {
-          "Description": "",
-          "ID": "102462",
-          "Name": "Map writer: Madura: Migration completed《ID:102462》"
-        },
-        {
-          "Description": "",
-          "ID": "102470",
-          "Name": "Map drawing: Equipment transfer《ID:102470》"
-        },
-        {
-          "Description": "",
-          "ID": "102471",
-          "Name": "Map drawing: Item transfer《ID:102471》"
-        },
-        {
-          "Description": "",
           "ID": "102480",
-          "Name": "Female Knight: Castle of Oblivion: Encounter《ID:102480》"
+          "Name": "Female knight: 1st encounter《ID:102480》"
         },
         {
           "Description": "",
           "ID": "102481",
-          "Name": "Female Knight: Tamari no Tani: Encounter《ID:102481》"
+          "Name": "Female knight: 2nd encounter《ID:102481》"
         },
         {
           "Description": "",
           "ID": "102482",
-          "Name": "Female Knight: Hidden Port: Encountering《ID:102482》"
+          "Name": "Female Knight: 3rd Encounter《ID:102482》"
         },
         {
           "Description": "",
           "ID": "102483",
-          "Name": "Female Knight: Scum Bottom: Encountering《ID:102483》"
+          "Name": "Female Knight: 4th Encounter《ID:102483》"
         },
         {
           "Description": "",
@@ -1559,117 +1084,62 @@
         {
           "Description": "",
           "ID": "102485",
-          "Name": "Female Knight: Castle of Oblivion: Generation stopped《ID:102485》"
+          "Name": "Female Knight: Tamari no Tani: Generation stopped《ID:102485》"
         },
         {
           "Description": "",
           "ID": "102486",
-          "Name": "Female Knight: Tamari no Tani: Generation stopped《ID:102486》"
+          "Name": "Female Knight: Hidden Port: Generation stopped《ID:102486》"
         },
         {
           "Description": "",
           "ID": "102487",
-          "Name": "Female Knight: Hidden Port: Generation stopped《ID:102487》"
+          "Name": "Female Knight: Scum Bottom: Generation Stopped《ID:102487》"
         },
         {
           "Description": "",
           "ID": "102488",
-          "Name": "Female Knight: Scum Bottom: Generation Stopped《ID:102488》"
+          "Name": "Female knight: Item transfer: 2nd encounter: Talk to: Part 2《ID:102488》"
         },
         {
           "Description": "",
           "ID": "102489",
-          "Name": "Female Knight: Andeel's Hall: Generation stopped《ID:102489》"
+          "Name": "Female knight: Item transfer: 3rd encounter: Talk to: Part 1《ID:102489》"
         },
         {
           "Description": "",
           "ID": "102490",
-          "Name": "Female Knight: Castle of Oblivion: Appearance Permission《ID:102490》"
+          "Name": "Female Knight: Equipment Transfer《ID:102490》"
         },
         {
           "Description": "",
           "ID": "102491",
-          "Name": "Female Knight: Tamari no Tani: Appearance Permission《ID:102491》"
+          "Name": "Female Knight: Place of Death: Hidden Port《ID:102491》"
         },
         {
           "Description": "",
           "ID": "102492",
-          "Name": "Female Knight: Hidden Port: Appearance Permission《ID:102492》"
+          "Name": "Female Knight: Place of Death: Castle of Oblivion《ID:102492》"
         },
         {
           "Description": "",
           "ID": "102493",
-          "Name": "Female Knight: Scum Bottom: Appearance Permission《ID:102493》"
+          "Name": "Female Knight: Place of death: Tamari no Tani《ID:102493》"
         },
         {
           "Description": "",
           "ID": "102494",
-          "Name": "Female Knight: Andeel's Hall: Appearance Permission《ID:102494》"
+          "Name": "Female Knight: Place of Death: Bottom of Scum《ID:102494》"
         },
         {
           "Description": "",
           "ID": "102495",
-          "Name": "Female knight: Item transfer: 2nd encounter: Talk to: Part 2《ID:102495》"
+          "Name": "Female Knight: Place of death: Mansion of An Deal《ID:102495》"
         },
         {
           "Description": "",
           "ID": "102496",
-          "Name": "Female Knight: Item Transfer: 3rd Encounter: Talk to: Part 1《ID:102496》"
-        },
-        {
-          "Description": "",
-          "ID": "102497",
-          "Name": "Female Knight: Equipment Transfer《ID:102497》"
-        },
-        {
-          "Description": "",
-          "ID": "102498",
-          "Name": "Female Knight: White Phantom: Summoning Achieved《ID:102498》"
-        },
-        {
-          "Description": "",
-          "ID": "102500",
-          "Name": "Female Knight: White Phantom Possible to appear: Castle of Oblivion: Ruined Iron Castle《ID:102500》"
-        },
-        {
-          "Description": "",
-          "ID": "102501",
-          "Name": "Female Knight: White Phantom Possible to appear: Tamari no Tani《ID:102501》"
-        },
-        {
-          "Description": "",
-          "ID": "102502",
-          "Name": "Female Knight: White Phantom Can appear: Hidden Port《ID:102502》"
-        },
-        {
-          "Description": "",
-          "ID": "102503",
-          "Name": "Female Knight: White Phantom Possible to appear: Scum Bottom《ID:102503》"
-        },
-        {
-          "Description": "",
-          "ID": "102510",
-          "Name": "Bell Keeper: Equipment Transfer《ID:102510》"
-        },
-        {
-          "Description": "",
-          "ID": "102511",
-          "Name": "Bell Keeper: Pledge Ring Transfer《ID:102511》"
-        },
-        {
-          "Description": "",
-          "ID": "102512",
-          "Name": "Bellkeeper: Received pledge ranking 1《ID:102512》"
-        },
-        {
-          "Description": "",
-          "ID": "102513",
-          "Name": "Bell Keeper: Received pledge ranking 2《ID:102513》"
-        },
-        {
-          "Description": "",
-          "ID": "102514",
-          "Name": "Bell Keeper: Received pledge ranking 3《ID:102514》"
+          "Name": "Female Knight: Death《ID:102496》"
         },
         {
           "Description": "",
@@ -1678,333 +1148,13 @@
         },
         {
           "Description": "",
-          "ID": "102521",
-          "Name": "Yorozu Baba: Madura: Immigration permit《ID:102521》"
-        },
-        {
-          "Description": "",
-          "ID": "102550",
-          "Name": "Bard Girl 1: Equipment Transfer《ID:102550》"
-        },
-        {
-          "Description": "",
-          "ID": "102551",
-          "Name": "Bard Girl 1: Conversation: Item Transfer《ID:102551》"
-        },
-        {
-          "Description": "",
-          "ID": "102552",
-          "Name": "Bard Girl 1: Rescue of Prisoner Girl: Item Transfer《ID:102552》"
-        },
-        {
-          "Description": "",
-          "ID": "102560",
-          "Name": "Bard Girl 2: Equipment Transfer《ID:102560》"
-        },
-        {
-          "Description": "",
-          "ID": "102561",
-          "Name": "Bard Girl 2: Conversation: Item Transfer《ID:102561》"
-        },
-        {
-          "Description": "",
-          "ID": "102562",
-          "Name": "Bard Girl 2: Rescue of Prisoner Girl: Item Transfer《ID:102562》"
-        },
-        {
-          "Description": "",
-          "ID": "102580",
-          "Name": "Prisoner Girl: Rescue Achieved《ID:102580》"
-        },
-        {
-          "Description": "",
-          "ID": "102581",
-          "Name": "Prisoner Girl: Item Transfer《ID:102581》"
-        },
-        {
-          "Description": "",
-          "ID": "102582",
-          "Name": "Captive Girl: Generation stopped《ID:102582》"
-        },
-        {
-          "Description": "",
-          "ID": "102600",
-          "Name": "Armor shop: Equipment transfer《ID:102600》"
-        },
-        {
-          "Description": "",
-          "ID": "102601",
-          "Name": "Armor Shop: Demon Knight Armor Flag《ID:102601》"
-        },
-        {
-          "Description": "",
-          "ID": "102602",
-          "Name": "Armor shop: Mirror Knight armor flag《ID:102602》"
-        },
-        {
-          "Description": "",
-          "ID": "102603",
-          "Name": "Armor Shop: Forgotten Sinner Armor Flag《ID:102603》"
-        },
-        {
-          "Description": "",
-          "ID": "102604",
-          "Name": "Armor shop: Queen's knight A&C armor flag《ID:102604》"
-        },
-        {
-          "Description": "",
-          "ID": "102605",
-          "Name": "Armor shop: Queen's Knight B armor flag《ID:102605》"
-        },
-        {
-          "Description": "",
-          "ID": "102606",
-          "Name": "Armor shop: Butterfly armor flag《ID:102606》"
-        },
-        {
-          "Description": "",
-          "ID": "102607",
-          "Name": "Armor shop: Butterfly head equipment flag《ID:102607》"
-        },
-        {
-          "Description": "",
-          "ID": "102610",
-          "Name": "Armor shop: Bearish《ID:102610》"
-        },
-        {
-          "Description": "",
-          "ID": "102611",
-          "Name": "Armor shop: Normal《ID:102611》"
-        },
-        {
-          "Description": "",
-          "ID": "102612",
-          "Name": "Armor shop: bull《ID:102612》"
-        },
-        {
-          "Description": "",
           "ID": "102620",
           "Name": "Material shop: Equipment transfer《ID:102620》"
         },
         {
           "Description": "",
-          "ID": "102625",
-          "Name": "Material shop: Madura: Immigration permit《ID:102625》"
-        },
-        {
-          "Description": "",
-          "ID": "102640",
-          "Name": "Sorcerer: Unpetrification《ID:102640》"
-        },
-        {
-          "Description": "",
-          "ID": "102641",
-          "Name": "Sorcerer: After petrification: Movement permission《ID:102641》"
-        },
-        {
-          "Description": "",
-          "ID": "102642",
-          "Name": "Magic shop: Item transfer《ID:102642》"
-        },
-        {
-          "Description": "",
-          "ID": "102650",
-          "Name": "Magician: Madura: Immigration permit《ID:102650》"
-        },
-        {
-          "Description": "",
-          "ID": "102651",
-          "Name": "Magician: Madura Connection: Immigration permit《ID:102651》"
-        },
-        {
-          "Description": "",
-          "ID": "102652",
-          "Name": "Magician: Madura timer start《ID:102652》"
-        },
-        {
-          "Description": "",
-          "ID": "102653",
-          "Name": "Sorcerer: Madura: Invasion《ID:102653》"
-        },
-        {
-          "Description": "",
-          "ID": "102660",
-          "Name": "Blacksmith: Door unlock《ID:102660》"
-        },
-        {
-          "Description": "",
-          "ID": "102661",
-          "Name": "Blacksmith: Door unlocked: Movement permission《ID:102661》"
-        },
-        {
-          "Description": "",
-          "ID": "102662",
-          "Name": "Blacksmith: Equipment Transfer《ID:102662》"
-        },
-        {
-          "Description": "",
-          "ID": "102680",
-          "Name": "EX blacksmith: Receipt of pilot fire《ID:102680》"
-        },
-        {
-          "Description": "",
-          "ID": "102681",
-          "Name": "EX blacksmith: Equipment transfer《ID:102681》"
-        },
-        {
-          "Description": "",
-          "ID": "102682",
-          "Name": "EX blacksmith: EX blacksmith second round flag 《ID:102682》"
-        },
-        {
-          "Description": "",
-          "ID": "102690",
-          "Name": "EX blacksmith: Movement permission《ID:102690》"
-        },
-        {
-          "Description": "",
-          "ID": "102720",
-          "Name": "Magician: Equipment transfer《ID:102720》"
-        },
-        {
-          "Description": "",
-          "ID": "102721",
-          "Name": "Magician: Hidden Port: Generation stopped《ID:102721》"
-        },
-        {
-          "Description": "",
-          "ID": "102722",
-          "Name": "Magician: Madura: Immigration permit《ID:102722》"
-        },
-        {
-          "Description": "",
-          "ID": "102740",
-          "Name": "Spellmania: Equipment Transfer《ID:102740》"
-        },
-        {
-          "Description": "",
-          "ID": "102741",
-          "Name": "Spellmania: Unpetrification《ID:102741》"
-        },
-        {
-          "Description": "",
-          "ID": "102742",
-          "Name": "Spellmania: Movement permission《ID:102742》"
-        },
-        {
-          "Description": "",
-          "ID": "102760",
-          "Name": "Miracle Man: Equipment Transfer《ID:102760》"
-        },
-        {
-          "Description": "",
-          "ID": "102761",
-          "Name": "Miracle Man: Defeat 3 bosses《ID:102761》"
-        },
-        {
-          "Description": "",
-          "ID": "102765",
-          "Name": "Miracle Man: Immigration Permit《ID:102765》"
-        },
-        {
-          "Description": "",
-          "ID": "102770",
-          "Name": "Miracle Man: Miracle Man World: Entry Permit《ID:102770》"
-        },
-        {
-          "Description": "",
-          "ID": "102780",
-          "Name": "Dark magician: Equipment transfer《ID:102780》"
-        },
-        {
-          "Description": "",
           "ID": "102800",
           "Name": "Contained person: Equipment transfer《ID:102800》"
-        },
-        {
-          "Description": "",
-          "ID": "102801",
-          "Name": "Sealed person: 1st person request reward《ID:102801》"
-        },
-        {
-          "Description": "",
-          "ID": "102802",
-          "Name": "Sealed person: 2nd person request reward《ID:102802》"
-        },
-        {
-          "Description": "",
-          "ID": "102803",
-          "Name": "Sealed person: 3rd person request reward《ID:102803》"
-        },
-        {
-          "Description": "",
-          "ID": "102804",
-          "Name": "Sealed person: 4th person request reward《ID:102804》"
-        },
-        {
-          "Description": "",
-          "ID": "102810",
-          "Name": "Sealed person: Unsealed《ID:102810》"
-        },
-        {
-          "Description": "",
-          "ID": "102811",
-          "Name": "Sealed person: White Phantom Possible to appear: Andeel's Manor《ID:102811》"
-        },
-        {
-          "Description": "",
-          "ID": "102820",
-          "Name": "Curious item shop: Equipment transfer《ID:102820》"
-        },
-        {
-          "Description": "",
-          "ID": "102821",
-          "Name": "Curiosities shop: Fossil egg: Receipt《ID:102821》"
-        },
-        {
-          "Description": "",
-          "ID": "102822",
-          "Name": "Curious item shop: Flag for heavy cavalry equipment 《ID:102822》"
-        },
-        {
-          "Description": "",
-          "ID": "102830",
-          "Name": "Curiosities shop: Pledge: Item transfer《ID:102830》"
-        },
-        {
-          "Description": "",
-          "ID": "102831",
-          "Name": "Curiosities shop: Received pledge ranking 1《ID:102831》"
-        },
-        {
-          "Description": "",
-          "ID": "102832",
-          "Name": "Curiosities shop: Received pledge ranking 2《ID:102832》"
-        },
-        {
-          "Description": "",
-          "ID": "102833",
-          "Name": "Curiosities shop: Received pledge ranking 3《ID:102833》"
-        },
-        {
-          "Description": "",
-          "ID": "102840",
-          "Name": "Top weapon shop: Barrel destruction《ID:102840》"
-        },
-        {
-          "Description": "",
-          "ID": "102841",
-          "Name": "Top weapon shop: Geldra: Immigration permit《ID:102841》"
-        },
-        {
-          "Description": "",
-          "ID": "102850",
-          "Name": "Top weapon shop: Free offer《ID:102850》"
-        },
-        {
-          "Description": "",
-          "ID": "102860",
-          "Name": "Cat: Saint's Tomb/Defeating Pharos Boss《ID:102860》"
         },
         {
           "Description": "",
@@ -2025,11 +1175,6 @@
           "Description": "",
           "ID": "102883",
           "Name": "Black Phantom Shop: Received pledge ranking 3《ID:102883》"
-        },
-        {
-          "Description": "",
-          "ID": "102890",
-          "Name": "Black Phantom Shop: Equipment Transfer《ID:102890》"
         },
         {
           "Description": "",
@@ -2058,1023 +1203,8 @@
         },
         {
           "Description": "",
-          "ID": "102930",
-          "Name": "Guardian Knight: Equipment Transfer《ID:102930》"
-        },
-        {
-          "Description": "",
-          "ID": "102960",
-          "Name": "Mouse King: Pledged Item Transfer《ID:102960》"
-        },
-        {
-          "Description": "",
-          "ID": "102961",
-          "Name": "Mouse King: Received pledge ranking 1《ID:102961》"
-        },
-        {
-          "Description": "",
-          "ID": "102962",
-          "Name": "Mouse King: Received pledge ranking 2《ID:102962》"
-        },
-        {
-          "Description": "",
-          "ID": "102963",
-          "Name": "Mouse King: Received pledge ranking 3《ID:102963》"
-        },
-        {
-          "Description": "",
-          "ID": "102970",
-          "Name": "Mouse King: Generation Stopped: Door of Pharos《ID:102970》"
-        },
-        {
-          "Description": "",
-          "ID": "102971",
-          "Name": "Mouse King: Generation stopped: Saint Cemetery《ID:102971》"
-        },
-        {
-          "Description": "",
-          "ID": "102980",
-          "Name": "Man Scorpion♂: White Phantom can appear: Shadow Forest《ID:102980》"
-        },
-        {
-          "Description": "",
-          "ID": "102981",
-          "Name": "Man Scorpion ♂: ♀ Item after defeat《ID:102981》"
-        },
-        {
-          "Description": "",
-          "ID": "102982",
-          "Name": "Man Scorpion♂: Equipment transfer《ID:102982》"
-        },
-        {
-          "Description": "",
-          "ID": "102983",
-          "Name": "Man Scorpion ♂: Gesture transfer《ID:102983》"
-        },
-        {
-          "Description": "",
-          "ID": "103100",
-          "Name": "Pledge: Strong: Item Transfer《ID:103100》"
-        },
-        {
-          "Description": "",
-          "ID": "103110",
-          "Name": "Pledge: Strong: Awarded pledge item 1《ID:103110》"
-        },
-        {
-          "Description": "",
-          "ID": "103111",
-          "Name": "Pledge: Strong: Awarded pledge item 2《ID:103111》"
-        },
-        {
-          "Description": "",
-          "ID": "103112",
-          "Name": "Pledge: Strong: Awarded pledge item 3《ID:103112》"
-        },
-        {
-          "Description": "",
-          "ID": "103120",
-          "Name": "Pledge: Warrior of the Sun: Item Transfer《ID:103120》"
-        },
-        {
-          "Description": "",
-          "ID": "103130",
-          "Name": "Pledge: Warrior of the Sun: Awarded pledge item 1《ID:103130》"
-        },
-        {
-          "Description": "",
-          "ID": "103131",
-          "Name": "Pledge: Warrior of the Sun: Awarded pledge item 2《ID:103131》"
-        },
-        {
-          "Description": "",
-          "ID": "103132",
-          "Name": "Pledge: Warrior of the Sun: Awarded pledge item 3《ID:103132》"
-        },
-        {
-          "Description": "",
-          "ID": "103140",
-          "Name": "Ancient Dragon: Item Transfer《ID:103140》"
-        },
-        {
-          "Description": "",
-          "ID": "103500",
-          "Name": "[Enemy] Dullahan《ID:103500》"
-        },
-        {
-          "Description": "",
-          "ID": "103510",
-          "Name": "[Enemy] Grave Keeper《ID:103510》"
-        },
-        {
-          "Description": "",
-          "ID": "103520",
-          "Name": "[Enemy] Dragon Shrine Maiden《ID:103520》"
-        },
-        {
-          "Description": "",
-          "ID": "103521",
-          "Name": "[Enemy Map] Dragon Shrine Maiden: Madura《ID:103521》"
-        },
-        {
-          "Description": "",
-          "ID": "103522",
-          "Name": "[Enemy Map] Dragon Priestess: Castle Drangraig First Half《ID:103522》"
-        },
-        {
-          "Description": "",
-          "ID": "103523",
-          "Name": "[Enemy Map] Dragon Shrine Maiden: Immortal Shrine《ID:103523》"
-        },
-        {
-          "Description": "",
-          "ID": "103524",
-          "Name": "[Enemy Map] Dragon Shrine Maiden: Second half of Castle Drangraig《ID:103524》"
-        },
-        {
-          "Description": "",
-          "ID": "103525",
-          "Name": "[Enemy Map] Dragon Priestess (Child): Hall of An Deal《ID:103525》"
-        },
-        {
-          "Description": "",
-          "ID": "103540",
-          "Name": "[Enemy] Queen《ID:103540》"
-        },
-        {
-          "Description": "",
-          "ID": "103550",
-          "Name": "[Enemy] Ladder shop《ID:103550》"
-        },
-        {
-          "Description": "",
-          "ID": "103551",
-          "Name": "[Enemy map] Ladder shop: Tamari no Tani《ID:103551》"
-        },
-        {
-          "Description": "",
-          "ID": "103552",
-          "Name": "[Enemy map] Ladder shop: Madura《ID:103552》"
-        },
-        {
-          "Description": "",
-          "ID": "103560",
-          "Name": "[Hostile] Retired fire protector 1《ID:103560》"
-        },
-        {
-          "Description": "",
-          "ID": "103570",
-          "Name": "[Hostile] Retired Firekeeper 2《ID:103570》"
-        },
-        {
-          "Description": "",
-          "ID": "103580",
-          "Name": "[Hostile] Retired fire protector 3《ID:103580》"
-        },
-        {
-          "Description": "",
-          "ID": "103590",
-          "Name": "[Enemy] Spirit of the Prime Minister《ID:103590》"
-        },
-        {
-          "Description": "",
-          "ID": "103600",
-          "Name": "[Enemy] Firekeeper Housekeeper《ID:103600》"
-        },
-        {
-          "Description": "",
-          "ID": "103610",
-          "Name": "[Enemy] Kingdom Captain《ID:103610》"
-        },
-        {
-          "Description": "",
-          "ID": "103620",
-          "Name": "[Enemy] Pilgrim of the Abyss《ID:103620》"
-        },
-        {
-          "Description": "",
-          "ID": "103621",
-          "Name": "[Enemy Map] Pilgrim of the Abyss: Scum Bottom《ID:103621》"
-        },
-        {
-          "Description": "",
-          "ID": "103622",
-          "Name": "[Enemy Map] Abyssal Pilgrim: Hollow Shadow Forest《ID:103622》"
-        },
-        {
-          "Description": "",
-          "ID": "103623",
-          "Name": "[Enemy Map] Pilgrim of the Abyss: Castle Drangraig《ID:103623》"
-        },
-        {
-          "Description": "",
-          "ID": "103630",
-          "Name": "[Enemy] Dwarf《ID:103630》"
-        },
-        {
-          "Description": "",
-          "ID": "103631",
-          "Name": "[Enemy Map] Dwarf: Hidden Port《ID:103631》"
-        },
-        {
-          "Description": "",
-          "ID": "103632",
-          "Name": "[Enemy Map] Dwarf: Valley of the Pool《ID:103632》"
-        },
-        {
-          "Description": "",
-          "ID": "103634",
-          "Name": "[Enemy Map] Dwarf: Doorway of Pharos《ID:103634》"
-        },
-        {
-          "Description": "",
-          "ID": "103640",
-          "Name": "[Enemy] Broken Blue Sect Warrior《ID:103640》"
-        },
-        {
-          "Description": "",
-          "ID": "103650",
-          "Name": "[Enemy] Wandering Warrior《ID:103650》"
-        },
-        {
-          "Description": "",
-          "ID": "103651",
-          "Name": "[Enemy Map] Wandering Warrior: Hunting Forest《ID:103651》"
-        },
-        {
-          "Description": "",
-          "ID": "103652",
-          "Name": "[Enemy Map] Wandering Warrior: Hollow Shadow Forest《ID:103652》"
-        },
-        {
-          "Description": "",
-          "ID": "103653",
-          "Name": "[Hostile Map] Wandering Warrior: Geldra 《ID:103653》"
-        },
-        {
-          "Description": "",
-          "ID": "103660",
-          "Name": "[Enemy] Old Man Moonlight《ID:103660》"
-        },
-        {
-          "Description": "",
-          "ID": "103661",
-          "Name": "[Enemy Map] Moonlight Old Man: Madura Hollow Shadow Forest Connection《ID:103661》"
-        },
-        {
-          "Description": "",
-          "ID": "103662",
-          "Name": "[Enemy Map] Moonlight Old Man: Ojo Drangraig《ID:103662》"
-        },
-        {
-          "Description": "",
-          "ID": "103663",
-          "Name": "[Enemy Map] Old Man Moonlight: Forest of Decayed Giant《ID:103663》"
-        },
-        {
-          "Description": "",
-          "ID": "103664",
-          "Name": "[Hostile Map] Old Man Moonlight: Giant's Memory《ID:103664》"
-        },
-        {
-          "Description": "",
-          "ID": "103670",
-          "Name": "[Hostile] Patch《ID:103670》"
-        },
-        {
-          "Description": "",
-          "ID": "103671",
-          "Name": "[Enemy Map] Patch: Forest of Decayed Giant《ID:103671》"
-        },
-        {
-          "Description": "",
-          "ID": "103672",
-          "Name": "[Enemy Map] Patch: Tamari no Tani《ID:103672》"
-        },
-        {
-          "Description": "",
-          "ID": "103673",
-          "Name": "[Enemy Map] Patch: Geldra《ID:103673》"
-        },
-        {
-          "Description": "",
-          "ID": "103680",
-          "Name": "[Hostile] Map writer《ID:103680》"
-        },
-        {
-          "Description": "",
-          "ID": "103681",
-          "Name": "[Hostile Map] Cartographer: Forest of Decayed Giant《ID:103681》"
-        },
-        {
-          "Description": "",
-          "ID": "103682",
-          "Name": "[Enemy map] Map writer: Madura《ID:103682》"
-        },
-        {
-          "Description": "",
-          "ID": "103690",
-          "Name": "[Enemy] Female Knight《ID:103690》"
-        },
-        {
-          "Description": "",
-          "ID": "103691",
-          "Name": "[Enemy Map] Female Knight: Hidden Port《ID:103691》"
-        },
-        {
-          "Description": "",
-          "ID": "103692",
-          "Name": "[Enemy Map] Female Knight: Forgotten Prison《ID:103692》"
-        },
-        {
-          "Description": "",
-          "ID": "103693",
-          "Name": "[Enemy Map] Female Knight: Tamari no Tani《ID:103693》"
-        },
-        {
-          "Description": "",
-          "ID": "103694",
-          "Name": "[Enemy Map] Female Knight: Scum Bottom《ID:103694》"
-        },
-        {
-          "Description": "",
-          "ID": "103695",
-          "Name": "[Enemy Map] Female Knight: Hall of An Deal《ID:103695》"
-        },
-        {
-          "Description": "",
-          "ID": "103700",
-          "Name": "[Enemy] Bell Keeper《ID:103700》"
-        },
-        {
-          "Description": "",
-          "ID": "103710",
-          "Name": "[Enemy] Yorozu Hag《ID:103710》"
-        },
-        {
-          "Description": "",
-          "ID": "103711",
-          "Name": "[Enemy Map] Yorozu Hag: Forest of Decayed Giant《ID:103711》"
-        },
-        {
-          "Description": "",
-          "ID": "103712",
-          "Name": "[Enemy map] Various old hag: Madura《ID:103712》"
-        },
-        {
-          "Description": "",
-          "ID": "103713",
-          "Name": "[Hostile NT] Yorozu Hag: Hunting Forest《ID:103713》"
-        },
-        {
-          "Description": "",
-          "ID": "103720",
-          "Name": "[Enemy] Bard Girl 1《ID:103720》"
-        },
-        {
-          "Description": "",
-          "ID": "103730",
-          "Name": "[Enemy] Bard Girl 2《ID:103730》"
-        },
-        {
-          "Description": "",
-          "ID": "103740",
-          "Name": "[Enemy] Prisoner Girl《ID:103740》"
-        },
-        {
-          "Description": "",
-          "ID": "103750",
-          "Name": "[Enemy] Armor shop《ID:103750》"
-        },
-        {
-          "Description": "",
-          "ID": "103760",
-          "Name": "[Enemy] Material shop《ID:103760》"
-        },
-        {
-          "Description": "",
-          "ID": "103761",
-          "Name": "[Enemy map] Material shop: Tamari no Tani《ID:103761》"
-        },
-        {
-          "Description": "",
-          "ID": "103762",
-          "Name": "[Enemy map] Material shop: Madura《ID:103762》"
-        },
-        {
-          "Description": "",
-          "ID": "103770",
-          "Name": "[Enemy] Sorcerer《ID:103770》"
-        },
-        {
-          "Description": "",
-          "ID": "103771",
-          "Name": "[Enemy Map] Sorcerer: Madura Hollow Shadow Forest Connection《ID:103771》"
-        },
-        {
-          "Description": "",
-          "ID": "103772",
-          "Name": "[Enemy Map] Sorcerer: Madura《ID:103772》"
-        },
-        {
-          "Description": "",
-          "ID": "103780",
-          "Name": "[Enemy] Blacksmith《ID:103780》"
-        },
-        {
-          "Description": "",
-          "ID": "103790",
-          "Name": "[Enemy] EX Blacksmith《ID:103790》"
-        },
-        {
-          "Description": "",
-          "ID": "103800",
-          "Name": "[Enemy] Magician《ID:103800》"
-        },
-        {
-          "Description": "",
-          "ID": "103801",
-          "Name": "[Enemy Map] Magician: Hidden Port《ID:103801》"
-        },
-        {
-          "Description": "",
-          "ID": "103802",
-          "Name": "[Enemy Map] Magician: Madura《ID:103802》"
-        },
-        {
-          "Description": "",
-          "ID": "103810",
-          "Name": "[Enemy] Spellmania《ID:103810》"
-        },
-        {
-          "Description": "",
-          "ID": "103820",
-          "Name": "[Enemy] Miracle Man《ID:103820》"
-        },
-        {
-          "Description": "",
-          "ID": "103821",
-          "Name": "[Enemy Map] Miracle Man: Heide Great Fire Tower《ID:103821》"
-        },
-        {
-          "Description": "",
-          "ID": "103822",
-          "Name": "[Enemy Map] Miracle Man: Madura《ID:103822》"
-        },
-        {
-          "Description": "",
-          "ID": "103830",
-          "Name": "[Enemy] Dark magician《ID:103830》"
-        },
-        {
-          "Description": "",
-          "ID": "103840",
-          "Name": "[Enemy] Contained person《ID:103840》"
-        },
-        {
-          "Description": "",
-          "ID": "103850",
-          "Name": "[Enemy] Curious item shop《ID:103850》"
-        },
-        {
-          "Description": "",
-          "ID": "103860",
-          "Name": "[Enemy] Top weapon shop《ID:103860》"
-        },
-        {
-          "Description": "",
-          "ID": "103861",
-          "Name": "[Enemy Map] Top Weapon Shop: Hollow Shadow Forest《ID:103861》"
-        },
-        {
-          "Description": "",
-          "ID": "103862",
-          "Name": "[Enemy Map] Top Weapon Shop: Geldra 《ID:103862》"
-        },
-        {
-          "Description": "",
-          "ID": "103870",
-          "Name": "[Hostile] Cat《ID:103870》"
-        },
-        {
-          "Description": "",
-          "ID": "103880",
-          "Name": "[Enemy] Black Phantom Shop《ID:103880》"
-        },
-        {
-          "Description": "",
-          "ID": "103890",
-          "Name": "[Enemy] Chaplain of Absolution《ID:103890》"
-        },
-        {
-          "Description": "",
-          "ID": "103900",
-          "Name": "[Enemy] Guardian Knight《ID:103900》"
-        },
-        {
-          "Description": "",
-          "ID": "103910",
-          "Name": "[Opponent] Sparkling Girl《ID:103910》"
-        },
-        {
-          "Description": "",
-          "ID": "103920",
-          "Name": "[Enemy] Mouse King《ID:103920》"
-        },
-        {
-          "Description": "",
-          "ID": "103930",
-          "Name": "[Enemy] Man Scorpion Man《ID:103930》"
-        },
-        {
-          "Description": "",
-          "ID": "103940",
-          "Name": "[Enemy] Three Sisters 1《ID:103940》"
-        },
-        {
-          "Description": "",
-          "ID": "103950",
-          "Name": "[Enemy] Three Sisters 2《ID:103950》"
-        },
-        {
-          "Description": "",
-          "ID": "103960",
-          "Name": "[Enemy] Three Sisters 3《ID:103960》"
-        },
-        {
-          "Description": "",
-          "ID": "103970",
-          "Name": "[Enemy] Ancient Dragon《ID:103970》"
-        },
-        {
-          "Description": "",
-          "ID": "103999",
-          "Name": "[Hostile] For overall hostility management《ID:103999》"
-        },
-        {
-          "Description": "",
-          "ID": "104000",
-          "Name": "[Death] Dullahan《ID:104000》"
-        },
-        {
-          "Description": "",
-          "ID": "104010",
-          "Name": "[Death] Grave Keeper《ID:104010》"
-        },
-        {
-          "Description": "",
-          "ID": "104020",
-          "Name": "[Death] Dragon Shrine Maiden《ID:104020》"
-        },
-        {
-          "Description": "",
-          "ID": "104021",
-          "Name": "[Death Map] Dragon Shrine Maiden: Madura《ID:104021》"
-        },
-        {
-          "Description": "",
-          "ID": "104022",
-          "Name": "[Death Map] Dragon Priestess: Ojo Drangraig《ID:104022》"
-        },
-        {
-          "Description": "",
-          "ID": "104023",
-          "Name": "[Death Map] Dragon Shrine Maiden: Immortal Shrine《ID:104023》"
-        },
-        {
-          "Description": "",
-          "ID": "104024",
-          "Name": "[Death Map] Dragon Priestess: Ojo Drangraig《ID:104024》"
-        },
-        {
-          "Description": "",
-          "ID": "104025",
-          "Name": "[Death Map] Dragon Priestess (Child): Hall of An Deal《ID:104025》"
-        },
-        {
-          "Description": "",
-          "ID": "104040",
-          "Name": "[Death] Queen《ID:104040》"
-        },
-        {
-          "Description": "",
-          "ID": "104050",
-          "Name": "[Death] Ladder shop《ID:104050》"
-        },
-        {
-          "Description": "",
-          "ID": "104051",
-          "Name": "[Death Map] Ladder Shop: Tamari no Tani《ID:104051》"
-        },
-        {
-          "Description": "",
-          "ID": "104052",
-          "Name": "[Death Map] Ladder Shop: Madura《ID:104052》"
-        },
-        {
-          "Description": "",
-          "ID": "104060",
-          "Name": "[Death] Retired fire protection woman 1《ID:104060》"
-        },
-        {
-          "Description": "",
-          "ID": "104070",
-          "Name": "[Death] Retired fire protection woman 2《ID:104070》"
-        },
-        {
-          "Description": "",
-          "ID": "104080",
-          "Name": "[Death] Retired fire protection woman 3《ID:104080》"
-        },
-        {
-          "Description": "",
-          "ID": "104090",
-          "Name": "[Death] Spirit of the Prime Minister《ID:104090》"
-        },
-        {
-          "Description": "",
           "ID": "104100",
-          "Name": "[Death] Firekeeper Housekeeper《ID:104100》"
-        },
-        {
-          "Description": "",
-          "ID": "104110",
-          "Name": "[Death] Kingdom Captain《ID:104110》"
-        },
-        {
-          "Description": "",
-          "ID": "104120",
-          "Name": "[Death] Pilgrim of the Abyss《ID:104120》"
-        },
-        {
-          "Description": "",
-          "ID": "104121",
-          "Name": "[Death Map] Pilgrim of the Abyss: Scum Bottom《ID:104121》"
-        },
-        {
-          "Description": "",
-          "ID": "104122",
-          "Name": "[Death Map] Abyssal Pilgrim: Hollow Shadow Forest《ID:104122》"
-        },
-        {
-          "Description": "",
-          "ID": "104123",
-          "Name": "[Death Map] Pilgrim of the Abyss: Castle Drangraig《ID:104123》"
-        },
-        {
-          "Description": "",
-          "ID": "104130",
-          "Name": "[Death] Dwarf《ID:104130》"
-        },
-        {
-          "Description": "",
-          "ID": "104131",
-          "Name": "[Death Map] Dwarf: Hidden Port《ID:104131》"
-        },
-        {
-          "Description": "",
-          "ID": "104132",
-          "Name": "[Death Map] Dwarf: Valley of Pool《ID:104132》"
-        },
-        {
-          "Description": "",
-          "ID": "104134",
-          "Name": "[Death Map] Dwarf: Pharos Doorway《ID:104134》"
-        },
-        {
-          "Description": "",
-          "ID": "104140",
-          "Name": "[Death] Broken Blue Sect Warrior《ID:104140》"
-        },
-        {
-          "Description": "",
-          "ID": "104150",
-          "Name": "[Death] Wandering Warrior《ID:104150》"
-        },
-        {
-          "Description": "",
-          "ID": "104151",
-          "Name": "[Death Map] Wandering Warrior: Hunting Forest《ID:104151》"
-        },
-        {
-          "Description": "",
-          "ID": "104152",
-          "Name": "[Death Map] Wandering Warrior: Hollow Shadow Forest《ID:104152》"
-        },
-        {
-          "Description": "",
-          "ID": "104153",
-          "Name": "[Death Map] Wandering Warrior: Geldra 《ID:104153》"
-        },
-        {
-          "Description": "",
-          "ID": "104154",
-          "Name": "[Death Map] Wandering Warrior: Shinsekigai Geldra 2《ID:104154》"
-        },
-        {
-          "Description": "",
-          "ID": "104160",
-          "Name": "[Death] Gekkoji《ID:104160》"
-        },
-        {
-          "Description": "",
-          "ID": "104161",
-          "Name": "[Death Map] Moonlight Old Man: Madura Hollow Shadow Forest Connection《ID:104161》"
-        },
-        {
-          "Description": "",
-          "ID": "104162",
-          "Name": "[Death Map] Moonlight Old Man: Ojo Drangraig《ID:104162》"
-        },
-        {
-          "Description": "",
-          "ID": "104163",
-          "Name": "[Death Map] Old Man Moonlight: Forest of Decayed Giant《ID:104163》"
-        },
-        {
-          "Description": "",
-          "ID": "104164",
-          "Name": "[Death Map] Old Man Moonlight: Giant's Memory《ID:104164》"
-        },
-        {
-          "Description": "",
-          "ID": "104170",
-          "Name": "[Death] Patch《ID:104170》"
-        },
-        {
-          "Description": "",
-          "ID": "104171",
-          "Name": "[Death Map] Patch: Fallen Giant Forest《ID:104171》"
-        },
-        {
-          "Description": "",
-          "ID": "104172",
-          "Name": "[Death Map] Patch: Tamari no Tani《ID:104172》"
-        },
-        {
-          "Description": "",
-          "ID": "104173",
-          "Name": "[Death Map] Patch: Geldra 《ID:104173》"
-        },
-        {
-          "Description": "",
-          "ID": "104180",
-          "Name": "[Death] Cartographer《ID:104180》"
-        },
-        {
-          "Description": "",
-          "ID": "104181",
-          "Name": "[Death Map] Cartographer: Forest of Decayed Giant《ID:104181》"
-        },
-        {
-          "Description": "",
-          "ID": "104182",
-          "Name": "[Death map] Map writer: Madura《ID:104182》"
-        },
-        {
-          "Description": "",
-          "ID": "104190",
-          "Name": "[Death] Female Knight《ID:104190》"
-        },
-        {
-          "Description": "",
-          "ID": "104191",
-          "Name": "[Death Map] Female Knight: Hidden Port《ID:104191》"
-        },
-        {
-          "Description": "",
-          "ID": "104192",
-          "Name": "[Death Map] Female Knight: Forgotten Prison《ID:104192》"
-        },
-        {
-          "Description": "",
-          "ID": "104193",
-          "Name": "[Death Map] Female Knight: Tamari no Tani《ID:104193》"
-        },
-        {
-          "Description": "",
-          "ID": "104194",
-          "Name": "[Death Map] Female Knight: Scum Bottom《ID:104194》"
-        },
-        {
-          "Description": "",
-          "ID": "104195",
-          "Name": "[Death Map] Female Knight: Hall of Anne Deal《ID:104195》"
-        },
-        {
-          "Description": "",
-          "ID": "104200",
-          "Name": "[Death] Bell Keeper《ID:104200》"
-        },
-        {
-          "Description": "",
-          "ID": "104210",
-          "Name": "[Death] Yorozu Hag《ID:104210》"
-        },
-        {
-          "Description": "",
-          "ID": "104211",
-          "Name": "[Death Map] Yorozu Hag: Forest of Decayed Giant《ID:104211》"
-        },
-        {
-          "Description": "",
-          "ID": "104212",
-          "Name": "[Death map] Various old hag: Madura《ID:104212》"
-        },
-        {
-          "Description": "",
-          "ID": "104213",
-          "Name": "[Death NT] Yorozu Hag: Hunting Forest《ID:104213》"
-        },
-        {
-          "Description": "",
-          "ID": "104220",
-          "Name": "[Death] Bard Girl 1《ID:104220》"
-        },
-        {
-          "Description": "",
-          "ID": "104230",
-          "Name": "[Death] Bard Girl 2《ID:104230》"
-        },
-        {
-          "Description": "",
-          "ID": "104240",
-          "Name": "[Death] Prisoner Girl《ID:104240》"
-        },
-        {
-          "Description": "",
-          "ID": "104250",
-          "Name": "[Death] Armorer《ID:104250》"
-        },
-        {
-          "Description": "",
-          "ID": "104260",
-          "Name": "[Death] Material shop《ID:104260》"
-        },
-        {
-          "Description": "",
-          "ID": "104261",
-          "Name": "[Death Map] Material Shop: Tamari no Tani《ID:104261》"
-        },
-        {
-          "Description": "",
-          "ID": "104262",
-          "Name": "[Death map] Material shop: Madura《ID:104262》"
-        },
-        {
-          "Description": "",
-          "ID": "104270",
-          "Name": "[Death] Witchcraft《ID:104270》"
-        },
-        {
-          "Description": "",
-          "ID": "104271",
-          "Name": "[Death Map] Sorcerer: Madura Hollow Shadow Forest Connection《ID:104271》"
-        },
-        {
-          "Description": "",
-          "ID": "104272",
-          "Name": "[Death Map] Sorcerer: Madura《ID:104272》"
-        },
-        {
-          "Description": "",
-          "ID": "104280",
-          "Name": "[Death] Blacksmith《ID:104280》"
-        },
-        {
-          "Description": "",
-          "ID": "104290",
-          "Name": "[Death] EX Blacksmith《ID:104290》"
-        },
-        {
-          "Description": "",
-          "ID": "104300",
-          "Name": "[Death] Magician《ID:104300》"
-        },
-        {
-          "Description": "",
-          "ID": "104301",
-          "Name": "[Death Map] Magician: Hidden Port《ID:104301》"
-        },
-        {
-          "Description": "",
-          "ID": "104302",
-          "Name": "[Death Map] Magician: Madura《ID:104302》"
-        },
-        {
-          "Description": "",
-          "ID": "104310",
-          "Name": "[Death] Spellmania《ID:104310》"
-        },
-        {
-          "Description": "",
-          "ID": "104320",
-          "Name": "[Death] Miracle Man《ID:104320》"
-        },
-        {
-          "Description": "",
-          "ID": "104321",
-          "Name": "[Death Map] Miracle Man: Heide Great Fire Tower《ID:104321》"
-        },
-        {
-          "Description": "",
-          "ID": "104322",
-          "Name": "[Death Map] Miracle Man: Madura《ID:104322》"
-        },
-        {
-          "Description": "",
-          "ID": "104330",
-          "Name": "[Death] Dark magician《ID:104330》"
-        },
-        {
-          "Description": "",
-          "ID": "104340",
-          "Name": "[Death] Contained person《ID:104340》"
-        },
-        {
-          "Description": "",
-          "ID": "104350",
-          "Name": "[Death] Curious item shop《ID:104350》"
-        },
-        {
-          "Description": "",
-          "ID": "104360",
-          "Name": "[Death] Top Weapon Shop《ID:104360》"
-        },
-        {
-          "Description": "",
-          "ID": "104361",
-          "Name": "[Death Map] Top Weapon Shop: Hollow Shadow Forest《ID:104361》"
-        },
-        {
-          "Description": "",
-          "ID": "104362",
-          "Name": "[Death Map] Top Weapon Shop: Geldra 《ID:104362》"
-        },
-        {
-          "Description": "",
-          "ID": "104370",
-          "Name": "[Death] Cat《ID:104370》"
-        },
-        {
-          "Description": "",
-          "ID": "104380",
-          "Name": "[Death] Black Phantomya《ID:104380》"
-        },
-        {
-          "Description": "",
-          "ID": "104390",
-          "Name": "[Death] Chaplain of Absolution《ID:104390》"
-        },
-        {
-          "Description": "",
-          "ID": "104400",
-          "Name": "[Death] Guardian Knight《ID:104400》"
-        },
-        {
-          "Description": "",
-          "ID": "104410",
-          "Name": "[Death] Kirakira Musume《ID:104410》"
-        },
-        {
-          "Description": "",
-          "ID": "104420",
-          "Name": "[Death] Mouse King《ID:104420》"
-        },
-        {
-          "Description": "",
-          "ID": "104421",
-          "Name": "[Death Map] Mouse King: Saint Cemetery《ID:104421》"
-        },
-        {
-          "Description": "",
-          "ID": "104422",
-          "Name": "[Death Map] Mouse King: Pharos Doorway《ID:104422》"
-        },
-        {
-          "Description": "",
-          "ID": "104430",
-          "Name": "[Death] Man Scorpion Man《ID:104430》"
-        },
-        {
-          "Description": "",
-          "ID": "104440",
-          "Name": "[Death] Three Sisters 1《ID:104440》"
-        },
-        {
-          "Description": "",
-          "ID": "104450",
-          "Name": "[Death] Three Sisters 2《ID:104450》"
-        },
-        {
-          "Description": "",
-          "ID": "104460",
-          "Name": "[Death] Three Sisters 3《ID:104460》"
-        },
-        {
-          "Description": "",
-          "ID": "104470",
-          "Name": "[Death] Multiplayer NPC: Flesh Cut (Female): Black Phantom Appears《ID:104470》"
+          "Name": "Sealed person: Unsealed 《ID:104100》"
         },
         {
           "Description": "",
@@ -4203,256 +2333,6 @@
         },
         {
           "Description": "",
-          "ID": "105300",
-          "Name": "For determining intrusion into the giant's memory_01《ID:105300》"
-        },
-        {
-          "Description": "",
-          "ID": "105301",
-          "Name": "For determining intrusion into the giant's memory_02《ID:105301》"
-        },
-        {
-          "Description": "",
-          "ID": "105302",
-          "Name": "For determining intrusion into the giant's memory_03《ID:105302》"
-        },
-        {
-          "Description": "",
-          "ID": "105310",
-          "Name": "Forest of Hollow Shadows ~ Hall of An Deal: For changing navigation mesh《ID:105310》"
-        },
-        {
-          "Description": "",
-          "ID": "105400",
-          "Name": "Connect Hit: Madura Revolving Door《ID:105400》"
-        },
-        {
-          "Description": "",
-          "ID": "105405",
-          "Name": "Connect Hit: Madura ~Hollow Shadow Forest《ID:105405》"
-        },
-        {
-          "Description": "",
-          "ID": "105415",
-          "Name": "Connect hit: Heide Great Fire Tower ~ Hidden Port《ID:105415》"
-        },
-        {
-          "Description": "",
-          "ID": "105420",
-          "Name": "Connect hit: Tamari no Tani ~ Molten Castle《ID:105420》"
-        },
-        {
-          "Description": "",
-          "ID": "105425",
-          "Name": "Connect Hit: Hall of An Deal ~ Guardian Dragon's Nest《ID:105425》"
-        },
-        {
-          "Description": "",
-          "ID": "105430",
-          "Name": "Connect hit: Royal Castle Drangraig ~ Altar of Amana《ID:105430》"
-        },
-        {
-          "Description": "",
-          "ID": "105435",
-          "Name": "Connect Hit: Amana Altar ~ Immortal Shrine《ID:105435》"
-        },
-        {
-          "Description": "",
-          "ID": "105440",
-          "Name": "Connect Hit: Hunting Forest ~ Tamari no Tani《ID:105440》"
-        },
-        {
-          "Description": "",
-          "ID": "105500",
-          "Name": "Trophy: Dark Souls《ID:105500》"
-        },
-        {
-          "Description": "",
-          "ID": "105501",
-          "Name": "Trophy: Lost Memories《ID:105501》"
-        },
-        {
-          "Description": "",
-          "ID": "105502",
-          "Name": "Trophy: King's Ring《ID:105502》"
-        },
-        {
-          "Description": "",
-          "ID": "105503",
-          "Name": "Trophy: Ancient Dragon《ID:105503》"
-        },
-        {
-          "Description": "",
-          "ID": "105504",
-          "Name": "Trophy: Heir《ID:105504》"
-        },
-        {
-          "Description": "",
-          "ID": "105512",
-          "Name": "Trophy: Master of the Supreme Weapon《ID:105512》"
-        },
-        {
-          "Description": "",
-          "ID": "105513",
-          "Name": "Trophy: Gesture Master《ID:105513》"
-        },
-        {
-          "Description": "",
-          "ID": "105514",
-          "Name": "Trophy: Master of all magic《ID:105514》"
-        },
-        {
-          "Description": "",
-          "ID": "105515",
-          "Name": "Trophy: The one who mastered all miracles《ID:105515》"
-        },
-        {
-          "Description": "",
-          "ID": "105516",
-          "Name": "Trophy: The one who mastered all magic《ID:105516》"
-        },
-        {
-          "Description": "",
-          "ID": "105517",
-          "Name": "Trophy: Master of all dark arts《ID:105517》"
-        },
-        {
-          "Description": "",
-          "ID": "105518",
-          "Name": "Trophy: Shining Pledge《ID:105518》"
-        },
-        {
-          "Description": "",
-          "ID": "105519",
-          "Name": "Trophy: Pledge of Protection《ID:105519》"
-        },
-        {
-          "Description": "",
-          "ID": "105520",
-          "Name": "Trophy: Blood Pledge《ID:105520》"
-        },
-        {
-          "Description": "",
-          "ID": "105521",
-          "Name": "Trophy: Covenant of the Weak《ID:105521》"
-        },
-        {
-          "Description": "",
-          "ID": "105522",
-          "Name": "Trophy: Mouse's Covenant《ID:105522》"
-        },
-        {
-          "Description": "",
-          "ID": "105523",
-          "Name": "Trophy: Bell Pledge《ID:105523》"
-        },
-        {
-          "Description": "",
-          "ID": "105524",
-          "Name": "Trophy: Old Covenant《ID:105524》"
-        },
-        {
-          "Description": "",
-          "ID": "105525",
-          "Name": "Trophy: Covenant of the Strong《ID:105525》"
-        },
-        {
-          "Description": "",
-          "ID": "105526",
-          "Name": "Trophy: Pledge of Deep Darkness《ID:105526》"
-        },
-        {
-          "Description": "",
-          "ID": "105527",
-          "Name": "Trophy: The one who sacrificed himself《ID:105527》"
-        },
-        {
-          "Description": "",
-          "ID": "105528",
-          "Name": "Trophy: Completed strange map《ID:105528》"
-        },
-        {
-          "Description": "",
-          "ID": "105529",
-          "Name": "Trophy: Change clothes《ID:105529》"
-        },
-        {
-          "Description": "",
-          "ID": "105530",
-          "Name": "Trophy: Abandoned People《ID:105530》"
-        },
-        {
-          "Description": "",
-          "ID": "105531",
-          "Name": "Trophy: Moonlight Greatsword《ID:105531》"
-        },
-        {
-          "Description": "",
-          "ID": "105532",
-          "Name": "Trophy: Guardian of the Fortress《ID:105532》"
-        },
-        {
-          "Description": "",
-          "ID": "105533",
-          "Name": "Trophy: Arkertila《ID:105533》"
-        },
-        {
-          "Description": "",
-          "ID": "105534",
-          "Name": "Trophy: Skilled craftsman《ID:105534》"
-        },
-        {
-          "Description": "",
-          "ID": "105535",
-          "Name": "Trophy: Miser《ID:105535》"
-        },
-        {
-          "Description": "",
-          "ID": "105536",
-          "Name": "Trophy: Thinking Head《ID:105536》"
-        },
-        {
-          "Description": "",
-          "ID": "105537",
-          "Name": "Trophy: This is where the real Dark Souls begins《ID:105537》"
-        },
-        {
-          "Description": "",
-          "ID": "106000",
-          "Name": "Reward: Clear without dying《ID:106000》"
-        },
-        {
-          "Description": "",
-          "ID": "106010",
-          "Name": "Reward: Clear the bonfire without resting《ID:106010》"
-        },
-        {
-          "Description": "",
-          "ID": "106020",
-          "Name": "Bonfire rest judgment flag《ID:106020》"
-        },
-        {
-          "Description": "",
-          "ID": "106030",
-          "Name": "Reward: Defeat dark spirits 1000 times《ID:106030》"
-        },
-        {
-          "Description": "",
-          "ID": "106040",
-          "Name": "Reward: Defeat host 1000 times《ID:106040》"
-        },
-        {
-          "Description": "",
-          "ID": "106100",
-          "Name": "DLC: DLC available flag《ID:106100》"
-        },
-        {
-          "Description": "",
-          "ID": "106200",
-          "Name": "Giant's fruit: Generation judgment flag《ID:106200》"
-        },
-        {
-          "Description": "",
           "ID": "109997",
           "Name": "Ninja test map bonfire 1《ID:109997》"
         },
@@ -5377,7 +3257,7 @@
         {
           "Description": "",
           "ID": "1",
-          "Name": "Duplicate"
+          "Name": "Duplicate permission"
         },
         {
           "Description": "",
@@ -5409,17 +3289,17 @@
         {
           "Description": "",
           "ID": "18",
-          "Name": "Abnormal status - Poison"
+          "Name": "Abnormal status - poison"
         },
         {
           "Description": "",
           "ID": "19",
-          "Name": "Support - Jihad"
+          "Name": "Auxiliary-Jihad"
         },
         {
           "Description": "",
           "ID": "20",
-          "Name": "Equipment - Feet"
+          "Name": "Equipment - feet"
         },
         {
           "Description": "",
@@ -5434,12 +3314,12 @@
         {
           "Description": "",
           "ID": "23",
-          "Name": "Equipment - Head"
+          "Name": "Equipment-Head"
         },
         {
           "Description": "",
           "ID": "24",
-          "Name": "Abnormal status - Toxicity"
+          "Name": "Abnormal status - deadly poison"
         },
         {
           "Description": "",
@@ -5449,27 +3329,27 @@
         {
           "Description": "",
           "ID": "26",
-          "Name": "Equipment - Left weapon"
+          "Name": "Equipment - left weapon"
         },
         {
           "Description": "",
           "ID": "27",
-          "Name": "Equipment - Right weapon"
+          "Name": "Equipment - right weapon"
         },
         {
           "Description": "",
           "ID": "28",
-          "Name": "Both Legs"
+          "Name": "Both legs"
         },
         {
           "Description": "",
           "ID": "29",
-          "Name": "Abnormal Status - Wet"
+          "Name": "Abnormal status - wet"
         },
         {
           "Description": "",
           "ID": "30",
-          "Name": "Abnormal Status - Spell seal"
+          "Name": "Status Abnormality - Spell Seal"
         },
         {
           "Description": "",
@@ -5484,7 +3364,7 @@
         {
           "Description": "",
           "ID": "254",
-          "Name": "None"
+          "Name": "Not set"
         }
       ]
     },

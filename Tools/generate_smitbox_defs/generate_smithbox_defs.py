@@ -335,7 +335,7 @@ def main() -> None:
             shared_list = [
                 master_enums[n] for n in sorted(shared_enum_names) if n in master_enums
             ]
-            shared_path = Path(__file__).parent / "shared_enums.json"
+            shared_path = Path(__file__).parent / "Shared Param Enums.json"
             shared_path.write_text(
                 json.dumps({"List": shared_list}, indent=2, ensure_ascii=False),
                 encoding="utf-8",

@@ -32,10 +32,10 @@
         <Enum Name="MATERIAL_ENVIRONMENT_TYPE_ENUM" type="u8">
             <Option Value="0" Name="None" />
             <Option Value="1" Name="Puddle" />
-            <Option Value="2" Name="滝" />
-            <Option Value="4" Name="雨" />
-            <Option Value="5" Name="毒" />
-            <Option Value="6" Name="油" />
+            <Option Value="2" Name="Waterfall" />
+            <Option Value="4" Name="Rain" />
+            <Option Value="5" Name="Poison" />
+            <Option Value="6" Name="Oil" />
         </Enum>
         <Enum Name="MATERIAL_DODGE_LIMIT_TYPE_ENUM" type="u8">
             <Option Value="0" Name="Invalid" />
