@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PARAMMETA XmlVersion="0">
-    <Field>
-        <stateId AltName="Character activation state ID" />
-        <upperLogickId AltName="Upper logic ID" />
-        <lowerLogickId AltName="Lower logic ID" />
-        <lowerStartStateId AltName="Lower logic state ID" />
-    </Field>
-</PARAMMETA>

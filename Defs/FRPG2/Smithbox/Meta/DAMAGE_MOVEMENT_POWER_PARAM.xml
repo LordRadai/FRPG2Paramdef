@@ -1,7 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<PARAMMETA XmlVersion="0">
-    <Field>
-        <power AltName="Momentum [m/sec]" />
-        <break_power AltName="Momentum at break [m/sec]" />
-    </Field>
-</PARAMMETA>

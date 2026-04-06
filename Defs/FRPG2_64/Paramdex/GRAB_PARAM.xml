@@ -202,7 +202,17 @@
             <Increment>1</Increment>
             <SortID>21</SortID>
         </Field>
-        <Field Def="dummy8 dummy3[3]">
+        <Field Def="u8 enableAngleCast">
+            <DisplayName>Enable angle cast</DisplayName>
+            <Enum>BOOL_ENABLEDISABLE_TYPE</Enum>
+            <DisplayFormat>%u</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>22</SortID>
+        </Field>
+        <Field Def="dummy8 dummy3[2]">
             <DisplayName>Dummy</DisplayName>
             <SortID>37</SortID>
         </Field>
@@ -212,7 +222,7 @@
             <EditFlags>Wrap</EditFlags>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
-            <SortID>22</SortID>
+            <SortID>23</SortID>
         </Field>
         <Field Def="f32 grabHeight = 1">
             <DisplayName>Cast height</DisplayName>
@@ -220,7 +230,7 @@
             <EditFlags>Wrap</EditFlags>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
-            <SortID>23</SortID>
+            <SortID>24</SortID>
         </Field>
         <Field Def="f32 grabLength = 1">
             <DisplayName>Cast length</DisplayName>
@@ -228,7 +238,7 @@
             <EditFlags>Wrap</EditFlags>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
-            <SortID>24</SortID>
+            <SortID>25</SortID>
         </Field>
         <Field Def="f32 grabOffsetX">
             <DisplayName>Cast offset position</DisplayName>
@@ -237,7 +247,7 @@
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
-            <SortID>25</SortID>
+            <SortID>26</SortID>
         </Field>
         <Field Def="f32 grabOffsetY">
             <DisplayName>Cast offset position Y</DisplayName>
@@ -246,7 +256,7 @@
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
-            <SortID>26</SortID>
+            <SortID>27</SortID>
         </Field>
         <Field Def="f32 grabOffsetZ">
             <DisplayName>Cast offset position Z</DisplayName>
@@ -255,7 +265,7 @@
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
-            <SortID>27</SortID>
+            <SortID>28</SortID>
         </Field>
         <Field Def="angle32 grabSideAngle = 180">
             <DisplayName>Throwing permission left and right angle</DisplayName>
@@ -263,7 +273,7 @@
             <EditFlags>Wrap</EditFlags>
             <Maximum>180</Maximum>
             <Increment>0.1</Increment>
-            <SortID>28</SortID>
+            <SortID>29</SortID>
         </Field>
         <Field Def="angle32 grabUpAngle = 90">
             <DisplayName>Upper throwing angle</DisplayName>
@@ -271,7 +281,7 @@
             <EditFlags>Wrap</EditFlags>
             <Maximum>90</Maximum>
             <Increment>0.1</Increment>
-            <SortID>29</SortID>
+            <SortID>30</SortID>
         </Field>
         <Field Def="angle32 grabDownAngle = 90">
             <DisplayName>Throwing permission lower angle</DisplayName>
@@ -279,19 +289,23 @@
             <EditFlags>Wrap</EditFlags>
             <Maximum>90</Maximum>
             <Increment>0.1</Increment>
-            <SortID>30</SortID>
+            <SortID>31</SortID>
         </Field>
-        <Field Def="dummy8 dummy4[4]">
-            <DisplayName>Dummy</DisplayName>
-            <SortID>38</SortID>
-        </Field>
-        <Field Def="angle32 grabAngleDiff = 90">
-            <DisplayName>Grab angle maximum difference</DisplayName>
+        <Field Def="angle32 grabAngleUpDownDiff">
+            <DisplayName>Grab angle maximum difference up and down</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
-            <Maximum>90</Maximum>
+            <Maximum>180</Maximum>
             <Increment>0.1</Increment>
-            <SortID>31</SortID>
+            <SortID>32</SortID>
+        </Field>
+        <Field Def="angle32 grabAngleSideDiff">
+            <DisplayName>Grab angle maximum difference left and right</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>180</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>33</SortID>
         </Field>
     </Fields>
 </PARAMDEF>
