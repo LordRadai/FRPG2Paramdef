@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>NPC_PLAYER_SKIN_PARAM</ParamType>
+    <DataVersion>1</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="u8 skinNo = 1">
+            <DisplayName>Skin number</DisplayName>
+            <Minimum>1</Minimum>
+            <Maximum>2</Maximum>
+            <Increment>1</Increment>
+            <SortID>1</SortID>
+        </Field>
+        <Field Def="dummy8 dummy[3]">
+            <DisplayName>Dummy</DisplayName>
+            <SortID>6</SortID>
+        </Field>
+        <Field Def="f32 skinR">
+            <DisplayName>Skin R</DisplayName>
+            <Minimum>-1</Minimum>
+            <Maximum>1</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>2</SortID>
+        </Field>
+        <Field Def="f32 skinG">
+            <DisplayName>Skin G</DisplayName>
+            <Minimum>-1</Minimum>
+            <Maximum>1</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>3</SortID>
+        </Field>
+        <Field Def="f32 skinB">
+            <DisplayName>Skin B</DisplayName>
+            <Minimum>-1</Minimum>
+            <Maximum>1</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>4</SortID>
+        </Field>
+    </Fields>
+</PARAMDEF>

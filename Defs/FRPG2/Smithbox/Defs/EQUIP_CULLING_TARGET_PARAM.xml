@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>EQUIP_CULLING_TARGET_PARAM</ParamType>
+    <DataVersion>1</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="u8 CullingFlagTarget00" />
+        <Field Def="u8 CullingFlagTarget01" />
+        <Field Def="u8 CullingFlagTarget02" />
+        <Field Def="u8 CullingFlagTarget03" />
+        <Field Def="u8 CullingFlagTarget04" />
+        <Field Def="u8 CullingFlagTarget05" />
+        <Field Def="u8 CullingFlagTarget06" />
+        <Field Def="u8 CullingFlagTarget07" />
+        <Field Def="u8 CullingFlagTarget08" />
+        <Field Def="u8 CullingFlagTarget09" />
+        <Field Def="u8 CullingFlagTarget10" />
+        <Field Def="u8 CullingFlagTarget11" />
+        <Field Def="u8 CullingFlagTarget12" />
+        <Field Def="u8 CullingFlagTarget13" />
+        <Field Def="u8 CullingFlagTarget14" />
+        <Field Def="u8 CullingFlagTarget15" />
+        <Field Def="u8 CullingFlagTarget16" />
+        <Field Def="u8 CullingFlagTarget17" />
+        <Field Def="u8 CullingFlagTarget18" />
+        <Field Def="u8 CullingFlagTarget19" />
+        <Field Def="u8 CullingFlagTarget20" />
+        <Field Def="u8 CullingFlagTarget21" />
+        <Field Def="u8 CullingFlagTarget22" />
+        <Field Def="u8 CullingFlagTarget23" />
+        <Field Def="u8 CullingFlagTarget24" />
+        <Field Def="u8 CullingFlagTarget25" />
+        <Field Def="u8 CullingFlagTarget26" />
+        <Field Def="u8 CullingFlagTarget27" />
+        <Field Def="u8 CullingFlagTarget28" />
+        <Field Def="u8 CullingFlagTarget29" />
+        <Field Def="u8 CullingFlagTarget30" />
+        <Field Def="u8 CullingFlagTarget31" />
+        <Field Def="u8 CullingFlagTarget32" />
+        <Field Def="u8 CullingFlagTarget33" />
+        <Field Def="u8 CullingFlagTarget34" />
+        <Field Def="u8 CullingFlagTarget35" />
+        <Field Def="u8 CullingFlagTarget36" />
+        <Field Def="u8 CullingFlagTarget37" />
+        <Field Def="u8 CullingFlagTarget38" />
+        <Field Def="u8 CullingFlagTarget39" />
+        <Field Def="u8 CullingFlagTarget40" />
+        <Field Def="u8 CullingFlagTarget41" />
+        <Field Def="u8 CullingFlagTarget42" />
+        <Field Def="u8 CullingFlagTarget43" />
+        <Field Def="u8 CullingFlagTarget44" />
+        <Field Def="u8 CullingFlagTarget45" />
+        <Field Def="u8 CullingFlagTarget46" />
+        <Field Def="u8 CullingFlagTarget47" />
+        <Field Def="u8 CullingFlagTarget48" />
+        <Field Def="u8 CullingFlagTarget49" />
+        <Field Def="u8 CullingFlagTarget50" />
+        <Field Def="u8 CullingFlagTarget51" />
+        <Field Def="u8 CullingFlagTarget52" />
+        <Field Def="u8 CullingFlagTarget53" />
+        <Field Def="u8 CullingFlagTarget54" />
+        <Field Def="u8 CullingFlagTarget55" />
+        <Field Def="u8 CullingFlagTarget56" />
+        <Field Def="u8 CullingFlagTarget57" />
+        <Field Def="u8 CullingFlagTarget58" />
+        <Field Def="u8 CullingFlagTarget59" />
+        <Field Def="u8 CullingFlagTarget60" />
+        <Field Def="u8 CullingFlagTarget61" />
+        <Field Def="u8 CullingFlagTarget62" />
+        <Field Def="u8 CullingFlagTarget63" />
+    </Fields>
+</PARAMDEF>

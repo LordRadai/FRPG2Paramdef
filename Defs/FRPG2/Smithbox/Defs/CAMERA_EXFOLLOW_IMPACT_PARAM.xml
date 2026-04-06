@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>CAMERA_EXFOLLOW_IMPACT_PARAM</ParamType>
+    <DataVersion>1</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="f32 startTime" />
+        <Field Def="f32 frequencyTime" />
+        <Field Def="f32 endTime" />
+        <Field Def="f32 fovY" />
+        <Field Def="f32 distance" />
+        <Field Def="u32 frequencyNum" />
+        <Field Def="f32 frequencyFovY" />
+        <Field Def="f32 frequencyDistance" />
+    </Fields>
+</PARAMDEF>

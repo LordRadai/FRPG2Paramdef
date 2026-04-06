@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>ENEMY_ATTACK_MOVE_PARAM</ParamType>
+    <DataVersion>2</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="f32 fAttackDashAcceleration = 12">
+            <DisplayName>Melee attack control Walking attack movement acceleration [m/sec^2]</DisplayName>
+            <Maximum>1000</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>1004</SortID>
+        </Field>
+        <Field Def="f32 fAttackDashSpeed = 4">
+            <DisplayName>Melee attack control Walking attack movement speed [m/sec]</DisplayName>
+            <Maximum>1000</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>1005</SortID>
+        </Field>
+        <Field Def="angle32 fAttackDashRotationLowSpeed = 180">
+            <DisplayName>Attack control low turning speed [deg/sec]</DisplayName>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>1005</SortID>
+        </Field>
+        <Field Def="angle32 fAttackDashRotationHighSpeed = 180">
+            <DisplayName>Attack control High turning speed [deg/sec]</DisplayName>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>1006</SortID>
+        </Field>
+        <Field Def="f32 fAttackDashRotSpeedMinBorder">
+            <DisplayName>Attack control Low speed turning judgment speed [m/sec]</DisplayName>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>1007</SortID>
+        </Field>
+        <Field Def="f32 fAttackDashRotSpeedMaxBorder">
+            <DisplayName>Attack control High speed turning judgment speed [m/sec]</DisplayName>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>1008</SortID>
+        </Field>
+        <Field Def="f32 fAttackDashRange">
+            <DisplayName>Melee attack control Walking attack attack range [m]</DisplayName>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>1009</SortID>
+        </Field>
+        <Field Def="f32 fAttackBackSwingSpeed = 1">
+            <DisplayName>Close attack control Attack starting part speed multiplier [x]</DisplayName>
+            <Minimum>0.1</Minimum>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>1010</SortID>
+        </Field>
+        <Field Def="f32 fAttackFollowSwingSpeed = 1">
+            <DisplayName>Close attack control attack end speed multiplier [x]</DisplayName>
+            <Minimum>0.1</Minimum>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>1010</SortID>
+        </Field>
+        <Field Def="f32 fAttackSecondRotationRate">
+            <DisplayName>Attack control secondary rotation magnification [times]</DisplayName>
+            <Maximum>9999</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>1003</SortID>
+        </Field>
+        <Field Def="f32 fAttackTimeOut = 1">
+            <DisplayName>Close attack control timeout time [sec]</DisplayName>
+            <Minimum>0.1</Minimum>
+            <Maximum>100</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>1011</SortID>
+        </Field>
+        <Field Def="f32 fAttackEstimateFutureTime">
+            <DisplayName>Attack control position prediction time [sec]</DisplayName>
+            <Maximum>100</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>1012</SortID>
+        </Field>
+        <Field Def="f32 fShotMoveSpeedRate = 1">
+            <DisplayName>Fire control movement reduction multiplier [x]</DisplayName>
+            <Maximum>1</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>10009</SortID>
+        </Field>
+        <Field Def="u8 rotationOffsetDummyPoly">
+            <DisplayName>Rotating axis dummy poly number</DisplayName>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>100000</SortID>
+        </Field>
+        <Field Def="u8 attackDashFailedCancel">
+            <DisplayName>Cancel flag when blade dash fails</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>1010</SortID>
+        </Field>
+        <Field Def="u8 disableCollisionCheck">
+            <DisplayName>Does not detect obstacles</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>1010</SortID>
+        </Field>
+        <Field Def="dummy8 dummy1[1]">
+            <DisplayName>Dummy</DisplayName>
+            <SortID>100001</SortID>
+        </Field>
+    </Fields>
+</PARAMDEF>

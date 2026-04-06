@@ -1,0 +1,358 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>DAMAGE_EFFECT_SE_PARAM</ParamType>
+    <DataVersion>3</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="u8 materialNone">
+            <DisplayName>None</DisplayName>
+            <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>32</Maximum>
+            <Increment>1</Increment>
+            <SortID>1</SortID>
+        </Field>
+        <Field Def="u8 materialMetal">
+            <DisplayName>Iron</DisplayName>
+            <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>32</Maximum>
+            <Increment>1</Increment>
+            <SortID>2</SortID>
+        </Field>
+        <Field Def="u8 materialHeavyMetal">
+            <DisplayName>Heavy iron</DisplayName>
+            <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>32</Maximum>
+            <Increment>1</Increment>
+            <SortID>3</SortID>
+        </Field>
+        <Field Def="u8 materialWood">
+            <DisplayName>Tree</DisplayName>
+            <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>32</Maximum>
+            <Increment>1</Increment>
+            <SortID>4</SortID>
+        </Field>
+        <Field Def="u8 materialWater">
+            <DisplayName>Water</DisplayName>
+            <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>33</Maximum>
+            <Increment>1</Increment>
+            <SortID>5</SortID>
+        </Field>
+        <Field Def="u8 materialSwamp">
+            <DisplayName>Swamp</DisplayName>
+            <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>34</Maximum>
+            <Increment>1</Increment>
+            <SortID>6</SortID>
+        </Field>
+        <Field Def="u8 materialLumber">
+            <DisplayName>Wood</DisplayName>
+            <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>35</Maximum>
+            <Increment>1</Increment>
+            <SortID>7</SortID>
+        </Field>
+        <Field Def="u8 materialMeat">
+            <DisplayName>Flesh of the living</DisplayName>
+            <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>36</Maximum>
+            <Increment>1</Increment>
+            <SortID>8</SortID>
+        </Field>
+        <Field Def="u8 materialDeadMeat">
+            <DisplayName>Corpse meat</DisplayName>
+            <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>37</Maximum>
+            <Increment>1</Increment>
+            <SortID>9</SortID>
+        </Field>
+        <Field Def="u8 materialInsect">
+            <DisplayName>Insect</DisplayName>
+            <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>38</Maximum>
+            <Increment>1</Increment>
+            <SortID>10</SortID>
+        </Field>
+        <Field Def="u8 materialGiant">
+            <DisplayName>Giant</DisplayName>
+            <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>39</Maximum>
+            <Increment>1</Increment>
+            <SortID>11</SortID>
+        </Field>
+        <Field Def="u8 materialBone">
+            <DisplayName>Bone</DisplayName>
+            <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>40</Maximum>
+            <Increment>1</Increment>
+            <SortID>12</SortID>
+        </Field>
+        <Field Def="u8 materialCopper">
+            <DisplayName>Copper</DisplayName>
+            <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>41</Maximum>
+            <Increment>1</Increment>
+            <SortID>13</SortID>
+        </Field>
+        <Field Def="u8 materialEnergy">
+            <DisplayName>Energy</DisplayName>
+            <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>42</Maximum>
+            <Increment>1</Increment>
+            <SortID>14</SortID>
+        </Field>
+        <Field Def="u8 materialFire">
+            <DisplayName>Flame</DisplayName>
+            <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>43</Maximum>
+            <Increment>1</Increment>
+            <SortID>15</SortID>
+        </Field>
+        <Field Def="u8 materialThunder">
+            <DisplayName>Thunder</DisplayName>
+            <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>44</Maximum>
+            <Increment>1</Increment>
+            <SortID>16</SortID>
+        </Field>
+        <Field Def="u8 materialDark">
+            <DisplayName>Darkness</DisplayName>
+            <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>45</Maximum>
+            <Increment>1</Increment>
+            <SortID>17</SortID>
+        </Field>
+        <Field Def="u8 materialMagicalPower">
+            <DisplayName>Magic power</DisplayName>
+            <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>46</Maximum>
+            <Increment>1</Increment>
+            <SortID>18</SortID>
+        </Field>
+        <Field Def="u8 materialStone">
+            <DisplayName>Stone</DisplayName>
+            <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>47</Maximum>
+            <Increment>1</Increment>
+            <SortID>19</SortID>
+        </Field>
+        <Field Def="u8 materialDirt">
+            <DisplayName>Soil</DisplayName>
+            <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>48</Maximum>
+            <Increment>1</Increment>
+            <SortID>20</SortID>
+        </Field>
+        <Field Def="u8 materialCarpet">
+            <DisplayName>Carpet</DisplayName>
+            <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>49</Maximum>
+            <Increment>1</Increment>
+            <SortID>21</SortID>
+        </Field>
+        <Field Def="u8 materialGrass">
+            <DisplayName>Grass</DisplayName>
+            <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>50</Maximum>
+            <Increment>1</Increment>
+            <SortID>22</SortID>
+        </Field>
+        <Field Def="u8 materialBallast">
+            <DisplayName>Gravel</DisplayName>
+            <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>51</Maximum>
+            <Increment>1</Increment>
+            <SortID>23</SortID>
+        </Field>
+        <Field Def="u8 materialCloth">
+            <DisplayName>Cloth</DisplayName>
+            <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>52</Maximum>
+            <Increment>1</Increment>
+            <SortID>24</SortID>
+        </Field>
+        <Field Def="u8 materialSand">
+            <DisplayName>Sand</DisplayName>
+            <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>53</Maximum>
+            <Increment>1</Increment>
+            <SortID>25</SortID>
+        </Field>
+        <Field Def="u8 materialAsh">
+            <DisplayName>Ash</DisplayName>
+            <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>54</Maximum>
+            <Increment>1</Increment>
+            <SortID>26</SortID>
+        </Field>
+        <Field Def="u8 materialPoisonSwamp">
+            <DisplayName>Poisonous swamp</DisplayName>
+            <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>55</Maximum>
+            <Increment>1</Increment>
+            <SortID>27</SortID>
+        </Field>
+        <Field Def="u8 materialOil">
+            <DisplayName>Oil</DisplayName>
+            <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>56</Maximum>
+            <Increment>1</Increment>
+            <SortID>28</SortID>
+        </Field>
+        <Field Def="u8 materialCoalTar">
+            <DisplayName>Coal tar</DisplayName>
+            <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>57</Maximum>
+            <Increment>1</Increment>
+            <SortID>29</SortID>
+        </Field>
+        <Field Def="u8 materialLava">
+            <DisplayName>Lava</DisplayName>
+            <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>58</Maximum>
+            <Increment>1</Increment>
+            <SortID>30</SortID>
+        </Field>
+        <Field Def="u8 materialThread">
+            <DisplayName>Spider thread</DisplayName>
+            <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>59</Maximum>
+            <Increment>1</Increment>
+            <SortID>31</SortID>
+        </Field>
+        <Field Def="u8 materialCrystal">
+            <DisplayName>Sulfur crystals</DisplayName>
+            <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>60</Maximum>
+            <Increment>1</Increment>
+            <SortID>32</SortID>
+        </Field>
+        <Field Def="u8 materialSoul">
+            <DisplayName>Soul</DisplayName>
+            <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>60</Maximum>
+            <Increment>1</Increment>
+            <SortID>33</SortID>
+        </Field>
+        <Field Def="u8 materialFrog">
+            <DisplayName>Beautiful voice frog</DisplayName>
+            <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>60</Maximum>
+            <Increment>1</Increment>
+            <SortID>34</SortID>
+        </Field>
+        <Field Def="u8 unkMaterial0">
+            <DisplayName>Beautiful voice frog</DisplayName>
+            <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>60</Maximum>
+            <Increment>1</Increment>
+            <SortID>35</SortID>
+        </Field>
+        <Field Def="u8 unkMaterial1">
+            <DisplayName>Beautiful voice frog [1]</DisplayName>
+            <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>60</Maximum>
+            <Increment>1</Increment>
+            <SortID>36</SortID>
+        </Field>
+        <Field Def="u8 unkMaterial2">
+            <DisplayName>Beautiful voice frog [2]</DisplayName>
+            <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>60</Maximum>
+            <Increment>1</Increment>
+            <SortID>37</SortID>
+        </Field>
+        <Field Def="u8 unkMaterial3">
+            <DisplayName>Beautiful voice frog [3]</DisplayName>
+            <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>60</Maximum>
+            <Increment>1</Increment>
+            <SortID>38</SortID>
+        </Field>
+        <Field Def="u8 unkMaterial4">
+            <DisplayName>Beautiful voice frog [4]</DisplayName>
+            <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>60</Maximum>
+            <Increment>1</Increment>
+            <SortID>39</SortID>
+        </Field>
+        <Field Def="u8 unkMaterial5">
+            <DisplayName>Beautiful voice frog [5]</DisplayName>
+            <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>60</Maximum>
+            <Increment>1</Increment>
+            <SortID>40</SortID>
+        </Field>
+        <Field Def="u8 unkMaterial6">
+            <DisplayName>Beautiful voice frog [6]</DisplayName>
+            <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>60</Maximum>
+            <Increment>1</Increment>
+            <SortID>41</SortID>
+        </Field>
+        <Field Def="u8 unkMaterial7">
+            <DisplayName>Beautiful voice frog [7]</DisplayName>
+            <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>60</Maximum>
+            <Increment>1</Increment>
+            <SortID>42</SortID>
+        </Field>
+        <Field Def="u8 unkMaterial8">
+            <DisplayName>Beautiful voice frog [8]</DisplayName>
+            <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>60</Maximum>
+            <Increment>1</Increment>
+            <SortID>43</SortID>
+        </Field>
+        <Field Def="dummy8 dummy[1]">
+            <DisplayName>Reserved area</DisplayName>
+            <SortID>44</SortID>
+        </Field>
+    </Fields>
+</PARAMDEF>

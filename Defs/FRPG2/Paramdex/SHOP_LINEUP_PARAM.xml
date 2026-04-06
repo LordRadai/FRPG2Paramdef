@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>SHOP_LINEUP_PARAM</ParamType>
+    <DataVersion>4</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="s32 saleItem = -1">
+            <DisplayName>Sales item ID</DisplayName>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>100</SortID>
+        </Field>
+        <Field Def="s32 price">
+            <DisplayName>Sales price</DisplayName>
+            <Maximum>8388607</Maximum>
+            <Increment>1</Increment>
+            <SortID>300</SortID>
+        </Field>
+        <Field Def="s32 saleFlag = -1">
+            <DisplayName>Sales start flag</DisplayName>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>400</SortID>
+        </Field>
+        <Field Def="s32 saleEndFlag = -1">
+            <DisplayName>End of sale flag</DisplayName>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>410</SortID>
+        </Field>
+        <Field Def="u32 saleFlagItem">
+            <DisplayName>Sales start condition items</DisplayName>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>500</SortID>
+        </Field>
+        <Field Def="u32 saleEndFlagItem">
+            <DisplayName>Sale end condition items</DisplayName>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>510</SortID>
+        </Field>
+        <Field Def="u32 displayOrder">
+            <DisplayName>Display order</DisplayName>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>600</SortID>
+        </Field>
+        <Field Def="f32 priceRate = 1">
+            <DisplayName>Price multiple</DisplayName>
+            <Maximum>30</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>700</SortID>
+        </Field>
+        <Field Def="s8 unitSales">
+            <DisplayName>Sales quantity</DisplayName>
+            <Minimum>-1</Minimum>
+            <Maximum>127</Maximum>
+            <Increment>1</Increment>
+            <SortID>200</SortID>
+        </Field>
+        <Field Def="dummy8 padding[3]">
+            <DisplayName>Reservation</DisplayName>
+            <SortID>701</SortID>
+        </Field>
+    </Fields>
+</PARAMDEF>

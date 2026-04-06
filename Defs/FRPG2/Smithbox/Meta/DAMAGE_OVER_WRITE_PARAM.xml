@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <damageOverWriteNoMotion AltName="No motion" />
+        <damageOverWriteSmall AltName="Extremely small" />
+        <damageOverWriteSmallKnockBack AltName="Small knockback" />
+        <damageOverWriteLargeKnockBack AltName="Big knockback" />
+        <damageOverWriteLarge AltName="Extra large" />
+        <damageOverWriteBlow AltName="Blow away" />
+        <damageOverWriteUpper AltName="Launch" />
+        <damageOverWriteBreath AltName="Breath" />
+        <damageOverWriteStumble AltName="Fall down" />
+        <damageOverWriteBreakDown AltName="Collapse" />
+        <damageOverWriteAerialDown AltName="Fall in the air" />
+        <damageOverWriteDown AltName="Down" />
+        <damageOverWriteDownAttack AltName="Down attack" />
+        <damageOverWriteLadder AltName="Ladder" />
+        <damageOverWriteRope AltName="Rope" />
+        <damageOverWriteParryBreak AltName="Parry break" />
+        <damageOverWriteGuardBreak AltName="Guard break" />
+        <damageOverWriteStun AltName="Fainting" />
+        <damageOverWriteBleeding AltName="Bleeding" />
+        <damageOverWriteGrab AltName="Grab" />
+        <damageOverWriteHeadShot AltName="Head shot" />
+        <damageOverWriteFallSmall AltName="Small and medium damage from falling" />
+        <damageOverWriteFallLarge AltName="Heavy damage while falling" />
+        <damageOverWriteAerialSmall AltName="Small air damage" />
+        <damageOverWriteAerialLarge AltName="Heavy damage in the air" />
+        <damageOverWriteGroundJumpAttack AltName="Jump ground collision" />
+        <damageOverWriteAerialJumpAttack AltName="Jump mid-air collision" />
+    </Field>
+</PARAMMETA>

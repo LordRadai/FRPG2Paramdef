@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <priority AltName="Priority" />
+        <radius AltName="Radius [m]" />
+        <minSpeed AltName="Minimum wind force [m/s]" />
+        <maxSpeed AltName="Maximum wind power [m/s]" />
+        <frequency AltName="Frequency" />
+        <gainStartDistance AltName="Decay start processing" />
+        <fadeInTime AltName="Fade-in time [sec]" />
+    </Field>
+</PARAMMETA>

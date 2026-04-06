@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>MENU_STATS_PARAM</ParamType>
+    <DataVersion>5</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="s16 hpMax">
+            <DisplayName>Max HP for menu</DisplayName>
+            <Maximum>9999</Maximum>
+            <Increment>1</Increment>
+            <SortID>10</SortID>
+        </Field>
+        <Field Def="s16 staminaMax">
+            <DisplayName>Stamina for menu</DisplayName>
+            <Maximum>9999</Maximum>
+            <Increment>1</Increment>
+            <SortID>20</SortID>
+        </Field>
+        <Field Def="u8 poise">
+            <DisplayName>For menu toughness</DisplayName>
+            <Maximum>99</Maximum>
+            <Increment>1</Increment>
+            <SortID>300</SortID>
+        </Field>
+        <Field Def="s8 spellUsesLevel = 1">
+            <DisplayName>Menu spell usage level</DisplayName>
+            <Minimum>1</Minimum>
+            <Maximum>10</Maximum>
+            <Increment>1</Increment>
+            <SortID>60</SortID>
+        </Field>
+        <Field Def="s16 spellSlot">
+            <DisplayName>Spell memory number for menu</DisplayName>
+            <Maximum>9999</Maximum>
+            <Increment>1</Increment>
+            <SortID>40</SortID>
+        </Field>
+        <Field Def="s16 chantingTimeCorrectScale">
+            <DisplayName>Spell casting speed for menu</DisplayName>
+            <Maximum>9999</Maximum>
+            <Increment>1</Increment>
+            <SortID>50</SortID>
+        </Field>
+        <Field Def="s16 physicalAttackByStrength">
+            <DisplayName>For menu Physical attack power (strength)</DisplayName>
+            <Maximum>9999</Maximum>
+            <Increment>1</Increment>
+            <SortID>70</SortID>
+        </Field>
+        <Field Def="s16 physicalAttackByDexterity">
+            <DisplayName>Physical attack power (skill) for menu</DisplayName>
+            <Maximum>9999</Maximum>
+            <Increment>1</Increment>
+            <SortID>80</SortID>
+        </Field>
+        <Field Def="s16 magicAttack">
+            <DisplayName>Magic attack power for menu</DisplayName>
+            <Maximum>9999</Maximum>
+            <Increment>1</Increment>
+            <SortID>90</SortID>
+        </Field>
+        <Field Def="s16 fireAttack">
+            <DisplayName>Flame attack power for menu</DisplayName>
+            <Maximum>9999</Maximum>
+            <Increment>1</Increment>
+            <SortID>100</SortID>
+        </Field>
+        <Field Def="s16 thunderAttack">
+            <DisplayName>Lightning attack power for menu</DisplayName>
+            <Maximum>9999</Maximum>
+            <Increment>1</Increment>
+            <SortID>110</SortID>
+        </Field>
+        <Field Def="s16 darkAttack">
+            <DisplayName>Dark attack power for menu</DisplayName>
+            <Maximum>9999</Maximum>
+            <Increment>1</Increment>
+            <SortID>120</SortID>
+        </Field>
+        <Field Def="s16 poisonAttack">
+            <DisplayName>Poison attack power for menu</DisplayName>
+            <Maximum>9999</Maximum>
+            <Increment>1</Increment>
+            <SortID>130</SortID>
+        </Field>
+        <Field Def="s16 bleedingAttack">
+            <DisplayName>Bleeding attack power for menu</DisplayName>
+            <Maximum>9999</Maximum>
+            <Increment>1</Increment>
+            <SortID>140</SortID>
+        </Field>
+        <Field Def="s16 weaponBreakAttack">
+            <DisplayName>Destructive attack power for menu</DisplayName>
+            <Maximum>9999</Maximum>
+            <Increment>1</Increment>
+            <SortID>150</SortID>
+        </Field>
+        <Field Def="s16 defense">
+            <DisplayName>Defense power for menu</DisplayName>
+            <Maximum>9999</Maximum>
+            <Increment>1</Increment>
+            <SortID>160</SortID>
+        </Field>
+        <Field Def="s16 magicResistance">
+            <DisplayName>Magic resistance for menu</DisplayName>
+            <Maximum>9999</Maximum>
+            <Increment>1</Increment>
+            <SortID>170</SortID>
+        </Field>
+        <Field Def="s16 fireResistance">
+            <DisplayName>For menu flame resistant</DisplayName>
+            <Maximum>9999</Maximum>
+            <Increment>1</Increment>
+            <SortID>180</SortID>
+        </Field>
+        <Field Def="s16 thunderResistance">
+            <DisplayName>Lightning resistance for menu</DisplayName>
+            <Maximum>9999</Maximum>
+            <Increment>1</Increment>
+            <SortID>190</SortID>
+        </Field>
+        <Field Def="s16 darkResistance">
+            <DisplayName>Dark resistance for menu</DisplayName>
+            <Maximum>9999</Maximum>
+            <Increment>1</Increment>
+            <SortID>200</SortID>
+        </Field>
+        <Field Def="s16 poisonResistance">
+            <DisplayName>For menu poison resistance</DisplayName>
+            <Maximum>9999</Maximum>
+            <Increment>1</Increment>
+            <SortID>210</SortID>
+        </Field>
+        <Field Def="s16 bleedingResistance">
+            <DisplayName>For menu bleeding resistance</DisplayName>
+            <Maximum>9999</Maximum>
+            <Increment>1</Increment>
+            <SortID>220</SortID>
+        </Field>
+        <Field Def="s16 weaponBreakResistance">
+            <DisplayName>Weapon destruction resistance for menu</DisplayName>
+            <Maximum>9999</Maximum>
+            <Increment>1</Increment>
+            <SortID>230</SortID>
+        </Field>
+        <Field Def="s16 petrifactionResistance">
+            <DisplayName>For menu petrification resistance</DisplayName>
+            <Maximum>9999</Maximum>
+            <Increment>1</Increment>
+            <SortID>235</SortID>
+        </Field>
+        <Field Def="s16 curseResistance">
+            <DisplayName>Curse resistance for menu</DisplayName>
+            <Maximum>9999</Maximum>
+            <Increment>1</Increment>
+            <SortID>240</SortID>
+        </Field>
+        <Field Def="s16 evasionInvincibleTime">
+            <DisplayName>Evasion invincibility time for menu</DisplayName>
+            <Maximum>9999</Maximum>
+            <Increment>1</Increment>
+            <SortID>250</SortID>
+        </Field>
+        <Field Def="s16 actionSpeed">
+            <DisplayName>Various action speeds for menus</DisplayName>
+            <Maximum>9999</Maximum>
+            <Increment>1</Increment>
+            <SortID>260</SortID>
+        </Field>
+        <Field Def="s16 physicalAttackByAbyss">
+            <DisplayName>Physical attack power (abyss) for menu</DisplayName>
+            <Maximum>9999</Maximum>
+            <Increment>1</Increment>
+            <SortID>270</SortID>
+        </Field>
+        <Field Def="dummy8 dummy1[2]">
+            <DisplayName>Dummy</DisplayName>
+            <SortID>301</SortID>
+        </Field>
+        <Field Def="f32 equipLoadMax">
+            <DisplayName>Equipment weight for menu</DisplayName>
+            <Maximum>9999</Maximum>
+            <Increment>1</Increment>
+            <SortID>30</SortID>
+        </Field>
+    </Fields>
+</PARAMDEF>

@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>ITEM_PARAM</ParamType>
+    <DataVersion>21</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="s32 iconId" />
+        <Field Def="s32 specialEffectId" />
+        <Field Def="s32 startSfxId" />
+        <Field Def="s32 actionSfxId" />
+        <Field Def="s32 effectSfxId" />
+        <Field Def="s32 weaponParamId" />
+        <Field Def="s32 armorParamId" />
+        <Field Def="s32 arrowParamId" />
+        <Field Def="s32 ringParamId" />
+        <Field Def="s32 spellParamId" />
+        <Field Def="s32 gestureId" />
+        <Field Def="s32 sortId" />
+        <Field Def="s32 price" />
+        <Field Def="s32 salePrice" />
+        <Field Def="f32 motionSpeedRate" />
+        <Field Def="f32 weight" />
+        <Field Def="u32 itemTypeParamId" />
+        <Field Def="u32 itemUsageParamId" />
+        <Field Def="s16 getFrag" />
+        <Field Def="u16 maxNum" />
+        <Field Def="u8 spEffectTargetRegion" />
+        <Field Def="u8 spEffectDuplication" />
+        <Field Def="u8 spEffectSfxPriority" />
+        <Field Def="s8 menuIconCategory" />
+        <Field Def="u8 enchantType" />
+        <Field Def="s8 completeTrophy" />
+        <Field Def="u8 isOnlyOne:1" />
+        <Field Def="u8 isOnlyOneUtilGameClear:1" />
+        <Field Def="u8 isTakeOver:1" />
+        <Field Def="u8 canGet_WhenGetAllItem:1" />
+        <Field Def="dummy8 padding[1]" />
+    </Fields>
+</PARAMDEF>

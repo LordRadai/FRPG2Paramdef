@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <thresholdA AltName="Threshold for evaluation of A or higher" />
+        <thresholdB AltName="Threshold for evaluation of B or higher" />
+        <thresholdC AltName="Threshold for evaluation of C or higher" />
+        <thresholdD AltName="Threshold for evaluation of D or higher" />
+        <thresholdE AltName="Threshold for evaluation of E or higher" />
+    </Field>
+</PARAMMETA>

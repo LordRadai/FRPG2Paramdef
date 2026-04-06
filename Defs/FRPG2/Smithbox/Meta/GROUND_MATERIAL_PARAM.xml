@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <material AltName="Material" Refs="MaterialParam" />
+        <subMaterial AltName="Second material" Refs="MaterialParam" />
+        <moveSpeedRate AltName="Movement speed influence multiplier" />
+        <moveRotateRate AltName="Turning speed influence multiplier" />
+        <soundLevel AltName="Sound volume additional value" />
+        <isTorchOff AltName="The torch goes out" Enum="MATERIAL_TORCH_OFF_TYPE_ENUM" />
+        <torchOffParam AltName="Torch extinguishing parameter ID" />
+        <isWaterSurface AltName="Water surface" IsBool="true" />
+        <environment AltName="Environment type" Enum="MATERIAL_ENVIRONMENT_TYPE_ENUM" />
+        <dodgeLimitCategory AltName="Avoidance restriction category" Enum="MATERIAL_DODGE_LIMIT_TYPE_ENUM" />
+        <isDisableIdleDamage AltName="Damage disabled while on standby" IsBool="true" />
+        <damageId AltName="Damage ID" />
+        <fallWaterSfxId AltName="Underwater fall SFX" />
+        <dodgeLimitDistanceRateRollLight AltName="Evasion reduction distance percentage rolling" />
+        <dodgeLimitDistanceRateStepLight AltName="Evasion reduction distance percentage step" />
+        <dodgeLimitDistanceRateRollHeavy AltName="Evasion reduction distance percentage weight rolling" />
+        <dodgeLimitDistanceRateStepHeavy AltName="Evasion reduction distance percentage weight step" />
+        <takeWaterParamId AltName="Water landing SFX parameter ID" />
+        <sfxID0 />
+        <sfxID1 />
+        <sfxDuration />
+    </Field>
+    <Enums>
+        <Enum Name="MATERIAL_TORCH_OFF_TYPE_ENUM" type="u8">
+            <Option Value="0" Name="None" />
+            <Option Value="1" Name="Always" />
+            <Option Value="2" Name="When avoiding" />
+        </Enum>
+        <Enum Name="MATERIAL_ENVIRONMENT_TYPE_ENUM" type="u8">
+            <Option Value="0" Name="None" />
+            <Option Value="1" Name="Puddle" />
+            <Option Value="2" Name="Waterfall" />
+            <Option Value="4" Name="Rain" />
+            <Option Value="5" Name="Poison" />
+            <Option Value="6" Name="Oil" />
+        </Enum>
+        <Enum Name="MATERIAL_DODGE_LIMIT_TYPE_ENUM" type="u8">
+            <Option Value="0" Name="Invalid" />
+            <Option Value="1" Name="Mild" />
+            <Option Value="2" Name="Severe" />
+            <Option Value="3" Name="Prohibited" />
+        </Enum>
+    </Enums>
+</PARAMMETA>

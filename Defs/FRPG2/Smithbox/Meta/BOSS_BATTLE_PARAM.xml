@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <soulValue AltName="Obtain soul" />
+        <soulBulletId AltName="Soul Bullet ID" />
+        <itemLotId AltName="Single item lottery ID" />
+        <itemLotIdMultiPlay AltName="Multi item lottery ID" />
+        <killedEventId AltName="Defeated event flag" />
+        <onceKilledEventId AltName="Defeated at least once event flag" ProjectEnum="EVENT_FLAG_GLOBAL_EVENT" />
+        <bonfireEventValueId AltName="Event variable ID for bonfire rotation" ProjectEnum="EVENT_VALUE_global" />
+        <cameraParamId AltName="Camera parameter ID" />
+        <lockParamId AltName="Lock parameter ID" />
+        <hpDispType1 AltName="HP gauge display type 1" Enum="BOSS_BATTLE_HP_DISP_TYPE" />
+        <hpDispType2 AltName="HP gauge display type 2" Enum="BOSS_BATTLE_HP_DISP_TYPE" />
+        <hpDispType3 AltName="HP gauge display type 3" Enum="BOSS_BATTLE_HP_DISP_TYPE" />
+        <killFeType AltName="Destruction FE type" Enum="BOSS_BATTLE_KILL_FE_TYPE" />
+        <genEventGroupId1 AltName="Generator event group ID1" />
+        <genEventGroupId2 AltName="Generator event group ID2" />
+        <genEventGroupId3 AltName="Generator event group ID3" />
+        <roundSoulDropCategory AltName="Orbital Soul Drop Category" Refs="ChrRoundDropSoulParam" />
+        <bossNameTextId1 AltName="Boss name text ID1" />
+        <bossNameTextId2 AltName="Boss name text ID2" />
+        <bossNameTextId3 AltName="Boss name text ID3" />
+        <feDispWaitTime AltName="Destruction FE standby time" />
+        <bonfireId AltName="Bonfire parameter ID" />
+        <aReserved3 AltName="Reservation" Padding="true" />
+        <decLimitTime AltName="Multiplayer time limit reduction amount" />
+    </Field>
+    <Enums>
+        <Enum Name="BOSS_BATTLE_HP_DISP_TYPE" type="u8">
+            <Option Value="0" Name="None" />
+            <Option Value="1" Name="HP total value" />
+            <Option Value="2" Name="Remaining number" />
+        </Enum>
+        <Enum Name="BOSS_BATTLE_KILL_FE_TYPE" type="u8">
+            <Option Value="0" Name="Normal time" />
+            <Option Value="1" Name="4 boss" />
+        </Enum>
+    </Enums>
+</PARAMMETA>

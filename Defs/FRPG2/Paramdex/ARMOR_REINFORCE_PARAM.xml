@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>ARMOR_REINFORCE_PARAM</ParamType>
+    <DataVersion>7</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="f32 minSlash">
+            <DisplayName>Enhancement base value minimum slash</DisplayName>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>10</SortID>
+        </Field>
+        <Field Def="f32 minThrust">
+            <DisplayName>Enhancement base value minimum piercing</DisplayName>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>10</SortID>
+        </Field>
+        <Field Def="f32 minStrike">
+            <DisplayName>Enhancement base value minimum hit</DisplayName>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>10</SortID>
+        </Field>
+        <Field Def="f32 minPhysical">
+            <DisplayName>Enhancement base value minimum physical</DisplayName>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>10</SortID>
+        </Field>
+        <Field Def="f32 minMagic">
+            <DisplayName>Enhancement base value minimum magic power</DisplayName>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>20</SortID>
+        </Field>
+        <Field Def="f32 minThunder">
+            <DisplayName>Enhancement base value minimum lightning</DisplayName>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>30</SortID>
+        </Field>
+        <Field Def="f32 minFire">
+            <DisplayName>Enhancement base value minimum flame</DisplayName>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>40</SortID>
+        </Field>
+        <Field Def="f32 minDark">
+            <DisplayName>Enhancement base value minimum darkness</DisplayName>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>50</SortID>
+        </Field>
+        <Field Def="f32 minPoison">
+            <DisplayName>Enhancement base value minimum poison</DisplayName>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>60</SortID>
+        </Field>
+        <Field Def="f32 minBleeding">
+            <DisplayName>Enhancement base value minimum bleeding</DisplayName>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>70</SortID>
+        </Field>
+        <Field Def="f32 minPetrifaction">
+            <DisplayName>Enhancement base value minimum petrification</DisplayName>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>80</SortID>
+        </Field>
+        <Field Def="f32 minCurse">
+            <DisplayName>Enhancement base value minimum curse</DisplayName>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>90</SortID>
+        </Field>
+        <Field Def="f32 maxSlash">
+            <DisplayName>Enhancement base value maximum slashing</DisplayName>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>10</SortID>
+        </Field>
+        <Field Def="f32 maxThrust">
+            <DisplayName>Enhancement base value maximum piercing</DisplayName>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>10</SortID>
+        </Field>
+        <Field Def="f32 maxStrike">
+            <DisplayName>Enhancement base value maximum hit</DisplayName>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>10</SortID>
+        </Field>
+        <Field Def="f32 maxPhysical">
+            <DisplayName>Enhancement base value maximum physical</DisplayName>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>10</SortID>
+        </Field>
+        <Field Def="f32 maxMagic">
+            <DisplayName>Enhancement base value maximum magic power</DisplayName>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>20</SortID>
+        </Field>
+        <Field Def="f32 maxThunder">
+            <DisplayName>Enhancement base value maximum lightning</DisplayName>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>30</SortID>
+        </Field>
+        <Field Def="f32 maxFire">
+            <DisplayName>Enhancement base value maximum flame</DisplayName>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>40</SortID>
+        </Field>
+        <Field Def="f32 maxDark">
+            <DisplayName>Enhancement base value maximum darkness</DisplayName>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>50</SortID>
+        </Field>
+        <Field Def="f32 maxPoison">
+            <DisplayName>Enhancement base value maximum poison</DisplayName>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>60</SortID>
+        </Field>
+        <Field Def="f32 maxBleeding">
+            <DisplayName>Enhancement base value maximum bleeding</DisplayName>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>70</SortID>
+        </Field>
+        <Field Def="f32 maxPetrifaction">
+            <DisplayName>Enhancement base value maximum petrification</DisplayName>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>80</SortID>
+        </Field>
+        <Field Def="f32 maxCurse">
+            <DisplayName>Enhancement base value maximum curse</DisplayName>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>90</SortID>
+        </Field>
+        <Field Def="u8 maxLevel">
+            <DisplayName>Maximum enhancement level</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="dummy8 dummy[3]">
+            <DisplayName>Dummy</DisplayName>
+            <SortID>3001</SortID>
+        </Field>
+        <Field Def="f32 menuResistanceScale = 1">
+            <DisplayName>Attribute defense power correction magnification for menu display [x]</DisplayName>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>2100</SortID>
+        </Field>
+        <Field Def="u32 attrSpec">
+            <DisplayName>Possibility of attribute enhancement</DisplayName>
+            <Enum>CUSTOM_ATTR_SPEC_PARAM_ENUM</Enum>
+            <SortID>3000</SortID>
+        </Field>
+        <Field Def="u32 attrCost">
+            <DisplayName>Attribute enhancement cost</DisplayName>
+            <Enum>CUSTOM_ATTR_COST_PARAM_ENUM</Enum>
+            <SortID>3000</SortID>
+        </Field>
+        <Field Def="u32 reinforceCost">
+            <DisplayName>Lv enhancement cost</DisplayName>
+            <Enum>REINFORCE_COST_PARAM_ENUM</Enum>
+            <SortID>3000</SortID>
+        </Field>
+    </Fields>
+</PARAMDEF>

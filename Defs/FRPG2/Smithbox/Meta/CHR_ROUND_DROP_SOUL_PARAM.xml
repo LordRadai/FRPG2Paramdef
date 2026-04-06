@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <roundSoulPercent01 AltName="Lap acquired soul multiplier 1st lap [%]" />
+        <roundSoulPercent02 AltName="Lap acquired soul multiplier 2nd lap [%]" />
+        <roundSoulPercent03 AltName="Lap acquired soul multiplier 3rd lap [%]" />
+        <roundSoulPercent04 AltName="Lap acquired soul multiplier 4th lap [%]" />
+        <roundSoulPercent05 AltName="Lap acquired soul multiplier 5th lap [%]" />
+        <roundSoulPercent06 AltName="Lap acquired soul multiplier 6th lap [%]" />
+        <roundSoulPercent07 AltName="Lap acquired soul multiplier 7th lap [%]" />
+        <roundSoulPercent08 AltName="Lap acquired soul multiplier 8th lap [%]" />
+    </Field>
+</PARAMMETA>

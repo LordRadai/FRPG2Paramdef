@@ -1,0 +1,460 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <combo0AttackMotionId AltName="《Combo action 0 combo 1st stage》" />
+        <combo0ComboAttackRoute1 AltName="《Combo action 0 combo second stage》" Enum="COMBO_ROUTE_TYPE" />
+        <combo0ComboAttackRoute2 AltName="《Combo action 0 combo third stage》" Enum="COMBO_ROUTE_TYPE" />
+        <combo0ComboAttackRoute3 AltName="《Combo action 0 combo 4th stage》" Enum="COMBO_ROUTE_TYPE" />
+        <combo0BladeCtrlType AltName="《Combo action 0 proximity control type》" ProjectEnum="BLADE_CTRL_TYPE" />
+        <combo0AttackId01 AltName="《Combo action 0 Attack ID 1》" />
+        <combo0AttackId02 AltName="《Combo action 0 attack ID 2》" />
+        <combo0AttackId03 AltName="《Combo action 0 attack ID 3》" />
+        <combo0AttackId04 AltName="《Combo action 0 attack ID 4》" />
+        <combo0BulletId01 AltName="《Combo action 0 Bullet ID1》" />
+        <combo0BulletId02 AltName="《Combo action 0 Bullet ID2》" />
+        <combo0BulletId03 AltName="《Combo action 0 Bullet ID3》" />
+        <combo0BulletId04 AltName="《Combo action 0 Bullet ID4》" />
+        <combo0ShtoStanceTime01 AltName="《Combo action 0 Shooting stance time 1》" />
+        <combo0ShtoStanceTime02 AltName="《Combo action 0 Shooting stance time 2》" />
+        <combo0ShtoStanceTime03 AltName="《Combo action 0 Shooting stance time 3》" />
+        <combo0ShtoStanceTime04 AltName="《Combo action 0 Shooting stance time 4》" />
+        <combo0NonInterruptibleType01 AltName="《Combo action 0, non-interruptible type 1》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <combo0NonInterruptibleType02 AltName="《Combo action 0, non-interruptible type 2》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <combo0NonInterruptibleType03 AltName="《Combo action 0, non-interruptible type 3》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <combo0NonInterruptibleType04 AltName="《Combo action 0, non-interruptible type 4》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <combo0AttackMoveId01 AltName="《Combo action 0 Walking attack ID 1》" Refs="EnemyAttackMoveParam" />
+        <combo0AttackMoveId02 AltName="《Combo action 0 Walking attack ID 2》" Refs="EnemyAttackMoveParam" />
+        <combo0AttackMoveId03 AltName="《Combo action 0 Walking attack ID 3》" Refs="EnemyAttackMoveParam" />
+        <combo0AttackMoveId04 AltName="《Combo action 0 Walking attack ID 4》" Refs="EnemyAttackMoveParam" />
+        <combo0AttackHomingCancel01 AltName="《Combo action 0 Homing cancellation enable setting 1》" IsBool="true" />
+        <combo0AttackHomingCancel02 AltName="《Combo action 0 homing cancellation enable setting 2》" IsBool="true" />
+        <combo0AttackHomingCancel03 AltName="《Combo action 0 homing cancellation enable setting 3》" IsBool="true" />
+        <combo0AttackHomingCancel04 AltName="《Combo action 0 homing cancellation enable setting 4》" IsBool="true" />
+        <combo0AttackRange01 AltName="《Combo action 0 Walking attack attack range 1》" />
+        <combo0AttackRange02 AltName="《Combo action 0 Walking attack attack range 2》" />
+        <combo0AttackRange03 AltName="《Combo action 0 Walking attack attack range 3》" />
+        <combo0AttackRange04 AltName="《Combo action 0 Walking attack attack range 4》" />
+        <fCombo0AttackBackSwingSpeed01 AltName="《Combo action 0 Attack start speed multiplier 1》" />
+        <fCombo0AttackBackSwingSpeed02 AltName="《Combo action 0 Attack start speed multiplier 2》" />
+        <fCombo0AttackBackSwingSpeed03 AltName="《Combo action 0 Attack start speed multiplier 3》" />
+        <fCombo0AttackBackSwingSpeed04 AltName="《Combo action 0 Attack start speed multiplier 4》" />
+        <fCombo0AttackFollowSwingSpeed01 AltName="《Combo action 0 Attack end speed multiplier 1》" />
+        <fCombo0AttackFollowSwingSpeed02 AltName="《Combo action 0 Attack end speed multiplier 2》" />
+        <fCombo0AttackFollowSwingSpeed03 AltName="《Combo action 0 Attack end speed multiplier 3》" />
+        <fCombo0AttackFollowSwingSpeed04 AltName="《Combo action 0, attack end speed multiplier 4》" />
+        <fCombo0EstimateFutureTime01 AltName="《Combo action 0 Position prediction time 1》" />
+        <fCombo0EstimateFutureTime02 AltName="《Combo action 0 Position prediction time 2》" />
+        <fCombo0EstimateFutureTime03 AltName="《Combo action 0 Position prediction time 3》" />
+        <fCombo0EstimateFutureTime04 AltName="《Combo action 0 Position prediction time 4》" />
+        <combo0AttackAngle01 AltName="《Combo action 0 Angle correction 1 [deg]》" />
+        <combo0AttackAngle02 AltName="《Combo action 0 Angle correction 2[deg]》" />
+        <combo0AttackAngle03 AltName="《Combo action 0 Angle correction 3 [deg]》" />
+        <combo0AttackAngle04 AltName="《Combo action 0 Angle correction 4[deg]》" />
+        <fCombo0AttackRotateHigh01 AltName="《Combo action 0 Turn interpolation start distance 1 [m]》" />
+        <fCombo0AttackRotateHigh02 AltName="《Combo action 0 Turn interpolation start distance 2 [m]》" />
+        <fCombo0AttackRotateHigh03 AltName="《Combo action 0 Turn interpolation start distance 3 [m]》" />
+        <fCombo0AttackRotateHigh04 AltName="《Combo action 0 Turn interpolation start distance 4 [m]》" />
+        <fCombo0AttackRotateLow01 AltName="《Combo action 0 Turn interpolation end distance 1 [m]》" />
+        <fCombo0AttackRotateLow02 AltName="《Combo action 0 Turn interpolation end distance 2 [m]》" />
+        <fCombo0AttackRotateLow03 AltName="《Combo action 0 Turn interpolation end distance 3 [m]》" />
+        <fCombo0AttackRotateLow04 AltName="《Combo action 0 Turn interpolation end distance 4 [m]》" />
+        <combo0AttackHand01 AltName="《Combo action 0 Attacker 1》" />
+        <combo0AttackHand02 AltName="《Combo action 0 Attacker 2》" />
+        <combo0AttackHand03 AltName="《Combo action 0 Attacker 3》" />
+        <combo0AttackHand04 AltName="《Combo action 0 Attacker 4》" />
+        <combo0AttackChantSfx AltName="《Combo action 0 chant SFX》" Refs="EnemyShotSfxParam" />
+        <combo0Reload AltName="《Combo action 0 reload time [sec]》" />
+        <pad00 AltName="Reservation" Padding="true" />
+        <combo1AttackMotionId AltName="《Combo action 1 combo 1st stage》" />
+        <combo1ComboAttackRoute1 AltName="《Combo action 1 combo second stage》" Enum="COMBO_ROUTE_TYPE" />
+        <combo1ComboAttackRoute2 AltName="《Combo action 1 combo third stage》" Enum="COMBO_ROUTE_TYPE" />
+        <combo1ComboAttackRoute3 AltName="《Combo action 1 combo 4th stage》" Enum="COMBO_ROUTE_TYPE" />
+        <combo1BladeCtrlType AltName="《Combo action 1 Proximity control type》" ProjectEnum="BLADE_CTRL_TYPE" />
+        <combo1AttackId01 AltName="《Combo action 1 attack ID 1》" />
+        <combo1AttackId02 AltName="《Combo action 1 attack ID 2》" />
+        <combo1AttackId03 AltName="《Combo action 1 attack ID3》" />
+        <combo1AttackId04 AltName="《Combo action 1 attack ID 4》" />
+        <combo1BulletId01 AltName="《Combo action 1 Bullet ID1》" />
+        <combo1BulletId02 AltName="《Combo action 1 Bullet ID2》" />
+        <combo1BulletId03 AltName="《Combo action 1 Bullet ID3》" />
+        <combo1BulletId04 AltName="《Combo action 1 Bullet ID4》" />
+        <combo1ShtoStanceTime01 AltName="《Combo action 1 shooting stance time 1》" />
+        <combo1ShtoStanceTime02 AltName="《Combo action 1 Shooting stance time 2》" />
+        <combo1ShtoStanceTime03 AltName="《Combo action 1 shooting stance time 3》" />
+        <combo1ShtoStanceTime04 AltName="《Combo action 1 shooting stance time 4》" />
+        <combo1NonInterruptibleType01 AltName="《Combo action 1 non-interruptible type 1》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <combo1NonInterruptibleType02 AltName="《Combo action 1 non-interruptible type 2》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <combo1NonInterruptibleType03 AltName="《Combo action 1 non-interruptible type 3》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <combo1NonInterruptibleType04 AltName="《Combo action 1 non-interruptible type 4》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <combo1AttackMoveId01 AltName="《Combo action 1 Walking attack ID 1》" Refs="EnemyAttackMoveParam" />
+        <combo1AttackMoveId02 AltName="《Combo action 1 Walking attack ID 2》" Refs="EnemyAttackMoveParam" />
+        <combo1AttackMoveId03 AltName="《Combo action 1 Walking attack ID 3》" Refs="EnemyAttackMoveParam" />
+        <combo1AttackMoveId04 AltName="《Combo action 1 Walking attack ID 4》" Refs="EnemyAttackMoveParam" />
+        <combo1AttackHomingCancel01 AltName="《Combo action 1 homing cancellation enable setting 1》" IsBool="true" />
+        <combo1AttackHomingCancel02 AltName="《Combo action 1 homing cancellation enable setting 2》" IsBool="true" />
+        <combo1AttackHomingCancel03 AltName="《Combo action 1 homing cancellation enable setting 3》" IsBool="true" />
+        <combo1AttackHomingCancel04 AltName="《Combo action 1 homing cancellation enable setting 4》" IsBool="true" />
+        <combo1AttackRange01 AltName="《Combo action 1 Walking attack attack range 1》" />
+        <combo1AttackRange02 AltName="《Combo action 1 Walking attack attack range 2》" />
+        <combo1AttackRange03 AltName="《Combo action 1 Walking attack attack range 3》" />
+        <combo1AttackRange04 AltName="《Combo action 1 Walking attack attack range 4》" />
+        <fCombo1AttackBackSwingSpeed01 AltName="《Combo action 1 attack starting part speed multiplier 1》" />
+        <fCombo1AttackBackSwingSpeed02 AltName="《Combo action 1 attack starting part speed multiplier 2》" />
+        <fCombo1AttackBackSwingSpeed03 AltName="《Combo action 1 attack start part speed multiplier 3》" />
+        <fCombo1AttackBackSwingSpeed04 AltName="《Combo action 1 attack starting part speed multiplier 4》" />
+        <fCombo1AttackFollowSwingSpeed01 AltName="《Combo action 1 attack end speed multiplier 1》" />
+        <fCombo1AttackFollowSwingSpeed02 AltName="《Combo action 1 attack end speed multiplier 2》" />
+        <fCombo1AttackFollowSwingSpeed03 AltName="《Combo action 1 attack end speed multiplier 3》" />
+        <fCombo1AttackFollowSwingSpeed04 AltName="《Combo action 1 attack end speed multiplier 4》" />
+        <fCombo1EstimateFutureTime01 AltName="《Combo action 1 Position prediction time 1》" />
+        <fCombo1EstimateFutureTime02 AltName="《Combo action 1 Position prediction time 2》" />
+        <fCombo1EstimateFutureTime03 AltName="《Combo action 1 Position prediction time 3》" />
+        <fCombo1EstimateFutureTime04 AltName="《Combo action 1 Position prediction time 4》" />
+        <combo1AttackAngle01 AltName="《Combo action 1 Angle correction 1[deg]》" />
+        <combo1AttackAngle02 AltName="《Combo action 1 Angle correction 2 [deg]》" />
+        <combo1AttackAngle03 AltName="《Combo action 1 Angle correction 3 [deg]》" />
+        <combo1AttackAngle04 AltName="《Combo action 1 Angle correction 4 [deg]》" />
+        <fCombo1AttackRotateHigh01 AltName="《Combo action 1 turning interpolation start distance 1 [m]》" />
+        <fCombo1AttackRotateHigh02 AltName="《Combo action 1 turning interpolation start distance 2 [m]》" />
+        <fCombo1AttackRotateHigh03 AltName="《Combo action 1 Turn interpolation start distance 3 [m]》" />
+        <fCombo1AttackRotateHigh04 AltName="《Combo action 1 turning interpolation start distance 4 [m]》" />
+        <fCombo1AttackRotateLow01 AltName="《Combo action 1 turning interpolation end distance 1 [m]》" />
+        <fCombo1AttackRotateLow02 AltName="《Combo action 1 Turn interpolation end distance 2 [m]》" />
+        <fCombo1AttackRotateLow03 AltName="《Combo action 1 Turn interpolation end distance 3 [m]》" />
+        <fCombo1AttackRotateLow04 AltName="《Combo action 1 turning interpolation end distance 4 [m]》" />
+        <combo1AttackHand01 AltName="《Combo action 1 Attacker 1》" />
+        <combo1AttackHand02 AltName="《Combo action 1 Attacker 2》" />
+        <combo1AttackHand03 AltName="《Combo action 1 Attacker 3》" />
+        <combo1AttackHand04 AltName="《Combo action 1 Attacker 4》" />
+        <combo1AttackChantSfx AltName="《Combo action 1 chanting SFX》" Refs="EnemyShotSfxParam" />
+        <combo1Reload AltName="《Combo action 1 reload time [sec]》" />
+        <pad01 AltName="Reservation" Padding="true" />
+        <combo2AttackMotionId AltName="《Combo action 2 combo first stage》" />
+        <combo2ComboAttackRoute1 AltName="《Combo action 2 combo second stage》" Enum="COMBO_ROUTE_TYPE" />
+        <combo2ComboAttackRoute2 AltName="《Combo action 2 combo third stage》" Enum="COMBO_ROUTE_TYPE" />
+        <combo2ComboAttackRoute3 AltName="《Combo action 2 combo 4th stage》" Enum="COMBO_ROUTE_TYPE" />
+        <combo2BladeCtrlType AltName="《Combo action 2 Proximity control type》" ProjectEnum="BLADE_CTRL_TYPE" />
+        <combo2AttackId01 AltName="《Combo action 2 attack ID 1》" />
+        <combo2AttackId02 AltName="《Combo action 2 attack ID 2》" />
+        <combo2AttackId03 AltName="《Combo action 2 attack ID3》" />
+        <combo2AttackId04 AltName="《Combo action 2 attack ID 4》" />
+        <combo2BulletId01 AltName="《Combo action 2 Bullet ID1》" />
+        <combo2BulletId02 AltName="《Combo action 2 Bullet ID2》" />
+        <combo2BulletId03 AltName="《Combo action 2 Bullet ID3》" />
+        <combo2BulletId04 AltName="《Combo action 2 Bullet ID4》" />
+        <combo2ShtoStanceTime01 AltName="《Combo action 2 shooting stance time 1》" />
+        <combo2ShtoStanceTime02 AltName="《Combo action 2 shooting stance time 2》" />
+        <combo2ShtoStanceTime03 AltName="《Combo action 2 shooting stance time 3》" />
+        <combo2ShtoStanceTime04 AltName="《Combo action 2 shooting stance time 4》" />
+        <combo2NonInterruptibleType01 AltName="《Combo action 2 non-interruptible type 1》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <combo2NonInterruptibleType02 AltName="《Combo action 2 non-interruptible type 2》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <combo2NonInterruptibleType03 AltName="《Combo action 2 non-interruptible type 3》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <combo2NonInterruptibleType04 AltName="《Combo action 2 non-interruptible type 4》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <combo2AttackMoveId01 AltName="《Combo action 2 Walking attack ID 1》" Refs="EnemyAttackMoveParam" />
+        <combo2AttackMoveId02 AltName="《Combo action 2 Walking attack ID 2》" Refs="EnemyAttackMoveParam" />
+        <combo2AttackMoveId03 AltName="《Combo action 2 Walking attack ID 3》" Refs="EnemyAttackMoveParam" />
+        <combo2AttackMoveId04 AltName="《Combo action 2 walking attack ID4》" Refs="EnemyAttackMoveParam" />
+        <combo2AttackHomingCancel01 AltName="《Combo action 2 homing cancellation enable setting 1》" IsBool="true" />
+        <combo2AttackHomingCancel02 AltName="《Combo action 2 homing cancellation enable setting 2》" IsBool="true" />
+        <combo2AttackHomingCancel03 AltName="《Combo action 2 homing cancellation enable setting 3》" IsBool="true" />
+        <combo2AttackHomingCancel04 AltName="《Combo action 2 homing cancellation enable setting 4》" IsBool="true" />
+        <combo2AttackRange01 AltName="《Combo action 2 Walking attack attack range 1》" />
+        <combo2AttackRange02 AltName="《Combo action 2 Walking attack attack range 2》" />
+        <combo2AttackRange03 AltName="《Combo action 2 Walking attack attack range 3》" />
+        <combo2AttackRange04 AltName="《Combo action 2 Walking attack attack range 4》" />
+        <fCombo2AttackBackSwingSpeed01 AltName="《Combo action 2 attack start part speed multiplier 1》" />
+        <fCombo2AttackBackSwingSpeed02 AltName="《Combo action 2 attack start speed multiplier 2》" />
+        <fCombo2AttackBackSwingSpeed03 AltName="《Combo action 2 attack start part speed multiplier 3》" />
+        <fCombo2AttackBackSwingSpeed04 AltName="《Combo action 2 attack start part speed multiplier 4》" />
+        <fCombo2AttackFollowSwingSpeed01 AltName="《Combo action 2 attack end speed multiplier 1》" />
+        <fCombo2AttackFollowSwingSpeed02 AltName="《Combo action 2 attack end speed multiplier 2》" />
+        <fCombo2AttackFollowSwingSpeed03 AltName="《Combo action 2 attack end speed multiplier 3》" />
+        <fCombo2AttackFollowSwingSpeed04 AltName="《Combo action 2 attack end speed multiplier 4》" />
+        <fCombo2EstimateFutureTime01 AltName="《Combo action 2 Position prediction time 1》" />
+        <fCombo2EstimateFutureTime02 AltName="《Combo action 2 Position prediction time 2》" />
+        <fCombo2EstimateFutureTime03 AltName="《Combo action 2 Position prediction time 3》" />
+        <fCombo2EstimateFutureTime04 AltName="《Combo action 2 Position prediction time 4》" />
+        <combo2AttackAngle01 AltName="《Combo action 2 Angle correction 1 [deg]》" />
+        <combo2AttackAngle02 AltName="《Combo action 2 Angle correction 2[deg]》" />
+        <combo2AttackAngle03 AltName="《Combo action 2 Angle correction 3 [deg]》" />
+        <combo2AttackAngle04 AltName="《Combo action 2 Angle correction 4 [deg]》" />
+        <fCombo2AttackRotateHigh01 AltName="《Combo action 2 Turn interpolation start distance 1 [m]》" />
+        <fCombo2AttackRotateHigh02 AltName="《Combo action 2 Turn interpolation start distance 2 [m]》" />
+        <fCombo2AttackRotateHigh03 AltName="《Combo action 2 Turn interpolation start distance 3 [m]》" />
+        <fCombo2AttackRotateHigh04 AltName="《Combo action 2 Turn interpolation start distance 4 [m]》" />
+        <fCombo2AttackRotateLow01 AltName="《Combo action 2 Turn interpolation end distance 1 [m]》" />
+        <fCombo2AttackRotateLow02 AltName="《Combo action 2 Turn interpolation end distance 2 [m]》" />
+        <fCombo2AttackRotateLow03 AltName="《Combo action 2 Turn interpolation end distance 3 [m]》" />
+        <fCombo2AttackRotateLow04 AltName="《Combo action 2 Turn interpolation end distance 4 [m]》" />
+        <combo2AttackHand01 AltName="《Combo action 2 Attacker 1》" />
+        <combo2AttackHand02 AltName="《Combo action 2 Attacker 2》" />
+        <combo2AttackHand03 AltName="《Combo action 2 Attacker 3》" />
+        <combo2AttackHand04 AltName="《Combo action 2 Attacker 4》" />
+        <combo2AttackChantSfx AltName="《Combo action 2 chanting SFX》" Refs="EnemyShotSfxParam" />
+        <combo2Reload AltName="《Combo action 2 reload time [sec]》" />
+        <pad02 AltName="Reservation" Padding="true" />
+        <combo3AttackMotionId AltName="《Combo Action 3 Combo 1st Stage》" />
+        <combo3ComboAttackRoute1 AltName="《Combo action 3 combo second stage》" Enum="COMBO_ROUTE_TYPE" />
+        <combo3ComboAttackRoute2 AltName="《Combo action 3 combo third stage》" Enum="COMBO_ROUTE_TYPE" />
+        <combo3ComboAttackRoute3 AltName="《Combo action 3 combo 4th stage》" Enum="COMBO_ROUTE_TYPE" />
+        <combo3BladeCtrlType AltName="《Combo Action 3 Proximity Control Type》" ProjectEnum="BLADE_CTRL_TYPE" />
+        <combo3AttackId01 AltName="《Combo action 3 attack ID1》" />
+        <combo3AttackId02 AltName="《Combo action 3 attack ID 2》" />
+        <combo3AttackId03 AltName="《Combo action 3 attack ID 3》" />
+        <combo3AttackId04 AltName="《Combo action 3 attack ID 4》" />
+        <combo3BulletId01 AltName="《Combo action 3 Bullet ID1》" />
+        <combo3BulletId02 AltName="《Combo action 3 Bullet ID2》" />
+        <combo3BulletId03 AltName="《Combo action 3 Bullet ID3》" />
+        <combo3BulletId04 AltName="《Combo action 3 Bullet ID4》" />
+        <combo3ShtoStanceTime01 AltName="《Combo action 3 shooting stance time 1》" />
+        <combo3ShtoStanceTime02 AltName="《Combo action 3 shooting stance time 2》" />
+        <combo3ShtoStanceTime03 AltName="《Combo action 3 shooting stance time 3》" />
+        <combo3ShtoStanceTime04 AltName="《Combo action 3 shooting stance time 4》" />
+        <combo3NonInterruptibleType01 AltName="《Combo action 3 non-interruptible type 1》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <combo3NonInterruptibleType02 AltName="《Combo action 3 non-interruptible type 2》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <combo3NonInterruptibleType03 AltName="《Combo action 3 non-interruptible type 3》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <combo3NonInterruptibleType04 AltName="《Combo action 3 non-interruptible type 4》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <combo3AttackMoveId01 AltName="《Combo action 3 walking attack ID1》" Refs="EnemyAttackMoveParam" />
+        <combo3AttackMoveId02 AltName="《Combo action 3 Walking attack ID 2》" Refs="EnemyAttackMoveParam" />
+        <combo3AttackMoveId03 AltName="《Combo action 3 walking attack ID3》" Refs="EnemyAttackMoveParam" />
+        <combo3AttackMoveId04 AltName="《Combo action 3 walking attack ID 4》" Refs="EnemyAttackMoveParam" />
+        <combo3AttackHomingCancel01 AltName="《Combo action 3 homing cancellation enable setting 1》" IsBool="true" />
+        <combo3AttackHomingCancel02 AltName="《Combo action 3 homing cancellation enable setting 2》" IsBool="true" />
+        <combo3AttackHomingCancel03 AltName="《Combo action 3 homing cancellation enable setting 3》" IsBool="true" />
+        <combo3AttackHomingCancel04 AltName="《Combo action 3 homing cancellation enable setting 4》" IsBool="true" />
+        <combo3AttackRange01 AltName="《Combo action 3 Walking attack attack range 1》" />
+        <combo3AttackRange02 AltName="《Combo action 3 Walking attack attack range 2》" />
+        <combo3AttackRange03 AltName="《Combo action 3 Walking attack attack range 3》" />
+        <combo3AttackRange04 AltName="《Combo action 3 Walking attack attack range 4》" />
+        <fCombo3AttackBackSwingSpeed01 AltName="《Combo action 3 attack start part speed multiplier 1》" />
+        <fCombo3AttackBackSwingSpeed02 AltName="《Combo action 3 attack start speed multiplier 2》" />
+        <fCombo3AttackBackSwingSpeed03 AltName="《Combo action 3 attack start speed multiplier 3》" />
+        <fCombo3AttackBackSwingSpeed04 AltName="《Combo action 3 attack start speed multiplier 4》" />
+        <fCombo3AttackFollowSwingSpeed01 AltName="《Combo action 3 attack end speed multiplier 1》" />
+        <fCombo3AttackFollowSwingSpeed02 AltName="《Combo action 3 attack end speed multiplier 2》" />
+        <fCombo3AttackFollowSwingSpeed03 AltName="《Combo action 3 attack end speed multiplier 3》" />
+        <fCombo3AttackFollowSwingSpeed04 AltName="《Combo action 3 attack end speed multiplier 4》" />
+        <fCombo3EstimateFutureTime01 AltName="《Combo action 3 Position prediction time 1》" />
+        <fCombo3EstimateFutureTime02 AltName="《Combo action 3 Position prediction time 2》" />
+        <fCombo3EstimateFutureTime03 AltName="《Combo action 3 Position prediction time 3》" />
+        <fCombo3EstimateFutureTime04 AltName="《Combo action 3 Position prediction time 4》" />
+        <combo3AttackAngle01 AltName="《Combo action 3 Angle correction 1[deg]》" />
+        <combo3AttackAngle02 AltName="《Combo action 3 Angle correction 2 [deg]》" />
+        <combo3AttackAngle03 AltName="《Combo action 3 Angle correction 3 [deg]》" />
+        <combo3AttackAngle04 AltName="《Combo action 3 Angle correction 4 [deg]》" />
+        <fCombo3AttackRotateHigh01 AltName="《Combo action 3 turning interpolation start distance 1 [m]》" />
+        <fCombo3AttackRotateHigh02 AltName="《Combo action 3 Turn interpolation start distance 2 [m]》" />
+        <fCombo3AttackRotateHigh03 AltName="《Combo action 3 Turn interpolation start distance 3 [m]》" />
+        <fCombo3AttackRotateHigh04 AltName="《Combo action 3 turning interpolation start distance 4 [m]》" />
+        <fCombo3AttackRotateLow01 AltName="《Combo action 3 Turn interpolation end distance 1 [m]》" />
+        <fCombo3AttackRotateLow02 AltName="《Combo action 3 Turn interpolation end distance 2 [m]》" />
+        <fCombo3AttackRotateLow03 AltName="《Combo action 3 Turn interpolation end distance 3 [m]》" />
+        <fCombo3AttackRotateLow04 AltName="《Combo action 3 Turn interpolation end distance 4 [m]》" />
+        <combo3AttackHand01 AltName="《Combo action 3 Attacker 1》" />
+        <combo3AttackHand02 AltName="《Combo action 3 Attacker 2》" />
+        <combo3AttackHand03 AltName="《Combo action 3 Attacker 3》" />
+        <combo3AttackHand04 AltName="《Combo action 3 Attacker 4》" />
+        <combo3AttackChantSfx AltName="《Combo action 3 chanting SFX》" Refs="EnemyShotSfxParam" />
+        <combo3Reload AltName="《Combo action 3 reload time [sec]》" />
+        <pad03 AltName="Reservation" Padding="true" />
+        <combo4AttackMotionId AltName="《Combo Action 4 Combo 1st Stage》" />
+        <combo4ComboAttackRoute1 AltName="《Combo action 4 combo second stage》" Enum="COMBO_ROUTE_TYPE" />
+        <combo4ComboAttackRoute2 AltName="《Combo action 4 combo third stage》" Enum="COMBO_ROUTE_TYPE" />
+        <combo4ComboAttackRoute3 AltName="《Combo action 4 combo 4th stage》" Enum="COMBO_ROUTE_TYPE" />
+        <combo4BladeCtrlType AltName="《Combo Action 4 Proximity Control Type》" ProjectEnum="BLADE_CTRL_TYPE" />
+        <combo4AttackId01 AltName="《Combo action 4 attack ID 1》" />
+        <combo4AttackId02 AltName="《Combo action 4 attack ID 2》" />
+        <combo4AttackId03 AltName="《Combo action 4 attack ID3》" />
+        <combo4AttackId04 AltName="《Combo action 4 attack ID 4》" />
+        <combo4BulletId01 AltName="《Combo action 4 Bullet ID1》" />
+        <combo4BulletId02 AltName="《Combo action 4 Bullet ID2》" />
+        <combo4BulletId03 AltName="《Combo action 4 Bullet ID3》" />
+        <combo4BulletId04 AltName="《Combo action 4 Bullet ID4》" />
+        <combo4ShtoStanceTime01 AltName="《Combo action 4 shooting stance time 1》" />
+        <combo4ShtoStanceTime02 AltName="《Combo action 4 shooting stance time 2》" />
+        <combo4ShtoStanceTime03 AltName="《Combo action 4 shooting stance time 3》" />
+        <combo4ShtoStanceTime04 AltName="《Combo action 4 Shooting stance time 4》" />
+        <combo4NonInterruptibleType01 AltName="《Combo action 4 non-interruptible type 1》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <combo4NonInterruptibleType02 AltName="《Combo action 4 non-interruptible type 2》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <combo4NonInterruptibleType03 AltName="《Combo action 4 non-interruptible type 3》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <combo4NonInterruptibleType04 AltName="《Combo action 4 non-interruptible type 4》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <combo4AttackMoveId01 AltName="《Combo action 4 Walking attack ID1》" Refs="EnemyAttackMoveParam" />
+        <combo4AttackMoveId02 AltName="《Combo action 4 Walking attack ID 2》" Refs="EnemyAttackMoveParam" />
+        <combo4AttackMoveId03 AltName="《Combo Action 4 Walking Attack ID3》" Refs="EnemyAttackMoveParam" />
+        <combo4AttackMoveId04 AltName="《Combo action 4 Walking attack ID 4》" Refs="EnemyAttackMoveParam" />
+        <combo4AttackHomingCancel01 AltName="《Combo action 4 homing cancellation enable setting 1》" IsBool="true" />
+        <combo4AttackHomingCancel02 AltName="《Combo action 4 homing cancellation enable setting 2》" IsBool="true" />
+        <combo4AttackHomingCancel03 AltName="《Combo action 4 homing cancellation enable setting 3》" IsBool="true" />
+        <combo4AttackHomingCancel04 AltName="《Combo action 4 homing cancellation enable setting 4》" IsBool="true" />
+        <combo4AttackRange01 AltName="《Combo action 4 Walking attack attack range 1》" />
+        <combo4AttackRange02 AltName="《Combo action 4 Walking attack attack range 2》" />
+        <combo4AttackRange03 AltName="《Combo action 4 Walking attack attack range 3》" />
+        <combo4AttackRange04 AltName="《Combo action 4 Walking attack attack range 4》" />
+        <fCombo4AttackBackSwingSpeed01 AltName="《Combo action 4 attack start part speed multiplier 1》" />
+        <fCombo4AttackBackSwingSpeed02 AltName="《Combo action 4 attack start speed multiplier 2》" />
+        <fCombo4AttackBackSwingSpeed03 AltName="《Combo action 4 attack start part speed multiplier 3》" />
+        <fCombo4AttackBackSwingSpeed04 AltName="《Combo action 4 attack start speed multiplier 4》" />
+        <fCombo4AttackFollowSwingSpeed01 AltName="《Combo action 4 attack end speed multiplier 1》" />
+        <fCombo4AttackFollowSwingSpeed02 AltName="《Combo action 4 attack end speed multiplier 2》" />
+        <fCombo4AttackFollowSwingSpeed03 AltName="《Combo action 4 attack end speed multiplier 3》" />
+        <fCombo4AttackFollowSwingSpeed04 AltName="《Combo action 4 attack end speed multiplier 4》" />
+        <fCombo4EstimateFutureTime01 AltName="《Combo action 4 Position prediction time 1》" />
+        <fCombo4EstimateFutureTime02 AltName="《Combo action 4 Position prediction time 2》" />
+        <fCombo4EstimateFutureTime03 AltName="《Combo action 4 Position prediction time 3》" />
+        <fCombo4EstimateFutureTime04 AltName="《Combo action 4 Position prediction time 4》" />
+        <combo4AttackAngle01 AltName="《Combo action 4 Angle correction 1 [deg]》" />
+        <combo4AttackAngle02 AltName="《Combo action 4 Angle correction 2[deg]》" />
+        <combo4AttackAngle03 AltName="《Combo action 4 Angle correction 3 [deg]》" />
+        <combo4AttackAngle04 AltName="《Combo action 4 Angle correction 4 [deg]》" />
+        <fCombo4AttackRotateHigh01 AltName="《Combo action 4 Turn interpolation start distance 1 [m]》" />
+        <fCombo4AttackRotateHigh02 AltName="《Combo action 4 Turn interpolation start distance 2 [m]》" />
+        <fCombo4AttackRotateHigh03 AltName="《Combo action 4 Turn interpolation start distance 3 [m]》" />
+        <fCombo4AttackRotateHigh04 AltName="《Combo action 4 Turn interpolation start distance 4 [m]》" />
+        <fCombo4AttackRotateLow01 AltName="《Combo action 4 Turn interpolation end distance 1 [m]》" />
+        <fCombo4AttackRotateLow02 AltName="《Combo action 4 Turn interpolation end distance 2 [m]》" />
+        <fCombo4AttackRotateLow03 AltName="《Combo action 4 Turn interpolation end distance 3 [m]》" />
+        <fCombo4AttackRotateLow04 AltName="《Combo action 4 Turn interpolation end distance 4 [m]》" />
+        <combo4AttackHand01 AltName="《Combo action 4 Attacker 1》" />
+        <combo4AttackHand02 AltName="《Combo action 4 Attacker 2》" />
+        <combo4AttackHand03 AltName="《Combo action 4 Attacker 3》" />
+        <combo4AttackHand04 AltName="《Combo action 4 Attacker 4》" />
+        <combo4AttackChantSfx AltName="《Combo action 4 chanting SFX》" Refs="EnemyShotSfxParam" />
+        <combo4Reload AltName="《Combo action 4 reload time [sec]》" />
+        <pad04 AltName="Reservation" Padding="true" />
+        <combo5AttackMotionId AltName="《Combo Action 5 Combo 1st Stage》" />
+        <combo5ComboAttackRoute1 AltName="《Combo action 5 combo second stage》" Enum="COMBO_ROUTE_TYPE" />
+        <combo5ComboAttackRoute2 AltName="《Combo action 5 combo third stage》" Enum="COMBO_ROUTE_TYPE" />
+        <combo5ComboAttackRoute3 AltName="《Combo action 5 combo 4th stage》" Enum="COMBO_ROUTE_TYPE" />
+        <combo5BladeCtrlType AltName="《Combo Action 5 Proximity Control Type》" ProjectEnum="BLADE_CTRL_TYPE" />
+        <combo5AttackId01 AltName="《Combo action 5 attack ID 1》" />
+        <combo5AttackId02 AltName="《Combo action 5 attack ID 2》" />
+        <combo5AttackId03 AltName="《Combo action 5 attack ID3》" />
+        <combo5AttackId04 AltName="《Combo action 5 attack ID 4》" />
+        <combo5BulletId01 AltName="《Combo action 5 Bullet ID1》" />
+        <combo5BulletId02 AltName="《Combo action 5 Bullet ID2》" />
+        <combo5BulletId03 AltName="《Combo action 5 Bullet ID3》" />
+        <combo5BulletId04 AltName="《Combo action 5 Bullet ID4》" />
+        <combo5ShtoStanceTime01 AltName="《Combo action 5 shooting stance time 1》" />
+        <combo5ShtoStanceTime02 AltName="《Combo action 5 shooting stance time 2》" />
+        <combo5ShtoStanceTime03 AltName="《Combo action 5 shooting stance time 3》" />
+        <combo5ShtoStanceTime04 AltName="《Combo action 5 Shooting stance time 4》" />
+        <combo5NonInterruptibleType01 AltName="《Combo action 5 non-interruptible type 1》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <combo5NonInterruptibleType02 AltName="《Combo action 5 non-interruptible type 2》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <combo5NonInterruptibleType03 AltName="《Combo action 5 non-interruptible type 3》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <combo5NonInterruptibleType04 AltName="《Combo action 5 non-interruptible type 4》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <combo5AttackMoveId01 AltName="《Combo action 5 Walking attack ID 1》" Refs="EnemyAttackMoveParam" />
+        <combo5AttackMoveId02 AltName="《Combo action 5 Walking attack ID 2》" Refs="EnemyAttackMoveParam" />
+        <combo5AttackMoveId03 AltName="《Combo Action 5 Walking Attack ID3》" Refs="EnemyAttackMoveParam" />
+        <combo5AttackMoveId04 AltName="《Combo action 5 Walking attack ID 4》" Refs="EnemyAttackMoveParam" />
+        <combo5AttackHomingCancel01 AltName="《Combo action 5 homing cancellation enable setting 1》" IsBool="true" />
+        <combo5AttackHomingCancel02 AltName="《Combo action 5 homing cancellation enable setting 2》" IsBool="true" />
+        <combo5AttackHomingCancel03 AltName="《Combo action 5 homing cancellation enable setting 3》" IsBool="true" />
+        <combo5AttackHomingCancel04 AltName="《Combo action 5 homing cancellation enable setting 4》" IsBool="true" />
+        <combo5AttackRange01 AltName="《Combo action 5 Walking attack attack range 1》" />
+        <combo5AttackRange02 AltName="《Combo action 5 Walking attack attack range 2》" />
+        <combo5AttackRange03 AltName="《Combo action 5 Walking attack attack range 3》" />
+        <combo5AttackRange04 AltName="《Combo action 5 Walking attack attack range 4》" />
+        <fCombo5AttackBackSwingSpeed01 AltName="《Combo action 5 attack start speed multiplier 1》" />
+        <fCombo5AttackBackSwingSpeed02 AltName="《Combo action 5 attack start speed multiplier 2》" />
+        <fCombo5AttackBackSwingSpeed03 AltName="《Combo action 5 attack starting part speed multiplier 3》" />
+        <fCombo5AttackBackSwingSpeed04 AltName="《Combo action 5 attack start speed multiplier 4》" />
+        <fCombo5AttackFollowSwingSpeed01 AltName="《Combo action 5 attack end speed multiplier 1》" />
+        <fCombo5AttackFollowSwingSpeed02 AltName="《Combo action 5 attack end speed multiplier 2》" />
+        <fCombo5AttackFollowSwingSpeed03 AltName="《Combo action 5 attack end speed multiplier 3》" />
+        <fCombo5AttackFollowSwingSpeed04 AltName="《Combo action 5 attack end speed multiplier 4》" />
+        <fCombo5EstimateFutureTime01 AltName="《Combo action 5 Position prediction time 1》" />
+        <fCombo5EstimateFutureTime02 AltName="《Combo action 5 Position prediction time 2》" />
+        <fCombo5EstimateFutureTime03 AltName="《Combo action 5 Position prediction time 3》" />
+        <fCombo5EstimateFutureTime04 AltName="《Combo action 5 Position prediction time 4》" />
+        <combo5AttackAngle01 AltName="《Combo action 5 Angle correction 1 [deg]》" />
+        <combo5AttackAngle02 AltName="《Combo action 5 Angle correction 2 [deg]》" />
+        <combo5AttackAngle03 AltName="《Combo action 5 Angle correction 3 [deg]》" />
+        <combo5AttackAngle04 AltName="《Combo action 5 Angle correction 4 [deg]》" />
+        <fCombo5AttackRotateHigh01 AltName="《Combo action 5 Turn interpolation start distance 1 [m]》" />
+        <fCombo5AttackRotateHigh02 AltName="《Combo action 5 Turn interpolation start distance 2 [m]》" />
+        <fCombo5AttackRotateHigh03 AltName="《Combo action 5 Turn interpolation start distance 3 [m]》" />
+        <fCombo5AttackRotateHigh04 AltName="《Combo action 5 Turn interpolation start distance 4 [m]》" />
+        <fCombo5AttackRotateLow01 AltName="《Combo action 5 Turn interpolation end distance 1 [m]》" />
+        <fCombo5AttackRotateLow02 AltName="《Combo action 5 Turn interpolation end distance 2 [m]》" />
+        <fCombo5AttackRotateLow03 AltName="《Combo action 5 Turn interpolation end distance 3 [m]》" />
+        <fCombo5AttackRotateLow04 AltName="《Combo action 5 Turn interpolation end distance 4 [m]》" />
+        <combo5AttackHand01 AltName="《Combo action 5 Attacker 1》" />
+        <combo5AttackHand02 AltName="《Combo action 5 Attacker 2》" />
+        <combo5AttackHand03 AltName="《Combo action 5 Attacker 3》" />
+        <combo5AttackHand04 AltName="《Combo action 5 Attacker 4》" />
+        <combo5AttackChantSfx AltName="《Combo Action 5 Chanting SFX》" Refs="EnemyShotSfxParam" />
+        <combo5Reload AltName="《Combo action 5 reload time [sec]》" />
+        <pad05 AltName="Reservation" Padding="true" />
+        <combo6AttackMotionId AltName="《Combo Action 6 Combo 1st Stage》" />
+        <combo6ComboAttackRoute1 AltName="《Combo action 6 combo second stage》" Enum="COMBO_ROUTE_TYPE" />
+        <combo6ComboAttackRoute2 AltName="《Combo action 6 combo third stage》" Enum="COMBO_ROUTE_TYPE" />
+        <combo6ComboAttackRoute3 AltName="《Combo action 6 combo 4th stage》" Enum="COMBO_ROUTE_TYPE" />
+        <combo6BladeCtrlType AltName="《Combo action 6 Proximity control type》" ProjectEnum="BLADE_CTRL_TYPE" />
+        <combo6AttackId01 AltName="《Combo action 6 attack ID 1》" />
+        <combo6AttackId02 AltName="《Combo action 6 attack ID2》" />
+        <combo6AttackId03 AltName="《Combo action 6 attack ID3》" />
+        <combo6AttackId04 AltName="《Combo action 6 attack ID 4》" />
+        <combo6BulletId01 AltName="《Combo action 6 Bullet ID1》" />
+        <combo6BulletId02 AltName="《Combo action 6 Bullet ID2》" />
+        <combo6BulletId03 AltName="《Combo action 6 Bullet ID3》" />
+        <combo6BulletId04 AltName="《Combo action 6 Bullet ID4》" />
+        <combo6ShtoStanceTime01 AltName="《Combo action 6 shooting stance time 1》" />
+        <combo6ShtoStanceTime02 AltName="《Combo action 6 shooting stance time 2》" />
+        <combo6ShtoStanceTime03 AltName="《Combo action 6 shooting stance time 3》" />
+        <combo6ShtoStanceTime04 AltName="《Combo action 6 Shooting stance time 4》" />
+        <combo6NonInterruptibleType01 AltName="《Combo action 6 non-interruptible type 1》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <combo6NonInterruptibleType02 AltName="《Combo action 6 non-interruptible type 2》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <combo6NonInterruptibleType03 AltName="《Combo action 6 non-interruptible type 3》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <combo6NonInterruptibleType04 AltName="《Combo action 6 non-interruptible type 4》" ProjectEnum="NON_INTERRUPTIBLE_TYPE" />
+        <combo6AttackMoveId01 AltName="《Combo action 6 Walking attack ID1》" Refs="EnemyAttackMoveParam" />
+        <combo6AttackMoveId02 AltName="《Combo action 6 Walking attack ID2》" Refs="EnemyAttackMoveParam" />
+        <combo6AttackMoveId03 AltName="《Combo Action 6 Walking Attack ID3》" Refs="EnemyAttackMoveParam" />
+        <combo6AttackMoveId04 AltName="《Combo action 6 Walking attack ID 4》" Refs="EnemyAttackMoveParam" />
+        <combo6AttackHomingCancel01 AltName="《Combo action 6 homing cancellation enable setting 1》" IsBool="true" />
+        <combo6AttackHomingCancel02 AltName="《Combo action 6 homing cancellation enable setting 2》" IsBool="true" />
+        <combo6AttackHomingCancel03 AltName="《Combo action 6 homing cancellation enable setting 3》" IsBool="true" />
+        <combo6AttackHomingCancel04 AltName="《Combo action 6 homing cancellation enable setting 4》" IsBool="true" />
+        <combo6AttackRange01 AltName="《Combo action 6 Walking attack attack range 1》" />
+        <combo6AttackRange02 AltName="《Combo action 6 Walking attack attack range 2》" />
+        <combo6AttackRange03 AltName="《Combo action 6 Walking attack attack range 3》" />
+        <combo6AttackRange04 AltName="《Combo action 6 Walking attack attack range 4》" />
+        <fCombo6AttackBackSwingSpeed01 AltName="《Combo action 6 attack start part speed multiplier 1》" />
+        <fCombo6AttackBackSwingSpeed02 AltName="《Combo action 6 attack start speed multiplier 2》" />
+        <fCombo6AttackBackSwingSpeed03 AltName="《Combo action 6 attack start part speed multiplier 3》" />
+        <fCombo6AttackBackSwingSpeed04 AltName="《Combo action 6 attack start speed multiplier 4》" />
+        <fCombo6AttackFollowSwingSpeed01 AltName="《Combo action 6 attack end speed multiplier 1》" />
+        <fCombo6AttackFollowSwingSpeed02 AltName="《Combo action 6 attack end speed multiplier 2》" />
+        <fCombo6AttackFollowSwingSpeed03 AltName="《Combo action 6 attack end speed multiplier 3》" />
+        <fCombo6AttackFollowSwingSpeed04 AltName="《Combo action 6 attack end speed multiplier 4》" />
+        <fCombo6EstimateFutureTime01 AltName="《Combo action 6 Position prediction time 1》" />
+        <fCombo6EstimateFutureTime02 AltName="《Combo action 6 Position prediction time 2》" />
+        <fCombo6EstimateFutureTime03 AltName="《Combo action 6 Position prediction time 3》" />
+        <fCombo6EstimateFutureTime04 AltName="《Combo action 6 Position prediction time 4》" />
+        <combo6AttackAngle01 AltName="《Combo action 6 Angle correction 1[deg]》" />
+        <combo6AttackAngle02 AltName="《Combo action 6 Angle correction 2[deg]》" />
+        <combo6AttackAngle03 AltName="《Combo action 6 Angle correction 3 [deg]》" />
+        <combo6AttackAngle04 AltName="《Combo action 6 Angle correction 4 [deg]》" />
+        <fCombo6AttackRotateHigh01 AltName="《Combo action 6 Turn interpolation start distance 1 [m]》" />
+        <fCombo6AttackRotateHigh02 AltName="《Combo action 6 Turn interpolation start distance 2 [m]》" />
+        <fCombo6AttackRotateHigh03 AltName="《Combo action 6 Turn interpolation start distance 3 [m]》" />
+        <fCombo6AttackRotateHigh04 AltName="《Combo action 6 Turn interpolation start distance 4 [m]》" />
+        <fCombo6AttackRotateLow01 AltName="《Combo action 6 Turn interpolation end distance 1 [m]》" />
+        <fCombo6AttackRotateLow02 AltName="《Combo action 6 Turn interpolation end distance 2 [m]》" />
+        <fCombo6AttackRotateLow03 AltName="《Combo action 6 Turn interpolation end distance 3 [m]》" />
+        <fCombo6AttackRotateLow04 AltName="《Combo action 6 Turn interpolation end distance 4 [m]》" />
+        <combo6AttackHand01 AltName="《Combo action 6 Attacker 1》" />
+        <combo6AttackHand02 AltName="《Combo action 6 Attacker 2》" />
+        <combo6AttackHand03 AltName="《Combo action 6 Attacker 3》" />
+        <combo6AttackHand04 AltName="《Combo action 6 Attacker 4》" />
+        <combo6AttackChantSfx AltName="《Combo action 6 chanting SFX》" Refs="EnemyShotSfxParam" />
+        <combo6Reload AltName="《Combo action 6 reload time [sec]》" />
+        <pad06 AltName="Reservation" Padding="true" />
+    </Field>
+    <Enums>
+        <Enum Name="COMBO_ROUTE_TYPE" type="u8">
+            <Option Value="1" Name="Root" />
+            <Option Value="3" Name="Derivation 1" />
+            <Option Value="5" Name="Derivation 2" />
+        </Enum>
+    </Enums>
+</PARAMMETA>

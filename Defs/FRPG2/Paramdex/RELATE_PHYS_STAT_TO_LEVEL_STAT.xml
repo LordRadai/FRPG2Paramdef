@@ -1,0 +1,276 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>RELATE_PHYS_STAT_TO_LEVEL_STAT</ParamType>
+    <DataVersion>6</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="s8 spellSlot">
+            <DisplayName>Spell slot</DisplayName>
+            <Enum>LevelStatTypes</Enum>
+            <Maximum>11</Maximum>
+            <Increment>1</Increment>
+            <SortID>310</SortID>
+        </Field>
+        <Field Def="s8 spellUsesLevel">
+            <DisplayName>Spell usage level</DisplayName>
+            <Enum>LevelStatTypes</Enum>
+            <Maximum>11</Maximum>
+            <Increment>1</Increment>
+            <SortID>330</SortID>
+        </Field>
+        <Field Def="s8 hpMax">
+            <DisplayName>Max HP</DisplayName>
+            <Enum>LevelStatTypes</Enum>
+            <Maximum>11</Maximum>
+            <Increment>1</Increment>
+            <SortID>100</SortID>
+        </Field>
+        <Field Def="s8 staminaMax">
+            <DisplayName>Stamina</DisplayName>
+            <Enum>LevelStatTypes</Enum>
+            <Maximum>11</Maximum>
+            <Increment>1</Increment>
+            <SortID>300</SortID>
+        </Field>
+        <Field Def="s8 equipLoadMax">
+            <DisplayName>Equipment weight</DisplayName>
+            <Enum>LevelStatTypes</Enum>
+            <Maximum>11</Maximum>
+            <Increment>1</Increment>
+            <SortID>200</SortID>
+        </Field>
+        <Field Def="s8 physicalAttackByStrength">
+            <DisplayName>Strength Physical attack power</DisplayName>
+            <Enum>LevelStatTypes</Enum>
+            <Maximum>11</Maximum>
+            <Increment>1</Increment>
+            <SortID>400</SortID>
+        </Field>
+        <Field Def="s8 physicalAttackByDexterity">
+            <DisplayName>Skill Physical attack power</DisplayName>
+            <Enum>LevelStatTypes</Enum>
+            <Maximum>11</Maximum>
+            <Increment>1</Increment>
+            <SortID>500</SortID>
+        </Field>
+        <Field Def="s8 magicAttack">
+            <DisplayName>Magic attack power</DisplayName>
+            <Enum>LevelStatTypes</Enum>
+            <Maximum>11</Maximum>
+            <Increment>1</Increment>
+            <SortID>600</SortID>
+        </Field>
+        <Field Def="s8 flameAttack">
+            <DisplayName>Flame attack power</DisplayName>
+            <Enum>LevelStatTypes</Enum>
+            <Maximum>11</Maximum>
+            <Increment>1</Increment>
+            <SortID>600</SortID>
+        </Field>
+        <Field Def="s8 lightningAttack">
+            <DisplayName>Lightning attack power</DisplayName>
+            <Enum>LevelStatTypes</Enum>
+            <Maximum>11</Maximum>
+            <Increment>1</Increment>
+            <SortID>700</SortID>
+        </Field>
+        <Field Def="s8 darkAttack">
+            <DisplayName>Darkness attack power</DisplayName>
+            <Enum>LevelStatTypes</Enum>
+            <Maximum>11</Maximum>
+            <Increment>1</Increment>
+            <SortID>700</SortID>
+        </Field>
+        <Field Def="s8 weaponBreakAdditionalEffect">
+            <DisplayName>Weapon destruction additional effect attack power</DisplayName>
+            <Enum>LevelStatTypes</Enum>
+            <Maximum>11</Maximum>
+            <Increment>1</Increment>
+            <SortID>400</SortID>
+        </Field>
+        <Field Def="s8 bleedingAdditionalEffect">
+            <DisplayName>Bleeding additional effect attack power</DisplayName>
+            <Enum>LevelStatTypes</Enum>
+            <Maximum>11</Maximum>
+            <Increment>1</Increment>
+            <SortID>500</SortID>
+        </Field>
+        <Field Def="s8 poisonAdditionalEffect">
+            <DisplayName>Poison additional effect attack power</DisplayName>
+            <Enum>LevelStatTypes</Enum>
+            <Maximum>11</Maximum>
+            <Increment>1</Increment>
+            <SortID>1050</SortID>
+        </Field>
+        <Field Def="s8 curseAdditionalEffect">
+            <DisplayName>Curse additional effect attack power</DisplayName>
+            <Enum>LevelStatTypes</Enum>
+            <Maximum>11</Maximum>
+            <Increment>1</Increment>
+            <SortID>1050</SortID>
+        </Field>
+        <Field Def="s8 chantingTimeCorrectScale">
+            <DisplayName>Cast time correction magnification</DisplayName>
+            <Enum>LevelStatTypes</Enum>
+            <Maximum>11</Maximum>
+            <Increment>1</Increment>
+            <SortID>320</SortID>
+        </Field>
+        <Field Def="s8 criticalAttackCorrectScale">
+            <DisplayName>Critical correction multiplier</DisplayName>
+            <Enum>LevelStatTypes</Enum>
+            <Maximum>11</Maximum>
+            <Increment>1</Increment>
+            <SortID>1010</SortID>
+        </Field>
+        <Field Def="s8 fluctuationCorrectScaleMin">
+            <DisplayName>Fluctuation correction magnification minimum</DisplayName>
+            <Enum>LevelStatTypes</Enum>
+            <Maximum>11</Maximum>
+            <Increment>1</Increment>
+            <SortID>1020</SortID>
+        </Field>
+        <Field Def="s8 fluctuationCorrectScaleMax">
+            <DisplayName>Fluctuation correction magnification maximum</DisplayName>
+            <Enum>LevelStatTypes</Enum>
+            <Maximum>11</Maximum>
+            <Increment>1</Increment>
+            <SortID>1020</SortID>
+        </Field>
+        <Field Def="s8 weaponBreakResistance">
+            <DisplayName>Weapon destruction resistance value</DisplayName>
+            <Enum>LevelStatTypes</Enum>
+            <Maximum>11</Maximum>
+            <Increment>1</Increment>
+            <SortID>400</SortID>
+        </Field>
+        <Field Def="s8 bleedingResistance">
+            <DisplayName>Bleeding resistance value</DisplayName>
+            <Enum>LevelStatTypes</Enum>
+            <Maximum>11</Maximum>
+            <Increment>1</Increment>
+            <SortID>500</SortID>
+        </Field>
+        <Field Def="s8 poisonResistance">
+            <DisplayName>Poison resistance value</DisplayName>
+            <Enum>LevelStatTypes</Enum>
+            <Maximum>11</Maximum>
+            <Increment>1</Increment>
+            <SortID>1050</SortID>
+        </Field>
+        <Field Def="s8 petrifactionResistance">
+            <DisplayName>Petrification resistance value</DisplayName>
+            <Enum>LevelStatTypes</Enum>
+            <Maximum>11</Maximum>
+            <Increment>1</Increment>
+            <SortID>1050</SortID>
+        </Field>
+        <Field Def="s8 curseResistance">
+            <DisplayName>Curse resistance value</DisplayName>
+            <Enum>LevelStatTypes</Enum>
+            <Maximum>11</Maximum>
+            <Increment>1</Increment>
+            <SortID>1050</SortID>
+        </Field>
+        <Field Def="s8 magicResistance">
+            <DisplayName>Magic resistance</DisplayName>
+            <Enum>LevelStatTypes</Enum>
+            <Maximum>11</Maximum>
+            <Increment>1</Increment>
+            <SortID>600</SortID>
+        </Field>
+        <Field Def="s8 flameResistance">
+            <DisplayName>Flame resistance</DisplayName>
+            <Enum>LevelStatTypes</Enum>
+            <Maximum>11</Maximum>
+            <Increment>1</Increment>
+            <SortID>600</SortID>
+        </Field>
+        <Field Def="s8 lightningResistance">
+            <DisplayName>Lightning resistance</DisplayName>
+            <Enum>LevelStatTypes</Enum>
+            <Maximum>11</Maximum>
+            <Increment>1</Increment>
+            <SortID>700</SortID>
+        </Field>
+        <Field Def="s8 darkResistance">
+            <DisplayName>Darkness resistance</DisplayName>
+            <Enum>LevelStatTypes</Enum>
+            <Maximum>11</Maximum>
+            <Increment>1</Increment>
+            <SortID>700</SortID>
+        </Field>
+        <Field Def="s8 stepInvincibleTimeRate">
+            <DisplayName>Step invincibility time percentage</DisplayName>
+            <Enum>LevelStatTypes</Enum>
+            <Maximum>11</Maximum>
+            <Increment>1</Increment>
+            <SortID>800</SortID>
+        </Field>
+        <Field Def="s8 rollingInvincibleTimeRate">
+            <DisplayName>Rolling invincibility time percentage</DisplayName>
+            <Enum>LevelStatTypes</Enum>
+            <Maximum>11</Maximum>
+            <Increment>1</Increment>
+            <SortID>800</SortID>
+        </Field>
+        <Field Def="s8 jumpInvincibleTimeRate">
+            <DisplayName>Jump invincibility time percentage</DisplayName>
+            <Enum>LevelStatTypes</Enum>
+            <Maximum>11</Maximum>
+            <Increment>1</Increment>
+            <SortID>800</SortID>
+        </Field>
+        <Field Def="s8 changeEquipSpeedScale">
+            <DisplayName>Equipment switching speed multiplier</DisplayName>
+            <Enum>LevelStatTypes</Enum>
+            <Maximum>11</Maximum>
+            <Increment>1</Increment>
+            <SortID>850</SortID>
+        </Field>
+        <Field Def="s8 useItemSpeedScale">
+            <DisplayName>Item use speed multiplier</DisplayName>
+            <Enum>LevelStatTypes</Enum>
+            <Maximum>11</Maximum>
+            <Increment>1</Increment>
+            <SortID>850</SortID>
+        </Field>
+        <Field Def="s8 blockSpeedScale">
+            <DisplayName>Guard stance speed multiplier</DisplayName>
+            <Enum>LevelStatTypes</Enum>
+            <Maximum>11</Maximum>
+            <Increment>1</Increment>
+            <SortID>850</SortID>
+        </Field>
+        <Field Def="s8 defense">
+            <DisplayName>Defense power</DisplayName>
+            <Enum>LevelStatTypes</Enum>
+            <Maximum>11</Maximum>
+            <Increment>1</Increment>
+            <SortID>900</SortID>
+        </Field>
+        <Field Def="s8 itemDropTicketCount">
+            <DisplayName>Item drop ticket number denominator</DisplayName>
+            <Enum>LevelStatTypes</Enum>
+            <Maximum>11</Maximum>
+            <Increment>1</Increment>
+            <SortID>1000</SortID>
+        </Field>
+        <Field Def="s8 misfireChestTrapTicketCount">
+            <DisplayName>Treasure chest trap failure denominator of number of tickets</DisplayName>
+            <Enum>LevelStatTypes</Enum>
+            <Maximum>11</Maximum>
+            <Increment>1</Increment>
+            <SortID>1000</SortID>
+        </Field>
+        <Field Def="s8 criticalTicketCount">
+            <DisplayName>Critical ticket count denominator</DisplayName>
+            <Enum>LevelStatTypes</Enum>
+            <Maximum>11</Maximum>
+            <Increment>1</Increment>
+            <SortID>1010</SortID>
+        </Field>
+    </Fields>
+</PARAMDEF>

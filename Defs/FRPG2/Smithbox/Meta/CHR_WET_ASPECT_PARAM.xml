@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <colorR AltName="R" />
+        <colorG AltName="G" />
+        <colorB AltName="B" />
+        <colorA AltName="A" />
+        <shiness AltName="Override" />
+        <shinessRate AltName="Override rate" />
+        <fresnel AltName="Override" />
+        <fresnelRate AltName="Override rate" />
+    </Field>
+</PARAMMETA>

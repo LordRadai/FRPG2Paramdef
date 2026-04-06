@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <attackType AltName="Attack attribute" ProjectEnum="DAMAGE_ATTACK_TYPE" />
+        <objBreak AltName="OBJ destruction" Enum="DAMAGE_OBJ_BREAK_TYPE" />
+        <armorBreak AltName="Armor disabled" Enum="DAMAGE_ARMOR_BREAK_TYPE" />
+        <guardBreak AltName="Defensive action disabled" Enum="DAMAGE_GUARD_BREAK_TYPE" />
+        <negatePoiseRate AltName="Toughness invalidation rate" />
+        <negateCutDamageRate AltName="Shield cut rate invalidation rate" />
+        <damageWeightType AltName="Weight when attacking" ProjectEnum="CHR_WEIGHT_TYPE" />
+        <damageMotion AltName="Damage motion" Refs="DamageMotionLadderWeightParam, DamageMotionRopeWeightParam, DamageMotionWeightParam" />
+        <deadMotion AltName="Death motion" Refs="DamageDeadMotionWeightParam" />
+        <deadDamageMotion AltName="Damage motion upon death" Refs="DamageMotionLadderWeightParam, DamageMotionRopeWeightParam, DamageMotionWeightParam" />
+        <isInstantDeath AltName="Instant death flag" IsBool="true" />
+        <stun AltName="Fainting value" />
+        <isDamageStaminaAlways AltName="Stamina damage" IsBool="true" />
+        <isHollowOnlyDamage AltName="Death damage" IsBool="true" />
+        <downStiff AltName="Down stiffness time [sec]" />
+        <downStiffShortCut AltName="Down stiffness time reduction time [sec]" />
+        <damageRotateSpeed AltName="Damage rotation speed [deg/sec]" />
+        <blowUpAccel AltName="Blow-off Rising speed [m/sec]" />
+        <blowBrake AltName="Blow-off Stopping acceleration [m/sec^2]" />
+        <lowerDmgStartTimeRate AltName="Lower body damage Crouching time Correction multiplier [x]" />
+        <lowerDmgEndTimeRate AltName="Lower body damage Crouching return time Correction multiplier [x]" />
+        <guardStiffRate AltName="Guard stiffness magnification [x]" />
+        <guardReactionSpeed AltName="Guard recoil speed [m/sec]" />
+        <guardReactionAddRate AltName="Guard recoil additive self-correction magnification [x]" />
+        <guardReactionDecelerationSpeed AltName="Guard reaction deceleration speed [m/sec]" />
+        <guardReactionDecelerationTime AltName="Guard reaction deceleration start time [sec]" />
+        <guardRotationSpeed AltName="Guard turning speed [deg/sec]" />
+        <guardAttackLevelType AltName="Guard guard play level" Enum="GUARD_ATTACK_LEVEL_TYPE" />
+        <isForceLower AltName="Forced lower body damage" IsBool="true" />
+        <objDamage AltName="OBJ damage value" />
+        <objAttackAttr AltName="OBJ attack attribute" Refs="DamageObjAttackAttrParam" />
+        <cameraRumble AltName="Camera noise parameter ID" />
+        <padRumble AltName="Pad vibration parameter ID" />
+        <rumbleTime AltName="Vibration time [sec]" />
+        <rumbleDecStartRange AltName="Vibration damping start distance [m]" />
+        <rumbleDecEndRange AltName="Vibration damping end distance [m]" />
+        <windPriority AltName="Wind: Priority" />
+        <windRadius AltName="Wind: radius [m]" />
+        <windMinSpeed AltName="Wind: Minimum wind force [m/s]" />
+        <windMaxSpeed AltName="Wind: Maximum wind force [m/s]" />
+        <windFrequency AltName="Wind: frequency" />
+        <windGinStartDistance AltName="Wind: Decay start processing" />
+        <windLife AltName="Wind: extended life" />
+        <windCateId AltName="Wind: influence category" Enum="DAMAGE_WIND_CATE_ID" />
+        <staggerTime AltName="Stagger time" />
+        <staggerMoveRate AltName="Stagger movement magnification" />
+        <staggerRotRate AltName="Stagger turning magnification" />
+        <damageMotionWeightDisable AltName="Weight calculation disabled" IsBool="true" />
+        <headShotDisable AltName="Headshot disable setting" IsBool="true" />
+        <isWet AltName="Get wet" IsBool="true" />
+        <damageImpactPowerType AltName="Damage impact force type" Enum="DAMAGE_IMPACT_POWER_TYPE" />
+        <wetId AltName="Wet category" Refs="ChrWetParam" />
+        <pushBackRate AltName="Pushback reflection ratio [times]" />
+        <poiseDamage AltName="Toughness cutting value" />
+        <damageDistDecrementStart AltName="Damage falloff distance start" />
+        <damageDistDecrementEnd AltName="Damage falloff distance End" />
+        <damageDecrementHpMaxRate AltName="Damage value Maximum attenuation factor" />
+        <damageDecrementStaminaMaxRate AltName="Stamina taken maximum attenuation multiplier" />
+        <damageDecrementStunMaxRate AltName="Faint value Maximum attenuation factor" />
+        <damageDecrementPoiseMaxRate AltName="Tough cutting value Maximum damping magnification" />
+        <damageDecrementKnockBackMaxRate AltName="Knockback distance Maximum attenuation factor" />
+    </Field>
+    <Enums>
+        <Enum Name="DAMAGE_OBJ_BREAK_TYPE" type="u8">
+            <Option Value="0" Name="None" />
+            <Option Value="1" Name="Valid" />
+        </Enum>
+        <Enum Name="DAMAGE_ARMOR_BREAK_TYPE" type="u8">
+            <Option Value="0" Name="None" />
+            <Option Value="1" Name="Toughness disabled" />
+            <Option Value="2" Name="Hyper armor disabled" />
+        </Enum>
+        <Enum Name="DAMAGE_GUARD_BREAK_TYPE" type="u8">
+            <Option Value="0" Name="None" />
+            <Option Value="1" Name="Parry invalid" />
+            <Option Value="2" Name="Guard disabled" />
+            <Option Value="3" Name="Parry, guard invalid" />
+        </Enum>
+        <Enum Name="GUARD_ATTACK_LEVEL_TYPE" type="u8">
+            <Option Value="0" Name="Extremely small" />
+            <Option Value="1" Name="小" />
+            <Option Value="2" Name="中" />
+            <Option Value="3" Name="大" />
+            <Option Value="4" Name="Extra large" />
+            <Option Value="5" Name="Extra large" />
+            <Option Value="6" Name="Special" />
+        </Enum>
+        <Enum Name="DAMAGE_WIND_CATE_ID" type="u32">
+            <Option Value="0" Name="Invalid" />
+            <Option Value="3100000" Name="Immunity-Medium-Attack-General purpose" />
+            <Option Value="11100000" Name="General-purpose-Minimum-Attack-General purpose" />
+            <Option Value="12100000" Name="General-purpose-Small-Attack-General purpose" />
+            <Option Value="13100000" Name="General-purpose-Medium-Attack-General purpose" />
+            <Option Value="14100000" Name="General-purpose-Large-Attack-General purpose" />
+            <Option Value="15100000" Name="General Purpose-Extra Large-Attack-General Purpose" />
+            <Option Value="16100000" Name="General Purpose-Extra Large-Attack-General Purpose" />
+            <Option Value="21100000" Name="PC-Tiny-Attack-General Purpose" />
+            <Option Value="22100000" Name="PC-Small-Attack-General Purpose" />
+            <Option Value="23100000" Name="PC-Medium-Attack-General purpose" />
+            <Option Value="24100000" Name="PC-Large-Attack-General" />
+            <Option Value="25100000" Name="PC-Extra Large-Attack-General Purpose" />
+            <Option Value="26100000" Name="PC-Extra Large-Attack-General Purpose" />
+            <Option Value="31100000" Name="Enemy - Minimal - Attack - General purpose" />
+            <Option Value="31200000" Name="Energy - Extremely small - Ground vibration - General purpose" />
+            <Option Value="32100000" Name="Enemy - Small - Attack - General purpose" />
+            <Option Value="32200000" Name="Energy - Small - Ground vibration - General purpose" />
+            <Option Value="33100000" Name="Enemy-Medium-Attack-General" />
+            <Option Value="33200000" Name="Energy-Medium-Ground Vibration-General Purpose" />
+            <Option Value="34100000" Name="Enemy-Large-Attack-General" />
+            <Option Value="34200000" Name="Energy-Large-Ground Vibration-General Purpose" />
+            <Option Value="35100000" Name="Enemy - Extra Large - Attack - General Purpose" />
+            <Option Value="35200000" Name="Enemy - Extra Large - Ground Vibration - General Purpose" />
+            <Option Value="36100000" Name="Enemy - Extra Large - Attack - General Purpose" />
+            <Option Value="36200000" Name="Enemy - Extra Large - Ground Vibration - General Purpose" />
+            <Option Value="41100000" Name="Object - Minimal - Attack - General purpose" />
+            <Option Value="42100000" Name="Object-Small-Attack-General Purpose" />
+            <Option Value="43100000" Name="Object-Medium-Attack-General Purpose" />
+            <Option Value="44100000" Name="Object-Large-Attack-General Purpose" />
+            <Option Value="45100000" Name="Object - Extra Large - Attack - General Purpose" />
+            <Option Value="46100000" Name="Object - Extra Large - Attack - General Purpose" />
+            <Option Value="90000000" Name="Test" />
+        </Enum>
+        <Enum Name="DAMAGE_IMPACT_POWER_TYPE" type="u8">
+            <Option Value="0" Name="None" />
+            <Option Value="1" Name="Extremely small" />
+            <Option Value="2" Name="Small" />
+            <Option Value="3" Name="Medium" />
+            <Option Value="4" Name="Large" />
+            <Option Value="5" Name="Extra large" />
+            <Option Value="6" Name="Extra extra large" />
+        </Enum>
+    </Enums>
+</PARAMMETA>

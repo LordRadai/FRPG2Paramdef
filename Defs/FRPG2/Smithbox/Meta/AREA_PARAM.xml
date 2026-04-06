@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <intrudeEnable AltName="Possibility of intrusion" IsBool="true" />
+        <aReserved AltName="Reservation" Padding="true" />
+        <lockOnId AltName="Normal lock on" />
+        <lockOnIdDark AltName="Darkness lock on" />
+        <lockOnIdTorch AltName="Light source lock on" />
+        <isPriorityLockOnIdTorch AltName="External light source top priority" IsBool="true" />
+        <isAbyss AltName="Is it an abyss?" IsBool="true" />
+        <waterMaterial AltName="Water surface material" />
+        <aReserved1 AltName="Reservation" Padding="true" />
+        <cameraId AltName="Camera settings" />
+        <playerLightSfxId AltName="Player light source SFXID" />
+        <logicSoundDistance AltName="Sound range" />
+        <staminaCostScaleDash AltName="Stamina consumption correction magnification dash" />
+        <fallWaterSfxId AltName="Underwater fall SFXID" />
+        <chameleonEnableRare AltName="Mimic object 1 rare designation" IsBool="true" />
+        <chameleonWeight1 AltName="Mimic object weight 1" />
+        <chameleonWeight2 AltName="Mimic object weight 2" />
+        <chameleonWeight3 AltName="Mimic object weight 3" />
+        <chameleonWeight4 AltName="Mimic object weight 4" />
+        <chameleonWeight5 AltName="Mimic object weight 5" />
+        <aReserved2 AltName="Reservation" Padding="true" />
+        <chameleonId1 AltName="Mimic object ID1" />
+        <chameleonId2 AltName="Mimic object ID2" />
+        <chameleonId3 AltName="Mimic object ID3" />
+        <chameleonId4 AltName="Mimic object ID4" />
+        <chameleonId5 AltName="Mimic object ID5" />
+        <chameleonAngle1 AltName="Mimic object 1 angle correction" />
+        <chameleonAngle2 AltName="Mimic object 2 angle correction" />
+        <chameleonAngle3 AltName="Mimic object 3 angle correction" />
+        <chameleonAngle4 AltName="Mimic object 4 angle correction" />
+        <chameleonAngle5 AltName="Mimic object 5 angle correction" />
+        <chameleonHeight1 AltName="Mimic object 1 height correction" />
+        <chameleonHeight2 AltName="Mimic object 2 height correction" />
+        <chameleonHeight3 AltName="Mimic object 3 height correction" />
+        <chameleonHeight4 AltName="Mimic object 4 height correction" />
+        <chameleonHeight5 AltName="Mimic object 5 height correction" />
+    </Field>
+</PARAMMETA>

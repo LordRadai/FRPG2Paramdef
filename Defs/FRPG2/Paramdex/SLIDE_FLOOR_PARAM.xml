@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>SLIDE_FLOOR_PARAM</ParamType>
+    <DataVersion>2</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="f32 maxSpeed">
+            <DisplayName>Maximum speed [m/s]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>100</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>1</SortID>
+        </Field>
+        <Field Def="f32 startSpeed">
+            <DisplayName>Initial velocity [m/s]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>100</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>2</SortID>
+        </Field>
+        <Field Def="f32 accel">
+            <DisplayName>Acceleration [m/s^2]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>100</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>3</SortID>
+        </Field>
+        <Field Def="f32 decel">
+            <DisplayName>Deceleration [m/s^2]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>100</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>4</SortID>
+        </Field>
+        <Field Def="f32 slideSpeed">
+            <DisplayName>Slip judgment speed [m/s]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>100</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>5</SortID>
+        </Field>
+    </Fields>
+</PARAMDEF>

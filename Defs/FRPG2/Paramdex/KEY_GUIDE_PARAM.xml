@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>KEY_GUIDE_PARAM</ParamType>
+    <DataVersion>3</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="s32 textId">
+            <DisplayName>Text id</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>100</SortID>
+        </Field>
+        <Field Def="f32 width_radius = 1">
+            <DisplayName>X-axis half length or radius</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>30</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>300</SortID>
+        </Field>
+        <Field Def="f32 height = 1">
+            <DisplayName>Y-axis half length</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>30</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>310</SortID>
+        </Field>
+        <Field Def="f32 depth = 1">
+            <DisplayName>Z axis half length</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>30</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>320</SortID>
+        </Field>
+        <Field Def="f32 depthOffset">
+            <DisplayName>Z-axis offset</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Minimum>-30</Minimum>
+            <Maximum>30</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>400</SortID>
+        </Field>
+        <Field Def="u8 shapeType">
+            <DisplayName>Shape</DisplayName>
+            <Enum>KEY_GUIDE_SHAPE_TYPE</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>200</SortID>
+        </Field>
+        <Field Def="u8 angleType">
+            <DisplayName>Dummy poly direction</DisplayName>
+            <Enum>KEY_GUIDE_ANGLE_TYPE</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>600</SortID>
+        </Field>
+        <Field Def="u8 angleDeg = 180">
+            <DisplayName>Allowable angle</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>180</Maximum>
+            <Increment>1</Increment>
+            <SortID>700</SortID>
+        </Field>
+        <Field Def="u8 bFollow">
+            <DisplayName>Follow</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>800</SortID>
+        </Field>
+        <Field Def="s16 dummyPolyId = 190">
+            <DisplayName>Damipoli ID</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <Minimum>-1</Minimum>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>500</SortID>
+        </Field>
+        <Field Def="u8 bEnableActing">
+            <DisplayName>Can be displayed during action</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>900</SortID>
+        </Field>
+        <Field Def="u8 posAngleDeg = 180">
+            <DisplayName>Position tolerance angle</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>180</Maximum>
+            <Increment>1</Increment>
+            <SortID>750</SortID>
+        </Field>
+    </Fields>
+</PARAMDEF>

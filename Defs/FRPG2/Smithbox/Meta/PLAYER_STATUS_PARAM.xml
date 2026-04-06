@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <genderType AltName="Sex" ProjectEnum="PLAYER_GENDER_TYPE" />
+        <livingType AltName="Life and death" ProjectEnum="PLAYER_HUMAN_CONDITIONS_TYPE" />
+        <bodyType AltName="Body shape" />
+        <pad01 AltName="Padding 01" Padding="true" />
+        <soulLevel AltName="Soul level" />
+        <lifeForceLevel AltName="Vitality" />
+        <soulPoint AltName="Total amount of soul" />
+        <stayingPowerLevel AltName="Endurance" />
+        <attunementLevel AltName="Memory" />
+        <vitalityLevel AltName="Physical strength" />
+        <strengthLevel AltName="Muscle strength" />
+        <dexterityLevel AltName="Skill" />
+        <intelligenceLevel AltName="Reason" />
+        <faithLevel AltName="Faith" />
+        <enduranceLevel AltName="Durability" />
+        <quicknessLevel AltName="Agile" />
+        <luckLevel AltName="Luck" />
+        <facePresetNo AltName="FG face preset number" />
+        <pad00 AltName="Padding 00" Padding="true" />
+        <beltItem01 AltName="Belt slot 01 [Item]" />
+        <beltItem02 AltName="Belt slot 02 [Item]" />
+        <beltItem03 AltName="Belt slot 03 [Item]" />
+        <beltItem04 AltName="Belt slot 04 [Item]" />
+        <beltItem05 AltName="Belt slot 05 [Item]" />
+        <beltItem06 AltName="Belt slot 06 [Item]" />
+        <beltItem07 AltName="Belt slot 07 [Item]" />
+        <beltItem08 AltName="Belt slot 08 [Item]" />
+        <beltItem09 AltName="Belt slot 09 [Item]" />
+        <beltItem10 AltName="Belt slot 10 [item]" />
+        <beltItem01Num AltName="Belt slot .01 [Number of items]" />
+        <beltItem02Num AltName="Belt slot .02 [Number of items]" />
+        <beltItem03Num AltName="Belt slot .03 [Number of items]" />
+        <beltItem04Num AltName="Belt slot .04 [Number of items]" />
+        <beltItem05Num AltName="Belt Slot .05 [Number of Items]" />
+        <beltItem06Num AltName="Belt slot .06 [Number of items]" />
+        <beltItem07Num AltName="Belt slot .07 [Number of items]" />
+        <beltItem08Num AltName="Belt slot .08 [Number of items]" />
+        <beltItem09Num AltName="Belt slot .09 [Number of items]" />
+        <beltItem10Num AltName="Belt slot .10 [Number of items]" />
+        <spellSlotItem01 AltName="Spell slot 01 item" />
+        <spellSlotItem02 AltName="Spell slot 02 item" />
+        <spellSlotItem03 AltName="Spell slot 03 item" />
+        <spellSlotItem04 AltName="Spell slot 04 item" />
+        <spellSlotItem05 AltName="Spell slot 05 items" />
+        <spellSlotItem06 AltName="Spell slot 06 items" />
+        <spellSlotItem07 AltName="Spell slot 07 items" />
+        <spellSlotItem08 AltName="Spell slot 08 items" />
+        <spellSlotItem09 AltName="Spell slot 09 items" />
+        <spellSlotItem10 AltName="Spell slot 10 items" />
+        <rightWeapon01 AltName="Right weapon 01" />
+        <rightWeapon02 AltName="Right weapon 02" />
+        <rightWeapon03 AltName="Right weapon 03" />
+        <leftWeapon01 AltName="Left weapon 01" />
+        <leftWeapon02 AltName="Left weapon 02" />
+        <leftWeapon03 AltName="Left weapon 03" />
+        <headArmor AltName="Head armor" />
+        <bodyArmor AltName="Body armor" />
+        <armArmor AltName="Arm armor" />
+        <legArmor AltName="Foot armor" />
+        <ringSlot01 AltName="Ring 01 ID" />
+        <ringSlot02 AltName="Ring 02 ID" />
+        <ringSlot03 AltName="Ring 03 ID" />
+        <ringSlot04 AltName="Ring 04 ID" />
+        <rightWeapon01Enhanced AltName="Right weapon 01 Enhancement stage" />
+        <rightWeapon01Attribute AltName="Right weapon 01 Attributes given" Enum="PLAYER_EQUIP_ATTRIBUTE_TYPE" />
+        <dummyR1 AltName="Dummy for padding" Padding="true" />
+        <rightWeapon02Enhanced AltName="Right weapon 02 Enhancement stage" />
+        <rightWeapon02Attribute AltName="Right weapon 02 Attributes given" Enum="PLAYER_EQUIP_ATTRIBUTE_TYPE" />
+        <dummyR2 AltName="Dummy for padding" Padding="true" />
+        <rightWeapon03Enhanced AltName="Right weapon 03 Enhancement stage" />
+        <rightWeapon03Attribute AltName="Right weapon 03 Attributes given" Enum="PLAYER_EQUIP_ATTRIBUTE_TYPE" />
+        <dummyR3 AltName="Dummy for padding" Padding="true" />
+        <leftWeapon01Enhanced AltName="Left weapon 01 Enhancement stage" />
+        <leftWeapon01Attribute AltName="Left weapon 01 Attributes given" Enum="PLAYER_EQUIP_ATTRIBUTE_TYPE" />
+        <dummyL1 AltName="Dummy for padding" Padding="true" />
+        <leftWeapon02Enhanced AltName="Left weapon 02 Enhancement stage" />
+        <leftWeapon02Attribute AltName="Left weapon 02 Attributes given" Enum="PLAYER_EQUIP_ATTRIBUTE_TYPE" />
+        <dummyL2 AltName="Dummy for padding" Padding="true" />
+        <leftWeapon03Enhanced AltName="Left weapon 03 Enhancement stage" />
+        <leftWeapon03Attribute AltName="Left weapon 03 Attributes given" Enum="PLAYER_EQUIP_ATTRIBUTE_TYPE" />
+        <dummyL3 AltName="Dummy for padding" Padding="true" />
+        <headArmorEnhanced AltName="Head armor reinforcement stage" />
+        <bodyArmorEnhanced AltName="Body armor reinforcement stage" />
+        <armArmorEnhanced AltName="Arm armor reinforcement stage" />
+        <legArmorEnhanced AltName="Leg armor reinforcement stage" />
+        <bagItemParam01 AltName="Item set 01" />
+        <bagItemParam02 AltName="Item set 02" />
+        <bagItemParam03 AltName="Item set 03" />
+        <estusFlaskLvUsableCount AltName="Est Bottle Enhancement Level Number of Uses" />
+        <estusFlaskLvHealPoint AltName="Est Bottle Enhancement Level Recovery Amount" />
+        <dummy AltName="Dummy for padding" Padding="true" />
+        <arrowSlot01 AltName="Arrow 01 ID" />
+        <arrowSlot02 AltName="Arrow 02 ID" />
+        <boltSlot01 AltName="Bolt 01 ID" />
+        <boltSlot02 AltName="Bolt 02 ID" />
+        <arrowSlot01Num AltName="Arrow 01 number" />
+        <arrowSlot02Num AltName="Number of arrows 02" />
+        <boltSlot01Num AltName="Number of bolts 01" />
+        <boltSlot02Num AltName="Number of bolts 02" />
+        <gestureSlot01 AltName="Gesture 01 ID" />
+        <gestureSlot02 AltName="Gesture 02 ID" />
+        <gestureSlot03 AltName="Gesture 03 ID" />
+        <gestureSlot04 AltName="Gesture 04 ID" />
+        <gestureSlot05 AltName="Gesture 05 ID" />
+        <gestureSlot06 AltName="Gesture 06 ID" />
+        <gestureSlot07 AltName="Gesture 07 ID" />
+        <gestureSlot08 AltName="Gesture 08 ID" />
+        <vowType AltName="Pledge" Refs="VowParam" />
+        <vowLevel AltName="Pledge level" />
+        <vowContribution AltName="Pledged contribution" />
+    </Field>
+    <Enums>
+        <Enum Name="PLAYER_EQUIP_ATTRIBUTE_TYPE" type="u8">
+            <Option Value="0" Name="None" />
+            <Option Value="1" Name="Flame" />
+            <Option Value="2" Name="Magic" />
+            <Option Value="3" Name="Lightning" />
+            <Option Value="4" Name="Darkness" />
+            <Option Value="5" Name="Poison" />
+            <Option Value="6" Name="Bleeding" />
+            <Option Value="7" Name="Crude" />
+            <Option Value="8" Name="Magic power" />
+            <Option Value="9" Name="Abyss" />
+        </Enum>
+    </Enums>
+</PARAMMETA>

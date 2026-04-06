@@ -1,0 +1,267 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>PHYS_STATS_PER_LEVEL_STAT_PARAM</ParamType>
+    <DataVersion>8</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="s16 levelStatusValue">
+            <DisplayName>Level status value</DisplayName>
+            <Maximum>300</Maximum>
+            <Increment>1</Increment>
+            <SortID>1</SortID>
+        </Field>
+        <Field Def="s8 spellSlot">
+            <DisplayName>Spell slot</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>1</Increment>
+            <SortID>310</SortID>
+        </Field>
+        <Field Def="s8 spellUsesLevel = 1">
+            <DisplayName>Spell usage level</DisplayName>
+            <Minimum>1</Minimum>
+            <Maximum>10</Maximum>
+            <Increment>1</Increment>
+            <SortID>330</SortID>
+        </Field>
+        <Field Def="s16 hpMax = 1">
+            <DisplayName>Max HP</DisplayName>
+            <Maximum>9999</Maximum>
+            <Increment>1</Increment>
+            <SortID>100</SortID>
+        </Field>
+        <Field Def="s16 staminaMax">
+            <DisplayName>Stamina</DisplayName>
+            <Maximum>9999</Maximum>
+            <Increment>1</Increment>
+            <SortID>300</SortID>
+        </Field>
+        <Field Def="f32 equipLoadMax">
+            <DisplayName>Equipment weight [kg]</DisplayName>
+            <Maximum>999</Maximum>
+            <Increment>1</Increment>
+            <SortID>200</SortID>
+        </Field>
+        <Field Def="s32 physicalAttackByStrength">
+            <DisplayName>Strength Physical attack power</DisplayName>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>400</SortID>
+        </Field>
+        <Field Def="s32 physicalAttackByDexterity">
+            <DisplayName>Skill Physical attack power</DisplayName>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>500</SortID>
+        </Field>
+        <Field Def="s32 magicAttack">
+            <DisplayName>Magic attack power</DisplayName>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>600</SortID>
+        </Field>
+        <Field Def="s32 flameAttack">
+            <DisplayName>Flame attack power</DisplayName>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>600</SortID>
+        </Field>
+        <Field Def="s32 lightningAttack">
+            <DisplayName>Lightning attack power</DisplayName>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>700</SortID>
+        </Field>
+        <Field Def="s32 darkAttack">
+            <DisplayName>Darkness attack power</DisplayName>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>700</SortID>
+        </Field>
+        <Field Def="s32 weaponBreakAdditionalEffect">
+            <DisplayName>Weapon destruction additional effect attack power</DisplayName>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>400</SortID>
+        </Field>
+        <Field Def="s32 bleedingAdditionalEffect">
+            <DisplayName>Bleeding additional effect attack power</DisplayName>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>500</SortID>
+        </Field>
+        <Field Def="s32 poisonAdditionalEffect">
+            <DisplayName>Poison additional effect attack power</DisplayName>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>1050</SortID>
+        </Field>
+        <Field Def="s32 curseAdditionalEffect">
+            <DisplayName>Curse additional effect attack power</DisplayName>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>1050</SortID>
+        </Field>
+        <Field Def="f32 chantingTimeCorrectScale">
+            <DisplayName>Cast time correction magnification</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>320</SortID>
+        </Field>
+        <Field Def="f32 criticalAttackCorrectScale">
+            <DisplayName>Critical correction multiplier</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>1010</SortID>
+        </Field>
+        <Field Def="f32 fluctuationCorrectScaleMin">
+            <DisplayName>Fluctuation correction magnification minimum</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>1020</SortID>
+        </Field>
+        <Field Def="f32 fluctuationCorrectScaleMax">
+            <DisplayName>Fluctuation correction magnification maximum</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>1020</SortID>
+        </Field>
+        <Field Def="f32 weaponBreakResistance">
+            <DisplayName>Weapon destruction resistance value [%]</DisplayName>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>400</SortID>
+        </Field>
+        <Field Def="f32 bleedingResistance">
+            <DisplayName>Bleeding resistance value [%]</DisplayName>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>500</SortID>
+        </Field>
+        <Field Def="f32 poisonResistance">
+            <DisplayName>Poison resistance value [%]</DisplayName>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>1050</SortID>
+        </Field>
+        <Field Def="f32 petrifactionResistance">
+            <DisplayName>Petrification resistance value [%]</DisplayName>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>1050</SortID>
+        </Field>
+        <Field Def="f32 curseResistance">
+            <DisplayName>Curse resistance value [%]</DisplayName>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>1050</SortID>
+        </Field>
+        <Field Def="f32 magicResistance">
+            <DisplayName>Magic resistance [%]</DisplayName>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>600</SortID>
+        </Field>
+        <Field Def="f32 flameResistance">
+            <DisplayName>Fire resistance [%]</DisplayName>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>600</SortID>
+        </Field>
+        <Field Def="f32 lightningResistance">
+            <DisplayName>Lightning resistance [%]</DisplayName>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>700</SortID>
+        </Field>
+        <Field Def="f32 darkResistance">
+            <DisplayName>Darkness resistance [%]</DisplayName>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>700</SortID>
+        </Field>
+        <Field Def="f32 stepInvincibleTimeRate">
+            <DisplayName>Step invincibility time percentage [%]</DisplayName>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>800</SortID>
+        </Field>
+        <Field Def="f32 rollingInvincibleTimeRate">
+            <DisplayName>Rolling invincibility time percentage [%]</DisplayName>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>800</SortID>
+        </Field>
+        <Field Def="f32 jumpInvincibleTimeRate">
+            <DisplayName>Jump invincibility time percentage [%]</DisplayName>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>800</SortID>
+        </Field>
+        <Field Def="f32 changeEquipSpeedScale">
+            <DisplayName>Equipment switching speed multiplier [x]</DisplayName>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>850</SortID>
+        </Field>
+        <Field Def="f32 useItemSpeedScale">
+            <DisplayName>Item use speed multiplier [x]</DisplayName>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>850</SortID>
+        </Field>
+        <Field Def="f32 blockSpeedScale">
+            <DisplayName>Guard stance speed multiplier [x]</DisplayName>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>850</SortID>
+        </Field>
+        <Field Def="s32 defense">
+            <DisplayName>Defense power</DisplayName>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>900</SortID>
+        </Field>
+        <Field Def="s16 itemDropTicketCount">
+            <DisplayName>Item drop ticket number denominator [tickets]</DisplayName>
+            <Maximum>9999</Maximum>
+            <Increment>1</Increment>
+            <SortID>1000</SortID>
+        </Field>
+        <Field Def="s16 misfireChestTrapTicketCount">
+            <DisplayName>Treasure chest trap failure denominator of number of tickets [tickets]</DisplayName>
+            <Maximum>9999</Maximum>
+            <Increment>1</Increment>
+            <SortID>1000</SortID>
+        </Field>
+        <Field Def="s16 criticalTicketCount">
+            <DisplayName>Critical ticket count denominator [tickets]</DisplayName>
+            <Maximum>9999</Maximum>
+            <Increment>1</Increment>
+            <SortID>1010</SortID>
+        </Field>
+        <Field Def="u8 additionalHp">
+            <DisplayName>Additional maximum HP</DisplayName>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>1200</SortID>
+        </Field>
+        <Field Def="dummy8 dummy1[1]">
+            <DisplayName>Dummy</DisplayName>
+            <SortID>1301</SortID>
+        </Field>
+        <Field Def="s32 physicalAttackByAbyss">
+            <DisplayName>Abyss attack power</DisplayName>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>1100</SortID>
+        </Field>
+        <Field Def="f32 poise">
+            <DisplayName>Toughness</DisplayName>
+            <Maximum>99</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>1300</SortID>
+        </Field>
+    </Fields>
+</PARAMDEF>

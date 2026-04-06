@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <cloth AltName="Cross" IsBool="true" />
+        <model AltName="Grass" IsBool="true" />
+        <obj AltName="Object" IsBool="true" />
+        <sfx AltName="SFX" IsBool="true" />
+        <dmgSfx AltName="Landing SFX" IsBool="true" />
+        <eraseSfx AltName="Transition to erase control when SFX hits" IsBool="true" />
+        <dummy0 AltName="Dummy 0" Padding="true" />
+        <fadeInTime AltName="Fade-in time [sec]" />
+        <fadeOutTime AltName="Fade out time [sec]" />
+    </Field>
+</PARAMMETA>

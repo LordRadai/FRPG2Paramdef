@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <cameraType AltName="Camera behavior type" ProjectEnum="CAMERA_TYPE" />
+        <cameraBasePosType AltName="Camera reference point type" ProjectEnum="CAMERA_BASE_POS_TYPE" />
+        <reserved AltName="Dummy" Padding="true" />
+        <fovY AltName="Angle of view (deg)" />
+        <lookAtOffsetX AltName="Focus (X axis) Offset (m)" />
+        <lookAtOffsetY AltName="Focus (Y axis) Offset (m)" />
+        <lookAtOffsetZ AltName="Focus (Z axis) Offset (m)" />
+        <positionOffsetX AltName="Position (X axis) Offset (m)" />
+        <positionOffsetY AltName="Position (Y axis) Offset (m)" />
+        <positionOffsetZ AltName="Position (Z axis) Offset (m)" />
+        <panSpeedLimitMin AltName="Left and right turning limit speed minimum (rad/s)" />
+        <panSpeedLimitMax AltName="Maximum left and right turning speed limit (rad/s)" />
+        <panSpeedAccelMin AltName="Minimum left and right turning acceleration (rad/s)" />
+        <panSpeedAccelMax AltName="Maximum left and right turning acceleration (rad/s)" />
+        <panSpeedBrakeMin AltName="Left and right turning brake minimum (rad/s)" />
+        <panSpeedBrakeMax AltName="Maximum left and right turning brake (rad/s)" />
+        <tiltSpeedLimitMin AltName="Minimum vertical rotation limit speed (rad/s)" />
+        <tiltSpeedLimitMax AltName="Maximum vertical rotation limit speed (rad/s)" />
+        <tiltSpeedAccelMin AltName="Minimum vertical turning acceleration (rad/s)" />
+        <tiltSpeedAccelMax AltName="Maximum vertical rotation acceleration (rad/s)" />
+        <tiltSpeedBrakeMin AltName="Vertical swing brake minimum (rad/s)" />
+        <tiltSpeedBrakeMax AltName="Maximum vertical rotation brake (rad/s)" />
+        <tiltUpLimit AltName="Upper limit angle (deg)" />
+        <tiltDownLimit AltName="Lower limit angle (deg)" />
+        <startTransType AltName="Interpolation type at the start of switching" ProjectEnum="CAMERA_INTERPOLATE_TYPE" />
+        <endTransType AltName="Interpolation type at end of switching" ProjectEnum="CAMERA_INTERPOLATE_TYPE" />
+        <reserved1 AltName="Dummy" Padding="true" />
+        <startTransTime AltName="Interpolation time at switching start" />
+        <endTransTime AltName="Interpolation time at end of switching" />
+        <lensSimuParamId AltName="Lens simulation parameter ID" />
+    </Field>
+</PARAMMETA>

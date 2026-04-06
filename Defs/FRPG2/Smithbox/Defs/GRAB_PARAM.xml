@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>GRAB_PARAM</ParamType>
+    <DataVersion>10</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="u32 grabAttackDumyPolyId" />
+        <Field Def="u32 grabAttackRotationType" />
+        <Field Def="s32 grabAttackRHandDumyPolyId" />
+        <Field Def="s32 grabAttackLHandDumyPolyId" />
+        <Field Def="s32 grabAttackRRegDumyPolyId" />
+        <Field Def="s32 grabAttackLRegDumyPolyId" />
+        <Field Def="u32 grabDefenseDumyPolyId" />
+        <Field Def="u32 grabDefenseRotationType" />
+        <Field Def="s32 grabDefenseRHandDumyPolyId" />
+        <Field Def="s32 grabDefenseLHandDumyPolyId" />
+        <Field Def="s32 grabDefenseRRegDumyPolyId" />
+        <Field Def="s32 grabDefenseLRegDumyPolyId" />
+        <Field Def="u32 grabAttachType" />
+        <Field Def="u8 grabAttachFollow" />
+        <Field Def="dummy8 dummy2[3]" />
+        <Field Def="u32 grabDirAttachType" />
+        <Field Def="dummy8 dummy1[3]" />
+        <Field Def="u8 grabDirReversal" />
+        <Field Def="f32 grabPosOffsetX" />
+        <Field Def="f32 grabPosOffsetZ" />
+        <Field Def="s32 grabBreakHp" />
+        <Field Def="s32 grabCameraId" />
+        <Field Def="u8 grabCastType" />
+        <Field Def="u8 enableAngleCast" />
+        <Field Def="dummy8 dummy3[2]" />
+        <Field Def="f32 grabRadius" />
+        <Field Def="f32 grabHeight" />
+        <Field Def="f32 grabLength" />
+        <Field Def="f32 grabOffsetX" />
+        <Field Def="f32 grabOffsetY" />
+        <Field Def="f32 grabOffsetZ" />
+        <Field Def="angle32 grabSideAngle" />
+        <Field Def="angle32 grabUpAngle" />
+        <Field Def="angle32 grabDownAngle" />
+        <Field Def="angle32 grabAngleUpDownDiff" />
+        <Field Def="angle32 grabAngleSideDiff" />
+    </Fields>
+</PARAMDEF>

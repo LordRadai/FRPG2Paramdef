@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>GUARD_LEVEL_MOTION_PARAM</ParamType>
+    <DataVersion>1</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="u8 superSmallGuardLevel">
+            <DisplayName>Extremely small</DisplayName>
+            <Enum>GUARD_MOTION_TYPE</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>31</Maximum>
+            <Increment>1</Increment>
+            <SortID>1</SortID>
+        </Field>
+        <Field Def="u8 smallGuardLevel">
+            <DisplayName>Small</DisplayName>
+            <Enum>GUARD_MOTION_TYPE</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>31</Maximum>
+            <Increment>1</Increment>
+            <SortID>2</SortID>
+        </Field>
+        <Field Def="u8 mediumGuardLevel">
+            <DisplayName>Medium</DisplayName>
+            <Enum>GUARD_MOTION_TYPE</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>31</Maximum>
+            <Increment>1</Increment>
+            <SortID>3</SortID>
+        </Field>
+        <Field Def="u8 largeGuardLvel">
+            <DisplayName>Large</DisplayName>
+            <Enum>GUARD_MOTION_TYPE</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>31</Maximum>
+            <Increment>1</Increment>
+            <SortID>4</SortID>
+        </Field>
+        <Field Def="u8 superLargeGuardLevel">
+            <DisplayName>Extra large</DisplayName>
+            <Enum>GUARD_MOTION_TYPE</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>31</Maximum>
+            <Increment>1</Increment>
+            <SortID>5</SortID>
+        </Field>
+        <Field Def="u8 ultraLargeGuardLevel">
+            <DisplayName>Extra large</DisplayName>
+            <Enum>GUARD_MOTION_TYPE</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>31</Maximum>
+            <Increment>1</Increment>
+            <SortID>6</SortID>
+        </Field>
+        <Field Def="u8 flipGuardLevel">
+            <DisplayName>Play</DisplayName>
+            <Enum>GUARD_MOTION_TYPE</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>31</Maximum>
+            <Increment>1</Increment>
+            <SortID>7</SortID>
+        </Field>
+    </Fields>
+</PARAMDEF>

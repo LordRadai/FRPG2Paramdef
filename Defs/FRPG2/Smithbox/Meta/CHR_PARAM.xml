@@ -1,0 +1,211 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <modelId AltName="Model id" />
+        <animId AltName="Anime ID" />
+        <commonId AltName="Common ID" />
+        <moveId AltName="Mobile ID" />
+        <npcStatusId AltName="NPC status ID" />
+        <groupType AltName="Affiliation setting" Enum="CHR_GROUP_TYPE" />
+        <categoryType AltName="Character category" Enum="CHR_CATEGORY_TYPE" />
+        <materialType AltName="Body material" Refs="MaterialParam" />
+        <visualType AltName="Appearance" ProjectEnum="CHR_VISUAL_TYPE" />
+        <multiplayParamId AltName="Multiplayer correction ID" />
+        <respawnNum AltName="Number of respawns" />
+        <isUndead AltName="Not die" IsBool="true" />
+        <isRunaway AltName="Escape when falling to death" IsBool="true" />
+        <hitPoint AltName="Physical fitness 1st lap" />
+        <staminaPoint AltName="Stamina value" />
+        <staminaRecoveryValue AltName="Stamina recovery value per second [point/s]" />
+        <staminaLoanMin AltName="Stamina Debt amount minimum" />
+        <staminaLoanMax AltName="Stamina debt amount maximum" />
+        <staminaCostMoveBase AltName="Stamina consumption base value" />
+        <deadType AltName="Death type 1" ProjectEnum="DEAD_TYPE_PARAM_ID" />
+        <deadType02 AltName="Death type 2" ProjectEnum="DEAD_TYPE_PARAM_ID" />
+        <defaultEquipWeapon AltName="Initial equipment" Enum="ENEMY_WEAPON_TYPE" />
+        <equipWeaponAId00 AltName="Possession Equipment Equipment 1 Weapon ID" />
+        <equipWeaponAId01 AltName="Possession Equipment Equipment 2 Weapon ID" />
+        <equipWeaponAId02 AltName="Possession Equipment Equipment 3 Weapon ID" />
+        <equipWeaponAId03 AltName="Possessed Equipment Equipment 4 Weapon ID" />
+        <equipWeaponAId04 AltName="Possession Equipment Equipment 5 Weapon ID" />
+        <equipWeaponAId05 AltName="Possession Equipment Equipment 6 Weapon ID" />
+        <equipAccessory01 AltName="Ornaments culling ID1" />
+        <equipAccessory02 AltName="Ornaments culling ID2" />
+        <equipAccessory03 AltName="Ornaments culling ID3" />
+        <equipAccessory04 AltName="Ornaments culling ID4" />
+        <equipAccessory05 AltName="Ornaments culling ID5" />
+        <roundDamageCategory AltName="Round damage correction category" Enum="CHR_ROUND_DAMAGE_CATEGORY" />
+        <guardPassiveLevelType AltName="Shield guard level" ProjectEnum="GUARD_PASSIVE_LEVEL_TYPE" />
+        <parryType AltName="Shield parry type" ProjectEnum="PARRY_TYPES" />
+        <spellParrySfxId AltName="Shield Spell Parry SFXID" />
+        <shieldMaterialType AltName="Shield Shield material" Refs="MaterialParam" />
+        <shieldReceiveValue AltName="Shield receiving ability" />
+        <shieldDefenseValue AltName="Shield defense power" />
+        <shieldMagicDefenseValue AltName="Shield Magic Resistance" />
+        <shieldMiracleDefenseValue AltName="Shield Miracle Resistance" />
+        <shieldPyromancyDefenseValue AltName="Shield Curse Resistance" />
+        <shieldDarkMagicDefenseValue AltName="Shield Dark Arts Resistance" />
+        <shieldPoisonDefenseValue AltName="Shield Poison Resistance" />
+        <shieldBleedingDefenseValue AltName="Shield Bleeding Resistance" />
+        <shieldDestructionDefenseValue AltName="Shield Weapon Break Resistance" />
+        <shieldCurseDefenseValue AltName="Shield Curse Resistance" />
+        <armorDefenseValue AltName="Armor defense power" />
+        <armorMagicDefenseValue AltName="Armor Magic resistance" />
+        <armorMiracleDefenseValue AltName="Armor Miracle Resistance" />
+        <armorPyromancyDefenseValue AltName="Armor Curse Resistance" />
+        <armorDarkMagicDefenseValue AltName="Armor Dark Arts Resistance" />
+        <armorPoisonDefenseValue AltName="Armor Poison Resistance" />
+        <armorBleedingDefenseValue AltName="Armor Bleeding Resistance" />
+        <armorDestructionDefenseValue AltName="Armor Weapon Break Resistance" />
+        <armorCurseDefenseValue AltName="Armor Curse Resistance" />
+        <armorMaterialType AltName="Armor material" Refs="MaterialParam" />
+        <armorToughValue AltName="Armor toughness" />
+        <armorStunBaseValue AltName="Armor Stun Basic Gauge" />
+        <armorStunRecoveryRate AltName="Armor Stun recovery speed [%/sec]" />
+        <dropSoulValue AltName="Amount of souls obtained" />
+        <dropType AltName="Drop lottery type" Enum="CHR_ITEM_DROP_TYPE" />
+        <damageAdjustRate AltName="Damage multiplier" />
+        <damageAdjustRatePlayer AltName="Damage multiplier player" />
+        <damageAdjustRateEnemy AltName="Damage multiplier enemy" />
+        <damageAdjustRateNeutral AltName="Damage multiplier neutral" />
+        <damageAdjustRateHitObj AltName="Damage multiplier OBJ" />
+        <residentDamageId1 AltName="Constant damage ID1" />
+        <residentDamageId2 AltName="Constant damage ID2" />
+        <residentDamageId3 AltName="Constant damage ID3" />
+        <stunDisableFlag AltName="Stun invalid flag" IsBool="true" />
+        <isPartsGuardDamage AltName="Part repulsion: Damage" IsBool="true" />
+        <isPartsGuardBullet AltName="Part: Barrett" IsBool="true" />
+        <isPartsGuardSpellParry AltName="Part: Spell Parry" IsBool="true" />
+        <stunMaxValue AltName="Maximum faint value" />
+        <stunRecoverValue AltName="Faint value recovery speed [sec/point]" />
+        <changeStunMaxValue AltName="[When changed] Maximum faint value" />
+        <changeStunRecoverValue AltName="[When changed] Faint value recovery speed [sec/point]" />
+        <fadeInTime AltName="Fade-in time [sec]" />
+        <generateSfx AltName="SFX when generated" Refs="ChrFullBodySfxParam" />
+        <partsGuardSpellParryAngle AltName="Part repulsion: Spell parry effective angle" />
+        <poiseValue AltName="Toughness gauge" />
+        <poiseRecoveryValue AltName="Strength recovery amount [p/s]" />
+        <changePoiseValue AltName="[When changed] Toughness gauge" />
+        <changePoiseRecoveryValue AltName="[When changed] Strength recovery amount [p/s]" />
+        <overKillRate AltName="Overkill HP percentage" />
+        <decLimitTime AltName="Multiplayer time limit reduction amount [sec]" />
+        <isDisallowMultiTarget AltName="Multiple lock-on disabled" IsBool="true" />
+        <isHollow AltName="Deceased" IsBool="true" />
+        <isClothHitMap AltName="The cross hits the map" IsBool="true" />
+        <roundDropSoulCategory AltName="Lapse acquisition soul correction category" Refs="ChrRoundDropSoulParam" />
+        <itemLotId AltName="First week item lottery ID (host)" Refs="ItemLotParam2_Chr" />
+        <itemLotIdForGuest AltName="First week item lottery ID (guest)" Refs="ItemLotParam2_Chr" />
+        <guardDelay AltName="Guard judgment delay time [sec]" />
+        <hitPoint02 AltName="Physical fitness 2nd lap" />
+        <hitPoint03 AltName="Physical fitness 3rd lap" />
+        <hitPoint04 AltName="Physical fitness 4th lap" />
+        <hitPoint05 AltName="Physical fitness 5th lap" />
+        <hitPoint06 AltName="Physical fitness 6th lap" />
+        <hitPoint07 AltName="Physical fitness 7th lap" />
+        <hitPoint08 AltName="Physical fitness 8th lap" />
+        <nameTextId AltName="Character name text ID" />
+        <bStrongDrop AltName="Strong drop" IsBool="true" />
+        <bThrowableByEnemy AltName="Is it possible to be thrown at the enemy?" IsBool="true" />
+        <bBulletAllDelete AltName="Delete all bullets" IsBool="true" />
+        <padding AltName="Reservation" Padding="true" />
+        <effectID AltName="SpEffectID" />
+    </Field>
+    <Enums>
+        <Enum Name="CHR_GROUP_TYPE" type="s32">
+            <Option Value="0" Name="Player army" />
+            <Option Value="1" Name="Enemy army" />
+            <Option Value="2" Name="Neutral" />
+        </Enum>
+        <Enum Name="CHR_CATEGORY_TYPE" type="s32">
+            <Option Value="0" Name="Player" />
+            <Option Value="1" Name="Enemy" />
+            <Option Value="2" Name="Middle boss" />
+            <Option Value="3" Name="Boss" />
+            <Option Value="4" Name="NPC" />
+            <Option Value="5" Name="Vagrant" />
+        </Enum>
+        <Enum Name="ENEMY_WEAPON_TYPE" type="s32">
+            <Option Value="0" Name="Initial equipment equipment set 1" />
+            <Option Value="1" Name="Initial equipment equipment set 2" />
+            <Option Value="2" Name="Initial equipment equipment set 3" />
+            <Option Value="3" Name="Initial equipment equipment set 4" />
+            <Option Value="4" Name="Initial equipment equipment set 5" />
+            <Option Value="5" Name="Initial equipment equipment set 6" />
+        </Enum>
+        <Enum Name="CHR_ROUND_DAMAGE_CATEGORY" type="u8">
+            <Option Value="0" Name="Unused" />
+            <Option Value="1" Name="Lap strengthening table Lv1" />
+            <Option Value="2" Name="Lap strengthening table Lv2" />
+            <Option Value="3" Name="Lap strengthening table Lv3" />
+            <Option Value="4" Name="Round reinforcement table Lv4" />
+            <Option Value="5" Name="Round reinforcement table Lv5" />
+            <Option Value="6" Name="Round reinforcement table Lv6" />
+            <Option Value="7" Name="Round reinforcement table Lv7" />
+            <Option Value="8" Name="Lap strengthening table Lv8" />
+            <Option Value="9" Name="Laptop reinforcement table Lv9" />
+            <Option Value="10" Name="Round reinforcement table Lv10" />
+            <Option Value="11" Name="Reserve slot 1" />
+            <Option Value="12" Name="Reserve frame 2" />
+            <Option Value="13" Name="Reserve slot 3" />
+            <Option Value="14" Name="Reserve frame 4" />
+            <Option Value="15" Name="Reserve slot 5" />
+            <Option Value="16" Name="Reserve slot 6" />
+            <Option Value="17" Name="Reserve slot 7" />
+            <Option Value="18" Name="Reserve slot 8" />
+            <Option Value="19" Name="Reserve slot 9" />
+            <Option Value="20" Name="Reserve slot 10" />
+            <Option Value="21" Name="Reserve slot 11" />
+            <Option Value="22" Name="Reserve frame 12" />
+            <Option Value="23" Name="Reserve slot 13" />
+            <Option Value="24" Name="Reserve frame 14" />
+            <Option Value="25" Name="Reserve slot 15" />
+            <Option Value="26" Name="Reserve slot 16" />
+            <Option Value="27" Name="Reserve slot 17" />
+            <Option Value="28" Name="Reserve slot 18" />
+            <Option Value="29" Name="Reserve slot 19" />
+            <Option Value="30" Name="Reserve slot 20" />
+            <Option Value="31" Name="Reserve slot 21" />
+            <Option Value="32" Name="Reserve frame 22" />
+            <Option Value="33" Name="Reserve slot 23" />
+            <Option Value="34" Name="Reserve slot 24" />
+            <Option Value="35" Name="Reserve slot 25" />
+            <Option Value="36" Name="Reserve slot 26" />
+            <Option Value="37" Name="Reserve slot 27" />
+            <Option Value="38" Name="Reserve slot 28" />
+            <Option Value="39" Name="Reserve slot 29" />
+            <Option Value="40" Name="Reserve slot 30" />
+            <Option Value="41" Name="Reserve frame 31" />
+            <Option Value="42" Name="Spare frame 32" />
+            <Option Value="43" Name="Reserve frame 33" />
+            <Option Value="44" Name="Reserve frame 34" />
+            <Option Value="45" Name="Reserve frame 35" />
+            <Option Value="46" Name="Reserve frame 36" />
+            <Option Value="47" Name="Reserve slot 37" />
+            <Option Value="48" Name="Reserve slot 38" />
+            <Option Value="49" Name="Reserve slot 39" />
+            <Option Value="50" Name="Reserve slot 40" />
+            <Option Value="51" Name="Reserve frame 41" />
+            <Option Value="52" Name="Reserve frame 42" />
+            <Option Value="53" Name="Reserve frame 43" />
+            <Option Value="54" Name="Reserve frame 44" />
+            <Option Value="55" Name="Reserve frame 45" />
+            <Option Value="56" Name="Reserve frame 46" />
+            <Option Value="57" Name="Reserve frame 47" />
+            <Option Value="58" Name="Reserve frame 48" />
+            <Option Value="59" Name="Reserve frame 49" />
+            <Option Value="60" Name="Reserve slot 50" />
+            <Option Value="61" Name="Reserve frame 51" />
+            <Option Value="62" Name="Reserve frame 52" />
+            <Option Value="63" Name="Reserve frame 53" />
+            <Option Value="64" Name="Reserve frame 54" />
+            <Option Value="65" Name="Reserve frame 55" />
+            <Option Value="66" Name="Reserve frame 56" />
+            <Option Value="67" Name="Reserve frame 57" />
+            <Option Value="68" Name="Reserve frame 58" />
+            <Option Value="69" Name="Reserve frame 59" />
+        </Enum>
+        <Enum Name="CHR_ITEM_DROP_TYPE" type="s32">
+            <Option Value="0" Name="Dummy" />
+        </Enum>
+    </Enums>
+</PARAMMETA>

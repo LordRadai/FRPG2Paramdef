@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>FACE_EDIT_PARAM_MONTAGE_CAMERA</ParamType>
+    <DataVersion>1</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>104</FormatVersion>
+    <Fields>
+        <Field Def="f32 fov" />
+        <Field Def="f32 positionX" />
+        <Field Def="f32 positionY" />
+        <Field Def="f32 positionZ" />
+        <Field Def="f32 lookAtX" />
+        <Field Def="f32 lookAtY" />
+        <Field Def="f32 lookAtZ" />
+    </Fields>
+</PARAMDEF>

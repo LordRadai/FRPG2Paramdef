@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <animSpeedBaseRate AltName="《Anime speed base》" />
+        <animSpeedOverwrteRate AltName="《Variable animation speed》" />
+        <animSpeedSharplyRate AltName="《Sudden release action animation playback speed multiplier》" />
+        <material AltName="《Material》" Refs="MaterialParam" />
+        <moveDumyPolyId AltName="《Position correction Damipoly ID》" />
+        <moveType AltName="《Movement settings》" IsBool="true" />
+        <weaponStorage AltName="《Weapon storage settings》" Enum="GIMMIC_STORAGE_TYPE_ENUM" />
+        <rotationType AltName="《Turning setting》" Enum="GIMMIC_ROTATION_TYPE" />
+        <timeActId AltName="《Time act ID》" />
+        <breakLogicSoundVolume AltName="《Volume upon destruction》" />
+        <naviCtrlType AltName="《Navigation control type》" Enum="OBJ_NAVI_CTRL_TYPE_ENUM" />
+        <sharplyAnimEnable AltName="《Sudden release action permission》" IsBool="true" />
+        <enableDecal AltName="《Allow decal pasting》" IsBool="true" />
+        <unk1C />
+    </Field>
+    <Enums>
+        <Enum Name="GIMMIC_STORAGE_TYPE_ENUM" type="u8">
+            <Option Value="0" Name="None" />
+            <Option Value="1" Name="Left hand" />
+            <Option Value="2" Name="Right hand" />
+            <Option Value="3" Name="Both hands" />
+        </Enum>
+        <Enum Name="GIMMIC_ROTATION_TYPE" type="u8">
+            <Option Value="0" Name="Dami poly same direction" />
+            <Option Value="1" Name="Dummy poly reverse direction" />
+            <Option Value="2" Name="Dummy poly relative position direction" />
+        </Enum>
+        <Enum Name="OBJ_NAVI_CTRL_TYPE_ENUM" type="u8">
+            <Option Value="0" Name="Invalid" />
+            <Option Value="1" Name="Wall" />
+            <Option Value="2" Name="Destructible" />
+            <Option Value="3" Name="Prohibited during events" />
+            <Option Value="4" Name="Small wall" />
+            <Option Value="5" Name="Medium wall" />
+            <Option Value="6" Name="Large wall" />
+        </Enum>
+    </Enums>
+</PARAMMETA>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>ESTUS_FLASK_MAX_REINFORCE_PARAM</ParamType>
+    <DataVersion>3</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="u8 minLv" />
+        <Field Def="u8 maxLv" />
+        <Field Def="dummy8 padding[2]" />
+    </Fields>
+</PARAMDEF>

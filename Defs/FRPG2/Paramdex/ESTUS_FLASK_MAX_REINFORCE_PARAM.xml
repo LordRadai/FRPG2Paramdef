@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>ESTUS_FLASK_MAX_REINFORCE_PARAM</ParamType>
+    <DataVersion>3</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="u8 minLv = 1">
+            <DisplayName>Minimum value/initial value</DisplayName>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>99</Maximum>
+            <Increment>1</Increment>
+            <SortID>1</SortID>
+        </Field>
+        <Field Def="u8 maxLv = 1">
+            <DisplayName>Maximum value</DisplayName>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>99</Maximum>
+            <Increment>1</Increment>
+            <SortID>2</SortID>
+        </Field>
+        <Field Def="dummy8 padding[2]">
+            <DisplayName>Padding</DisplayName>
+            <SortID>4</SortID>
+        </Field>
+    </Fields>
+</PARAMDEF>

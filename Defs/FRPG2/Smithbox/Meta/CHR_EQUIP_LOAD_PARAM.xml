@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <valueOnLightLoad AltName="Lightweight" />
+        <valueOnMiddleLoad AltName="Medium amount" />
+        <valueOnHeavyLoad AltName="Weight" />
+        <valueOnTooHeavyLoad AltName="Excessive weight" />
+        <valueOnOverWeightLoad AltName="More than that" />
+    </Field>
+</PARAMMETA>

@@ -1,0 +1,1987 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>CHR_COMMON_PARAM</ParamType>
+    <DataVersion>33</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="s32 heightType">
+            <DisplayName>Height</DisplayName>
+            <Enum>CHR_HEIGHT_TYPE</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>9999</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="s32 weightType">
+            <DisplayName>Body weight</DisplayName>
+            <Enum>CHR_WEIGHT_TYPE</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>9999</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 loadWeightRateMin">
+            <DisplayName>Weight Medium Armor Weight Percentage Minimum</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 loadWeightRateMax">
+            <DisplayName>During weight Armor weight percentage Max.</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 tireKeepTime">
+            <DisplayName>Fatigue state duration</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 staminaCostDash = 1">
+            <DisplayName>Stamina consumption multiplier dash</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 staminaCostLockOnDash = 1">
+            <DisplayName>Stamina consumption multiplier Lock-on dash</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 staminaCostLadder = 1">
+            <DisplayName>Stamina consumption multiplier ladder dash</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 staminaCostRope = 1">
+            <DisplayName>Stamina consumption multiplier rope sliding down</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 staminaCostEvasionBase = 1">
+            <DisplayName>Stamina consumption Evasion base value</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>9999999</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 staminaCostStep = 1">
+            <DisplayName>Stamina consumption multiplier step</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 staminaCostRolling = 1">
+            <DisplayName>Stamina consumption multiplier rolling</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 staminaCostDashJump = 1">
+            <DisplayName>Stamina consumption multiplier dash jump</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 staminaCostStandJump = 1">
+            <DisplayName>Stamina consumption multiplier stand jump</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 staminaCostRateEvasion = 1">
+            <DisplayName>Stamina consumption magnification correction magnification During evasive action</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 staminaCostRateAttack = 1">
+            <DisplayName>Stamina consumption multiplier Correction multiplier During attack operation</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 moveDemeritPercentMin">
+            <DisplayName>Decreased stamina Movement system disadvantage minimum point [%]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 moveDemeritPercentMax">
+            <DisplayName>Decreased stamina Movement system disadvantage maximum point [%]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 equipDemeritPercentMin">
+            <DisplayName>Stamina decrease Minimum equipment disadvantage point [%]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 equipDemeritPercentMax">
+            <DisplayName>Stamina decrease Maximum equipment demerit point [%]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 attackDemeritPercentMin">
+            <DisplayName>Stamina decrease Attack system disadvantage minimum point [%]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 attackDemeritPercentMax">
+            <DisplayName>Stamina decrease Attack system demerit maximum point [%]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 attackExtraLackOfStatsRate">
+            <DisplayName>Stamina insufficient attack Status insufficient rate [%]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 rollingExtraLackOfStatsRate">
+            <DisplayName>Stamina Insufficiency Rolling Status Insufficiency Ratio [%]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 attackKeepEmptyStaminaTime">
+            <DisplayName>Stamina exhaustion attack duration [sec]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>60</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 emptyStaminaAttackExtraLackOfStatsRate">
+            <DisplayName>Stamina exhaustion attack Status deficiency rate [%]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 shotReserveSpeed">
+            <DisplayName>Attack that runs out of stamina Preliminary attack movement Regeneration rate</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 attackWaitSpeed">
+            <DisplayName>Attack out of stamina Attack standby Regeneration rate</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 armorType">
+            <DisplayName>Basic armor type</DisplayName>
+            <Enum>NON_INTERRUPTIBLE_TYPE</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1000</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 damageWeaponType">
+            <DisplayName>Damage weapon type</DisplayName>
+            <Enum>DAMAGE_CHARACTER_TYPE</Enum>
+            <SortID>1</SortID>
+        </Field>
+        <Field Def="u8 deadRagdollFitGround">
+            <DisplayName>Make the ragdoll follow the ground when dying</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <SortID>2</SortID>
+        </Field>
+        <Field Def="dummy8 dummy0[1]">
+            <DisplayName>Dummy</DisplayName>
+            <SortID>249</SortID>
+        </Field>
+        <Field Def="f32 deadTimerA">
+            <DisplayName>Death timer elapsed time A</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 dyingHpMax">
+            <DisplayName>Dying Max HP [%]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 dyingHpMin">
+            <DisplayName>Dying Minimum HP [%]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 dyingMoveBlendMaxRate">
+            <DisplayName>Dying Blend rate when moving</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="s32 ctrlType">
+            <DisplayName>Basic control type</DisplayName>
+            <Enum>CHR_CTRL_TYPE</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>9999</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="s32 collisionType">
+            <DisplayName>Moving collision type</DisplayName>
+            <Enum>CHR_COLLISION_TYPE</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>9999</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 fHitHeight = 1.7">
+            <DisplayName>Moving collision height [m]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>0.1</Minimum>
+            <Maximum>100</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 fHitRadius = 0.5">
+            <DisplayName>Moving collision radius [m]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>0.1</Minimum>
+            <Maximum>100</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 fChrHeight = 1.7">
+            <DisplayName>Height [m]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>0.1</Minimum>
+            <Maximum>100</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="angle32 fGuardAngleY = 30">
+            <DisplayName>Defense angle up and down [deg]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>90</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="angle32 fGuardAngleX = 30">
+            <DisplayName>Defense angle left and right [deg]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>180</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 fMaxLinearVelocity = 20">
+            <DisplayName>Maximum speed [m/s]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>60</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 loadGravityRateBaseMin">
+            <DisplayName>Weight Calculation Criteria Minimum [kg]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10000</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 loadGravityRateBaseMax">
+            <DisplayName>Weight Calculation standard Maximum [kg]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10000</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 gravityFactorMin">
+            <DisplayName>Gravity acceleration multiplier minimum</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 gravityFactorMax">
+            <DisplayName>Gravity acceleration multiplier maximum</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 gravitySpeedMax">
+            <DisplayName>Maximum gravity velocity [m/s]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1000</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 flyCtrlValue">
+            <DisplayName>Flight braking rate</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 lockPointType">
+            <DisplayName>Lock point type</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="dummy8 lockDummy[3]">
+            <DisplayName>Lock control dummy</DisplayName>
+            <SortID>250</SortID>
+        </Field>
+        <Field Def="u32 lockCameraCategory">
+            <DisplayName>Lock camera correction category</DisplayName>
+            <Enum>LOCK_ON_CAMERA_OFFSET_TYPE_ENUM</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>9999</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 lockDisableRadius">
+            <DisplayName>Unlockable radius [m]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 lockDisableHeight">
+            <DisplayName>Unlockable height [m]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1000</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 guardKnockBackRateSuperSmall">
+            <DisplayName>Guard knockback reduction rate Weight correction rate Very small</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 guardKnockBackRateSmall">
+            <DisplayName>Guard knockback reduction rate Weight correction rate Small</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 guardKnockBackRateMedium">
+            <DisplayName>Guard knockback reduction rate Weight correction rate Medium</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 guardKnockBackRateLarge">
+            <DisplayName>Guard knockback reduction rate Weight correction rate Large</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 guardKnockBackRateSuperLarge">
+            <DisplayName>Guard knockback reduction rate Weight correction rate Extra large</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 guardKnockBackRateUltraLarge">
+            <DisplayName>Guard knockback reduction rate Weight correction rate Extra large</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 guardKnockBackRateFlip">
+            <DisplayName>Guard knockback reduction rate Weight correction rate</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 guardRotationRate = 100">
+            <DisplayName>Guard rotation reflection ratio [%]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 headShotEnable">
+            <DisplayName>Head shot</DisplayName>
+            <Enum>BOOL_ENABLEDISABLE_TYPE</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 guardBreakEnable">
+            <DisplayName>Guard break</DisplayName>
+            <Enum>BOOL_ENABLEDISABLE_TYPE</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 backStabEnable">
+            <DisplayName>Back stab</DisplayName>
+            <Enum>BOOL_ENABLEDISABLE_TYPE</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 parryBreakStabEnable">
+            <DisplayName>Parry break stab</DisplayName>
+            <Enum>BOOL_ENABLEDISABLE_TYPE</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 parryBreakDefenselessTime">
+            <DisplayName>Parry break defenseless time</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>255</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 parryBreakShorteningTime">
+            <DisplayName>Parry break PAD input reduction time [sec]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 guardBreakStabEnable">
+            <DisplayName>Guard break stab</DisplayName>
+            <Enum>BOOL_ENABLEDISABLE_TYPE</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="dummy8 pad0[3]">
+            <DisplayName>Padding</DisplayName>
+            <SortID>251</SortID>
+        </Field>
+        <Field Def="f32 downAttackLength = 2">
+            <DisplayName>Down follow-up allowable distance [m]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>99</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="angle32 backStabSideAngle">
+            <DisplayName>Backstab left/right angle [deg]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>180</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="angle32 backStabUpSideAngle">
+            <DisplayName>Backstab vertical angle [deg]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>90</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 backStabHeight">
+            <DisplayName>Backstab height difference [m]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 backStabLength">
+            <DisplayName>Backstab distance [m]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="angle32 parryBreakStabSideAngle">
+            <DisplayName>Parry break stub left/right angle [deg]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>180</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="angle32 parryBreakStabUpSideAngle">
+            <DisplayName>Parry break stub vertical angle [deg]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>90</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 parryBreakStabHeight">
+            <DisplayName>Parry break stab height difference [m]</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 parryStabLength">
+            <DisplayName>Parry break stab distance [m]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="angle32 guardBreakStabSideAngle">
+            <DisplayName>Guard break stub left/right angle [deg]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>180</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="angle32 guardBreakStabUpSideAngle">
+            <DisplayName>Guard break stub vertical angle [deg]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>90</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 guardBreakStabHeight">
+            <DisplayName>Guard break stub height difference [m]</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 guardBreakStabLength">
+            <DisplayName>Guard break stab distance [m]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 lowerEnable">
+            <DisplayName>Lower body damage</DisplayName>
+            <Enum>BOOL_ENABLEDISABLE_TYPE</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="dummy8 pad1[3]">
+            <DisplayName>Padding</DisplayName>
+            <SortID>252</SortID>
+        </Field>
+        <Field Def="f32 lowerDmgBendingValue = 100">
+            <DisplayName>Lower body damage crouching amount [%]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 lowerDmgBendingStartTime = 0.3">
+            <DisplayName>Lower body damage Crouching time [sec]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 lowerDmgBendingEndTime = 1">
+            <DisplayName>Lower body damage Crouching return time [sec]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 lowerDmgMoveDecelerationRate">
+            <DisplayName>Lower body damage movement speed reduction rate [%]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 lowerDmgRotateDecelerationRate">
+            <DisplayName>Lower body damage Turning speed reduction rate [%]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 ragdollMassFactor = 1">
+            <DisplayName>Ragdoll mass multiplier</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>0.0099999998</Minimum>
+            <Maximum>100</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 ragdollFrictionFactor = 1">
+            <DisplayName>Ragdoll friction coefficient multiplier</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>0.0099999998</Minimum>
+            <Maximum>100</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 ragdollRestitutionFactor = 1">
+            <DisplayName>Ragdoll repulsion coefficient multiplier</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>0.0099999998</Minimum>
+            <Maximum>100</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 ragdollMaxLinearVelocityFactor = 1">
+            <DisplayName>Ragdoll maximum speed multiplier</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>0.0099999998</Minimum>
+            <Maximum>100</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 ragdollMaxAngularVelocityFactor = 1">
+            <DisplayName>Ragdoll maximum angular velocity multiplier</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>0.0099999998</Minimum>
+            <Maximum>100</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 ragdollGravityFactorMin">
+            <DisplayName>Ragdoll Gravity Acceleration Multiplier Minimum</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 ragdollGravityFactorMax">
+            <DisplayName>Ragdoll gravity acceleration multiplier maximum</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="angle32 jumpAttackSideAngle = 180">
+            <DisplayName>Jump collision occurrence left/right angle [°]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>180</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="angle32 damageRotationSpeed = 360">
+            <DisplayName>Damage direction Turning speed [deg/sec]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>9999</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 damageMoveDistRate = 1">
+            <DisplayName>Damage knockback reduction rate [%]</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 heavyDamageKnockBackDist = 1">
+            <DisplayName>Damage Extra large damage setback [m]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 heavyDamageStiff = 1">
+            <DisplayName>Damage Extra large damage recovery [Sec]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 heavyDamageDefenselessTime = 1">
+            <DisplayName>Damage Extra large damage Defenseless time [Sec]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 bleedingDamageStiff = 1">
+            <DisplayName>Damage Bleeding Stiffness [Sec]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 heavyDamageShorteningTime = 1">
+            <DisplayName>Damage Extra large damage defenseless time PAD input reduction time [Se</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 guardBreakDamageDefenselessTime = 1">
+            <DisplayName>Damage Guard break damage Defenseless time [Sec]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 guardBreakDamageShorteningTime = 1">
+            <DisplayName>Damage Guard break damage Defenseless time PAD input When reduced</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 blowDecelerationTimeFirst">
+            <DisplayName>Damage Blow-up damage deceleration 1 start time [Sec]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 blowDecelerationTimeSecond">
+            <DisplayName>Damage Blow-up damage deceleration 2 start time [Sec]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 blowDecelerationFirst = 5">
+            <DisplayName>Damage Blow-up damage deceleration 1 [m/sec^2]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1000</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 blowDecelerationSecond = 5">
+            <DisplayName>Damage Blow-up damage deceleration 2 [m/sec^2]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1000</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 attackPushBackRate">
+            <DisplayName>Push-back reflection ratio [%]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="angle32 parryRotationSpeed = 360">
+            <DisplayName>Parry turning speed [deg/sec]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>9999</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 BreathDamageEnable">
+            <DisplayName>Breath damage enable/disable settings</DisplayName>
+            <Enum>BOOL_ENABLEDISABLE_TYPE</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="dummy8 dummy1[3]">
+            <DisplayName>Dummy</DisplayName>
+            <SortID>253</SortID>
+        </Field>
+        <Field Def="f32 hitLowerBodyHeight">
+            <DisplayName>HIT judgment Lower body height</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="angle32 hitFrontAngle = 90">
+            <DisplayName>Front recognition during HIT left and right angle</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>180</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 attackMoveSpeed">
+            <DisplayName>Walking attack movement speed [m/s]</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1000</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 attackRotationSpeed">
+            <DisplayName>Walking attack turning speed [deg/s]</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1000</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 attackRange">
+            <DisplayName>Attack range [m]</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="angle32 fLookAtRotationLeftMax">
+            <DisplayName>LookAt Turning limit angle left [deg]</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-180</Minimum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="angle32 fLookAtRotationRightMax">
+            <DisplayName>LookAt Turning limit angle right [deg]</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>180</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="angle32 fLookAtRotationUpperMax">
+            <DisplayName>LookAt Turning limit angle upper [deg]</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>90</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="angle32 fLookAtRotationLownerMax">
+            <DisplayName>LookAt Turning limit angle lower [deg]</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-90</Minimum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="angle32 fLookAtVisibilitySideMax">
+            <DisplayName>LookAt Recognition limit angle left and right [deg]</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>180</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="angle32 fLookAtVisibilityUpperMax">
+            <DisplayName>LookAt Recognition limit angle Up and down [deg]</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-90</Minimum>
+            <Maximum>90</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="angle32 fLookAtRotationSideSpeedMax">
+            <DisplayName>LookAt Left and right turning speed [deg/sec]</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1000</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="angle32 fLookAtRotationUpperSpeedMax">
+            <DisplayName>LookAt Vertical rotation speed [deg/sec]</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1000</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 isLookAtDummyPolyBasePos">
+            <DisplayName>LookAt Based on dummy poly position</DisplayName>
+            <Enum>BOOL_ENABLEDISABLE_TYPE</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="dummy8 lookAtDummy[3]">
+            <DisplayName>Dummy</DisplayName>
+            <SortID>254</SortID>
+        </Field>
+        <Field Def="angle32 fShootingLookAtRotationLeftMax">
+            <DisplayName>Shooting LookAt Turning limit angle left [deg]</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-180</Minimum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="angle32 fShootingLookAtRotationRightMax">
+            <DisplayName>Shooting LookAt Turning limit angle right [deg]</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>180</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="angle32 fShootingLookAtRotationUpperMax">
+            <DisplayName>Shooting LookAt Turning limit angle up [deg]</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>90</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="angle32 fShootingLookAtRotationLownerMax">
+            <DisplayName>Shooting LookAt Turning limit angle lower [deg]</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-90</Minimum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="angle32 fShootingLookAtVisibilitySideMax">
+            <DisplayName>Shooting LookAt recognition limit angle left and right [deg]</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>180</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="angle32 fShootingLookAtVisibilityUpperMax">
+            <DisplayName>Shooting LookAt recognition limit angle up/down [deg]</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-90</Minimum>
+            <Maximum>90</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="angle32 fShootingLookAtRotationSideSpeedMax">
+            <DisplayName>Shooting LookAt Left and right turning speed [deg/sec]</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1000</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="angle32 fShootingLookAtRotationUpperSpeedMax">
+            <DisplayName>Shooting LookAt Vertical rotation speed [deg/sec]</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1000</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 shootingIsLookAtDummyPolyBasePos">
+            <DisplayName>Shooting LookAt Based on dummy poly position</DisplayName>
+            <Enum>BOOL_ENABLEDISABLE_TYPE</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="dummy8 shootingLookAtDummy[3]">
+            <DisplayName>Dummy</DisplayName>
+            <SortID>255</SortID>
+        </Field>
+        <Field Def="u8 footDummyPoly001">
+            <DisplayName>Sole dummy poly number 1</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 footDummyPoly002">
+            <DisplayName>Sole dummy poly number 2</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 footDummyPoly003">
+            <DisplayName>Sole dummy poly number 3</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 footDummyPoly004">
+            <DisplayName>Sole dummy poly number 4</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 footDummyPoly005">
+            <DisplayName>Sole dummy poly number 5</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 footDummyPoly006">
+            <DisplayName>Sole dummy poly number 6</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 footDummyPoly007">
+            <DisplayName>Sole dummy poly number 7</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 footDummyPoly008">
+            <DisplayName>Sole dummy poly number 8</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 footEffectOffset">
+            <DisplayName>Foot effect front and back offset</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 footEffectOffsetMoveRate">
+            <DisplayName>Foot effect movement amount offset magnification</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 footRayMargin">
+            <DisplayName>Foot effect margin</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 footRayMinLength">
+            <DisplayName>Foot effect judgment ray cast shortest</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 footRayMaxLength">
+            <DisplayName>Longest leg effect judgment ray cast (uphill)</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 footRayMaxDownHillLength">
+            <DisplayName>Longest leg effect judgment ray cast (downhill)</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 footRayUpDownMargin">
+            <DisplayName>Leg effect judgment vertical change tolerance</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 footRunSpeedRate">
+            <DisplayName>Running footsteps judgment speed ratio [%]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 footSoundLevelSuperSmall">
+            <DisplayName>Sound volume extremely small</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 footSoundLevelSmall">
+            <DisplayName>Sound volume small</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 footSoundLevelNormal">
+            <DisplayName>Sound volume medium</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 footSoundLevelLarge">
+            <DisplayName>Sound volume large</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 footSoundLevelSuperLarge">
+            <DisplayName>Sound size extra large</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="dummy8 footSoundDummy[3]">
+            <DisplayName>Dummy</DisplayName>
+            <SortID>256</SortID>
+        </Field>
+        <Field Def="f32 single1HandNormal">
+            <DisplayName>Casting time one hand weak [sec]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>60</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 single1HandStrong">
+            <DisplayName>Casting time one hand strong [sec]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>60</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 single2HandedNormal">
+            <DisplayName>Casting time both hands weak [sec]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>60</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 single2HandedStrong">
+            <DisplayName>Casting time Two hands Strong [sec]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>60</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 dual1HandNormal">
+            <DisplayName>Casting time Dual wielding weak [sec]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>60</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 dual1HandStrong">
+            <DisplayName>Casting Time Dual Wield Strong [sec]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>60</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 dual2HandedNormal">
+            <DisplayName>Casting time Dual wielding two-handed Weak [sec]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>60</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 dual2HandedStrong">
+            <DisplayName>Casting Time Dual Wield Two Hands Strong [sec]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>60</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 bladePartsDamage = 1">
+            <DisplayName>Blade part damage enable setting</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="dummy8 partsDummy[3] = 1">
+            <DisplayName>Dummy</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 damageAdjustPartsRateSuperSmall = 1">
+            <DisplayName>Part damage multiplier extremely small</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 damageAdjustPartsRateSmall = 1">
+            <DisplayName>Part damage multiplier small</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 damageAdjustPartsRateNormal = 1">
+            <DisplayName>Part damage multiplier medium</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 damageAdjustPartsRateLarge = 1">
+            <DisplayName>Part damage multiplier large</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 damageAdjustPartsRateSuperLarge = 1">
+            <DisplayName>Part damage multiplier extra large</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 grabAttackDamageRate = 1">
+            <DisplayName>Damage multiplier while throwing</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 receiveSlashDamageRate = 1">
+            <DisplayName>Normal physical damage multiplier slash</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 receiveThrustDamageRate = 1">
+            <DisplayName>Normal physics Damage multiplier Pierce</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 receiveStrikeDamageRate = 1">
+            <DisplayName>Normal physical damage multiplier hit</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 fallStrikeFallDist">
+            <DisplayName>Falling attack Falling height</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 jumpFallStrikeHeight">
+            <DisplayName>Jump fall attack Fall height</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 isSlopeAdjust">
+            <DisplayName>Always follow the slope</DisplayName>
+            <Enum>BOOL_ENABLEDISABLE_TYPE</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="dummy8 slopeAdjustDummy[3]">
+            <DisplayName>Dummy</DisplayName>
+            <SortID>257</SortID>
+        </Field>
+        <Field Def="f32 slopeAdjustPitchMax = 90">
+            <DisplayName>Inclination maximum pitch angle</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>90</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 slopeAdjustRollMax = 90">
+            <DisplayName>Tilt maximum roll angle</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>90</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 slopeAdjustPitchSpeed = 360">
+            <DisplayName>Incline pitch correction speed</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>360</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 slopeAdjustRollSpeed = 360">
+            <DisplayName>Tilt roll correction speed</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>360</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u32 fallStabSlashAnim">
+            <DisplayName>Falling throw anime ID Slash</DisplayName>
+            <Enum>PLAYER_SP_ATTACK_MOTION</Enum>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u32 fallStabStabAnim">
+            <DisplayName>Falling throw anime ID Tsuki</DisplayName>
+            <Enum>PLAYER_SP_ATTACK_MOTION</Enum>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="s32 fallStabGrabParamId = -1">
+            <DisplayName>Falling throw Throwing parameter ID</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="s32 fallStabDummyPolyId = -1">
+            <DisplayName>Falling throw standard dummy poly ID</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 fallStabDummyPolyReverse">
+            <DisplayName>Falling throw direction reversal</DisplayName>
+            <Enum>BOOL_ENABLEDISABLE_TYPE</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="dummy8 fallStabDummy[3]">
+            <DisplayName>Dummy</DisplayName>
+            <SortID>258</SortID>
+        </Field>
+        <Field Def="f32 fallStabDistance = 1">
+            <DisplayName>Falling throw distance [m]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="angle32 fallStabAngle = 1">
+            <DisplayName>Falling throw angle [deg]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>360</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 poisonRecoverTimeMin">
+            <DisplayName>Status abnormality Poison Gauge recovery time Minimum value [sec]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>600</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 poisonRecoverTimeMax = 1">
+            <DisplayName>Status abnormality Poison Gauge recovery time Maximum value [sec]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>1</Minimum>
+            <Maximum>600</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 burningRecoverTimeMin">
+            <DisplayName>Status abnormality Combustion Gauge recovery time Minimum value [sec]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>600</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 burningRecoverTimeMax = 1">
+            <DisplayName>Status abnormality Combustion Gauge recovery time Maximum value [sec]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>1</Minimum>
+            <Maximum>600</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 bleedingRecoverTimeMin">
+            <DisplayName>Status abnormality Bleeding Gauge recovery time Minimum value [sec]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>600</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 bleedingRecoverTimeMax = 1">
+            <DisplayName>Status abnormality Bleeding Gauge recovery time Maximum value [sec]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>1</Minimum>
+            <Maximum>600</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 curseRecoverTimeMin">
+            <DisplayName>Status abnormality Cursed death Gauge recovery time Minimum value [sec]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>600</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 curseRecoverTimeMax = 1">
+            <DisplayName>Status abnormality Cursed death Gauge recovery time Maximum value [sec]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>1</Minimum>
+            <Maximum>600</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 weaponBreakRecoverTimeMin">
+            <DisplayName>Status abnormality Weapon damage Gauge recovery time Minimum value [sec]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>600</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 weaponBreakRecoverTimeMax = 1">
+            <DisplayName>Status abnormality Weapon damage Gauge recovery time Maximum value [sec]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>1</Minimum>
+            <Maximum>600</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 petrifiedRecoverTimeMin">
+            <DisplayName>Status abnormality Petrification Gauge recovery time Minimum value [sec]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>600</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 petrifiedRecoverTimeMax = 1">
+            <DisplayName>Status abnormality Petrification Gauge recovery time Maximum value [sec]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>1</Minimum>
+            <Maximum>600</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 poisonWetEffectTimeMin">
+            <DisplayName>Poison wet effect time minimum value [sec]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>600</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 poisonWetEffectTimeMax = 1">
+            <DisplayName>Poison wet effect time maximum value [sec]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>1</Minimum>
+            <Maximum>600</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 oilWetEffectTimeMin">
+            <DisplayName>Oil wet effect time minimum value [sec]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>600</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 oilWetEffectTimeMax = 1">
+            <DisplayName>Oil wet effect time maximum value [sec]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>1</Minimum>
+            <Maximum>600</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 WatierWetEffectTimeMin">
+            <DisplayName>Water wetting effect time minimum value [sec]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>600</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 WatierWetEffectTimeMax = 1">
+            <DisplayName>Water wet effect time maximum value [sec]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>1</Minimum>
+            <Maximum>600</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 itemAnimSpeedRateMin = 1">
+            <DisplayName>Item animation speed correction magnification minimum [times]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 itemAnimSpeedRateMax = 1">
+            <DisplayName>Item animation speed correction magnification maximum [times]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 downStiffRate = 1">
+            <DisplayName>Down stiffness time magnification [times]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 downShorteningTime">
+            <DisplayName>Down stiffness time PAD input reduction time [sec]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 damageUpperRotationAngleY">
+            <DisplayName>Damage upper body twist range Y</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>180</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 damageUpperRotationAngleX">
+            <DisplayName>Damage upper body twisting range X</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>180</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 damageUpperRotationAngleZ">
+            <DisplayName>Damage upper body twisting range Z</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>180</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 damageUpperRotationAngleCenter">
+            <DisplayName>Damage upper body twisting range center</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>180</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u32 environmentSfxRain">
+            <DisplayName>Environmental SFX: Rain</DisplayName>
+            <Enum>CHR_FULLBODY_SFX_PARAM_ENUM</Enum>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u32 environmentSfxWaterFall">
+            <DisplayName>Environmental SFX: Waterfall</DisplayName>
+            <Enum>CHR_FULLBODY_SFX_PARAM_ENUM</Enum>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u32 moveWindParamSmall">
+            <DisplayName>Moving wind: small</DisplayName>
+            <Enum>CHR_POINT_WIND_PARAM_ENUM</Enum>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u32 moveWindParamMedium">
+            <DisplayName>Moving wind: medium</DisplayName>
+            <Enum>CHR_POINT_WIND_PARAM_ENUM</Enum>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u32 moveWindParamLarge">
+            <DisplayName>Moving wind: large</DisplayName>
+            <Enum>CHR_POINT_WIND_PARAM_ENUM</Enum>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 atkAutoHomingDistance">
+            <DisplayName>Approach autohoming distance [m]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1000</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="angle32 atkAutoHomingSdAngle">
+            <DisplayName>Approach autohoming left/right angle [deg]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>180</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="angle32 atkAutoHomingUdAngle">
+            <DisplayName>Approach autohoming vertical angle [deg]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>180</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 shotAutoHomingDistance">
+            <DisplayName>Shooting autohoming distance [m]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1000</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="angle32 shotAutoHomingSdAngle">
+            <DisplayName>Shooting autohoming left/right angle [deg]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>180</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="angle32 shotAutoHomingUdAngle">
+            <DisplayName>Shooting autohoming vertical angle [deg]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>180</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="s32 footEffectSize">
+            <DisplayName>Foot effect size</DisplayName>
+            <Enum>CHR_WEIGHT_TYPE</Enum>
+            <SortID>100</SortID>
+        </Field>
+        <Field Def="f32 grabDamageRateSlash = 1">
+            <DisplayName>Throw Damage multiplier Slash</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 grabDamageRateBlow = 1">
+            <DisplayName>Throw Damage multiplier Hit</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 grabDamageRateStab = 1">
+            <DisplayName>Throw Damage multiplier piercing</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 grabDamageRateBullet = 1">
+            <DisplayName>Throwing damage multiplier bullet</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 disallowDamageDecrementDist = 1">
+            <DisplayName>Distance attenuation invalid distance</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 lockInvisibleReleaseTime = 2">
+            <DisplayName>Invisible lock release time [sec]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 fHitOffsetX">
+            <DisplayName>Moving collision offset left and right [m]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-10</Minimum>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 fHitOffsetZ">
+            <DisplayName>Before and after moving collision offset [m]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-10</Minimum>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 takeWaterHeightLow">
+            <DisplayName>Water landing judgment height ankle</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 takeWaterHeightMiddle">
+            <DisplayName>Water landing judgment height inseam</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 takeWaterType">
+            <DisplayName>Water landing type</DisplayName>
+            <Enum>CHR_TAKE_WATER_TYPE</Enum>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="dummy8 takeWaterDummy[3]">
+            <DisplayName>Dummy</DisplayName>
+            <SortID>259</SortID>
+        </Field>
+        <Field Def="f32 bulletDamageRatePhysical = 1">
+            <DisplayName>Bullet damage rate [Physical]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 bulletDamageRateMagic = 1">
+            <DisplayName>Bullet damage rate [Magic]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 bulletDamageRateMiracle = 1">
+            <DisplayName>Bullet damage rate [Miracle]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 bulletDamageRatePyromancy = 1">
+            <DisplayName>Bullet damage rate [Pytomancy]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 bulletDamageRateDark = 1">
+            <DisplayName>Bullet damage rate [Hex]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+    </Fields>
+</PARAMDEF>

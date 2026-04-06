@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>ARMOR_PARAM</ParamType>
+    <DataVersion>7</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="u32 armorId" />
+        <Field Def="s8 armorType" />
+        <Field Def="s8 armorCategory" />
+        <Field Def="dummy8 dummy0[2]" />
+        <Field Def="u32 modelId" />
+        <Field Def="u8 modelGender" />
+        <Field Def="dummy8 dummy1[1]" />
+        <Field Def="s16 clothCollidableId" />
+        <Field Def="u32 interfereId" />
+        <Field Def="u32 iconId" />
+        <Field Def="u32 armorReinforceId" />
+        <Field Def="f32 defenseStatAffectScale" />
+        <Field Def="f32 defenseSlashScale" />
+        <Field Def="f32 defenseThrustScale" />
+        <Field Def="f32 defenseStrikeScale" />
+        <Field Def="u16 prerequisiteStrength" />
+        <Field Def="u16 prerequisiteDexterity" />
+        <Field Def="u16 prerequisiteIntelligence" />
+        <Field Def="u16 prerequisiteFaith" />
+        <Field Def="f32 weight" />
+        <Field Def="f32 durability" />
+        <Field Def="u32 repairCost" />
+        <Field Def="f32 strong" />
+        <Field Def="u8 handsUpWeight" />
+        <Field Def="u8 handsUpFLevel" />
+        <Field Def="u16 itemDropWeight" />
+        <Field Def="s32 material" />
+        <Field Def="u32 brokenSfxId" />
+        <Field Def="s32 brokenSoundType" />
+    </Fields>
+</PARAMDEF>

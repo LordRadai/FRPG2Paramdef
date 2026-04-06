@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>FE_COLOR_SET_PARAM</ParamType>
+    <DataVersion>1</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="u32 red">
+            <DisplayName>Red</DisplayName>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>1</SortID>
+        </Field>
+        <Field Def="u32 green">
+            <DisplayName>Green</DisplayName>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>2</SortID>
+        </Field>
+        <Field Def="u32 blue">
+            <DisplayName>Blue</DisplayName>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>3</SortID>
+        </Field>
+        <Field Def="u32 alpha">
+            <DisplayName>Opacity</DisplayName>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>4</SortID>
+        </Field>
+    </Fields>
+</PARAMDEF>

@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <armorId AltName="Armor ID" />
+        <armorType AltName="Armor type" Enum="ARMOR_TYPE" />
+        <armorCategory AltName="Armor system" Enum="EQUIP_CATEGORY" />
+        <dummy0 AltName="Dummy" Padding="true" />
+        <modelId AltName="Armor model ID" />
+        <modelGender AltName="Armor model gender" Enum="EQUIP_MODEL_GENDER" />
+        <dummy1 AltName="Dummy" Padding="true" />
+        <clothCollidableId AltName="Cross collision ID" />
+        <interfereId AltName="Interference data ID" />
+        <iconId AltName="Icon id" />
+        <armorReinforceId AltName="Armor growth settings" />
+        <defenseStatAffectScale AltName="Status influence multiplier Defense power" />
+        <defenseSlashScale AltName="Physical defense power multiplier slash" />
+        <defenseThrustScale AltName="Physical defense power multiplier piercing" />
+        <defenseStrikeScale AltName="Physical defense power multiplier" />
+        <prerequisiteStrength AltName="Required status Strength" />
+        <prerequisiteDexterity AltName="Required status Skill" />
+        <prerequisiteIntelligence AltName="Required status Reason" />
+        <prerequisiteFaith AltName="Required status Faith" />
+        <weight AltName="Parameter Weight" />
+        <durability AltName="Parameter Durability value" />
+        <repairCost AltName="Parameter Repair cost [soul]" />
+        <strong AltName="Parameter toughness" />
+        <handsUpWeight AltName="Side opening amount [%]" />
+        <handsUpFLevel AltName="Armpit raise" />
+        <itemDropWeight AltName="Item drop rate correction [%] x0.01" />
+        <material AltName="Parameter Material" Refs="MaterialParam" />
+        <brokenSfxId AltName="Corrupted SFX ID" />
+        <brokenSoundType AltName="Damaged sound type" ProjectEnum="EQUIP_BREAK_SOUND_MATERIAL_TYPE" />
+    </Field>
+    <Enums>
+        <Enum Name="ARMOR_TYPE" type="s8">
+            <Option Value="0" Name="Naked" />
+            <Option Value="1" Name="Cloth" />
+            <Option Value="2" Name="Leather" />
+            <Option Value="3" Name="Iron" />
+            <Option Value="4" Name="Barrel" />
+        </Enum>
+        <Enum Name="EQUIP_CATEGORY" type="s8">
+            <Option Value="-1" Name="Illegal equipment type" />
+            <Option Value="0" Name="Face parts" />
+            <Option Value="1" Name="Head" />
+            <Option Value="2" Name="Chest" />
+            <Option Value="3" Name="Arm" />
+            <Option Value="4" Name="Foot" />
+            <Option Value="5" Name="Ornaments" />
+            <Option Value="6" Name="Others" />
+            <Option Value="7" Name="Number of types" />
+        </Enum>
+        <Enum Name="EQUIP_MODEL_GENDER" type="u8">
+            <Option Value="0" Name="Shared" />
+            <Option Value="1" Name="Falling apart" />
+            <Option Value="2" Name="Gender number" />
+        </Enum>
+    </Enums>
+</PARAMMETA>

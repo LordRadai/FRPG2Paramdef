@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>KEY_GUIDE_PARAM</ParamType>
+    <DataVersion>3</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="s32 textId" />
+        <Field Def="f32 width_radius" />
+        <Field Def="f32 height" />
+        <Field Def="f32 depth" />
+        <Field Def="f32 depthOffset" />
+        <Field Def="u8 shapeType" />
+        <Field Def="u8 angleType" />
+        <Field Def="u8 angleDeg" />
+        <Field Def="u8 bFollow" />
+        <Field Def="s16 dummyPolyId" />
+        <Field Def="u8 bEnableActing" />
+        <Field Def="u8 posAngleDeg" />
+    </Fields>
+</PARAMDEF>

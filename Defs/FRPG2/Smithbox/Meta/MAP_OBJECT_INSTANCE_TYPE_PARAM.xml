@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <sizeType AltName="《Small/Large》" Enum="OBJ_SIZE_ENUM" />
+        <weightType AltName="&quot;weight&quot;" Enum="OBJ_WEIGHT_TYPE_ENUM" />
+        <breakAction AltName="《Destructible Action》" Enum="OBJ_BREAK_ACTION_TYPE_ENUM" />
+        <durabilityType AltName="《Load limit》" Enum="OBJ_UPPER_DURABILITY_TYPE_ENUM" />
+        <hp AltName="《HP》" />
+        <dummy AltName="Dummy" Padding="true" />
+        <impact AltName="《Contact impact resistance》" />
+        <mass AltName="&quot;mass&quot;" />
+        <friction AltName="《Friction coefficient》" />
+        <restitution AltName="《Coefficient of restitution》" />
+        <objAttackAttr AltName="《Damage_Attack Attribute》" Refs="DamageObjAttackAttrParam" />
+        <rumbleScale AltName="《Maximum swing width on hit》" />
+        <rumbleTime AltName="《Swing time on hit》" />
+    </Field>
+    <Enums>
+        <Enum Name="OBJ_SIZE_ENUM" type="u8">
+            <Option Value="0" Name="Compact (dynamic)" />
+            <Option Value="1" Name="Large (dynamic)" />
+            <Option Value="2" Name="Large (static)" />
+        </Enum>
+        <Enum Name="OBJ_WEIGHT_TYPE_ENUM" type="u8">
+            <Option Value="0" Name="無" />
+            <Option Value="1" Name="Extremely small" />
+            <Option Value="2" Name="小" />
+            <Option Value="3" Name="中" />
+            <Option Value="4" Name="大" />
+            <Option Value="5" Name="Extra large" />
+            <Option Value="6" Name="Super extra large" />
+            <Option Value="7" Name="∞" />
+        </Enum>
+        <Enum Name="OBJ_BREAK_ACTION_TYPE_ENUM" type="u8">
+            <Option Value="0" Name="Always breaks" />
+            <Option Value="1" Name="Horizontal movement" />
+            <Option Value="2" Name="Walking" />
+            <Option Value="3" Name="Dash" />
+            <Option Value="4" Name="Avoidance" />
+            <Option Value="5" Name="Jump" />
+            <Option Value="6" Name="Falling" />
+            <Option Value="7" Name="Damage" />
+            <Option Value="8" Name="Attack" />
+            <Option Value="9" Name="Falling attack" />
+            <Option Value="10" Name="Always unbreakable" />
+        </Enum>
+        <Enum Name="OBJ_UPPER_DURABILITY_TYPE_ENUM" type="u8">
+            <Option Value="1" Name="Extremely small" />
+            <Option Value="2" Name="小" />
+            <Option Value="3" Name="中" />
+            <Option Value="4" Name="大" />
+            <Option Value="5" Name="Extra large" />
+            <Option Value="6" Name="Super extra large" />
+            <Option Value="7" Name="Super super extra large" />
+            <Option Value="8" Name="Indestructible" />
+        </Enum>
+    </Enums>
+</PARAMMETA>

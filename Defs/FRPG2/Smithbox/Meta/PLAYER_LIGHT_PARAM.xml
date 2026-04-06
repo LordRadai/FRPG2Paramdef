@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <offsetX AltName="Position" />
+        <offsetY AltName="Position Y" />
+        <offsetZ AltName="Position Z" />
+        <diffuseR AltName="Diffuse R" />
+        <diffuseG AltName="Diffuse G" />
+        <diffuseB AltName="Diffuse B" />
+        <dummy0 AltName="Dummy" Padding="true" />
+        <specularR AltName="Specular R" />
+        <specularG AltName="Specular G" />
+        <specularB AltName="Specular B" />
+        <dummy1 AltName="Dummy" Padding="true" />
+        <diffuseA AltName="Diffuse A" />
+        <specularA AltName="Specular A" />
+        <radius AltName="Light radius" />
+        <priority AltName="Priority" />
+        <depthShadow AltName="Darkness of shadow" />
+        <blinkTimeMax AltName="Blinking time (maximum)" />
+        <blinkTimeMin AltName="Blinking time (min)" />
+        <blinkPower AltName="Strength of flickering" />
+        <windDepthShadow AltName="Darkness of shadow after impact" />
+        <windBlinkTimeMax AltName="Blinking time after impact (maximum)" />
+        <windBlinkTimeMin AltName="Blinking time after impact (minimum)" />
+        <windBlinkPower AltName="Intensity of flickering after impact" />
+        <enableShadow AltName="Cast a shadow" IsBool="true" />
+        <enableWind AltName="Affected by the wind" IsBool="true" />
+        <dummy3 AltName="Dummy" Padding="true" />
+    </Field>
+</PARAMMETA>

@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>GENERAL_LOCATION_EVENT_PARAM_ST</ParamType>
+    <DataVersion>1</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="f32 positionX">
+            <DisplayName>Position</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Minimum>-100000</Minimum>
+            <Maximum>100000</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>100</SortID>
+        </Field>
+        <Field Def="f32 positionY">
+            <DisplayName>Position Y</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Minimum>-100000</Minimum>
+            <Maximum>100000</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>110</SortID>
+        </Field>
+        <Field Def="f32 positionZ">
+            <DisplayName>Position Z</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Minimum>-100000</Minimum>
+            <Maximum>100000</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>120</SortID>
+        </Field>
+        <Field Def="f32 angleX">
+            <DisplayName>Angle x</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Minimum>-180</Minimum>
+            <Maximum>180</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>200</SortID>
+        </Field>
+        <Field Def="f32 angleY">
+            <DisplayName>Angle Y</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Minimum>-180</Minimum>
+            <Maximum>180</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>210</SortID>
+        </Field>
+        <Field Def="f32 angleZ">
+            <DisplayName>Angle Z</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Minimum>-180</Minimum>
+            <Maximum>180</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>220</SortID>
+        </Field>
+        <Field Def="u8 formType = 1">
+            <DisplayName>Shape</DisplayName>
+            <Enum>GENERAL_LOCATION_FORM_TYPE_ENUM</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>3</Maximum>
+            <Increment>1</Increment>
+            <SortID>300</SortID>
+        </Field>
+        <Field Def="u8 colorR">
+            <DisplayName>Color R</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>400</SortID>
+        </Field>
+        <Field Def="u8 colorG">
+            <DisplayName>Color G</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>410</SortID>
+        </Field>
+        <Field Def="u8 colorB = 255">
+            <DisplayName>Color B</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>420</SortID>
+        </Field>
+        <Field Def="f32 radius = 1">
+            <DisplayName>Radius/X width</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>200</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>310</SortID>
+        </Field>
+        <Field Def="f32 height = 1">
+            <DisplayName>Height/Y width</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>200</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>320</SortID>
+        </Field>
+        <Field Def="f32 depth = 1">
+            <DisplayName>Z width</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>200</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>330</SortID>
+        </Field>
+        <Field Def="dummy8 aReserved[2]">
+            <DisplayName>Reservation</DisplayName>
+            <SortID>601</SortID>
+        </Field>
+        <Field Def="u8 memoryBlockId">
+            <DisplayName>Memory block ID</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Lock</EditFlags>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>600</SortID>
+        </Field>
+        <Field Def="u8 categoryType">
+            <DisplayName>Category</DisplayName>
+            <Enum>GENERAL_LOCATION_EVENT_ENUM</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>500</SortID>
+        </Field>
+        <Field Def="u32 categoryId">
+            <DisplayName>ID in category</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>510</SortID>
+        </Field>
+    </Fields>
+</PARAMDEF>

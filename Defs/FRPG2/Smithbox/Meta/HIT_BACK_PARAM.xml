@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <superSmallHitBackDistance AltName="Attack repelling recoil minimal" />
+        <superSmallHitBackDuration AltName="Attack repelling stiffness minimal" />
+        <smallHitBackDistance AltName="Attack repellent recoil small" />
+        <smallHitBackDuration AltName="Attack repelling stiffness small" />
+        <normalHitBackDistance AltName="Attack repelling recoil medium" />
+        <normalHitBackDuration AltName="Attack repelling stiffness medium" />
+        <largeHitBackDistance AltName="Attack repellent recoil large" />
+        <largeHitBackDuration AltName="Attack repelling stiffness large" />
+        <superLargeHitBackDistance AltName="Attack repellent recoil extra large" />
+        <superLargeHitBackDuration AltName="Attack Repelling Stiffness Extra Large" />
+    </Field>
+</PARAMMETA>

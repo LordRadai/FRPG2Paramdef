@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <hpMax AltName="Max HP for menu" />
+        <staminaMax AltName="Stamina for menu" />
+        <poise AltName="For menu toughness" />
+        <spellUsesLevel AltName="Menu spell usage level" />
+        <spellSlot AltName="Spell memory number for menu" />
+        <chantingTimeCorrectScale AltName="Spell casting speed for menu" />
+        <physicalAttackByStrength AltName="For menu Physical attack power (strength)" />
+        <physicalAttackByDexterity AltName="Physical attack power (skill) for menu" />
+        <magicAttack AltName="Magic attack power for menu" />
+        <fireAttack AltName="Flame attack power for menu" />
+        <thunderAttack AltName="Lightning attack power for menu" />
+        <darkAttack AltName="Dark attack power for menu" />
+        <poisonAttack AltName="Poison attack power for menu" />
+        <bleedingAttack AltName="Bleeding attack power for menu" />
+        <weaponBreakAttack AltName="Destructive attack power for menu" />
+        <defense AltName="Defense power for menu" />
+        <magicResistance AltName="Magic resistance for menu" />
+        <fireResistance AltName="For menu flame resistant" />
+        <thunderResistance AltName="Lightning resistance for menu" />
+        <darkResistance AltName="Dark resistance for menu" />
+        <poisonResistance AltName="For menu poison resistance" />
+        <bleedingResistance AltName="For menu bleeding resistance" />
+        <weaponBreakResistance AltName="Weapon destruction resistance for menu" />
+        <petrifactionResistance AltName="For menu petrification resistance" />
+        <curseResistance AltName="Curse resistance for menu" />
+        <evasionInvincibleTime AltName="Evasion invincibility time for menu" />
+        <actionSpeed AltName="Various action speeds for menus" />
+        <physicalAttackByAbyss AltName="Physical attack power (abyss) for menu" />
+        <dummy1 AltName="Dummy" Padding="true" />
+        <equipLoadMax AltName="Equipment weight for menu" />
+    </Field>
+</PARAMMETA>

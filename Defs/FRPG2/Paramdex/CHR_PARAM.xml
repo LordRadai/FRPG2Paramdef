@@ -1,0 +1,866 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>CHR_PARAM</ParamType>
+    <DataVersion>51</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="s32 modelId = 9,000">
+            <DisplayName>Model id</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>9999</Maximum>
+            <Increment>1</Increment>
+            <SortID>10</SortID>
+        </Field>
+        <Field Def="s32 animId">
+            <DisplayName>Anime ID</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>999999</Maximum>
+            <Increment>1</Increment>
+            <SortID>20</SortID>
+        </Field>
+        <Field Def="s32 commonId">
+            <DisplayName>Common ID</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>999999</Maximum>
+            <Increment>1</Increment>
+            <SortID>30</SortID>
+        </Field>
+        <Field Def="s32 moveId">
+            <DisplayName>Mobile ID</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>999999</Maximum>
+            <Increment>1</Increment>
+            <SortID>40</SortID>
+        </Field>
+        <Field Def="s32 npcStatusId">
+            <DisplayName>NPC status ID</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>999999</Maximum>
+            <Increment>1</Increment>
+            <SortID>50</SortID>
+        </Field>
+        <Field Def="s32 groupType">
+            <DisplayName>Affiliation setting</DisplayName>
+            <Enum>CHR_GROUP_TYPE</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>9999</Maximum>
+            <Increment>1</Increment>
+            <SortID>60</SortID>
+        </Field>
+        <Field Def="s32 categoryType">
+            <DisplayName>Character category</DisplayName>
+            <Enum>CHR_CATEGORY_TYPE</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>9999</Maximum>
+            <Increment>1</Increment>
+            <SortID>70</SortID>
+        </Field>
+        <Field Def="u32 materialType">
+            <DisplayName>Body material</DisplayName>
+            <Enum>MATERIAL_TYPE_ENUM</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>80</SortID>
+        </Field>
+        <Field Def="s32 visualType">
+            <DisplayName>Appearance</DisplayName>
+            <Enum>CHR_VISUAL_TYPE</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>90</SortID>
+        </Field>
+        <Field Def="u8 multiplayParamId">
+            <DisplayName>Multiplayer correction ID</DisplayName>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>1700</SortID>
+        </Field>
+        <Field Def="u8 respawnNum">
+            <DisplayName>Number of respawns</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>110</SortID>
+        </Field>
+        <Field Def="u8 isUndead">
+            <DisplayName>Not die</DisplayName>
+            <Enum>BOOL_ENABLEDISABLE_TYPE</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <SortID>120</SortID>
+        </Field>
+        <Field Def="u8 isRunaway">
+            <DisplayName>Escape when falling to death</DisplayName>
+            <Enum>BOOL_ENABLEDISABLE_TYPE</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <SortID>130</SortID>
+        </Field>
+        <Field Def="s32 hitPoint = 1">
+            <DisplayName>Physical fitness 1st lap</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>140</SortID>
+        </Field>
+        <Field Def="f32 staminaPoint = 1">
+            <DisplayName>Stamina value</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>150</SortID>
+        </Field>
+        <Field Def="f32 staminaRecoveryValue = 1">
+            <DisplayName>Stamina recovery value per second [point/s]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1e+08</Maximum>
+            <Increment>1</Increment>
+            <SortID>160</SortID>
+        </Field>
+        <Field Def="f32 staminaLoanMin">
+            <DisplayName>Stamina Debt amount minimum</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-9999999</Minimum>
+            <Increment>1</Increment>
+            <SortID>170</SortID>
+        </Field>
+        <Field Def="f32 staminaLoanMax">
+            <DisplayName>Stamina debt amount maximum</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-9999999</Minimum>
+            <Increment>1</Increment>
+            <SortID>180</SortID>
+        </Field>
+        <Field Def="f32 staminaCostMoveBase = 1">
+            <DisplayName>Stamina consumption base value</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>9999999</Maximum>
+            <Increment>1</Increment>
+            <SortID>190</SortID>
+        </Field>
+        <Field Def="u32 deadType">
+            <DisplayName>Death type 1</DisplayName>
+            <Enum>DEAD_TYPE_PARAM_ID</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>9999</Maximum>
+            <Increment>1</Increment>
+            <SortID>200</SortID>
+        </Field>
+        <Field Def="u32 deadType02">
+            <DisplayName>Death type 2</DisplayName>
+            <Enum>DEAD_TYPE_PARAM_ID</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>9999</Maximum>
+            <Increment>1</Increment>
+            <SortID>210</SortID>
+        </Field>
+        <Field Def="s32 defaultEquipWeapon">
+            <DisplayName>Initial equipment</DisplayName>
+            <Enum>ENEMY_WEAPON_TYPE</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10</Maximum>
+            <Increment>1</Increment>
+            <SortID>220</SortID>
+        </Field>
+        <Field Def="s32 equipWeaponAId00">
+            <DisplayName>Possession Equipment Equipment 1 Weapon ID</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>230</SortID>
+        </Field>
+        <Field Def="s32 equipWeaponAId01">
+            <DisplayName>Possession Equipment Equipment 2 Weapon ID</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>240</SortID>
+        </Field>
+        <Field Def="s32 equipWeaponAId02">
+            <DisplayName>Possession Equipment Equipment 3 Weapon ID</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>250</SortID>
+        </Field>
+        <Field Def="s32 equipWeaponAId03">
+            <DisplayName>Possessed Equipment Equipment 4 Weapon ID</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>260</SortID>
+        </Field>
+        <Field Def="s32 equipWeaponAId04">
+            <DisplayName>Possession Equipment Equipment 5 Weapon ID</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>270</SortID>
+        </Field>
+        <Field Def="s32 equipWeaponAId05">
+            <DisplayName>Possession Equipment Equipment 6 Weapon ID</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>280</SortID>
+        </Field>
+        <Field Def="s8 equipAccessory01 = -1">
+            <DisplayName>Ornaments culling ID1</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>64</Maximum>
+            <Increment>1</Increment>
+            <SortID>290</SortID>
+        </Field>
+        <Field Def="s8 equipAccessory02 = -1">
+            <DisplayName>Ornaments culling ID2</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>64</Maximum>
+            <Increment>1</Increment>
+            <SortID>300</SortID>
+        </Field>
+        <Field Def="s8 equipAccessory03 = -1">
+            <DisplayName>Ornaments culling ID3</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>64</Maximum>
+            <Increment>1</Increment>
+            <SortID>310</SortID>
+        </Field>
+        <Field Def="s8 equipAccessory04 = -1">
+            <DisplayName>Ornaments culling ID4</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>64</Maximum>
+            <Increment>1</Increment>
+            <SortID>320</SortID>
+        </Field>
+        <Field Def="s8 equipAccessory05 = -1">
+            <DisplayName>Ornaments culling ID5</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>64</Maximum>
+            <Increment>1</Increment>
+            <SortID>330</SortID>
+        </Field>
+        <Field Def="u8 roundDamageCategory">
+            <DisplayName>Round damage correction category</DisplayName>
+            <Enum>CHR_ROUND_DAMAGE_CATEGORY</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>1500</SortID>
+        </Field>
+        <Field Def="u8 guardPassiveLevelType">
+            <DisplayName>Shield guard level</DisplayName>
+            <Enum>GUARD_PASSIVE_LEVEL_TYPE</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>9999999</Maximum>
+            <Increment>1</Increment>
+            <SortID>370</SortID>
+        </Field>
+        <Field Def="u8 parryType">
+            <DisplayName>Shield parry type</DisplayName>
+            <Enum>PARRY_TYPES</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>9999999</Maximum>
+            <Increment>1</Increment>
+            <SortID>380</SortID>
+        </Field>
+        <Field Def="u32 spellParrySfxId">
+            <DisplayName>Shield Spell Parry SFXID</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>390</SortID>
+        </Field>
+        <Field Def="u32 shieldMaterialType">
+            <DisplayName>Shield Shield material</DisplayName>
+            <Enum>MATERIAL_TYPE_ENUM</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>350</SortID>
+        </Field>
+        <Field Def="s32 shieldReceiveValue">
+            <DisplayName>Shield receiving ability</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1000</Maximum>
+            <Increment>1</Increment>
+            <SortID>400</SortID>
+        </Field>
+        <Field Def="s32 shieldDefenseValue">
+            <DisplayName>Shield defense power</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1000</Maximum>
+            <Increment>1</Increment>
+            <SortID>400</SortID>
+        </Field>
+        <Field Def="s32 shieldMagicDefenseValue">
+            <DisplayName>Shield Magic Resistance</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1000</Maximum>
+            <Increment>1</Increment>
+            <SortID>400</SortID>
+        </Field>
+        <Field Def="s32 shieldMiracleDefenseValue">
+            <DisplayName>Shield Miracle Resistance</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1000</Maximum>
+            <Increment>1</Increment>
+            <SortID>400</SortID>
+        </Field>
+        <Field Def="s32 shieldPyromancyDefenseValue">
+            <DisplayName>Shield Curse Resistance</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1000</Maximum>
+            <Increment>1</Increment>
+            <SortID>400</SortID>
+        </Field>
+        <Field Def="s32 shieldDarkMagicDefenseValue">
+            <DisplayName>Shield Dark Arts Resistance</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1000</Maximum>
+            <Increment>1</Increment>
+            <SortID>400</SortID>
+        </Field>
+        <Field Def="s32 shieldPoisonDefenseValue">
+            <DisplayName>Shield Poison Resistance</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1000</Maximum>
+            <Increment>1</Increment>
+            <SortID>400</SortID>
+        </Field>
+        <Field Def="s32 shieldBleedingDefenseValue">
+            <DisplayName>Shield Bleeding Resistance</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1000</Maximum>
+            <Increment>1</Increment>
+            <SortID>400</SortID>
+        </Field>
+        <Field Def="s32 shieldDestructionDefenseValue">
+            <DisplayName>Shield Weapon Break Resistance</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1000</Maximum>
+            <Increment>1</Increment>
+            <SortID>400</SortID>
+        </Field>
+        <Field Def="s32 shieldCurseDefenseValue">
+            <DisplayName>Shield Curse Resistance</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1000</Maximum>
+            <Increment>1</Increment>
+            <SortID>400</SortID>
+        </Field>
+        <Field Def="s32 armorDefenseValue">
+            <DisplayName>Armor defense power</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1000</Maximum>
+            <Increment>1</Increment>
+            <SortID>490</SortID>
+        </Field>
+        <Field Def="s32 armorMagicDefenseValue">
+            <DisplayName>Armor Magic resistance</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1000</Maximum>
+            <Increment>1</Increment>
+            <SortID>500</SortID>
+        </Field>
+        <Field Def="s32 armorMiracleDefenseValue">
+            <DisplayName>Armor Miracle Resistance</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1000</Maximum>
+            <Increment>1</Increment>
+            <SortID>510</SortID>
+        </Field>
+        <Field Def="s32 armorPyromancyDefenseValue">
+            <DisplayName>Armor Curse Resistance</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1000</Maximum>
+            <Increment>1</Increment>
+            <SortID>520</SortID>
+        </Field>
+        <Field Def="s32 armorDarkMagicDefenseValue">
+            <DisplayName>Armor Dark Arts Resistance</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1000</Maximum>
+            <Increment>1</Increment>
+            <SortID>530</SortID>
+        </Field>
+        <Field Def="s32 armorPoisonDefenseValue">
+            <DisplayName>Armor Poison Resistance</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1000</Maximum>
+            <Increment>1</Increment>
+            <SortID>540</SortID>
+        </Field>
+        <Field Def="s32 armorBleedingDefenseValue">
+            <DisplayName>Armor Bleeding Resistance</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1000</Maximum>
+            <Increment>1</Increment>
+            <SortID>550</SortID>
+        </Field>
+        <Field Def="s32 armorDestructionDefenseValue">
+            <DisplayName>Armor Weapon Break Resistance</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1000</Maximum>
+            <Increment>1</Increment>
+            <SortID>560</SortID>
+        </Field>
+        <Field Def="s32 armorCurseDefenseValue">
+            <DisplayName>Armor Curse Resistance</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1000</Maximum>
+            <Increment>1</Increment>
+            <SortID>570</SortID>
+        </Field>
+        <Field Def="u32 armorMaterialType">
+            <DisplayName>Armor material</DisplayName>
+            <Enum>MATERIAL_TYPE_ENUM</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>580</SortID>
+        </Field>
+        <Field Def="s32 armorToughValue">
+            <DisplayName>Armor toughness</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1000</Maximum>
+            <Increment>1</Increment>
+            <SortID>590</SortID>
+        </Field>
+        <Field Def="s32 armorStunBaseValue">
+            <DisplayName>Armor Stun Basic Gauge</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10000</Maximum>
+            <Increment>1</Increment>
+            <SortID>600</SortID>
+        </Field>
+        <Field Def="f32 armorStunRecoveryRate">
+            <DisplayName>Armor Stun recovery speed [%/sec]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>610</SortID>
+        </Field>
+        <Field Def="s32 dropSoulValue">
+            <DisplayName>Amount of souls obtained</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>620</SortID>
+        </Field>
+        <Field Def="s32 dropType">
+            <DisplayName>Drop lottery type</DisplayName>
+            <Enum>CHR_ITEM_DROP_TYPE</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>630</SortID>
+        </Field>
+        <Field Def="f32 damageAdjustRate = 1">
+            <DisplayName>Damage multiplier</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>640</SortID>
+        </Field>
+        <Field Def="f32 damageAdjustRatePlayer = 1">
+            <DisplayName>Damage multiplier player</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>650</SortID>
+        </Field>
+        <Field Def="f32 damageAdjustRateEnemy = 1">
+            <DisplayName>Damage multiplier enemy</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>660</SortID>
+        </Field>
+        <Field Def="f32 damageAdjustRateNeutral = 1">
+            <DisplayName>Damage multiplier neutral</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>670</SortID>
+        </Field>
+        <Field Def="f32 damageAdjustRateHitObj = 1">
+            <DisplayName>Damage multiplier OBJ</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>680</SortID>
+        </Field>
+        <Field Def="u32 residentDamageId1">
+            <DisplayName>Constant damage ID1</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>690</SortID>
+        </Field>
+        <Field Def="u32 residentDamageId2">
+            <DisplayName>Constant damage ID2</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>700</SortID>
+        </Field>
+        <Field Def="u32 residentDamageId3">
+            <DisplayName>Constant damage ID3</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>710</SortID>
+        </Field>
+        <Field Def="u8 stunDisableFlag = 1">
+            <DisplayName>Stun invalid flag</DisplayName>
+            <Enum>BOOL_ENABLEDISABLE_TYPE</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>730</SortID>
+        </Field>
+        <Field Def="u8 isPartsGuardDamage">
+            <DisplayName>Part repulsion: Damage</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <SortID>800</SortID>
+        </Field>
+        <Field Def="u8 isPartsGuardBullet">
+            <DisplayName>Part: Barrett</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <SortID>810</SortID>
+        </Field>
+        <Field Def="u8 isPartsGuardSpellParry">
+            <DisplayName>Part: Spell Parry</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <SortID>820</SortID>
+        </Field>
+        <Field Def="f32 stunMaxValue = 1">
+            <DisplayName>Maximum faint value</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1e+09</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>740</SortID>
+        </Field>
+        <Field Def="f32 stunRecoverValue = 1">
+            <DisplayName>Faint value recovery speed [sec/point]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1e+09</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>750</SortID>
+        </Field>
+        <Field Def="f32 changeStunMaxValue = 1">
+            <DisplayName>[When changed] Maximum faint value</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1e+09</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>760</SortID>
+        </Field>
+        <Field Def="f32 changeStunRecoverValue = 1">
+            <DisplayName>[When changed] Faint value recovery speed [sec/point]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1e+09</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>770</SortID>
+        </Field>
+        <Field Def="f32 fadeInTime">
+            <DisplayName>Fade-in time [sec]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1e+09</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>780</SortID>
+        </Field>
+        <Field Def="u32 generateSfx">
+            <DisplayName>SFX when generated</DisplayName>
+            <Enum>CHR_FULLBODY_SFX_PARAM_ENUM</Enum>
+            <SortID>790</SortID>
+        </Field>
+        <Field Def="f32 partsGuardSpellParryAngle">
+            <DisplayName>Part repulsion: Spell parry effective angle</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>360</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>830</SortID>
+        </Field>
+        <Field Def="f32 poiseValue">
+            <DisplayName>Toughness gauge</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>840</SortID>
+        </Field>
+        <Field Def="f32 poiseRecoveryValue">
+            <DisplayName>Strength recovery amount [p/s]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>850</SortID>
+        </Field>
+        <Field Def="f32 changePoiseValue">
+            <DisplayName>[When changed] Toughness gauge</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>860</SortID>
+        </Field>
+        <Field Def="f32 changePoiseRecoveryValue">
+            <DisplayName>[When changed] Strength recovery amount [p/s]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>870</SortID>
+        </Field>
+        <Field Def="f32 overKillRate">
+            <DisplayName>Overkill HP percentage</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>100</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>880</SortID>
+        </Field>
+        <Field Def="f32 decLimitTime">
+            <DisplayName>Multiplayer time limit reduction amount [sec]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1e+09</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>890</SortID>
+        </Field>
+        <Field Def="u8 isDisallowMultiTarget">
+            <DisplayName>Multiple lock-on disabled</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>900</SortID>
+        </Field>
+        <Field Def="u8 isHollow">
+            <DisplayName>Deceased</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>81</SortID>
+        </Field>
+        <Field Def="u8 isClothHitMap">
+            <DisplayName>The cross hits the map</DisplayName>
+            <Enum>BOOL_ENABLEDISABLE_TYPE</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>720</SortID>
+        </Field>
+        <Field Def="u8 roundDropSoulCategory">
+            <DisplayName>Lapse acquisition soul correction category</DisplayName>
+            <Enum>CHR_ROUND_DROP_SOUL_CATEGORY</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>1500</SortID>
+        </Field>
+        <Field Def="u32 itemLotId">
+            <DisplayName>First week item lottery ID (host)</DisplayName>
+            <Enum>ITEM_LOT_PARAM_CHR_ENUM</Enum>
+            <SortID>910</SortID>
+        </Field>
+        <Field Def="u32 itemLotIdForGuest">
+            <DisplayName>First week item lottery ID (guest)</DisplayName>
+            <Enum>ITEM_LOT_PARAM_CHR_ENUM</Enum>
+            <SortID>911</SortID>
+        </Field>
+        <Field Def="f32 guardDelay">
+            <DisplayName>Guard judgment delay time [sec]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1e+09</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>370</SortID>
+        </Field>
+        <Field Def="s32 hitPoint02 = 1">
+            <DisplayName>Physical fitness 2nd lap</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>1600</SortID>
+        </Field>
+        <Field Def="s32 hitPoint03 = 1">
+            <DisplayName>Physical fitness 3rd lap</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>1600</SortID>
+        </Field>
+        <Field Def="s32 hitPoint04 = 1">
+            <DisplayName>Physical fitness 4th lap</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>1600</SortID>
+        </Field>
+        <Field Def="s32 hitPoint05 = 1">
+            <DisplayName>Physical fitness 5th lap</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>1600</SortID>
+        </Field>
+        <Field Def="s32 hitPoint06 = 1">
+            <DisplayName>Physical fitness 6th lap</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>1600</SortID>
+        </Field>
+        <Field Def="s32 hitPoint07 = 1">
+            <DisplayName>Physical fitness 7th lap</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>1600</SortID>
+        </Field>
+        <Field Def="s32 hitPoint08 = 1">
+            <DisplayName>Physical fitness 8th lap</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>1600</SortID>
+        </Field>
+        <Field Def="u32 nameTextId">
+            <DisplayName>Character name text ID</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>1800</SortID>
+        </Field>
+        <Field Def="u8 bStrongDrop">
+            <DisplayName>Strong drop</DisplayName>
+            <Enum>BOOL_YESNO_TYPE</Enum>
+            <SortID>635</SortID>
+        </Field>
+        <Field Def="u8 bThrowableByEnemy">
+            <DisplayName>Is it possible to be thrown at the enemy?</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>131</SortID>
+        </Field>
+        <Field Def="u8 bBulletAllDelete">
+            <DisplayName>Delete all bullets</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>2000</SortID>
+        </Field>
+        <Field Def="dummy8 padding[1]">
+            <DisplayName>Reservation</DisplayName>
+            <SortID>9999</SortID>
+        </Field>
+        <Field Def="u32 effectID">
+            <DisplayName>SpEffectID</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>2100</SortID>
+        </Field>    
+    </Fields>
+</PARAMDEF>

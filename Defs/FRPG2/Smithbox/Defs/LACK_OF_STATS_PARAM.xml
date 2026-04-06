@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>LACK_OF_STATS_PARAM</ParamType>
+    <DataVersion>2</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="f32 minValueByStats" />
+        <Field Def="f32 maxValueByStats" />
+        <Field Def="f32 minValueByStamina" />
+        <Field Def="f32 maxValueByStamina" />
+    </Fields>
+</PARAMDEF>

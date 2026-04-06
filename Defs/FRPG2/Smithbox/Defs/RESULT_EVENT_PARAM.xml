@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>RESULT_EVENT_PARAM</ParamType>
+    <DataVersion>2</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="u8 feType" />
+        <Field Def="u8 msgType" />
+        <Field Def="s8 vowContribute" />
+        <Field Def="u8 endType" />
+        <Field Def="u32 msgId" />
+        <Field Def="u32 rewardItemId01" />
+        <Field Def="u32 exRewardItemId01" />
+        <Field Def="dummy8 dummy[8]" />
+    </Fields>
+</PARAMDEF>

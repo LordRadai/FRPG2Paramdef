@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>CHR_GROWTH_PARAM</ParamType>
+    <DataVersion>2</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="u16 soulLevelMax" />
+        <Field Def="u8 growthPointsPerLevelUp" />
+        <Field Def="dummy8 dummy[1]" />
+        <Field Def="f32 enemyOverKillSoulRate" />
+        <Field Def="f32 enemyFinishSoulRate" />
+        <Field Def="f32 enemyVeryEasySoulRate" />
+        <Field Def="f32 enemyEasySoulRate" />
+        <Field Def="f32 enemyNormalSoulRate" />
+        <Field Def="f32 enemyHardSoulRate" />
+        <Field Def="f32 enemyVeryHardSoulRate" />
+        <Field Def="f32 enemyHellSoulRate" />
+        <Field Def="f32 enemyCoop1SoulRate" />
+        <Field Def="f32 enemyCoop2SoulRate" />
+        <Field Def="f32 enemyCoop3SoulRate" />
+        <Field Def="f32 enemyCoop4SoulRate" />
+        <Field Def="f32 enemyCoop5SoulRate" />
+        <Field Def="f32 enemyCoop6SoulRate" />
+        <Field Def="f32 enemyLap1SoulRate" />
+        <Field Def="f32 enemyLap2SoulRate" />
+        <Field Def="f32 enemyLap3SoulRate" />
+        <Field Def="f32 enemyLap4SoulRate" />
+        <Field Def="f32 enemyLap5SoulRate" />
+        <Field Def="f32 enemyLap6SoulRate" />
+        <Field Def="f32 enemyLap7SoulRate" />
+        <Field Def="f32 enemyLap8SoulRate" />
+        <Field Def="f32 enemyLap9SoulRate" />
+        <Field Def="f32 enemyLap10SoulRate" />
+        <Field Def="f32 enemyLevelMinSoulRate" />
+        <Field Def="f32 enemyLevelMaxSoulRate" />
+        <Field Def="f32 enemyHostBlackSoulRate" />
+        <Field Def="f32 enemyHostRedSoulRate" />
+        <Field Def="f32 enemyWhiteBlackSoulRate" />
+        <Field Def="f32 enemyWhiteRedSoulRate" />
+        <Field Def="f32 enemyBlueBlackSoulRate" />
+        <Field Def="f32 enemyBlueRedSoulRate" />
+        <Field Def="f32 enemyBlackHostSoulRate" />
+        <Field Def="f32 enemyBlackWhiteSoulRate" />
+        <Field Def="f32 enemyBlackBlueSoulRate" />
+        <Field Def="f32 enemyRedHostSoulRate" />
+        <Field Def="f32 enemyRedWhiteSoulRate" />
+        <Field Def="f32 enemyRedBlueSoulRate" />
+    </Fields>
+</PARAMDEF>
