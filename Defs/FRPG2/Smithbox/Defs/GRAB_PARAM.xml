@@ -29,7 +29,7 @@
         <Field Def="s32 grabBreakHp" />
         <Field Def="s32 grabCameraId" />
         <Field Def="u8 grabCastType" />
-        <Field Def="u8 enableAngleCast" />
+        <Field Def="u8 enableAngleDiff" />
         <Field Def="dummy8 dummy3[2]" />
         <Field Def="f32 grabRadius" />
         <Field Def="f32 grabHeight" />
@@ -40,7 +40,7 @@
         <Field Def="angle32 grabSideAngle" />
         <Field Def="angle32 grabUpAngle" />
         <Field Def="angle32 grabDownAngle" />
-        <Field Def="angle32 grabAngleUpDownDiff" />
-        <Field Def="angle32 grabAngleSideDiff" />
+        <Field Def="angle32 grabMinAngleDiff" />
+        <Field Def="angle32 grabMaxAngleDiff" />
     </Fields>
 </PARAMDEF>

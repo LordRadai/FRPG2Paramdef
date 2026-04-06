@@ -202,8 +202,8 @@
             <Increment>1</Increment>
             <SortID>21</SortID>
         </Field>
-        <Field Def="u8 enableAngleCast">
-            <DisplayName>Enable angle cast</DisplayName>
+        <Field Def="u8 enableAngleDiff">
+            <DisplayName>Enable angle difference check</DisplayName>
             <Enum>BOOL_ENABLEDISABLE_TYPE</Enum>
             <DisplayFormat>%u</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -291,16 +291,16 @@
             <Increment>0.1</Increment>
             <SortID>31</SortID>
         </Field>
-        <Field Def="angle32 grabAngleUpDownDiff">
-            <DisplayName>Grab angle maximum difference up and down</DisplayName>
+        <Field Def="angle32 grabMinAngleDiff">
+            <DisplayName>Grab facing angle minimum difference</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>180</Maximum>
             <Increment>0.1</Increment>
             <SortID>32</SortID>
         </Field>
-        <Field Def="angle32 grabAngleSideDiff">
-            <DisplayName>Grab angle maximum difference left and right</DisplayName>
+        <Field Def="angle32 grabMaxAngleDiff">
+            <DisplayName>Grab facing angle maximum difference</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>180</Maximum>

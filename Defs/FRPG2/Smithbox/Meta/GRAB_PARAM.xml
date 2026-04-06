@@ -24,7 +24,7 @@
         <grabBreakHp AltName="Throwing break HP" />
         <grabCameraId AltName="Throwing camera ID" />
         <grabCastType AltName="Casting standards" Enum="GRAB_CAST_TYPE" />
-        <enableAngleCast AltName="Enable angle cast" IsBool="true" />
+        <enableAngleDiff AltName="Enable angle difference check" IsBool="true" />
         <dummy3 AltName="Dummy" Padding="true" />
         <grabRadius AltName="Cast radius" />
         <grabHeight AltName="Cast height" />
@@ -35,8 +35,8 @@
         <grabSideAngle AltName="Throwing permission left and right angle" />
         <grabUpAngle AltName="Upper throwing angle" />
         <grabDownAngle AltName="Throwing permission lower angle" />
-        <grabAngleUpDownDiff AltName="Grab angle maximum difference up and down" />
-        <grabAngleSideDiff AltName="Grab angle maximum difference left and right" />
+        <grabMinAngleDiff AltName="Grab facing angle minimum difference" />
+        <grabMaxAngleDiff AltName="Grab facing angle maximum difference" />
     </Field>
     <Enums>
         <Enum Name="GRAB_ROTATION_TYPE" type="u32">
