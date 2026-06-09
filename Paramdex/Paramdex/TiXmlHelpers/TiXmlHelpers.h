@@ -37,12 +37,12 @@ namespace TiXmlHelpers
 		// Convert Shift-JIS -> UTF-16
 		int wlen = MultiByteToWideChar(932, 0, sjis.c_str(), (int)sjis.size(), NULL, 0);
 		std::wstring wstr(wlen, 0);
-		MultiByteToWideChar(932, 0, sjis.c_str(), (int)sjis.size(), wstr.data(), wlen);
+		MultiByteToWideChar(932, 0, sjis.c_str(), (int)sjis.size(), const_cast<wchar_t*>(wstr.data()), wlen);
 
 		// Convert UTF-16 -> UTF-8
 		int u8len = WideCharToMultiByte(CP_UTF8, 0, wstr.c_str(), wstr.size(), NULL, 0, NULL, NULL);
 		std::string utf8(u8len, 0);
-		WideCharToMultiByte(CP_UTF8, 0, wstr.c_str(), wstr.size(), utf8.data(), u8len, NULL, NULL);
+		WideCharToMultiByte(CP_UTF8, 0, wstr.c_str(), wstr.size(), const_cast<char*>(utf8.data()), u8len, NULL, NULL);
 
 		return utf8;
 	}
@@ -63,11 +63,11 @@ namespace TiXmlHelpers
 		// Convert UTF-8 -> UTF-16
 		int wlen = MultiByteToWideChar(CP_UTF8, 0, str.c_str(), (int)str.size(), NULL, 0);
 		std::wstring wstr(wlen, 0);
-		MultiByteToWideChar(CP_UTF8, 0, str.c_str(), (int)str.size(), wstr.data(), wlen);
+		MultiByteToWideChar(CP_UTF8, 0, str.c_str(), (int)str.size(), const_cast<wchar_t*>(wstr.data()), wlen);
 		// Convert UTF-16 -> Shift-JIS
 		int sjislen = WideCharToMultiByte(932, 0, wstr.c_str(), wstr.size(), NULL, 0, NULL, NULL);
 		std::string sjis(sjislen, 0);
-		WideCharToMultiByte(932, 0, wstr.c_str(), wstr.size(), &sjis[0], sjislen, NULL, NULL);
+		WideCharToMultiByte(932, 0, wstr.c_str(), wstr.size(), const_cast<char*>(sjis.data()), sjislen, NULL, NULL);
 		return sjis;
 	}
 }

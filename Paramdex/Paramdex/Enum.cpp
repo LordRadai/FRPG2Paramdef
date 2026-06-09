@@ -77,8 +77,8 @@ namespace Paramdex
         file << "\"" << m_name << "\"\n";
         file << "\"" << m_type << "\"\n";
 
-        for (const auto& [name, value] : m_enumValues)
-            file << "\"" << name << "\",\"" << value << "\"\n";
+        for (const auto& pair : m_enumValues)
+            file << "\"" << pair.first << "\",\"" << pair.second << "\"\n";
 
         return true;
     }

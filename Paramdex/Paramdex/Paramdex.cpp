@@ -4,6 +4,14 @@
 #include "Paramdex.h"
 #include "TiXmlHelpers/TiXmlHelpers.h"
 
+#if _MSVC_LANG >= 201703L
+#include <filesystem>
+namespace fs = std::filesystem;
+#else
+#include <boost/filesystem.hpp>
+namespace fs = boost::filesystem;
+#endif
+
 namespace
 {
 	std::wstring SnakeToPascalCase(const std::wstring& snake) 
@@ -104,7 +112,7 @@ namespace Paramdex
 
 	bool Paramdex::loadEnumsFromDirectory(const std::wstring& directoryPath)
 	{
-		for (const auto& entry : std::filesystem::directory_iterator(directoryPath))
+		for (const auto& entry : fs::directory_iterator(directoryPath))
 		{
 			if (entry.is_regular_file() && entry.path().extension() == L".tdf") 
 			{
@@ -122,10 +130,13 @@ namespace Paramdex
 
 	bool Paramdex::saveEnumsToDirectory(const std::wstring& directoryPath) const
 	{
-		for (const auto& [enumName, e] : m_enums)
+		for (const auto& pair : m_enums)
 		{
+			const std::wstring& enumName = pair.first;
+			const auto& e = pair.second;
+
 			std::wstring filename = SnakeToPascalCase(enumName) + L".tdf";
-			std::filesystem::path filePath = std::filesystem::path(directoryPath) / filename;
+			fs::path filePath = fs::path(directoryPath) / filename;
 			e.saveToTdf(filePath.wstring());
 		}
 
