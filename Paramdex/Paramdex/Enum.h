@@ -1,7 +1,10 @@
 #pragma once
 #include <string>
 #include <unordered_map>
+
+#define noexcept
 #include <nlohmann/json.hpp>
+#undef noexcept
 
 namespace Paramdex
 {
