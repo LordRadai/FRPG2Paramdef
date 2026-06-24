@@ -56,19 +56,19 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v120</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v120</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v120</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
@@ -185,7 +185,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <ObjectFileName>$(IntDir)%(RelativeDir)</ObjectFileName>
-      <AdditionalIncludeDirectories>C:\local\boost_1_84_0</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\local\boost_1_84_0;$(SolutionDir)include\</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>
@@ -204,7 +204,7 @@
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <ObjectFileName>$(IntDir)%(RelativeDir)</ObjectFileName>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
-      <AdditionalIncludeDirectories>C:\local\boost_1_84_0</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\local\boost_1_84_0;$(SolutionDir)include\</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>
@@ -224,7 +224,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <ObjectFileName>$(IntDir)%(RelativeDir)</ObjectFileName>
-      <AdditionalIncludeDirectories>C:\local\boost_1_84_0</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\local\boost_1_84_0;$(SolutionDir)include\</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>
